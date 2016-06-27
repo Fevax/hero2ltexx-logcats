@@ -1,0 +1,1295 @@
+--------- beginning of main
+06-21 22:29:14.462  3060  3060 W auditd  : type=1325 audit(0.0:2): table=filter family=2 entries=0
+06-21 22:29:14.462  3060  3060 W auditd  : type=1325 audit(0.0:3): table=mangle family=2 entries=0
+06-21 22:29:14.462  3060  3060 W auditd  : type=1325 audit(0.0:4): table=nat family=2 entries=0
+06-21 22:29:14.462  3060  3060 W auditd  : type=1325 audit(0.0:5): table=raw family=2 entries=0
+06-21 22:29:14.462  3060  3060 W auditd  : type=1325 audit(0.0:6): table=security family=2 entries=0
+06-21 22:29:14.462  3060  3060 W auditd  : type=1325 audit(0.0:7): table=filter family=3 entries=0
+06-21 22:29:14.462  3060  3060 W auditd  : type=1325 audit(0.0:8): table=filter family=10 entries=0
+06-21 22:29:14.462  3060  3060 W auditd  : type=1325 audit(0.0:9): table=mangle family=10 entries=0
+06-21 22:29:14.462  3060  3060 W auditd  : type=1325 audit(0.0:10): table=raw family=10 entries=0
+06-21 22:29:14.462  3060  3060 W auditd  : type=1325 audit(0.0:11): table=nat family=10 entries=0
+06-21 22:29:14.849  3060  3060 W auditd  : type=1305 audit(0.0:12): audit_pid=2908 old=0 auid=4294967295 ses=4294967295 res=1
+06-21 22:29:14.849  3060  3060 W auditd  : type=1305 audit(0.0:13): audit_rate_limit=20 old=0 auid=4294967295 ses=4294967295 res=1
+--------- beginning of system
+06-21 22:29:14.870  2909  2909 I vold    : Vold 3.0 (the awakening) firing up
+06-21 22:29:14.871  2909  2909 V vold    : Detected support for: exfat ext4 ntfs vfat
+06-21 22:29:14.878  2925  2925 I sysinit : Running /system/etc/init.d/00banner 
+06-21 22:29:14.886  2920  2920 I lowmemorykiller: Using in-kernel low memory killer interface
+06-21 22:29:14.887  2936  2936 I installd: installd firing up
+06-21 22:29:14.891  2949  2949 I cm      : ____ _   _ ____ _  _ ____ ____ ____ _  _ _  _ ____ ___ 
+06-21 22:29:14.896  2931  2931 I DEBUG   : debuggerd: starting
+06-21 22:29:14.898  3000  3000 I cm      : |     \_/  |__| |\ | |  | | __ |___ |\ | |\/| |  | |  \ 
+06-21 22:29:14.900  2940  2940 I gatekeeperd: Starting gatekeeperd...
+06-21 22:29:14.902  2940  2940 W gatekeeperd: falling back to software GateKeeper
+06-21 22:29:14.905  3001  3001 I cm      : |___   |   |  | | \| |__| |__] |___ | \| |  | |__| |__/ 
+06-21 22:29:14.908  2937  2937 I keystore: Found keymaster0 module Keymaster OpenSSL HAL, version 2
+06-21 22:29:14.908  2937  2937 I SoftKeymaster: system/keymaster/soft_keymaster_device.cpp, Line 122: Creating device
+06-21 22:29:14.908  2937  2937 D SoftKeymaster: system/keymaster/soft_keymaster_device.cpp, Line 123: Device address: 0x7fa7d23000
+06-21 22:29:14.909  2937  2937 I keystore: Keymaster0 module is software-only.  Using SoftKeymasterDevice instead.
+06-21 22:29:14.909  2937  2937 I SoftKeymaster: system/keymaster/soft_keymaster_device.cpp, Line 122: Creating device
+06-21 22:29:14.909  2937  2937 D SoftKeymaster: system/keymaster/soft_keymaster_device.cpp, Line 123: Device address: 0x7fa7d23300
+06-21 22:29:14.909  2937  2937 I keystore: SELinux: Keystore SELinux is disabled.
+06-21 22:29:14.911  2928  2928 I Netd    : Netd 1.0 starting
+06-21 22:29:14.913  2941  2941 I perfprofd: starting Android Wide Profiling daemon
+06-21 22:29:14.914  2928  2928 I QtiConnectivityAdapter: Failed to open libconnctrl, some features may not be present.
+06-21 22:29:14.914  2928  2928 D TetherController: Setting IP forward enable = 0
+06-21 22:29:14.914  2941  2941 E perfprofd: unable to open configuration file /data/data/com.google.android.gms/files/perfprofd.conf
+06-21 22:29:14.914  2941  2941 I perfprofd: random seed set to 977601194
+06-21 22:29:14.917  2930  2930 I DEBUG   : debuggerd: starting
+06-21 22:29:14.917  2942  2942 I fingerprintd: Starting fingerprintd
+06-21 22:29:14.926  2922  2922 I SurfaceFlinger: SurfaceFlinger is starting
+06-21 22:29:14.927  2922  2922 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+06-21 22:29:14.932  3046  3046 I cm      : Welcome to Android 6.0.1 / CyanogenMod-13.0-20160621-UNOFFICIAL-hero2ltexx 
+06-21 22:29:14.938  3048  3048 I sysinit : Running /system/etc/init.d/90userinit 
+06-21 22:29:14.949  3060  3060 W auditd  : type=1325 audit(0.0:14): table=filter family=2 entries=4
+06-21 22:29:14.949  3060  3060 W auditd  : type=1320 audit(0.0:14): 
+06-21 22:29:14.959  3060  3060 W auditd  : type=1325 audit(0.0:15): table=filter family=10 entries=4
+06-21 22:29:14.959  3060  3060 W auditd  : type=1320 audit(0.0:15): 
+06-21 22:29:14.969  3060  3060 W auditd  : type=1325 audit(0.0:16): table=filter family=2 entries=6
+06-21 22:29:14.969  3060  3060 W auditd  : type=1320 audit(0.0:16): 
+06-21 22:29:14.976  2923  2923 W McDaemon: Cannot open trustlet /system/app/FFFFFFFF000000000000000000000001.drbin (2) [hardware/samsung_slsi/exynos8890/mobicore/Daemon/src/SecureWorld.cpp:178]
+06-21 22:29:14.978  2922  2922 D libEGL  : loaded /vendor/lib64/egl/libGLES_mali.so
+06-21 22:29:14.979  3060  3060 W auditd  : type=1325 audit(0.0:17): table=filter family=10 entries=6
+06-21 22:29:14.979  3060  3060 W auditd  : type=1320 audit(0.0:17): 
+06-21 22:29:15.008  2922  2922 I gralloc : using (id=)
+06-21 22:29:15.008  2922  2922 I gralloc : xres         = 1440 px
+06-21 22:29:15.008  2922  2922 I gralloc : yres         = 2560 px
+06-21 22:29:15.008  2922  2922 I gralloc : width        = 68 mm (537.882324 dpi)
+06-21 22:29:15.008  2922  2922 I gralloc : height       = 122 mm (532.983582 dpi)
+06-21 22:29:15.008  2922  2922 I gralloc : refresh rate = 59.31 Hz
+06-21 22:29:15.019  3060  3060 W auditd  : type=1325 audit(0.0:18): table=filter family=2 entries=7
+06-21 22:29:15.019  3060  3060 W auditd  : type=1320 audit(0.0:18): 
+06-21 22:29:15.028  2922  2922 D hwcomposer: using
+06-21 22:29:15.028  2922  2922 D hwcomposer: xres         = 1440 px
+06-21 22:29:15.028  2922  2922 D hwcomposer: yres         = 2560 px
+06-21 22:29:15.028  2922  2922 D hwcomposer: width        = 68 mm (537.882000 dpi)
+06-21 22:29:15.028  2922  2922 D hwcomposer: height       = 122 mm (532.983000 dpi)
+06-21 22:29:15.028  2922  2922 D hwcomposer: refresh rate = 59 Hz
+06-21 22:29:15.028  2922  2922 I hwcomposer: PSR info devname = /sys/devices/13960000.decon_f/psr_info
+06-21 22:29:15.028  2922  2922 I hwcomposer: PSR mode is 6(0: video mode, 1: DP PSR mode, 2: MIPI-DSI command mode)
+06-21 22:29:15.029  3060  3060 W auditd  : type=1325 audit(0.0:19): table=filter family=10 entries=7
+06-21 22:29:15.029  3060  3060 W auditd  : type=1320 audit(0.0:19): 
+06-21 22:29:15.029  3060  3060 W auditd  : type=1325 audit(0.0:20): table=filter family=2 entries=9
+06-21 22:29:15.029  3060  3060 W auditd  : type=1320 audit(0.0:20): 
+06-21 22:29:15.029  2922  2922 I SurfaceFlinger: Using composer version 1.3
+06-21 22:29:15.029  2922  2922 E display : unknown display attribute 6
+06-21 22:29:15.029  2922  2922 I SurfaceFlinger: EGL information:
+06-21 22:29:15.029  2922  2922 I SurfaceFlinger: vendor    : Android
+06-21 22:29:15.029  2922  2922 I SurfaceFlinger: version   : 1.4 Android META-EGL
+06-21 22:29:15.029  2922  2922 I SurfaceFlinger: extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_swap_buffers_with_damage EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_KHR_config_attribs EGL_KHR_surfaceless_context EGL_EXT_create_context_robustness EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable EGL_KHR_partial_update 
+06-21 22:29:15.029  2922  2922 I SurfaceFlinger: Client API: OpenGL_ES
+06-21 22:29:15.029  2922  2922 I SurfaceFlinger: EGLSurface: 8-8-8-8, config=0x7f9a6d0128
+06-21 22:29:15.030  2922  2922 D         : ro.exynos.dss isEnabled: 0
+06-21 22:29:15.036  2922  2922 I SurfaceFlinger: OpenGL ES informations:
+06-21 22:29:15.036  2922  2922 I SurfaceFlinger: vendor    : ARM
+06-21 22:29:15.036  2922  2922 I SurfaceFlinger: renderer  : Mali-T880
+06-21 22:29:15.036  2922  2922 I SurfaceFlinger: version   : OpenGL ES 3.1 v1.r9p0-12dev0.c2bae768d87bf40047e1f310c8de7f16
+06-21 22:29:15.036  2922  2922 I SurfaceFlinger: extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_disjoint_timer_query GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_OES_texture_stencil8 G
+06-21 22:29:15.036  2922  2922 I SurfaceFlinger: GL_MAX_TEXTURE_SIZE = 8192
+06-21 22:29:15.036  2922  2922 I SurfaceFlinger: GL_MAX_VIEWPORT_DIMS = 8192
+06-21 22:29:15.037  2922  2922 D mali_winsys: new_window_surface returns 0x3000,  [1440x2560]-format:1
+06-21 22:29:15.039  3060  3060 W auditd  : type=1325 audit(0.0:21): table=filter family=10 entries=9
+06-21 22:29:15.039  3060  3060 W auditd  : type=1320 audit(0.0:21): 
+06-21 22:29:15.063  2922  2922 D SurfaceFlinger: Set power mode=2, type=0 flinger=0x7f9ab83c00
+06-21 22:29:15.069  3060  3060 W auditd  : type=1325 audit(0.0:22): table=filter family=2 entries=10
+06-21 22:29:15.069  3060  3060 W auditd  : type=1320 audit(0.0:22): 
+06-21 22:29:15.069  3060  3060 W auditd  : type=1325 audit(0.0:23): table=filter family=10 entries=10
+06-21 22:29:15.069  3060  3060 W auditd  : type=1320 audit(0.0:23): 
+06-21 22:29:15.079  3060  3060 W auditd  : type=1325 audit(0.0:24): table=filter family=2 entries=12
+06-21 22:29:15.079  3060  3060 W auditd  : type=1320 audit(0.0:24): 
+06-21 22:29:15.079  3060  3060 W auditd  : type=1325 audit(0.0:25): table=filter family=10 entries=12
+06-21 22:29:15.079  3060  3060 W auditd  : type=1320 audit(0.0:25): 
+06-21 22:29:15.100  2923  2923 W McDaemon: mcRegistry read So.Soc failed: 16 [hardware/samsung_slsi/exynos8890/mobicore/Daemon/src/PrivateRegistry.cpp:374]
+06-21 22:29:15.100  2923  2923 W McDaemon: mcRegistry read So.Soc failed: 16 [hardware/samsung_slsi/exynos8890/mobicore/Daemon/src/PrivateRegistry.cpp:429]
+06-21 22:29:15.100  2923  2923 W McDaemon: mcRegistry read So.Root failed: 16 [hardware/samsung_slsi/exynos8890/mobicore/Daemon/src/PrivateRegistry.cpp:533]
+06-21 22:29:15.100  2923  2923 W McDaemon: Device endorsements not supported! [hardware/samsung_slsi/exynos8890/mobicore/Daemon/src/MobiCoreDriverDaemon.cpp:588]
+06-21 22:29:15.100  2923  2923 I McDaemon: Daemon starting up... [hardware/samsung_slsi/exynos8890/mobicore/Daemon/src/MobiCoreDriverDaemon.cpp:548]
+06-21 22:29:15.100  2923  2923 I McDaemon: Interface version is 0.4 [hardware/samsung_slsi/exynos8890/mobicore/Daemon/src/MobiCoreDriverDaemon.cpp:550]
+06-21 22:29:15.100  2923  2923 I McDaemon: t-base-EXYNOS64-Android-310B-V005-20151221_084810_68 [hardware/samsung_slsi/exynos8890/mobicore/Daemon/src/MobiCoreDriverDaemon.cpp:552]
+06-21 22:29:15.100  2923  2923 I McDaemon: Build timestamp is Apr  1 2016 21:03:15 [hardware/samsung_slsi/exynos8890/mobicore/Daemon/src/MobiCoreDriverDaemon.cpp:553]
+06-21 22:29:15.100  2923  3103 I TeeDriverClient: driver client open [hardware/samsung_slsi/exynos8890/mobicore/ClientLib/src/driver_client.cpp:103]
+06-21 22:29:15.100  2923  2923 W McDaemon: Cannot open trustlet /data/app/mcRegistry/07050501000000000000000000000020.tlbin (2) [hardware/samsung_slsi/exynos8890/mobicore/Daemon/src/SecureWorld.cpp:178]
+06-21 22:29:15.101  2923  3103 I TeeFilesystem: void FileSystem::Impl::run(): Start listening for request from STH2 [hardware/samsung_slsi/exynos8890/mobicore/Daemon/src/FSD2.cpp:376]
+06-21 22:29:15.103  2935  2935 I mediaserver: ServiceManager: 0xf638e120
+06-21 22:29:15.103  2935  2935 I AudioFlinger: Using default 3000 mSec as standby time.
+06-21 22:29:15.104  2935  2935 E BatteryNotifier: batterystats service unavailable!
+06-21 22:29:15.104  2935  2935 E BatteryNotifier: batterystats service unavailable!
+06-21 22:29:15.104  2935  2935 I CameraService: CameraService started (pid=2935)
+06-21 22:29:15.104  2935  2935 I CameraService: CameraService process starting
+06-21 22:29:15.104  2935  2935 E BatteryNotifier: batterystats service unavailable!
+06-21 22:29:15.104  2935  2935 E BatteryNotifier: batterystats service unavailable!
+06-21 22:29:15.105  2935  2935 E CameraService: Could not load camera HAL module: -2 (No such file or directory)
+06-21 22:29:15.106  2935  2935 I AudioPolicyService: AudioPolicyService CSTOR in new mode
+06-21 22:29:15.107  3105  3105 I CSTORAGE: ============================================================
+06-21 22:29:15.107  3105  3105 I CSTORAGE:  CSTORAGE, v1.0.43, OS = android, ChipId = ex8890
+06-21 22:29:15.107  3105  3105 I CSTORAGE: ============================================================
+06-21 22:29:15.107  3105  3105 I CSTORAGE: ============================================================
+06-21 22:29:15.107  3105  3105 I CSTORAGE:  CSTORAGE_SKM_LIB, v1.0.43, OS = android, ChipId = ex8890
+06-21 22:29:15.107  3105  3105 I CSTORAGE: ============================================================
+06-21 22:29:15.107  2935  2935 I APM::ConfigParsingUtils: loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+06-21 22:29:15.129  3060  3060 W auditd  : type=1325 audit(0.0:26): table=filter family=2 entries=13
+06-21 22:29:15.129  3060  3060 W auditd  : type=1320 audit(0.0:26): 
+06-21 22:29:15.139  3060  3060 W auditd  : type=1325 audit(0.0:27): table=filter family=10 entries=13
+06-21 22:29:15.139  3060  3060 W auditd  : type=1320 audit(0.0:27): 
+06-21 22:29:15.149  3060  3060 W auditd  : type=1325 audit(0.0:28): table=filter family=2 entries=15
+06-21 22:29:15.149  3060  3060 W auditd  : type=1320 audit(0.0:28): 
+06-21 22:29:15.159  3060  3060 W auditd  : type=1325 audit(0.0:29): table=filter family=10 entries=15
+06-21 22:29:15.159  3060  3060 W auditd  : type=1320 audit(0.0:29): 
+06-21 22:29:15.189  3060  3060 W auditd  : type=1325 audit(0.0:30): table=filter family=2 entries=16
+06-21 22:29:15.189  3060  3060 W auditd  : type=1320 audit(0.0:30): 
+06-21 22:29:15.199  3060  3060 W auditd  : type=1325 audit(0.0:31): table=filter family=10 entries=16
+06-21 22:29:15.199  3060  3060 W auditd  : type=1320 audit(0.0:31): 
+06-21 22:29:15.199  3060  3060 W auditd  : type=1325 audit(0.0:32): table=filter family=2 entries=18
+06-21 22:29:15.199  3060  3060 W auditd  : type=1320 audit(0.0:32): 
+06-21 22:29:15.209  3060  3060 W auditd  : type=1325 audit(0.0:33): table=filter family=10 entries=18
+06-21 22:29:15.227  3094  3122 D libEGL  : loaded /vendor/lib64/egl/libGLES_mali.so
+06-21 22:29:15.246  3094  3122 D mali_winsys: new_window_surface returns 0x3000,  [1440x2560]-format:2
+06-21 22:29:15.246  3094  3122 D         : ro.exynos.dss isEnabled: 0
+06-21 22:29:15.251  3094  3122 E BootAnimation: couldn't find audio_conf.txt
+06-21 22:29:15.256  2939  2939 D AndroidRuntime: >>>>>> START com.android.internal.os.ZygoteInit uid 0 <<<<<<
+06-21 22:29:15.268  2939  2939 D AndroidRuntime: CheckJNI is ON
+06-21 22:29:15.272  2939  2939 I art     : option[0]=-Xzygote
+06-21 22:29:15.272  2939  2939 I art     : option[1]=-Xcheck:jni
+06-21 22:29:15.272  2939  2939 I art     : option[2]=-Xstacktracefile:/data/anr/traces.txt
+06-21 22:29:15.272  2939  2939 I art     : option[3]=exit
+06-21 22:29:15.272  2939  2939 I art     : option[4]=vfprintf
+06-21 22:29:15.272  2939  2939 I art     : option[5]=sensitiveThread
+06-21 22:29:15.272  2939  2939 I art     : option[6]=-verbose:gc
+06-21 22:29:15.272  2939  2939 I art     : option[7]=-Xms8m
+06-21 22:29:15.272  2939  2939 I art     : option[8]=-Xmx512m
+06-21 22:29:15.272  2939  2939 I art     : option[9]=-XX:HeapGrowthLimit=256m
+06-21 22:29:15.272  2939  2939 I art     : option[10]=-XX:HeapMinFree=2m
+06-21 22:29:15.272  2939  2939 I art     : option[11]=-XX:HeapMaxFree=8m
+06-21 22:29:15.272  2939  2939 I art     : option[12]=-XX:HeapTargetUtilization=0.75
+06-21 22:29:15.272  2939  2939 I art     : option[13]=-Xusejit:true
+06-21 22:29:15.272  2939  2939 I art     : option[14]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+06-21 22:29:15.272  2939  2939 I art     : option[15]=-Xlockprofthreshold:500
+06-21 22:29:15.272  2939  2939 I art     : option[16]=-Ximage-compiler-option
+06-21 22:29:15.272  2939  2939 I art     : option[17]=--runtime-arg
+06-21 22:29:15.272  2939  2939 I art     : option[18]=-Ximage-compiler-option
+06-21 22:29:15.272  2939  2939 I art     : option[19]=-Xms64m
+06-21 22:29:15.272  2939  2939 I art     : option[20]=-Ximage-compiler-option
+06-21 22:29:15.272  2939  2939 I art     : option[21]=--runtime-arg
+06-21 22:29:15.272  2939  2939 I art     : option[22]=-Ximage-compiler-option
+06-21 22:29:15.272  2939  2939 I art     : option[23]=-Xmx64m
+06-21 22:29:15.272  2939  2939 I art     : option[24]=-Ximage-compiler-option
+06-21 22:29:15.272  2939  2939 I art     : option[25]=--compiler-filter=verify-at-runtime
+06-21 22:29:15.272  2939  2939 I art     : option[26]=-Ximage-compiler-option
+06-21 22:29:15.272  2939  2939 I art     : option[27]=--image-classes=/system/etc/preloaded-classes
+06-21 22:29:15.272  2939  2939 I art     : option[28]=-Xcompiler-option
+06-21 22:29:15.272  2939  2939 I art     : option[29]=--runtime-arg
+06-21 22:29:15.272  2939  2939 I art     : option[30]=-Xcompiler-option
+06-21 22:29:15.272  2939  2939 I art     : option[31]=-Xms64m
+06-21 22:29:15.272  2939  2939 I art     : option[32]=-Xcompiler-option
+06-21 22:29:15.272  2939  2939 I art     : option[33]=--runtime-arg
+06-21 22:29:15.272  2939  2939 I art     : option[34]=-Xcompiler-option
+06-21 22:29:15.272  2939  2939 I art     : option[35]=-Xmx512m
+06-21 22:29:15.272  2939  2939 I art     : option[36]=-Xcompiler-option
+06-21 22:29:15.272  2939  2939 I art     : option[37]=--compiler-filter=verify-at-runtime
+06-21 22:29:15.272  2939  2939 I art     : option[38]=-Ximage-compiler-option
+06-21 22:29:15.272  2939  2939 I art     : option[39]=--instruction-set-variant=generic
+06-21 22:29:15.272  2939  2939 I art     : option[40]=-Xcompiler-option
+06-21 22:29:15.272  2939  2939 I art     : option[41]=--instruction-set-variant=generic
+06-21 22:29:15.272  2939  2939 I art     : option[42]=-Ximage-compiler-option
+06-21 22:29:15.272  2939  2939 I art     : option[43]=--instruction-set-features=default
+06-21 22:29:15.272  2939  2939 I art     : option[44]=-Xcompiler-option
+06-21 22:29:15.272  2939  2939 I art     : option[45]=--instruction-set-features=default
+06-21 22:29:15.272  2939  2939 I art     : option[46]=-Duser.locale=en-US
+06-21 22:29:15.272  2939  2939 I art     : option[47]=--cpu-abilist=arm64-v8a,armeabi
+06-21 22:29:15.272  2939  2939 I art     : option[48]=-Xfingerprint:samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30M/b07da67423:eng/test-keys
+06-21 22:29:15.298  3094  3122 D BootAnimation: Use save memory method, maybe small fps in actual.
+06-21 22:29:15.370  2939  2939 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+06-21 22:29:15.430  2922  2922 D SurfaceFlinger: SF. shader cache generated - 26 shaders in 218.305237 ms
+06-21 22:29:15.437  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:15.448  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:15.465  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:15.482  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:15.499  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:15.516  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:15.532  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:15.559  2939  2939 I Radio-JNI: register_android_hardware_Radio DONE
+06-21 22:29:15.566  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:15.600  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:15.605  2939  2939 I SamplingProfilerIntegration: Profiling disabled.
+06-21 22:29:15.605  2939  2939 D Zygote  : begin preload
+06-21 22:29:15.607  2939  2939 I Zygote  : Preloading classes...
+06-21 22:29:15.634  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:15.644  2935  2935 E audio_route: Failed to open /system/etc/mixer_paths.xml
+06-21 22:29:15.649  2935  2935 I AudioFlinger: loadHwModule() Loaded primary audio interface from Samsung audio HW HAL (audio) handle 1
+06-21 22:29:15.649  2935  2935 I AudioFlinger: openOutput(), module 1 Device 2, SamplingRate 44100, Format 0x000001, Channels 3, flags 2
+06-21 22:29:15.649  2935  2935 I AudioFlinger: AudioStreamOut::open(), mHalFormatIsLinearPcm = 1
+06-21 22:29:15.649  2935  2935 I AudioFlinger: HAL output buffer size 256 frames, normal sink buffer size 960 frames
+06-21 22:29:15.654  2935  2935 I BufferProvider: found effect "Multichannel Downmix To Stereo" from The Android Open Source Project
+06-21 22:29:15.654  2935  2935 E MonoPipe: Failed to fetch local time frequency when constructing a MonoPipe (res = -32).  getNextWriteTimestamp calls will be non-functional
+06-21 22:29:15.655  2935  2935 I AudioFlinger: Using module 1 has the primary audio interface
+06-21 22:29:15.655  2935  3270 I AudioFlinger: AudioFlinger's thread 0xf4880000 ready to run
+06-21 22:29:15.655  2935  3270 V audio_hw_primary: do_out_standby: output standby: 1
+06-21 22:29:15.655  2935  3270 V audio_hw_primary: out_set_parameters: key value pairs: routing=2
+06-21 22:29:15.655  2935  3270 E AudioFlinger: no wake lock to update!
+06-21 22:29:15.656  2935  2935 V audio_hw_primary: adev_open_input_stream: Created resampler converting 48000 -> 16000
+06-21 22:29:15.656  2935  2935 V audio_hw_primary: adev_open_input_stream: Requesting input stream with rate: 16000, channels: 0xc
+06-21 22:29:15.656  2935  3271 I AudioFlinger: AudioFlinger's thread 0xf44c0000 ready to run
+06-21 22:29:15.657  2935  2935 I r_submix: adev_open(name=audio_hw_if)
+06-21 22:29:15.657  2935  2935 I r_submix: adev_init_check()
+06-21 22:29:15.657  2935  2935 I AudioFlinger: loadHwModule() Loaded r_submix audio interface from Wifi Display audio HAL (audio) handle 4
+06-21 22:29:15.657  2935  2935 D r_submix: adev_open_input_stream(addr=0)
+06-21 22:29:15.657  2935  2935 D r_submix: submix_audio_device_create_pipe_l(addr=0, idx=9)
+06-21 22:29:15.657  2935  2935 D r_submix:   now using address 0 for route 9
+06-21 22:29:15.657  2935  3272 I AudioFlinger: AudioFlinger's thread 0xf44c0000 ready to run
+06-21 22:29:15.657  2935  2935 D r_submix: adev_close_input_stream()
+06-21 22:29:15.657  2935  2935 D r_submix: submix_audio_device_release_pipe_l(idx=9) addr=0
+06-21 22:29:15.657  2935  2935 D r_submix: submix_audio_device_destroy_pipe_l(): pipe destroyed
+06-21 22:29:15.658  2935  2935 E SoundTriggerHwService: couldn't load sound trigger module sound_trigger.primary (No such file or directory)
+06-21 22:29:15.658  2935  2935 I RadioService: RadioService
+06-21 22:29:15.658  2935  2935 I RadioService: onFirstRef
+06-21 22:29:15.658  2935  2935 E RadioService: couldn't load radio module radio.primary (No such file or directory)
+06-21 22:29:15.668  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:15.702  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:15.736  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:15.770  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:15.804  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:15.818  2928  2928 V NatController: runCmd(/system/bin/iptables -w -F natctrl_FORWARD) res=0
+06-21 22:29:15.823  2928  2928 V NatController: runCmd(/system/bin/iptables -w -A natctrl_FORWARD -j DROP) res=0
+06-21 22:29:15.827  2928  2928 V NatController: runCmd(/system/bin/iptables -w -t nat -F natctrl_nat_POSTROUTING) res=0
+06-21 22:29:15.831  2928  2928 V NatController: runCmd(/system/bin/iptables -w -F natctrl_tether_counters) res=1
+06-21 22:29:15.836  2928  2928 V NatController: runCmd(/system/bin/iptables -w -X natctrl_tether_counters) res=1
+06-21 22:29:15.838  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:15.840  2928  2928 V NatController: runCmd(/system/bin/iptables -w -N natctrl_tether_counters) res=0
+06-21 22:29:15.844  2928  2928 V NatController: runCmd(/system/bin/iptables -w -t mangle -A natctrl_mangle_FORWARD -p tcp --tcp-flags SYN SYN -j TCPMSS --clamp-mss-to-pmtu) res=0
+06-21 22:29:15.871  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:15.905  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:15.939  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:15.973  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:16.007  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:16.041  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:16.050  2939  2939 E Minikin : addFont failed to create font /system/fonts/NanumGothic.ttf
+06-21 22:29:16.050  2939  2939 E Minikin : addFont failed to create font /system/fonts/DroidSansFallback.ttf
+06-21 22:29:16.050  2939  2939 E Minikin : addFont failed to create font /system/fonts/MTLmr3m.ttf
+06-21 22:29:16.075  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:16.079  3060  3060 W auditd  : type=1325 audit(0.0:135): table=mangle family=2 entries=16
+06-21 22:29:16.079  3060  3060 W auditd  : type=1320 audit(0.0:135): 
+06-21 22:29:16.079  3060  3060 W auditd  : type=1325 audit(0.0:136): table=mangle family=10 entries=12
+06-21 22:29:16.079  3060  3060 W auditd  : type=1320 audit(0.0:136): 
+06-21 22:29:16.109  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:16.143  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:16.151  2939  2939 V DngCreator_JNI: DngCreator_nativeClassInit:
+06-21 22:29:16.176  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:16.210  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:16.244  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:16.273  2928  2928 E Netd    : cannot find interface dummy0
+06-21 22:29:16.274  2928  2928 D MDnsDS  : MDnsSdListener::Hander starting up
+06-21 22:29:16.278  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:16.282  2928  3381 D MDnsDS  : MDnsSdListener starting to monitor
+06-21 22:29:16.282  2928  3381 D MDnsDS  : Going to poll with pollCount 1
+06-21 22:29:16.312  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:16.346  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:16.363  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:16.397  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:16.431  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:16.465  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:16.498  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:16.532  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:16.566  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:16.600  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:16.634  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:16.668  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:16.702  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:16.736  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:16.770  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:16.797  2939  2939 I art     : Thread[1,tid=2939,Native,Thread*=0x7fa4e3ba00,peer=0x12c532e0,"main"] recursive attempt to load library "/system/lib64/libmedia_jni.so"
+06-21 22:29:16.797  2939  2939 D MtpDeviceJNI: register_android_mtp_MtpDevice
+06-21 22:29:16.798  2939  2939 I art     : Thread[1,tid=2939,Native,Thread*=0x7fa4e3ba00,peer=0x12c532e0,"main"] recursive attempt to load library "/system/lib64/libmedia_jni.so"
+06-21 22:29:16.798  2939  2939 I art     : Thread[1,tid=2939,Native,Thread*=0x7fa4e3ba00,peer=0x12c532e0,"main"] recursive attempt to load library "/system/lib64/libmedia_jni.so"
+06-21 22:29:16.804  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:16.838  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:16.871  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:16.905  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:16.939  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:16.973  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:17.007  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:17.041  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:17.075  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:17.109  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:17.143  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:17.177  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:17.210  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:17.244  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:17.278  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:17.312  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:17.328  2939  2939 W System  : ClassLoader referenced unknown path: /system/framework/tcmclient.jar
+06-21 22:29:17.346  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:17.358  3094  3122 D BootAnimation: Use save memory method, maybe small fps in actual.
+06-21 22:29:17.380  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:17.414  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:17.448  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:17.482  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:17.515  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:17.549  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:17.583  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:17.617  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:17.651  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:17.665  2939  2939 I System  : Loaded time zone names for "" in 25ms (23ms in ICU)
+06-21 22:29:17.685  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:17.699  2939  2939 I System  : Loaded time zone names for "en_US" in 34ms (13ms in ICU)
+06-21 22:29:17.719  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:17.753  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:17.770  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:17.804  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:17.837  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:17.870  2939  2939 I Zygote  : ...preloaded 3831 classes in 2263ms.
+06-21 22:29:17.870  2939  2939 I art     : VMRuntime.preloadDexCaches starting
+06-21 22:29:17.871  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:17.905  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:17.906  2939  2939 I art     : VMRuntime.preloadDexCaches strings total=248934 before=10083 after=10083
+06-21 22:29:17.906  2939  2939 I art     : VMRuntime.preloadDexCaches types total=20331 before=8245 after=9836
+06-21 22:29:17.906  2939  2939 I art     : VMRuntime.preloadDexCaches fields total=100362 before=35761 after=47726
+06-21 22:29:17.906  2939  2939 I art     : VMRuntime.preloadDexCaches methods total=172791 before=67604 after=83308
+06-21 22:29:17.906  2939  2939 I art     : VMRuntime.preloadDexCaches finished
+06-21 22:29:17.920  3386  3386 D idmap   : error: no read access to /vendor/overlay: No such file or directory
+06-21 22:29:17.939  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:17.944  2939  2939 I Zygote  : Preloading resources...
+06-21 22:29:17.973  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:18.007  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:18.041  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:18.075  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:18.109  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:18.143  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:18.177  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:18.210  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:18.244  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:18.278  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:18.312  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:18.346  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:18.351  2939  2939 I Zygote  : ...preloaded 342 resources in 407ms.
+06-21 22:29:18.361  2939  2939 I Zygote  : ...preloaded 41 resources in 10ms.
+06-21 22:29:18.368  2939  2939 D libEGL  : loaded /vendor/lib64/egl/libGLES_mali.so
+06-21 22:29:18.374  2939  2939 I Zygote  : Preloading shared libraries...
+06-21 22:29:18.380  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:18.387  2939  2939 D Zygote  : end preload
+06-21 22:29:18.387  2939  2939 I art     : Starting a blocking GC Explicit
+06-21 22:29:18.398  2939  2939 I art     : Explicit concurrent mark sweep GC freed 11417(461KB) AllocSpace objects, 0(0B) LOS objects, 35% free, 29MB/45MB, paused 50us total 10.688ms
+06-21 22:29:18.407  2939  2939 I art     : Starting a blocking GC Explicit
+06-21 22:29:18.414  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:18.416  2939  2939 I art     : Explicit concurrent mark sweep GC freed 2696(126KB) AllocSpace objects, 0(0B) LOS objects, 35% free, 28MB/44MB, paused 51us total 8.794ms
+06-21 22:29:18.417  2939  3218 I art     : Starting a blocking GC HeapTrim
+06-21 22:29:18.418  2939  2939 I art     : Starting a blocking GC Background
+06-21 22:29:18.448  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:18.465  2939  2939 I Zygote  : System server process 3388 has been created
+06-21 22:29:18.467  2939  2939 I Zygote  : Accepting command socket connections
+06-21 22:29:18.471  3388  3388 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-21 22:29:18.482  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:18.515  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:18.550  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:18.583  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:18.617  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:18.651  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:18.685  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:18.719  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:18.753  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:18.787  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:18.821  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:18.855  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:18.889  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:18.922  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:18.956  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:18.990  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:19.024  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:19.058  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:19.092  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:19.126  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:19.160  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:19.177  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:19.210  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:19.244  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:19.278  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:19.312  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:19.346  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:19.380  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:19.414  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:19.448  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:19.471  3388  3388 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-21 22:29:19.482  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:19.516  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:19.550  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:19.584  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:19.617  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:19.651  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:19.685  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:19.719  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:19.753  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:19.787  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:19.821  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:19.855  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:19.889  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:19.922  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:19.956  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:19.990  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:20.024  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:20.058  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:20.092  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:20.126  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:20.160  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:20.194  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:20.227  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:20.261  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:20.295  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:20.329  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:20.363  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:20.397  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:20.431  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:20.465  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:20.472  3388  3388 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-21 22:29:20.499  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:20.533  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:20.566  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:20.583  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:20.617  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:20.651  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:20.685  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:20.719  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:20.753  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:20.787  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:20.821  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:20.854  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:20.888  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:20.922  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:20.956  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:20.990  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:21.024  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:21.058  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:21.092  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:21.126  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:21.160  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:21.194  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:21.227  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:21.261  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:21.295  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:21.329  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:21.363  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:21.397  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:21.431  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:21.465  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:21.472  3388  3388 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-21 22:29:21.499  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:21.532  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:21.566  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:21.600  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:21.634  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:21.668  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:21.702  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:21.736  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:21.770  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:21.804  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:21.838  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:21.871  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:21.905  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:21.939  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:21.973  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:22.007  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:22.024  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:22.058  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:22.092  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:22.126  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:22.160  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:22.194  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:22.227  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:22.261  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:22.295  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:22.329  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:22.363  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:22.397  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:22.431  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:22.465  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:22.473  3388  3388 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-21 22:29:22.499  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:22.532  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:22.566  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:22.600  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:22.634  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:22.668  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:22.702  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:22.736  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:22.770  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:22.804  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:22.838  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:22.872  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:22.905  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:22.939  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:22.973  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:23.007  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:23.041  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:23.075  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:23.109  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:23.143  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:23.177  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:23.211  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:23.244  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:23.278  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:23.312  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:23.346  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:23.380  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:23.397  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:23.448  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:23.465  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:23.473  3388  3388 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-21 22:29:23.499  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:23.532  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:23.566  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:23.600  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:23.634  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:23.668  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:23.702  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:23.736  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:23.770  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:23.804  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:23.838  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:23.872  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:23.905  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:23.939  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:23.973  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:24.007  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:24.041  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:24.075  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:24.109  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:24.143  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:24.177  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:24.210  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:24.244  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:24.278  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:24.312  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:24.346  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:24.380  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:24.414  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:24.448  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:24.474  3388  3388 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-21 22:29:24.482  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:24.516  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:24.549  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:24.583  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:24.617  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:24.651  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:24.685  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:24.719  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:24.753  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:24.770  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:24.804  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:24.837  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:24.871  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:24.905  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:24.939  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:24.973  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:25.007  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:25.041  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:25.075  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:25.109  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:25.143  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:25.177  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:25.211  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:25.244  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:25.278  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:25.312  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:25.346  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:25.380  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:25.414  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:25.448  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:25.474  3388  3388 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-21 22:29:25.482  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:25.515  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:25.550  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:25.583  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:25.617  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:25.651  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:25.685  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:25.719  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:25.753  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:25.787  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:25.821  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:25.855  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:25.888  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:25.922  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:25.956  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:25.990  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:26.024  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:26.058  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:26.092  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:26.126  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:26.160  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:26.194  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:26.210  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:26.244  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:26.278  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:26.312  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:26.346  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:26.380  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:26.414  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:26.448  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:26.475  3388  3388 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-21 22:29:26.482  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:26.515  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:26.550  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:26.584  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:26.617  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:26.651  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:26.685  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:26.719  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:26.753  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:26.787  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:26.821  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:26.854  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:26.888  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:26.922  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:26.956  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:26.990  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:27.024  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:27.058  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:27.092  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:27.126  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:27.160  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:27.194  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:27.227  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:27.261  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:27.295  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:27.329  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:27.363  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:27.397  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:27.431  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:27.465  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:27.475  3388  3388 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-21 22:29:27.499  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:27.532  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:27.566  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:27.583  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:27.634  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:27.651  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:27.685  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:27.719  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:27.753  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:27.787  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:27.821  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:27.854  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:27.888  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:27.922  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:27.956  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:27.990  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:28.024  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:28.058  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:28.092  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:28.126  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:28.160  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:28.194  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:28.227  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:28.261  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:28.295  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:28.329  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:28.363  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:28.397  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:28.431  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:28.465  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:28.475  3388  3388 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-21 22:29:28.499  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:28.532  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:28.566  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:28.600  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:28.634  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:28.668  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:28.702  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:28.736  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:28.770  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:28.804  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:28.838  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:28.872  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:28.905  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:28.939  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:28.973  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:29.007  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:29.024  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:29.058  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:29.092  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:29.127  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:29.160  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:29.194  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:29.227  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:29.261  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:29.295  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:29.329  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:29.363  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:29.397  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:29.431  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:29.465  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:29.476  3388  3388 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-21 22:29:29.499  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:29.532  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:29.566  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:29.600  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:29.634  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:29.668  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:29.702  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:29.736  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:29.770  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:29.804  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:29.838  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:29.872  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:29.905  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:29.939  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:29.973  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:30.007  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:30.041  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:30.075  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:30.109  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:30.143  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:30.177  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:30.211  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:30.244  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:30.278  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:30.312  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:30.346  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:30.380  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:30.414  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:30.448  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:30.465  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:30.477  3388  3388 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-21 22:29:30.498  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:30.532  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:30.566  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:30.600  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:30.634  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:30.668  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:30.702  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:30.736  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:30.770  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:30.804  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:30.838  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:30.872  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:30.905  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:30.939  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:30.973  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:31.007  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:31.041  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:31.075  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:31.109  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:31.143  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:31.177  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:31.211  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:31.244  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:31.278  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:31.312  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:31.346  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:31.380  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:31.414  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:31.448  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:31.477  3388  3388 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-21 22:29:31.482  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:31.516  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:31.549  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:31.583  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:31.617  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:31.651  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:31.685  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:31.719  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:31.753  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:31.787  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:31.804  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:31.855  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:31.871  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:31.905  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:31.939  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:31.973  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:32.007  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:32.041  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:32.075  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:32.109  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:32.143  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:32.177  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:32.211  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:32.244  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:32.278  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:32.312  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:32.346  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:32.380  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:32.414  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:32.448  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:32.478  3388  3388 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-21 22:29:32.482  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:32.516  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:32.550  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:32.583  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:32.617  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:32.651  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:32.685  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:32.719  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:32.753  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:32.787  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:32.821  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:32.855  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:32.888  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:32.922  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:32.956  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:32.990  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:33.024  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:33.058  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:33.092  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:33.126  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:33.160  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:33.194  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:33.210  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:33.244  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:33.278  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:33.312  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:33.346  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:33.380  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:33.414  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:33.448  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:33.478  3388  3388 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-21 22:29:33.481  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:33.516  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:33.550  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:33.583  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:33.617  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:33.651  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:33.685  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:33.719  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:33.753  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:33.787  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:33.821  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:33.855  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:33.889  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:33.922  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:33.956  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:33.990  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:34.024  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:34.058  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:34.092  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:34.126  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:34.160  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:34.194  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:34.227  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:34.261  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:34.295  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:34.329  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:34.363  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:34.397  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:34.431  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:34.465  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:34.479  3388  3388 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-21 22:29:34.499  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:34.533  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:34.566  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:34.583  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:34.634  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:34.651  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:34.685  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:34.719  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:34.753  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:34.787  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:34.821  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:34.854  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:34.888  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:34.922  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:34.956  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:34.990  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:35.024  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:35.058  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:35.092  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:35.126  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:35.160  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:35.194  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:35.227  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:35.261  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:35.295  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:35.329  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:35.363  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:35.397  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:35.431  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:35.465  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:35.479  3388  3388 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-21 22:29:35.499  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:35.533  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:35.566  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:35.600  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:35.634  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:35.668  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:35.702  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:35.736  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:35.770  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:35.804  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:35.838  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:35.872  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:35.905  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:35.939  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:35.973  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:36.007  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:36.041  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:36.058  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:36.092  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:36.126  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:36.160  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:36.193  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:36.227  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:36.261  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:36.295  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:36.329  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:36.363  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:36.397  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:36.431  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:36.465  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:36.480  3388  3388 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-21 22:29:36.499  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:36.532  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:36.566  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:36.600  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:36.634  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:36.668  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:36.702  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:36.736  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:36.770  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:36.804  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:36.838  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:36.872  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:36.905  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:36.939  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:36.973  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:37.007  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:37.041  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:37.075  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:37.109  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:37.143  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:37.176  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:37.211  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:37.244  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:37.278  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:37.312  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:37.346  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:37.380  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:37.414  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:37.431  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:37.480  3388  3388 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-21 22:29:37.482  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:37.499  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:37.532  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:37.566  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:37.600  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:37.634  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:37.668  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:37.702  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:37.736  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:37.770  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:37.804  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:37.838  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:37.872  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:37.905  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:37.939  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:37.973  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:38.007  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:38.041  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:38.075  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:38.109  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:38.143  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:38.177  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:38.210  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:38.244  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:38.278  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:38.312  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:38.346  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:38.380  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:38.414  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:38.448  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:38.481  3388  3388 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-21 22:29:38.482  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:38.516  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:38.550  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:38.584  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:38.617  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:38.651  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:38.685  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:38.719  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:38.753  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:38.787  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:38.804  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:38.838  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:38.871  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:38.905  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:38.939  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:38.973  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:39.007  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:39.041  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:39.075  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:39.109  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:39.143  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:39.177  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:39.211  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:39.244  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:39.278  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:39.312  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:39.346  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:39.380  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:39.414  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:39.448  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:39.481  3388  3388 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-21 22:29:39.482  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:39.516  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:39.550  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:39.583  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:39.617  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:39.651  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:39.685  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:39.719  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:39.753  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:39.787  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:39.821  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:39.855  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:39.888  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:39.922  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:39.956  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:39.990  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:40.024  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:40.058  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:40.092  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:40.126  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:40.160  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:40.177  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:40.211  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:40.244  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:40.278  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:40.312  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:40.346  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:40.380  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:40.414  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:40.448  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:40.482  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:40.482  3388  3388 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-21 22:29:40.516  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:40.550  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:40.583  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:40.617  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:40.651  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:40.685  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:40.719  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:40.753  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:40.787  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:40.821  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:40.854  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:40.889  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:40.922  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:40.956  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:40.990  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:41.024  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:41.058  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:41.092  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:41.126  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:41.160  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:41.194  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:41.227  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:41.261  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:41.295  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:41.329  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:41.363  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:41.397  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:41.431  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:41.465  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:41.482  3388  3388 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-21 22:29:41.499  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:41.532  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:41.566  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:41.583  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:41.634  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:41.651  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:41.685  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:41.719  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:41.753  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:41.787  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:41.821  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:41.854  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:41.888  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:41.922  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:41.956  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:41.990  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:42.024  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:42.058  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:42.092  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:42.126  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:42.160  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:42.194  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:42.228  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:42.261  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:42.295  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:42.329  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:42.363  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:42.397  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:42.431  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:42.465  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:42.483  3388  3388 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-21 22:29:42.499  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:42.532  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:42.566  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:42.600  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:42.634  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:42.668  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:42.702  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:42.736  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:42.770  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:42.804  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:42.838  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:42.872  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:42.905  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:42.939  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:42.973  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:42.990  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:43.024  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:43.058  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:43.092  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:43.126  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:43.160  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:43.193  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:43.227  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:43.261  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:43.295  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:43.329  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:43.363  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:43.397  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:43.431  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:43.465  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:43.483  3388  3388 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-21 22:29:43.499  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:43.533  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:43.566  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:43.600  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:43.634  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:43.668  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:43.702  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:43.736  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:43.770  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:43.804  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:43.838  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:43.875  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:43.905  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:43.939  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:43.973  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:44.007  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:44.041  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:44.075  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:44.109  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:44.143  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:44.177  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:44.211  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:44.244  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:44.278  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:44.312  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:44.329  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:44.363  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:44.397  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:44.431  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:44.465  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:44.483  3388  3388 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-21 22:29:44.499  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:44.532  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:44.566  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:44.600  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:44.634  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:44.668  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:44.702  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:44.736  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:44.770  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:44.804  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:44.838  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:44.871  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:44.905  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:44.939  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:44.973  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:45.007  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:45.041  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:45.075  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:45.109  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:45.143  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:45.177  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:45.211  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:45.244  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:45.278  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:45.312  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:45.346  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:45.380  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:45.414  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:45.448  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:45.482  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:45.484  3388  3388 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-21 22:29:45.516  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:45.550  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:45.583  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:45.617  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:45.651  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:45.685  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:45.702  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:45.753  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:45.770  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:45.804  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:45.838  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:45.871  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:45.905  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:45.939  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:45.973  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:46.007  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:46.041  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:46.075  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:46.109  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:46.143  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:46.177  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:46.211  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:46.244  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:46.278  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:46.312  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:46.346  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:46.380  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:46.414  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:46.448  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:46.482  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:46.484  3388  3388 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-21 22:29:46.515  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:46.549  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:46.583  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:46.617  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:46.651  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:46.685  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:46.719  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:46.753  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:46.787  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:46.821  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:46.855  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:46.889  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:46.922  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:46.956  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:46.990  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:47.024  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:47.041  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:47.075  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:47.109  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:47.142  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:47.177  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:47.210  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:47.244  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:47.278  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:47.312  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:47.346  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:47.380  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:47.414  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:47.448  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:47.482  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:47.485  3388  3388 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-21 22:29:47.515  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:47.550  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:47.584  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:47.617  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:47.651  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:47.685  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:47.719  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:47.753  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:47.787  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:47.821  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:47.855  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:47.889  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:47.922  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:47.956  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:47.990  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:48.024  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:48.058  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:48.092  2922  2922 W display : release fence dup failed: Bad file descriptor
+06-21 22:29:48.126  2922  2922 W display : release fence dup failed: Bad file descriptor

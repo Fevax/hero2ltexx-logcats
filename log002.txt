@@ -1,0 +1,1179 @@
+* daemon not running. starting it now on port 5037 *
+* daemon started successfully *
+--------- beginning of main
+05-24 06:52:31.462  2963  2963 W auditd  : type=1325 audit(0.0:2): table=filter family=2 entries=0
+05-24 06:52:31.462  2963  2963 W auditd  : type=1325 audit(0.0:3): table=mangle family=2 entries=0
+05-24 06:52:31.462  2963  2963 W auditd  : type=1325 audit(0.0:4): table=nat family=2 entries=0
+05-24 06:52:31.462  2963  2963 W auditd  : type=1325 audit(0.0:5): table=raw family=2 entries=0
+05-24 06:52:31.462  2963  2963 W auditd  : type=1325 audit(0.0:6): table=security family=2 entries=0
+05-24 06:52:31.462  2963  2963 W auditd  : type=1325 audit(0.0:7): table=filter family=3 entries=0
+05-24 06:52:31.462  2963  2963 W auditd  : type=1325 audit(0.0:8): table=filter family=10 entries=0
+05-24 06:52:31.462  2963  2963 W auditd  : type=1325 audit(0.0:9): table=mangle family=10 entries=0
+05-24 06:52:31.462  2963  2963 W auditd  : type=1325 audit(0.0:10): table=raw family=10 entries=0
+05-24 06:52:31.462  2963  2963 W auditd  : type=1325 audit(0.0:11): table=nat family=10 entries=0
+05-24 06:52:31.609  2963  2963 I auditd  : type=1403 audit(0.0:12): policy loaded auid=4294967295 ses=4294967295
+05-24 06:52:31.609  2963  2963 W auditd  : type=1404 audit(0.0:13): enforcing=1 old_enforcing=0 auid=4294967295 ses=4294967295
+05-24 06:52:31.679     1     1 W init    : type=1400 audit(0.0:14): avc: denied { mounton } for path="/sys/kernel/debug" dev="debugfs" ino=1 scontext=u:r:init:s0 tcontext=u:object_r:debugfs:s0 tclass=dir permissive=0
+05-24 06:52:31.879     1     1 W init    : type=1400 audit(0.0:15): avc: denied { create } for name="sdcard" scontext=u:r:init:s0 tcontext=u:object_r:tmpfs:s0 tclass=lnk_file permissive=0
+05-24 06:52:31.899  2865  2865 W init    : type=1400 audit(0.0:16): avc: denied { mounton } for path="/cache" dev="rootfs" ino=8591 scontext=u:r:init:s0 tcontext=u:object_r:cache_file:s0 tclass=dir permissive=0
+05-24 06:52:31.899  2865  2865 W init    : type=1300 audit(0.0:16): arch=c00000b7 syscall=40 success=no exit=-13 a0=7fb314d3b0 a1=7fb3164260 a2=7fb3164268 a3=40a items=0 ppid=1 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 exe="/init" subj=u:r:init:s0 key=(null)
+05-24 06:52:31.899  2963  2963 W auditd  : type=1327 audit(0.0:16): proctitle=2F696E6974002D2D7365636F6E642D7374616765
+05-24 06:52:31.899  2963  2963 W auditd  : type=1320 audit(0.0:16): 
+05-24 06:52:31.929  2870  2870 W e2fsck  : type=1400 audit(0.0:17): avc: denied { read } for name="sda15" dev="tmpfs" ino=12964 scontext=u:r:fsck:s0 tcontext=u:object_r:block_device:s0 tclass=blk_file permissive=0
+05-24 06:52:31.929  2870  2870 W e2fsck  : type=1300 audit(0.0:17): arch=c00000b7 syscall=56 success=no exit=-13 a0=ffffff9c a1=7faa04c030 a2=80 a3=0 items=0 ppid=2865 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 exe="/system/bin/e2fsck" subj=u:r:fsck:s0 key=(null)
+05-24 06:52:31.929  2963  2963 W auditd  : type=1327 audit(0.0:17): proctitle=2F73797374656D2F62696E2F65326673636B002D79002F6465762F626C6F636B2F706C6174666F726D2F31353561303030302E7566732F62792D6E616D652F4341434845
+05-24 06:52:31.929  2963  2963 W auditd  : type=1320 audit(0.0:17): 
+05-24 06:52:31.929  2870  2870 W e2fsck  : type=1400 audit(0.0:18): avc: denied { read write } for name="sda15" dev="tmpfs" ino=12964 scontext=u:r:fsck:s0 tcontext=u:object_r:block_device:s0 tclass=blk_file permissive=0
+05-24 06:52:31.929  2870  2870 W e2fsck  : type=1300 audit(0.0:18): arch=c00000b7 syscall=56 success=no exit=-13 a0=ffffff9c a1=7faa04c090 a2=82 a3=0 items=0 ppid=2865 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 exe="/system/bin/e2fsck" subj=u:r:fsck:s0 key=(null)
+05-24 06:52:31.929  2963  2963 W auditd  : type=1327 audit(0.0:18): proctitle=2F73797374656D2F62696E2F65326673636B002D79002F6465762F626C6F636B2F706C6174666F726D2F31353561303030302E7566732F62792D6E616D652F4341434845
+05-24 06:52:31.929  2963  2963 W auditd  : type=1320 audit(0.0:18): 
+05-24 06:52:31.929  2865  2865 W init    : type=1400 audit(0.0:19): avc: denied { mounton } for path="/cache" dev="rootfs" ino=8591 scontext=u:r:init:s0 tcontext=u:object_r:cache_file:s0 tclass=dir permissive=0
+05-24 06:52:31.929  2865  2865 W init    : type=1300 audit(0.0:19): arch=c00000b7 syscall=40 success=no exit=-13 a0=7fb314d3b0 a1=7fb3164260 a2=7fb3164268 a3=406 items=0 ppid=1 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 exe="/init" subj=u:r:init:s0 key=(null)
+05-24 06:52:31.929  2963  2963 W auditd  : type=1327 audit(0.0:19): proctitle=2F696E6974002D2D7365636F6E642D7374616765
+05-24 06:52:31.929  2963  2963 W auditd  : type=1320 audit(0.0:19): 
+05-24 06:52:31.939  2873  2873 W e2fsck  : type=1400 audit(0.0:20): avc: denied { read } for name="sda18" dev="tmpfs" ino=12976 scontext=u:r:fsck:s0 tcontext=u:object_r:block_device:s0 tclass=blk_file permissive=0
+05-24 06:52:31.939  2873  2873 W e2fsck  : type=1300 audit(0.0:20): arch=c00000b7 syscall=56 success=no exit=-13 a0=ffffff9c a1=7f8ff19040 a2=80 a3=0 items=0 ppid=2865 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 exe="/system/bin/e2fsck" subj=u:r:fsck:s0 key=(null)
+05-24 06:52:31.939  2963  2963 W auditd  : type=1327 audit(0.0:20): proctitle=2F73797374656D2F62696E2F65326673636B002D79002F6465762F626C6F636B2F706C6174666F726D2F31353561303030302E7566732F62792D6E616D652F5553455244415441
+05-24 06:52:31.939  2963  2963 W auditd  : type=1320 audit(0.0:20): 
+05-24 06:52:31.939  2873  2873 W e2fsck  : type=1400 audit(0.0:21): avc: denied { read write } for name="sda18" dev="tmpfs" ino=12976 scontext=u:r:fsck:s0 tcontext=u:object_r:block_device:s0 tclass=blk_file permissive=0
+05-24 06:52:31.939  2873  2873 W e2fsck  : type=1300 audit(0.0:21): arch=c00000b7 syscall=56 success=no exit=-13 a0=ffffff9c a1=7f8ff190c0 a2=82 a3=0 items=0 ppid=2865 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 exe="/system/bin/e2fsck" subj=u:r:fsck:s0 key=(null)
+05-24 06:52:31.939  2963  2963 W auditd  : type=1327 audit(0.0:21): proctitle=2F73797374656D2F62696E2F65326673636B002D79002F6465762F626C6F636B2F706C6174666F726D2F31353561303030302E7566732F62792D6E616D652F5553455244415441
+05-24 06:52:31.939  2963  2963 W auditd  : type=1320 audit(0.0:21): 
+05-24 06:52:31.939  2865  2865 W init    : type=1400 audit(0.0:22): avc: denied { mounton } for path="/efs" dev="rootfs" ino=8665 scontext=u:r:init:s0 tcontext=u:object_r:efs_file:s0 tclass=dir permissive=0
+05-24 06:52:31.939  2865  2865 W init    : type=1300 audit(0.0:22): arch=c00000b7 syscall=40 success=no exit=-13 a0=7fb314d3e0 a1=7fb3164288 a2=7fb3164290 a3=40a items=0 ppid=1 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 exe="/init" subj=u:r:init:s0 key=(null)
+05-24 06:52:31.939  2963  2963 W auditd  : type=1327 audit(0.0:22): proctitle=2F696E6974002D2D7365636F6E642D7374616765
+05-24 06:52:31.939  2963  2963 W auditd  : type=1320 audit(0.0:22): 
+05-24 06:52:31.949  2876  2876 W e2fsck  : type=1400 audit(0.0:23): avc: denied { read } for name="sda3" dev="tmpfs" ino=12916 scontext=u:r:fsck:s0 tcontext=u:object_r:block_device:s0 tclass=blk_file permissive=0
+05-24 06:52:31.949  2876  2876 W e2fsck  : type=1300 audit(0.0:23): arch=c00000b7 syscall=56 success=no exit=-13 a0=ffffff9c a1=7f8130c030 a2=80 a3=0 items=0 ppid=2865 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 exe="/system/bin/e2fsck" subj=u:r:fsck:s0 key=(null)
+05-24 06:52:31.949  2963  2963 W auditd  : type=1327 audit(0.0:23): proctitle=2F73797374656D2F62696E2F65326673636B002D79002F6465762F626C6F636B2F706C6174666F726D2F31353561303030302E7566732F62792D6E616D652F454653
+05-24 06:52:31.949  2963  2963 W auditd  : type=1320 audit(0.0:23): 
+05-24 06:52:31.949  2876  2876 W e2fsck  : type=1400 audit(0.0:24): avc: denied { read write } for name="sda3" dev="tmpfs" ino=12916 scontext=u:r:fsck:s0 tcontext=u:object_r:block_device:s0 tclass=blk_file permissive=0
+05-24 06:52:31.949  2876  2876 W e2fsck  : type=1300 audit(0.0:24): arch=c00000b7 syscall=56 success=no exit=-13 a0=ffffff9c a1=7f8130c090 a2=82 a3=0 items=0 ppid=2865 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 exe="/system/bin/e2fsck" subj=u:r:fsck:s0 key=(null)
+05-24 06:52:31.949  2963  2963 W auditd  : type=1327 audit(0.0:24): proctitle=2F73797374656D2F62696E2F65326673636B002D79002F6465762F626C6F636B2F706C6174666F726D2F31353561303030302E7566732F62792D6E616D652F454653
+05-24 06:52:31.949  2963  2963 W auditd  : type=1320 audit(0.0:24): 
+05-24 06:52:31.949  2865  2865 W init    : type=1400 audit(0.0:25): avc: denied { mounton } for path="/efs" dev="rootfs" ino=8665 scontext=u:r:init:s0 tcontext=u:object_r:efs_file:s0 tclass=dir permissive=0
+05-24 06:52:31.949  2865  2865 W init    : type=1300 audit(0.0:25): arch=c00000b7 syscall=40 success=no exit=-13 a0=7fb314d3e0 a1=7fb3164288 a2=7fb3164290 a3=406 items=0 ppid=1 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 exe="/init" subj=u:r:init:s0 key=(null)
+05-24 06:52:31.949  2963  2963 W auditd  : type=1327 audit(0.0:25): proctitle=2F696E6974002D2D7365636F6E642D7374616765
+05-24 06:52:31.949  2963  2963 W auditd  : type=1320 audit(0.0:25): 
+05-24 06:52:31.959     1     1 W init    : type=1400 audit(0.0:26): avc: denied { mounton } for path="/storage" dev="rootfs" ino=8603 scontext=u:r:init:s0 tcontext=u:object_r:storage_file:s0 tclass=dir permissive=0
+05-24 06:52:31.969  2963  2963 W auditd  : type=1305 audit(0.0:27): audit_pid=2880 old=0 auid=4294967295 ses=4294967295 subj=u:r:logd:s0 res=1
+05-24 06:52:31.969  2963  2963 W auditd  : type=1305 audit(0.0:28): audit_rate_limit=20 old=0 auid=4294967295 ses=4294967295 subj=u:r:logd:s0 res=1
+05-24 06:52:31.998  2894  2894 I sysinit : Running /system/etc/init.d/00banner 
+05-24 06:52:31.999  2891  2891 I lowmemorykiller: Using in-kernel low memory killer interface
+05-24 06:52:32.008  2900  2900 I cm      : ____ _   _ ____ _  _ ____ ____ ____ _  _ _  _ ____ ___ 
+05-24 06:52:32.012  2901  2901 I cm      : |     \_/  |__| |\ | |  | | __ |___ |\ | |\/| |  | |  \ 
+--------- beginning of system
+05-24 06:52:32.013  2881  2881 I vold    : Vold 3.0 (the awakening) firing up
+05-24 06:52:32.013  2881  2881 V vold    : Detected support for: exfat ext4 f2fs ntfs vfat
+05-24 06:52:32.017  2902  2902 I cm      : |___   |   |  | | \| |__| |__] |___ | \| |  | |__| |__/ 
+05-24 06:52:32.028  2893  2893 I SurfaceFlinger: SurfaceFlinger is starting
+05-24 06:52:32.029  2893  2893 E SchedPolicy: /system/bin/surfaceflinger add_tid_to_cgroup failed; fd=-1
+05-24 06:52:32.029  2893  2893 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+05-24 06:52:32.033  2954  2954 I cm      : Welcome to Android 6.0.1 / CyanogenMod-13.0-20160524-UNOFFICIAL-hero2ltexx 
+05-24 06:52:32.039  2960  2960 I sysinit : Running /system/etc/init.d/90userinit 
+05-24 06:52:32.064  2893  2893 D libEGL  : loaded /vendor/lib64/egl/libGLES_mali.so
+05-24 06:52:32.069  2893  2893 W surfaceflinger: type=1400 audit(0.0:29): avc: denied { read write } for name="mali0" dev="tmpfs" ino=12889 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=0
+05-24 06:52:32.069  2893  2893 W surfaceflinger: type=1300 audit(0.0:29): arch=c00000b7 syscall=56 success=no exit=-13 a0=ffffff9c a1=7fdeef4e58 a2=80002 a3=0 items=0 ppid=1 auid=4294967295 uid=1000 gid=1003 euid=1000 suid=1000 fsuid=1000 egid=1003 sgid=1003 fsgid=1003 tty=(none) ses=4294967295 exe="/system/bin/surfaceflinger" subj=u:r:surfaceflinger:s0 key=(null)
+05-24 06:52:32.069  2963  2963 W auditd  : type=1327 audit(0.0:29): proctitle="/system/bin/surfaceflinger"
+05-24 06:52:32.069  2963  2963 W auditd  : type=1320 audit(0.0:29): 
+05-24 06:52:32.069  2893  2893 W surfaceflinger: type=1400 audit(0.0:30): avc: denied { read write } for name="mali0" dev="tmpfs" ino=12889 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=0
+05-24 06:52:32.069  2893  2893 W surfaceflinger: type=1300 audit(0.0:30): arch=c00000b7 syscall=56 success=no exit=-13 a0=ffffff9c a1=7fdeef4e58 a2=80002 a3=0 items=0 ppid=1 auid=4294967295 uid=1000 gid=1003 euid=1000 suid=1000 fsuid=1000 egid=1003 sgid=1003 fsgid=1003 tty=(none) ses=4294967295 exe="/system/bin/surfaceflinger" subj=u:r:surfaceflinger:s0 key=(null)
+05-24 06:52:32.069  2963  2963 W auditd  : type=1327 audit(0.0:30): proctitle="/system/bin/surfaceflinger"
+05-24 06:52:32.069  2963  2963 W auditd  : type=1320 audit(0.0:30): 
+05-24 06:52:32.069  2893  2893 W surfaceflinger: type=1701 audit(0.0:31): auid=4294967295 uid=1000 gid=1003 ses=4294967295 subj=u:r:surfaceflinger:s0 exe="/system/bin/surfaceflinger" sig=6
+05-24 06:52:32.074  2893  2893 W libEGL  : eglInitialize(0x7f7eceb000) failed (EGL_NOT_INITIALIZED)
+05-24 06:52:32.076  2893  2893 I gralloc : using (id=)
+05-24 06:52:32.076  2893  2893 I gralloc : xres         = 1440 px
+05-24 06:52:32.076  2893  2893 I gralloc : yres         = 2560 px
+05-24 06:52:32.076  2893  2893 I gralloc : width        = 68 mm (537.882324 dpi)
+05-24 06:52:32.076  2893  2893 I gralloc : height       = 122 mm (532.983582 dpi)
+05-24 06:52:32.076  2893  2893 I gralloc : refresh rate = 59.42 Hz
+05-24 06:52:32.082  2893  2893 E HAL     : load: module=/system/lib64/hw/hwcomposer.exynos5.so
+05-24 06:52:32.082  2893  2893 E HAL     : dlopen failed: library "libExynosHWCService.so" not found
+05-24 06:52:32.082  2893  2893 E SurfaceFlinger: hwcomposer module not found
+05-24 06:52:32.082  2893  2893 W SurfaceFlinger: no suitable EGLConfig found, trying a simpler query
+05-24 06:52:32.082  2893  2893 F SurfaceFlinger: no suitable EGLConfig found, giving up
+--------- beginning of crash
+05-24 06:52:32.082  2893  2893 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 2893 (surfaceflinger)
+05-24 06:52:32.082  2893  2893 F libc    : Unable to open connection to debuggerd: Connection refused
+05-24 06:52:32.389  2967  2967 W app_process: type=1701 audit(0.0:32): auid=4294967295 uid=0 gid=0 ses=4294967295 subj=u:r:zygote:s0 exe="/system/bin/app_process64" sig=6
+05-24 06:52:32.397  2967  2967 F appproc : Error creating cache dir /data/dalvik-cache/arm64 : No such file or directory
+05-24 06:52:32.397  2967  2967 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 2967 (app_process)
+05-24 06:52:32.397  2967  2967 F libc    : Unable to open connection to debuggerd: Connection refused
+05-24 06:52:32.412  2969  2969 I Netd    : Netd 1.0 starting
+05-24 06:52:32.413  2969  2969 I QtiConnectivityAdapter: Failed to open libconnctrl, some features may not be present.
+05-24 06:52:32.413  2969  2969 D TetherController: Setting IP forward enable = 0
+05-24 06:52:32.439  2963  2963 W auditd  : type=1325 audit(0.0:33): table=filter family=2 entries=4
+05-24 06:52:32.439  2963  2963 W auditd  : type=1320 audit(0.0:33): 
+05-24 06:52:32.439  2963  2963 W auditd  : type=1325 audit(0.0:34): table=filter family=10 entries=4
+05-24 06:52:32.439  2963  2963 W auditd  : type=1320 audit(0.0:34): 
+05-24 06:52:32.439  2963  2963 W auditd  : type=1325 audit(0.0:35): table=filter family=2 entries=6
+05-24 06:52:32.439  2963  2963 W auditd  : type=1320 audit(0.0:35): 
+05-24 06:52:32.449  2963  2963 W auditd  : type=1325 audit(0.0:36): table=filter family=10 entries=6
+05-24 06:52:32.449  2963  2963 W auditd  : type=1320 audit(0.0:36): 
+05-24 06:52:32.469  2963  2963 W auditd  : type=1325 audit(0.0:37): table=filter family=2 entries=7
+05-24 06:52:32.469  2963  2963 W auditd  : type=1320 audit(0.0:37): 
+05-24 06:52:32.479  2963  2963 W auditd  : type=1325 audit(0.0:38): table=filter family=10 entries=7
+05-24 06:52:32.479  2963  2963 W auditd  : type=1320 audit(0.0:38): 
+05-24 06:52:32.479  2963  2963 W auditd  : type=1325 audit(0.0:39): table=filter family=2 entries=9
+05-24 06:52:32.479  2963  2963 W auditd  : type=1320 audit(0.0:39): 
+05-24 06:52:32.489  2963  2963 W auditd  : type=1325 audit(0.0:40): table=filter family=10 entries=9
+05-24 06:52:32.489  2963  2963 W auditd  : type=1320 audit(0.0:40): 
+05-24 06:52:32.509  2963  2963 W auditd  : type=1325 audit(0.0:41): table=filter family=2 entries=10
+05-24 06:52:32.509  2963  2963 W auditd  : type=1320 audit(0.0:41): 
+05-24 06:52:32.519  2963  2963 W auditd  : type=1325 audit(0.0:42): table=filter family=10 entries=10
+05-24 06:52:32.519  2963  2963 W auditd  : type=1320 audit(0.0:42): 
+05-24 06:52:32.519  2963  2963 W auditd  : type=1325 audit(0.0:43): table=filter family=2 entries=12
+05-24 06:52:32.519  2963  2963 W auditd  : type=1320 audit(0.0:43): 
+05-24 06:52:32.519  2963  2963 W auditd  : type=1325 audit(0.0:44): table=filter family=10 entries=12
+05-24 06:52:32.519  2963  2963 W auditd  : type=1320 audit(0.0:44): 
+05-24 06:52:32.549  2963  2963 W auditd  : type=1325 audit(0.0:45): table=filter family=2 entries=13
+05-24 06:52:32.549  2963  2963 W auditd  : type=1320 audit(0.0:45): 
+05-24 06:52:32.559  2963  2963 W auditd  : type=1325 audit(0.0:46): table=filter family=10 entries=13
+05-24 06:52:32.559  2963  2963 W auditd  : type=1320 audit(0.0:46): 
+05-24 06:52:32.559  2963  2963 W auditd  : type=1325 audit(0.0:47): table=filter family=2 entries=15
+05-24 06:52:32.594  2968  2968 I mediaserver: ServiceManager: 0xf618e120
+05-24 06:52:32.594  2968  2968 I AudioFlinger: Using default 3000 mSec as standby time.
+05-24 06:52:32.595  2968  2968 E BatteryNotifier: batterystats service unavailable!
+05-24 06:52:32.595  2968  2968 E BatteryNotifier: batterystats service unavailable!
+05-24 06:52:32.595  2968  2968 I CameraService: CameraService started (pid=2968)
+05-24 06:52:32.595  2968  2968 I CameraService: CameraService process starting
+05-24 06:52:32.595  2968  2968 E BatteryNotifier: batterystats service unavailable!
+05-24 06:52:32.595  2968  2968 E BatteryNotifier: batterystats service unavailable!
+05-24 06:52:32.596  2968  2968 E CameraService: Could not load camera HAL module: -2 (No such file or directory)
+05-24 06:52:32.597  2968  2968 I AudioPolicyService: AudioPolicyService CSTOR in new mode
+05-24 06:52:32.598  2968  2968 W APM::HwModule: loadOutput() invalid supported devices
+05-24 06:52:32.598  2968  2968 W APM::HwModule: loadOutput() invalid supported devices
+05-24 06:52:32.598  2968  2968 W APM::HwModule: loadInput() invalid supported devices
+05-24 06:52:32.598  2968  2968 W APM::HwModule: loadInput() invalid supported devices
+05-24 06:52:32.598  2968  2968 I APM::ConfigParsingUtils: loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+05-24 06:52:33.089  2969  2969 V NatController: runCmd(/system/bin/iptables -w -F natctrl_FORWARD) res=0
+05-24 06:52:33.093  2969  2969 V NatController: runCmd(/system/bin/iptables -w -A natctrl_FORWARD -j DROP) res=0
+05-24 06:52:33.097  2969  2969 V NatController: runCmd(/system/bin/iptables -w -t nat -F natctrl_nat_POSTROUTING) res=0
+05-24 06:52:33.100  2969  2969 V NatController: runCmd(/system/bin/iptables -w -F natctrl_tether_counters) res=1
+05-24 06:52:33.104  2969  2969 V NatController: runCmd(/system/bin/iptables -w -X natctrl_tether_counters) res=1
+05-24 06:52:33.108  2969  2969 V NatController: runCmd(/system/bin/iptables -w -N natctrl_tether_counters) res=0
+05-24 06:52:33.111  2969  2969 V NatController: runCmd(/system/bin/iptables -w -t mangle -A natctrl_mangle_FORWARD -p tcp --tcp-flags SYN SYN -j TCPMSS --clamp-mss-to-pmtu) res=0
+05-24 06:52:33.178  2968  2968 I AudioFlinger: loadHwModule() Loaded primary audio interface from Samsung audio HW HAL (audio) handle 1
+05-24 06:52:33.178  2968  2968 I AudioFlinger: openOutput(), module 1 Device 2, SamplingRate 48000, Format 0x000001, Channels 3, flags a
+05-24 06:52:33.178  2968  2968 I AudioFlinger: AudioStreamOut::open(), mHalFormatIsLinearPcm = 1
+05-24 06:52:33.178  2968  2968 I AudioFlinger: HAL output buffer size 1024 frames, normal sink buffer size 1024 frames
+05-24 06:52:33.183  2968  2968 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libaudioeffectoffload.so
+05-24 06:52:33.185  2968  2968 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libexynosvisualizer.so
+05-24 06:52:33.190  2968  2968 W EffectsFactory: loadLibrary() failed to open /system/lib/libmysound.so
+05-24 06:52:33.190  2968  2968 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libmyspace.so
+05-24 06:52:33.190  2968  2968 W EffectsFactory: loadLibrary() failed to open /system/lib/libaudiosa.so
+05-24 06:52:33.190  2968  2968 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libaudiosaplus_sec.so
+05-24 06:52:33.191  2968  2968 W EffectsFactory: loadLibrary() failed to open /system/lib/libsamsungSoundbooster_plus.so
+05-24 06:52:33.191  2968  2968 W EffectsFactory: loadEffect() could not get library soundbooster_plus
+05-24 06:52:33.191  2968  2968 W EffectsFactory: addSubEffect() could not get library soundalive_sec
+05-24 06:52:33.191  2968  2968 W EffectsFactory: loadEffect() could not add subEffect 
+05-24 06:52:33.191  2968  2968 W EffectsFactory: loadEffect() could not get library soundalive
+05-24 06:52:33.191  2968  2968 W EffectsFactory: loadEffect() could not get library soundalive
+05-24 06:52:33.191  2968  2968 W EffectsFactory: loadEffect() could not get library soundalive
+05-24 06:52:33.191  2968  2968 W EffectsFactory: addSubEffect() could not get library visualizer_hw
+05-24 06:52:33.191  2968  2968 W EffectsFactory: loadEffect() could not add subEffect 
+05-24 06:52:33.191  2968  2968 W EffectsFactory: addSubEffect() could not get library mysound
+05-24 06:52:33.191  2968  2968 W EffectsFactory: loadEffect() could not add subEffect 
+05-24 06:52:33.191  2968  2968 W EffectsFactory: addSubEffect() could not get library myspace
+05-24 06:52:33.191  2968  2968 W EffectsFactory: loadEffect() could not add subEffect 
+05-24 06:52:33.191  2968  2968 I BufferProvider: found effect "Multichannel Downmix To Stereo" from The Android Open Source Project
+05-24 06:52:33.191  2968  2968 I AudioFlinger: Using module 1 has the primary audio interface
+05-24 06:52:33.191  2968  3186 I AudioFlinger: AudioFlinger's thread 0xf4540000 ready to run
+05-24 06:52:33.191  2968  3186 V audio_hw_primary: do_out_standby: output standby: 1
+05-24 06:52:33.192  2968  3186 V audio_hw_primary: out_set_parameters: key value pairs: routing=2
+05-24 06:52:33.192  2968  3186 E AudioFlinger: no wake lock to update!
+05-24 06:52:33.192  2968  2968 I AudioFlinger: openOutput(), module 1 Device 2, SamplingRate 48000, Format 0x000001, Channels 3, flags 4
+05-24 06:52:33.192  2968  2968 I AudioFlinger: AudioStreamOut::open(), mHalFormatIsLinearPcm = 1
+05-24 06:52:33.192  2968  2968 I AudioFlinger: HAL output buffer size 256 frames, normal sink buffer size 960 frames
+05-24 06:52:33.192  2968  2968 E MonoPipe: Failed to fetch local time frequency when constructing a MonoPipe (res = -32).  getNextWriteTimestamp calls will be non-functional
+05-24 06:52:33.192  2968  3188 I AudioFlinger: AudioFlinger's thread 0xf41c0000 ready to run
+05-24 06:52:33.192  2968  3188 V audio_hw_primary: out_set_parameters: key value pairs: routing=2
+05-24 06:52:33.192  2968  3188 V audio_hw_primary: do_out_standby: output standby: 1
+05-24 06:52:33.192  2968  3188 E AudioFlinger: no wake lock to update!
+05-24 06:52:33.193  2968  2968 V audio_hw_primary: adev_open_input_stream: Requesting input stream with rate: 48000, channels: 0xc
+05-24 06:52:33.193  2968  3189 I AudioFlinger: AudioFlinger's thread 0xf3ec0000 ready to run
+05-24 06:52:33.194  2968  2968 I bt_a2dp_hw: adev_open:  adev_open in A2dp_hw module
+05-24 06:52:33.194  2968  2968 I AudioFlinger: loadHwModule() Loaded a2dp audio interface from A2DP Audio HW HAL (audio) handle 5
+05-24 06:52:33.196  2968  2968 I AudioFlinger: loadHwModule() Loaded usb audio interface from USB audio HW HAL (audio) handle 6
+05-24 06:52:33.196  2968  2968 I r_submix: adev_open(name=audio_hw_if)
+05-24 06:52:33.197  2968  2968 I r_submix: adev_init_check()
+05-24 06:52:33.197  2968  2968 I AudioFlinger: loadHwModule() Loaded r_submix audio interface from Wifi Display audio HAL (audio) handle 7
+05-24 06:52:33.197  2968  2968 D r_submix: adev_open_input_stream(addr=0)
+05-24 06:52:33.197  2968  2968 D r_submix: submix_audio_device_create_pipe_l(addr=0, idx=9)
+05-24 06:52:33.197  2968  2968 D r_submix:   now using address 0 for route 9
+05-24 06:52:33.197  2968  3191 I AudioFlinger: AudioFlinger's thread 0xf3e40000 ready to run
+05-24 06:52:33.197  2968  2968 D r_submix: adev_close_input_stream()
+05-24 06:52:33.197  2968  2968 D r_submix: submix_audio_device_release_pipe_l(idx=9) addr=0
+05-24 06:52:33.197  2968  2968 D r_submix: submix_audio_device_destroy_pipe_l(): pipe destroyed
+05-24 06:52:33.197  2968  2968 F libc    : Fatal signal 11 (SIGSEGV), code 1, fault addr 0x0 in tid 2968 (mediaserver)
+05-24 06:52:33.197  2968  2968 F libc    : Unable to open connection to debuggerd: Connection refused
+05-24 06:52:33.199  2892  2892 I ServiceManager: service 'media.audio_flinger' died
+05-24 06:52:33.199  2892  2892 I ServiceManager: service 'media.player' died
+05-24 06:52:33.199  2892  2892 I ServiceManager: service 'media.resource_manager' died
+05-24 06:52:33.199  2892  2892 I ServiceManager: service 'media.camera' died
+05-24 06:52:33.484  2969  2969 E Netd    : cannot find interface dummy0
+05-24 06:52:33.484  2969  2969 E base.file: android::WriteStringToFile open failed: No such file or directory
+05-24 06:52:33.484  2969  2969 E Netd    : failed to write to /data/misc/net/rt_tables (No such file or directory)
+05-24 06:52:33.485  2969  2969 D MDnsDS  : MDnsSdListener::Hander starting up
+05-24 06:52:33.485  2969  3233 D MDnsDS  : MDnsSdListener starting to monitor
+05-24 06:52:33.485  2969  3233 D MDnsDS  : Going to poll with pollCount 1
+05-24 06:52:33.485  2969  2969 E Netd    : Unable to create pid file (No such file or directory)
+05-24 06:52:37.219  3237  3237 W surfaceflinger: type=1400 audit(0.0:157): avc: denied { read write } for name="mali0" dev="tmpfs" ino=12889 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=0
+05-24 06:52:37.219  3237  3237 W surfaceflinger: type=1300 audit(0.0:157): arch=c00000b7 syscall=56 success=no exit=-13 a0=ffffff9c a1=7fc664e628 a2=80002 a3=0 items=0 ppid=1 auid=4294967295 uid=1000 gid=1003 euid=1000 suid=1000 fsuid=1000 egid=1003 sgid=1003 fsgid=1003 tty=(none) ses=4294967295 exe="/system/bin/surfaceflinger" subj=u:r:surfaceflinger:s0 key=(null)
+05-24 06:52:37.219  2963  2963 W auditd  : type=1327 audit(0.0:157): proctitle="/system/bin/surfaceflinger"
+05-24 06:52:37.219  2963  2963 W auditd  : type=1320 audit(0.0:157): 
+05-24 06:52:37.219  3237  3237 W surfaceflinger: type=1400 audit(0.0:158): avc: denied { read write } for name="mali0" dev="tmpfs" ino=12889 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=0
+05-24 06:52:37.219  3237  3237 W surfaceflinger: type=1300 audit(0.0:158): arch=c00000b7 syscall=56 success=no exit=-13 a0=ffffff9c a1=7fc664e628 a2=80002 a3=0 items=0 ppid=1 auid=4294967295 uid=1000 gid=1003 euid=1000 suid=1000 fsuid=1000 egid=1003 sgid=1003 fsgid=1003 tty=(none) ses=4294967295 exe="/system/bin/surfaceflinger" subj=u:r:surfaceflinger:s0 key=(null)
+05-24 06:52:37.219  2963  2963 W auditd  : type=1327 audit(0.0:158): proctitle="/system/bin/surfaceflinger"
+05-24 06:52:37.219  2963  2963 W auditd  : type=1320 audit(0.0:158): 
+05-24 06:52:37.221  3237  3237 I SurfaceFlinger: SurfaceFlinger is starting
+05-24 06:52:37.221  3237  3237 E SchedPolicy: /system/bin/surfaceflinger add_tid_to_cgroup failed; fd=-1
+05-24 06:52:37.221  3237  3237 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+05-24 06:52:37.227  3237  3237 D libEGL  : loaded /vendor/lib64/egl/libGLES_mali.so
+05-24 06:52:37.229  3237  3237 W surfaceflinger: type=1701 audit(0.0:159): auid=4294967295 uid=1000 gid=1003 ses=4294967295 subj=u:r:surfaceflinger:s0 exe="/system/bin/surfaceflinger" sig=6
+05-24 06:52:37.232  3237  3237 W libEGL  : eglInitialize(0x7f95f29000) failed (EGL_NOT_INITIALIZED)
+05-24 06:52:37.233  3237  3237 I gralloc : using (id=)
+05-24 06:52:37.233  3237  3237 I gralloc : xres         = 1440 px
+05-24 06:52:37.233  3237  3237 I gralloc : yres         = 2560 px
+05-24 06:52:37.233  3237  3237 I gralloc : width        = 68 mm (537.882324 dpi)
+05-24 06:52:37.233  3237  3237 I gralloc : height       = 122 mm (532.983582 dpi)
+05-24 06:52:37.233  3237  3237 I gralloc : refresh rate = 59.42 Hz
+05-24 06:52:37.236  3237  3237 E HAL     : load: module=/system/lib64/hw/hwcomposer.exynos5.so
+05-24 06:52:37.236  3237  3237 E HAL     : dlopen failed: library "libExynosHWCService.so" not found
+05-24 06:52:37.236  3237  3237 E SurfaceFlinger: hwcomposer module not found
+05-24 06:52:37.236  3237  3237 W SurfaceFlinger: no suitable EGLConfig found, trying a simpler query
+05-24 06:52:37.236  3237  3237 F SurfaceFlinger: no suitable EGLConfig found, giving up
+05-24 06:52:37.236  3237  3237 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 3237 (surfaceflinger)
+05-24 06:52:37.236  3237  3237 F libc    : Unable to open connection to debuggerd: Connection refused
+05-24 06:52:37.369  2963  2963 W auditd  : type=1325 audit(0.0:160): table=filter family=2 entries=52
+05-24 06:52:37.369  2963  2963 W auditd  : type=1320 audit(0.0:160): 
+05-24 06:52:37.374  3246  3246 I Netd    : Netd 1.0 starting
+05-24 06:52:37.374  3246  3246 I QtiConnectivityAdapter: Failed to open libconnctrl, some features may not be present.
+05-24 06:52:37.374  3246  3246 D TetherController: Setting IP forward enable = 0
+05-24 06:52:37.379  2963  2963 W auditd  : type=1325 audit(0.0:161): table=filter family=10 entries=55
+05-24 06:52:37.379  2963  2963 W auditd  : type=1320 audit(0.0:161): 
+05-24 06:52:37.379  2963  2963 W auditd  : type=1325 audit(0.0:162): table=filter family=2 entries=51
+05-24 06:52:37.379  2963  2963 W auditd  : type=1320 audit(0.0:162): 
+05-24 06:52:37.379  2963  2963 W auditd  : type=1325 audit(0.0:163): table=filter family=10 entries=54
+05-24 06:52:37.379  2963  2963 W auditd  : type=1320 audit(0.0:163): 
+05-24 06:52:37.389  2963  2963 W auditd  : type=1325 audit(0.0:164): table=filter family=2 entries=50
+05-24 06:52:37.389  2963  2963 W auditd  : type=1320 audit(0.0:164): 
+05-24 06:52:37.389  2963  2963 W auditd  : type=1325 audit(0.0:165): table=filter family=10 entries=53
+05-24 06:52:38.041  3246  3246 V NatController: runCmd(/system/bin/iptables -w -F natctrl_FORWARD) res=0
+05-24 06:52:38.045  3246  3246 V NatController: runCmd(/system/bin/iptables -w -A natctrl_FORWARD -j DROP) res=0
+05-24 06:52:38.049  3246  3246 V NatController: runCmd(/system/bin/iptables -w -t nat -F natctrl_nat_POSTROUTING) res=0
+05-24 06:52:38.052  3246  3246 V NatController: runCmd(/system/bin/iptables -w -F natctrl_tether_counters) res=0
+05-24 06:52:38.056  3246  3246 V NatController: runCmd(/system/bin/iptables -w -X natctrl_tether_counters) res=0
+05-24 06:52:38.060  3246  3246 V NatController: runCmd(/system/bin/iptables -w -N natctrl_tether_counters) res=0
+05-24 06:52:38.064  3246  3246 V NatController: runCmd(/system/bin/iptables -w -t mangle -A natctrl_mangle_FORWARD -p tcp --tcp-flags SYN SYN -j TCPMSS --clamp-mss-to-pmtu) res=0
+05-24 06:52:38.229  2963  2963 W auditd  : type=1325 audit(0.0:387): table=mangle family=10 entries=12
+05-24 06:52:38.229  2963  2963 W auditd  : type=1320 audit(0.0:387): 
+05-24 06:52:38.229  2963  2963 W auditd  : type=1325 audit(0.0:388): table=filter family=2 entries=49
+05-24 06:52:38.229  2963  2963 W auditd  : type=1320 audit(0.0:388): 
+05-24 06:52:38.239  2963  2963 W auditd  : type=1325 audit(0.0:389): table=filter family=10 entries=52
+05-24 06:52:38.239  2963  2963 W auditd  : type=1320 audit(0.0:389): 
+05-24 06:52:38.239  2963  2963 W auditd  : type=1325 audit(0.0:390): table=filter family=2 entries=50
+05-24 06:52:38.239  2963  2963 W auditd  : type=1320 audit(0.0:390): 
+05-24 06:52:38.239  2963  2963 W auditd  : type=1325 audit(0.0:391): table=filter family=10 entries=53
+05-24 06:52:38.239  2963  2963 W auditd  : type=1320 audit(0.0:391): 
+05-24 06:52:38.249  2963  2963 W auditd  : type=1325 audit(0.0:392): table=filter family=2 entries=51
+05-24 06:52:38.249  2963  2963 W auditd  : type=1320 audit(0.0:392): 
+05-24 06:52:38.249  2963  2963 W auditd  : type=1325 audit(0.0:393): table=filter family=10 entries=54
+05-24 06:52:38.249  2963  2963 W auditd  : type=1320 audit(0.0:393): 
+05-24 06:52:38.249  2963  2963 W auditd  : type=1325 audit(0.0:394): table=raw family=2 entries=9
+05-24 06:52:38.249  2963  2963 W auditd  : type=1320 audit(0.0:394): 
+05-24 06:52:38.259  2963  2963 W auditd  : type=1325 audit(0.0:395): table=raw family=10 entries=9
+05-24 06:52:38.259  2963  2963 W auditd  : type=1320 audit(0.0:395): 
+05-24 06:52:38.259  2963  2963 W auditd  : type=1325 audit(0.0:396): table=mangle family=2 entries=16
+05-24 06:52:38.259  2963  2963 W auditd  : type=1320 audit(0.0:396): 
+05-24 06:52:38.283  3246  3246 E Netd    : cannot find interface dummy0
+05-24 06:52:38.283  3246  3246 E base.file: android::WriteStringToFile open failed: No such file or directory
+05-24 06:52:38.283  3246  3246 E Netd    : failed to write to /data/misc/net/rt_tables (No such file or directory)
+05-24 06:52:38.283  3246  3246 D MDnsDS  : MDnsSdListener::Hander starting up
+05-24 06:52:38.283  3246  3498 D MDnsDS  : MDnsSdListener starting to monitor
+05-24 06:52:38.283  3246  3498 D MDnsDS  : Going to poll with pollCount 1
+05-24 06:52:38.284  3246  3246 E Netd    : Unable to create pid file (No such file or directory)
+05-24 06:52:42.386  3508  3508 I SurfaceFlinger: SurfaceFlinger is starting
+05-24 06:52:42.387  3508  3508 E SchedPolicy: /system/bin/surfaceflinger add_tid_to_cgroup failed; fd=-1
+05-24 06:52:42.387  3508  3508 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+05-24 06:52:42.389  3508  3508 W surfaceflinger: type=1400 audit(0.0:398): avc: denied { read write } for name="mali0" dev="tmpfs" ino=12889 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=0
+05-24 06:52:42.389  3508  3508 W surfaceflinger: type=1300 audit(0.0:398): arch=c00000b7 syscall=56 success=no exit=-13 a0=ffffff9c a1=7fda98a268 a2=80002 a3=0 items=0 ppid=1 auid=4294967295 uid=1000 gid=1003 euid=1000 suid=1000 fsuid=1000 egid=1003 sgid=1003 fsgid=1003 tty=(none) ses=4294967295 exe="/system/bin/surfaceflinger" subj=u:r:surfaceflinger:s0 key=(null)
+05-24 06:52:42.389  2963  2963 W auditd  : type=1327 audit(0.0:398): proctitle="/system/bin/surfaceflinger"
+05-24 06:52:42.389  2963  2963 W auditd  : type=1320 audit(0.0:398): 
+05-24 06:52:42.389  3508  3508 W surfaceflinger: type=1400 audit(0.0:399): avc: denied { read write } for name="mali0" dev="tmpfs" ino=12889 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=0
+05-24 06:52:42.389  3508  3508 W surfaceflinger: type=1300 audit(0.0:399): arch=c00000b7 syscall=56 success=no exit=-13 a0=ffffff9c a1=7fda98a268 a2=80002 a3=0 items=0 ppid=1 auid=4294967295 uid=1000 gid=1003 euid=1000 suid=1000 fsuid=1000 egid=1003 sgid=1003 fsgid=1003 tty=(none) ses=4294967295 exe="/system/bin/surfaceflinger" subj=u:r:surfaceflinger:s0 key=(null)
+05-24 06:52:42.389  2963  2963 W auditd  : type=1327 audit(0.0:399): proctitle="/system/bin/surfaceflinger"
+05-24 06:52:42.389  2963  2963 W auditd  : type=1320 audit(0.0:399): 
+05-24 06:52:42.389  3508  3508 W surfaceflinger: type=1701 audit(0.0:400): auid=4294967295 uid=1000 gid=1003 ses=4294967295 subj=u:r:surfaceflinger:s0 exe="/system/bin/surfaceflinger" sig=6
+05-24 06:52:42.393  3508  3508 D libEGL  : loaded /vendor/lib64/egl/libGLES_mali.so
+05-24 06:52:42.398  3508  3508 W libEGL  : eglInitialize(0x7f8ce29000) failed (EGL_NOT_INITIALIZED)
+05-24 06:52:42.398  3508  3508 I gralloc : using (id=)
+05-24 06:52:42.398  3508  3508 I gralloc : xres         = 1440 px
+05-24 06:52:42.398  3508  3508 I gralloc : yres         = 2560 px
+05-24 06:52:42.398  3508  3508 I gralloc : width        = 68 mm (537.882324 dpi)
+05-24 06:52:42.398  3508  3508 I gralloc : height       = 122 mm (532.983582 dpi)
+05-24 06:52:42.398  3508  3508 I gralloc : refresh rate = 59.42 Hz
+05-24 06:52:42.401  3508  3508 E HAL     : load: module=/system/lib64/hw/hwcomposer.exynos5.so
+05-24 06:52:42.401  3508  3508 E HAL     : dlopen failed: library "libExynosHWCService.so" not found
+05-24 06:52:42.401  3508  3508 E SurfaceFlinger: hwcomposer module not found
+05-24 06:52:42.401  3508  3508 W SurfaceFlinger: no suitable EGLConfig found, trying a simpler query
+05-24 06:52:42.401  3508  3508 F SurfaceFlinger: no suitable EGLConfig found, giving up
+05-24 06:52:42.401  3508  3508 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 3508 (surfaceflinger)
+05-24 06:52:42.401  3508  3508 F libc    : Unable to open connection to debuggerd: Connection refused
+05-24 06:52:42.519  2963  2963 W auditd  : type=1325 audit(0.0:401): table=filter family=2 entries=52
+05-24 06:52:42.519  2963  2963 W auditd  : type=1320 audit(0.0:401): 
+05-24 06:52:42.524  3517  3517 I Netd    : Netd 1.0 starting
+05-24 06:52:42.524  3517  3517 I QtiConnectivityAdapter: Failed to open libconnctrl, some features may not be present.
+05-24 06:52:42.524  3517  3517 D TetherController: Setting IP forward enable = 0
+05-24 06:52:42.529  2963  2963 W auditd  : type=1325 audit(0.0:402): table=filter family=10 entries=55
+05-24 06:52:42.529  2963  2963 W auditd  : type=1320 audit(0.0:402): 
+05-24 06:52:42.529  2963  2963 W auditd  : type=1325 audit(0.0:403): table=filter family=2 entries=51
+05-24 06:52:42.529  2963  2963 W auditd  : type=1320 audit(0.0:403): 
+05-24 06:52:42.529  2963  2963 W auditd  : type=1325 audit(0.0:404): table=filter family=10 entries=54
+05-24 06:52:42.529  2963  2963 W auditd  : type=1320 audit(0.0:404): 
+05-24 06:52:42.539  2963  2963 W auditd  : type=1325 audit(0.0:405): table=filter family=2 entries=50
+05-24 06:52:42.539  2963  2963 W auditd  : type=1320 audit(0.0:405): 
+05-24 06:52:42.539  2963  2963 W auditd  : type=1325 audit(0.0:406): table=filter family=10 entries=53
+05-24 06:52:43.184  3517  3517 V NatController: runCmd(/system/bin/iptables -w -F natctrl_FORWARD) res=0
+05-24 06:52:43.188  3517  3517 V NatController: runCmd(/system/bin/iptables -w -A natctrl_FORWARD -j DROP) res=0
+05-24 06:52:43.191  3517  3517 V NatController: runCmd(/system/bin/iptables -w -t nat -F natctrl_nat_POSTROUTING) res=0
+05-24 06:52:43.195  3517  3517 V NatController: runCmd(/system/bin/iptables -w -F natctrl_tether_counters) res=0
+05-24 06:52:43.199  3517  3517 V NatController: runCmd(/system/bin/iptables -w -X natctrl_tether_counters) res=0
+05-24 06:52:43.202  3517  3517 V NatController: runCmd(/system/bin/iptables -w -N natctrl_tether_counters) res=0
+05-24 06:52:43.206  3517  3517 V NatController: runCmd(/system/bin/iptables -w -t mangle -A natctrl_mangle_FORWARD -p tcp --tcp-flags SYN SYN -j TCPMSS --clamp-mss-to-pmtu) res=0
+05-24 06:52:43.399  2963  2963 W auditd  : type=1325 audit(0.0:635): table=raw family=2 entries=9
+05-24 06:52:43.399  2963  2963 W auditd  : type=1320 audit(0.0:635): 
+05-24 06:52:43.399  2963  2963 W auditd  : type=1325 audit(0.0:636): table=raw family=10 entries=9
+05-24 06:52:43.399  2963  2963 W auditd  : type=1320 audit(0.0:636): 
+05-24 06:52:43.399  2963  2963 W auditd  : type=1325 audit(0.0:637): table=mangle family=2 entries=16
+05-24 06:52:43.399  2963  2963 W auditd  : type=1320 audit(0.0:637): 
+05-24 06:52:43.409  2963  2963 W auditd  : type=1325 audit(0.0:638): table=mangle family=10 entries=12
+05-24 06:52:43.409  2963  2963 W auditd  : type=1320 audit(0.0:638): 
+05-24 06:52:43.425  3517  3517 E Netd    : cannot find interface dummy0
+05-24 06:52:43.425  3517  3517 E base.file: android::WriteStringToFile open failed: No such file or directory
+05-24 06:52:43.425  3517  3517 E Netd    : failed to write to /data/misc/net/rt_tables (No such file or directory)
+05-24 06:52:43.426  3517  3517 D MDnsDS  : MDnsSdListener::Hander starting up
+05-24 06:52:43.426  3517  3769 D MDnsDS  : MDnsSdListener starting to monitor
+05-24 06:52:43.426  3517  3769 D MDnsDS  : Going to poll with pollCount 1
+05-24 06:52:43.426  3517  3517 E Netd    : Unable to create pid file (No such file or directory)
+05-24 06:52:46.535  3776  3776 I SurfaceFlinger: SurfaceFlinger is starting
+05-24 06:52:46.535  3776  3776 E SchedPolicy: /system/bin/surfaceflinger add_tid_to_cgroup failed; fd=-1
+05-24 06:52:46.535  3776  3776 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+05-24 06:52:46.541  3776  3776 D libEGL  : loaded /vendor/lib64/egl/libGLES_mali.so
+05-24 06:52:46.539  3776  3776 W surfaceflinger: type=1400 audit(0.0:639): avc: denied { read write } for name="mali0" dev="tmpfs" ino=12889 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=0
+05-24 06:52:46.539  3776  3776 W surfaceflinger: type=1300 audit(0.0:639): arch=c00000b7 syscall=56 success=no exit=-13 a0=ffffff9c a1=7fd554c988 a2=80002 a3=0 items=0 ppid=1 auid=4294967295 uid=1000 gid=1003 euid=1000 suid=1000 fsuid=1000 egid=1003 sgid=1003 fsgid=1003 tty=(none) ses=4294967295 exe="/system/bin/surfaceflinger" subj=u:r:surfaceflinger:s0 key=(null)
+05-24 06:52:46.539  2963  2963 W auditd  : type=1327 audit(0.0:639): proctitle="/system/bin/surfaceflinger"
+05-24 06:52:46.539  2963  2963 W auditd  : type=1320 audit(0.0:639): 
+05-24 06:52:46.539  3776  3776 W surfaceflinger: type=1400 audit(0.0:640): avc: denied { read write } for name="mali0" dev="tmpfs" ino=12889 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=0
+05-24 06:52:46.539  3776  3776 W surfaceflinger: type=1300 audit(0.0:640): arch=c00000b7 syscall=56 success=no exit=-13 a0=ffffff9c a1=7fd554c988 a2=80002 a3=0 items=0 ppid=1 auid=4294967295 uid=1000 gid=1003 euid=1000 suid=1000 fsuid=1000 egid=1003 sgid=1003 fsgid=1003 tty=(none) ses=4294967295 exe="/system/bin/surfaceflinger" subj=u:r:surfaceflinger:s0 key=(null)
+05-24 06:52:46.539  2963  2963 W auditd  : type=1327 audit(0.0:640): proctitle="/system/bin/surfaceflinger"
+05-24 06:52:46.539  2963  2963 W auditd  : type=1320 audit(0.0:640): 
+05-24 06:52:46.546  3776  3776 W libEGL  : eglInitialize(0x7f87be9000) failed (EGL_NOT_INITIALIZED)
+05-24 06:52:46.547  3776  3776 I gralloc : using (id=)
+05-24 06:52:46.547  3776  3776 I gralloc : xres         = 1440 px
+05-24 06:52:46.547  3776  3776 I gralloc : yres         = 2560 px
+05-24 06:52:46.547  3776  3776 I gralloc : width        = 68 mm (537.882324 dpi)
+05-24 06:52:46.547  3776  3776 I gralloc : height       = 122 mm (532.983582 dpi)
+05-24 06:52:46.547  3776  3776 I gralloc : refresh rate = 59.42 Hz
+05-24 06:52:46.550  3776  3776 E HAL     : load: module=/system/lib64/hw/hwcomposer.exynos5.so
+05-24 06:52:46.550  3776  3776 E HAL     : dlopen failed: library "libExynosHWCService.so" not found
+05-24 06:52:46.550  3776  3776 E SurfaceFlinger: hwcomposer module not found
+05-24 06:52:46.550  3776  3776 W SurfaceFlinger: no suitable EGLConfig found, trying a simpler query
+05-24 06:52:46.550  3776  3776 F SurfaceFlinger: no suitable EGLConfig found, giving up
+05-24 06:52:46.550  3776  3776 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 3776 (surfaceflinger)
+05-24 06:52:46.550  3776  3776 F libc    : Unable to open connection to debuggerd: Connection refused
+05-24 06:52:46.539  3776  3776 W surfaceflinger: type=1701 audit(0.0:641): auid=4294967295 uid=1000 gid=1003 ses=4294967295 subj=u:r:surfaceflinger:s0 exe="/system/bin/surfaceflinger" sig=6
+05-24 06:52:47.626  3785  3785 I Netd    : Netd 1.0 starting
+05-24 06:52:47.626  3785  3785 I QtiConnectivityAdapter: Failed to open libconnctrl, some features may not be present.
+05-24 06:52:47.626  3785  3785 D TetherController: Setting IP forward enable = 0
+05-24 06:52:47.619  2963  2963 W auditd  : type=1325 audit(0.0:642): table=filter family=2 entries=52
+05-24 06:52:47.619  2963  2963 W auditd  : type=1320 audit(0.0:642): 
+05-24 06:52:47.629  2963  2963 W auditd  : type=1325 audit(0.0:643): table=filter family=10 entries=55
+05-24 06:52:47.629  2963  2963 W auditd  : type=1320 audit(0.0:643): 
+05-24 06:52:47.629  2963  2963 W auditd  : type=1325 audit(0.0:644): table=filter family=2 entries=51
+05-24 06:52:47.629  2963  2963 W auditd  : type=1320 audit(0.0:644): 
+05-24 06:52:47.639  2963  2963 W auditd  : type=1325 audit(0.0:645): table=filter family=10 entries=54
+05-24 06:52:47.639  2963  2963 W auditd  : type=1320 audit(0.0:645): 
+05-24 06:52:47.639  2963  2963 W auditd  : type=1325 audit(0.0:646): table=filter family=2 entries=50
+05-24 06:52:47.639  2963  2963 W auditd  : type=1320 audit(0.0:646): 
+05-24 06:52:47.649  2963  2963 W auditd  : type=1325 audit(0.0:647): table=filter family=10 entries=53
+05-24 06:52:47.649  2963  2963 W auditd  : type=1320 audit(0.0:647): 
+05-24 06:52:47.649  2963  2963 W auditd  : type=1325 audit(0.0:648): table=filter family=2 entries=48
+05-24 06:52:47.649  2963  2963 W auditd  : type=1320 audit(0.0:648): 
+05-24 06:52:47.649  2963  2963 W auditd  : type=1325 audit(0.0:649): table=filter family=10 entries=51
+05-24 06:52:47.649  2963  2963 W auditd  : type=1320 audit(0.0:649): 
+05-24 06:52:47.659  2963  2963 W auditd  : type=1325 audit(0.0:650): table=filter family=2 entries=50
+05-24 06:52:47.659  2963  2963 W auditd  : type=1320 audit(0.0:650): 
+05-24 06:52:47.659  2963  2963 W auditd  : type=1325 audit(0.0:651): table=filter family=10 entries=53
+05-24 06:52:47.659  2963  2963 W auditd  : type=1320 audit(0.0:651): 
+05-24 06:52:47.659  2963  2963 W auditd  : type=1325 audit(0.0:652): table=filter family=2 entries=51
+05-24 06:52:47.659  2963  2963 W auditd  : type=1320 audit(0.0:652): 
+05-24 06:52:47.669  2963  2963 W auditd  : type=1325 audit(0.0:653): table=filter family=10 entries=54
+05-24 06:52:48.294  3785  3785 V NatController: runCmd(/system/bin/iptables -w -F natctrl_FORWARD) res=0
+05-24 06:52:48.298  3785  3785 V NatController: runCmd(/system/bin/iptables -w -A natctrl_FORWARD -j DROP) res=0
+05-24 06:52:48.302  3785  3785 V NatController: runCmd(/system/bin/iptables -w -t nat -F natctrl_nat_POSTROUTING) res=0
+05-24 06:52:48.305  3785  3785 V NatController: runCmd(/system/bin/iptables -w -F natctrl_tether_counters) res=0
+05-24 06:52:48.309  3785  3785 V NatController: runCmd(/system/bin/iptables -w -X natctrl_tether_counters) res=0
+05-24 06:52:48.313  3785  3785 V NatController: runCmd(/system/bin/iptables -w -N natctrl_tether_counters) res=0
+05-24 06:52:48.317  3785  3785 V NatController: runCmd(/system/bin/iptables -w -t mangle -A natctrl_mangle_FORWARD -p tcp --tcp-flags SYN SYN -j TCPMSS --clamp-mss-to-pmtu) res=0
+05-24 06:52:48.542  3785  3785 E Netd    : cannot find interface dummy0
+05-24 06:52:48.542  3785  3785 E base.file: android::WriteStringToFile open failed: No such file or directory
+05-24 06:52:48.542  3785  3785 E Netd    : failed to write to /data/misc/net/rt_tables (No such file or directory)
+05-24 06:52:48.543  3785  3785 D MDnsDS  : MDnsSdListener::Hander starting up
+05-24 06:52:48.543  3785  4037 D MDnsDS  : MDnsSdListener starting to monitor
+05-24 06:52:48.543  3785  4037 D MDnsDS  : Going to poll with pollCount 1
+05-24 06:52:48.543  3785  3785 E Netd    : Unable to create pid file (No such file or directory)
+05-24 06:52:51.636  4041  4041 I SurfaceFlinger: SurfaceFlinger is starting
+05-24 06:52:51.637  4041  4041 E SchedPolicy: /system/bin/surfaceflinger add_tid_to_cgroup failed; fd=-1
+05-24 06:52:51.637  4041  4041 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+05-24 06:52:51.643  4041  4041 D libEGL  : loaded /vendor/lib64/egl/libGLES_mali.so
+05-24 06:52:51.639  4041  4041 W surfaceflinger: type=1400 audit(0.0:880): avc: denied { read write } for name="mali0" dev="tmpfs" ino=12889 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=0
+05-24 06:52:51.639  4041  4041 W surfaceflinger: type=1300 audit(0.0:880): arch=c00000b7 syscall=56 success=no exit=-13 a0=ffffff9c a1=7fc1856628 a2=80002 a3=0 items=0 ppid=1 auid=4294967295 uid=1000 gid=1003 euid=1000 suid=1000 fsuid=1000 egid=1003 sgid=1003 fsgid=1003 tty=(none) ses=4294967295 exe="/system/bin/surfaceflinger" subj=u:r:surfaceflinger:s0 key=(null)
+05-24 06:52:51.639  2963  2963 W auditd  : type=1327 audit(0.0:880): proctitle="/system/bin/surfaceflinger"
+05-24 06:52:51.639  2963  2963 W auditd  : type=1320 audit(0.0:880): 
+05-24 06:52:51.649  4041  4041 W libEGL  : eglInitialize(0x7f87e29000) failed (EGL_NOT_INITIALIZED)
+05-24 06:52:51.639  4041  4041 W surfaceflinger: type=1400 audit(0.0:881): avc: denied { read write } for name="mali0" dev="tmpfs" ino=12889 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=0
+05-24 06:52:51.639  4041  4041 W surfaceflinger: type=1300 audit(0.0:881): arch=c00000b7 syscall=56 success=no exit=-13 a0=ffffff9c a1=7fc1856628 a2=80002 a3=0 items=0 ppid=1 auid=4294967295 uid=1000 gid=1003 euid=1000 suid=1000 fsuid=1000 egid=1003 sgid=1003 fsgid=1003 tty=(none) ses=4294967295 exe="/system/bin/surfaceflinger" subj=u:r:surfaceflinger:s0 key=(null)
+05-24 06:52:51.639  2963  2963 W auditd  : type=1327 audit(0.0:881): proctitle="/system/bin/surfaceflinger"
+05-24 06:52:51.649  4041  4041 I gralloc : using (id=)
+05-24 06:52:51.649  4041  4041 I gralloc : xres         = 1440 px
+05-24 06:52:51.649  4041  4041 I gralloc : yres         = 2560 px
+05-24 06:52:51.649  4041  4041 I gralloc : width        = 68 mm (537.882324 dpi)
+05-24 06:52:51.649  4041  4041 I gralloc : height       = 122 mm (532.983582 dpi)
+05-24 06:52:51.649  4041  4041 I gralloc : refresh rate = 59.42 Hz
+05-24 06:52:51.639  2963  2963 W auditd  : type=1320 audit(0.0:881): 
+05-24 06:52:51.652  4041  4041 E HAL     : load: module=/system/lib64/hw/hwcomposer.exynos5.so
+05-24 06:52:51.652  4041  4041 E HAL     : dlopen failed: library "libExynosHWCService.so" not found
+05-24 06:52:51.652  4041  4041 E SurfaceFlinger: hwcomposer module not found
+05-24 06:52:51.652  4041  4041 W SurfaceFlinger: no suitable EGLConfig found, trying a simpler query
+05-24 06:52:51.652  4041  4041 F SurfaceFlinger: no suitable EGLConfig found, giving up
+05-24 06:52:51.652  4041  4041 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 4041 (surfaceflinger)
+05-24 06:52:51.652  4041  4041 F libc    : Unable to open connection to debuggerd: Connection refused
+05-24 06:52:51.639  4041  4041 W surfaceflinger: type=1701 audit(0.0:882): auid=4294967295 uid=1000 gid=1003 ses=4294967295 subj=u:r:surfaceflinger:s0 exe="/system/bin/surfaceflinger" sig=6
+05-24 06:52:52.775  4052  4052 I Netd    : Netd 1.0 starting
+05-24 06:52:52.775  4052  4052 I QtiConnectivityAdapter: Failed to open libconnctrl, some features may not be present.
+05-24 06:52:52.775  4052  4052 D TetherController: Setting IP forward enable = 0
+05-24 06:52:52.769  2963  2963 W auditd  : type=1325 audit(0.0:883): table=filter family=2 entries=52
+05-24 06:52:52.769  2963  2963 W auditd  : type=1320 audit(0.0:883): 
+05-24 06:52:52.779  2963  2963 W auditd  : type=1325 audit(0.0:884): table=filter family=10 entries=55
+05-24 06:52:52.779  2963  2963 W auditd  : type=1320 audit(0.0:884): 
+05-24 06:52:52.779  2963  2963 W auditd  : type=1325 audit(0.0:885): table=filter family=2 entries=51
+05-24 06:52:52.779  2963  2963 W auditd  : type=1320 audit(0.0:885): 
+05-24 06:52:52.779  2963  2963 W auditd  : type=1325 audit(0.0:886): table=filter family=10 entries=54
+05-24 06:52:52.779  2963  2963 W auditd  : type=1320 audit(0.0:886): 
+05-24 06:52:52.789  2963  2963 W auditd  : type=1325 audit(0.0:887): table=filter family=2 entries=50
+05-24 06:52:52.789  2963  2963 W auditd  : type=1320 audit(0.0:887): 
+05-24 06:52:52.789  2963  2963 W auditd  : type=1325 audit(0.0:888): table=filter family=10 entries=53
+05-24 06:52:52.789  2963  2963 W auditd  : type=1320 audit(0.0:888): 
+05-24 06:52:52.799  2963  2963 W auditd  : type=1325 audit(0.0:889): table=filter family=2 entries=48
+05-24 06:52:52.799  2963  2963 W auditd  : type=1320 audit(0.0:889): 
+05-24 06:52:52.799  2963  2963 W auditd  : type=1325 audit(0.0:890): table=filter family=10 entries=51
+05-24 06:52:52.799  2963  2963 W auditd  : type=1320 audit(0.0:890): 
+05-24 06:52:52.799  2963  2963 W auditd  : type=1325 audit(0.0:891): table=filter family=2 entries=50
+05-24 06:52:52.799  2963  2963 W auditd  : type=1320 audit(0.0:891): 
+05-24 06:52:52.809  2963  2963 W auditd  : type=1325 audit(0.0:892): table=filter family=10 entries=53
+05-24 06:52:52.809  2963  2963 W auditd  : type=1320 audit(0.0:892): 
+05-24 06:52:52.809  2963  2963 W auditd  : type=1325 audit(0.0:893): table=filter family=2 entries=51
+05-24 06:52:52.809  2963  2963 W auditd  : type=1320 audit(0.0:893): 
+05-24 06:52:52.819  2963  2963 W auditd  : type=1325 audit(0.0:894): table=filter family=10 entries=54
+05-24 06:52:52.819  2963  2963 W auditd  : type=1320 audit(0.0:894): 
+05-24 06:52:52.819  2963  2963 W auditd  : type=1325 audit(0.0:895): table=filter family=2 entries=50
+05-24 06:52:52.819  2963  2963 W auditd  : type=1320 audit(0.0:895): 
+05-24 06:52:52.819  2963  2963 W auditd  : type=1325 audit(0.0:896): table=filter family=10 entries=53
+05-24 06:52:52.819  2963  2963 W auditd  : type=1320 audit(0.0:896): 
+05-24 06:52:52.829  2963  2963 W auditd  : type=1325 audit(0.0:897): table=filter family=2 entries=50
+05-24 06:52:52.829  2963  2963 W auditd  : type=1320 audit(0.0:897): 
+05-24 06:52:52.829  2963  2963 W auditd  : type=1325 audit(0.0:898): table=filter family=10 entries=53
+05-24 06:52:53.441  4052  4052 V NatController: runCmd(/system/bin/iptables -w -F natctrl_FORWARD) res=0
+05-24 06:52:53.444  4052  4052 V NatController: runCmd(/system/bin/iptables -w -A natctrl_FORWARD -j DROP) res=0
+05-24 06:52:53.448  4052  4052 V NatController: runCmd(/system/bin/iptables -w -t nat -F natctrl_nat_POSTROUTING) res=0
+05-24 06:52:53.452  4052  4052 V NatController: runCmd(/system/bin/iptables -w -F natctrl_tether_counters) res=0
+05-24 06:52:53.456  4052  4052 V NatController: runCmd(/system/bin/iptables -w -X natctrl_tether_counters) res=0
+05-24 06:52:53.459  4052  4052 V NatController: runCmd(/system/bin/iptables -w -N natctrl_tether_counters) res=0
+05-24 06:52:53.463  4052  4052 V NatController: runCmd(/system/bin/iptables -w -t mangle -A natctrl_mangle_FORWARD -p tcp --tcp-flags SYN SYN -j TCPMSS --clamp-mss-to-pmtu) res=0
+05-24 06:52:53.681  4052  4052 E Netd    : cannot find interface dummy0
+05-24 06:52:53.681  4052  4052 E base.file: android::WriteStringToFile open failed: No such file or directory
+05-24 06:52:53.681  4052  4052 E Netd    : failed to write to /data/misc/net/rt_tables (No such file or directory)
+05-24 06:52:53.682  4052  4052 D MDnsDS  : MDnsSdListener::Hander starting up
+05-24 06:52:53.682  4052  4052 E Netd    : Unable to create pid file (No such file or directory)
+05-24 06:52:53.682  4052  4304 D MDnsDS  : MDnsSdListener starting to monitor
+05-24 06:52:53.682  4052  4304 D MDnsDS  : Going to poll with pollCount 1
+05-24 06:52:56.786  4308  4308 I SurfaceFlinger: SurfaceFlinger is starting
+05-24 06:52:56.786  4308  4308 E SchedPolicy: /system/bin/surfaceflinger add_tid_to_cgroup failed; fd=-1
+05-24 06:52:56.786  4308  4308 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+05-24 06:52:56.792  4308  4308 D libEGL  : loaded /vendor/lib64/egl/libGLES_mali.so
+05-24 06:52:56.789  4308  4308 W surfaceflinger: type=1400 audit(0.0:1121): avc: denied { read write } for name="mali0" dev="tmpfs" ino=12889 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=0
+05-24 06:52:56.789  4308  4308 W surfaceflinger: type=1300 audit(0.0:1121): arch=c00000b7 syscall=56 success=no exit=-13 a0=ffffff9c a1=7fe515b678 a2=80002 a3=0 items=0 ppid=1 auid=4294967295 uid=1000 gid=1003 euid=1000 suid=1000 fsuid=1000 egid=1003 sgid=1003 fsgid=1003 tty=(none) ses=4294967295 exe="/system/bin/surfaceflinger" subj=u:r:surfaceflinger:s0 key=(null)
+05-24 06:52:56.789  2963  2963 W auditd  : type=1327 audit(0.0:1121): proctitle="/system/bin/surfaceflinger"
+05-24 06:52:56.789  2963  2963 W auditd  : type=1320 audit(0.0:1121): 
+05-24 06:52:56.789  4308  4308 W surfaceflinger: type=1400 audit(0.0:1122): avc: denied { read write } for name="mali0" dev="tmpfs" ino=12889 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=0
+05-24 06:52:56.789  4308  4308 W surfaceflinger: type=1300 audit(0.0:1122): arch=c00000b7 syscall=56 success=no exit=-13 a0=ffffff9c a1=7fe515b678 a2=80002 a3=0 items=0 ppid=1 auid=4294967295 uid=1000 gid=1003 euid=1000 suid=1000 fsuid=1000 egid=1003 sgid=1003 fsgid=1003 tty=(none) ses=4294967295 exe="/system/bin/surfaceflinger" subj=u:r:surfaceflinger:s0 key=(null)
+05-24 06:52:56.789  2963  2963 W auditd  : type=1327 audit(0.0:1122): proctitle="/system/bin/surfaceflinger"
+05-24 06:52:56.789  2963  2963 W auditd  : type=1320 audit(0.0:1122): 
+05-24 06:52:56.798  4308  4308 W libEGL  : eglInitialize(0x7fb3769000) failed (EGL_NOT_INITIALIZED)
+05-24 06:52:56.798  4308  4308 I gralloc : using (id=)
+05-24 06:52:56.798  4308  4308 I gralloc : xres         = 1440 px
+05-24 06:52:56.798  4308  4308 I gralloc : yres         = 2560 px
+05-24 06:52:56.798  4308  4308 I gralloc : width        = 68 mm (537.882324 dpi)
+05-24 06:52:56.798  4308  4308 I gralloc : height       = 122 mm (532.983582 dpi)
+05-24 06:52:56.798  4308  4308 I gralloc : refresh rate = 59.42 Hz
+05-24 06:52:56.801  4308  4308 E HAL     : load: module=/system/lib64/hw/hwcomposer.exynos5.so
+05-24 06:52:56.801  4308  4308 E HAL     : dlopen failed: library "libExynosHWCService.so" not found
+05-24 06:52:56.801  4308  4308 E SurfaceFlinger: hwcomposer module not found
+05-24 06:52:56.801  4308  4308 W SurfaceFlinger: no suitable EGLConfig found, trying a simpler query
+05-24 06:52:56.801  4308  4308 F SurfaceFlinger: no suitable EGLConfig found, giving up
+05-24 06:52:56.801  4308  4308 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 4308 (surfaceflinger)
+05-24 06:52:56.801  4308  4308 F libc    : Unable to open connection to debuggerd: Connection refused
+05-24 06:52:56.789  4308  4308 W surfaceflinger: type=1701 audit(0.0:1123): auid=4294967295 uid=1000 gid=1003 ses=4294967295 subj=u:r:surfaceflinger:s0 exe="/system/bin/surfaceflinger" sig=6
+05-24 06:52:57.817  4317  4317 I Netd    : Netd 1.0 starting
+05-24 06:52:57.817  4317  4317 I QtiConnectivityAdapter: Failed to open libconnctrl, some features may not be present.
+05-24 06:52:57.817  4317  4317 D TetherController: Setting IP forward enable = 0
+05-24 06:52:57.819  2963  2963 W auditd  : type=1325 audit(0.0:1124): table=filter family=2 entries=52
+05-24 06:52:57.819  2963  2963 W auditd  : type=1320 audit(0.0:1124): 
+05-24 06:52:57.819  2963  2963 W auditd  : type=1325 audit(0.0:1125): table=filter family=10 entries=55
+05-24 06:52:57.819  2963  2963 W auditd  : type=1320 audit(0.0:1125): 
+05-24 06:52:57.819  2963  2963 W auditd  : type=1325 audit(0.0:1126): table=filter family=2 entries=51
+05-24 06:52:57.819  2963  2963 W auditd  : type=1320 audit(0.0:1126): 
+05-24 06:52:57.829  2963  2963 W auditd  : type=1325 audit(0.0:1127): table=filter family=10 entries=54
+05-24 06:52:57.829  2963  2963 W auditd  : type=1320 audit(0.0:1127): 
+05-24 06:52:57.829  2963  2963 W auditd  : type=1325 audit(0.0:1128): table=filter family=2 entries=50
+05-24 06:52:57.829  2963  2963 W auditd  : type=1320 audit(0.0:1128): 
+05-24 06:52:57.829  2963  2963 W auditd  : type=1325 audit(0.0:1129): table=filter family=10 entries=53
+05-24 06:52:57.829  2963  2963 W auditd  : type=1320 audit(0.0:1129): 
+05-24 06:52:57.839  2963  2963 W auditd  : type=1325 audit(0.0:1130): table=filter family=2 entries=48
+05-24 06:52:57.839  2963  2963 W auditd  : type=1320 audit(0.0:1130): 
+05-24 06:52:57.839  2963  2963 W auditd  : type=1325 audit(0.0:1131): table=filter family=10 entries=51
+05-24 06:52:57.839  2963  2963 W auditd  : type=1320 audit(0.0:1131): 
+05-24 06:52:57.849  2963  2963 W auditd  : type=1325 audit(0.0:1132): table=filter family=2 entries=50
+05-24 06:52:57.849  2963  2963 W auditd  : type=1320 audit(0.0:1132): 
+05-24 06:52:57.849  2963  2963 W auditd  : type=1325 audit(0.0:1133): table=filter family=10 entries=53
+05-24 06:52:57.849  2963  2963 W auditd  : type=1320 audit(0.0:1133): 
+05-24 06:52:57.849  2963  2963 W auditd  : type=1325 audit(0.0:1134): table=filter family=2 entries=51
+05-24 06:52:57.849  2963  2963 W auditd  : type=1320 audit(0.0:1134): 
+05-24 06:52:57.859  2963  2963 W auditd  : type=1325 audit(0.0:1135): table=filter family=10 entries=54
+05-24 06:52:57.859  2963  2963 W auditd  : type=1320 audit(0.0:1135): 
+05-24 06:52:57.859  2963  2963 W auditd  : type=1325 audit(0.0:1136): table=filter family=2 entries=50
+05-24 06:52:57.859  2963  2963 W auditd  : type=1320 audit(0.0:1136): 
+05-24 06:52:57.869  2963  2963 W auditd  : type=1325 audit(0.0:1137): table=filter family=10 entries=53
+05-24 06:52:57.869  2963  2963 W auditd  : type=1320 audit(0.0:1137): 
+05-24 06:52:57.869  2963  2963 W auditd  : type=1325 audit(0.0:1138): table=filter family=2 entries=50
+05-24 06:52:57.869  2963  2963 W auditd  : type=1320 audit(0.0:1138): 
+05-24 06:52:57.869  2963  2963 W auditd  : type=1325 audit(0.0:1139): table=filter family=10 entries=53
+05-24 06:52:58.483  4317  4317 V NatController: runCmd(/system/bin/iptables -w -F natctrl_FORWARD) res=0
+05-24 06:52:58.487  4317  4317 V NatController: runCmd(/system/bin/iptables -w -A natctrl_FORWARD -j DROP) res=0
+05-24 06:52:58.490  4317  4317 V NatController: runCmd(/system/bin/iptables -w -t nat -F natctrl_nat_POSTROUTING) res=0
+05-24 06:52:58.494  4317  4317 V NatController: runCmd(/system/bin/iptables -w -F natctrl_tether_counters) res=0
+05-24 06:52:58.498  4317  4317 V NatController: runCmd(/system/bin/iptables -w -X natctrl_tether_counters) res=0
+05-24 06:52:58.502  4317  4317 V NatController: runCmd(/system/bin/iptables -w -N natctrl_tether_counters) res=0
+05-24 06:52:58.505  4317  4317 V NatController: runCmd(/system/bin/iptables -w -t mangle -A natctrl_mangle_FORWARD -p tcp --tcp-flags SYN SYN -j TCPMSS --clamp-mss-to-pmtu) res=0
+05-24 06:52:58.723  4317  4317 E Netd    : cannot find interface dummy0
+05-24 06:52:58.723  4317  4317 E base.file: android::WriteStringToFile open failed: No such file or directory
+05-24 06:52:58.723  4317  4317 E Netd    : failed to write to /data/misc/net/rt_tables (No such file or directory)
+05-24 06:52:58.723  4317  4317 D MDnsDS  : MDnsSdListener::Hander starting up
+05-24 06:52:58.723  4317  4569 D MDnsDS  : MDnsSdListener starting to monitor
+05-24 06:52:58.723  4317  4569 D MDnsDS  : Going to poll with pollCount 1
+05-24 06:52:58.724  4317  4317 E Netd    : Unable to create pid file (No such file or directory)
+05-24 06:53:01.828  4574  4574 I SurfaceFlinger: SurfaceFlinger is starting
+05-24 06:53:01.828  4574  4574 E SchedPolicy: /system/bin/surfaceflinger add_tid_to_cgroup failed; fd=-1
+05-24 06:53:01.828  4574  4574 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+05-24 06:53:01.834  4574  4574 D libEGL  : loaded /vendor/lib64/egl/libGLES_mali.so
+05-24 06:53:01.829  4574  4574 W surfaceflinger: type=1400 audit(0.0:1362): avc: denied { read write } for name="mali0" dev="tmpfs" ino=12889 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=0
+05-24 06:53:01.829  4574  4574 W surfaceflinger: type=1300 audit(0.0:1362): arch=c00000b7 syscall=56 success=no exit=-13 a0=ffffff9c a1=7fd6a49528 a2=80002 a3=0 items=0 ppid=1 auid=4294967295 uid=1000 gid=1003 euid=1000 suid=1000 fsuid=1000 egid=1003 sgid=1003 fsgid=1003 tty=(none) ses=4294967295 exe="/system/bin/surfaceflinger" subj=u:r:surfaceflinger:s0 key=(null)
+05-24 06:53:01.829  2963  2963 W auditd  : type=1327 audit(0.0:1362): proctitle="/system/bin/surfaceflinger"
+05-24 06:53:01.829  2963  2963 W auditd  : type=1320 audit(0.0:1362): 
+05-24 06:53:01.829  4574  4574 W surfaceflinger: type=1400 audit(0.0:1363): avc: denied { read write } for name="mali0" dev="tmpfs" ino=12889 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=0
+05-24 06:53:01.829  4574  4574 W surfaceflinger: type=1300 audit(0.0:1363): arch=c00000b7 syscall=56 success=no exit=-13 a0=ffffff9c a1=7fd6a49528 a2=80002 a3=0 items=0 ppid=1 auid=4294967295 uid=1000 gid=1003 euid=1000 suid=1000 fsuid=1000 egid=1003 sgid=1003 fsgid=1003 tty=(none) ses=4294967295 exe="/system/bin/surfaceflinger" subj=u:r:surfaceflinger:s0 key=(null)
+05-24 06:53:01.829  2963  2963 W auditd  : type=1327 audit(0.0:1363): proctitle="/system/bin/surfaceflinger"
+05-24 06:53:01.829  2963  2963 W auditd  : type=1320 audit(0.0:1363): 
+05-24 06:53:01.839  4574  4574 W libEGL  : eglInitialize(0x7fab129000) failed (EGL_NOT_INITIALIZED)
+05-24 06:53:01.840  4574  4574 I gralloc : using (id=)
+05-24 06:53:01.840  4574  4574 I gralloc : xres         = 1440 px
+05-24 06:53:01.840  4574  4574 I gralloc : yres         = 2560 px
+05-24 06:53:01.840  4574  4574 I gralloc : width        = 68 mm (537.882324 dpi)
+05-24 06:53:01.840  4574  4574 I gralloc : height       = 122 mm (532.983582 dpi)
+05-24 06:53:01.840  4574  4574 I gralloc : refresh rate = 59.42 Hz
+05-24 06:53:01.843  4574  4574 E HAL     : load: module=/system/lib64/hw/hwcomposer.exynos5.so
+05-24 06:53:01.843  4574  4574 E HAL     : dlopen failed: library "libExynosHWCService.so" not found
+05-24 06:53:01.843  4574  4574 E SurfaceFlinger: hwcomposer module not found
+05-24 06:53:01.843  4574  4574 W SurfaceFlinger: no suitable EGLConfig found, trying a simpler query
+05-24 06:53:01.843  4574  4574 F SurfaceFlinger: no suitable EGLConfig found, giving up
+05-24 06:53:01.843  4574  4574 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 4574 (surfaceflinger)
+05-24 06:53:01.843  4574  4574 F libc    : Unable to open connection to debuggerd: Connection refused
+05-24 06:53:01.829  4574  4574 W surfaceflinger: type=1701 audit(0.0:1364): auid=4294967295 uid=1000 gid=1003 ses=4294967295 subj=u:r:surfaceflinger:s0 exe="/system/bin/surfaceflinger" sig=6
+05-24 06:53:02.869  4583  4583 I Netd    : Netd 1.0 starting
+05-24 06:53:02.869  4583  4583 I QtiConnectivityAdapter: Failed to open libconnctrl, some features may not be present.
+05-24 06:53:02.869  4583  4583 D TetherController: Setting IP forward enable = 0
+05-24 06:53:02.869  2963  2963 W auditd  : type=1325 audit(0.0:1365): table=filter family=2 entries=52
+05-24 06:53:02.869  2963  2963 W auditd  : type=1320 audit(0.0:1365): 
+05-24 06:53:02.869  2963  2963 W auditd  : type=1325 audit(0.0:1366): table=filter family=10 entries=55
+05-24 06:53:02.869  2963  2963 W auditd  : type=1320 audit(0.0:1366): 
+05-24 06:53:02.879  2963  2963 W auditd  : type=1325 audit(0.0:1367): table=filter family=2 entries=51
+05-24 06:53:02.879  2963  2963 W auditd  : type=1320 audit(0.0:1367): 
+05-24 06:53:02.879  2963  2963 W auditd  : type=1325 audit(0.0:1368): table=filter family=10 entries=54
+05-24 06:53:02.879  2963  2963 W auditd  : type=1320 audit(0.0:1368): 
+05-24 06:53:02.879  2963  2963 W auditd  : type=1325 audit(0.0:1369): table=filter family=2 entries=50
+05-24 06:53:02.879  2963  2963 W auditd  : type=1320 audit(0.0:1369): 
+05-24 06:53:02.889  2963  2963 W auditd  : type=1325 audit(0.0:1370): table=filter family=10 entries=53
+05-24 06:53:02.889  2963  2963 W auditd  : type=1320 audit(0.0:1370): 
+05-24 06:53:02.889  2963  2963 W auditd  : type=1325 audit(0.0:1371): table=filter family=2 entries=48
+05-24 06:53:02.889  2963  2963 W auditd  : type=1320 audit(0.0:1371): 
+05-24 06:53:02.899  2963  2963 W auditd  : type=1325 audit(0.0:1372): table=filter family=10 entries=51
+05-24 06:53:02.899  2963  2963 W auditd  : type=1320 audit(0.0:1372): 
+05-24 06:53:02.899  2963  2963 W auditd  : type=1325 audit(0.0:1373): table=filter family=2 entries=50
+05-24 06:53:02.899  2963  2963 W auditd  : type=1320 audit(0.0:1373): 
+05-24 06:53:02.899  2963  2963 W auditd  : type=1325 audit(0.0:1374): table=filter family=10 entries=53
+05-24 06:53:02.899  2963  2963 W auditd  : type=1320 audit(0.0:1374): 
+05-24 06:53:02.909  2963  2963 W auditd  : type=1325 audit(0.0:1375): table=filter family=2 entries=51
+05-24 06:53:02.909  2963  2963 W auditd  : type=1320 audit(0.0:1375): 
+05-24 06:53:02.909  2963  2963 W auditd  : type=1325 audit(0.0:1376): table=filter family=10 entries=54
+05-24 06:53:02.909  2963  2963 W auditd  : type=1320 audit(0.0:1376): 
+05-24 06:53:02.909  2963  2963 W auditd  : type=1325 audit(0.0:1377): table=filter family=2 entries=50
+05-24 06:53:02.909  2963  2963 W auditd  : type=1320 audit(0.0:1377): 
+05-24 06:53:02.919  2963  2963 W auditd  : type=1325 audit(0.0:1378): table=filter family=10 entries=53
+05-24 06:53:02.919  2963  2963 W auditd  : type=1320 audit(0.0:1378): 
+05-24 06:53:02.919  2963  2963 W auditd  : type=1325 audit(0.0:1379): table=filter family=2 entries=50
+05-24 06:53:02.919  2963  2963 W auditd  : type=1320 audit(0.0:1379): 
+05-24 06:53:02.929  2963  2963 W auditd  : type=1325 audit(0.0:1380): table=filter family=10 entries=53
+05-24 06:53:03.536  4583  4583 V NatController: runCmd(/system/bin/iptables -w -F natctrl_FORWARD) res=0
+05-24 06:53:03.539  4583  4583 V NatController: runCmd(/system/bin/iptables -w -A natctrl_FORWARD -j DROP) res=0
+05-24 06:53:03.543  4583  4583 V NatController: runCmd(/system/bin/iptables -w -t nat -F natctrl_nat_POSTROUTING) res=0
+05-24 06:53:03.547  4583  4583 V NatController: runCmd(/system/bin/iptables -w -F natctrl_tether_counters) res=0
+05-24 06:53:03.550  4583  4583 V NatController: runCmd(/system/bin/iptables -w -X natctrl_tether_counters) res=0
+05-24 06:53:03.554  4583  4583 V NatController: runCmd(/system/bin/iptables -w -N natctrl_tether_counters) res=0
+05-24 06:53:03.558  4583  4583 V NatController: runCmd(/system/bin/iptables -w -t mangle -A natctrl_mangle_FORWARD -p tcp --tcp-flags SYN SYN -j TCPMSS --clamp-mss-to-pmtu) res=0
+05-24 06:53:03.776  4583  4583 E Netd    : cannot find interface dummy0
+05-24 06:53:03.776  4583  4583 E base.file: android::WriteStringToFile open failed: No such file or directory
+05-24 06:53:03.776  4583  4583 E Netd    : failed to write to /data/misc/net/rt_tables (No such file or directory)
+05-24 06:53:03.777  4583  4583 D MDnsDS  : MDnsSdListener::Hander starting up
+05-24 06:53:03.777  4583  4835 D MDnsDS  : MDnsSdListener starting to monitor
+05-24 06:53:03.777  4583  4835 D MDnsDS  : Going to poll with pollCount 1
+05-24 06:53:03.777  4583  4583 E Netd    : Unable to create pid file (No such file or directory)
+05-24 06:53:06.880  4839  4839 I SurfaceFlinger: SurfaceFlinger is starting
+05-24 06:53:06.880  4839  4839 E SchedPolicy: /system/bin/surfaceflinger add_tid_to_cgroup failed; fd=-1
+05-24 06:53:06.880  4839  4839 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+05-24 06:53:06.886  4839  4839 D libEGL  : loaded /vendor/lib64/egl/libGLES_mali.so
+05-24 06:53:06.879  4839  4839 W surfaceflinger: type=1400 audit(0.0:1603): avc: denied { read write } for name="mali0" dev="tmpfs" ino=12889 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=0
+05-24 06:53:06.879  4839  4839 W surfaceflinger: type=1300 audit(0.0:1603): arch=c00000b7 syscall=56 success=no exit=-13 a0=ffffff9c a1=7fdf5f3048 a2=80002 a3=0 items=0 ppid=1 auid=4294967295 uid=1000 gid=1003 euid=1000 suid=1000 fsuid=1000 egid=1003 sgid=1003 fsgid=1003 tty=(none) ses=4294967295 exe="/system/bin/surfaceflinger" subj=u:r:surfaceflinger:s0 key=(null)
+05-24 06:53:06.879  2963  2963 W auditd  : type=1327 audit(0.0:1603): proctitle="/system/bin/surfaceflinger"
+05-24 06:53:06.879  2963  2963 W auditd  : type=1320 audit(0.0:1603): 
+05-24 06:53:06.879  4839  4839 W surfaceflinger: type=1400 audit(0.0:1604): avc: denied { read write } for name="mali0" dev="tmpfs" ino=12889 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=0
+05-24 06:53:06.879  4839  4839 W surfaceflinger: type=1300 audit(0.0:1604): arch=c00000b7 syscall=56 success=no exit=-13 a0=ffffff9c a1=7fdf5f3048 a2=80002 a3=0 items=0 ppid=1 auid=4294967295 uid=1000 gid=1003 euid=1000 suid=1000 fsuid=1000 egid=1003 sgid=1003 fsgid=1003 tty=(none) ses=4294967295 exe="/system/bin/surfaceflinger" subj=u:r:surfaceflinger:s0 key=(null)
+05-24 06:53:06.879  2963  2963 W auditd  : type=1327 audit(0.0:1604): proctitle="/system/bin/surfaceflinger"
+05-24 06:53:06.879  2963  2963 W auditd  : type=1320 audit(0.0:1604): 
+05-24 06:53:06.891  4839  4839 W libEGL  : eglInitialize(0x7f904e9000) failed (EGL_NOT_INITIALIZED)
+05-24 06:53:06.892  4839  4839 I gralloc : using (id=)
+05-24 06:53:06.892  4839  4839 I gralloc : xres         = 1440 px
+05-24 06:53:06.892  4839  4839 I gralloc : yres         = 2560 px
+05-24 06:53:06.892  4839  4839 I gralloc : width        = 68 mm (537.882324 dpi)
+05-24 06:53:06.892  4839  4839 I gralloc : height       = 122 mm (532.983582 dpi)
+05-24 06:53:06.892  4839  4839 I gralloc : refresh rate = 59.42 Hz
+05-24 06:53:06.894  4839  4839 E HAL     : load: module=/system/lib64/hw/hwcomposer.exynos5.so
+05-24 06:53:06.894  4839  4839 E HAL     : dlopen failed: library "libExynosHWCService.so" not found
+05-24 06:53:06.894  4839  4839 E SurfaceFlinger: hwcomposer module not found
+05-24 06:53:06.894  4839  4839 W SurfaceFlinger: no suitable EGLConfig found, trying a simpler query
+05-24 06:53:06.894  4839  4839 F SurfaceFlinger: no suitable EGLConfig found, giving up
+05-24 06:53:06.895  4839  4839 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 4839 (surfaceflinger)
+05-24 06:53:06.895  4839  4839 F libc    : Unable to open connection to debuggerd: Connection refused
+05-24 06:53:06.889  4839  4839 W surfaceflinger: type=1701 audit(0.0:1605): auid=4294967295 uid=1000 gid=1003 ses=4294967295 subj=u:r:surfaceflinger:s0 exe="/system/bin/surfaceflinger" sig=6
+05-24 06:53:07.910  4848  4848 I Netd    : Netd 1.0 starting
+05-24 06:53:07.910  4848  4848 I QtiConnectivityAdapter: Failed to open libconnctrl, some features may not be present.
+05-24 06:53:07.910  4848  4848 D TetherController: Setting IP forward enable = 0
+05-24 06:53:07.909  2963  2963 W auditd  : type=1325 audit(0.0:1606): table=filter family=2 entries=52
+05-24 06:53:07.909  2963  2963 W auditd  : type=1320 audit(0.0:1606): 
+05-24 06:53:07.909  2963  2963 W auditd  : type=1325 audit(0.0:1607): table=filter family=10 entries=55
+05-24 06:53:07.909  2963  2963 W auditd  : type=1320 audit(0.0:1607): 
+05-24 06:53:07.919  2963  2963 W auditd  : type=1325 audit(0.0:1608): table=filter family=2 entries=51
+05-24 06:53:07.919  2963  2963 W auditd  : type=1320 audit(0.0:1608): 
+05-24 06:53:07.919  2963  2963 W auditd  : type=1325 audit(0.0:1609): table=filter family=10 entries=54
+05-24 06:53:07.919  2963  2963 W auditd  : type=1320 audit(0.0:1609): 
+05-24 06:53:07.919  2963  2963 W auditd  : type=1325 audit(0.0:1610): table=filter family=2 entries=50
+05-24 06:53:07.919  2963  2963 W auditd  : type=1320 audit(0.0:1610): 
+05-24 06:53:07.929  2963  2963 W auditd  : type=1325 audit(0.0:1611): table=filter family=10 entries=53
+05-24 06:53:07.929  2963  2963 W auditd  : type=1320 audit(0.0:1611): 
+05-24 06:53:07.929  2963  2963 W auditd  : type=1325 audit(0.0:1612): table=filter family=2 entries=48
+05-24 06:53:07.929  2963  2963 W auditd  : type=1320 audit(0.0:1612): 
+05-24 06:53:07.939  2963  2963 W auditd  : type=1325 audit(0.0:1613): table=filter family=10 entries=51
+05-24 06:53:07.939  2963  2963 W auditd  : type=1320 audit(0.0:1613): 
+05-24 06:53:07.939  2963  2963 W auditd  : type=1325 audit(0.0:1614): table=filter family=2 entries=50
+05-24 06:53:07.939  2963  2963 W auditd  : type=1320 audit(0.0:1614): 
+05-24 06:53:07.939  2963  2963 W auditd  : type=1325 audit(0.0:1615): table=filter family=10 entries=53
+05-24 06:53:07.939  2963  2963 W auditd  : type=1320 audit(0.0:1615): 
+05-24 06:53:07.949  2963  2963 W auditd  : type=1325 audit(0.0:1616): table=filter family=2 entries=51
+05-24 06:53:07.949  2963  2963 W auditd  : type=1320 audit(0.0:1616): 
+05-24 06:53:07.949  2963  2963 W auditd  : type=1325 audit(0.0:1617): table=filter family=10 entries=54
+05-24 06:53:07.949  2963  2963 W auditd  : type=1320 audit(0.0:1617): 
+05-24 06:53:07.959  2963  2963 W auditd  : type=1325 audit(0.0:1618): table=filter family=2 entries=50
+05-24 06:53:07.959  2963  2963 W auditd  : type=1320 audit(0.0:1618): 
+05-24 06:53:07.959  2963  2963 W auditd  : type=1325 audit(0.0:1619): table=filter family=10 entries=53
+05-24 06:53:07.959  2963  2963 W auditd  : type=1320 audit(0.0:1619): 
+05-24 06:53:07.959  2963  2963 W auditd  : type=1325 audit(0.0:1620): table=filter family=2 entries=50
+05-24 06:53:07.959  2963  2963 W auditd  : type=1320 audit(0.0:1620): 
+05-24 06:53:07.969  2963  2963 W auditd  : type=1325 audit(0.0:1621): table=filter family=10 entries=53
+05-24 06:53:08.586  4848  4848 V NatController: runCmd(/system/bin/iptables -w -F natctrl_FORWARD) res=0
+05-24 06:53:08.590  4848  4848 V NatController: runCmd(/system/bin/iptables -w -A natctrl_FORWARD -j DROP) res=0
+05-24 06:53:08.593  4848  4848 V NatController: runCmd(/system/bin/iptables -w -t nat -F natctrl_nat_POSTROUTING) res=0
+05-24 06:53:08.597  4848  4848 V NatController: runCmd(/system/bin/iptables -w -F natctrl_tether_counters) res=0
+05-24 06:53:08.601  4848  4848 V NatController: runCmd(/system/bin/iptables -w -X natctrl_tether_counters) res=0
+05-24 06:53:08.605  4848  4848 V NatController: runCmd(/system/bin/iptables -w -N natctrl_tether_counters) res=0
+05-24 06:53:08.608  4848  4848 V NatController: runCmd(/system/bin/iptables -w -t mangle -A natctrl_mangle_FORWARD -p tcp --tcp-flags SYN SYN -j TCPMSS --clamp-mss-to-pmtu) res=0
+05-24 06:53:08.827  4848  4848 E Netd    : cannot find interface dummy0
+05-24 06:53:08.827  4848  4848 E base.file: android::WriteStringToFile open failed: No such file or directory
+05-24 06:53:08.827  4848  4848 E Netd    : failed to write to /data/misc/net/rt_tables (No such file or directory)
+05-24 06:53:08.828  4848  4848 D MDnsDS  : MDnsSdListener::Hander starting up
+05-24 06:53:08.828  4848  5100 D MDnsDS  : MDnsSdListener starting to monitor
+05-24 06:53:08.828  4848  5100 D MDnsDS  : Going to poll with pollCount 1
+05-24 06:53:08.828  4848  4848 E Netd    : Unable to create pid file (No such file or directory)
+05-24 06:53:11.943  5107  5107 I SurfaceFlinger: SurfaceFlinger is starting
+05-24 06:53:11.943  5107  5107 E SchedPolicy: /system/bin/surfaceflinger add_tid_to_cgroup failed; fd=-1
+05-24 06:53:11.943  5107  5107 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+05-24 06:53:11.951  5107  5107 D libEGL  : loaded /vendor/lib64/egl/libGLES_mali.so
+05-24 06:53:11.956  5107  5107 W libEGL  : eglInitialize(0x7fade69000) failed (EGL_NOT_INITIALIZED)
+05-24 06:53:11.949  5107  5107 W surfaceflinger: type=1400 audit(0.0:1844): avc: denied { read write } for name="mali0" dev="tmpfs" ino=12889 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=0
+05-24 06:53:11.949  5107  5107 W surfaceflinger: type=1300 audit(0.0:1844): arch=c00000b7 syscall=56 success=no exit=-13 a0=ffffff9c a1=7ff680a3f8 a2=80002 a3=0 items=0 ppid=1 auid=4294967295 uid=1000 gid=1003 euid=1000 suid=1000 fsuid=1000 egid=1003 sgid=1003 fsgid=1003 tty=(none) ses=4294967295 exe="/system/bin/surfaceflinger" subj=u:r:surfaceflinger:s0 key=(null)
+05-24 06:53:11.949  2963  2963 W auditd  : type=1327 audit(0.0:1844): proctitle="/system/bin/surfaceflinger"
+05-24 06:53:11.949  2963  2963 W auditd  : type=1320 audit(0.0:1844): 
+05-24 06:53:11.949  5107  5107 W surfaceflinger: type=1400 audit(0.0:1845): avc: denied { read write } for name="mali0" dev="tmpfs" ino=12889 scontext=u:r:surfaceflinger:s0 tcontext=u:object_r:device:s0 tclass=chr_file permissive=0
+05-24 06:53:11.949  5107  5107 W surfaceflinger: type=1300 audit(0.0:1845): arch=c00000b7 syscall=56 success=no exit=-13 a0=ffffff9c a1=7ff680a3f8 a2=80002 a3=0 items=0 ppid=1 auid=4294967295 uid=1000 gid=1003 euid=1000 suid=1000 fsuid=1000 egid=1003 sgid=1003 fsgid=1003 tty=(none) ses=4294967295 exe="/system/bin/surfaceflinger" subj=u:r:surfaceflinger:s0 key=(null)
+05-24 06:53:11.949  2963  2963 W auditd  : type=1327 audit(0.0:1845): proctitle="/system/bin/surfaceflinger"
+05-24 06:53:11.956  5107  5107 I gralloc : using (id=)
+05-24 06:53:11.956  5107  5107 I gralloc : xres         = 1440 px
+05-24 06:53:11.956  5107  5107 I gralloc : yres         = 2560 px
+05-24 06:53:11.956  5107  5107 I gralloc : width        = 68 mm (537.882324 dpi)
+05-24 06:53:11.956  5107  5107 I gralloc : height       = 122 mm (532.983582 dpi)
+05-24 06:53:11.956  5107  5107 I gralloc : refresh rate = 59.42 Hz
+05-24 06:53:11.949  2963  2963 W auditd  : type=1320 audit(0.0:1845): 
+05-24 06:53:11.959  5107  5107 E HAL     : load: module=/system/lib64/hw/hwcomposer.exynos5.so
+05-24 06:53:11.959  5107  5107 E HAL     : dlopen failed: library "libExynosHWCService.so" not found
+05-24 06:53:11.959  5107  5107 E SurfaceFlinger: hwcomposer module not found
+05-24 06:53:11.959  5107  5107 W SurfaceFlinger: no suitable EGLConfig found, trying a simpler query
+05-24 06:53:11.959  5107  5107 F SurfaceFlinger: no suitable EGLConfig found, giving up
+05-24 06:53:11.959  5107  5107 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 5107 (surfaceflinger)
+05-24 06:53:11.959  5107  5107 F libc    : Unable to open connection to debuggerd: Connection refused
+05-24 06:53:11.949  5107  5107 W surfaceflinger: type=1701 audit(0.0:1846): auid=4294967295 uid=1000 gid=1003 ses=4294967295 subj=u:r:surfaceflinger:s0 exe="/system/bin/surfaceflinger" sig=6
+05-24 06:53:12.997  5116  5116 I Netd    : Netd 1.0 starting
+05-24 06:53:12.998  5116  5116 I QtiConnectivityAdapter: Failed to open libconnctrl, some features may not be present.
+05-24 06:53:12.998  5116  5116 D TetherController: Setting IP forward enable = 0
+05-24 06:53:12.999  2963  2963 W auditd  : type=1325 audit(0.0:1847): table=filter family=2 entries=52
+05-24 06:53:12.999  2963  2963 W auditd  : type=1320 audit(0.0:1847): 
+05-24 06:53:12.999  2963  2963 W auditd  : type=1325 audit(0.0:1848): table=filter family=10 entries=55
+05-24 06:53:12.999  2963  2963 W auditd  : type=1320 audit(0.0:1848): 
+05-24 06:53:12.999  2963  2963 W auditd  : type=1325 audit(0.0:1849): table=filter family=2 entries=51
+05-24 06:53:12.999  2963  2963 W auditd  : type=1320 audit(0.0:1849): 
+05-24 06:53:13.009  2963  2963 W auditd  : type=1325 audit(0.0:1850): table=filter family=10 entries=54
+05-24 06:53:13.009  2963  2963 W auditd  : type=1320 audit(0.0:1850): 
+05-24 06:53:13.009  2963  2963 W auditd  : type=1325 audit(0.0:1851): table=filter family=2 entries=50
+05-24 06:53:13.009  2963  2963 W auditd  : type=1320 audit(0.0:1851): 
+05-24 06:53:13.009  2963  2963 W auditd  : type=1325 audit(0.0:1852): table=filter family=10 entries=53
+05-24 06:53:13.009  2963  2963 W auditd  : type=1320 audit(0.0:1852): 
+05-24 06:53:13.019  2963  2963 W auditd  : type=1325 audit(0.0:1853): table=filter family=2 entries=48
+05-24 06:53:13.019  2963  2963 W auditd  : type=1320 audit(0.0:1853): 
+05-24 06:53:13.019  2963  2963 W auditd  : type=1325 audit(0.0:1854): table=filter family=10 entries=51
+05-24 06:53:13.019  2963  2963 W auditd  : type=1320 audit(0.0:1854): 
+05-24 06:53:13.029  2963  2963 W auditd  : type=1325 audit(0.0:1855): table=filter family=2 entries=50
+05-24 06:53:13.029  2963  2963 W auditd  : type=1320 audit(0.0:1855): 
+05-24 06:53:13.029  2963  2963 W auditd  : type=1325 audit(0.0:1856): table=filter family=10 entries=53
+05-24 06:53:13.029  2963  2963 W auditd  : type=1320 audit(0.0:1856): 
+05-24 06:53:13.029  2963  2963 W auditd  : type=1325 audit(0.0:1857): table=filter family=2 entries=51
+05-24 06:53:13.029  2963  2963 W auditd  : type=1320 audit(0.0:1857): 
+05-24 06:53:13.039  2963  2963 W auditd  : type=1325 audit(0.0:1858): table=filter family=10 entries=54
+05-24 06:53:13.039  2963  2963 W auditd  : type=1320 audit(0.0:1858): 
+05-24 06:53:13.039  2963  2963 W auditd  : type=1325 audit(0.0:1859): table=filter family=2 entries=50
+05-24 06:53:13.039  2963  2963 W auditd  : type=1320 audit(0.0:1859): 
+05-24 06:53:13.039  2963  2963 W auditd  : type=1325 audit(0.0:1860): table=filter family=10 entries=53
+05-24 06:53:13.039  2963  2963 W auditd  : type=1320 audit(0.0:1860): 
+05-24 06:53:13.049  2963  2963 W auditd  : type=1325 audit(0.0:1861): table=filter family=2 entries=50
+05-24 06:53:13.049  2963  2963 W auditd  : type=1320 audit(0.0:1861): 
+05-24 06:53:13.049  2963  2963 W auditd  : type=1325 audit(0.0:1862): table=filter family=10 entries=53
+05-24 06:53:14.019  2963  2963 W auditd  : type=1325 audit(0.0:1946): table=filter family=10 entries=52
+05-24 06:53:14.019  2963  2963 W auditd  : type=1320 audit(0.0:1946): 
+05-24 06:53:14.029  2963  2963 W auditd  : type=1325 audit(0.0:1947): table=raw family=2 entries=10
+05-24 06:53:14.029  2963  2963 W auditd  : type=1320 audit(0.0:1947): 
+05-24 06:53:14.039  2963  2963 W auditd  : type=1325 audit(0.0:1948): table=raw family=10 entries=10
+05-24 06:53:14.039  2963  2963 W auditd  : type=1320 audit(0.0:1948): 
+05-24 06:53:14.059  2963  2963 W auditd  : type=1325 audit(0.0:1949): table=raw family=2 entries=9
+05-24 06:53:14.059  2963  2963 W auditd  : type=1320 audit(0.0:1949): 
+05-24 06:53:14.069  2963  2963 W auditd  : type=1325 audit(0.0:1950): table=raw family=10 entries=9
+05-24 06:53:14.069  2963  2963 W auditd  : type=1320 audit(0.0:1950): 
+05-24 06:53:14.089  2963  2963 W auditd  : type=1325 audit(0.0:1951): table=raw family=2 entries=8
+05-24 06:53:14.089  2963  2963 W auditd  : type=1320 audit(0.0:1951): 
+05-24 06:53:14.099  2963  2963 W auditd  : type=1325 audit(0.0:1952): table=raw family=10 entries=8
+05-24 06:53:14.099  2963  2963 W auditd  : type=1320 audit(0.0:1952): 
+05-24 06:53:14.119  2963  2963 W auditd  : type=1325 audit(0.0:1953): table=raw family=2 entries=6
+05-24 06:53:14.119  2963  2963 W auditd  : type=1320 audit(0.0:1953): 
+05-24 06:53:14.129  2963  2963 W auditd  : type=1325 audit(0.0:1954): table=raw family=10 entries=6
+05-24 06:53:14.129  2963  2963 W auditd  : type=1320 audit(0.0:1954): 
+05-24 06:53:14.149  2963  2963 W auditd  : type=1325 audit(0.0:1955): table=raw family=2 entries=8
+05-24 06:53:14.149  2963  2963 W auditd  : type=1320 audit(0.0:1955): 
+05-24 06:53:15.029  2963  2963 W auditd  : type=1325 audit(0.0:2012): table=filter family=10 entries=49
+05-24 06:53:15.029  2963  2963 W auditd  : type=1320 audit(0.0:2012): 
+05-24 06:53:15.049  2963  2963 W auditd  : type=1325 audit(0.0:2013): table=filter family=10 entries=50
+05-24 06:53:15.049  2963  2963 W auditd  : type=1320 audit(0.0:2013): 
+05-24 06:53:15.069  2963  2963 W auditd  : type=1325 audit(0.0:2014): table=filter family=2 entries=47
+05-24 06:53:15.069  2963  2963 W auditd  : type=1320 audit(0.0:2014): 
+05-24 06:53:15.079  2963  2963 W auditd  : type=1325 audit(0.0:2015): table=filter family=10 entries=51
+05-24 06:53:15.079  2963  2963 W auditd  : type=1320 audit(0.0:2015): 
+05-24 06:53:15.099  2963  2963 W auditd  : type=1325 audit(0.0:2016): table=filter family=2 entries=48
+05-24 06:53:15.099  2963  2963 W auditd  : type=1320 audit(0.0:2016): 
+05-24 06:53:15.109  2963  2963 W auditd  : type=1325 audit(0.0:2017): table=filter family=10 entries=52
+05-24 06:53:15.109  2963  2963 W auditd  : type=1320 audit(0.0:2017): 
+05-24 06:53:15.159  2963  2963 W auditd  : type=1325 audit(0.0:2018): table=filter family=2 entries=49
+05-24 06:53:15.159  2963  2963 W auditd  : type=1320 audit(0.0:2018): 
+05-24 06:53:15.169  2963  2963 W auditd  : type=1325 audit(0.0:2019): table=filter family=10 entries=53
+05-24 06:53:15.169  2963  2963 W auditd  : type=1320 audit(0.0:2019): 
+05-24 06:53:15.179  2963  2963 W auditd  : type=1325 audit(0.0:2020): table=filter family=2 entries=49
+05-24 06:53:15.179  2963  2963 W auditd  : type=1320 audit(0.0:2020): 
+05-24 06:53:15.199  2963  2963 W auditd  : type=1325 audit(0.0:2021): table=filter family=10 entries=53
+05-24 06:53:15.199  2963  2963 W auditd  : type=1320 audit(0.0:2021): 
+05-24 06:53:15.255  5116  5116 V NatController: runCmd(/system/bin/iptables -w -F natctrl_FORWARD) res=0
+05-24 06:53:15.270  5116  5116 V NatController: runCmd(/system/bin/iptables -w -A natctrl_FORWARD -j DROP) res=0
+05-24 06:53:15.285  5116  5116 V NatController: runCmd(/system/bin/iptables -w -t nat -F natctrl_nat_POSTROUTING) res=0
+05-24 06:53:15.301  5116  5116 V NatController: runCmd(/system/bin/iptables -w -F natctrl_tether_counters) res=0
+05-24 06:53:15.315  5116  5116 V NatController: runCmd(/system/bin/iptables -w -X natctrl_tether_counters) res=0
+05-24 06:53:15.330  5116  5116 V NatController: runCmd(/system/bin/iptables -w -N natctrl_tether_counters) res=0
+05-24 06:53:15.345  5116  5116 V NatController: runCmd(/system/bin/iptables -w -t mangle -A natctrl_mangle_FORWARD -p tcp --tcp-flags SYN SYN -j TCPMSS --clamp-mss-to-pmtu) res=0
+05-24 06:53:16.039  2963  2963 W auditd  : type=1325 audit(0.0:2074): table=mangle family=10 entries=12
+05-24 06:53:16.039  2963  2963 W auditd  : type=1320 audit(0.0:2074): 
+05-24 06:53:16.059  2963  2963 W auditd  : type=1325 audit(0.0:2075): table=filter family=2 entries=49
+05-24 06:53:16.059  2963  2963 W auditd  : type=1320 audit(0.0:2075): 
+05-24 06:53:16.069  2963  2963 W auditd  : type=1325 audit(0.0:2076): table=filter family=10 entries=52
+05-24 06:53:16.069  2963  2963 W auditd  : type=1320 audit(0.0:2076): 
+05-24 06:53:16.089  2963  2963 W auditd  : type=1325 audit(0.0:2077): table=filter family=2 entries=50
+05-24 06:53:16.089  2963  2963 W auditd  : type=1320 audit(0.0:2077): 
+05-24 06:53:16.099  2963  2963 W auditd  : type=1325 audit(0.0:2078): table=filter family=10 entries=53
+05-24 06:53:16.099  2963  2963 W auditd  : type=1320 audit(0.0:2078): 
+05-24 06:53:16.109  2963  2963 W auditd  : type=1325 audit(0.0:2079): table=filter family=2 entries=51
+05-24 06:53:16.109  2963  2963 W auditd  : type=1320 audit(0.0:2079): 
+05-24 06:53:16.129  2963  2963 W auditd  : type=1325 audit(0.0:2080): table=filter family=10 entries=54
+05-24 06:53:16.129  2963  2963 W auditd  : type=1320 audit(0.0:2080): 
+05-24 06:53:16.149  2963  2963 W auditd  : type=1325 audit(0.0:2081): table=raw family=2 entries=9
+05-24 06:53:16.149  2963  2963 W auditd  : type=1320 audit(0.0:2081): 
+05-24 06:53:16.159  2963  2963 W auditd  : type=1325 audit(0.0:2082): table=raw family=10 entries=9
+05-24 06:53:16.159  2963  2963 W auditd  : type=1320 audit(0.0:2082): 
+05-24 06:53:16.169  2963  2963 W auditd  : type=1325 audit(0.0:2083): table=mangle family=2 entries=16
+05-24 06:53:16.169  2963  2963 W auditd  : type=1320 audit(0.0:2083): 
+05-24 06:53:16.236  5116  5116 E Netd    : cannot find interface dummy0
+05-24 06:53:16.237  5116  5116 E base.file: android::WriteStringToFile open failed: No such file or directory
+05-24 06:53:16.237  5116  5116 E Netd    : failed to write to /data/misc/net/rt_tables (No such file or directory)
+05-24 06:53:16.242  5116  5116 D MDnsDS  : MDnsSdListener::Hander starting up
+05-24 06:53:16.242  5116  5368 D MDnsDS  : MDnsSdListener starting to monitor
+05-24 06:53:16.242  5116  5368 D MDnsDS  : Going to poll with pollCount 1
+05-24 06:53:16.242  5116  5116 E Netd    : Unable to create pid file (No such file or directory)
+05-24 06:53:17.035  5372  5372 I SurfaceFlinger: SurfaceFlinger is starting
+05-24 06:53:17.035  5372  5372 E SchedPolicy: /system/bin/surfaceflinger add_tid_to_cgroup failed; fd=-1
+05-24 06:53:17.035  5372  5372 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+05-24 06:53:17.041  5372  5372 D libEGL  : loaded /vendor/lib64/egl/libGLES_mali.so
+05-24 06:53:17.046  5372  5372 W libEGL  : eglInitialize(0x7fa1be9000) failed (EGL_NOT_INITIALIZED)
+05-24 06:53:17.047  5372  5372 I gralloc : using (id=)
+05-24 06:53:17.047  5372  5372 I gralloc : xres         = 1440 px
+05-24 06:53:17.047  5372  5372 I gralloc : yres         = 2560 px
+05-24 06:53:17.047  5372  5372 I gralloc : width        = 68 mm (537.882324 dpi)
+05-24 06:53:17.047  5372  5372 I gralloc : height       = 122 mm (532.983582 dpi)
+05-24 06:53:17.047  5372  5372 I gralloc : refresh rate = 59.42 Hz
+05-24 06:53:17.050  5372  5372 E HAL     : load: module=/system/lib64/hw/hwcomposer.exynos5.so
+05-24 06:53:17.050  5372  5372 E HAL     : dlopen failed: library "libExynosHWCService.so" not found
+05-24 06:53:17.050  5372  5372 E SurfaceFlinger: hwcomposer module not found
+05-24 06:53:17.050  5372  5372 W SurfaceFlinger: no suitable EGLConfig found, trying a simpler query
+05-24 06:53:17.050  5372  5372 F SurfaceFlinger: no suitable EGLConfig found, giving up
+05-24 06:53:17.050  5372  5372 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 5372 (surfaceflinger)
+05-24 06:53:17.050  5372  5372 F libc    : Unable to open connection to debuggerd: Connection refused
+05-24 06:53:18.088  5381  5381 I Netd    : Netd 1.0 starting
+05-24 06:53:18.088  5381  5381 I QtiConnectivityAdapter: Failed to open libconnctrl, some features may not be present.
+05-24 06:53:18.088  5381  5381 D TetherController: Setting IP forward enable = 0
+05-24 06:53:18.089  2963  2963 W auditd  : type=1325 audit(0.0:2088): table=filter family=2 entries=52
+05-24 06:53:18.089  2963  2963 W auditd  : type=1320 audit(0.0:2088): 
+05-24 06:53:18.089  2963  2963 W auditd  : type=1325 audit(0.0:2089): table=filter family=10 entries=55
+05-24 06:53:18.089  2963  2963 W auditd  : type=1320 audit(0.0:2089): 
+05-24 06:53:18.099  2963  2963 W auditd  : type=1325 audit(0.0:2090): table=filter family=2 entries=51
+05-24 06:53:18.099  2963  2963 W auditd  : type=1320 audit(0.0:2090): 
+05-24 06:53:18.099  2963  2963 W auditd  : type=1325 audit(0.0:2091): table=filter family=10 entries=54
+05-24 06:53:18.099  2963  2963 W auditd  : type=1320 audit(0.0:2091): 
+05-24 06:53:18.099  2963  2963 W auditd  : type=1325 audit(0.0:2092): table=filter family=2 entries=50
+05-24 06:53:18.099  2963  2963 W auditd  : type=1320 audit(0.0:2092): 
+05-24 06:53:18.109  2963  2963 W auditd  : type=1325 audit(0.0:2093): table=filter family=10 entries=53
+05-24 06:53:18.109  2963  2963 W auditd  : type=1320 audit(0.0:2093): 
+05-24 06:53:18.109  2963  2963 W auditd  : type=1325 audit(0.0:2094): table=filter family=2 entries=48
+05-24 06:53:18.109  2963  2963 W auditd  : type=1320 audit(0.0:2094): 
+05-24 06:53:18.109  2963  2963 W auditd  : type=1325 audit(0.0:2095): table=filter family=10 entries=51
+05-24 06:53:18.109  2963  2963 W auditd  : type=1320 audit(0.0:2095): 
+05-24 06:53:18.119  2963  2963 W auditd  : type=1325 audit(0.0:2096): table=filter family=2 entries=50
+05-24 06:53:18.119  2963  2963 W auditd  : type=1320 audit(0.0:2096): 
+05-24 06:53:18.119  2963  2963 W auditd  : type=1325 audit(0.0:2097): table=filter family=10 entries=53
+05-24 06:53:18.119  2963  2963 W auditd  : type=1320 audit(0.0:2097): 
+05-24 06:53:19.099  2963  2963 W auditd  : type=1325 audit(0.0:2186): table=filter family=2 entries=48
+05-24 06:53:19.099  2963  2963 W auditd  : type=1320 audit(0.0:2186): 
+05-24 06:53:19.109  2963  2963 W auditd  : type=1325 audit(0.0:2187): table=filter family=10 entries=52
+05-24 06:53:19.109  2963  2963 W auditd  : type=1320 audit(0.0:2187): 
+05-24 06:53:19.119  2963  2963 W auditd  : type=1325 audit(0.0:2188): table=raw family=2 entries=10
+05-24 06:53:19.119  2963  2963 W auditd  : type=1320 audit(0.0:2188): 
+05-24 06:53:19.139  2963  2963 W auditd  : type=1325 audit(0.0:2189): table=raw family=10 entries=10
+05-24 06:53:19.139  2963  2963 W auditd  : type=1320 audit(0.0:2189): 
+05-24 06:53:19.149  2963  2963 W auditd  : type=1325 audit(0.0:2190): table=raw family=2 entries=9
+05-24 06:53:19.149  2963  2963 W auditd  : type=1320 audit(0.0:2190): 
+05-24 06:53:19.169  2963  2963 W auditd  : type=1325 audit(0.0:2191): table=raw family=10 entries=9
+05-24 06:53:19.169  2963  2963 W auditd  : type=1320 audit(0.0:2191): 
+05-24 06:53:19.179  2963  2963 W auditd  : type=1325 audit(0.0:2192): table=raw family=2 entries=8
+05-24 06:53:19.179  2963  2963 W auditd  : type=1320 audit(0.0:2192): 
+05-24 06:53:19.199  2963  2963 W auditd  : type=1325 audit(0.0:2193): table=raw family=10 entries=8
+05-24 06:53:19.199  2963  2963 W auditd  : type=1320 audit(0.0:2193): 
+05-24 06:53:19.209  2963  2963 W auditd  : type=1325 audit(0.0:2194): table=raw family=2 entries=6
+05-24 06:53:19.209  2963  2963 W auditd  : type=1320 audit(0.0:2194): 
+05-24 06:53:19.229  2963  2963 W auditd  : type=1325 audit(0.0:2195): table=raw family=10 entries=6
+05-24 06:53:19.229  2963  2963 W auditd  : type=1320 audit(0.0:2195): 
+05-24 06:53:20.109  2963  2963 W auditd  : type=1325 audit(0.0:2251): table=filter family=10 entries=47
+05-24 06:53:20.109  2963  2963 W auditd  : type=1320 audit(0.0:2251): 
+05-24 06:53:20.129  2963  2963 W auditd  : type=1325 audit(0.0:2252): table=filter family=10 entries=48
+05-24 06:53:20.129  2963  2963 W auditd  : type=1320 audit(0.0:2252): 
+05-24 06:53:20.139  2963  2963 W auditd  : type=1325 audit(0.0:2253): table=filter family=10 entries=49
+05-24 06:53:20.139  2963  2963 W auditd  : type=1320 audit(0.0:2253): 
+05-24 06:53:20.149  2963  2963 W auditd  : type=1325 audit(0.0:2254): table=filter family=10 entries=50
+05-24 06:53:20.149  2963  2963 W auditd  : type=1320 audit(0.0:2254): 
+05-24 06:53:20.169  2963  2963 W auditd  : type=1325 audit(0.0:2255): table=filter family=2 entries=47
+05-24 06:53:20.169  2963  2963 W auditd  : type=1320 audit(0.0:2255): 
+05-24 06:53:20.179  2963  2963 W auditd  : type=1325 audit(0.0:2256): table=filter family=10 entries=51
+05-24 06:53:20.179  2963  2963 W auditd  : type=1320 audit(0.0:2256): 
+05-24 06:53:20.199  2963  2963 W auditd  : type=1325 audit(0.0:2257): table=filter family=2 entries=48
+05-24 06:53:20.199  2963  2963 W auditd  : type=1320 audit(0.0:2257): 
+05-24 06:53:20.219  2963  2963 W auditd  : type=1325 audit(0.0:2258): table=filter family=10 entries=52
+05-24 06:53:20.219  2963  2963 W auditd  : type=1320 audit(0.0:2258): 
+05-24 06:53:20.259  2963  2963 W auditd  : type=1325 audit(0.0:2259): table=filter family=2 entries=49
+05-24 06:53:20.259  2963  2963 W auditd  : type=1320 audit(0.0:2259): 
+05-24 06:53:20.279  2963  2963 W auditd  : type=1325 audit(0.0:2260): table=filter family=10 entries=53
+05-24 06:53:20.279  2963  2963 W auditd  : type=1320 audit(0.0:2260): 
+05-24 06:53:20.365  5381  5381 V NatController: runCmd(/system/bin/iptables -w -F natctrl_FORWARD) res=0
+05-24 06:53:20.380  5381  5381 V NatController: runCmd(/system/bin/iptables -w -A natctrl_FORWARD -j DROP) res=0
+05-24 06:53:20.395  5381  5381 V NatController: runCmd(/system/bin/iptables -w -t nat -F natctrl_nat_POSTROUTING) res=0
+05-24 06:53:20.411  5381  5381 V NatController: runCmd(/system/bin/iptables -w -F natctrl_tether_counters) res=0
+05-24 06:53:20.426  5381  5381 V NatController: runCmd(/system/bin/iptables -w -X natctrl_tether_counters) res=0
+05-24 06:53:20.442  5381  5381 V NatController: runCmd(/system/bin/iptables -w -N natctrl_tether_counters) res=0
+05-24 06:53:20.457  5381  5381 V NatController: runCmd(/system/bin/iptables -w -t mangle -A natctrl_mangle_FORWARD -p tcp --tcp-flags SYN SYN -j TCPMSS --clamp-mss-to-pmtu) res=0
+05-24 06:53:21.119  2963  2963 W auditd  : type=1325 audit(0.0:2311): table=filter family=10 entries=52
+05-24 06:53:21.119  2963  2963 W auditd  : type=1320 audit(0.0:2311): 
+05-24 06:53:21.129  2963  2963 W auditd  : type=1325 audit(0.0:2312): table=raw family=2 entries=9
+05-24 06:53:21.129  2963  2963 W auditd  : type=1320 audit(0.0:2312): 
+05-24 06:53:21.139  2963  2963 W auditd  : type=1325 audit(0.0:2313): table=raw family=10 entries=9
+05-24 06:53:21.139  2963  2963 W auditd  : type=1320 audit(0.0:2313): 
+05-24 06:53:21.159  2963  2963 W auditd  : type=1325 audit(0.0:2314): table=mangle family=2 entries=16
+05-24 06:53:21.159  2963  2963 W auditd  : type=1320 audit(0.0:2314): 
+05-24 06:53:21.169  2963  2963 W auditd  : type=1325 audit(0.0:2315): table=mangle family=10 entries=12
+05-24 06:53:21.169  2963  2963 W auditd  : type=1320 audit(0.0:2315): 
+05-24 06:53:21.189  2963  2963 W auditd  : type=1325 audit(0.0:2316): table=filter family=2 entries=49
+05-24 06:53:21.189  2963  2963 W auditd  : type=1320 audit(0.0:2316): 
+05-24 06:53:21.209  2963  2963 W auditd  : type=1325 audit(0.0:2317): table=filter family=10 entries=52
+05-24 06:53:21.209  2963  2963 W auditd  : type=1320 audit(0.0:2317): 
+05-24 06:53:21.219  2963  2963 W auditd  : type=1325 audit(0.0:2318): table=filter family=2 entries=50
+05-24 06:53:21.219  2963  2963 W auditd  : type=1320 audit(0.0:2318): 
+05-24 06:53:21.239  2963  2963 W auditd  : type=1325 audit(0.0:2319): table=filter family=10 entries=53
+05-24 06:53:21.239  2963  2963 W auditd  : type=1320 audit(0.0:2319): 
+05-24 06:53:21.249  2963  2963 W auditd  : type=1325 audit(0.0:2320): table=filter family=2 entries=51
+05-24 06:53:21.249  2963  2963 W auditd  : type=1320 audit(0.0:2320): 
+05-24 06:53:21.376  5381  5381 E Netd    : cannot find interface dummy0
+05-24 06:53:21.377  5381  5381 E base.file: android::WriteStringToFile open failed: No such file or directory
+05-24 06:53:21.377  5381  5381 E Netd    : failed to write to /data/misc/net/rt_tables (No such file or directory)
+05-24 06:53:21.382  5381  5381 D MDnsDS  : MDnsSdListener::Hander starting up
+05-24 06:53:21.382  5381  5633 D MDnsDS  : MDnsSdListener starting to monitor
+05-24 06:53:21.383  5381  5633 D MDnsDS  : Going to poll with pollCount 1
+05-24 06:53:21.383  5381  5381 E Netd    : Unable to create pid file (No such file or directory)
+05-24 06:53:22.102  5638  5638 I SurfaceFlinger: SurfaceFlinger is starting
+05-24 06:53:22.103  5638  5638 E SchedPolicy: /system/bin/surfaceflinger add_tid_to_cgroup failed; fd=-1
+05-24 06:53:22.103  5638  5638 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+05-24 06:53:22.110  5638  5638 D libEGL  : loaded /vendor/lib64/egl/libGLES_mali.so
+05-24 06:53:22.115  5638  5638 W libEGL  : eglInitialize(0x7fad469000) failed (EGL_NOT_INITIALIZED)
+05-24 06:53:22.116  5638  5638 I gralloc : using (id=)
+05-24 06:53:22.116  5638  5638 I gralloc : xres         = 1440 px
+05-24 06:53:22.116  5638  5638 I gralloc : yres         = 2560 px
+05-24 06:53:22.116  5638  5638 I gralloc : width        = 68 mm (537.882324 dpi)
+05-24 06:53:22.116  5638  5638 I gralloc : height       = 122 mm (532.983582 dpi)
+05-24 06:53:22.116  5638  5638 I gralloc : refresh rate = 59.42 Hz
+05-24 06:53:22.119  5638  5638 E HAL     : load: module=/system/lib64/hw/hwcomposer.exynos5.so
+05-24 06:53:22.119  5638  5638 E HAL     : dlopen failed: library "libExynosHWCService.so" not found
+05-24 06:53:22.119  5638  5638 E SurfaceFlinger: hwcomposer module not found
+05-24 06:53:22.119  5638  5638 W SurfaceFlinger: no suitable EGLConfig found, trying a simpler query
+05-24 06:53:22.119  5638  5638 F SurfaceFlinger: no suitable EGLConfig found, giving up
+05-24 06:53:22.119  5638  5638 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 5638 (surfaceflinger)
+05-24 06:53:22.119  5638  5638 F libc    : Unable to open connection to debuggerd: Connection refused
+05-24 06:53:23.157  5647  5647 I Netd    : Netd 1.0 starting
+05-24 06:53:23.157  5647  5647 I QtiConnectivityAdapter: Failed to open libconnctrl, some features may not be present.
+05-24 06:53:23.157  5647  5647 D TetherController: Setting IP forward enable = 0
+05-24 06:53:23.149  2963  2963 W auditd  : type=1325 audit(0.0:2329): table=filter family=2 entries=52
+05-24 06:53:23.149  2963  2963 W auditd  : type=1320 audit(0.0:2329): 
+05-24 06:53:23.159  2963  2963 W auditd  : type=1325 audit(0.0:2330): table=filter family=10 entries=55
+05-24 06:53:23.159  2963  2963 W auditd  : type=1320 audit(0.0:2330): 
+05-24 06:53:23.159  2963  2963 W auditd  : type=1325 audit(0.0:2331): table=filter family=2 entries=51
+05-24 06:53:23.159  2963  2963 W auditd  : type=1320 audit(0.0:2331): 
+05-24 06:53:23.169  2963  2963 W auditd  : type=1325 audit(0.0:2332): table=filter family=10 entries=54
+05-24 06:53:23.169  2963  2963 W auditd  : type=1320 audit(0.0:2332): 
+05-24 06:53:23.169  2963  2963 W auditd  : type=1325 audit(0.0:2333): table=filter family=2 entries=50
+05-24 06:53:23.169  2963  2963 W auditd  : type=1320 audit(0.0:2333): 
+05-24 06:53:23.169  2963  2963 W auditd  : type=1325 audit(0.0:2334): table=filter family=10 entries=53
+05-24 06:53:23.169  2963  2963 W auditd  : type=1320 audit(0.0:2334): 
+05-24 06:53:23.179  2963  2963 W auditd  : type=1325 audit(0.0:2335): table=filter family=2 entries=48
+05-24 06:53:23.179  2963  2963 W auditd  : type=1320 audit(0.0:2335): 
+05-24 06:53:23.179  2963  2963 W auditd  : type=1325 audit(0.0:2336): table=filter family=10 entries=51
+05-24 06:53:23.179  2963  2963 W auditd  : type=1320 audit(0.0:2336): 
+05-24 06:53:23.179  2963  2963 W auditd  : type=1325 audit(0.0:2337): table=filter family=2 entries=50
+05-24 06:53:23.179  2963  2963 W auditd  : type=1320 audit(0.0:2337): 
+05-24 06:53:23.189  2963  2963 W auditd  : type=1325 audit(0.0:2338): table=filter family=10 entries=53
+05-24 06:53:23.189  2963  2963 W auditd  : type=1320 audit(0.0:2338): 
+05-24 06:53:24.169  2963  2963 W auditd  : type=1325 audit(0.0:2429): table=raw family=2 entries=10
+05-24 06:53:24.169  2963  2963 W auditd  : type=1320 audit(0.0:2429): 
+05-24 06:53:24.189  2963  2963 W auditd  : type=1325 audit(0.0:2430): table=raw family=10 entries=10
+05-24 06:53:24.189  2963  2963 W auditd  : type=1320 audit(0.0:2430): 
+05-24 06:53:24.199  2963  2963 W auditd  : type=1325 audit(0.0:2431): table=raw family=2 entries=9
+05-24 06:53:24.199  2963  2963 W auditd  : type=1320 audit(0.0:2431): 
+05-24 06:53:24.209  2963  2963 W auditd  : type=1325 audit(0.0:2432): table=raw family=10 entries=9
+05-24 06:53:24.209  2963  2963 W auditd  : type=1320 audit(0.0:2432): 
+05-24 06:53:24.229  2963  2963 W auditd  : type=1325 audit(0.0:2433): table=raw family=2 entries=8
+05-24 06:53:24.229  2963  2963 W auditd  : type=1320 audit(0.0:2433): 
+05-24 06:53:24.239  2963  2963 W auditd  : type=1325 audit(0.0:2434): table=raw family=10 entries=8
+05-24 06:53:24.239  2963  2963 W auditd  : type=1320 audit(0.0:2434): 
+05-24 06:53:24.259  2963  2963 W auditd  : type=1325 audit(0.0:2435): table=raw family=2 entries=6
+05-24 06:53:24.259  2963  2963 W auditd  : type=1320 audit(0.0:2435): 
+05-24 06:53:24.269  2963  2963 W auditd  : type=1325 audit(0.0:2436): table=raw family=10 entries=6
+05-24 06:53:24.269  2963  2963 W auditd  : type=1320 audit(0.0:2436): 
+05-24 06:53:24.289  2963  2963 W auditd  : type=1325 audit(0.0:2437): table=raw family=2 entries=8
+05-24 06:53:24.289  2963  2963 W auditd  : type=1320 audit(0.0:2437): 
+05-24 06:53:24.299  2963  2963 W auditd  : type=1325 audit(0.0:2438): table=raw family=10 entries=8
+05-24 06:53:24.299  2963  2963 W auditd  : type=1320 audit(0.0:2438): 
+05-24 06:53:25.179  2963  2963 W auditd  : type=1325 audit(0.0:2494): table=filter family=10 entries=49
+05-24 06:53:25.179  2963  2963 W auditd  : type=1320 audit(0.0:2494): 
+05-24 06:53:25.189  2963  2963 W auditd  : type=1325 audit(0.0:2495): table=filter family=10 entries=50
+05-24 06:53:25.189  2963  2963 W auditd  : type=1320 audit(0.0:2495): 
+05-24 06:53:25.209  2963  2963 W auditd  : type=1325 audit(0.0:2496): table=filter family=2 entries=47
+05-24 06:53:25.209  2963  2963 W auditd  : type=1320 audit(0.0:2496): 
+05-24 06:53:25.229  2963  2963 W auditd  : type=1325 audit(0.0:2497): table=filter family=10 entries=51
+05-24 06:53:25.229  2963  2963 W auditd  : type=1320 audit(0.0:2497): 
+05-24 06:53:25.239  2963  2963 W auditd  : type=1325 audit(0.0:2498): table=filter family=2 entries=48
+05-24 06:53:25.239  2963  2963 W auditd  : type=1320 audit(0.0:2498): 
+05-24 06:53:25.259  2963  2963 W auditd  : type=1325 audit(0.0:2499): table=filter family=10 entries=52
+05-24 06:53:25.259  2963  2963 W auditd  : type=1320 audit(0.0:2499): 
+05-24 06:53:25.299  2963  2963 W auditd  : type=1325 audit(0.0:2500): table=filter family=2 entries=49
+05-24 06:53:25.299  2963  2963 W auditd  : type=1320 audit(0.0:2500): 
+05-24 06:53:25.309  2963  2963 W auditd  : type=1325 audit(0.0:2501): table=filter family=10 entries=53
+05-24 06:53:25.309  2963  2963 W auditd  : type=1320 audit(0.0:2501): 
+05-24 06:53:25.329  2963  2963 W auditd  : type=1325 audit(0.0:2502): table=filter family=2 entries=49
+05-24 06:53:25.329  2963  2963 W auditd  : type=1320 audit(0.0:2502): 
+05-24 06:53:25.349  2963  2963 W auditd  : type=1325 audit(0.0:2503): table=filter family=10 entries=53
+05-24 06:53:25.349  2963  2963 W auditd  : type=1320 audit(0.0:2503): 
+05-24 06:53:25.401  5647  5647 V NatController: runCmd(/system/bin/iptables -w -F natctrl_FORWARD) res=0
+05-24 06:53:25.414  5647  5647 V NatController: runCmd(/system/bin/iptables -w -A natctrl_FORWARD -j DROP) res=0
+05-24 06:53:25.429  5647  5647 V NatController: runCmd(/system/bin/iptables -w -t nat -F natctrl_nat_POSTROUTING) res=0
+05-24 06:53:25.444  5647  5647 V NatController: runCmd(/system/bin/iptables -w -F natctrl_tether_counters) res=0
+05-24 06:53:25.460  5647  5647 V NatController: runCmd(/system/bin/iptables -w -X natctrl_tether_counters) res=0
+05-24 06:53:25.475  5647  5647 V NatController: runCmd(/system/bin/iptables -w -N natctrl_tether_counters) res=0
+05-24 06:53:25.491  5647  5647 V NatController: runCmd(/system/bin/iptables -w -t mangle -A natctrl_mangle_FORWARD -p tcp --tcp-flags SYN SYN -j TCPMSS --clamp-mss-to-pmtu) res=0
+05-24 06:53:26.189  2963  2963 W auditd  : type=1325 audit(0.0:2556): table=mangle family=10 entries=12
+05-24 06:53:26.189  2963  2963 W auditd  : type=1320 audit(0.0:2556): 
+05-24 06:53:26.199  2963  2963 W auditd  : type=1325 audit(0.0:2557): table=filter family=2 entries=49
+05-24 06:53:26.199  2963  2963 W auditd  : type=1320 audit(0.0:2557): 
+05-24 06:53:26.219  2963  2963 W auditd  : type=1325 audit(0.0:2558): table=filter family=10 entries=52
+05-24 06:53:26.219  2963  2963 W auditd  : type=1320 audit(0.0:2558): 
+05-24 06:53:26.239  2963  2963 W auditd  : type=1325 audit(0.0:2559): table=filter family=2 entries=50
+05-24 06:53:26.239  2963  2963 W auditd  : type=1320 audit(0.0:2559): 
+05-24 06:53:26.249  2963  2963 W auditd  : type=1325 audit(0.0:2560): table=filter family=10 entries=53
+05-24 06:53:26.249  2963  2963 W auditd  : type=1320 audit(0.0:2560): 
+05-24 06:53:26.269  2963  2963 W auditd  : type=1325 audit(0.0:2561): table=filter family=2 entries=51
+05-24 06:53:26.269  2963  2963 W auditd  : type=1320 audit(0.0:2561): 
+05-24 06:53:26.279  2963  2963 W auditd  : type=1325 audit(0.0:2562): table=filter family=10 entries=54
+05-24 06:53:26.279  2963  2963 W auditd  : type=1320 audit(0.0:2562): 
+05-24 06:53:26.299  2963  2963 W auditd  : type=1325 audit(0.0:2563): table=raw family=2 entries=9
+05-24 06:53:26.299  2963  2963 W auditd  : type=1320 audit(0.0:2563): 
+05-24 06:53:26.309  2963  2963 W auditd  : type=1325 audit(0.0:2564): table=raw family=10 entries=9
+05-24 06:53:26.309  2963  2963 W auditd  : type=1320 audit(0.0:2564): 
+05-24 06:53:26.329  2963  2963 W auditd  : type=1325 audit(0.0:2565): table=mangle family=2 entries=16
+05-24 06:53:26.329  2963  2963 W auditd  : type=1320 audit(0.0:2565): 
+05-24 06:53:26.392  5647  5647 E Netd    : cannot find interface dummy0
+05-24 06:53:26.392  5647  5647 E base.file: android::WriteStringToFile open failed: No such file or directory
+05-24 06:53:26.392  5647  5647 E Netd    : failed to write to /data/misc/net/rt_tables (No such file or directory)
+05-24 06:53:26.400  5647  5647 D MDnsDS  : MDnsSdListener::Hander starting up
+05-24 06:53:26.401  5647  5899 D MDnsDS  : MDnsSdListener starting to monitor
+05-24 06:53:26.401  5647  5899 D MDnsDS  : Going to poll with pollCount 1
+05-24 06:53:26.401  5647  5647 E Netd    : Unable to create pid file (No such file or directory)
+05-24 06:53:27.171  5903  5903 I SurfaceFlinger: SurfaceFlinger is starting
+05-24 06:53:27.171  5903  5903 E SchedPolicy: /system/bin/surfaceflinger add_tid_to_cgroup failed; fd=-1
+05-24 06:53:27.171  5903  5903 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+05-24 06:53:27.178  5903  5903 D libEGL  : loaded /vendor/lib64/egl/libGLES_mali.so
+05-24 06:53:27.183  5903  5903 W libEGL  : eglInitialize(0x7f7d3e1000) failed (EGL_NOT_INITIALIZED)
+05-24 06:53:27.184  5903  5903 I gralloc : using (id=)
+05-24 06:53:27.184  5903  5903 I gralloc : xres         = 1440 px
+05-24 06:53:27.184  5903  5903 I gralloc : yres         = 2560 px
+05-24 06:53:27.184  5903  5903 I gralloc : width        = 68 mm (537.882324 dpi)
+05-24 06:53:27.184  5903  5903 I gralloc : height       = 122 mm (532.983582 dpi)
+05-24 06:53:27.184  5903  5903 I gralloc : refresh rate = 59.42 Hz
+05-24 06:53:27.186  5903  5903 E HAL     : load: module=/system/lib64/hw/hwcomposer.exynos5.so
+05-24 06:53:27.186  5903  5903 E HAL     : dlopen failed: library "libExynosHWCService.so" not found
+05-24 06:53:27.186  5903  5903 E SurfaceFlinger: hwcomposer module not found
+05-24 06:53:27.186  5903  5903 W SurfaceFlinger: no suitable EGLConfig found, trying a simpler query
+05-24 06:53:27.186  5903  5903 F SurfaceFlinger: no suitable EGLConfig found, giving up
+05-24 06:53:27.186  5903  5903 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 5903 (surfaceflinger)
+05-24 06:53:27.186  5903  5903 F libc    : Unable to open connection to debuggerd: Connection refused
+05-24 06:53:28.235  5912  5912 I Netd    : Netd 1.0 starting
+05-24 06:53:28.236  5912  5912 I QtiConnectivityAdapter: Failed to open libconnctrl, some features may not be present.
+05-24 06:53:28.236  5912  5912 D TetherController: Setting IP forward enable = 0
+05-24 06:53:28.229  2963  2963 W auditd  : type=1325 audit(0.0:2570): table=filter family=2 entries=52
+05-24 06:53:28.229  2963  2963 W auditd  : type=1320 audit(0.0:2570): 
+05-24 06:53:28.239  2963  2963 W auditd  : type=1325 audit(0.0:2571): table=filter family=10 entries=55
+05-24 06:53:28.239  2963  2963 W auditd  : type=1320 audit(0.0:2571): 
+05-24 06:53:28.239  2963  2963 W auditd  : type=1325 audit(0.0:2572): table=filter family=2 entries=51
+05-24 06:53:28.239  2963  2963 W auditd  : type=1320 audit(0.0:2572): 
+05-24 06:53:28.249  2963  2963 W auditd  : type=1325 audit(0.0:2573): table=filter family=10 entries=54
+05-24 06:53:28.249  2963  2963 W auditd  : type=1320 audit(0.0:2573): 
+05-24 06:53:28.249  2963  2963 W auditd  : type=1325 audit(0.0:2574): table=filter family=2 entries=50
+05-24 06:53:28.249  2963  2963 W auditd  : type=1320 audit(0.0:2574): 
+05-24 06:53:28.249  2963  2963 W auditd  : type=1325 audit(0.0:2575): table=filter family=10 entries=53
+05-24 06:53:28.249  2963  2963 W auditd  : type=1320 audit(0.0:2575): 
+05-24 06:53:28.259  2963  2963 W auditd  : type=1325 audit(0.0:2576): table=filter family=2 entries=48
+05-24 06:53:28.259  2963  2963 W auditd  : type=1320 audit(0.0:2576): 
+05-24 06:53:28.259  2963  2963 W auditd  : type=1325 audit(0.0:2577): table=filter family=10 entries=51
+05-24 06:53:28.259  2963  2963 W auditd  : type=1320 audit(0.0:2577): 
+05-24 06:53:28.259  2963  2963 W auditd  : type=1325 audit(0.0:2578): table=filter family=2 entries=50
+05-24 06:53:28.259  2963  2963 W auditd  : type=1320 audit(0.0:2578): 
+05-24 06:53:28.269  2963  2963 W auditd  : type=1325 audit(0.0:2579): table=filter family=10 entries=53
+05-24 06:53:28.269  2963  2963 W auditd  : type=1320 audit(0.0:2579): 
+05-24 06:53:29.239  2963  2963 W auditd  : type=1325 audit(0.0:2668): table=filter family=2 entries=48
+05-24 06:53:29.239  2963  2963 W auditd  : type=1320 audit(0.0:2668): 
+05-24 06:53:29.249  2963  2963 W auditd  : type=1325 audit(0.0:2669): table=filter family=10 entries=52
+05-24 06:53:29.249  2963  2963 W auditd  : type=1320 audit(0.0:2669): 
+05-24 06:53:29.259  2963  2963 W auditd  : type=1325 audit(0.0:2670): table=raw family=2 entries=10
+05-24 06:53:29.259  2963  2963 W auditd  : type=1320 audit(0.0:2670): 
+05-24 06:53:29.279  2963  2963 W auditd  : type=1325 audit(0.0:2671): table=raw family=10 entries=10
+05-24 06:53:29.279  2963  2963 W auditd  : type=1320 audit(0.0:2671): 
+05-24 06:53:29.289  2963  2963 W auditd  : type=1325 audit(0.0:2672): table=raw family=2 entries=9
+05-24 06:53:29.289  2963  2963 W auditd  : type=1320 audit(0.0:2672): 
+05-24 06:53:29.309  2963  2963 W auditd  : type=1325 audit(0.0:2673): table=raw family=10 entries=9
+05-24 06:53:29.309  2963  2963 W auditd  : type=1320 audit(0.0:2673): 
+05-24 06:53:29.319  2963  2963 W auditd  : type=1325 audit(0.0:2674): table=raw family=2 entries=8
+05-24 06:53:29.319  2963  2963 W auditd  : type=1320 audit(0.0:2674): 
+05-24 06:53:29.339  2963  2963 W auditd  : type=1325 audit(0.0:2675): table=raw family=10 entries=8
+05-24 06:53:29.339  2963  2963 W auditd  : type=1320 audit(0.0:2675): 
+05-24 06:53:29.349  2963  2963 W auditd  : type=1325 audit(0.0:2676): table=raw family=2 entries=6
+05-24 06:53:29.349  2963  2963 W auditd  : type=1320 audit(0.0:2676): 
+05-24 06:53:29.369  2963  2963 W auditd  : type=1325 audit(0.0:2677): table=raw family=10 entries=6
+05-24 06:53:29.369  2963  2963 W auditd  : type=1320 audit(0.0:2677): 
+05-24 06:53:30.259  2963  2963 W auditd  : type=1325 audit(0.0:2734): table=filter family=10 entries=48
+05-24 06:53:30.259  2963  2963 W auditd  : type=1320 audit(0.0:2734): 
+05-24 06:53:30.269  2963  2963 W auditd  : type=1325 audit(0.0:2735): table=filter family=10 entries=49
+05-24 06:53:30.269  2963  2963 W auditd  : type=1320 audit(0.0:2735): 
+05-24 06:53:30.279  2963  2963 W auditd  : type=1325 audit(0.0:2736): table=filter family=10 entries=50
+05-24 06:53:30.279  2963  2963 W auditd  : type=1320 audit(0.0:2736): 
+05-24 06:53:30.299  2963  2963 W auditd  : type=1325 audit(0.0:2737): table=filter family=2 entries=47
+05-24 06:53:30.299  2963  2963 W auditd  : type=1320 audit(0.0:2737): 
+05-24 06:53:30.309  2963  2963 W auditd  : type=1325 audit(0.0:2738): table=filter family=10 entries=51
+05-24 06:53:30.309  2963  2963 W auditd  : type=1320 audit(0.0:2738): 
+05-24 06:53:30.329  2963  2963 W auditd  : type=1325 audit(0.0:2739): table=filter family=2 entries=48
+05-24 06:53:30.329  2963  2963 W auditd  : type=1320 audit(0.0:2739): 
+05-24 06:53:30.349  2963  2963 W auditd  : type=1325 audit(0.0:2740): table=filter family=10 entries=52
+05-24 06:53:30.349  2963  2963 W auditd  : type=1320 audit(0.0:2740): 
+05-24 06:53:30.389  2963  2963 W auditd  : type=1325 audit(0.0:2741): table=filter family=2 entries=49
+05-24 06:53:30.389  2963  2963 W auditd  : type=1320 audit(0.0:2741): 
+05-24 06:53:30.409  2963  2963 W auditd  : type=1325 audit(0.0:2742): table=filter family=10 entries=53
+05-24 06:53:30.409  2963  2963 W auditd  : type=1320 audit(0.0:2742): 
+05-24 06:53:30.419  2963  2963 W auditd  : type=1325 audit(0.0:2743): table=filter family=2 entries=49
+05-24 06:53:30.419  2963  2963 W auditd  : type=1320 audit(0.0:2743): 
+05-24 06:53:30.491  5912  5912 V NatController: runCmd(/system/bin/iptables -w -F natctrl_FORWARD) res=0
+05-24 06:53:30.505  5912  5912 V NatController: runCmd(/system/bin/iptables -w -A natctrl_FORWARD -j DROP) res=0
+05-24 06:53:30.520  5912  5912 V NatController: runCmd(/system/bin/iptables -w -t nat -F natctrl_nat_POSTROUTING) res=0
+05-24 06:53:30.536  5912  5912 V NatController: runCmd(/system/bin/iptables -w -F natctrl_tether_counters) res=0
+05-24 06:53:30.551  5912  5912 V NatController: runCmd(/system/bin/iptables -w -X natctrl_tether_counters) res=0
+05-24 06:53:30.565  5912  5912 V NatController: runCmd(/system/bin/iptables -w -N natctrl_tether_counters) res=0
+05-24 06:53:30.580  5912  5912 V NatController: runCmd(/system/bin/iptables -w -t mangle -A natctrl_mangle_FORWARD -p tcp --tcp-flags SYN SYN -j TCPMSS --clamp-mss-to-pmtu) res=0

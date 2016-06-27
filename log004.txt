@@ -1,0 +1,1671 @@
+--------- beginning of main
+05-24 21:37:06.464  2967  2967 W auditd  : type=1325 audit(0.0:2): table=filter family=2 entries=0
+05-24 21:37:06.464  2967  2967 W auditd  : type=1325 audit(0.0:3): table=mangle family=2 entries=0
+05-24 21:37:06.464  2967  2967 W auditd  : type=1325 audit(0.0:4): table=nat family=2 entries=0
+05-24 21:37:06.464  2967  2967 W auditd  : type=1325 audit(0.0:5): table=raw family=2 entries=0
+05-24 21:37:06.464  2967  2967 W auditd  : type=1325 audit(0.0:6): table=security family=2 entries=0
+05-24 21:37:06.464  2967  2967 W auditd  : type=1325 audit(0.0:7): table=filter family=3 entries=0
+05-24 21:37:06.464  2967  2967 W auditd  : type=1325 audit(0.0:8): table=filter family=10 entries=0
+05-24 21:37:06.464  2967  2967 W auditd  : type=1325 audit(0.0:9): table=mangle family=10 entries=0
+05-24 21:37:06.464  2967  2967 W auditd  : type=1325 audit(0.0:10): table=raw family=10 entries=0
+05-24 21:37:06.464  2967  2967 W auditd  : type=1325 audit(0.0:11): table=nat family=10 entries=0
+05-24 21:37:06.789  2967  2967 W auditd  : type=1305 audit(0.0:12): audit_pid=2884 old=0 auid=4294967295 ses=4294967295 res=1
+05-24 21:37:06.789  2967  2967 W auditd  : type=1305 audit(0.0:13): audit_rate_limit=20 old=0 auid=4294967295 ses=4294967295 res=1
+05-24 21:37:06.814  2895  2895 I lowmemorykiller: Using in-kernel low memory killer interface
+05-24 21:37:06.820  2898  2898 I sysinit : Running /system/etc/init.d/00banner 
+--------- beginning of system
+05-24 21:37:06.829  2885  2885 I vold    : Vold 3.0 (the awakening) firing up
+05-24 21:37:06.829  2885  2885 V vold    : Detected support for: exfat ext4 f2fs ntfs vfat
+05-24 21:37:06.830  2903  2903 I cm      : ____ _   _ ____ _  _ ____ ____ ____ _  _ _  _ ____ ___ 
+05-24 21:37:06.835  2907  2907 I cm      : |     \_/  |__| |\ | |  | | __ |___ |\ | |\/| |  | |  \ 
+05-24 21:37:06.840  2911  2911 I cm      : |___   |   |  | | \| |__| |__] |___ | \| |  | |__| |__/ 
+05-24 21:37:06.845  2897  2897 I SurfaceFlinger: SurfaceFlinger is starting
+05-24 21:37:06.845  2897  2897 E SchedPolicy: /system/bin/surfaceflinger add_tid_to_cgroup failed; fd=-1
+05-24 21:37:06.845  2897  2897 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+05-24 21:37:06.849  2885  2920 E Cryptfs : Bad magic for real block device /dev/block/platform/155a0000.ufs/by-name/USERDATA
+05-24 21:37:06.851  2885  2920 D Cryptfs : Just asked init to shut down class main
+05-24 21:37:06.851  2885  2920 W vold    : emulated unmount requires state mounted
+05-24 21:37:06.851  2885  2920 D Cryptfs : unmounting /data succeeded
+05-24 21:37:06.853  2885  2920 I Cryptfs : keymaster module name is Keymaster OpenSSL HAL
+05-24 21:37:06.853  2885  2920 I Cryptfs : keymaster version is 2
+05-24 21:37:06.853  2885  2920 I Cryptfs : Found keymaster0 module, using keymaster0 API.
+05-24 21:37:06.854  2885  2920 I Cryptfs : Using scrypt for cryptfs KDF
+05-24 21:37:06.857  2965  2965 I cm      : Welcome to Android 6.0.1 / CyanogenMod-13.0-20160524-UNOFFICIAL-hero2ltexx 
+05-24 21:37:06.862  2968  2968 I sysinit : Running /system/etc/init.d/90userinit 
+05-24 21:37:06.880  2897  2897 D libEGL  : loaded /vendor/lib64/egl/libGLES_mali.so
+05-24 21:37:06.893  2897  2897 I gralloc : using (id=)
+05-24 21:37:06.893  2897  2897 I gralloc : xres         = 1440 px
+05-24 21:37:06.893  2897  2897 I gralloc : yres         = 2560 px
+05-24 21:37:06.893  2897  2897 I gralloc : width        = 68 mm (537.882324 dpi)
+05-24 21:37:06.893  2897  2897 I gralloc : height       = 122 mm (532.983582 dpi)
+05-24 21:37:06.893  2897  2897 I gralloc : refresh rate = 59.42 Hz
+05-24 21:37:06.902  2897  2897 E HAL     : load: module=/system/lib64/hw/hwcomposer.exynos5.so
+05-24 21:37:06.902  2897  2897 E HAL     : dlopen failed: cannot locate symbol "hwcDebug" referenced by "/system/lib64/hw/hwcomposer.exynos5.so"...
+05-24 21:37:06.902  2897  2897 E SurfaceFlinger: hwcomposer module not found
+05-24 21:37:06.902  2897  2897 I SurfaceFlinger: EGL information:
+05-24 21:37:06.902  2897  2897 I SurfaceFlinger: vendor    : Android
+05-24 21:37:06.902  2897  2897 I SurfaceFlinger: version   : 1.4 Android META-EGL
+05-24 21:37:06.902  2897  2897 I SurfaceFlinger: extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_swap_buffers_with_damage EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_KHR_config_attribs EGL_KHR_surfaceless_context EGL_EXT_create_context_robustness EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable EGL_KHR_partial_update 
+05-24 21:37:06.902  2897  2897 I SurfaceFlinger: Client API: OpenGL_ES
+05-24 21:37:06.902  2897  2897 I SurfaceFlinger: EGLSurface: 8-8-8-8, config=0x7fa2789128
+05-24 21:37:06.902  2897  2897 D         : ro.exynos.dss isEnabled: 0
+05-24 21:37:06.907  2897  2897 I SurfaceFlinger: OpenGL ES informations:
+05-24 21:37:06.907  2897  2897 I SurfaceFlinger: vendor    : ARM
+05-24 21:37:06.907  2897  2897 I SurfaceFlinger: renderer  : Mali-T880
+05-24 21:37:06.907  2897  2897 I SurfaceFlinger: version   : OpenGL ES 3.1 v1.r9p0-12dev0.c2bae768d87bf40047e1f310c8de7f16
+05-24 21:37:06.907  2897  2897 I SurfaceFlinger: extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_disjoint_timer_query GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_OES_texture_stencil8 G
+05-24 21:37:06.907  2897  2897 I SurfaceFlinger: GL_MAX_TEXTURE_SIZE = 8192
+05-24 21:37:06.907  2897  2897 I SurfaceFlinger: GL_MAX_VIEWPORT_DIMS = 8192
+05-24 21:37:06.907  2897  2897 D mali_winsys: new_window_surface returns 0x3000,  [1440x2560]-format:1
+05-24 21:37:06.923  2897  2897 D SurfaceFlinger: Set power mode=2, type=0 flinger=0x7fa2e43c00
+05-24 21:37:07.055  2897  2897 D SurfaceFlinger: SF. shader cache generated - 26 shaders in 116.200768 ms
+05-24 21:37:07.300  2987  2991 D libEGL  : loaded /vendor/lib64/egl/libGLES_mali.so
+05-24 21:37:07.307  2987  2991 D mali_winsys: new_window_surface returns 0x3000,  [1440x2560]-format:2
+05-24 21:37:07.308  2987  2991 D         : ro.exynos.dss isEnabled: 0
+05-24 21:37:07.313  2987  2991 E BootAnimation: couldn't find audio_conf.txt
+05-24 21:37:07.326  2987  2991 D BootAnimation: Use save memory method, maybe small fps in actual.
+05-24 21:37:07.714  2885  2920 D Cryptfs : Just triggered post_fs_data
+05-24 21:37:07.721  3009  3009 I /system/bin/tzdatacheck: tzdata file /data/misc/zoneinfo/current/tzdata does not exist. No action required.
+05-24 21:37:07.731  3011  3011 I sysinit : Running /system/etc/init.d/00banner 
+05-24 21:37:07.740  3013  3013 I cm      : ____ _   _ ____ _  _ ____ ____ ____ _  _ _  _ ____ ___ 
+05-24 21:37:07.745  3014  3014 I cm      : |     \_/  |__| |\ | |  | | __ |___ |\ | |\/| |  | |  \ 
+05-24 21:37:07.750  3015  3015 I cm      : |___   |   |  | | \| |__| |__] |___ | \| |  | |__| |__/ 
+05-24 21:37:07.764  3018  3018 I cm      : Welcome to Android 6.0.1 / CyanogenMod-13.0-20160524-UNOFFICIAL-hero2ltexx 
+05-24 21:37:07.764  2885  2920 D Cryptfs : post_fs_data done
+05-24 21:37:07.769  3019  3019 I sysinit : Running /system/etc/init.d/90userinit 
+05-24 21:37:09.765  2885  2920 I Cryptfs : Using scrypt for cryptfs KDF
+05-24 21:37:10.189  2885  2920 I Cryptfs : Enabling support for allow_discards in dmcrypt.
+05-24 21:37:10.189  2885  2920 I Cryptfs : target_type = crypt
+05-24 21:37:10.189  2885  2920 I Cryptfs : real_blk_name = /dev/block/platform/155a0000.ufs/by-name/USERDATA, extra_params = 1 allow_discards
+05-24 21:37:10.190  2885  2908 D vold    : Disk at 253:0 changed
+05-24 21:37:10.193  2885  2920 I Cryptfs : Encrypting ext4 filesystem in place...
+05-24 21:37:10.193  2885  2920 I Cryptfs : Encrypting group 0
+05-24 21:37:10.194  2885  2920 I Cryptfs : Encrypting from sector 0
+05-24 21:37:10.208  2885  2920 I Cryptfs : Encrypted to sector 788992
+05-24 21:37:10.208  2885  2920 I Cryptfs : Encrypting from sector 789504
+05-24 21:37:10.208  2885  2920 I Cryptfs : Encrypting group 1
+05-24 21:37:10.209  2885  2920 I Cryptfs : Encrypted to sector 790016
+05-24 21:37:10.209  2885  2920 I Cryptfs : Encrypting from sector 16777216
+05-24 21:37:10.222  2885  2920 I Cryptfs : Encrypting group 2
+05-24 21:37:10.223  2885  2920 I Cryptfs : Encrypted to sector 17565696
+05-24 21:37:10.223  2885  2920 I Cryptfs : Encrypting from sector 33554432
+05-24 21:37:11.387  2885  2920 I Cryptfs : Encrypting group 3
+05-24 21:37:11.449  2885  2920 I Cryptfs : Encrypting group 4
+05-24 21:37:11.468  2885  2920 I Cryptfs : Encrypted to sector 51120128
+05-24 21:37:11.468  2885  2920 I Cryptfs : Encrypting from sector 67108864
+05-24 21:37:11.510  2885  2920 I Cryptfs : Encrypting group 5
+05-24 21:37:11.521  2885  2920 I Cryptfs : Encrypted to sector 67371520
+05-24 21:37:11.521  2885  2920 I Cryptfs : Encrypting from sector 83886080
+05-24 21:37:11.535  2885  2920 I Cryptfs : Encrypting group 6
+05-24 21:37:11.536  2885  2920 I Cryptfs : Encrypted to sector 84674560
+05-24 21:37:11.536  2885  2920 I Cryptfs : Encrypting from sector 100663296
+05-24 21:37:11.546  2885  2920 I Cryptfs : Encrypting group 7
+05-24 21:37:11.554  2885  2920 I Cryptfs : Encrypted to sector 100925952
+05-24 21:37:11.554  2885  2920 I Cryptfs : Encrypting from sector 117440512
+05-24 21:37:11.601  2885  2920 I Cryptfs : Encrypting group 8
+05-24 21:37:11.602  2885  2920 I Cryptfs : Encrypted to sector 118228992
+05-24 21:37:11.602  2885  2920 I Cryptfs : Encrypting from sector 134217728
+05-24 21:37:11.613  2885  2920 I Cryptfs : Encrypting group 9
+05-24 21:37:11.626  2885  2920 I Cryptfs : Encrypted to sector 134480384
+05-24 21:37:11.626  2885  2920 I Cryptfs : Encrypting from sector 150994944
+05-24 21:37:11.679  2885  2920 I Cryptfs : Encrypted to sector 151783424
+05-24 21:37:11.679  2885  2920 I Cryptfs : Encrypting from sector 165216256
+05-24 21:37:11.698  2885  2920 I Cryptfs : Encrypted to sector 165281792
+05-24 21:37:11.698  2885  2920 I Cryptfs : Encrypting from sector 165543936
+05-24 21:37:11.724  2885  2920 I Cryptfs : Encrypting group 10
+05-24 21:37:11.728  2885  2920 I Cryptfs : Encrypted to sector 165609472
+05-24 21:37:11.728  2885  2920 I Cryptfs : Encrypting from sector 167772160
+05-24 21:37:11.742  2885  2920 I Cryptfs : Encrypted to sector 168034816
+05-24 21:37:11.742  2885  2920 I Cryptfs : Encrypting from sector 168689664
+05-24 21:37:11.745  2885  2920 I Cryptfs : Encrypting group 11
+05-24 21:37:11.746  2885  2920 I Cryptfs : Encrypted to sector 168820736
+05-24 21:37:11.746  2885  2920 I Cryptfs : Encrypting from sector 184549376
+05-24 21:37:11.752  2885  2920 I Cryptfs : Encrypting group 12
+05-24 21:37:11.753  2885  2920 I Cryptfs : Encrypted to sector 184812032
+05-24 21:37:11.753  2885  2920 I Cryptfs : Encrypting from sector 201326592
+05-24 21:37:11.758  2885  2920 I Cryptfs : Encrypting group 13
+05-24 21:37:11.759  2885  2920 I Cryptfs : Encrypted to sector 201589248
+05-24 21:37:11.759  2885  2920 I Cryptfs : Encrypting from sector 218103808
+05-24 21:37:11.777  2885  2920 I Cryptfs : Encrypted to sector 218366464
+05-24 21:37:11.777  2885  2920 I Cryptfs : Encrypting from sector 221511680
+05-24 21:37:11.831  2885  2920 I Cryptfs : Encrypting group 14
+05-24 21:37:11.836  2885  2920 I Cryptfs : Encrypted to sector 221773824
+05-24 21:37:11.836  2885  2920 I Cryptfs : Encrypting from sector 234881024
+05-24 21:37:11.850  2885  2920 I Cryptfs : Encrypting group 15
+05-24 21:37:11.851  2885  2920 I Cryptfs : Encrypted to sector 235143680
+05-24 21:37:11.851  2885  2920 I Cryptfs : Encrypting from sector 251658240
+05-24 21:37:11.857  2885  2920 I Cryptfs : Encrypted to sector 251920896
+05-24 21:37:11.857  2885  2920 I Cryptfs : Encrypting from sector 263716864
+05-24 21:37:11.903  2885  2920 I Cryptfs : Encrypted to sector 264241152
+05-24 21:37:11.903  2885  2920 I Cryptfs : Encrypting from sector 267386880
+05-24 21:37:11.977  2885  2920 I Cryptfs : Encrypting group 16
+05-24 21:37:12.006  2885  2920 I Cryptfs : Encrypted to sector 268698112
+05-24 21:37:12.006  2885  2920 I Cryptfs : Encrypting from sector 268730368
+05-24 21:37:12.008  2885  2920 I Cryptfs : Encrypted to sector 268763136
+05-24 21:37:12.008  2885  2920 I Cryptfs : Encrypting from sector 269484032
+05-24 21:37:12.171  2885  2920 I Cryptfs : Encrypted to sector 271544320
+05-24 21:37:12.171  2885  2920 I Cryptfs : Encrypting from sector 271581184
+05-24 21:37:12.334  2885  2920 I Cryptfs : Encrypted to sector 273678336
+05-24 21:37:12.334  2885  2920 I Cryptfs : Encrypting from sector 274202624
+05-24 21:37:12.337  2885  2920 I Cryptfs : Encrypted to sector 274270208
+05-24 21:37:12.337  2885  2920 I Cryptfs : Encrypting from sector 274396672
+05-24 21:37:12.337  2885  2920 I Cryptfs : Encrypted to sector 274399232
+05-24 21:37:12.337  2885  2920 I Cryptfs : Encrypting from sector 274595840
+05-24 21:37:12.340  2885  2920 I Cryptfs : Encrypted to sector 274694144
+05-24 21:37:12.340  2885  2920 I Cryptfs : Encrypting from sector 274725888
+05-24 21:37:12.340  2885  2920 I Cryptfs : Encrypted to sector 274726912
+05-24 21:37:12.340  2885  2920 I Cryptfs : Encrypting from sector 274928640
+05-24 21:37:12.349  2885  2920 I Cryptfs : Encrypted to sector 275189248
+05-24 21:37:12.349  2885  2920 I Cryptfs : Encrypting from sector 275251200
+05-24 21:37:12.349  2885  2920 I Cryptfs : Encrypted to sector 275273728
+05-24 21:37:12.349  2885  2920 I Cryptfs : Encrypting from sector 275283968
+05-24 21:37:12.350  2885  2920 I Cryptfs : Encrypted to sector 275315200
+05-24 21:37:12.350  2885  2920 I Cryptfs : Encrypting from sector 275316736
+05-24 21:37:12.379  2885  2920 I Cryptfs : Encrypted to sector 275513344
+05-24 21:37:12.379  2885  2920 I Cryptfs : Encrypting from sector 275715072
+05-24 21:37:12.389  2885  2920 I Cryptfs : Encrypted to sector 275738112
+05-24 21:37:12.389  2885  2920 I Cryptfs : Encrypting from sector 275742720
+05-24 21:37:12.418  2885  2920 I Cryptfs : Encrypted to sector 276504064
+05-24 21:37:12.418  2885  2920 I Cryptfs : Encrypting from sector 276512768
+05-24 21:37:12.419  2885  2920 I Cryptfs : Encrypted to sector 276543488
+05-24 21:37:12.419  2885  2920 I Cryptfs : Encrypting from sector 276545536
+05-24 21:37:12.424  2885  2920 I Cryptfs : Encrypted to sector 276681216
+05-24 21:37:12.424  2885  2920 I Cryptfs : Encrypting from sector 276692992
+05-24 21:37:12.439  2885  2920 I Cryptfs : Encrypted to sector 276813824
+05-24 21:37:12.439  2885  2920 I Cryptfs : Encrypting from sector 276824064
+05-24 21:37:12.663  2885  2920 I Cryptfs : Encrypted to sector 279969792
+05-24 21:37:12.663  2885  2920 I Cryptfs : Encrypting from sector 280486912
+05-24 21:37:12.675  2885  2920 I Cryptfs : Encrypted to sector 280494080
+05-24 21:37:12.675  2885  2920 I Cryptfs : Encrypting from sector 281018368
+05-24 21:37:12.730  2885  2920 I Cryptfs : Encrypted to sector 281995776
+05-24 21:37:12.730  2885  2920 I Cryptfs : Encrypting from sector 282001408
+05-24 21:37:12.733  2885  2920 I Cryptfs : Encrypted to sector 282054656
+05-24 21:37:12.733  2885  2920 I Cryptfs : Encrypting from sector 282066944
+05-24 21:37:12.792  2885  2920 I Cryptfs : Encrypted to sector 282549248
+05-24 21:37:12.792  2885  2920 I Cryptfs : Encrypting from sector 282558464
+05-24 21:37:12.799  2885  2920 I Cryptfs : Encrypted to sector 282576896
+05-24 21:37:12.799  2885  2920 I Cryptfs : Encrypting from sector 282591232
+05-24 21:37:12.815  2885  2920 I Cryptfs : Encrypted to sector 282778624
+05-24 21:37:12.815  2885  2920 I Cryptfs : Encrypting from sector 282787840
+05-24 21:37:12.821  2885  2920 I Cryptfs : Encrypted to sector 282804224
+05-24 21:37:12.821  2885  2920 I Cryptfs : Encrypting from sector 282820608
+05-24 21:37:12.846  2885  2920 I Cryptfs : Encrypted to sector 282841088
+05-24 21:37:12.846  2885  2920 I Cryptfs : Encrypting from sector 282951680
+05-24 21:37:12.854  2885  2920 I Cryptfs : Encrypted to sector 282972160
+05-24 21:37:12.854  2885  2920 I Cryptfs : Encrypting from sector 283115520
+05-24 21:37:12.874  2885  2920 I Cryptfs : Encrypted to sector 283328000
+05-24 21:37:12.874  2885  2920 I Cryptfs : Encrypting from sector 283344896
+05-24 21:37:12.875  2885  2920 I Cryptfs : Encrypted to sector 283365376
+05-24 21:37:12.875  2885  2920 I Cryptfs : Encrypting from sector 283377664
+05-24 21:37:12.879  2885  2920 I Cryptfs : Encrypted to sector 283572736
+05-24 21:37:12.879  2885  2920 I Cryptfs : Encrypting from sector 283574272
+05-24 21:37:12.880  2885  2920 I Cryptfs : Encrypted to sector 283594752
+05-24 21:37:12.880  2885  2920 I Cryptfs : Encrypting from sector 283607040
+05-24 21:37:12.880  2885  2920 I Cryptfs : Encrypted to sector 283627520
+05-24 21:37:12.880  2885  2920 I Cryptfs : Encrypting from sector 283639808
+05-24 21:37:12.885  2885  2920 I Cryptfs : Encrypted to sector 283840512
+05-24 21:37:12.885  2885  2920 I Cryptfs : Encrypting from sector 283869184
+05-24 21:37:12.885  2885  2920 I Cryptfs : Encrypted to sector 283889664
+05-24 21:37:12.885  2885  2920 I Cryptfs : Encrypting from sector 283901952
+05-24 21:37:12.890  2885  2920 I Cryptfs : Encrypted to sector 284108288
+05-24 21:37:12.890  2885  2920 I Cryptfs : Encrypting from sector 284131328
+05-24 21:37:12.891  2885  2920 I Cryptfs : Encrypted to sector 284151808
+05-24 21:37:12.891  2885  2920 I Cryptfs : Encrypting from sector 284164096
+05-24 21:37:12.896  2885  2920 I Cryptfs : Encrypted to sector 284361216
+05-24 21:37:12.896  2885  2920 I Cryptfs : Encrypting from sector 284393472
+05-24 21:37:12.897  2885  2920 I Cryptfs : Encrypted to sector 284413952
+05-24 21:37:12.897  2885  2920 I Cryptfs : Encrypting from sector 284426240
+05-24 21:37:12.919  2885  2920 I Cryptfs : Encrypted to sector 284623872
+05-24 21:37:12.919  2885  2920 I Cryptfs : Encrypting from sector 284655616
+05-24 21:37:12.926  2885  2920 I Cryptfs : Encrypted to sector 284676096
+05-24 21:37:12.926  2885  2920 I Cryptfs : Encrypting from sector 284688384
+05-24 21:37:12.953  2885  2920 I Cryptfs : Encrypted to sector 284893184
+05-24 21:37:12.953  2885  2920 I Cryptfs : Encrypting from sector 284917760
+05-24 21:37:12.955  2885  2920 I Cryptfs : Encrypted to sector 284938240
+05-24 21:37:12.955  2885  2920 I Cryptfs : Encrypting from sector 284950528
+05-24 21:37:12.969  2885  2920 I Cryptfs : Encrypting group 17
+05-24 21:37:12.970  2885  2920 I Cryptfs : Encrypted to sector 285152256
+05-24 21:37:12.970  2885  2920 I Cryptfs : Encrypting from sector 285212672
+05-24 21:37:12.976  2885  2920 I Cryptfs : Encrypted to sector 285475328
+05-24 21:37:12.976  2885  2920 I Cryptfs : Encrypting from sector 286261248
+05-24 21:37:13.047  2885  2920 I Cryptfs : Encrypted to sector 287309824
+05-24 21:37:13.047  2885  2920 I Cryptfs : Encrypting from sector 288849920
+05-24 21:37:13.049  2885  2920 I Cryptfs : Encrypted to sector 288870400
+05-24 21:37:13.049  2885  2920 I Cryptfs : Encrypting from sector 288882688
+05-24 21:37:13.066  2885  2920 I Cryptfs : Encrypted to sector 289082880
+05-24 21:37:13.066  2885  2920 I Cryptfs : Encrypting from sector 289112064
+05-24 21:37:13.072  2885  2920 I Cryptfs : Encrypted to sector 289132544
+05-24 21:37:13.072  2885  2920 I Cryptfs : Encrypting from sector 289406976
+05-24 21:37:13.135  2885  2920 I Cryptfs : Encrypted to sector 290455552
+05-24 21:37:13.135  2885  2920 I Cryptfs : Encrypting from sector 290848768
+05-24 21:37:13.137  2885  2920 I Cryptfs : Encrypted to sector 290869248
+05-24 21:37:13.137  2885  2920 I Cryptfs : Encrypting from sector 292028416
+05-24 21:37:13.154  2885  2920 I Cryptfs : Encrypted to sector 292229120
+05-24 21:37:13.154  2885  2920 I Cryptfs : Encrypting from sector 292290560
+05-24 21:37:13.187  2885  2920 I Cryptfs : Encrypted to sector 292497408
+05-24 21:37:13.187  2885  2920 I Cryptfs : Encrypting from sector 292552704
+05-24 21:37:13.900  2885  2920 I Cryptfs : Encrypting group 18
+05-24 21:37:13.923  2885  2920 I Cryptfs : Encrypted to sector 302252544
+05-24 21:37:13.923  2885  2920 I Cryptfs : Encrypting from sector 303038464
+05-24 21:37:13.989  2885  2920 I Cryptfs : Encrypted to sector 304087040
+05-24 21:37:13.989  2885  2920 I Cryptfs : Encrypting from sector 305102848
+05-24 21:37:13.991  2885  2920 I Cryptfs : Encrypted to sector 305122816
+05-24 21:37:13.991  2885  2920 I Cryptfs : Encrypting from sector 307232768
+05-24 21:37:14.137  2885  2920 I Cryptfs : Encrypted to sector 309329920
+05-24 21:37:14.137  2885  2920 I Cryptfs : Encrypting from sector 309592064
+05-24 21:37:14.170  2885  2920 I Cryptfs : Encrypted to sector 309792768
+05-24 21:37:14.170  2885  2920 I Cryptfs : Encrypting from sector 309805056
+05-24 21:37:14.170  2885  2920 I Cryptfs : Encrypted to sector 309813760
+05-24 21:37:14.170  2885  2920 I Cryptfs : Encrypting from sector 309821440
+05-24 21:37:14.174  2885  2920 I Cryptfs : Encrypted to sector 309841408
+05-24 21:37:14.174  2885  2920 I Cryptfs : Encrypting from sector 309854208
+05-24 21:37:14.212  2885  2920 I Cryptfs : Encrypted to sector 310103552
+05-24 21:37:14.212  2885  2920 I Cryptfs : Encrypting from sector 310116352
+05-24 21:37:14.222  2885  2920 I Cryptfs : Encrypted to sector 310335488
+05-24 21:37:14.222  2885  2920 I Cryptfs : Encrypting from sector 310345728
+05-24 21:37:14.223  2885  2920 I Cryptfs : Encrypted to sector 310365696
+05-24 21:37:14.223  2885  2920 I Cryptfs : Encrypting from sector 310378496
+05-24 21:37:14.506  2885  2920 I Cryptfs : Encrypted to sector 314572800
+05-24 21:37:14.506  2885  2920 I Cryptfs : Encrypting from sector 314703872
+05-24 21:37:14.515  2885  2920 I Cryptfs : Encrypted to sector 314782208
+05-24 21:37:14.515  2885  2920 I Cryptfs : Encrypting from sector 314802176
+05-24 21:37:14.522  2885  2920 I Cryptfs : Encrypted to sector 314822144
+05-24 21:37:14.522  2885  2920 I Cryptfs : Encrypting from sector 314834944
+05-24 21:37:14.527  2885  2920 I Cryptfs : Encrypted to sector 315034112
+05-24 21:37:14.527  2885  2920 I Cryptfs : Encrypting from sector 315064320
+05-24 21:37:14.528  2885  2920 I Cryptfs : Encrypted to sector 315084288
+05-24 21:37:14.528  2885  2920 I Cryptfs : Encrypting from sector 315097088
+05-24 21:37:14.534  2885  2920 I Cryptfs : Encrypted to sector 315334144
+05-24 21:37:14.534  2885  2920 I Cryptfs : Encrypting from sector 315359232
+05-24 21:37:14.551  2885  2920 I Cryptfs : Encrypted to sector 315574784
+05-24 21:37:14.551  2885  2920 I Cryptfs : Encrypting from sector 315588608
+05-24 21:37:14.556  2885  2920 I Cryptfs : Encrypted to sector 315608576
+05-24 21:37:14.556  2885  2920 I Cryptfs : Encrypting from sector 315621376
+05-24 21:37:14.632  2885  2920 I Cryptfs : Encrypted to sector 316669952
+05-24 21:37:14.632  2885  2920 I Cryptfs : Encrypting from sector 317554688
+05-24 21:37:14.647  2885  2920 I Cryptfs : Encrypted to sector 317574656
+05-24 21:37:14.647  2885  2920 I Cryptfs : Encrypting from sector 317685760
+05-24 21:37:14.663  2885  2920 I Cryptfs : Encrypted to sector 317705728
+05-24 21:37:14.663  2885  2920 I Cryptfs : Encrypting from sector 317718528
+05-24 21:37:14.673  2885  2920 I Cryptfs : Encrypted to sector 317863424
+05-24 21:37:14.673  2885  2920 I Cryptfs : Encrypting from sector 317882368
+05-24 21:37:14.674  2885  2920 I Cryptfs : Encrypted to sector 317902336
+05-24 21:37:14.674  2885  2920 I Cryptfs : Encrypting from sector 317980672
+05-24 21:37:14.687  2885  2920 I Cryptfs : Encrypted to sector 318107648
+05-24 21:37:14.687  2885  2920 I Cryptfs : Encrypting from sector 318242816
+05-24 21:37:14.691  2885  2920 I Cryptfs : Encrypted to sector 318383616
+05-24 21:37:14.691  2885  2920 I Cryptfs : Encrypting from sector 318406656
+05-24 21:37:14.691  2885  2920 I Cryptfs : Encrypted to sector 318426624
+05-24 21:37:14.691  2885  2920 I Cryptfs : Encrypting from sector 318504960
+05-24 21:37:14.695  2885  2920 I Cryptfs : Encrypting group 19
+05-24 21:37:14.696  2885  2920 I Cryptfs : Encrypted to sector 318673920
+05-24 21:37:14.696  2885  2920 I Cryptfs : Encrypting from sector 318767104
+05-24 21:37:14.705  2885  2920 I Cryptfs : Encrypted to sector 319029760
+05-24 21:37:14.705  2885  2920 I Cryptfs : Encrypting from sector 319815680
+05-24 21:37:14.781  2885  2920 I Cryptfs : Encrypted to sector 320864256
+05-24 21:37:14.781  2885  2920 I Cryptfs : Encrypting from sector 329449472
+05-24 21:37:14.794  2885  2920 I Cryptfs : Encrypted to sector 329469440
+05-24 21:37:14.794  2885  2920 I Cryptfs : Encrypting from sector 329482240
+05-24 21:37:14.803  2885  2920 I Cryptfs : Encrypted to sector 329502208
+05-24 21:37:14.803  2885  2920 I Cryptfs : Encrypting from sector 329515008
+05-24 21:37:14.830  2885  2920 I Cryptfs : Encrypted to sector 329702912
+05-24 21:37:14.830  2885  2920 I Cryptfs : Encrypting from sector 329777152
+05-24 21:37:14.842  2885  2920 I Cryptfs : Encrypted to sector 329963008
+05-24 21:37:14.842  2885  2920 I Cryptfs : Encrypting from sector 330039296
+05-24 21:37:14.846  2885  2920 I Cryptfs : Encrypted to sector 330211328
+05-24 21:37:14.846  2885  2920 I Cryptfs : Encrypting from sector 330301440
+05-24 21:37:14.850  2885  2920 I Cryptfs : Encrypted to sector 330497536
+05-24 21:37:14.850  2885  2920 I Cryptfs : Encrypting from sector 330563584
+05-24 21:37:14.856  2885  2920 I Cryptfs : Encrypted to sector 330774016
+05-24 21:37:14.856  2885  2920 I Cryptfs : Encrypting from sector 330792960
+05-24 21:37:14.858  2885  2920 I Cryptfs : Encrypted to sector 330812928
+05-24 21:37:14.858  2885  2920 I Cryptfs : Encrypting from sector 330825728
+05-24 21:37:14.884  2885  2920 I Cryptfs : Encrypted to sector 331024384
+05-24 21:37:14.884  2885  2920 I Cryptfs : Encrypting from sector 331055104
+05-24 21:37:14.897  2885  2920 I Cryptfs : Encrypted to sector 331075072
+05-24 21:37:14.897  2885  2920 I Cryptfs : Encrypting from sector 331087872
+05-24 21:37:14.921  2885  2920 I Cryptfs : Encrypted to sector 331261440
+05-24 21:37:14.921  2885  2920 I Cryptfs : Encrypting from sector 333447168
+05-24 21:37:14.991  2885  2920 I Cryptfs : Encrypted to sector 334495744
+05-24 21:37:14.991  2885  2920 I Cryptfs : Encrypting from sector 334856192
+05-24 21:37:14.998  2885  2920 I Cryptfs : Encrypted to sector 334876160
+05-24 21:37:14.998  2885  2920 I Cryptfs : Encrypting from sector 334987264
+05-24 21:37:15.006  2885  2920 I Cryptfs : Encrypted to sector 335007232
+05-24 21:37:15.006  2885  2920 I Cryptfs : Encrypting from sector 335446016
+05-24 21:37:15.007  2885  2920 I Cryptfs : Encrypting group 20
+05-24 21:37:15.008  2885  2920 I Cryptfs : Encrypted to sector 335465984
+05-24 21:37:15.008  2885  2920 I Cryptfs : Encrypting from sector 335544320
+05-24 21:37:15.014  2885  2920 I Cryptfs : Encrypted to sector 335806976
+05-24 21:37:15.014  2885  2920 I Cryptfs : Encrypting from sector 339345408
+05-24 21:37:15.027  2885  2920 I Cryptfs : Encrypted to sector 339649024
+05-24 21:37:15.027  2885  2920 I Cryptfs : Encrypting from sector 339656704
+05-24 21:37:15.028  2885  2920 I Cryptfs : Encrypted to sector 339670016
+05-24 21:37:15.028  2885  2920 I Cryptfs : Encrypting from sector 339673088
+05-24 21:37:15.055  2885  2920 I Cryptfs : Encrypted to sector 339738624
+05-24 21:37:15.055  2885  2920 I Cryptfs : Encrypting from sector 342786048
+05-24 21:37:15.062  2885  2920 I Cryptfs : Encrypted to sector 342806016
+05-24 21:37:15.062  2885  2920 I Cryptfs : Encrypting from sector 342818816
+05-24 21:37:15.071  2885  2920 I Cryptfs : Encrypted to sector 342880768
+05-24 21:37:15.071  2885  2920 I Cryptfs : Encrypting from sector 342884352
+05-24 21:37:15.077  2885  2920 I Cryptfs : Encrypted to sector 342887936
+05-24 21:37:15.077  2885  2920 I Cryptfs : Encrypting from sector 343015424
+05-24 21:37:15.082  2885  2920 I Cryptfs : Encrypted to sector 343121920
+05-24 21:37:15.082  2885  2920 I Cryptfs : Encrypting from sector 346947584
+05-24 21:37:15.083  2885  2920 I Cryptfs : Encrypted to sector 346964992
+05-24 21:37:15.083  2885  2920 I Cryptfs : Encrypting from sector 346980352
+05-24 21:37:15.084  2885  2920 I Cryptfs : Encrypted to sector 347000320
+05-24 21:37:15.084  2885  2920 I Cryptfs : Encrypting from sector 349339648
+05-24 21:37:15.086  2885  2920 I Cryptfs : Encrypted to sector 349359616
+05-24 21:37:15.086  2885  2920 I Cryptfs : Encrypting from sector 349437952
+05-24 21:37:15.090  2885  2920 I Cryptfs : Encrypted to sector 349622784
+05-24 21:37:15.090  2885  2920 I Cryptfs : Encrypting from sector 351830016
+05-24 21:37:15.092  2885  2920 I Cryptfs : Encrypted to sector 351849984
+05-24 21:37:15.092  2885  2920 I Cryptfs : Encrypting from sector 351928320
+05-24 21:37:15.096  2885  2920 I Cryptfs : Encrypted to sector 352073728
+05-24 21:37:15.096  2885  2920 I Cryptfs : Encrypting from sector 352190464
+05-24 21:37:15.099  2885  2920 I Cryptfs : Encrypting group 21
+05-24 21:37:15.110  2885  2920 I Cryptfs : Encrypting group 22
+05-24 21:37:15.121  2885  2920 I Cryptfs : Encrypted to sector 352584192
+05-24 21:37:15.121  2885  2920 I Cryptfs : Encrypting from sector 369098752
+05-24 21:37:15.163  2885  2920 I Cryptfs : Encrypted to sector 369361920
+05-24 21:37:15.163  2885  2920 I Cryptfs : Encrypting from sector 369377280
+05-24 21:37:15.171  2885  2920 I Cryptfs : Encrypted to sector 369377792
+05-24 21:37:15.171  2885  2920 I Cryptfs : Encrypting from sector 382157312
+05-24 21:37:15.171  2885  2920 I Cryptfs : Encrypted to sector 382158336
+05-24 21:37:15.171  2885  2920 I Cryptfs : Encrypting from sector 382555648
+05-24 21:37:15.172  2885  2920 I Cryptfs : Encrypted to sector 382556160
+05-24 21:37:15.172  2885  2920 I Cryptfs : Encrypting from sector 383062016
+05-24 21:37:15.172  2885  2920 I Cryptfs : Encrypted to sector 383063040
+05-24 21:37:15.172  2885  2920 I Cryptfs : Encrypting from sector 383097344
+05-24 21:37:15.172  2885  2920 I Cryptfs : Encrypting group 23
+05-24 21:37:15.173  2885  2920 I Cryptfs : Encrypted to sector 383097856
+05-24 21:37:15.173  2885  2920 I Cryptfs : Encrypting from sector 385875968
+05-24 21:37:15.181  2885  2920 I Cryptfs : Encrypted to sector 386138624
+05-24 21:37:15.181  2885  2920 I Cryptfs : Encrypting from sector 397437440
+05-24 21:37:15.182  2885  2920 I Cryptfs : Encrypting group 24
+05-24 21:37:15.183  2885  2920 I Cryptfs : Encrypted to sector 397438464
+05-24 21:37:15.183  2885  2920 I Cryptfs : Encrypting from sector 402653184
+05-24 21:37:15.190  2885  2920 I Cryptfs : Encrypted to sector 402915840
+05-24 21:37:15.190  2885  2920 I Cryptfs : Encrypting from sector 411664384
+05-24 21:37:15.192  2885  2920 I Cryptfs : Encrypted to sector 411684352
+05-24 21:37:15.192  2885  2920 I Cryptfs : Encrypting from sector 411697152
+05-24 21:37:15.200  2885  2920 I Cryptfs : Encrypted to sector 411771904
+05-24 21:37:15.200  2885  2920 I Cryptfs : Encrypting from sector 411779072
+05-24 21:37:15.209  2885  2920 I Cryptfs : Encrypted to sector 411815424
+05-24 21:37:15.209  2885  2920 I Cryptfs : Encrypting from sector 411828224
+05-24 21:37:15.209  2885  2920 I Cryptfs : Encrypted to sector 411831808
+05-24 21:37:15.209  2885  2920 I Cryptfs : Encrypting from sector 411844608
+05-24 21:37:15.219  2885  2920 I Cryptfs : Encrypted to sector 411880960
+05-24 21:37:15.219  2885  2920 I Cryptfs : Encrypting from sector 411893760
+05-24 21:37:15.240  2885  2920 I Cryptfs : Encrypted to sector 411991040
+05-24 21:37:15.240  2885  2920 I Cryptfs : Encrypting from sector 411992064
+05-24 21:37:15.240  2885  2920 I Cryptfs : Encrypted to sector 412012032
+05-24 21:37:15.240  2885  2920 I Cryptfs : Encrypting from sector 412024832
+05-24 21:37:15.249  2885  2920 I Cryptfs : Encrypted to sector 412144128
+05-24 21:37:15.249  2885  2920 I Cryptfs : Encrypting from sector 412155904
+05-24 21:37:15.250  2885  2920 I Cryptfs : Encrypted to sector 412175872
+05-24 21:37:15.250  2885  2920 I Cryptfs : Encrypting from sector 412352512
+05-24 21:37:15.258  2885  2920 I Cryptfs : Encrypted to sector 412439552
+05-24 21:37:15.258  2885  2920 I Cryptfs : Encrypting from sector 412450816
+05-24 21:37:15.259  2885  2920 I Cryptfs : Encrypted to sector 412470784
+05-24 21:37:15.259  2885  2920 I Cryptfs : Encrypting from sector 412483584
+05-24 21:37:15.263  2885  2920 I Cryptfs : Encrypted to sector 412594176
+05-24 21:37:15.263  2885  2920 I Cryptfs : Encrypting from sector 412598272
+05-24 21:37:15.263  2885  2920 I Cryptfs : Encrypted to sector 412601856
+05-24 21:37:15.263  2885  2920 I Cryptfs : Encrypting from sector 412614656
+05-24 21:37:15.266  2885  2920 I Cryptfs : Encrypted to sector 412700672
+05-24 21:37:15.266  2885  2920 I Cryptfs : Encrypting from sector 412712960
+05-24 21:37:15.267  2885  2920 I Cryptfs : Encrypted to sector 412732928
+05-24 21:37:15.267  2885  2920 I Cryptfs : Encrypting from sector 412745728
+05-24 21:37:15.270  2885  2920 I Cryptfs : Encrypted to sector 412856832
+05-24 21:37:15.270  2885  2920 I Cryptfs : Encrypting from sector 412876800
+05-24 21:37:15.270  2885  2920 I Cryptfs : Encrypted to sector 412896768
+05-24 21:37:15.270  2885  2920 I Cryptfs : Encrypting from sector 412909568
+05-24 21:37:15.272  2885  2920 I Cryptfs : Encrypted to sector 412929536
+05-24 21:37:15.272  2885  2920 I Cryptfs : Encrypting from sector 413031424
+05-24 21:37:15.272  2885  2920 I Cryptfs : Encrypted to sector 413032448
+05-24 21:37:15.272  2885  2920 I Cryptfs : Encrypting from sector 413040640
+05-24 21:37:15.273  2885  2920 I Cryptfs : Encrypted to sector 413060608
+05-24 21:37:15.273  2885  2920 I Cryptfs : Encrypting from sector 413073408
+05-24 21:37:15.276  2885  2920 I Cryptfs : Encrypted to sector 413115904
+05-24 21:37:15.276  2885  2920 I Cryptfs : Encrypting from sector 413663232
+05-24 21:37:15.280  2885  2920 I Cryptfs : Encrypted to sector 413763072
+05-24 21:37:15.280  2885  2920 I Cryptfs : Encrypting from sector 413794304
+05-24 21:37:15.287  2885  2920 I Cryptfs : Encrypted to sector 413814272
+05-24 21:37:15.287  2885  2920 I Cryptfs : Encrypting from sector 413827072
+05-24 21:37:15.321  2885  2920 I Cryptfs : Encrypted to sector 413847040
+05-24 21:37:15.321  2885  2920 I Cryptfs : Encrypting from sector 413869056
+05-24 21:37:15.408  2885  2920 I Cryptfs : Encrypted to sector 413924864
+05-24 21:37:15.408  2885  2920 I Cryptfs : Encrypting from sector 414187520
+05-24 21:37:15.468  2885  2920 I Cryptfs : Encrypted to sector 414310400
+05-24 21:37:15.469  2885  2920 I Cryptfs : Encrypting from sector 414414848
+05-24 21:37:15.469  2885  2920 I Cryptfs : Encrypted to sector 414416896
+05-24 21:37:15.469  2885  2920 I Cryptfs : Encrypting from sector 414423552
+05-24 21:37:15.470  2885  2920 I Cryptfs : Encrypted to sector 414424576
+05-24 21:37:15.470  2885  2920 I Cryptfs : Encrypting from sector 414427648
+05-24 21:37:15.470  2885  2920 I Cryptfs : Encrypted to sector 414429184
+05-24 21:37:15.470  2885  2920 I Cryptfs : Encrypting from sector 414437376
+05-24 21:37:15.471  2885  2920 I Cryptfs : Encrypted to sector 414439424
+05-24 21:37:15.471  2885  2920 I Cryptfs : Encrypting from sector 414711808
+05-24 21:37:15.495  2885  2920 I Cryptfs : Encrypted to sector 415236096
+05-24 21:37:15.495  2885  2920 I Cryptfs : Encrypting from sector 419135488
+05-24 21:37:15.498  2885  2920 I Cryptfs : Encrypted to sector 419256320
+05-24 21:37:15.498  2885  2920 I Cryptfs : Encrypting from sector 419266560
+05-24 21:37:15.498  2885  2920 I Cryptfs : Encrypted to sector 419286528
+05-24 21:37:15.498  2885  2920 I Cryptfs : Encrypting from sector 419299328
+05-24 21:37:15.501  2885  2920 I Cryptfs : Encrypting group 25
+05-24 21:37:15.515  2885  2920 I Cryptfs : Encrypted to sector 420306432
+05-24 21:37:15.515  2885  2920 I Cryptfs : Encrypting from sector 420315136
+05-24 21:37:15.516  2885  2920 I Cryptfs : Encrypted to sector 420335104
+05-24 21:37:15.516  2885  2920 I Cryptfs : Encrypting from sector 420347904
+05-24 21:37:15.518  2885  2920 I Cryptfs : Encrypted to sector 420449792
+05-24 21:37:15.518  2885  2920 I Cryptfs : Encrypting from sector 420462592
+05-24 21:37:15.520  2885  2920 I Cryptfs : Encrypted to sector 420476928
+05-24 21:37:15.520  2885  2920 I Cryptfs : Encrypting from sector 425721856
+05-24 21:37:15.586  2885  2920 I Cryptfs : Encrypted to sector 427819008
+05-24 21:37:15.586  2885  2920 I Cryptfs : Encrypting from sector 433586176
+05-24 21:37:15.596  2885  2920 I Cryptfs : Encrypted to sector 433606144
+05-24 21:37:15.596  2885  2920 I Cryptfs : Encrypting from sector 433618944
+05-24 21:37:15.598  2885  2920 I Cryptfs : Encrypted to sector 433638912
+05-24 21:37:15.598  2885  2920 I Cryptfs : Encrypting from sector 433651712
+05-24 21:37:15.608  2885  2920 I Cryptfs : Encrypted to sector 433762304
+05-24 21:37:15.608  2885  2920 I Cryptfs : Encrypting from sector 433782784
+05-24 21:37:15.614  2885  2920 I Cryptfs : Encrypted to sector 433802752
+05-24 21:37:15.614  2885  2920 I Cryptfs : Encrypting from sector 433815552
+05-24 21:37:15.622  2885  2920 I Cryptfs : Encrypted to sector 433847296
+05-24 21:37:15.622  2885  2920 I Cryptfs : Encrypting from sector 433848320
+05-24 21:37:15.623  2885  2920 I Cryptfs : Encrypted to sector 433907200
+05-24 21:37:15.623  2885  2920 I Cryptfs : Encrypting from sector 434110464
+05-24 21:37:15.770  2885  2920 I Cryptfs : Encrypting group 26
+05-24 21:37:15.779  2885  2920 I Cryptfs : Encrypting group 27
+05-24 21:37:15.792  2885  2920 I Cryptfs : Encrypted to sector 436470272
+05-24 21:37:15.792  2885  2920 I Cryptfs : Encrypting from sector 452984832
+05-24 21:37:15.851  2885  2920 I Cryptfs : Encrypting group 28
+05-24 21:37:15.852  2885  2920 I Cryptfs : Encrypted to sector 453773312
+05-24 21:37:15.852  2885  2920 I Cryptfs : Encrypting from sector 469762048
+05-24 21:37:15.861  2885  2920 I Cryptfs : Encrypted to sector 470024704
+05-24 21:37:15.861  2885  2920 I Cryptfs : Encrypting from sector 470110720
+05-24 21:37:15.869  2885  2920 I Cryptfs : Encrypted to sector 470118400
+05-24 21:37:15.869  2885  2920 I Cryptfs : Encrypting from sector 470130688
+05-24 21:37:15.899  2885  2920 I Cryptfs : Encrypted to sector 470201856
+05-24 21:37:15.899  2885  2920 I Cryptfs : Encrypting from sector 470296576
+05-24 21:37:15.904  2885  2920 I Cryptfs : Encrypted to sector 470299136
+05-24 21:37:15.904  2885  2920 I Cryptfs : Encrypting from sector 470303232
+05-24 21:37:15.908  2885  2920 I Cryptfs : Encrypted to sector 470311936
+05-24 21:37:15.908  2885  2920 I Cryptfs : Encrypting from sector 470499328
+05-24 21:37:15.916  2885  2920 I Cryptfs : Encrypted to sector 470515712
+05-24 21:37:15.916  2885  2920 I Cryptfs : Encrypting from sector 470548480
+05-24 21:37:15.938  2885  2920 I Cryptfs : Encrypted to sector 471597056
+05-24 21:37:15.938  2885  2920 I Cryptfs : Encrypting from sector 471695360
+05-24 21:37:15.941  2885  2920 I Cryptfs : Encrypted to sector 471716864
+05-24 21:37:15.941  2885  2920 I Cryptfs : Encrypting from sector 471793664
+05-24 21:37:15.966  2885  2920 I Cryptfs : Encrypted to sector 471819776
+05-24 21:37:15.966  2885  2920 I Cryptfs : Encrypting from sector 474808320
+05-24 21:37:15.982  2885  2920 I Cryptfs : Encrypted to sector 474841088
+05-24 21:37:15.982  2885  2920 I Cryptfs : Encrypting from sector 475566080
+05-24 21:37:15.983  2885  2920 I Cryptfs : Encrypted to sector 475566592
+05-24 21:37:15.983  2885  2920 I Cryptfs : Encrypting from sector 475813376
+05-24 21:37:15.985  2885  2920 I Cryptfs : Encrypted to sector 475813888
+05-24 21:37:15.985  2885  2920 I Cryptfs : Encrypting from sector 477233152
+05-24 21:37:16.005  2885  2920 I Cryptfs : Encrypted to sector 477364224
+05-24 21:37:16.005  2885  2920 I Cryptfs : Encrypting from sector 477453312
+05-24 21:37:16.007  2885  2920 I Cryptfs : Encrypted to sector 477455360
+05-24 21:37:16.007  2885  2920 I Cryptfs : Encrypting from sector 477477888
+05-24 21:37:16.010  2885  2920 I Cryptfs : Encrypted to sector 477479936
+05-24 21:37:16.010  2885  2920 I Cryptfs : Encrypting from sector 477626368
+05-24 21:37:16.025  2885  2920 I Cryptfs : Encrypted to sector 478150656
+05-24 21:37:16.025  2885  2920 I Cryptfs : Encrypting from sector 478216192
+05-24 21:37:16.029  2885  2920 I Cryptfs : Encrypted to sector 478412800
+05-24 21:37:16.029  2885  2920 I Cryptfs : Encrypting from sector 478674944
+05-24 21:37:16.295  2885  2920 I Cryptfs : Encrypted to sector 482344960
+05-24 21:37:16.295  2885  2920 I Cryptfs : Encrypting from sector 482869248
+05-24 21:37:16.325  2885  2920 I Cryptfs : Encrypted to sector 483131392
+05-24 21:37:16.325  2885  2920 I Cryptfs : Encrypting from sector 483393536
+05-24 21:37:16.413  2885  2920 I Cryptfs : Encrypted to sector 484933632
+05-24 21:37:16.413  2885  2920 I Cryptfs : Encrypting from sector 484966400
+05-24 21:37:16.470  2885  2920 I Cryptfs : Encrypted to sector 485370368
+05-24 21:37:16.470  2885  2920 I Cryptfs : Encrypting from sector 485490688
+05-24 21:37:16.529  2885  2920 I Cryptfs : Encrypting group 29
+05-24 21:37:16.556  2885  2920 I Cryptfs : Encrypting group 30
+05-24 21:37:16.560  2885  2920 I Cryptfs : Encrypted to sector 486801920
+05-24 21:37:16.560  2885  2920 I Cryptfs : Encrypting from sector 503316480
+05-24 21:37:16.613  2885  2920 I Cryptfs : Encrypted to sector 503579136
+05-24 21:37:16.614  2885  2920 I Cryptfs : Encrypting from sector 510607360
+05-24 21:37:16.624  2885  2920 I Cryptfs : Encrypted to sector 510656512
+05-24 21:37:16.624  2885  2920 I Cryptfs : Encrypting from sector 511098880
+05-24 21:37:16.625  2885  2920 I Cryptfs : Encrypted to sector 511113216
+05-24 21:37:16.625  2885  2920 I Cryptfs : Encrypting from sector 511115264
+05-24 21:37:16.626  2885  2920 I Cryptfs : Encrypted to sector 511163904
+05-24 21:37:16.626  2885  2920 I Cryptfs : Encrypting from sector 511164416
+05-24 21:37:16.627  2885  2920 I Cryptfs : Encrypted to sector 511180800
+05-24 21:37:16.627  2885  2920 I Cryptfs : Encrypting from sector 511652864
+05-24 21:37:16.632  2885  2920 I Cryptfs : Encrypted to sector 511866368
+05-24 21:37:16.632  2885  2920 I Cryptfs : Encrypting from sector 511868928
+05-24 21:37:16.634  2885  2920 I Cryptfs : Encrypted to sector 511960064
+05-24 21:37:16.634  2885  2920 I Cryptfs : Encrypting from sector 512049152
+05-24 21:37:16.635  2885  2920 I Cryptfs : Encrypted to sector 512087040
+05-24 21:37:16.635  2885  2920 I Cryptfs : Encrypting from sector 512087552
+05-24 21:37:16.638  2885  2920 I Cryptfs : Encrypted to sector 512211456
+05-24 21:37:16.638  2885  2920 I Cryptfs : Encrypting from sector 512212992
+05-24 21:37:16.645  2885  2920 I Cryptfs : Encrypted to sector 512620544
+05-24 21:37:16.645  2885  2920 I Cryptfs : Encrypting from sector 512622592
+05-24 21:37:16.659  2885  2920 I Cryptfs : Encrypted to sector 512717824
+05-24 21:37:16.659  2885  2920 I Cryptfs : Encrypting from sector 512720896
+05-24 21:37:16.668  2885  2920 I Cryptfs : Encrypted to sector 512753664
+05-24 21:37:16.668  2885  2920 I Cryptfs : Encrypting from sector 513802240
+05-24 21:37:16.696  2885  2920 I Cryptfs : Encrypted to sector 513907712
+05-24 21:37:16.696  2885  2920 I Cryptfs : Encrypting from sector 513916928
+05-24 21:37:16.701  2885  2920 I Cryptfs : Encrypted to sector 513933312
+05-24 21:37:16.701  2885  2920 I Cryptfs : Encrypting from sector 513957888
+05-24 21:37:16.704  2885  2920 I Cryptfs : Encrypted to sector 513973248
+05-24 21:37:16.704  2885  2920 I Cryptfs : Encrypting from sector 513983488
+05-24 21:37:16.706  2885  2920 I Cryptfs : Encrypted to sector 513997824
+05-24 21:37:16.706  2885  2920 I Cryptfs : Encrypting from sector 514195456
+05-24 21:37:16.707  2885  2920 I Cryptfs : Encrypted to sector 514206208
+05-24 21:37:16.707  2885  2920 I Cryptfs : Encrypting from sector 514211840
+05-24 21:37:16.708  2885  2920 I Cryptfs : Encrypted to sector 514225664
+05-24 21:37:16.708  2885  2920 I Cryptfs : Encrypting from sector 514228224
+05-24 21:37:16.709  2885  2920 I Cryptfs : Encrypted to sector 514272768
+05-24 21:37:16.709  2885  2920 I Cryptfs : Encrypting from sector 514277376
+05-24 21:37:16.710  2885  2920 I Cryptfs : Encrypted to sector 514341376
+05-24 21:37:16.710  2885  2920 I Cryptfs : Encrypting from sector 514342912
+05-24 21:37:16.712  2885  2920 I Cryptfs : Encrypting group 31
+05-24 21:37:16.713  2885  2920 I Cryptfs : Encrypted to sector 514388992
+05-24 21:37:16.713  2885  2920 I Cryptfs : Encrypting from sector 520093696
+05-24 21:37:16.722  2885  2920 I Cryptfs : Encrypting group 32
+05-24 21:37:16.723  2885  2920 I Cryptfs : Encrypted to sector 520356352
+05-24 21:37:16.723  2885  2920 I Cryptfs : Encrypting from sector 536870912
+05-24 21:37:16.750  2885  2920 I Cryptfs : Encrypted to sector 537133568
+05-24 21:37:16.750  2885  2920 I Cryptfs : Encrypting from sector 537859072
+05-24 21:37:16.757  2885  2920 I Cryptfs : Encrypted to sector 537859584
+05-24 21:37:16.757  2885  2920 I Cryptfs : Encrypting from sector 543902720
+05-24 21:37:16.774  2885  2920 I Cryptfs : Encrypted to sector 543903744
+05-24 21:37:16.774  2885  2920 I Cryptfs : Encrypting from sector 543905280
+05-24 21:37:16.775  2885  2920 I Cryptfs : Encrypted to sector 543906304
+05-24 21:37:16.775  2885  2920 I Cryptfs : Encrypting from sector 544210944
+05-24 21:37:16.952  2885  2920 I Cryptfs : Encrypted to sector 547356672
+05-24 21:37:16.952  2885  2920 I Cryptfs : Encrypting from sector 547585536
+05-24 21:37:16.953  2885  2920 I Cryptfs : Encrypted to sector 547586048
+05-24 21:37:16.953  2885  2920 I Cryptfs : Encrypting from sector 547587072
+05-24 21:37:16.953  2885  2920 I Cryptfs : Encrypted to sector 547587584
+05-24 21:37:16.953  2885  2920 I Cryptfs : Encrypting from sector 547588096
+05-24 21:37:16.953  2885  2920 I Cryptfs : Encrypted to sector 547589120
+05-24 21:37:16.953  2885  2920 I Cryptfs : Encrypting from sector 547590144
+05-24 21:37:16.953  2885  2920 I Cryptfs : Encrypted to sector 547590656
+05-24 21:37:16.953  2885  2920 I Cryptfs : Encrypting from sector 547591168
+05-24 21:37:16.954  2885  2920 I Cryptfs : Encrypted to sector 547593216
+05-24 21:37:16.954  2885  2920 I Cryptfs : Encrypting from sector 549453824
+05-24 21:37:17.265  2885  2920 I Cryptfs : Encrypting group 33
+05-24 21:37:17.277  2885  2920 I Cryptfs : Encrypted to sector 553910784
+05-24 21:37:17.277  2885  2920 I Cryptfs : Encrypting from sector 554696704
+05-24 21:37:18.410  2885  2920 I Cryptfs : Encrypting group 34
+05-24 21:37:18.458  2885  2920 I Cryptfs : Encrypted to sector 570688000
+05-24 21:37:18.458  2885  2920 I Cryptfs : Encrypting from sector 570688512
+05-24 21:37:18.458  2885  2920 I Cryptfs : Encrypted to sector 570691072
+05-24 21:37:18.458  2885  2920 I Cryptfs : Encrypting from sector 570695680
+05-24 21:37:18.464  2885  2920 I Cryptfs : Encrypted to sector 570703872
+05-24 21:37:18.464  2885  2920 I Cryptfs : Encrypting from sector 570740736
+05-24 21:37:18.471  2885  2920 I Cryptfs : Encrypted to sector 570759680
+05-24 21:37:18.471  2885  2920 I Cryptfs : Encrypting from sector 570769408
+05-24 21:37:18.472  2885  2920 I Cryptfs : Encrypted to sector 570785792
+05-24 21:37:18.472  2885  2920 I Cryptfs : Encrypting from sector 570961920
+05-24 21:37:18.473  2885  2920 I Cryptfs : Encrypted to sector 570971136
+05-24 21:37:18.473  2885  2920 I Cryptfs : Encrypting from sector 571182080
+05-24 21:37:18.474  2885  2920 I Cryptfs : Encrypted to sector 571182592
+05-24 21:37:18.474  2885  2920 I Cryptfs : Encrypting from sector 571420160
+05-24 21:37:18.474  2885  2920 I Cryptfs : Encrypted to sector 571424256
+05-24 21:37:18.474  2885  2920 I Cryptfs : Encrypting from sector 571426816
+05-24 21:37:18.475  2885  2920 I Cryptfs : Encrypted to sector 571430912
+05-24 21:37:18.475  2885  2920 I Cryptfs : Encrypting from sector 571473920
+05-24 21:37:18.534  2885  2920 I Cryptfs : Encrypted to sector 572522496
+05-24 21:37:18.534  2885  2920 I Cryptfs : Encrypting from sector 572916224
+05-24 21:37:18.535  2885  2920 I Cryptfs : Encrypted to sector 572919808
+05-24 21:37:18.535  2885  2920 I Cryptfs : Encrypting from sector 572921344
+05-24 21:37:18.537  2885  2920 I Cryptfs : Encrypted to sector 572926464
+05-24 21:37:18.537  2885  2920 I Cryptfs : Encrypting from sector 572934144
+05-24 21:37:18.542  2885  2920 I Cryptfs : Encrypted to sector 572941312
+05-24 21:37:18.542  2885  2920 I Cryptfs : Encrypting from sector 572995072
+05-24 21:37:18.544  2885  2920 I Cryptfs : Encrypted to sector 573001216
+05-24 21:37:18.544  2885  2920 I Cryptfs : Encrypting from sector 573002240
+05-24 21:37:18.549  2885  2920 I Cryptfs : Encrypted to sector 573008384
+05-24 21:37:18.549  2885  2920 I Cryptfs : Encrypting from sector 573015040
+05-24 21:37:18.549  2885  2920 I Cryptfs : Encrypted to sector 573017088
+05-24 21:37:18.549  2885  2920 I Cryptfs : Encrypting from sector 573020160
+05-24 21:37:18.549  2885  2920 I Cryptfs : Encrypted to sector 573026304
+05-24 21:37:18.549  2885  2920 I Cryptfs : Encrypting from sector 573027328
+05-24 21:37:18.551  2885  2920 I Cryptfs : Encrypted to sector 573036544
+05-24 21:37:18.551  2885  2920 I Cryptfs : Encrypting from sector 573421056
+05-24 21:37:18.552  2885  2920 I Cryptfs : Encrypted to sector 573421568
+05-24 21:37:18.552  2885  2920 I Cryptfs : Encrypting from sector 574008320
+05-24 21:37:18.552  2885  2920 I Cryptfs : Encrypted to sector 574008832
+05-24 21:37:18.552  2885  2920 I Cryptfs : Encrypting from sector 574099968
+05-24 21:37:18.552  2885  2920 I Cryptfs : Encrypted to sector 574100480
+05-24 21:37:18.552  2885  2920 I Cryptfs : Encrypting from sector 574268928
+05-24 21:37:18.552  2885  2920 I Cryptfs : Encrypted to sector 574269440
+05-24 21:37:18.552  2885  2920 I Cryptfs : Encrypting from sector 574352384
+05-24 21:37:18.553  2885  2920 I Cryptfs : Encrypted to sector 574353408
+05-24 21:37:18.553  2885  2920 I Cryptfs : Encrypting from sector 574470144
+05-24 21:37:18.553  2885  2920 I Cryptfs : Encrypted to sector 574471168
+05-24 21:37:18.553  2885  2920 I Cryptfs : Encrypting from sector 574509568
+05-24 21:37:18.553  2885  2920 I Cryptfs : Encrypted to sector 574510080
+05-24 21:37:18.553  2885  2920 I Cryptfs : Encrypting from sector 574619648
+05-24 21:37:18.727  2885  2920 I Cryptfs : Encrypted to sector 576716800
+05-24 21:37:18.727  2885  2920 I Cryptfs : Encrypting from sector 576780800
+05-24 21:37:18.728  2885  2920 I Cryptfs : Encrypted to sector 576781312
+05-24 21:37:18.728  2885  2920 I Cryptfs : Encrypting from sector 577765376
+05-24 21:37:19.417  2885  2920 I Cryptfs : Encrypting group 35
+05-24 21:37:19.422  2885  2920 I Cryptfs : Encrypted to sector 587465216
+05-24 21:37:19.422  2885  2920 I Cryptfs : Encrypting from sector 588251136
+05-24 21:37:20.637  2885  2920 I Cryptfs : Encrypting group 36
+05-24 21:37:20.642  2885  2920 I Cryptfs : Encrypted to sector 604242432
+05-24 21:37:20.642  2885  2920 I Cryptfs : Encrypting from sector 605028352
+05-24 21:37:21.133  2987  2991 D BootAnimation: Use save memory method, maybe small fps in actual.
+05-24 21:37:21.704  2885  2920 I Cryptfs : Encrypting group 37
+05-24 21:37:21.709  2885  2920 I Cryptfs : Encrypted to sector 621019648
+05-24 21:37:21.709  2885  2920 I Cryptfs : Encrypting from sector 621805568
+05-24 21:37:22.857  2885  2920 I Cryptfs : Encrypting group 38
+05-24 21:37:22.873  2885  2920 I Cryptfs : Encrypted to sector 637796864
+05-24 21:37:22.873  2885  2920 I Cryptfs : Encrypting from sector 638582784
+05-24 21:37:24.026  2885  2920 I Cryptfs : Encrypting group 39
+05-24 21:37:24.068  2885  2920 I Cryptfs : Encrypted to sector 654574080
+05-24 21:37:24.068  2885  2920 I Cryptfs : Encrypting from sector 655360000
+05-24 21:37:25.221  2885  2920 I Cryptfs : Encrypting group 40
+05-24 21:37:25.250  2885  2920 I Cryptfs : Encrypted to sector 671351296
+05-24 21:37:25.250  2885  2920 I Cryptfs : Encrypting from sector 672137216
+05-24 21:37:26.506  2885  2920 I Cryptfs : Encrypting group 41
+05-24 21:37:26.531  2885  2920 I Cryptfs : Encrypted to sector 688128512
+05-24 21:37:26.531  2885  2920 I Cryptfs : Encrypting from sector 688914432
+05-24 21:37:27.679  2885  2920 I Cryptfs : Encrypting group 42
+05-24 21:37:27.712  2885  2920 I Cryptfs : Encrypted to sector 704905728
+05-24 21:37:27.712  2885  2920 I Cryptfs : Encrypting from sector 705691648
+05-24 21:37:28.827  2885  2920 I Cryptfs : Encrypting group 43
+05-24 21:37:28.870  2885  2920 I Cryptfs : Encrypted to sector 721682944
+05-24 21:37:28.870  2885  2920 I Cryptfs : Encrypting from sector 721944576
+05-24 21:37:29.646  2885  2920 I Cryptfs : Encrypted to sector 732430336
+05-24 21:37:29.646  2885  2920 I Cryptfs : Encrypting from sector 732954624
+05-24 21:37:29.678  2885  2920 I Cryptfs : Encrypted to sector 733547520
+05-24 21:37:29.678  2885  2920 I Cryptfs : Encrypting from sector 734003200
+05-24 21:37:29.980  2885  2920 I Cryptfs : Encrypting group 44
+05-24 21:37:29.995  2885  2920 I Cryptfs : Encrypted to sector 738460160
+05-24 21:37:29.995  2885  2920 I Cryptfs : Encrypting from sector 739246080
+05-24 21:37:31.166  2885  2920 I Cryptfs : Encrypting group 45
+05-24 21:37:31.222  2885  2920 I Cryptfs : Encrypted to sector 755750400
+05-24 21:37:31.222  2885  2920 I Cryptfs : Encrypting from sector 756023296
+05-24 21:37:32.361  2885  2920 I Cryptfs : Encrypting group 46
+05-24 21:37:32.366  2885  2920 I Cryptfs : Encrypted to sector 772014592
+05-24 21:37:32.366  2885  2920 I Cryptfs : Encrypting from sector 772800512
+05-24 21:37:33.522  2885  2920 I Cryptfs : Encrypting group 47
+05-24 21:37:33.537  2885  2920 I Cryptfs : Encrypted to sector 788791808
+05-24 21:37:33.537  2885  2920 I Cryptfs : Encrypting from sector 789577728
+05-24 21:37:34.701  2885  2920 I Cryptfs : Encrypting group 48
+05-24 21:37:34.744  2885  2920 I Cryptfs : Encrypted to sector 805569024
+05-24 21:37:34.744  2885  2920 I Cryptfs : Encrypting from sector 806354944
+05-24 21:37:35.856  2885  2920 I Cryptfs : Encrypting group 49
+05-24 21:37:35.931  2885  2920 I Cryptfs : Encrypted to sector 822872064
+05-24 21:37:35.931  2885  2920 I Cryptfs : Encrypting from sector 823132160
+05-24 21:37:37.039  2885  2920 I Cryptfs : Encrypting group 50
+05-24 21:37:37.077  2885  2920 I Cryptfs : Encrypted to sector 839123456
+05-24 21:37:37.077  2885  2920 I Cryptfs : Encrypting from sector 839909376
+05-24 21:37:38.230  2885  2920 I Cryptfs : Encrypting group 51
+05-24 21:37:38.243  2885  2920 I Cryptfs : Encrypted to sector 855900672
+05-24 21:37:38.243  2885  2920 I Cryptfs : Encrypting from sector 856686592
+05-24 21:37:39.402  2885  2920 I Cryptfs : Encrypting group 52
+05-24 21:37:39.424  2885  2920 I Cryptfs : Encrypted to sector 872677888
+05-24 21:37:39.424  2885  2920 I Cryptfs : Encrypting from sector 873463808
+05-24 21:37:40.546  2885  2920 I Cryptfs : Encrypting group 53
+05-24 21:37:40.552  2885  2920 I Cryptfs : Encrypted to sector 889455104
+05-24 21:37:40.552  2885  2920 I Cryptfs : Encrypting from sector 890241024
+05-24 21:37:41.682  2885  2920 I Cryptfs : Encrypting group 54
+05-24 21:37:41.726  2885  2920 I Cryptfs : Encrypted to sector 906232320
+05-24 21:37:41.726  2885  2920 I Cryptfs : Encrypting from sector 907018240
+05-24 21:37:42.850  2885  2920 I Cryptfs : Encrypting group 55
+05-24 21:37:42.882  2885  2920 I Cryptfs : Encrypted to sector 923009536
+05-24 21:37:42.882  2885  2920 I Cryptfs : Encrypting from sector 923795456
+05-24 21:37:44.011  2885  2920 I Cryptfs : Encrypting group 56
+05-24 21:37:44.016  2885  2920 I Cryptfs : Encrypted to sector 939786752
+05-24 21:37:44.016  2885  2920 I Cryptfs : Encrypting from sector 940572672
+05-24 21:37:45.159  2885  2920 I Cryptfs : Encrypting group 57
+05-24 21:37:45.188  2885  2920 I Cryptfs : Encrypted to sector 956730880
+05-24 21:37:45.188  2885  2920 I Cryptfs : Encrypting from sector 956825600
+05-24 21:37:46.186  2885  2920 I Cryptfs : Encrypted to sector 970457088
+05-24 21:37:46.186  2885  2920 I Cryptfs : Encrypting from sector 970981376
+05-24 21:37:46.333  2885  2920 I Cryptfs : Encrypting group 58
+05-24 21:37:46.360  2885  2920 I Cryptfs : Encrypted to sector 973341184
+05-24 21:37:46.360  2885  2920 I Cryptfs : Encrypting from sector 974127104
+05-24 21:37:47.550  2885  2920 I Cryptfs : Encrypting group 59
+05-24 21:37:47.557  2885  2920 I Cryptfs : Encrypted to sector 990118400
+05-24 21:37:47.557  2885  2920 I Cryptfs : Encrypting from sector 990904320
+05-24 21:37:48.772  2885  2920 I Cryptfs : Encrypting group 60
+05-24 21:37:48.818  2885  2920 I Cryptfs : Encrypted to sector 1006895616
+05-24 21:37:48.818  2885  2920 I Cryptfs : Encrypting from sector 1007681536
+05-24 21:37:50.018  2885  2920 I Cryptfs : Encrypting group 61
+05-24 21:37:50.062  2885  2920 I Cryptfs : Encrypted to sector 1023672832
+05-24 21:37:50.062  2885  2920 I Cryptfs : Encrypting from sector 1024458752
+05-24 21:37:50.380  2987  3004 W         : g2d fimg library does not exist
+05-24 21:37:51.287  2885  2920 I Cryptfs : Encrypting group 62
+05-24 21:37:51.294  2885  2920 I Cryptfs : Encrypted to sector 1040450048
+05-24 21:37:51.294  2885  2920 I Cryptfs : Encrypting from sector 1041235968
+05-24 21:37:52.485  2885  2920 I Cryptfs : Encrypting group 63
+05-24 21:37:52.519  2885  2920 I Cryptfs : Encrypted to sector 1057227264
+05-24 21:37:52.519  2885  2920 I Cryptfs : Encrypting from sector 1058013184
+05-24 21:37:53.809  2885  2920 I Cryptfs : Encrypting group 64
+05-24 21:37:53.852  2885  2920 I Cryptfs : Encrypted to sector 1074004480
+05-24 21:37:53.852  2885  2920 I Cryptfs : Encrypting from sector 1074790400
+05-24 21:37:54.472  2987  3004 W         : fimg library or stretchFimgApi_v5 symbol can not be loaded
+05-24 21:37:55.053  2885  2920 I Cryptfs : Encrypting group 65
+05-24 21:37:55.080  2885  2920 I Cryptfs : Encrypted to sector 1090781696
+05-24 21:37:55.080  2885  2920 I Cryptfs : Encrypting from sector 1091567616
+05-24 21:37:56.315  2885  2920 I Cryptfs : Encrypting group 66
+05-24 21:37:56.357  2885  2920 I Cryptfs : Encrypted to sector 1107558912
+05-24 21:37:56.357  2885  2920 I Cryptfs : Encrypting from sector 1108344832
+05-24 21:37:57.540  2885  2920 I Cryptfs : Encrypting group 67
+05-24 21:37:57.566  2885  2920 I Cryptfs : Encrypted to sector 1124336128
+05-24 21:37:57.566  2885  2920 I Cryptfs : Encrypting from sector 1125122048
+05-24 21:37:58.769  2885  2920 I Cryptfs : Encrypting group 68
+05-24 21:37:58.786  2885  2920 I Cryptfs : Encrypted to sector 1141113344
+05-24 21:37:58.786  2885  2920 I Cryptfs : Encrypting from sector 1141899264
+05-24 21:37:59.961  2885  2920 I Cryptfs : Encrypting group 69
+05-24 21:37:59.979  2885  2920 I Cryptfs : Encrypted to sector 1157890560
+05-24 21:37:59.979  2885  2920 I Cryptfs : Encrypting from sector 1158676480
+05-24 21:38:00.257  2987  3004 W         : fimg library or stretchFimgApi_v5 symbol can not be loaded
+05-24 21:38:01.180  2885  2920 I Cryptfs : Encrypting group 70
+05-24 21:38:01.227  2885  2920 I Cryptfs : Encrypted to sector 1174667776
+05-24 21:38:01.227  2885  2920 I Cryptfs : Encrypting from sector 1175453696
+05-24 21:38:01.545  2885  2920 I Cryptfs : Encrypted to sector 1179565056
+05-24 21:38:01.545  2885  2920 I Cryptfs : Encrypting from sector 1179648000
+05-24 21:38:02.460  2885  2920 I Cryptfs : Encrypting group 71
+05-24 21:38:02.465  2885  2920 I Cryptfs : Encrypted to sector 1191444992
+05-24 21:38:02.465  2885  2920 I Cryptfs : Encrypting from sector 1191446016
+05-24 21:38:02.536  2885  2920 I Cryptfs : Encrypted to sector 1192403456
+05-24 21:38:02.537  2885  2920 I Cryptfs : Encrypting from sector 1193279488
+05-24 21:38:03.651  2987  3004 W         : fimg library or stretchFimgApi_v5 symbol can not be loaded
+05-24 21:38:03.666  2885  2920 I Cryptfs : Encrypting group 72
+05-24 21:38:03.682  2885  2920 I Cryptfs : Encrypted to sector 1208222208
+05-24 21:38:03.682  2885  2920 I Cryptfs : Encrypting from sector 1209008128
+05-24 21:38:04.142  2987  3004 W         : fimg library or stretchFimgApi_v5 symbol can not be loaded
+05-24 21:38:04.916  2885  2920 I Cryptfs : Encrypting group 73
+05-24 21:38:04.936  2885  2920 I Cryptfs : Encrypted to sector 1224999424
+05-24 21:38:04.936  2885  2920 I Cryptfs : Encrypting from sector 1225785344
+05-24 21:38:05.601  2987  3004 W         : fimg library or stretchFimgApi_v5 symbol can not be loaded
+05-24 21:38:06.153  2885  2920 I Cryptfs : Encrypting group 74
+05-24 21:38:06.209  2885  2920 I Cryptfs : Encrypted to sector 1241963008
+05-24 21:38:06.209  2885  2920 I Cryptfs : Encrypting from sector 1242562560
+05-24 21:38:06.922  2885  2920 I Cryptfs : Encrypting group 75
+05-24 21:38:06.923  2885  2920 I Cryptfs : Encrypted to sector 1251999744
+05-24 21:38:06.923  2885  2920 I Cryptfs : Encrypting from sector 1258291200
+05-24 21:38:06.937  2885  2920 I Cryptfs : Encrypting group 76
+05-24 21:38:06.945  2885  2920 I Cryptfs : Encrypted to sector 1258553856
+05-24 21:38:06.945  2885  2920 I Cryptfs : Encrypting from sector 1275068416
+05-24 21:38:06.984  2885  2920 I Cryptfs : Encrypting group 77
+05-24 21:38:06.988  2885  2920 I Cryptfs : Encrypted to sector 1275331072
+05-24 21:38:06.988  2885  2920 I Cryptfs : Encrypting from sector 1291845632
+05-24 21:38:06.998  2885  2920 I Cryptfs : Encrypting group 78
+05-24 21:38:06.999  2885  2920 I Cryptfs : Encrypted to sector 1292108288
+05-24 21:38:06.999  2885  2920 I Cryptfs : Encrypting from sector 1308622848
+05-24 21:38:07.007  2885  2920 I Cryptfs : Encrypting group 79
+05-24 21:38:07.008  2885  2920 I Cryptfs : Encrypted to sector 1308885504
+05-24 21:38:07.008  2885  2920 I Cryptfs : Encrypting from sector 1325400064
+05-24 21:38:07.017  2885  2920 I Cryptfs : Encrypting group 80
+05-24 21:38:07.019  2885  2920 I Cryptfs : Encrypted to sector 1325662720
+05-24 21:38:07.019  2885  2920 I Cryptfs : Encrypting from sector 1342177280
+05-24 21:38:07.072  2885  2920 I Cryptfs : Encrypting group 81
+05-24 21:38:07.076  2885  2920 I Cryptfs : Encrypted to sector 1342439936
+05-24 21:38:07.076  2885  2920 I Cryptfs : Encrypting from sector 1358954496
+05-24 21:38:07.110  2885  2920 I Cryptfs : Encrypting group 82
+05-24 21:38:07.122  2885  2920 I Cryptfs : Encrypted to sector 1359742976
+05-24 21:38:07.122  2885  2920 I Cryptfs : Encrypting from sector 1375731712
+05-24 21:38:07.158  2885  2920 I Cryptfs : Encrypting group 83
+05-24 21:38:07.159  2885  2920 I Cryptfs : Encrypted to sector 1375994368
+05-24 21:38:07.159  2885  2920 I Cryptfs : Encrypting from sector 1392508928
+05-24 21:38:07.171  2885  2920 I Cryptfs : Encrypting group 84
+05-24 21:38:07.172  2885  2920 I Cryptfs : Encrypted to sector 1392771584
+05-24 21:38:07.172  2885  2920 I Cryptfs : Encrypting from sector 1409286144
+05-24 21:38:07.181  2885  2920 I Cryptfs : Encrypting group 85
+05-24 21:38:07.181  2885  2920 I Cryptfs : Encrypted to sector 1409548800
+05-24 21:38:07.181  2885  2920 I Cryptfs : Encrypting from sector 1426063360
+05-24 21:38:07.192  2885  2920 I Cryptfs : Encrypting group 86
+05-24 21:38:07.210  2885  2920 I Cryptfs : Encrypted to sector 1426326016
+05-24 21:38:07.210  2885  2920 I Cryptfs : Encrypting from sector 1442840576
+05-24 21:38:07.247  2885  2920 I Cryptfs : Encrypting group 87
+05-24 21:38:07.252  2885  2920 I Cryptfs : Encrypted to sector 1443103232
+05-24 21:38:07.252  2885  2920 I Cryptfs : Encrypting from sector 1459617792
+05-24 21:38:07.261  2885  2920 I Cryptfs : Encrypting group 88
+05-24 21:38:07.261  2885  2920 I Cryptfs : Encrypted to sector 1459880448
+05-24 21:38:07.261  2885  2920 I Cryptfs : Encrypting from sector 1476395008
+05-24 21:38:07.269  2885  2920 I Cryptfs : Encrypting group 89
+05-24 21:38:07.270  2885  2920 I Cryptfs : Encrypted to sector 1476657664
+05-24 21:38:07.270  2885  2920 I Cryptfs : Encrypting from sector 1493172224
+05-24 21:38:07.278  2885  2920 I Cryptfs : Encrypting group 90
+05-24 21:38:07.279  2885  2920 I Cryptfs : Encrypted to sector 1493434880
+05-24 21:38:07.279  2885  2920 I Cryptfs : Encrypting from sector 1509949440
+05-24 21:38:07.316  2885  2920 I Cryptfs : Encrypting group 91
+05-24 21:38:07.327  2885  2920 I Cryptfs : Encrypted to sector 1510212096
+05-24 21:38:07.327  2885  2920 I Cryptfs : Encrypting from sector 1526726656
+05-24 21:38:07.344  2885  2920 I Cryptfs : Encrypting group 92
+05-24 21:38:07.345  2885  2920 I Cryptfs : Encrypted to sector 1526989312
+05-24 21:38:07.345  2885  2920 I Cryptfs : Encrypting from sector 1543503872
+05-24 21:38:07.353  2885  2920 I Cryptfs : Encrypting group 93
+05-24 21:38:07.353  2885  2920 I Cryptfs : Encrypted to sector 1543767040
+05-24 21:38:07.353  2885  2920 I Cryptfs : Encrypting from sector 1560281088
+05-24 21:38:07.363  2885  2920 I Cryptfs : Encrypting group 94
+05-24 21:38:07.369  2885  2920 I Cryptfs : Encrypted to sector 1560543744
+05-24 21:38:07.369  2885  2920 I Cryptfs : Encrypting from sector 1577058304
+05-24 21:38:07.403  2885  2920 I Cryptfs : Encrypting group 95
+05-24 21:38:07.407  2885  2920 I Cryptfs : Encrypted to sector 1577320960
+05-24 21:38:07.407  2885  2920 I Cryptfs : Encrypting from sector 1593835520
+05-24 21:38:07.439  2885  2920 I Cryptfs : Encrypting group 96
+05-24 21:38:07.440  2885  2920 I Cryptfs : Encrypted to sector 1594098176
+05-24 21:38:07.440  2885  2920 I Cryptfs : Encrypting from sector 1610612736
+05-24 21:38:07.448  2885  2920 I Cryptfs : Encrypting group 97
+05-24 21:38:07.449  2885  2920 I Cryptfs : Encrypted to sector 1610875392
+05-24 21:38:07.449  2885  2920 I Cryptfs : Encrypting from sector 1627389952
+05-24 21:38:07.457  2885  2920 I Cryptfs : Encrypting group 98
+05-24 21:38:07.463  2885  2920 I Cryptfs : Encrypted to sector 1627652608
+05-24 21:38:07.463  2885  2920 I Cryptfs : Encrypting from sector 1644167168
+05-24 21:38:07.509  2885  2920 I Cryptfs : Encrypting group 99
+05-24 21:38:07.513  2885  2920 I Cryptfs : Encrypted to sector 1644429824
+05-24 21:38:07.513  2885  2920 I Cryptfs : Encrypting from sector 1660944384
+05-24 21:38:07.526  2885  2920 I Cryptfs : Encrypting group 100
+05-24 21:38:07.527  2885  2920 I Cryptfs : Encrypted to sector 1661207040
+05-24 21:38:07.527  2885  2920 I Cryptfs : Encrypting from sector 1677721600
+05-24 21:38:07.535  2885  2920 I Cryptfs : Encrypting group 101
+05-24 21:38:07.536  2885  2920 I Cryptfs : Encrypted to sector 1677984256
+05-24 21:38:07.536  2885  2920 I Cryptfs : Encrypting from sector 1694498816
+05-24 21:38:07.547  2885  2920 I Cryptfs : Encrypting group 102
+05-24 21:38:07.555  2885  2920 I Cryptfs : Encrypted to sector 1694761472
+05-24 21:38:07.555  2885  2920 I Cryptfs : Encrypting from sector 1711276032
+05-24 21:38:07.617  2885  2920 I Cryptfs : Encrypting group 103
+05-24 21:38:07.623  2885  2920 I Cryptfs : Encrypted to sector 1711538688
+05-24 21:38:07.623  2885  2920 I Cryptfs : Encrypting from sector 1728053248
+05-24 21:38:07.657  2885  2920 I Cryptfs : Encrypting group 104
+05-24 21:38:07.658  2885  2920 I Cryptfs : Encrypted to sector 1728315904
+05-24 21:38:07.658  2885  2920 I Cryptfs : Encrypting from sector 1744830464
+05-24 21:38:07.688  2885  2920 I Cryptfs : Encrypting group 105
+05-24 21:38:07.690  2885  2920 I Cryptfs : Encrypted to sector 1745093120
+05-24 21:38:07.690  2885  2920 I Cryptfs : Encrypting from sector 1761607680
+05-24 21:38:07.739  2885  2920 I Cryptfs : Encrypting group 106
+05-24 21:38:07.740  2885  2920 I Cryptfs : Encrypted to sector 1761870336
+05-24 21:38:07.740  2885  2920 I Cryptfs : Encrypting from sector 1778384896
+05-24 21:38:07.756  2885  2920 I Cryptfs : Encrypting group 107
+05-24 21:38:07.756  2885  2920 I Cryptfs : Encrypted to sector 1778647552
+05-24 21:38:07.756  2885  2920 I Cryptfs : Encrypting from sector 1795162112
+05-24 21:38:07.768  2885  2920 I Cryptfs : Encrypting group 108
+05-24 21:38:07.769  2885  2920 I Cryptfs : Encrypted to sector 1795424768
+05-24 21:38:07.769  2885  2920 I Cryptfs : Encrypting from sector 1811939328
+05-24 21:38:07.777  2885  2920 I Cryptfs : Encrypting group 109
+05-24 21:38:07.778  2885  2920 I Cryptfs : Encrypted to sector 1812201984
+05-24 21:38:07.778  2885  2920 I Cryptfs : Encrypting from sector 1828716544
+05-24 21:38:07.787  2885  2920 I Cryptfs : Encrypting group 110
+05-24 21:38:07.796  2885  2920 I Cryptfs : Encrypted to sector 1828979200
+05-24 21:38:07.796  2885  2920 I Cryptfs : Encrypting from sector 1845493760
+05-24 21:38:07.836  2885  2920 I Cryptfs : Encrypting group 111
+05-24 21:38:07.840  2885  2920 I Cryptfs : Encrypted to sector 1845756416
+05-24 21:38:07.840  2885  2920 I Cryptfs : Encrypting from sector 1862270976
+05-24 21:38:07.854  2885  2920 I Cryptfs : Encrypting group 112
+05-24 21:38:07.854  2885  2920 I Cryptfs : Encrypted to sector 1862533632
+05-24 21:38:07.854  2885  2920 I Cryptfs : Encrypting from sector 1879048192
+05-24 21:38:07.862  2885  2920 I Cryptfs : Encrypting group 113
+05-24 21:38:07.863  2885  2920 I Cryptfs : Encrypted to sector 1879310848
+05-24 21:38:07.863  2885  2920 I Cryptfs : Encrypting from sector 1895825408
+05-24 21:38:07.893  2885  2920 I Cryptfs : Encrypting group 114
+05-24 21:38:07.906  2885  2920 I Cryptfs : Encrypted to sector 1896088064
+05-24 21:38:07.906  2885  2920 I Cryptfs : Encrypting from sector 1912602624
+05-24 21:38:07.933  2885  2920 I Cryptfs : Encrypted to sector 1912865792
+05-24 21:38:07.933  2885  2920 I Cryptfs : Encrypting from sector 1912870400
+05-24 21:38:07.934  2885  2920 I Cryptfs : Encrypted to sector 1912870912
+05-24 21:38:07.934  2885  2920 I Cryptfs : Encrypting from sector 1912922112
+05-24 21:38:07.934  2885  2920 I Cryptfs : Encrypted to sector 1912922624
+05-24 21:38:07.934  2885  2920 I Cryptfs : Encrypting from sector 1912976384
+05-24 21:38:07.935  2885  2920 I Cryptfs : Encrypted to sector 1912976896
+05-24 21:38:07.935  2885  2920 I Cryptfs : Encrypting from sector 1913013248
+05-24 21:38:07.936  2885  2920 I Cryptfs : Encrypted to sector 1913013760
+05-24 21:38:07.936  2885  2920 I Cryptfs : Encrypting from sector 1915637248
+05-24 21:38:07.937  2885  2920 I Cryptfs : Encrypted to sector 1915637760
+05-24 21:38:07.937  2885  2920 I Cryptfs : Encrypting from sector 1916817408
+05-24 21:38:07.939  2885  2920 I Cryptfs : Encrypted to sector 1916818432
+05-24 21:38:07.939  2885  2920 I Cryptfs : Encrypting from sector 1921025536
+05-24 21:38:07.940  2885  2920 I Cryptfs : Encrypted to sector 1921036800
+05-24 21:38:07.940  2885  2920 I Cryptfs : Encrypting from sector 1921147392
+05-24 21:38:07.941  2885  2920 I Cryptfs : Encrypted to sector 1921147904
+05-24 21:38:07.941  2885  2920 I Cryptfs : Encrypting from sector 1921436672
+05-24 21:38:07.941  2885  2920 I Cryptfs : Encrypted to sector 1921437184
+05-24 21:38:07.941  2885  2920 I Cryptfs : Encrypting from sector 1921451520
+05-24 21:38:07.942  2885  2920 I Cryptfs : Encrypted to sector 1921452032
+05-24 21:38:07.942  2885  2920 I Cryptfs : Encrypting from sector 1922422784
+05-24 21:38:07.942  2885  2920 I Cryptfs : Encrypted to sector 1922423808
+05-24 21:38:07.942  2885  2920 I Cryptfs : Encrypting from sector 1922502144
+05-24 21:38:07.943  2885  2920 I Cryptfs : Encrypted to sector 1922503168
+05-24 21:38:07.943  2885  2920 I Cryptfs : Encrypting from sector 1923033088
+05-24 21:38:07.944  2885  2920 I Cryptfs : Encrypted to sector 1923033600
+05-24 21:38:07.944  2885  2920 I Cryptfs : Encrypting from sector 1923374080
+05-24 21:38:07.944  2885  2920 I Cryptfs : Encrypted to sector 1923374592
+05-24 21:38:07.944  2885  2920 I Cryptfs : Encrypting from sector 1924412416
+05-24 21:38:07.945  2885  2920 I Cryptfs : Encrypted to sector 1924413440
+05-24 21:38:07.945  2885  2920 I Cryptfs : Encrypting from sector 1924657152
+05-24 21:38:07.945  2885  2920 I Cryptfs : Encrypted to sector 1924657664
+05-24 21:38:07.945  2885  2920 I Cryptfs : Encrypting from sector 1925083648
+05-24 21:38:07.946  2885  2920 I Cryptfs : Encrypting group 115
+05-24 21:38:07.947  2885  2920 I Cryptfs : Encrypted to sector 1925084672
+05-24 21:38:07.947  2885  2920 I Cryptfs : Encrypting from sector 1929379840
+05-24 21:38:07.954  2885  2920 I Cryptfs : Encrypted to sector 1929642496
+05-24 21:38:07.954  2885  2920 I Cryptfs : Encrypting from sector 1931706368
+05-24 21:38:07.955  2885  2920 I Cryptfs : Encrypted to sector 1931718144
+05-24 21:38:07.955  2885  2920 I Cryptfs : Encrypting from sector 1931718656
+05-24 21:38:07.956  2885  2920 I Cryptfs : Encrypted to sector 1931741184
+05-24 21:38:07.956  2885  2920 I Cryptfs : Encrypting from sector 1931765760
+05-24 21:38:07.956  2885  2920 I Cryptfs : Encrypted to sector 1931767808
+05-24 21:38:07.956  2885  2920 I Cryptfs : Encrypting from sector 1931794432
+05-24 21:38:07.958  2885  2920 I Cryptfs : Encrypted to sector 1931801600
+05-24 21:38:07.958  2885  2920 I Cryptfs : Encrypting from sector 1931841536
+05-24 21:38:07.958  2885  2920 I Cryptfs : Encrypted to sector 1931849216
+05-24 21:38:07.958  2885  2920 I Cryptfs : Encrypting from sector 1931853312
+05-24 21:38:07.958  2885  2920 I Cryptfs : Encrypted to sector 1931857920
+05-24 21:38:07.958  2885  2920 I Cryptfs : Encrypting from sector 1931910656
+05-24 21:38:07.960  2885  2920 I Cryptfs : Encrypted to sector 1931919872
+05-24 21:38:07.960  2885  2920 I Cryptfs : Encrypting from sector 1932142080
+05-24 21:38:07.960  2885  2920 I Cryptfs : Encrypted to sector 1932147200
+05-24 21:38:07.960  2885  2920 I Cryptfs : Encrypting from sector 1932149248
+05-24 21:38:07.960  2885  2920 I Cryptfs : Encrypted to sector 1932150784
+05-24 21:38:07.960  2885  2920 I Cryptfs : Encrypting from sector 1932151808
+05-24 21:38:07.962  2885  2920 I Cryptfs : Encrypted to sector 1932156928
+05-24 21:38:07.962  2885  2920 I Cryptfs : Encrypting from sector 1932172800
+05-24 21:38:07.962  2885  2920 I Cryptfs : Encrypted to sector 1932176384
+05-24 21:38:07.962  2885  2920 I Cryptfs : Encrypting from sector 1932177408
+05-24 21:38:07.962  2885  2920 I Cryptfs : Encrypted to sector 1932180480
+05-24 21:38:07.962  2885  2920 I Cryptfs : Encrypting from sector 1932190720
+05-24 21:38:07.962  2885  2920 I Cryptfs : Encrypted to sector 1932195840
+05-24 21:38:07.962  2885  2920 I Cryptfs : Encrypting from sector 1932649984
+05-24 21:38:07.964  2885  2920 I Cryptfs : Encrypted to sector 1932655104
+05-24 21:38:07.964  2885  2920 I Cryptfs : Encrypting from sector 1932660736
+05-24 21:38:07.964  2885  2920 I Cryptfs : Encrypted to sector 1932662784
+05-24 21:38:07.964  2885  2920 I Cryptfs : Encrypting from sector 1932677632
+05-24 21:38:07.964  2885  2920 I Cryptfs : Encrypted to sector 1932688896
+05-24 21:38:07.964  2885  2920 I Cryptfs : Encrypting from sector 1932689408
+05-24 21:38:07.964  2885  2920 I Cryptfs : Encrypted to sector 1932695552
+05-24 21:38:07.964  2885  2920 I Cryptfs : Encrypting from sector 1932697600
+05-24 21:38:07.965  2885  2920 I Cryptfs : Encrypted to sector 1932699648
+05-24 21:38:07.965  2885  2920 I Cryptfs : Encrypting from sector 1932776448
+05-24 21:38:07.965  2885  2920 I Cryptfs : Encrypted to sector 1932780544
+05-24 21:38:07.965  2885  2920 I Cryptfs : Encrypting from sector 1932852736
+05-24 21:38:07.966  2885  2920 I Cryptfs : Encrypted to sector 1932854784
+05-24 21:38:07.966  2885  2920 I Cryptfs : Encrypting from sector 1932933120
+05-24 21:38:07.966  2885  2920 I Cryptfs : Encrypted to sector 1932935168
+05-24 21:38:07.966  2885  2920 I Cryptfs : Encrypting from sector 1932944384
+05-24 21:38:07.966  2885  2920 I Cryptfs : Encrypted to sector 1932946432
+05-24 21:38:07.966  2885  2920 I Cryptfs : Encrypting from sector 1932959744
+05-24 21:38:07.966  2885  2920 I Cryptfs : Encrypted to sector 1932963328
+05-24 21:38:07.966  2885  2920 I Cryptfs : Encrypting from sector 1933056000
+05-24 21:38:07.967  2885  2920 I Cryptfs : Encrypted to sector 1933059072
+05-24 21:38:07.967  2885  2920 I Cryptfs : Encrypting from sector 1933077504
+05-24 21:38:07.968  2885  2920 I Cryptfs : Encrypted to sector 1933081600
+05-24 21:38:07.968  2885  2920 I Cryptfs : Encrypting from sector 1933485056
+05-24 21:38:07.968  2885  2920 I Cryptfs : Encrypted to sector 1933485568
+05-24 21:38:07.968  2885  2920 I Cryptfs : Encrypting from sector 1934557184
+05-24 21:38:07.970  2885  2920 I Cryptfs : Encrypted to sector 1934604288
+05-24 21:38:07.970  2885  2920 I Cryptfs : Encrypting from sector 1935329792
+05-24 21:38:07.971  2885  2920 I Cryptfs : Encrypted to sector 1935330816
+05-24 21:38:07.971  2885  2920 I Cryptfs : Encrypting from sector 1936590848
+05-24 21:38:07.971  2885  2920 I Cryptfs : Encrypted to sector 1936591360
+05-24 21:38:07.971  2885  2920 I Cryptfs : Encrypting from sector 1936718848
+05-24 21:38:07.971  2885  2920 I Cryptfs : Encrypted to sector 1936719872
+05-24 21:38:07.971  2885  2920 I Cryptfs : Encrypting from sector 1936950784
+05-24 21:38:07.971  2885  2920 I Cryptfs : Encrypted to sector 1936951296
+05-24 21:38:07.971  2885  2920 I Cryptfs : Encrypting from sector 1937013760
+05-24 21:38:07.972  2885  2920 I Cryptfs : Encrypted to sector 1937014272
+05-24 21:38:07.972  2885  2920 I Cryptfs : Encrypting from sector 1937093120
+05-24 21:38:07.972  2885  2920 I Cryptfs : Encrypted to sector 1937094144
+05-24 21:38:07.972  2885  2920 I Cryptfs : Encrypting from sector 1938570240
+05-24 21:38:07.973  2885  2920 I Cryptfs : Encrypted to sector 1938570752
+05-24 21:38:07.973  2885  2920 I Cryptfs : Encrypting from sector 1938817024
+05-24 21:38:07.986  2885  2920 I Cryptfs : Encrypted to sector 1939341312
+05-24 21:38:07.986  2885  2920 I Cryptfs : Encrypting from sector 1939808768
+05-24 21:38:07.987  2885  2920 I Cryptfs : Encrypting group 116
+05-24 21:38:07.996  2885  2920 I Cryptfs : Encrypted to sector 1939809792
+05-24 21:38:07.996  2885  2920 I Cryptfs : Encrypting from sector 1946157056
+05-24 21:38:08.048  2885  2920 I Cryptfs : Encrypted to sector 1946419712
+05-24 21:38:08.048  2885  2920 I Cryptfs : Encrypting from sector 1951626240
+05-24 21:38:08.049  2885  2920 I Cryptfs : Encrypted to sector 1951627776
+05-24 21:38:08.049  2885  2920 I Cryptfs : Encrypting from sector 1952762368
+05-24 21:38:08.050  2885  2920 I Cryptfs : Encrypted to sector 1952762880
+05-24 21:38:08.050  2885  2920 I Cryptfs : Encrypting from sector 1952785408
+05-24 21:38:08.051  2885  2920 I Cryptfs : Encrypted to sector 1952785920
+05-24 21:38:08.051  2885  2920 I Cryptfs : Encrypting from sector 1953466880
+05-24 21:38:08.052  2885  2920 I Cryptfs : Encrypted to sector 1953467392
+05-24 21:38:08.052  2885  2920 I Cryptfs : Encrypting from sector 1953646080
+05-24 21:38:08.053  2885  2920 I Cryptfs : Encrypted to sector 1953646592
+05-24 21:38:08.053  2885  2920 I Cryptfs : Encrypting from sector 1954051584
+05-24 21:38:08.054  2885  2920 I Cryptfs : Encrypted to sector 1954052608
+05-24 21:38:08.054  2885  2920 I Cryptfs : Encrypting from sector 1954312192
+05-24 21:38:08.054  2885  2920 I Cryptfs : Encrypted to sector 1954313216
+05-24 21:38:08.054  2885  2920 I Cryptfs : Encrypting from sector 1954324992
+05-24 21:38:08.058  2885  2920 I Cryptfs : Encrypted to sector 1954325504
+05-24 21:38:08.058  2885  2920 I Cryptfs : Encrypting from sector 1956141056
+05-24 21:38:08.058  2885  2920 I Cryptfs : Encrypted to sector 1956141568
+05-24 21:38:08.058  2885  2920 I Cryptfs : Encrypting from sector 1956397568
+05-24 21:38:08.059  2885  2920 I Cryptfs : Encrypted to sector 1956398080
+05-24 21:38:08.059  2885  2920 I Cryptfs : Encrypting from sector 1956665344
+05-24 21:38:08.060  2885  2920 I Cryptfs : Encrypted to sector 1956665856
+05-24 21:38:08.060  2885  2920 I Cryptfs : Encrypting from sector 1957166592
+05-24 21:38:08.061  2885  2920 I Cryptfs : Encrypted to sector 1957167104
+05-24 21:38:08.061  2885  2920 I Cryptfs : Encrypting from sector 1957505024
+05-24 21:38:08.062  2885  2920 I Cryptfs : Encrypted to sector 1957505536
+05-24 21:38:08.062  2885  2920 I Cryptfs : Encrypting from sector 1957801472
+05-24 21:38:08.064  2885  2920 I Cryptfs : Encrypted to sector 1957804544
+05-24 21:38:08.064  2885  2920 I Cryptfs : Encrypting from sector 1957821952
+05-24 21:38:08.064  2885  2920 I Cryptfs : Encrypted to sector 1957822464
+05-24 21:38:08.064  2885  2920 I Cryptfs : Encrypting from sector 1957825536
+05-24 21:38:08.065  2885  2920 I Cryptfs : Encrypted to sector 1957826048
+05-24 21:38:08.065  2885  2920 I Cryptfs : Encrypting from sector 1958016512
+05-24 21:38:08.070  2885  2920 I Cryptfs : Encrypted to sector 1958017024
+05-24 21:38:08.070  2885  2920 I Cryptfs : Encrypting from sector 1961664512
+05-24 21:38:08.071  2885  2920 I Cryptfs : Encrypted to sector 1961665024
+05-24 21:38:08.071  2885  2920 I Cryptfs : Encrypting from sector 1962137088
+05-24 21:38:08.072  2885  2920 I Cryptfs : Encrypted to sector 1962137600
+05-24 21:38:08.072  2885  2920 I Cryptfs : Encrypting from sector 1962414592
+05-24 21:38:08.073  2885  2920 I Cryptfs : Encrypted to sector 1962419712
+05-24 21:38:08.073  2885  2920 I Cryptfs : Encrypting from sector 1962447872
+05-24 21:38:08.074  2885  2920 I Cryptfs : Encrypting group 117
+05-24 21:38:08.075  2885  2920 I Cryptfs : Encrypted to sector 1962448384
+05-24 21:38:08.075  2885  2920 I Cryptfs : Encrypting from sector 1962934272
+05-24 21:38:08.095  2885  2920 I Cryptfs : Encrypted to sector 1963196928
+05-24 21:38:08.095  2885  2920 I Cryptfs : Encrypting from sector 1967519744
+05-24 21:38:08.096  2885  2920 I Cryptfs : Encrypted to sector 1967521792
+05-24 21:38:08.096  2885  2920 I Cryptfs : Encrypting from sector 1967552000
+05-24 21:38:08.099  2885  2920 I Cryptfs : Encrypted to sector 1967552512
+05-24 21:38:08.099  2885  2920 I Cryptfs : Encrypting from sector 1970871296
+05-24 21:38:08.101  2885  2920 I Cryptfs : Encrypted to sector 1970876416
+05-24 21:38:08.101  2885  2920 I Cryptfs : Encrypting from sector 1971125248
+05-24 21:38:08.103  2885  2920 I Cryptfs : Encrypted to sector 1971130368
+05-24 21:38:08.103  2885  2920 I Cryptfs : Encrypting from sector 1971533824
+05-24 21:38:08.103  2885  2920 I Cryptfs : Encrypted to sector 1971534336
+05-24 21:38:08.103  2885  2920 I Cryptfs : Encrypting from sector 1971577344
+05-24 21:38:08.104  2885  2920 I Cryptfs : Encrypted to sector 1971577856
+05-24 21:38:08.104  2885  2920 I Cryptfs : Encrypting from sector 1972563968
+05-24 21:38:08.106  2885  2920 I Cryptfs : Encrypted to sector 1972564480
+05-24 21:38:08.106  2885  2920 I Cryptfs : Encrypting from sector 1972633600
+05-24 21:38:08.155  2885  2920 I Cryptfs : Encrypted to sector 1972895744
+05-24 21:38:08.155  2885  2920 I Cryptfs : Encrypting from sector 1974568448
+05-24 21:38:08.157  2885  2920 I Cryptfs : Encrypted to sector 1974568960
+05-24 21:38:08.157  2885  2920 I Cryptfs : Encrypting from sector 1974827520
+05-24 21:38:08.159  2885  2920 I Cryptfs : Encrypted to sector 1974831616
+05-24 21:38:08.159  2885  2920 I Cryptfs : Encrypting from sector 1975254016
+05-24 21:38:08.161  2885  2920 I Cryptfs : Encrypted to sector 1975254528
+05-24 21:38:08.162  2885  2920 I Cryptfs : Encrypting from sector 1975778816
+05-24 21:38:08.163  2885  2920 I Cryptfs : Encrypted to sector 1975779328
+05-24 21:38:08.163  2885  2920 I Cryptfs : Encrypting from sector 1976495104
+05-24 21:38:08.164  2885  2920 I Cryptfs : Encrypting group 118
+05-24 21:38:08.166  2885  2920 I Cryptfs : Encrypted to sector 1976495616
+05-24 21:38:08.166  2885  2920 I Cryptfs : Encrypting from sector 1979711488
+05-24 21:38:08.181  2885  2920 I Cryptfs : Encrypted to sector 1979974144
+05-24 21:38:08.181  2885  2920 I Cryptfs : Encrypting from sector 1980039168
+05-24 21:38:08.181  2885  2920 I Cryptfs : Encrypted to sector 1980039680
+05-24 21:38:08.181  2885  2920 I Cryptfs : Encrypting from sector 1980104704
+05-24 21:38:08.181  2885  2920 I Cryptfs : Encrypted to sector 1980105216
+05-24 21:38:08.182  2885  2920 I Cryptfs : Encrypting from sector 1980235776
+05-24 21:38:08.186  2885  2920 I Cryptfs : Encrypted to sector 1980331008
+05-24 21:38:08.186  2885  2920 I Cryptfs : Encrypting from sector 1980497920
+05-24 21:38:08.186  2885  2920 I Cryptfs : Encrypted to sector 1980498432
+05-24 21:38:08.186  2885  2920 I Cryptfs : Encrypting from sector 1980563456
+05-24 21:38:08.186  2885  2920 I Cryptfs : Encrypted to sector 1980563968
+05-24 21:38:08.187  2885  2920 I Cryptfs : Encrypting from sector 1980628992
+05-24 21:38:08.191  2885  2920 I Cryptfs : Encrypting group 119
+05-24 21:38:08.192  2885  2920 I Cryptfs : Encrypted to sector 1980629504
+05-24 21:38:08.192  2885  2920 I Cryptfs : Encrypting from sector 1996488704
+05-24 21:38:08.204  2885  2920 I Cryptfs : Encrypting group 120
+05-24 21:38:08.205  2885  2920 I Cryptfs : Encrypted to sector 1996751360
+05-24 21:38:08.206  2885  2920 I Cryptfs : Encrypting from sector 2013265920
+05-24 21:38:09.196  2885  2920 I Cryptfs : Encrypted to sector 2026093568
+05-24 21:38:09.196  2885  2920 I Cryptfs : Encrypting from sector 2026099712
+05-24 21:38:09.280  2885  2920 I Cryptfs : Encrypted to sector 2026751488
+05-24 21:38:09.280  2885  2920 I Cryptfs : Encrypting from sector 2026897920
+05-24 21:38:09.288  2885  2920 I Cryptfs : Encrypted to sector 2027159552
+05-24 21:38:09.288  2885  2920 I Cryptfs : Encrypting from sector 2027421696
+05-24 21:38:09.288  2885  2920 I Cryptfs : Encrypting group 121
+05-24 21:38:09.289  2885  2920 I Cryptfs : Encrypted to sector 2027422208
+05-24 21:38:09.289  2885  2920 I Cryptfs : Encrypting from sector 2030043136
+05-24 21:38:09.494  2885  2920 I Cryptfs : Encrypting group 122
+05-24 21:38:09.513  2885  2920 I Cryptfs : Encrypted to sector 2032954368
+05-24 21:38:09.513  2885  2920 I Cryptfs : Encrypting from sector 2046820352
+05-24 21:38:09.535  2885  2920 I Cryptfs : Encrypting group 123
+05-24 21:38:09.536  2885  2920 I Cryptfs : Encrypted to sector 2047083008
+05-24 21:38:09.536  2885  2920 I Cryptfs : Encrypting from sector 2063597568
+05-24 21:38:09.553  2885  2920 I Cryptfs : Encrypting group 124
+05-24 21:38:09.568  2885  2920 I Cryptfs : Encrypted to sector 2063860224
+05-24 21:38:09.568  2885  2920 I Cryptfs : Encrypting from sector 2080374784
+05-24 21:38:09.603  2885  2920 I Cryptfs : Encrypting group 125
+05-24 21:38:09.607  2885  2920 I Cryptfs : Encrypted to sector 2080637440
+05-24 21:38:09.607  2885  2920 I Cryptfs : Encrypting from sector 2097152000
+05-24 21:38:09.629  2885  2920 I Cryptfs : Encrypting group 126
+05-24 21:38:09.631  2885  2920 I Cryptfs : Encrypted to sector 2097940480
+05-24 21:38:09.631  2885  2920 I Cryptfs : Encrypting from sector 2113929216
+05-24 21:38:09.679  2885  2920 I Cryptfs : Encrypting group 127
+05-24 21:38:09.683  2885  2920 I Cryptfs : Encrypted to sector 2114191872
+05-24 21:38:09.683  2885  2920 I Cryptfs : Encrypting from sector 2130706432
+05-24 21:38:09.697  2885  2920 I Cryptfs : Encrypting group 128
+05-24 21:38:09.698  2885  2920 I Cryptfs : Encrypted to sector 2130969088
+05-24 21:38:09.698  2885  2920 I Cryptfs : Encrypting from sector 2147483648
+05-24 21:38:09.705  2885  2920 I Cryptfs : Encrypting group 129
+05-24 21:38:09.706  2885  2920 I Cryptfs : Encrypted to sector 2147746304
+05-24 21:38:09.706  2885  2920 I Cryptfs : Encrypting from sector 2164260864
+05-24 21:38:09.714  2885  2920 I Cryptfs : Encrypting group 130
+05-24 21:38:09.715  2885  2920 I Cryptfs : Encrypted to sector 2164523520
+05-24 21:38:09.715  2885  2920 I Cryptfs : Encrypting from sector 2181038080
+05-24 21:38:09.736  2885  2920 I Cryptfs : Encrypting group 131
+05-24 21:38:09.750  2885  2920 I Cryptfs : Encrypted to sector 2181300736
+05-24 21:38:09.750  2885  2920 I Cryptfs : Encrypting from sector 2197815296
+05-24 21:38:09.780  2885  2920 I Cryptfs : Encrypting group 132
+05-24 21:38:09.783  2885  2920 I Cryptfs : Encrypted to sector 2198077952
+05-24 21:38:09.783  2885  2920 I Cryptfs : Encrypting from sector 2214592512
+05-24 21:38:09.798  2885  2920 I Cryptfs : Encrypting group 133
+05-24 21:38:09.798  2885  2920 I Cryptfs : Encrypted to sector 2214855168
+05-24 21:38:09.798  2885  2920 I Cryptfs : Encrypting from sector 2231369728
+05-24 21:38:09.807  2885  2920 I Cryptfs : Encrypting group 134
+05-24 21:38:09.818  2885  2920 I Cryptfs : Encrypted to sector 2231632384
+05-24 21:38:09.818  2885  2920 I Cryptfs : Encrypting from sector 2248146944
+05-24 21:38:09.850  2885  2920 I Cryptfs : Encrypting group 135
+05-24 21:38:09.854  2885  2920 I Cryptfs : Encrypted to sector 2248409600
+05-24 21:38:09.854  2885  2920 I Cryptfs : Encrypting from sector 2264924160
+05-24 21:38:09.871  2885  2920 I Cryptfs : Encrypting group 136
+05-24 21:38:09.872  2885  2920 I Cryptfs : Encrypted to sector 2265186816
+05-24 21:38:09.872  2885  2920 I Cryptfs : Encrypting from sector 2281701376
+05-24 21:38:09.881  2885  2920 I Cryptfs : Encrypting group 137
+05-24 21:38:09.881  2885  2920 I Cryptfs : Encrypted to sector 2281964032
+05-24 21:38:09.881  2885  2920 I Cryptfs : Encrypting from sector 2298478592
+05-24 21:38:09.890  2885  2920 I Cryptfs : Encrypting group 138
+05-24 21:38:09.900  2885  2920 I Cryptfs : Encrypted to sector 2298741248
+05-24 21:38:09.900  2885  2920 I Cryptfs : Encrypting from sector 2315255808
+05-24 21:38:09.947  2885  2920 I Cryptfs : Encrypting group 139
+05-24 21:38:09.950  2885  2920 I Cryptfs : Encrypted to sector 2315518464
+05-24 21:38:09.950  2885  2920 I Cryptfs : Encrypting from sector 2332033024
+05-24 21:38:09.962  2885  2920 I Cryptfs : Encrypting group 140
+05-24 21:38:09.963  2885  2920 I Cryptfs : Encrypted to sector 2332295680
+05-24 21:38:09.963  2885  2920 I Cryptfs : Encrypting from sector 2348810240
+05-24 21:38:09.971  2885  2920 I Cryptfs : Encrypting group 141
+05-24 21:38:09.972  2885  2920 I Cryptfs : Encrypted to sector 2349072896
+05-24 21:38:09.972  2885  2920 I Cryptfs : Encrypting from sector 2365587456
+05-24 21:38:09.983  2885  2920 I Cryptfs : Encrypting group 142
+05-24 21:38:09.984  2885  2920 I Cryptfs : Encrypted to sector 2365850112
+05-24 21:38:09.984  2885  2920 I Cryptfs : Encrypting from sector 2382364672
+05-24 21:38:09.999  2885  2920 I Cryptfs : Encrypting group 143
+05-24 21:38:10.016  2885  2920 I Cryptfs : Encrypted to sector 2382627328
+05-24 21:38:10.016  2885  2920 I Cryptfs : Encrypting from sector 2399141888
+05-24 21:38:10.053  2885  2920 I Cryptfs : Encrypting group 144
+05-24 21:38:10.054  2885  2920 I Cryptfs : Encrypted to sector 2399404544
+05-24 21:38:10.054  2885  2920 I Cryptfs : Encrypting from sector 2415919104
+05-24 21:38:10.066  2885  2920 I Cryptfs : Encrypting group 145
+05-24 21:38:10.067  2885  2920 I Cryptfs : Encrypted to sector 2416181760
+05-24 21:38:10.067  2885  2920 I Cryptfs : Encrypting from sector 2432696320
+05-24 21:38:10.089  2885  2920 I Cryptfs : Encrypting group 146
+05-24 21:38:10.111  2885  2920 I Cryptfs : Encrypted to sector 2432958976
+05-24 21:38:10.111  2885  2920 I Cryptfs : Encrypting from sector 2449473536
+05-24 21:38:10.137  2885  2920 I Cryptfs : Encrypting group 147
+05-24 21:38:10.138  2885  2920 I Cryptfs : Encrypted to sector 2449736192
+05-24 21:38:10.138  2885  2920 I Cryptfs : Encrypting from sector 2466250752
+05-24 21:38:10.146  2885  2920 I Cryptfs : Encrypting group 148
+05-24 21:38:10.147  2885  2920 I Cryptfs : Encrypted to sector 2466513408
+05-24 21:38:10.147  2885  2920 I Cryptfs : Encrypting from sector 2483027968
+05-24 21:38:10.155  2885  2920 I Cryptfs : Encrypting group 149
+05-24 21:38:10.156  2885  2920 I Cryptfs : Encrypted to sector 2483290624
+05-24 21:38:10.156  2885  2920 I Cryptfs : Encrypting from sector 2499805184
+05-24 21:38:10.160  2987  3004 W         : fimg library or stretchFimgApi_v5 symbol can not be loaded
+05-24 21:38:10.166  2885  2920 I Cryptfs : Encrypting group 150
+05-24 21:38:10.180  2885  2920 I Cryptfs : Encrypted to sector 2500067840
+05-24 21:38:10.180  2885  2920 I Cryptfs : Encrypting from sector 2516582400
+05-24 21:38:10.235  2885  2920 I Cryptfs : Encrypting group 151
+05-24 21:38:10.236  2885  2920 I Cryptfs : Encrypted to sector 2516845056
+05-24 21:38:10.236  2885  2920 I Cryptfs : Encrypting from sector 2533359616
+05-24 21:38:10.247  2885  2920 I Cryptfs : Encrypting group 152
+05-24 21:38:10.248  2885  2920 I Cryptfs : Encrypted to sector 2533622272
+05-24 21:38:10.248  2885  2920 I Cryptfs : Encrypting from sector 2550136832
+05-24 21:38:10.260  2885  2920 I Cryptfs : Encrypting group 153
+05-24 21:38:10.261  2885  2920 I Cryptfs : Encrypted to sector 2550399488
+05-24 21:38:10.261  2885  2920 I Cryptfs : Encrypting from sector 2566914048
+05-24 21:38:10.269  2885  2920 I Cryptfs : Encrypting group 154
+05-24 21:38:10.270  2885  2920 I Cryptfs : Encrypted to sector 2567176704
+05-24 21:38:10.270  2885  2920 I Cryptfs : Encrypting from sector 2583691264
+05-24 21:38:10.299  2885  2920 I Cryptfs : Encrypting group 155
+05-24 21:38:10.318  2885  2920 I Cryptfs : Encrypted to sector 2583953920
+05-24 21:38:10.318  2885  2920 I Cryptfs : Encrypting from sector 2600468480
+05-24 21:38:10.338  2885  2920 I Cryptfs : Encrypting group 156
+05-24 21:38:10.339  2885  2920 I Cryptfs : Encrypted to sector 2600731136
+05-24 21:38:10.339  2885  2920 I Cryptfs : Encrypting from sector 2617245696
+05-24 21:38:10.347  2885  2920 I Cryptfs : Encrypting group 157
+05-24 21:38:10.348  2885  2920 I Cryptfs : Encrypted to sector 2617508352
+05-24 21:38:10.348  2885  2920 I Cryptfs : Encrypting from sector 2634022912
+05-24 21:38:10.368  2885  2920 I Cryptfs : Encrypting group 158
+05-24 21:38:10.390  2885  2920 I Cryptfs : Encrypted to sector 2634285568
+05-24 21:38:10.390  2885  2920 I Cryptfs : Encrypting from sector 2650800128
+05-24 21:38:10.414  2885  2920 I Cryptfs : Encrypting group 159
+05-24 21:38:10.415  2885  2920 I Cryptfs : Encrypted to sector 2651062784
+05-24 21:38:10.415  2885  2920 I Cryptfs : Encrypting from sector 2667577344
+05-24 21:38:10.424  2885  2920 I Cryptfs : Encrypting group 160
+05-24 21:38:10.425  2885  2920 I Cryptfs : Encrypted to sector 2667840000
+05-24 21:38:10.425  2885  2920 I Cryptfs : Encrypting from sector 2684354560
+05-24 21:38:10.433  2885  2920 I Cryptfs : Encrypting group 161
+05-24 21:38:10.434  2885  2920 I Cryptfs : Encrypted to sector 2684617216
+05-24 21:38:10.434  2885  2920 I Cryptfs : Encrypting from sector 2701131776
+05-24 21:38:10.442  2885  2920 I Cryptfs : Encrypting group 162
+05-24 21:38:10.443  2885  2920 I Cryptfs : Encrypted to sector 2701394432
+05-24 21:38:10.443  2885  2920 I Cryptfs : Encrypting from sector 2717908992
+05-24 21:38:10.480  2885  2920 I Cryptfs : Encrypting group 163
+05-24 21:38:10.494  2885  2920 I Cryptfs : Encrypted to sector 2718171648
+05-24 21:38:10.494  2885  2920 I Cryptfs : Encrypting from sector 2734686208
+05-24 21:38:10.516  2885  2920 I Cryptfs : Encrypting group 164
+05-24 21:38:10.516  2885  2920 I Cryptfs : Encrypted to sector 2734948864
+05-24 21:38:10.516  2885  2920 I Cryptfs : Encrypting from sector 2751463424
+05-24 21:38:10.524  2885  2920 I Cryptfs : Encrypting group 165
+05-24 21:38:10.525  2885  2920 I Cryptfs : Encrypted to sector 2751726080
+05-24 21:38:10.525  2885  2920 I Cryptfs : Encrypting from sector 2768240640
+05-24 21:38:10.533  2885  2920 I Cryptfs : Encrypting group 166
+05-24 21:38:10.534  2885  2920 I Cryptfs : Encrypted to sector 2768503296
+05-24 21:38:10.534  2885  2920 I Cryptfs : Encrypting from sector 2785017856
+05-24 21:38:10.565  2885  2920 I Cryptfs : Encrypting group 167
+05-24 21:38:10.577  2885  2920 I Cryptfs : Encrypted to sector 2785280512
+05-24 21:38:10.577  2885  2920 I Cryptfs : Encrypting from sector 2801795072
+05-24 21:38:10.609  2885  2920 I Cryptfs : Encrypting group 168
+05-24 21:38:10.610  2885  2920 I Cryptfs : Encrypted to sector 2802057728
+05-24 21:38:10.610  2885  2920 I Cryptfs : Encrypting from sector 2818572288
+05-24 21:38:10.622  2885  2920 I Cryptfs : Encrypting group 169
+05-24 21:38:10.623  2885  2920 I Cryptfs : Encrypted to sector 2818834944
+05-24 21:38:10.623  2885  2920 I Cryptfs : Encrypting from sector 2835349504
+05-24 21:38:10.635  2885  2920 I Cryptfs : Encrypting group 170
+05-24 21:38:10.645  2885  2920 I Cryptfs : Encrypted to sector 2835612160
+05-24 21:38:10.645  2885  2920 I Cryptfs : Encrypting from sector 2852126720
+05-24 21:38:10.690  2885  2920 I Cryptfs : Encrypting group 171
+05-24 21:38:10.694  2885  2920 I Cryptfs : Encrypted to sector 2852389376
+05-24 21:38:10.694  2885  2920 I Cryptfs : Encrypting from sector 2868903936
+05-24 21:38:10.706  2885  2920 I Cryptfs : Encrypting group 172
+05-24 21:38:10.706  2885  2920 I Cryptfs : Encrypted to sector 2869166592
+05-24 21:38:10.706  2885  2920 I Cryptfs : Encrypting from sector 2885681152
+05-24 21:38:10.714  2885  2920 I Cryptfs : Encrypting group 173
+05-24 21:38:10.715  2885  2920 I Cryptfs : Encrypted to sector 2885943808
+05-24 21:38:10.715  2885  2920 I Cryptfs : Encrypting from sector 2902458368
+05-24 21:38:10.723  2885  2920 I Cryptfs : Encrypting group 174
+05-24 21:38:10.723  2885  2920 I Cryptfs : Encrypted to sector 2902721024
+05-24 21:38:10.724  2885  2920 I Cryptfs : Encrypting from sector 2919235584
+05-24 21:38:10.772  2885  2920 I Cryptfs : Encrypting group 175
+05-24 21:38:10.776  2885  2920 I Cryptfs : Encrypted to sector 2919498240
+05-24 21:38:10.776  2885  2920 I Cryptfs : Encrypting from sector 2936012800
+05-24 21:38:10.790  2885  2920 I Cryptfs : Encrypting group 176
+05-24 21:38:10.791  2885  2920 I Cryptfs : Encrypted to sector 2936275456
+05-24 21:38:10.791  2885  2920 I Cryptfs : Encrypting from sector 2952790016
+05-24 21:38:10.799  2885  2920 I Cryptfs : Encrypting group 177
+05-24 21:38:10.799  2885  2920 I Cryptfs : Encrypted to sector 2953052672
+05-24 21:38:10.799  2885  2920 I Cryptfs : Encrypting from sector 2969567232
+05-24 21:38:10.807  2885  2920 I Cryptfs : Encrypting group 178
+05-24 21:38:10.818  2885  2920 I Cryptfs : Encrypted to sector 2969829888
+05-24 21:38:10.818  2885  2920 I Cryptfs : Encrypting from sector 2986344448
+05-24 21:38:10.899  2885  2920 I Cryptfs : Encrypting group 179
+05-24 21:38:10.998  2885  2920 I Cryptfs : Encrypted to sector 2986607104
+05-24 21:38:10.998  2885  2920 I Cryptfs : Encrypting from sector 3003121664
+05-24 21:38:11.030  2885  2920 I Cryptfs : Encrypting group 180
+05-24 21:38:11.031  2885  2920 I Cryptfs : Encrypted to sector 3003384320
+05-24 21:38:11.031  2885  2920 I Cryptfs : Encrypting from sector 3019898880
+05-24 21:38:11.044  2885  2920 I Cryptfs : Encrypting group 181
+05-24 21:38:11.044  2885  2920 I Cryptfs : Encrypted to sector 3020161536
+05-24 21:38:11.044  2885  2920 I Cryptfs : Encrypting from sector 3036676096
+05-24 21:38:11.056  2885  2920 I Cryptfs : Encrypting group 182
+05-24 21:38:11.057  2885  2920 I Cryptfs : Encrypted to sector 3036938752
+05-24 21:38:11.057  2885  2920 I Cryptfs : Encrypting from sector 3053453312
+05-24 21:38:11.065  2885  2920 I Cryptfs : Encrypting group 183
+05-24 21:38:11.066  2885  2920 I Cryptfs : Encrypted to sector 3053715968
+05-24 21:38:11.066  2885  2920 I Cryptfs : Encrypting from sector 3070230528
+05-24 21:38:11.074  2885  2920 I Cryptfs : Encrypting group 184
+05-24 21:38:11.074  2885  2920 I Cryptfs : Encrypted to sector 3070493184
+05-24 21:38:11.074  2885  2920 I Cryptfs : Encrypting from sector 3087007744
+05-24 21:38:11.082  2885  2920 I Cryptfs : Encrypting group 185
+05-24 21:38:11.083  2885  2920 I Cryptfs : Encrypted to sector 3087270400
+05-24 21:38:11.083  2885  2920 I Cryptfs : Encrypting from sector 3103784960
+05-24 21:38:11.090  2885  2920 I Cryptfs : Encrypting group 186
+05-24 21:38:11.091  2885  2920 I Cryptfs : Encrypted to sector 3104047616
+05-24 21:38:11.091  2885  2920 I Cryptfs : Encrypting from sector 3120562176
+05-24 21:38:11.099  2885  2920 I Cryptfs : Encrypting group 187
+05-24 21:38:11.099  2885  2920 I Cryptfs : Encrypted to sector 3120824832
+05-24 21:38:11.099  2885  2920 I Cryptfs : Encrypting from sector 3137339392
+05-24 21:38:11.107  2885  2920 I Cryptfs : Encrypting group 188
+05-24 21:38:11.108  2885  2920 I Cryptfs : Encrypted to sector 3137602048
+05-24 21:38:11.108  2885  2920 I Cryptfs : Encrypting from sector 3154116608
+05-24 21:38:11.116  2885  2920 I Cryptfs : Encrypting group 189
+05-24 21:38:11.116  2885  2920 I Cryptfs : Encrypted to sector 3154379264
+05-24 21:38:11.116  2885  2920 I Cryptfs : Encrypting from sector 3170893824
+05-24 21:38:11.124  2885  2920 I Cryptfs : Encrypting group 190
+05-24 21:38:11.125  2885  2920 I Cryptfs : Encrypted to sector 3171156480
+05-24 21:38:11.125  2885  2920 I Cryptfs : Encrypting from sector 3187671040
+05-24 21:38:11.133  2885  2920 I Cryptfs : Encrypting group 191
+05-24 21:38:11.133  2885  2920 I Cryptfs : Encrypted to sector 3187933696
+05-24 21:38:11.133  2885  2920 I Cryptfs : Encrypting from sector 3204448256
+05-24 21:38:11.177  2885  2920 I Cryptfs : Encrypting group 192
+05-24 21:38:11.191  2885  2920 I Cryptfs : Encrypted to sector 3204710912
+05-24 21:38:11.191  2885  2920 I Cryptfs : Encrypting from sector 3221225472
+05-24 21:38:11.236  2885  2920 I Cryptfs : Encrypting group 193
+05-24 21:38:11.238  2885  2920 I Cryptfs : Encrypted to sector 3221488128
+05-24 21:38:11.239  2885  2920 I Cryptfs : Encrypting from sector 3238002688
+05-24 21:38:11.250  2885  2920 I Cryptfs : Encrypting group 194
+05-24 21:38:11.251  2885  2920 I Cryptfs : Encrypted to sector 3238265344
+05-24 21:38:11.251  2885  2920 I Cryptfs : Encrypting from sector 3254779904
+05-24 21:38:11.261  2885  2920 I Cryptfs : Encrypting group 195
+05-24 21:38:11.262  2885  2920 I Cryptfs : Encrypted to sector 3255042560
+05-24 21:38:11.262  2885  2920 I Cryptfs : Encrypting from sector 3271557120
+05-24 21:38:11.269  2885  2920 I Cryptfs : Encrypting group 196
+05-24 21:38:11.270  2885  2920 I Cryptfs : Encrypted to sector 3271819776
+05-24 21:38:11.270  2885  2920 I Cryptfs : Encrypting from sector 3288334336
+05-24 21:38:11.279  2885  2920 I Cryptfs : Encrypting group 197
+05-24 21:38:11.280  2885  2920 I Cryptfs : Encrypted to sector 3288596992
+05-24 21:38:11.280  2885  2920 I Cryptfs : Encrypting from sector 3305111552
+05-24 21:38:11.328  2885  2920 I Cryptfs : Encrypting group 198
+05-24 21:38:11.331  2885  2920 I Cryptfs : Encrypted to sector 3305374208
+05-24 21:38:11.331  2885  2920 I Cryptfs : Encrypting from sector 3321888768
+05-24 21:38:11.354  2885  2920 I Cryptfs : Encrypting group 199
+05-24 21:38:11.354  2885  2920 I Cryptfs : Encrypted to sector 3322151424
+05-24 21:38:11.354  2885  2920 I Cryptfs : Encrypting from sector 3338665984
+05-24 21:38:11.362  2885  2920 I Cryptfs : Encrypting group 200
+05-24 21:38:11.363  2885  2920 I Cryptfs : Encrypted to sector 3338928640
+05-24 21:38:11.363  2885  2920 I Cryptfs : Encrypting from sector 3355443200
+05-24 21:38:11.372  2885  2920 I Cryptfs : Encrypting group 201
+05-24 21:38:11.385  2885  2920 I Cryptfs : Encrypted to sector 3355705856
+05-24 21:38:11.385  2885  2920 I Cryptfs : Encrypting from sector 3372220416
+05-24 21:38:11.454  2885  2920 I Cryptfs : Encrypted to sector 3372746752
+05-24 21:38:12.172  2885  2920 I Cryptfs : cryptfs_check_passwd
+05-24 21:38:12.172  2885  2920 I Ext4Crypt: ext4 crypto complete called on /data
+05-24 21:38:12.172  2885  2920 I Ext4Crypt: No master key, so not ext4enc
+05-24 21:38:12.173  2885  2920 D Cryptfs : crypt_ftr->fs_size = 52821984
+05-24 21:38:12.173  2885  2920 I Cryptfs : Using scrypt for cryptfs KDF
+05-24 21:38:12.571  2885  2920 I Cryptfs : Enabling support for allow_discards in dmcrypt.
+05-24 21:38:12.571  2885  2920 I Cryptfs : target_type = crypt
+05-24 21:38:12.571  2885  2920 I Cryptfs : real_blk_name = /dev/block/platform/155a0000.ufs/by-name/USERDATA, extra_params = 1 allow_discards
+05-24 21:38:12.572  2885  2908 D vold    : Disk at 253:0 changed
+05-24 21:38:12.976  2885  2920 I Cryptfs : Password matches
+05-24 21:38:12.977  2885  2920 D Cryptfs : test_mount_encrypted_fs(): Master key saved
+05-24 21:38:12.977  2885  2920 I Cryptfs : keymaster module name is Keymaster OpenSSL HAL
+05-24 21:38:12.977  2885  2920 I Cryptfs : keymaster version is 2
+05-24 21:38:12.977  2885  2920 I Cryptfs : Found keymaster0 module, using keymaster0 API.
+05-24 21:38:12.978  2885  2920 D Cryptfs : Just asked init to shut down class main
+05-24 21:38:14.979  2885  2920 D Cryptfs : unmounting /data succeeded
+05-24 21:38:15.025  2885  2920 D Cryptfs : Just triggered post_fs_data
+05-24 21:38:15.070  3079  3079 I /system/bin/tzdatacheck: tzdata file /data/misc/zoneinfo/current/tzdata does not exist. No action required.
+05-24 21:38:15.075  2885  2920 D Cryptfs : post_fs_data done
+05-24 21:38:15.076  2885  2920 D Cryptfs : Just triggered restart_framework
+05-24 21:38:15.096  3085  3085 I sysinit : Running /system/etc/init.d/00banner 
+05-24 21:38:15.096  3083  3083 I DEBUG   : debuggerd: starting
+05-24 21:38:15.109  3088  3088 I installd: installd firing up
+05-24 21:38:15.110  3081  3081 I Netd    : Netd 1.0 starting
+05-24 21:38:15.111  3081  3081 I QtiConnectivityAdapter: Failed to open libconnctrl, some features may not be present.
+05-24 21:38:15.111  3081  3081 D TetherController: Setting IP forward enable = 0
+05-24 21:38:15.122  3096  3096 I cm      : ____ _   _ ____ _  _ ____ ____ ____ _  _ _  _ ____ ___ 
+05-24 21:38:15.128  3082  3082 I DEBUG   : debuggerd: starting
+05-24 21:38:15.129  3094  3094 I perfprofd: starting Android Wide Profiling daemon
+05-24 21:38:15.131  3094  3094 E perfprofd: unable to open configuration file /data/data/com.google.android.gms/files/perfprofd.conf
+05-24 21:38:15.131  3094  3094 I perfprofd: random seed set to 659576642
+05-24 21:38:15.132  3090  3090 V lhd     : GlLhdInterface::Init(/system/etc/lhd.conf)
+05-24 21:38:15.132  3090  3090 E lhd     : Failed to read config file "/system/etc/lhd.conf"
+05-24 21:38:15.132  3090  3090 E lhd     : ASSERT in GlLhdInterface.cpp:141: Failed to parse config file.
+--------- beginning of crash
+05-24 21:38:15.132  3090  3090 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 3090 (lhd)
+05-24 21:38:15.132  3083  3083 I DEBUG   : property debug.db.uid not set; NOT waiting for gdb.
+05-24 21:38:15.132  3083  3083 I DEBUG   : HINT: adb shell setprop debug.db.uid 100000
+05-24 21:38:15.132  3083  3083 I DEBUG   : HINT: adb forward tcp:5039 tcp:5039
+05-24 21:38:15.133  3089  3089 I keystore: Found keymaster0 module Keymaster OpenSSL HAL, version 2
+05-24 21:38:15.133  3089  3089 I SoftKeymaster: system/keymaster/soft_keymaster_device.cpp, Line 122: Creating device
+05-24 21:38:15.133  3089  3089 D SoftKeymaster: system/keymaster/soft_keymaster_device.cpp, Line 123: Device address: 0x7faec23000
+05-24 21:38:15.133  3089  3089 I keystore: Keymaster0 module is software-only.  Using SoftKeymasterDevice instead.
+05-24 21:38:15.133  3089  3089 I SoftKeymaster: system/keymaster/soft_keymaster_device.cpp, Line 122: Creating device
+05-24 21:38:15.133  3089  3089 D SoftKeymaster: system/keymaster/soft_keymaster_device.cpp, Line 123: Device address: 0x7faec23300
+05-24 21:38:15.133  3089  3089 I keystore: SELinux: Keystore SELinux is disabled.
+05-24 21:38:15.133  3097  3097 I cm      : |     \_/  |__| |\ | |  | | __ |___ |\ | |\/| |  | |  \ 
+05-24 21:38:15.140  3095  3095 I fingerprintd: Starting fingerprintd
+05-24 21:38:15.143  3099  3099 I cm      : |___   |   |  | | \| |__| |__] |___ | \| |  | |__| |__/ 
+05-24 21:38:15.144  3093  3093 I gatekeeperd: Starting gatekeeperd...
+05-24 21:38:15.145  3093  3093 W gatekeeperd: falling back to software GateKeeper
+05-24 21:38:15.145  3093  3093 I gatekeeperd: cold boot: clearing state
+05-24 21:38:15.168  3103  3103 I cm      : Welcome to Android 6.0.1 / CyanogenMod-13.0-20160524-UNOFFICIAL-hero2ltexx 
+05-24 21:38:15.177  3105  3105 I sysinit : Running /system/etc/init.d/90userinit 
+05-24 21:38:15.199  2967  2967 W auditd  : type=1325 audit(0.0:14): table=filter family=2 entries=4
+05-24 21:38:15.199  2967  2967 W auditd  : type=1320 audit(0.0:14): 
+05-24 21:38:15.209  2967  2967 W auditd  : type=1325 audit(0.0:15): table=filter family=10 entries=4
+05-24 21:38:15.209  2967  2967 W auditd  : type=1320 audit(0.0:15): 
+05-24 21:38:15.219  2967  2967 W auditd  : type=1325 audit(0.0:16): table=filter family=2 entries=6
+05-24 21:38:15.219  2967  2967 W auditd  : type=1320 audit(0.0:16): 
+05-24 21:38:15.219  2967  2967 W auditd  : type=1325 audit(0.0:17): table=filter family=10 entries=6
+05-24 21:38:15.219  2967  2967 W auditd  : type=1320 audit(0.0:17): 
+05-24 21:38:15.233  3083  3083 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+05-24 21:38:15.233  3083  3083 F DEBUG   : Build fingerprint: 'samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30J/7f0153f6f8:eng/test-keys'
+05-24 21:38:15.233  3083  3083 F DEBUG   : Revision: '0'
+05-24 21:38:15.233  3083  3083 F DEBUG   : ABI: 'arm64'
+05-24 21:38:15.233  3083  3083 F DEBUG   : pid: 3090, tid: 3090, name: lhd  >>> /system/bin/lhd <<<
+05-24 21:38:15.233  3083  3083 F DEBUG   : signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+05-24 21:38:15.236  3083  3083 F DEBUG   :     x0   0000000000000000  x1   0000000000000c12  x2   0000000000000006  x3   0000000000000000
+05-24 21:38:15.236  3083  3083 F DEBUG   :     x4   0000000000000000  x5   0000000000000001  x6   0000000000000000  x7   0000000000000000
+05-24 21:38:15.236  3083  3083 F DEBUG   :     x8   0000000000000083  x9   0000007fcb555a20  x10  00000000ffffffd8  x11  00000000ffffff80
+05-24 21:38:15.236  3083  3083 F DEBUG   :     x12  0000007f845aee10  x13  43b3c86c4a95c7b7  x14  0000007f84552658  x15  0000000000000001
+05-24 21:38:15.236  3083  3083 F DEBUG   :     x16  0000007f8413e580  x17  0000007f840d0fcc  x18  00000000ffffffff  x19  0000007f8455c0d8
+05-24 21:38:15.236  3083  3083 F DEBUG   :     x20  0000007f8455c018  x21  0000000000000002  x22  0000000000000006  x23  0000007f8458c000
+05-24 21:38:15.236  3083  3083 F DEBUG   :     x24  0000007fcb556018  x25  0000007f845b13d0  x26  0000000000000000  x27  0000000000000000
+05-24 21:38:15.236  3083  3083 F DEBUG   :     x28  0000000000000000  x29  0000007fcb555af0  x30  0000007f840ce768
+05-24 21:38:15.236  3083  3083 F DEBUG   :     sp   0000007fcb555af0  pc   0000007f840d0fd4  pstate 0000000020000000
+05-24 21:38:15.241  3083  3083 F DEBUG   : 
+05-24 21:38:15.241  3083  3083 F DEBUG   : backtrace:
+05-24 21:38:15.242  3083  3083 F DEBUG   :     #00 pc 0000000000068fd4  /system/lib64/libc.so (tgkill+8)
+05-24 21:38:15.242  3083  3083 F DEBUG   :     #01 pc 0000000000066764  /system/lib64/libc.so (pthread_kill+68)
+05-24 21:38:15.242  3083  3083 F DEBUG   :     #02 pc 0000000000023448  /system/lib64/libc.so (raise+28)
+05-24 21:38:15.242  3083  3083 F DEBUG   :     #03 pc 000000000001dbe8  /system/lib64/libc.so (abort+60)
+05-24 21:38:15.242  3083  3083 F DEBUG   :     #04 pc 000000000000b5a0  /system/bin/lhd
+05-24 21:38:15.242  3083  3083 F DEBUG   :     #05 pc 000000000000b640  /system/bin/lhd
+05-24 21:38:15.242  3083  3083 F DEBUG   :     #06 pc 000000000000bec4  /system/bin/lhd
+05-24 21:38:15.242  3083  3083 F DEBUG   :     #07 pc 000000000000c2b0  /system/bin/lhd
+05-24 21:38:15.242  3083  3083 F DEBUG   :     #08 pc 000000000000965c  /system/bin/lhd (main+64)
+05-24 21:38:15.242  3083  3083 F DEBUG   :     #09 pc 000000000001bcd8  /system/lib64/libc.so (__libc_init+100)
+05-24 21:38:15.242  3083  3083 F DEBUG   :     #10 pc 00000000000099e8  /system/bin/lhd
+05-24 21:38:15.261  3083  3083 F DEBUG   : 
+05-24 21:38:15.261  3083  3083 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_00
+05-24 21:38:15.249  3090  3090 W lhd     : type=1701 audit(0.0:18): auid=4294967295 uid=1021 gid=1000 ses=4294967295 exe="/system/bin/lhd" sig=6
+05-24 21:38:15.259  2967  2967 W auditd  : type=1325 audit(0.0:19): table=filter family=2 entries=7
+05-24 21:38:15.259  2967  2967 W auditd  : type=1320 audit(0.0:19): 
+05-24 21:38:15.269  2967  2967 W auditd  : type=1325 audit(0.0:20): table=filter family=10 entries=7
+05-24 21:38:15.269  2967  2967 W auditd  : type=1320 audit(0.0:20): 
+05-24 21:38:15.269  2967  2967 W auditd  : type=1325 audit(0.0:21): table=filter family=2 entries=9
+05-24 21:38:15.269  2967  2967 W auditd  : type=1320 audit(0.0:21): 
+05-24 21:38:15.279  2967  2967 W auditd  : type=1325 audit(0.0:22): table=filter family=10 entries=9
+05-24 21:38:15.279  2967  2967 W auditd  : type=1320 audit(0.0:22): 
+05-24 21:38:15.320  3087  3087 I mediaserver: ServiceManager: 0xf65ce120
+05-24 21:38:15.320  3087  3087 I AudioFlinger: Using default 3000 mSec as standby time.
+05-24 21:38:15.320  3087  3087 E BatteryNotifier: batterystats service unavailable!
+05-24 21:38:15.320  3087  3087 E BatteryNotifier: batterystats service unavailable!
+05-24 21:38:15.321  3087  3087 I CameraService: CameraService started (pid=3087)
+05-24 21:38:15.321  3087  3087 I CameraService: CameraService process starting
+05-24 21:38:15.321  3087  3087 E BatteryNotifier: batterystats service unavailable!
+05-24 21:38:15.321  3087  3087 E BatteryNotifier: batterystats service unavailable!
+05-24 21:38:15.322  3087  3087 E CameraService: Could not load camera HAL module: -2 (No such file or directory)
+05-24 21:38:15.322  3087  3087 I AudioPolicyService: AudioPolicyService CSTOR in new mode
+05-24 21:38:15.323  3087  3087 W APM::HwModule: loadOutput() invalid supported devices
+05-24 21:38:15.323  3087  3087 W APM::HwModule: loadOutput() invalid supported devices
+05-24 21:38:15.323  3087  3087 W APM::HwModule: loadInput() invalid supported devices
+05-24 21:38:15.323  3087  3087 W APM::HwModule: loadInput() invalid supported devices
+05-24 21:38:15.323  3087  3087 I APM::ConfigParsingUtils: loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+05-24 21:38:15.319  2967  2967 W auditd  : type=1325 audit(0.0:23): table=filter family=2 entries=10
+05-24 21:38:15.319  2967  2967 W auditd  : type=1320 audit(0.0:23): 
+05-24 21:38:15.319  2967  2967 W auditd  : type=1325 audit(0.0:24): table=filter family=10 entries=10
+05-24 21:38:15.319  2967  2967 W auditd  : type=1320 audit(0.0:24): 
+05-24 21:38:15.329  2967  2967 W auditd  : type=1325 audit(0.0:25): table=filter family=2 entries=12
+05-24 21:38:15.329  2967  2967 W auditd  : type=1320 audit(0.0:25): 
+05-24 21:38:15.329  2967  2967 W auditd  : type=1325 audit(0.0:26): table=filter family=10 entries=12
+05-24 21:38:15.329  2967  2967 W auditd  : type=1320 audit(0.0:26): 
+05-24 21:38:15.369  2967  2967 W auditd  : type=1325 audit(0.0:27): table=filter family=2 entries=13
+05-24 21:38:15.369  2967  2967 W auditd  : type=1320 audit(0.0:27): 
+05-24 21:38:15.379  2967  2967 W auditd  : type=1325 audit(0.0:28): table=filter family=10 entries=13
+05-24 21:38:15.379  2967  2967 W auditd  : type=1320 audit(0.0:28): 
+05-24 21:38:15.379  2967  2967 W auditd  : type=1325 audit(0.0:29): table=filter family=2 entries=15
+05-24 21:38:15.379  2967  2967 W auditd  : type=1320 audit(0.0:29): 
+05-24 21:38:15.389  2967  2967 W auditd  : type=1325 audit(0.0:30): table=filter family=10 entries=15
+05-24 21:38:15.389  2967  2967 W auditd  : type=1320 audit(0.0:30): 
+05-24 21:38:15.429  2967  2967 W auditd  : type=1325 audit(0.0:31): table=filter family=2 entries=16
+05-24 21:38:15.429  2967  2967 W auditd  : type=1320 audit(0.0:31): 
+05-24 21:38:15.442  3091  3091 D AndroidRuntime: >>>>>> START com.android.internal.os.ZygoteInit uid 0 <<<<<<
+05-24 21:38:15.439  2967  2967 W auditd  : type=1325 audit(0.0:32): table=filter family=10 entries=16
+05-24 21:38:15.439  2967  2967 W auditd  : type=1320 audit(0.0:32): 
+05-24 21:38:15.439  2967  2967 W auditd  : type=1325 audit(0.0:33): table=filter family=2 entries=18
+05-24 21:38:15.439  2967  2967 W auditd  : type=1320 audit(0.0:33): 
+05-24 21:38:15.456  3091  3091 D AndroidRuntime: CheckJNI is ON
+05-24 21:38:15.460  3091  3091 I art     : option[0]=-Xzygote
+05-24 21:38:15.460  3091  3091 I art     : option[1]=-Xcheck:jni
+05-24 21:38:15.460  3091  3091 I art     : option[2]=-Xstacktracefile:/data/anr/traces.txt
+05-24 21:38:15.460  3091  3091 I art     : option[3]=exit
+05-24 21:38:15.460  3091  3091 I art     : option[4]=vfprintf
+05-24 21:38:15.460  3091  3091 I art     : option[5]=sensitiveThread
+05-24 21:38:15.460  3091  3091 I art     : option[6]=-verbose:gc
+05-24 21:38:15.460  3091  3091 I art     : option[7]=-Xms8m
+05-24 21:38:15.460  3091  3091 I art     : option[8]=-Xmx512m
+05-24 21:38:15.460  3091  3091 I art     : option[9]=-XX:HeapGrowthLimit=256m
+05-24 21:38:15.460  3091  3091 I art     : option[10]=-XX:HeapMinFree=2m
+05-24 21:38:15.460  3091  3091 I art     : option[11]=-XX:HeapMaxFree=8m
+05-24 21:38:15.460  3091  3091 I art     : option[12]=-XX:HeapTargetUtilization=0.75
+05-24 21:38:15.460  3091  3091 I art     : option[13]=-Xusejit:true
+05-24 21:38:15.460  3091  3091 I art     : option[14]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+05-24 21:38:15.460  3091  3091 I art     : option[15]=-Xlockprofthreshold:500
+05-24 21:38:15.460  3091  3091 I art     : option[16]=-Ximage-compiler-option
+05-24 21:38:15.460  3091  3091 I art     : option[17]=--runtime-arg
+05-24 21:38:15.460  3091  3091 I art     : option[18]=-Ximage-compiler-option
+05-24 21:38:15.460  3091  3091 I art     : option[19]=-Xms64m
+05-24 21:38:15.460  3091  3091 I art     : option[20]=-Ximage-compiler-option
+05-24 21:38:15.460  3091  3091 I art     : option[21]=--runtime-arg
+05-24 21:38:15.460  3091  3091 I art     : option[22]=-Ximage-compiler-option
+05-24 21:38:15.460  3091  3091 I art     : option[23]=-Xmx64m
+05-24 21:38:15.460  3091  3091 I art     : option[24]=-Ximage-compiler-option
+05-24 21:38:15.460  3091  3091 I art     : option[25]=--compiler-filter=verify-at-runtime
+05-24 21:38:15.460  3091  3091 I art     : option[26]=-Ximage-compiler-option
+05-24 21:38:15.460  3091  3091 I art     : option[27]=--image-classes=/system/etc/preloaded-classes
+05-24 21:38:15.460  3091  3091 I art     : option[28]=-Xcompiler-option
+05-24 21:38:15.460  3091  3091 I art     : option[29]=--runtime-arg
+05-24 21:38:15.460  3091  3091 I art     : option[30]=-Xcompiler-option
+05-24 21:38:15.460  3091  3091 I art     : option[31]=-Xms64m
+05-24 21:38:15.460  3091  3091 I art     : option[32]=-Xcompiler-option
+05-24 21:38:15.460  3091  3091 I art     : option[33]=--runtime-arg
+05-24 21:38:15.460  3091  3091 I art     : option[34]=-Xcompiler-option
+05-24 21:38:15.460  3091  3091 I art     : option[35]=-Xmx512m
+05-24 21:38:15.460  3091  3091 I art     : option[36]=-Xcompiler-option
+05-24 21:38:15.460  3091  3091 I art     : option[37]=--compiler-filter=verify-at-runtime
+05-24 21:38:15.461  3091  3091 I art     : option[38]=-Ximage-compiler-option
+05-24 21:38:15.461  3091  3091 I art     : option[39]=--instruction-set-variant=generic
+05-24 21:38:15.461  3091  3091 I art     : option[40]=-Xcompiler-option
+05-24 21:38:15.461  3091  3091 I art     : option[41]=--instruction-set-variant=generic
+05-24 21:38:15.461  3091  3091 I art     : option[42]=-Ximage-compiler-option
+05-24 21:38:15.461  3091  3091 I art     : option[43]=--instruction-set-features=default
+05-24 21:38:15.461  3091  3091 I art     : option[44]=-Xcompiler-option
+05-24 21:38:15.461  3091  3091 I art     : option[45]=--instruction-set-features=default
+05-24 21:38:15.461  3091  3091 I art     : option[46]=-Duser.locale=en-US
+05-24 21:38:15.461  3091  3091 I art     : option[47]=--cpu-abilist=arm64-v8a,armeabi
+05-24 21:38:15.461  3091  3091 I art     : option[48]=-Xfingerprint:samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30J/7f0153f6f8:eng/test-keys
+05-24 21:38:15.482  3091  3091 I art     : Pruning dalvik-cache since we are generating an image and will need to recompile
+05-24 21:38:15.483  3091  3091 I art     : Using an offset of 0xd90000 from default art base address of 0x70000000
+05-24 21:38:15.483  3091  3091 I art     : GenerateImage: /system/bin/dex2oat --image=/data/dalvik-cache/arm64/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/apache-xml.jar --dex-file=/system/framework/org.apache.http.legacy.boot.jar --oat-file=/data/dalvik-cache/arm64/system@framework@boot.oat --instruction-set=arm64 --instruction-set-features=smp,a53 --base=0x70d90000 --runtime-arg -Xms64m --runtime-arg -Xmx64m --compiler-filter=verify-at-runtime --image-classes=/system/etc/preloaded-classes --instruction-set-variant=generic --instruction-set-features=default
+05-24 21:38:15.522  3170  3170 I dex2oat : /system/bin/dex2oat --image=/data/dalvik-cache/arm64/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/apache-xml.jar --dex-file=/system/framework/org.apache.http.legacy.boot.jar --oat-file=/data/dalvik-cache/arm64/system@framework@boot.oat --instruction-set=arm64 --instruction-set-features=smp,a53 --base=0x70d90000 --runtime-arg -Xms64m --runtime-arg -Xmx64m --compiler-filter=verify-at-runtime --image-classes=/system/etc/preloaded-classes --instruction-set-variant=generic --instruction-set-features=default
+05-24 21:38:15.529  3170  3170 I dex2oat : setting boot class path to /system/framework/core-libart.jar:/system/framework/conscrypt.jar:/system/framework/okhttp.jar:/system/framework/core-junit.jar:/system/framework/bouncycastle.jar:/system/framework/ext.jar:/system/framework/framework.jar:/system/framework/telephony-common.jar:/system/framework/voip-common.jar:/system/framework/ims-common.jar:/system/framework/apache-xml.jar:/system/framework/org.apache.http.legacy.boot.jar
+05-24 21:38:15.938  3087  3087 I AudioFlinger: loadHwModule() Loaded primary audio interface from Samsung audio HW HAL (audio) handle 1
+05-24 21:38:15.938  3087  3087 I AudioFlinger: openOutput(), module 1 Device 2, SamplingRate 48000, Format 0x000001, Channels 3, flags a
+05-24 21:38:15.938  3087  3087 I AudioFlinger: AudioStreamOut::open(), mHalFormatIsLinearPcm = 1
+05-24 21:38:15.938  3087  3087 I AudioFlinger: HAL output buffer size 1024 frames, normal sink buffer size 1024 frames
+05-24 21:38:15.943  3087  3087 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libaudioeffectoffload.so
+05-24 21:38:15.946  3087  3087 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libexynosvisualizer.so
+05-24 21:38:15.951  3087  3087 W EffectsFactory: loadLibrary() failed to open /system/lib/libmysound.so
+05-24 21:38:15.951  3087  3087 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libmyspace.so
+05-24 21:38:15.951  3087  3087 W EffectsFactory: loadLibrary() failed to open /system/lib/libaudiosa.so
+05-24 21:38:15.951  3087  3087 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libaudiosaplus_sec.so
+05-24 21:38:15.952  3087  3087 W EffectsFactory: loadLibrary() failed to open /system/lib/libsamsungSoundbooster_plus.so
+05-24 21:38:15.952  3087  3087 W EffectsFactory: loadEffect() could not get library soundbooster_plus
+05-24 21:38:15.952  3087  3087 W EffectsFactory: addSubEffect() could not get library soundalive_sec
+05-24 21:38:15.952  3087  3087 W EffectsFactory: loadEffect() could not add subEffect 
+05-24 21:38:15.952  3087  3087 W EffectsFactory: loadEffect() could not get library soundalive
+05-24 21:38:15.952  3087  3087 W EffectsFactory: loadEffect() could not get library soundalive
+05-24 21:38:15.952  3087  3087 W EffectsFactory: loadEffect() could not get library soundalive
+05-24 21:38:15.952  3087  3087 W EffectsFactory: addSubEffect() could not get library visualizer_hw
+05-24 21:38:15.952  3087  3087 W EffectsFactory: loadEffect() could not add subEffect 
+05-24 21:38:15.953  3087  3087 W EffectsFactory: addSubEffect() could not get library mysound
+05-24 21:38:15.953  3087  3087 W EffectsFactory: loadEffect() could not add subEffect 
+05-24 21:38:15.953  3087  3087 W EffectsFactory: addSubEffect() could not get library myspace
+05-24 21:38:15.953  3087  3087 W EffectsFactory: loadEffect() could not add subEffect 
+05-24 21:38:15.953  3087  3087 I BufferProvider: found effect "Multichannel Downmix To Stereo" from The Android Open Source Project
+05-24 21:38:15.953  3087  3087 I AudioFlinger: Using module 1 has the primary audio interface
+05-24 21:38:15.953  3087  3253 I AudioFlinger: AudioFlinger's thread 0xf49c0000 ready to run
+05-24 21:38:15.953  3087  3253 V audio_hw_primary: do_out_standby: output standby: 1
+05-24 21:38:15.954  3087  3253 V audio_hw_primary: out_set_parameters: key value pairs: routing=2
+05-24 21:38:15.954  3087  3253 E AudioFlinger: no wake lock to update!
+05-24 21:38:15.955  3087  3087 I AudioFlinger: openOutput(), module 1 Device 2, SamplingRate 48000, Format 0x000001, Channels 3, flags 4
+05-24 21:38:15.955  3087  3087 I AudioFlinger: AudioStreamOut::open(), mHalFormatIsLinearPcm = 1
+05-24 21:38:15.955  3087  3087 I AudioFlinger: HAL output buffer size 256 frames, normal sink buffer size 960 frames
+05-24 21:38:15.956  3087  3087 E MonoPipe: Failed to fetch local time frequency when constructing a MonoPipe (res = -32).  getNextWriteTimestamp calls will be non-functional
+05-24 21:38:15.956  3087  3256 I AudioFlinger: AudioFlinger's thread 0xf4640000 ready to run
+05-24 21:38:15.956  3087  3256 V audio_hw_primary: do_out_standby: output standby: 1
+05-24 21:38:15.956  3087  3256 V audio_hw_primary: out_set_parameters: key value pairs: routing=2
+05-24 21:38:15.956  3087  3256 E AudioFlinger: no wake lock to update!
+05-24 21:38:15.958  3087  3087 V audio_hw_primary: adev_open_input_stream: Requesting input stream with rate: 48000, channels: 0xc
+05-24 21:38:15.958  3087  3257 I AudioFlinger: AudioFlinger's thread 0xf4340000 ready to run
+05-24 21:38:15.959  3087  3087 I bt_a2dp_hw: adev_open:  adev_open in A2dp_hw module
+05-24 21:38:15.959  3087  3087 I AudioFlinger: loadHwModule() Loaded a2dp audio interface from A2DP Audio HW HAL (audio) handle 5
+05-24 21:38:15.961  3087  3087 I AudioFlinger: loadHwModule() Loaded usb audio interface from USB audio HW HAL (audio) handle 6
+05-24 21:38:15.962  3087  3087 I r_submix: adev_open(name=audio_hw_if)
+05-24 21:38:15.962  3087  3087 I r_submix: adev_init_check()
+05-24 21:38:15.962  3087  3087 I AudioFlinger: loadHwModule() Loaded r_submix audio interface from Wifi Display audio HAL (audio) handle 7
+05-24 21:38:15.962  3087  3087 D r_submix: adev_open_input_stream(addr=0)
+05-24 21:38:15.962  3087  3087 D r_submix: submix_audio_device_create_pipe_l(addr=0, idx=9)
+05-24 21:38:15.962  3087  3087 D r_submix:   now using address 0 for route 9
+05-24 21:38:15.962  3087  3258 I AudioFlinger: AudioFlinger's thread 0xf42c0000 ready to run
+05-24 21:38:15.962  3087  3087 D r_submix: adev_close_input_stream()
+05-24 21:38:15.962  3087  3087 D r_submix: submix_audio_device_release_pipe_l(idx=9) addr=0
+05-24 21:38:15.962  3087  3087 D r_submix: submix_audio_device_destroy_pipe_l(): pipe destroyed
+05-24 21:38:15.963  3087  3087 F libc    : Fatal signal 11 (SIGSEGV), code 1, fault addr 0x0 in tid 3087 (mediaserver)
+05-24 21:38:15.963  3082  3082 I DEBUG   : property debug.db.uid not set; NOT waiting for gdb.
+05-24 21:38:15.963  3082  3082 I DEBUG   : HINT: adb shell setprop debug.db.uid 100000
+05-24 21:38:15.963  3082  3082 I DEBUG   : HINT: adb forward tcp:5039 tcp:5039
+05-24 21:38:16.013  3082  3082 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+05-24 21:38:16.013  3082  3082 F DEBUG   : Build fingerprint: 'samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30J/7f0153f6f8:eng/test-keys'
+05-24 21:38:16.013  3082  3082 F DEBUG   : Revision: '0'
+05-24 21:38:16.013  3082  3082 F DEBUG   : ABI: 'arm'
+05-24 21:38:16.014  3082  3082 F DEBUG   : pid: 3087, tid: 3087, name: mediaserver  >>> /system/bin/mediaserver <<<
+05-24 21:38:16.014  3082  3082 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0
+05-24 21:38:16.020  3082  3082 F DEBUG   :     r0 f4a5e8f4  r1 00000000  r2 65732020  r3 00000007
+05-24 21:38:16.020  3082  3082 F DEBUG   :     r4 00000008  r5 f4a5e8f2  r6 f744fbe0  r7 ff9cf9a4
+05-24 21:38:16.020  3082  3082 F DEBUG   :     r8 f4abe00c  r9 f744d431  sl f744d635  fp f4a5e8f2
+05-24 21:38:16.020  3082  3082 F DEBUG   :     ip 00000000  sp ff9cf960  lr f74484f7  pc f6f9b3c8  cpsr 600f0010
+05-24 21:38:16.021  3082  3082 F DEBUG   : 
+05-24 21:38:16.021  3082  3082 F DEBUG   : backtrace:
+05-24 21:38:16.021  3082  3082 F DEBUG   :     #00 pc 000183c8  /system/lib/libc.so (strcmp+152)
+05-24 21:38:16.021  3082  3082 F DEBUG   :     #01 pc 000084f3  /system/lib/libaudiopolicyservice.so
+05-24 21:38:16.021  3082  3082 F DEBUG   :     #02 pc 0001f9a0  [stack]
+05-24 21:38:16.081  3082  3082 F DEBUG   : 
+05-24 21:38:16.081  3082  3082 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_01
+05-24 21:38:16.085  2896  2896 I ServiceManager: service 'media.audio_flinger' died
+05-24 21:38:16.086  2896  2896 I ServiceManager: service 'media.player' died
+05-24 21:38:16.086  2896  2896 I ServiceManager: service 'media.resource_manager' died
+05-24 21:38:16.086  2896  2896 I ServiceManager: service 'media.camera' died
+05-24 21:38:16.207  3081  3081 V NatController: runCmd(/system/bin/iptables -w -F natctrl_FORWARD) res=0
+05-24 21:38:16.212  3081  3081 V NatController: runCmd(/system/bin/iptables -w -A natctrl_FORWARD -j DROP) res=0
+05-24 21:38:16.217  3081  3081 V NatController: runCmd(/system/bin/iptables -w -t nat -F natctrl_nat_POSTROUTING) res=0
+05-24 21:38:16.222  3081  3081 V NatController: runCmd(/system/bin/iptables -w -F natctrl_tether_counters) res=1
+05-24 21:38:16.228  3081  3081 V NatController: runCmd(/system/bin/iptables -w -X natctrl_tether_counters) res=1
+05-24 21:38:16.234  3081  3081 V NatController: runCmd(/system/bin/iptables -w -N natctrl_tether_counters) res=0
+05-24 21:38:16.241  3081  3081 V NatController: runCmd(/system/bin/iptables -w -t mangle -A natctrl_mangle_FORWARD -p tcp --tcp-flags SYN SYN -j TCPMSS --clamp-mss-to-pmtu) res=0
+05-24 21:38:16.329  2967  2967 W auditd  : type=1325 audit(0.0:105): table=mangle family=2 entries=16
+05-24 21:38:16.329  2967  2967 W auditd  : type=1320 audit(0.0:105): 
+05-24 21:38:16.339  2967  2967 W auditd  : type=1325 audit(0.0:106): table=mangle family=10 entries=12
+05-24 21:38:16.339  2967  2967 W auditd  : type=1320 audit(0.0:106): 
+05-24 21:38:16.379  2967  2967 W auditd  : type=1325 audit(0.0:107): table=filter family=2 entries=43
+05-24 21:38:16.379  2967  2967 W auditd  : type=1320 audit(0.0:107): 
+05-24 21:38:16.379  2967  2967 W auditd  : type=1325 audit(0.0:108): table=filter family=10 entries=46
+05-24 21:38:16.379  2967  2967 W auditd  : type=1320 audit(0.0:108): 
+05-24 21:38:16.389  2967  2967 W auditd  : type=1325 audit(0.0:109): table=filter family=2 entries=45
+05-24 21:38:16.389  2967  2967 W auditd  : type=1320 audit(0.0:109): 
+05-24 21:38:16.399  2967  2967 W auditd  : type=1325 audit(0.0:110): table=filter family=10 entries=48
+05-24 21:38:16.399  2967  2967 W auditd  : type=1320 audit(0.0:110): 
+05-24 21:38:16.399  2967  2967 W auditd  : type=1325 audit(0.0:111): table=filter family=2 entries=47
+05-24 21:38:16.399  2967  2967 W auditd  : type=1320 audit(0.0:111): 
+05-24 21:38:16.409  2967  2967 W auditd  : type=1325 audit(0.0:112): table=filter family=10 entries=50
+05-24 21:38:16.409  2967  2967 W auditd  : type=1320 audit(0.0:112): 
+05-24 21:38:16.419  2967  2967 W auditd  : type=1325 audit(0.0:113): table=filter family=2 entries=49
+05-24 21:38:16.419  2967  2967 W auditd  : type=1320 audit(0.0:113): 
+05-24 21:38:16.429  2967  2967 W auditd  : type=1325 audit(0.0:114): table=filter family=10 entries=52
+05-24 21:38:16.429  2967  2967 W auditd  : type=1320 audit(0.0:114): 
+05-24 21:38:16.816  3081  3081 E Netd    : cannot find interface dummy0
+05-24 21:38:16.816  3081  3081 D MDnsDS  : MDnsSdListener::Hander starting up
+05-24 21:38:16.817  3081  3386 D MDnsDS  : MDnsSdListener starting to monitor
+05-24 21:38:16.817  3081  3386 D MDnsDS  : Going to poll with pollCount 1
+05-24 21:38:17.223  3170  3379 W dex2oat : Skipping class com.quicinc.tcmiface.DpmTcmIface from /system/framework/org.apache.http.legacy.boot.jar previously found in /system/framework/okhttp.jar
+05-24 21:38:17.569  3170  3170 I dex2oat : Explicit concurrent mark sweep GC freed 58606(21MB) AllocSpace objects, 0(0B) LOS objects, 34% free, 7MB/11MB, paused 89us total 11.293ms

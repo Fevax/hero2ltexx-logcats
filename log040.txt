@@ -1,0 +1,317 @@
+--------- beginning of main
+06-02 06:37:06.462  3002  3002 W auditd  : type=1325 audit(0.0:2): table=filter family=2 entries=0
+06-02 06:37:06.462  3002  3002 W auditd  : type=1325 audit(0.0:3): table=mangle family=2 entries=0
+06-02 06:37:06.462  3002  3002 W auditd  : type=1325 audit(0.0:4): table=nat family=2 entries=0
+06-02 06:37:06.462  3002  3002 W auditd  : type=1325 audit(0.0:5): table=raw family=2 entries=0
+06-02 06:37:06.462  3002  3002 W auditd  : type=1325 audit(0.0:6): table=security family=2 entries=0
+06-02 06:37:06.462  3002  3002 W auditd  : type=1325 audit(0.0:7): table=filter family=3 entries=0
+06-02 06:37:06.462  3002  3002 W auditd  : type=1325 audit(0.0:8): table=filter family=10 entries=0
+06-02 06:37:06.462  3002  3002 W auditd  : type=1325 audit(0.0:9): table=mangle family=10 entries=0
+06-02 06:37:06.462  3002  3002 W auditd  : type=1325 audit(0.0:10): table=raw family=10 entries=0
+06-02 06:37:06.462  3002  3002 W auditd  : type=1325 audit(0.0:11): table=nat family=10 entries=0
+06-02 06:37:06.839  3002  3002 W auditd  : type=1305 audit(0.0:12): audit_pid=2905 old=0 auid=4294967295 ses=4294967295 res=1
+06-02 06:37:06.839  3002  3002 W auditd  : type=1305 audit(0.0:13): audit_rate_limit=20 old=0 auid=4294967295 ses=4294967295 res=1
+06-02 06:37:06.873  2916  2916 I sysinit : Running /system/etc/init.d/00banner 
+--------- beginning of system
+06-02 06:37:06.874  2906  2906 I vold    : Vold 3.0 (the awakening) firing up
+06-02 06:37:06.874  2906  2906 V vold    : Detected support for: exfat ext4 ntfs vfat
+06-02 06:37:06.880  2918  2918 I lowmemorykiller: Using in-kernel low memory killer interface
+06-02 06:37:06.890  2954  2954 I cm      : ____ _   _ ____ _  _ ____ ____ ____ _  _ _  _ ____ ___ 
+06-02 06:37:06.890  2968  2968 I DEBUG   : debuggerd: starting
+06-02 06:37:06.890  2977  2977 I installd: installd firing up
+06-02 06:37:06.902  2988  2988 I cm      : |     \_/  |__| |\ | |  | | __ |___ |\ | |\/| |  | |  \ 
+06-02 06:37:06.904  2983  2983 I perfprofd: starting Android Wide Profiling daemon
+06-02 06:37:06.906  2983  2983 E perfprofd: unable to open configuration file /data/data/com.google.android.gms/files/perfprofd.conf
+06-02 06:37:06.906  2983  2983 I perfprofd: random seed set to 3006108720
+06-02 06:37:06.909  2993  2993 I cm      : |___   |   |  | | \| |__| |__] |___ | \| |  | |__| |__/ 
+06-02 06:37:06.910  2978  2978 I keystore: Found keymaster0 module Keymaster OpenSSL HAL, version 2
+06-02 06:37:06.910  2978  2978 I SoftKeymaster: system/keymaster/soft_keymaster_device.cpp, Line 122: Creating device
+06-02 06:37:06.910  2978  2978 D SoftKeymaster: system/keymaster/soft_keymaster_device.cpp, Line 123: Device address: 0x7f841e3000
+06-02 06:37:06.911  2978  2978 I keystore: Keymaster0 module is software-only.  Using SoftKeymasterDevice instead.
+06-02 06:37:06.911  2978  2978 I SoftKeymaster: system/keymaster/soft_keymaster_device.cpp, Line 122: Creating device
+06-02 06:37:06.911  2978  2978 D SoftKeymaster: system/keymaster/soft_keymaster_device.cpp, Line 123: Device address: 0x7f841e3300
+06-02 06:37:06.911  2978  2978 I keystore: SELinux: Keystore SELinux is disabled.
+06-02 06:37:06.911  2984  2984 I fingerprintd: Starting fingerprintd
+06-02 06:37:06.913  2963  2963 I Netd    : Netd 1.0 starting
+06-02 06:37:06.915  2963  2963 I QtiConnectivityAdapter: Failed to open libconnctrl, some features may not be present.
+06-02 06:37:06.915  2963  2963 D TetherController: Setting IP forward enable = 0
+06-02 06:37:06.915  2982  2982 I gatekeeperd: Starting gatekeeperd...
+06-02 06:37:06.915  2982  2982 W gatekeeperd: falling back to software GateKeeper
+06-02 06:37:06.916  2920  2920 I SurfaceFlinger: SurfaceFlinger is starting
+06-02 06:37:06.916  2920  2920 E SchedPolicy: /system/bin/surfaceflinger add_tid_to_cgroup failed; fd=-1
+06-02 06:37:06.916  2920  2920 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+06-02 06:37:06.921  2966  2966 I DEBUG   : debuggerd: starting
+06-02 06:37:06.932  3003  3003 I cm      : Welcome to Android 6.0.1 / CyanogenMod-13.0-20160602-UNOFFICIAL-hero2ltexx 
+06-02 06:37:06.937  3004  3004 I sysinit : Running /system/etc/init.d/90userinit 
+06-02 06:37:06.949  3002  3002 W auditd  : type=1325 audit(0.0:14): table=filter family=2 entries=4
+06-02 06:37:06.949  3002  3002 W auditd  : type=1320 audit(0.0:14): 
+06-02 06:37:06.959  3002  3002 W auditd  : type=1325 audit(0.0:15): table=filter family=10 entries=4
+06-02 06:37:06.959  3002  3002 W auditd  : type=1320 audit(0.0:15): 
+06-02 06:37:06.962  2920  2920 D libEGL  : loaded /vendor/lib64/egl/libGLES_mali.so
+06-02 06:37:06.969  3002  3002 W auditd  : type=1325 audit(0.0:16): table=filter family=2 entries=6
+06-02 06:37:06.969  3002  3002 W auditd  : type=1320 audit(0.0:16): 
+06-02 06:37:06.976  2920  2920 I gralloc : using (id=)
+06-02 06:37:06.976  2920  2920 I gralloc : xres         = 1440 px
+06-02 06:37:06.976  2920  2920 I gralloc : yres         = 2560 px
+06-02 06:37:06.976  2920  2920 I gralloc : width        = 68 mm (537.882324 dpi)
+06-02 06:37:06.976  2920  2920 I gralloc : height       = 122 mm (532.983582 dpi)
+06-02 06:37:06.976  2920  2920 I gralloc : refresh rate = 59.31 Hz
+06-02 06:37:06.979  3002  3002 W auditd  : type=1325 audit(0.0:17): table=filter family=10 entries=6
+06-02 06:37:06.979  3002  3002 W auditd  : type=1320 audit(0.0:17): 
+06-02 06:37:06.993  2920  2920 D hwcomposer: using
+06-02 06:37:06.993  2920  2920 D hwcomposer: xres         = 1440 px
+06-02 06:37:06.993  2920  2920 D hwcomposer: yres         = 2560 px
+06-02 06:37:06.993  2920  2920 D hwcomposer: width        = 68 mm (537.882000 dpi)
+06-02 06:37:06.993  2920  2920 D hwcomposer: height       = 122 mm (532.983000 dpi)
+06-02 06:37:06.993  2920  2920 D hwcomposer: refresh rate = 59 Hz
+06-02 06:37:06.993  2920  2920 I hwcomposer: PSR info devname = /sys/devices/13960000.decon_f/psr_info
+06-02 06:37:06.993  2920  2920 I hwcomposer: PSR mode is 6(0: video mode, 1: DP PSR mode, 2: MIPI-DSI command mode)
+06-02 06:37:06.994  2920  2920 I SurfaceFlinger: Using composer version 1.3
+06-02 06:37:06.994  2920  2920 E display : unknown display attribute 6
+06-02 06:37:06.994  2920  2920 I SurfaceFlinger: EGL information:
+06-02 06:37:06.994  2920  2920 I SurfaceFlinger: vendor    : Android
+06-02 06:37:06.994  2920  2920 I SurfaceFlinger: version   : 1.4 Android META-EGL
+06-02 06:37:06.994  2920  2920 I SurfaceFlinger: extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_swap_buffers_with_damage EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_KHR_config_attribs EGL_KHR_surfaceless_context EGL_EXT_create_context_robustness EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable EGL_KHR_partial_update 
+06-02 06:37:06.994  2920  2920 I SurfaceFlinger: Client API: OpenGL_ES
+06-02 06:37:06.994  2920  2920 I SurfaceFlinger: EGLSurface: 8-8-8-8, config=0x7f8f010128
+06-02 06:37:06.994  2920  2920 D         : ro.exynos.dss isEnabled: 0
+06-02 06:37:06.999  2920  2920 I SurfaceFlinger: OpenGL ES informations:
+06-02 06:37:06.999  2920  2920 I SurfaceFlinger: vendor    : ARM
+06-02 06:37:06.999  2920  2920 I SurfaceFlinger: renderer  : Mali-T880
+06-02 06:37:06.999  2920  2920 I SurfaceFlinger: version   : OpenGL ES 3.1 v1.r9p0-12dev0.c2bae768d87bf40047e1f310c8de7f16
+06-02 06:37:06.999  2920  2920 I SurfaceFlinger: extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_disjoint_timer_query GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_OES_texture_stencil8 G
+06-02 06:37:06.999  2920  2920 I SurfaceFlinger: GL_MAX_TEXTURE_SIZE = 8192
+06-02 06:37:06.999  2920  2920 I SurfaceFlinger: GL_MAX_VIEWPORT_DIMS = 8192
+06-02 06:37:07.000  2920  2920 D mali_winsys: new_window_surface returns 0x3000,  [1440x2560]-format:1
+06-02 06:37:07.017  2920  2920 D SurfaceFlinger: Set power mode=2, type=0 flinger=0x7f8f4c3c00
+06-02 06:37:07.029  3002  3002 W auditd  : type=1325 audit(0.0:18): table=filter family=2 entries=7
+06-02 06:37:07.029  3002  3002 W auditd  : type=1320 audit(0.0:18): 
+06-02 06:37:07.039  3002  3002 W auditd  : type=1325 audit(0.0:19): table=filter family=10 entries=7
+06-02 06:37:07.039  3002  3002 W auditd  : type=1320 audit(0.0:19): 
+06-02 06:37:07.039  3002  3002 W auditd  : type=1325 audit(0.0:20): table=filter family=2 entries=9
+06-02 06:37:07.039  3002  3002 W auditd  : type=1320 audit(0.0:20): 
+06-02 06:37:07.049  3002  3002 W auditd  : type=1325 audit(0.0:21): table=filter family=10 entries=9
+06-02 06:37:07.049  3002  3002 W auditd  : type=1320 audit(0.0:21): 
+06-02 06:37:07.089  3002  3002 W auditd  : type=1325 audit(0.0:22): table=filter family=2 entries=10
+06-02 06:37:07.089  3002  3002 W auditd  : type=1320 audit(0.0:22): 
+06-02 06:37:07.099  3002  3002 W auditd  : type=1325 audit(0.0:23): table=filter family=10 entries=10
+06-02 06:37:07.099  3002  3002 W auditd  : type=1320 audit(0.0:23): 
+06-02 06:37:07.109  3002  3002 W auditd  : type=1325 audit(0.0:24): table=filter family=2 entries=12
+06-02 06:37:07.109  3002  3002 W auditd  : type=1320 audit(0.0:24): 
+06-02 06:37:07.109  3002  3002 W auditd  : type=1325 audit(0.0:25): table=filter family=10 entries=12
+06-02 06:37:07.109  3002  3002 W auditd  : type=1320 audit(0.0:25): 
+06-02 06:37:07.123  2976  2976 I mediaserver: ServiceManager: 0xf678e260
+06-02 06:37:07.124  2976  2976 I AudioFlinger: Using default 3000 mSec as standby time.
+06-02 06:37:07.124  2976  2976 E BatteryNotifier: batterystats service unavailable!
+06-02 06:37:07.124  2976  2976 E BatteryNotifier: batterystats service unavailable!
+06-02 06:37:07.124  2976  2976 I CameraService: CameraService started (pid=2976)
+06-02 06:37:07.124  2976  2976 I CameraService: CameraService process starting
+06-02 06:37:07.124  2976  2976 E BatteryNotifier: batterystats service unavailable!
+06-02 06:37:07.125  2976  2976 E BatteryNotifier: batterystats service unavailable!
+06-02 06:37:07.125  2976  2976 E CameraService: Could not load camera HAL module: -2 (No such file or directory)
+06-02 06:37:07.126  2976  2976 I AudioPolicyService: AudioPolicyService CSTOR in new mode
+06-02 06:37:07.126  2976  2976 E APM::AudioPolicyManager: could not load audio policy configuration file, setting defaults
+06-02 06:37:07.144  3038  3052 D libEGL  : loaded /vendor/lib64/egl/libGLES_mali.so
+06-02 06:37:07.149  3002  3002 W auditd  : type=1325 audit(0.0:26): table=filter family=2 entries=13
+06-02 06:37:07.149  3002  3002 W auditd  : type=1320 audit(0.0:26): 
+06-02 06:37:07.152  3038  3052 D mali_winsys: new_window_surface returns 0x3000,  [1440x2560]-format:2
+06-02 06:37:07.153  3038  3052 D         : ro.exynos.dss isEnabled: 0
+06-02 06:37:07.156  3038  3052 E BootAnimation: couldn't find audio_conf.txt
+06-02 06:37:07.159  3002  3002 W auditd  : type=1325 audit(0.0:27): table=filter family=10 entries=13
+06-02 06:37:07.159  3002  3002 W auditd  : type=1320 audit(0.0:27): 
+06-02 06:37:07.169  3002  3002 W auditd  : type=1325 audit(0.0:28): table=filter family=2 entries=15
+06-02 06:37:07.169  3002  3002 W auditd  : type=1320 audit(0.0:28): 
+06-02 06:37:07.173  3038  3052 D BootAnimation: Use save memory method, maybe small fps in actual.
+06-02 06:37:07.179  3002  3002 W auditd  : type=1325 audit(0.0:29): table=filter family=10 entries=15
+06-02 06:37:07.179  3002  3002 W auditd  : type=1320 audit(0.0:29): 
+06-02 06:37:07.229  3002  3002 W auditd  : type=1325 audit(0.0:30): table=filter family=2 entries=16
+06-02 06:37:07.229  3002  3002 W auditd  : type=1320 audit(0.0:30): 
+06-02 06:37:07.239  3002  3002 W auditd  : type=1325 audit(0.0:31): table=filter family=10 entries=16
+06-02 06:37:07.239  3002  3002 W auditd  : type=1320 audit(0.0:31): 
+06-02 06:37:07.249  3002  3002 W auditd  : type=1325 audit(0.0:32): table=filter family=2 entries=18
+06-02 06:37:07.249  3002  3002 W auditd  : type=1320 audit(0.0:32): 
+06-02 06:37:07.249  3002  3002 W auditd  : type=1325 audit(0.0:33): table=filter family=10 entries=18
+06-02 06:37:07.266  2920  2920 D SurfaceFlinger: SF. shader cache generated - 26 shaders in 128.158615 ms
+06-02 06:37:07.314  3038  3082 W         : g2d stretchFimgApi_v5 function does not exist
+06-02 06:37:07.319  2981  2981 D AndroidRuntime: >>>>>> START com.android.internal.os.ZygoteInit uid 0 <<<<<<
+06-02 06:37:07.334  2981  2981 D AndroidRuntime: CheckJNI is ON
+06-02 06:37:07.338  2981  2981 I art     : option[0]=-Xzygote
+06-02 06:37:07.338  2981  2981 I art     : option[1]=-Xcheck:jni
+06-02 06:37:07.338  2981  2981 I art     : option[2]=-Xstacktracefile:/data/anr/traces.txt
+06-02 06:37:07.338  2981  2981 I art     : option[3]=exit
+06-02 06:37:07.338  2981  2981 I art     : option[4]=vfprintf
+06-02 06:37:07.338  2981  2981 I art     : option[5]=sensitiveThread
+06-02 06:37:07.338  2981  2981 I art     : option[6]=-verbose:gc
+06-02 06:37:07.338  2981  2981 I art     : option[7]=-Xms8m
+06-02 06:37:07.338  2981  2981 I art     : option[8]=-Xmx512m
+06-02 06:37:07.338  2981  2981 I art     : option[9]=-XX:HeapGrowthLimit=256m
+06-02 06:37:07.338  2981  2981 I art     : option[10]=-XX:HeapMinFree=2m
+06-02 06:37:07.338  2981  2981 I art     : option[11]=-XX:HeapMaxFree=8m
+06-02 06:37:07.338  2981  2981 I art     : option[12]=-XX:HeapTargetUtilization=0.75
+06-02 06:37:07.338  2981  2981 I art     : option[13]=-Xusejit:true
+06-02 06:37:07.338  2981  2981 I art     : option[14]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+06-02 06:37:07.338  2981  2981 I art     : option[15]=-Xlockprofthreshold:500
+06-02 06:37:07.338  2981  2981 I art     : option[16]=-Ximage-compiler-option
+06-02 06:37:07.338  2981  2981 I art     : option[17]=--runtime-arg
+06-02 06:37:07.338  2981  2981 I art     : option[18]=-Ximage-compiler-option
+06-02 06:37:07.338  2981  2981 I art     : option[19]=-Xms64m
+06-02 06:37:07.338  2981  2981 I art     : option[20]=-Ximage-compiler-option
+06-02 06:37:07.338  2981  2981 I art     : option[21]=--runtime-arg
+06-02 06:37:07.338  2981  2981 I art     : option[22]=-Ximage-compiler-option
+06-02 06:37:07.338  2981  2981 I art     : option[23]=-Xmx64m
+06-02 06:37:07.338  2981  2981 I art     : option[24]=-Ximage-compiler-option
+06-02 06:37:07.338  2981  2981 I art     : option[25]=--compiler-filter=verify-at-runtime
+06-02 06:37:07.338  2981  2981 I art     : option[26]=-Ximage-compiler-option
+06-02 06:37:07.338  2981  2981 I art     : option[27]=--image-classes=/system/etc/preloaded-classes
+06-02 06:37:07.338  2981  2981 I art     : option[28]=-Xcompiler-option
+06-02 06:37:07.338  2981  2981 I art     : option[29]=--runtime-arg
+06-02 06:37:07.338  2981  2981 I art     : option[30]=-Xcompiler-option
+06-02 06:37:07.338  2981  2981 I art     : option[31]=-Xms64m
+06-02 06:37:07.338  2981  2981 I art     : option[32]=-Xcompiler-option
+06-02 06:37:07.338  2981  2981 I art     : option[33]=--runtime-arg
+06-02 06:37:07.338  2981  2981 I art     : option[34]=-Xcompiler-option
+06-02 06:37:07.338  2981  2981 I art     : option[35]=-Xmx512m
+06-02 06:37:07.338  2981  2981 I art     : option[36]=-Xcompiler-option
+06-02 06:37:07.338  2981  2981 I art     : option[37]=--compiler-filter=verify-at-runtime
+06-02 06:37:07.338  2981  2981 I art     : option[38]=-Ximage-compiler-option
+06-02 06:37:07.338  2981  2981 I art     : option[39]=--instruction-set-variant=generic
+06-02 06:37:07.338  2981  2981 I art     : option[40]=-Xcompiler-option
+06-02 06:37:07.338  2981  2981 I art     : option[41]=--instruction-set-variant=generic
+06-02 06:37:07.338  2981  2981 I art     : option[42]=-Ximage-compiler-option
+06-02 06:37:07.338  2981  2981 I art     : option[43]=--instruction-set-features=default
+06-02 06:37:07.338  2981  2981 I art     : option[44]=-Xcompiler-option
+06-02 06:37:07.338  2981  2981 I art     : option[45]=--instruction-set-features=default
+06-02 06:37:07.338  2981  2981 I art     : option[46]=-Duser.locale=en-US
+06-02 06:37:07.338  2981  2981 I art     : option[47]=--cpu-abilist=arm64-v8a,armeabi
+06-02 06:37:07.338  2981  2981 I art     : option[48]=-Xfingerprint:samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30J/3cde9a72f5:eng/test-keys
+06-02 06:37:07.347  3038  3082 W         : fimg library or stretchFimgApi_v5 symbol can not be loaded
+06-02 06:37:07.437  2981  2981 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+06-02 06:37:07.626  2981  2981 I Radio-JNI: register_android_hardware_Radio DONE
+06-02 06:37:07.670  2976  2976 E audio_route: Failed to open /system/etc/mixer_paths.xml
+06-02 06:37:07.672  2981  2981 I SamplingProfilerIntegration: Profiling disabled.
+06-02 06:37:07.673  2981  2981 D Zygote  : begin preload
+06-02 06:37:07.674  2981  2981 I Zygote  : Preloading classes...
+06-02 06:37:07.675  2976  2976 I AudioFlinger: loadHwModule() Loaded primary audio interface from Samsung audio HW HAL (audio) handle 1
+06-02 06:37:07.675  2976  2976 I AudioFlinger: openOutput(), module 1 Device 2, SamplingRate 44100, Format 0x000001, Channels 3, flags 2
+06-02 06:37:07.675  2976  2976 I AudioFlinger: AudioStreamOut::open(), mHalFormatIsLinearPcm = 1
+06-02 06:37:07.675  2976  2976 I AudioFlinger: HAL output buffer size 256 frames, normal sink buffer size 960 frames
+06-02 06:37:07.679  2976  2976 W BufferProvider: unable to find downmix effect
+06-02 06:37:07.679  2976  2976 E MonoPipe: Failed to fetch local time frequency when constructing a MonoPipe (res = -32).  getNextWriteTimestamp calls will be non-functional
+06-02 06:37:07.680  2976  2976 I AudioFlinger: Using module 1 has the primary audio interface
+06-02 06:37:07.680  2976  3186 I AudioFlinger: AudioFlinger's thread 0xf4b80000 ready to run
+06-02 06:37:07.680  2976  3186 V audio_hw_primary: do_out_standby: output standby: 1
+06-02 06:37:07.680  2976  3186 V audio_hw_primary: out_set_parameters: key value pairs: routing=2
+06-02 06:37:07.680  2976  3186 E AudioFlinger: no wake lock to update!
+06-02 06:37:07.681  2976  2976 V audio_hw_primary: adev_open_input_stream: Created resampler converting 48000 -> 8000
+06-02 06:37:07.681  2976  2976 V audio_hw_primary: adev_open_input_stream: Requesting input stream with rate: 8000, channels: 0xc
+06-02 06:37:07.681  2976  3187 I AudioFlinger: AudioFlinger's thread 0xf4840000 ready to run
+06-02 06:37:07.682  2976  2976 E SoundTriggerHwService: couldn't load sound trigger module sound_trigger.primary (No such file or directory)
+06-02 06:37:07.682  2976  2976 I RadioService: RadioService
+06-02 06:37:07.682  2976  2976 I RadioService: onFirstRef
+06-02 06:37:07.682  2976  2976 E RadioService: couldn't load radio module radio.primary (No such file or directory)
+06-02 06:37:07.910  2963  2963 V NatController: runCmd(/system/bin/iptables -w -F natctrl_FORWARD) res=0
+06-02 06:37:07.914  2963  2963 V NatController: runCmd(/system/bin/iptables -w -A natctrl_FORWARD -j DROP) res=0
+06-02 06:37:07.919  2963  2963 V NatController: runCmd(/system/bin/iptables -w -t nat -F natctrl_nat_POSTROUTING) res=0
+06-02 06:37:07.923  2963  2963 V NatController: runCmd(/system/bin/iptables -w -F natctrl_tether_counters) res=1
+06-02 06:37:07.928  2963  2963 V NatController: runCmd(/system/bin/iptables -w -X natctrl_tether_counters) res=1
+06-02 06:37:07.932  2963  2963 V NatController: runCmd(/system/bin/iptables -w -N natctrl_tether_counters) res=0
+06-02 06:37:07.936  2963  2963 V NatController: runCmd(/system/bin/iptables -w -t mangle -A natctrl_mangle_FORWARD -p tcp --tcp-flags SYN SYN -j TCPMSS --clamp-mss-to-pmtu) res=0
+06-02 06:37:08.109  3002  3002 W auditd  : type=1325 audit(0.0:121): table=filter family=2 entries=49
+06-02 06:37:08.109  3002  3002 W auditd  : type=1320 audit(0.0:121): 
+06-02 06:37:08.109  3002  3002 W auditd  : type=1325 audit(0.0:122): table=filter family=10 entries=52
+06-02 06:37:08.109  3002  3002 W auditd  : type=1320 audit(0.0:122): 
+06-02 06:37:08.119  3002  3002 W auditd  : type=1325 audit(0.0:123): table=raw family=2 entries=9
+06-02 06:37:08.119  3002  3002 W auditd  : type=1320 audit(0.0:123): 
+06-02 06:37:08.119  3002  3002 W auditd  : type=1325 audit(0.0:124): table=raw family=10 entries=9
+06-02 06:37:08.119  3002  3002 W auditd  : type=1320 audit(0.0:124): 
+06-02 06:37:08.121  2981  2981 E Minikin : addFont failed to create font /system/fonts/NanumGothic.ttf
+06-02 06:37:08.122  2981  2981 E Minikin : addFont failed to create font /system/fonts/DroidSansFallback.ttf
+06-02 06:37:08.122  2981  2981 E Minikin : addFont failed to create font /system/fonts/MTLmr3m.ttf
+06-02 06:37:08.129  3002  3002 W auditd  : type=1325 audit(0.0:125): table=mangle family=2 entries=16
+06-02 06:37:08.129  3002  3002 W auditd  : type=1320 audit(0.0:125): 
+06-02 06:37:08.129  3002  3002 W auditd  : type=1325 audit(0.0:126): table=mangle family=10 entries=12
+06-02 06:37:08.129  3002  3002 W auditd  : type=1320 audit(0.0:126): 
+06-02 06:37:08.139  3002  3002 W auditd  : type=1325 audit(0.0:127): table=filter family=2 entries=49
+06-02 06:37:08.139  3002  3002 W auditd  : type=1320 audit(0.0:127): 
+06-02 06:37:08.139  3002  3002 W auditd  : type=1325 audit(0.0:128): table=filter family=10 entries=52
+06-02 06:37:08.139  3002  3002 W auditd  : type=1320 audit(0.0:128): 
+06-02 06:37:08.149  3002  3002 W auditd  : type=1325 audit(0.0:129): table=filter family=2 entries=50
+06-02 06:37:08.149  3002  3002 W auditd  : type=1320 audit(0.0:129): 
+06-02 06:37:08.149  3002  3002 W auditd  : type=1325 audit(0.0:130): table=filter family=10 entries=53
+06-02 06:37:08.149  3002  3002 W auditd  : type=1320 audit(0.0:130): 
+06-02 06:37:08.225  2981  2981 V DngCreator_JNI: DngCreator_nativeClassInit:
+06-02 06:37:08.394  2963  2963 E Netd    : cannot find interface dummy0
+06-02 06:37:08.394  2963  2963 D MDnsDS  : MDnsSdListener::Hander starting up
+06-02 06:37:08.395  2963  3310 D MDnsDS  : MDnsSdListener starting to monitor
+06-02 06:37:08.395  2963  3310 D MDnsDS  : Going to poll with pollCount 1
+06-02 06:37:08.891  2981  2981 I art     : Thread[1,tid=2981,Native,Thread*=0x7f957bba00,peer=0x12c532e0,"main"] recursive attempt to load library "/system/lib64/libmedia_jni.so"
+06-02 06:37:08.891  2981  2981 D MtpDeviceJNI: register_android_mtp_MtpDevice
+06-02 06:37:08.892  2981  2981 I art     : Thread[1,tid=2981,Native,Thread*=0x7f957bba00,peer=0x12c532e0,"main"] recursive attempt to load library "/system/lib64/libmedia_jni.so"
+06-02 06:37:08.892  2981  2981 I art     : Thread[1,tid=2981,Native,Thread*=0x7f957bba00,peer=0x12c532e0,"main"] recursive attempt to load library "/system/lib64/libmedia_jni.so"
+06-02 06:37:09.214  3038  3052 D BootAnimation: Use save memory method, maybe small fps in actual.
+06-02 06:37:09.426  2981  2981 W System  : ClassLoader referenced unknown path: /system/framework/tcmclient.jar
+06-02 06:37:09.764  2981  2981 I System  : Loaded time zone names for "" in 23ms (22ms in ICU)
+06-02 06:37:09.798  2981  2981 I System  : Loaded time zone names for "en_US" in 34ms (12ms in ICU)
+06-02 06:37:09.972  2981  2981 I Zygote  : ...preloaded 3831 classes in 2297ms.
+06-02 06:37:09.972  2981  2981 I art     : VMRuntime.preloadDexCaches starting
+06-02 06:37:10.008  2981  2981 I art     : VMRuntime.preloadDexCaches strings total=248908 before=10083 after=10083
+06-02 06:37:10.008  2981  2981 I art     : VMRuntime.preloadDexCaches types total=20329 before=8245 after=9836
+06-02 06:37:10.008  2981  2981 I art     : VMRuntime.preloadDexCaches fields total=100349 before=35755 after=47720
+06-02 06:37:10.008  2981  2981 I art     : VMRuntime.preloadDexCaches methods total=172744 before=67597 after=83301
+06-02 06:37:10.008  2981  2981 I art     : VMRuntime.preloadDexCaches finished
+06-02 06:37:10.021  3315  3315 D idmap   : error: no read access to /vendor/overlay: No such file or directory
+06-02 06:37:10.041  2981  2981 I Zygote  : Preloading resources...
+06-02 06:37:10.461  2981  2981 I Zygote  : ...preloaded 342 resources in 421ms.
+06-02 06:37:10.471  2981  2981 I Zygote  : ...preloaded 41 resources in 9ms.
+06-02 06:37:10.477  2981  2981 D libEGL  : loaded /vendor/lib64/egl/libGLES_mali.so
+06-02 06:37:10.484  2981  2981 I Zygote  : Preloading shared libraries...
+06-02 06:37:10.496  2981  2981 D Zygote  : end preload
+06-02 06:37:10.496  2981  2981 I art     : Starting a blocking GC Explicit
+06-02 06:37:10.507  2981  2981 I art     : Explicit concurrent mark sweep GC freed 11404(460KB) AllocSpace objects, 0(0B) LOS objects, 35% free, 29MB/45MB, paused 51us total 10.621ms
+06-02 06:37:10.516  2981  2981 I art     : Starting a blocking GC Explicit
+06-02 06:37:10.525  2981  2981 I art     : Explicit concurrent mark sweep GC freed 2661(125KB) AllocSpace objects, 0(0B) LOS objects, 35% free, 28MB/44MB, paused 46us total 8.931ms
+06-02 06:37:10.526  2981  3148 I art     : Starting a blocking GC HeapTrim
+06-02 06:37:10.527  2981  2981 I art     : Starting a blocking GC Background
+06-02 06:37:10.574  2981  2981 I Zygote  : System server process 3316 has been created
+06-02 06:37:10.576  2981  2981 I Zygote  : Accepting command socket connections
+06-02 06:37:10.579  3316  3316 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 06:37:11.580  3316  3316 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 06:37:12.580  3316  3316 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 06:37:13.581  3316  3316 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 06:37:14.581  3316  3316 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 06:37:15.581  3316  3316 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 06:37:16.582  3316  3316 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 06:37:17.582  3316  3316 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 06:37:18.583  3316  3316 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 06:37:19.583  3316  3316 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 06:37:20.584  3316  3316 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 06:37:21.584  3316  3316 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 06:37:22.585  3316  3316 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 06:37:23.585  3316  3316 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 06:37:24.585  3316  3316 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 06:37:25.586  3316  3316 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 06:37:26.586  3316  3316 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 06:37:27.587  3316  3316 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 06:37:28.587  3316  3316 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 06:37:29.588  3316  3316 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 06:37:30.588  3316  3316 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 06:37:31.588  3316  3316 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 06:37:32.589  3316  3316 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 06:37:33.589  3316  3316 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 06:37:34.590  3316  3316 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 06:37:35.590  3316  3316 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 06:37:36.591  3316  3316 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 06:37:37.591  3316  3316 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 06:37:38.592  3316  3316 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 06:37:39.592  3316  3316 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 06:37:40.593  3316  3316 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 06:37:41.593  3316  3316 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 06:37:42.593  3316  3316 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 06:37:43.594  3316  3316 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 06:37:44.594  3316  3316 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 06:37:45.595  3316  3316 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 06:37:46.597  3316  3316 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 06:37:47.599  3316  3316 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 06:37:48.601  3316  3316 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 06:37:49.602  3316  3316 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 06:37:50.604  3316  3316 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory

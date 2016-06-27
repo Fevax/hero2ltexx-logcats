@@ -1,0 +1,1133 @@
+--------- beginning of main
+06-23 00:21:57.462  3038  3038 W auditd  : type=1325 audit(0.0:2): table=filter family=2 entries=0
+06-23 00:21:57.462  3038  3038 W auditd  : type=1325 audit(0.0:3): table=mangle family=2 entries=0
+06-23 00:21:57.462  3038  3038 W auditd  : type=1325 audit(0.0:4): table=nat family=2 entries=0
+06-23 00:21:57.462  3038  3038 W auditd  : type=1325 audit(0.0:5): table=raw family=2 entries=0
+06-23 00:21:57.462  3038  3038 W auditd  : type=1325 audit(0.0:6): table=security family=2 entries=0
+06-23 00:21:57.462  3038  3038 W auditd  : type=1325 audit(0.0:7): table=filter family=3 entries=0
+06-23 00:21:57.462  3038  3038 W auditd  : type=1325 audit(0.0:8): table=filter family=10 entries=0
+06-23 00:21:57.462  3038  3038 W auditd  : type=1325 audit(0.0:9): table=mangle family=10 entries=0
+06-23 00:21:57.462  3038  3038 W auditd  : type=1325 audit(0.0:10): table=raw family=10 entries=0
+06-23 00:21:57.462  3038  3038 W auditd  : type=1325 audit(0.0:11): table=nat family=10 entries=0
+06-23 00:21:57.839  3038  3038 W auditd  : type=1305 audit(0.0:12): audit_pid=2890 old=0 auid=4294967295 ses=4294967295 res=1
+06-23 00:21:57.839  3038  3038 W auditd  : type=1305 audit(0.0:13): audit_rate_limit=20 old=0 auid=4294967295 ses=4294967295 res=1
+06-23 00:21:57.878  2905  2905 E McDaemon:   *****************************
+06-23 00:21:57.878  2905  2905 E McDaemon:   *** ERROR: int SecureWorld::open(): No such file or directory opening admin device
+06-23 00:21:57.878  2905  2905 E McDaemon:   *** Detected in hardware/samsung_slsi/exynos8890/mobicore/Daemon/src/SecureWorld.cpp:268()
+06-23 00:21:57.878  2905  2905 E McDaemon:   *****************************
+--------- beginning of system
+06-23 00:21:57.879  2891  2891 I vold    : Vold 3.0 (the awakening) firing up
+06-23 00:21:57.879  2891  2891 V vold    : Detected support for: exfat ext4 ntfs vfat
+06-23 00:21:57.879  2906  2906 I sysinit : Running /system/etc/init.d/00banner 
+06-23 00:21:57.887  2902  2902 I lowmemorykiller: Using in-kernel low memory killer interface
+06-23 00:21:57.898  2910  2910 I DEBUG   : debuggerd: starting
+06-23 00:21:57.902  2920  2920 I perfprofd: starting Android Wide Profiling daemon
+06-23 00:21:57.903  2920  2920 E perfprofd: unable to open configuration file /data/data/com.google.android.gms/files/perfprofd.conf
+06-23 00:21:57.903  2920  2920 I perfprofd: random seed set to 4087481332
+06-23 00:21:57.904  2919  2919 I gatekeeperd: Starting gatekeeperd...
+06-23 00:21:57.905  2908  2908 I Netd    : Netd 1.0 starting
+06-23 00:21:57.905  2908  2908 I QtiConnectivityAdapter: Failed to open libconnctrl, some features may not be present.
+06-23 00:21:57.905  2908  2908 D TetherController: Setting IP forward enable = 0
+06-23 00:21:57.906  2919  2919 W gatekeeperd: falling back to software GateKeeper
+06-23 00:21:57.906  2919  2919 I gatekeeperd: cold boot: clearing state
+06-23 00:21:57.907  2915  2915 I installd: installd firing up
+06-23 00:21:57.907  2916  2916 I keystore: Found keymaster0 module Keymaster OpenSSL HAL, version 2
+06-23 00:21:57.907  2916  2916 I SoftKeymaster: system/keymaster/soft_keymaster_device.cpp, Line 122: Creating device
+06-23 00:21:57.907  2916  2916 D SoftKeymaster: system/keymaster/soft_keymaster_device.cpp, Line 123: Device address: 0x7f92fe3000
+06-23 00:21:57.907  2904  2904 I SurfaceFlinger: SurfaceFlinger is starting
+06-23 00:21:57.908  2904  2904 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+06-23 00:21:57.908  2916  2916 I keystore: Keymaster0 module is software-only.  Using SoftKeymasterDevice instead.
+06-23 00:21:57.908  2916  2916 I SoftKeymaster: system/keymaster/soft_keymaster_device.cpp, Line 122: Creating device
+06-23 00:21:57.908  2916  2916 D SoftKeymaster: system/keymaster/soft_keymaster_device.cpp, Line 123: Device address: 0x7f92fe3300
+06-23 00:21:57.908  2916  2916 I keystore: SELinux: Keystore SELinux is disabled.
+06-23 00:21:57.914  2944  2944 I cm      : ____ _   _ ____ _  _ ____ ____ ____ _  _ _  _ ____ ___ 
+06-23 00:21:57.914  2921  2921 I fingerprintd: Starting fingerprintd
+06-23 00:21:57.915  2904  2904 E libEGL  : load_driver(/vendor/lib64/egl/libGLES_mali.so): dlopen failed: library "libion.so" not found
+06-23 00:21:57.915  2904  2904 F libEGL  : couldn't find an OpenGL ES implementation
+--------- beginning of crash
+06-23 00:21:57.915  2904  2904 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 2904 (surfaceflinger)
+06-23 00:21:57.916  2910  2910 I DEBUG   : property debug.db.uid not set; NOT waiting for gdb.
+06-23 00:21:57.916  2910  2910 I DEBUG   : HINT: adb shell setprop debug.db.uid 100000
+06-23 00:21:57.916  2910  2910 I DEBUG   : HINT: adb forward tcp:5039 tcp:5039
+06-23 00:21:57.920  2996  2996 I cm      : |     \_/  |__| |\ | |  | | __ |___ |\ | |\/| |  | |  \ 
+06-23 00:21:57.925  2909  2909 I DEBUG   : debuggerd: starting
+06-23 00:21:57.925  3012  3012 I cm      : |___   |   |  | | \| |__| |__] |___ | \| |  | |__| |__/ 
+06-23 00:21:57.939  3038  3038 W auditd  : type=1325 audit(0.0:14): table=filter family=2 entries=4
+06-23 00:21:57.939  3038  3038 W auditd  : type=1320 audit(0.0:14): 
+06-23 00:21:57.944  3029  3029 I cm      : Welcome to Android 6.0.1 / CyanogenMod-13.0-20160622-UNOFFICIAL-hero2ltexx 
+06-23 00:21:57.949  3038  3038 W auditd  : type=1325 audit(0.0:15): table=filter family=10 entries=4
+06-23 00:21:57.949  3038  3038 W auditd  : type=1320 audit(0.0:15): 
+06-23 00:21:57.953  3031  3031 I sysinit : Running /system/etc/init.d/90userinit 
+06-23 00:21:57.959  3038  3038 W auditd  : type=1325 audit(0.0:16): table=filter family=2 entries=6
+06-23 00:21:57.959  3038  3038 W auditd  : type=1320 audit(0.0:16): 
+06-23 00:21:57.969  3038  3038 W auditd  : type=1325 audit(0.0:17): table=filter family=10 entries=6
+06-23 00:21:57.969  3038  3038 W auditd  : type=1320 audit(0.0:17): 
+06-23 00:21:58.009  3038  3038 W auditd  : type=1325 audit(0.0:18): table=filter family=2 entries=7
+06-23 00:21:58.009  3038  3038 W auditd  : type=1320 audit(0.0:18): 
+06-23 00:21:58.016  2910  2910 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+06-23 00:21:58.016  2910  2910 F DEBUG   : CM Version: '13.0-20160622-UNOFFICIAL-hero2ltexx'
+06-23 00:21:58.016  2910  2910 F DEBUG   : Build fingerprint: 'samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30M/3e353872b8:eng/test-keys'
+06-23 00:21:58.016  2910  2910 F DEBUG   : Revision: '0'
+06-23 00:21:58.016  2910  2910 F DEBUG   : ABI: 'arm64'
+06-23 00:21:58.016  2910  2910 F DEBUG   : pid: 2904, tid: 2904, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+06-23 00:21:58.017  2910  2910 F DEBUG   : signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+06-23 00:21:58.019  3038  3038 W auditd  : type=1325 audit(0.0:19): table=filter family=10 entries=7
+06-23 00:21:58.019  3038  3038 W auditd  : type=1320 audit(0.0:19): 
+06-23 00:21:58.020  2910  2910 F DEBUG   : Abort message: 'couldn't find an OpenGL ES implementation'
+06-23 00:21:58.020  2910  2910 F DEBUG   :     x0   0000000000000000  x1   0000000000000b58  x2   0000000000000006  x3   0000000000000000
+06-23 00:21:58.020  2910  2910 F DEBUG   :     x4   0000000000000000  x5   0000000000000001  x6   0000000000000000  x7   0000000000000000
+06-23 00:21:58.020  2910  2910 F DEBUG   :     x8   0000000000000083  x9   0000000000000b58  x10  0000007f7dd0d044  x11  0000000000004000
+06-23 00:21:58.020  2910  2910 F DEBUG   :     x12  0000000000004001  x13  0000000000000000  x14  0000000000000001  x15  0000000000101001
+06-23 00:21:58.020  2910  2910 F DEBUG   :     x16  0000007f7da66580  x17  0000007f7d9f8fcc  x18  0000007f7dd0e000  x19  0000007f7dd0f0d8
+06-23 00:21:58.020  2910  2910 F DEBUG   :     x20  0000007f7dd0f018  x21  0000000000000002  x22  0000000000000006  x23  0000000000000000
+06-23 00:21:58.020  2910  2910 F DEBUG   :     x24  0000000000000000  x25  0000000000000000  x26  0000000000000000  x27  0000000000000000
+06-23 00:21:58.020  2910  2910 F DEBUG   :     x28  0000000000000000  x29  0000007fcc8b1450  x30  0000007f7d9f6768
+06-23 00:21:58.020  2910  2910 F DEBUG   :     sp   0000007fcc8b1450  pc   0000007f7d9f8fd4  pstate 0000000020000000
+06-23 00:21:58.025  2910  2910 F DEBUG   : 
+06-23 00:21:58.025  2910  2910 F DEBUG   : backtrace:
+06-23 00:21:58.025  2910  2910 F DEBUG   :     #00 pc 0000000000068fd4  /system/lib64/libc.so (tgkill+8)
+06-23 00:21:58.025  2910  2910 F DEBUG   :     #01 pc 0000000000066764  /system/lib64/libc.so (pthread_kill+68)
+06-23 00:21:58.025  2910  2910 F DEBUG   :     #02 pc 0000000000023448  /system/lib64/libc.so (raise+28)
+06-23 00:21:58.025  2910  2910 F DEBUG   :     #03 pc 000000000001dbe8  /system/lib64/libc.so (abort+60)
+06-23 00:21:58.025  2910  2910 F DEBUG   :     #04 pc 000000000000d9d4  /system/lib64/libcutils.so (__android_log_assert+236)
+06-23 00:21:58.025  2910  2910 F DEBUG   :     #05 pc 0000000000099c5c  /system/lib64/libEGL.so
+06-23 00:21:58.025  2910  2910 F DEBUG   :     #06 pc 0000000000029108  /system/lib64/libEGL.so
+06-23 00:21:58.025  2910  2910 F DEBUG   :     #07 pc 000000000002b10c  /system/lib64/libEGL.so (eglGetDisplay+24)
+06-23 00:21:58.025  2910  2910 F DEBUG   :     #08 pc 000000000002c8b4  /system/lib64/libsurfaceflinger.so (_ZN7android14SurfaceFlinger4initEv+76)
+06-23 00:21:58.025  2910  2910 F DEBUG   :     #09 pc 000000000000115c  /system/bin/surfaceflinger
+06-23 00:21:58.025  2910  2910 F DEBUG   :     #10 pc 000000000001bcd8  /system/lib64/libc.so (__libc_init+100)
+06-23 00:21:58.025  2910  2910 F DEBUG   :     #11 pc 000000000000101c  /system/bin/surfaceflinger
+06-23 00:21:58.029  3038  3038 W auditd  : type=1325 audit(0.0:20): table=filter family=2 entries=9
+06-23 00:21:58.029  3038  3038 W auditd  : type=1320 audit(0.0:20): 
+06-23 00:21:58.039  3038  3038 W auditd  : type=1325 audit(0.0:21): table=filter family=10 entries=9
+06-23 00:21:58.039  3038  3038 W auditd  : type=1320 audit(0.0:21): 
+06-23 00:21:58.049  2904  2904 W surfaceflinger: type=1701 audit(0.0:22): auid=4294967295 uid=1000 gid=1003 ses=4294967295 exe="/system/bin/surfaceflinger" sig=6
+06-23 00:21:58.057  2910  2910 F DEBUG   : 
+06-23 00:21:58.057  2910  2910 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_00
+06-23 00:22:03.346  3085  3085 E McDaemon:   *****************************
+06-23 00:22:03.346  3085  3085 E McDaemon:   *** ERROR: int SecureWorld::open(): No such file or directory opening admin device
+06-23 00:22:03.346  3085  3085 E McDaemon:   *** Detected in hardware/samsung_slsi/exynos8890/mobicore/Daemon/src/SecureWorld.cpp:268()
+06-23 00:22:03.346  3085  3085 E McDaemon:   *****************************
+06-23 00:22:03.357  3081  3081 I Netd    : Netd 1.0 starting
+06-23 00:22:03.357  3081  3081 I QtiConnectivityAdapter: Failed to open libconnctrl, some features may not be present.
+06-23 00:22:03.357  3081  3081 D TetherController: Setting IP forward enable = 0
+06-23 00:22:03.359  3038  3038 W auditd  : type=1325 audit(0.0:23): table=filter family=2 entries=10
+06-23 00:22:03.359  3038  3038 W auditd  : type=1320 audit(0.0:23): 
+06-23 00:22:03.359  3038  3038 W auditd  : type=1325 audit(0.0:24): table=filter family=10 entries=10
+06-23 00:22:03.359  3038  3038 W auditd  : type=1320 audit(0.0:24): 
+06-23 00:22:03.360  3083  3083 I SurfaceFlinger: SurfaceFlinger is starting
+06-23 00:22:03.360  3083  3083 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+06-23 00:22:03.362  3083  3083 E libEGL  : load_driver(/vendor/lib64/egl/libGLES_mali.so): dlopen failed: library "libion.so" not found
+06-23 00:22:03.362  3083  3083 F libEGL  : couldn't find an OpenGL ES implementation
+06-23 00:22:03.362  3083  3083 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 3083 (surfaceflinger)
+06-23 00:22:03.362  2910  2910 I DEBUG   : property debug.db.uid not set; NOT waiting for gdb.
+06-23 00:22:03.362  2910  2910 I DEBUG   : HINT: adb shell setprop debug.db.uid 100000
+06-23 00:22:03.362  2910  2910 I DEBUG   : HINT: adb forward tcp:5039 tcp:5039
+06-23 00:22:03.369  3038  3038 W auditd  : type=1325 audit(0.0:25): table=filter family=2 entries=9
+06-23 00:22:03.369  3038  3038 W auditd  : type=1320 audit(0.0:25): 
+06-23 00:22:03.379  3038  3038 W auditd  : type=1325 audit(0.0:26): table=filter family=10 entries=9
+06-23 00:22:03.379  3038  3038 W auditd  : type=1320 audit(0.0:26): 
+06-23 00:22:03.389  3038  3038 W auditd  : type=1325 audit(0.0:27): table=filter family=2 entries=9
+06-23 00:22:03.389  3038  3038 W auditd  : type=1320 audit(0.0:27): 
+06-23 00:22:03.399  3038  3038 W auditd  : type=1325 audit(0.0:28): table=filter family=10 entries=9
+06-23 00:22:03.399  3038  3038 W auditd  : type=1320 audit(0.0:28): 
+06-23 00:22:03.409  3038  3038 W auditd  : type=1325 audit(0.0:29): table=filter family=2 entries=7
+06-23 00:22:03.409  3038  3038 W auditd  : type=1320 audit(0.0:29): 
+06-23 00:22:03.413  2910  2910 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+06-23 00:22:03.413  2910  2910 F DEBUG   : CM Version: '13.0-20160622-UNOFFICIAL-hero2ltexx'
+06-23 00:22:03.413  2910  2910 F DEBUG   : Build fingerprint: 'samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30M/3e353872b8:eng/test-keys'
+06-23 00:22:03.413  2910  2910 F DEBUG   : Revision: '0'
+06-23 00:22:03.413  2910  2910 F DEBUG   : ABI: 'arm64'
+06-23 00:22:03.413  2910  2910 F DEBUG   : pid: 3083, tid: 3083, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+06-23 00:22:03.413  2910  2910 F DEBUG   : signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+06-23 00:22:03.416  2910  2910 F DEBUG   : Abort message: 'couldn't find an OpenGL ES implementation'
+06-23 00:22:03.416  2910  2910 F DEBUG   :     x0   0000000000000000  x1   0000000000000c0b  x2   0000000000000006  x3   0000000000000000
+06-23 00:22:03.416  2910  2910 F DEBUG   :     x4   0000000000000000  x5   0000000000000001  x6   0000000000000000  x7   0000000000000000
+06-23 00:22:03.416  2910  2910 F DEBUG   :     x8   0000000000000083  x9   0000000000000c0b  x10  0000007f796c9044  x11  0000000000004000
+06-23 00:22:03.416  2910  2910 F DEBUG   :     x12  0000000000004001  x13  0000000000000000  x14  0000000000000001  x15  0000000000101001
+06-23 00:22:03.417  2910  2910 F DEBUG   :     x16  0000007f79422580  x17  0000007f793b4fcc  x18  0000007f796ca000  x19  0000007f796cb0d8
+06-23 00:22:03.417  2910  2910 F DEBUG   :     x20  0000007f796cb018  x21  0000000000000002  x22  0000000000000006  x23  0000000000000000
+06-23 00:22:03.417  2910  2910 F DEBUG   :     x24  0000000000000000  x25  0000000000000000  x26  0000000000000000  x27  0000000000000000
+06-23 00:22:03.417  2910  2910 F DEBUG   :     x28  0000000000000000  x29  0000007fd536abf0  x30  0000007f793b2768
+06-23 00:22:03.417  2910  2910 F DEBUG   :     sp   0000007fd536abf0  pc   0000007f793b4fd4  pstate 0000000020000000
+06-23 00:22:03.419  3038  3038 W auditd  : type=1325 audit(0.0:30): table=filter family=10 entries=7
+06-23 00:22:03.419  3038  3038 W auditd  : type=1320 audit(0.0:30): 
+06-23 00:22:03.420  2910  2910 F DEBUG   : 
+06-23 00:22:03.420  2910  2910 F DEBUG   : backtrace:
+06-23 00:22:03.420  2910  2910 F DEBUG   :     #00 pc 0000000000068fd4  /system/lib64/libc.so (tgkill+8)
+06-23 00:22:03.420  2910  2910 F DEBUG   :     #01 pc 0000000000066764  /system/lib64/libc.so (pthread_kill+68)
+06-23 00:22:03.420  2910  2910 F DEBUG   :     #02 pc 0000000000023448  /system/lib64/libc.so (raise+28)
+06-23 00:22:03.420  2910  2910 F DEBUG   :     #03 pc 000000000001dbe8  /system/lib64/libc.so (abort+60)
+06-23 00:22:03.420  2910  2910 F DEBUG   :     #04 pc 000000000000d9d4  /system/lib64/libcutils.so (__android_log_assert+236)
+06-23 00:22:03.420  2910  2910 F DEBUG   :     #05 pc 0000000000099c5c  /system/lib64/libEGL.so
+06-23 00:22:03.420  2910  2910 F DEBUG   :     #06 pc 0000000000029108  /system/lib64/libEGL.so
+06-23 00:22:03.420  2910  2910 F DEBUG   :     #07 pc 000000000002b10c  /system/lib64/libEGL.so (eglGetDisplay+24)
+06-23 00:22:03.420  2910  2910 F DEBUG   :     #08 pc 000000000002c8b4  /system/lib64/libsurfaceflinger.so (_ZN7android14SurfaceFlinger4initEv+76)
+06-23 00:22:03.420  2910  2910 F DEBUG   :     #09 pc 000000000000115c  /system/bin/surfaceflinger
+06-23 00:22:03.420  2910  2910 F DEBUG   :     #10 pc 000000000001bcd8  /system/lib64/libc.so (__libc_init+100)
+06-23 00:22:03.420  2910  2910 F DEBUG   :     #11 pc 000000000000101c  /system/bin/surfaceflinger
+06-23 00:22:03.429  3038  3038 W auditd  : type=1325 audit(0.0:31): table=filter family=2 entries=9
+06-23 00:22:03.429  3038  3038 W auditd  : type=1320 audit(0.0:31): 
+06-23 00:22:03.429  3038  3038 W auditd  : type=1325 audit(0.0:32): table=filter family=10 entries=9
+06-23 00:22:03.429  3038  3038 W auditd  : type=1320 audit(0.0:32): 
+06-23 00:22:03.439  3038  3038 W auditd  : type=1325 audit(0.0:33): table=filter family=2 entries=10
+06-23 00:22:03.439  3038  3038 W auditd  : type=1320 audit(0.0:33): 
+06-23 00:22:03.453  2910  2910 F DEBUG   : 
+06-23 00:22:03.453  2910  2910 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_01
+06-23 00:22:07.469  3038  3038 W auditd  : type=1325 audit(0.0:37): table=filter family=2 entries=9
+06-23 00:22:07.469  3038  3038 W auditd  : type=1320 audit(0.0:37): 
+06-23 00:22:07.471  3113  3113 E McDaemon:   *****************************
+06-23 00:22:07.471  3113  3113 E McDaemon:   *** ERROR: int SecureWorld::open(): No such file or directory opening admin device
+06-23 00:22:07.471  3113  3113 E McDaemon:   *** Detected in hardware/samsung_slsi/exynos8890/mobicore/Daemon/src/SecureWorld.cpp:268()
+06-23 00:22:07.471  3113  3113 E McDaemon:   *****************************
+06-23 00:22:07.472  3109  3109 I Netd    : Netd 1.0 starting
+06-23 00:22:07.472  3109  3109 I QtiConnectivityAdapter: Failed to open libconnctrl, some features may not be present.
+06-23 00:22:07.472  3109  3109 D TetherController: Setting IP forward enable = 0
+06-23 00:22:07.479  3038  3038 W auditd  : type=1325 audit(0.0:38): table=filter family=10 entries=9
+06-23 00:22:07.479  3038  3038 W auditd  : type=1320 audit(0.0:38): 
+06-23 00:22:07.479  3111  3111 I SurfaceFlinger: SurfaceFlinger is starting
+06-23 00:22:07.480  3111  3111 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+06-23 00:22:07.481  3111  3111 E libEGL  : load_driver(/vendor/lib64/egl/libGLES_mali.so): dlopen failed: library "libion.so" not found
+06-23 00:22:07.481  3111  3111 F libEGL  : couldn't find an OpenGL ES implementation
+06-23 00:22:07.481  3111  3111 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 3111 (surfaceflinger)
+06-23 00:22:07.481  2910  2910 I DEBUG   : property debug.db.uid not set; NOT waiting for gdb.
+06-23 00:22:07.481  2910  2910 I DEBUG   : HINT: adb shell setprop debug.db.uid 100000
+06-23 00:22:07.481  2910  2910 I DEBUG   : HINT: adb forward tcp:5039 tcp:5039
+06-23 00:22:07.489  3038  3038 W auditd  : type=1325 audit(0.0:39): table=filter family=2 entries=8
+06-23 00:22:07.489  3038  3038 W auditd  : type=1320 audit(0.0:39): 
+06-23 00:22:07.499  3038  3038 W auditd  : type=1325 audit(0.0:40): table=filter family=10 entries=8
+06-23 00:22:07.499  3038  3038 W auditd  : type=1320 audit(0.0:40): 
+06-23 00:22:07.509  3038  3038 W auditd  : type=1325 audit(0.0:41): table=filter family=2 entries=8
+06-23 00:22:07.509  3038  3038 W auditd  : type=1320 audit(0.0:41): 
+06-23 00:22:07.519  3038  3038 W auditd  : type=1325 audit(0.0:42): table=filter family=10 entries=8
+06-23 00:22:07.519  3038  3038 W auditd  : type=1320 audit(0.0:42): 
+06-23 00:22:07.529  3038  3038 W auditd  : type=1325 audit(0.0:43): table=filter family=2 entries=6
+06-23 00:22:07.529  3038  3038 W auditd  : type=1320 audit(0.0:43): 
+06-23 00:22:07.532  2910  2910 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+06-23 00:22:07.532  2910  2910 F DEBUG   : CM Version: '13.0-20160622-UNOFFICIAL-hero2ltexx'
+06-23 00:22:07.532  2910  2910 F DEBUG   : Build fingerprint: 'samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30M/3e353872b8:eng/test-keys'
+06-23 00:22:07.532  2910  2910 F DEBUG   : Revision: '0'
+06-23 00:22:07.532  2910  2910 F DEBUG   : ABI: 'arm64'
+06-23 00:22:07.532  2910  2910 F DEBUG   : pid: 3111, tid: 3111, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+06-23 00:22:07.532  2910  2910 F DEBUG   : signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+06-23 00:22:07.535  2910  2910 F DEBUG   : Abort message: 'couldn't find an OpenGL ES implementation'
+06-23 00:22:07.535  2910  2910 F DEBUG   :     x0   0000000000000000  x1   0000000000000c27  x2   0000000000000006  x3   0000000000000000
+06-23 00:22:07.535  2910  2910 F DEBUG   :     x4   0000000000000000  x5   0000000000000001  x6   0000000000000000  x7   0000000000000000
+06-23 00:22:07.535  2910  2910 F DEBUG   :     x8   0000000000000083  x9   0000000000000c27  x10  0000007f90f75044  x11  0000000000004000
+06-23 00:22:07.535  2910  2910 F DEBUG   :     x12  0000000000004001  x13  0000000000000000  x14  0000000000000001  x15  0000000000101001
+06-23 00:22:07.535  2910  2910 F DEBUG   :     x16  0000007f90cce580  x17  0000007f90c60fcc  x18  0000007f90f76000  x19  0000007f90f770d8
+06-23 00:22:07.535  2910  2910 F DEBUG   :     x20  0000007f90f77018  x21  0000000000000002  x22  0000000000000006  x23  0000000000000000
+06-23 00:22:07.535  2910  2910 F DEBUG   :     x24  0000000000000000  x25  0000000000000000  x26  0000000000000000  x27  0000000000000000
+06-23 00:22:07.535  2910  2910 F DEBUG   :     x28  0000000000000000  x29  0000007ffb80bfa0  x30  0000007f90c5e768
+06-23 00:22:07.535  2910  2910 F DEBUG   :     sp   0000007ffb80bfa0  pc   0000007f90c60fd4  pstate 0000000020000000
+06-23 00:22:07.539  3038  3038 W auditd  : type=1325 audit(0.0:44): table=filter family=10 entries=6
+06-23 00:22:07.539  3038  3038 W auditd  : type=1320 audit(0.0:44): 
+06-23 00:22:07.539  2910  2910 F DEBUG   : 
+06-23 00:22:07.539  2910  2910 F DEBUG   : backtrace:
+06-23 00:22:07.539  2910  2910 F DEBUG   :     #00 pc 0000000000068fd4  /system/lib64/libc.so (tgkill+8)
+06-23 00:22:07.539  2910  2910 F DEBUG   :     #01 pc 0000000000066764  /system/lib64/libc.so (pthread_kill+68)
+06-23 00:22:07.539  2910  2910 F DEBUG   :     #02 pc 0000000000023448  /system/lib64/libc.so (raise+28)
+06-23 00:22:07.539  2910  2910 F DEBUG   :     #03 pc 000000000001dbe8  /system/lib64/libc.so (abort+60)
+06-23 00:22:07.539  2910  2910 F DEBUG   :     #04 pc 000000000000d9d4  /system/lib64/libcutils.so (__android_log_assert+236)
+06-23 00:22:07.539  2910  2910 F DEBUG   :     #05 pc 0000000000099c5c  /system/lib64/libEGL.so
+06-23 00:22:07.539  2910  2910 F DEBUG   :     #06 pc 0000000000029108  /system/lib64/libEGL.so
+06-23 00:22:07.539  2910  2910 F DEBUG   :     #07 pc 000000000002b10c  /system/lib64/libEGL.so (eglGetDisplay+24)
+06-23 00:22:07.539  2910  2910 F DEBUG   :     #08 pc 000000000002c8b4  /system/lib64/libsurfaceflinger.so (_ZN7android14SurfaceFlinger4initEv+76)
+06-23 00:22:07.539  2910  2910 F DEBUG   :     #09 pc 000000000000115c  /system/bin/surfaceflinger
+06-23 00:22:07.539  2910  2910 F DEBUG   :     #10 pc 000000000001bcd8  /system/lib64/libc.so (__libc_init+100)
+06-23 00:22:07.539  2910  2910 F DEBUG   :     #11 pc 000000000000101c  /system/bin/surfaceflinger
+06-23 00:22:07.549  3038  3038 W auditd  : type=1325 audit(0.0:45): table=filter family=2 entries=8
+06-23 00:22:07.549  3038  3038 W auditd  : type=1320 audit(0.0:45): 
+06-23 00:22:07.559  3038  3038 W auditd  : type=1325 audit(0.0:46): table=filter family=10 entries=8
+06-23 00:22:07.559  3038  3038 W auditd  : type=1320 audit(0.0:46): 
+06-23 00:22:07.571  2910  2910 F DEBUG   : 
+06-23 00:22:07.571  2910  2910 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_02
+06-23 00:22:12.590  3146  3146 E McDaemon:   *****************************
+06-23 00:22:12.590  3146  3146 E McDaemon:   *** ERROR: int SecureWorld::open(): No such file or directory opening admin device
+06-23 00:22:12.590  3146  3146 E McDaemon:   *** Detected in hardware/samsung_slsi/exynos8890/mobicore/Daemon/src/SecureWorld.cpp:268()
+06-23 00:22:12.590  3146  3146 E McDaemon:   *****************************
+06-23 00:22:12.591  3142  3142 I Netd    : Netd 1.0 starting
+06-23 00:22:12.591  3142  3142 I QtiConnectivityAdapter: Failed to open libconnctrl, some features may not be present.
+06-23 00:22:12.591  3142  3142 D TetherController: Setting IP forward enable = 0
+06-23 00:22:12.597  3144  3144 I SurfaceFlinger: SurfaceFlinger is starting
+06-23 00:22:12.597  3144  3144 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+06-23 00:22:12.598  3144  3144 E libEGL  : load_driver(/vendor/lib64/egl/libGLES_mali.so): dlopen failed: library "libion.so" not found
+06-23 00:22:12.598  3144  3144 F libEGL  : couldn't find an OpenGL ES implementation
+06-23 00:22:12.598  3144  3144 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 3144 (surfaceflinger)
+06-23 00:22:12.598  2910  2910 I DEBUG   : property debug.db.uid not set; NOT waiting for gdb.
+06-23 00:22:12.589  3038  3038 W auditd  : type=1325 audit(0.0:48): table=filter family=2 entries=9
+06-23 00:22:12.598  2910  2910 I DEBUG   : HINT: adb shell setprop debug.db.uid 100000
+06-23 00:22:12.598  2910  2910 I DEBUG   : HINT: adb forward tcp:5039 tcp:5039
+06-23 00:22:12.589  3038  3038 W auditd  : type=1320 audit(0.0:48): 
+06-23 00:22:12.599  3038  3038 W auditd  : type=1325 audit(0.0:49): table=filter family=10 entries=9
+06-23 00:22:12.599  3038  3038 W auditd  : type=1320 audit(0.0:49): 
+06-23 00:22:12.599  3038  3038 W auditd  : type=1325 audit(0.0:50): table=filter family=2 entries=8
+06-23 00:22:12.599  3038  3038 W auditd  : type=1320 audit(0.0:50): 
+06-23 00:22:12.609  3038  3038 W auditd  : type=1325 audit(0.0:51): table=filter family=10 entries=8
+06-23 00:22:12.609  3038  3038 W auditd  : type=1320 audit(0.0:51): 
+06-23 00:22:12.609  3038  3038 W auditd  : type=1325 audit(0.0:52): table=filter family=2 entries=8
+06-23 00:22:12.609  3038  3038 W auditd  : type=1320 audit(0.0:52): 
+06-23 00:22:12.619  3038  3038 W auditd  : type=1325 audit(0.0:53): table=filter family=10 entries=8
+06-23 00:22:12.619  3038  3038 W auditd  : type=1320 audit(0.0:53): 
+06-23 00:22:12.619  3038  3038 W auditd  : type=1325 audit(0.0:54): table=filter family=2 entries=6
+06-23 00:22:12.619  3038  3038 W auditd  : type=1320 audit(0.0:54): 
+06-23 00:22:12.619  3038  3038 W auditd  : type=1325 audit(0.0:55): table=filter family=10 entries=6
+06-23 00:22:12.619  3038  3038 W auditd  : type=1320 audit(0.0:55): 
+06-23 00:22:12.629  3038  3038 W auditd  : type=1325 audit(0.0:56): table=filter family=2 entries=8
+06-23 00:22:12.629  3038  3038 W auditd  : type=1320 audit(0.0:56): 
+06-23 00:22:12.629  3038  3038 W auditd  : type=1325 audit(0.0:57): table=filter family=10 entries=8
+06-23 00:22:12.629  3038  3038 W auditd  : type=1320 audit(0.0:57): 
+06-23 00:22:12.649  2910  2910 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+06-23 00:22:12.649  2910  2910 F DEBUG   : CM Version: '13.0-20160622-UNOFFICIAL-hero2ltexx'
+06-23 00:22:12.649  2910  2910 F DEBUG   : Build fingerprint: 'samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30M/3e353872b8:eng/test-keys'
+06-23 00:22:12.649  2910  2910 F DEBUG   : Revision: '0'
+06-23 00:22:12.649  2910  2910 F DEBUG   : ABI: 'arm64'
+06-23 00:22:12.649  2910  2910 F DEBUG   : pid: 3144, tid: 3144, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+06-23 00:22:12.649  2910  2910 F DEBUG   : signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+06-23 00:22:12.653  2910  2910 F DEBUG   : Abort message: 'couldn't find an OpenGL ES implementation'
+06-23 00:22:12.653  2910  2910 F DEBUG   :     x0   0000000000000000  x1   0000000000000c48  x2   0000000000000006  x3   0000000000000000
+06-23 00:22:12.653  2910  2910 F DEBUG   :     x4   0000000000000000  x5   0000000000000001  x6   0000000000000000  x7   0000000000000000
+06-23 00:22:12.653  2910  2910 F DEBUG   :     x8   0000000000000083  x9   0000000000000c48  x10  0000007fad63d044  x11  0000000000004000
+06-23 00:22:12.653  2910  2910 F DEBUG   :     x12  0000000000004001  x13  0000000000000000  x14  0000000000000001  x15  0000000000101001
+06-23 00:22:12.653  2910  2910 F DEBUG   :     x16  0000007fad396580  x17  0000007fad328fcc  x18  0000007fad63e000  x19  0000007fad63f0d8
+06-23 00:22:12.653  2910  2910 F DEBUG   :     x20  0000007fad63f018  x21  0000000000000002  x22  0000000000000006  x23  0000000000000000
+06-23 00:22:12.653  2910  2910 F DEBUG   :     x24  0000000000000000  x25  0000000000000000  x26  0000000000000000  x27  0000000000000000
+06-23 00:22:12.653  2910  2910 F DEBUG   :     x28  0000000000000000  x29  0000007fef182060  x30  0000007fad326768
+06-23 00:22:12.653  2910  2910 F DEBUG   :     sp   0000007fef182060  pc   0000007fad328fd4  pstate 0000000020000000
+06-23 00:22:12.657  2910  2910 F DEBUG   : 
+06-23 00:22:12.657  2910  2910 F DEBUG   : backtrace:
+06-23 00:22:12.657  2910  2910 F DEBUG   :     #00 pc 0000000000068fd4  /system/lib64/libc.so (tgkill+8)
+06-23 00:22:12.657  2910  2910 F DEBUG   :     #01 pc 0000000000066764  /system/lib64/libc.so (pthread_kill+68)
+06-23 00:22:12.657  2910  2910 F DEBUG   :     #02 pc 0000000000023448  /system/lib64/libc.so (raise+28)
+06-23 00:22:12.657  2910  2910 F DEBUG   :     #03 pc 000000000001dbe8  /system/lib64/libc.so (abort+60)
+06-23 00:22:12.657  2910  2910 F DEBUG   :     #04 pc 000000000000d9d4  /system/lib64/libcutils.so (__android_log_assert+236)
+06-23 00:22:12.657  2910  2910 F DEBUG   :     #05 pc 0000000000099c5c  /system/lib64/libEGL.so
+06-23 00:22:12.657  2910  2910 F DEBUG   :     #06 pc 0000000000029108  /system/lib64/libEGL.so
+06-23 00:22:12.657  2910  2910 F DEBUG   :     #07 pc 000000000002b10c  /system/lib64/libEGL.so (eglGetDisplay+24)
+06-23 00:22:12.657  2910  2910 F DEBUG   :     #08 pc 000000000002c8b4  /system/lib64/libsurfaceflinger.so (_ZN7android14SurfaceFlinger4initEv+76)
+06-23 00:22:12.657  2910  2910 F DEBUG   :     #09 pc 000000000000115c  /system/bin/surfaceflinger
+06-23 00:22:12.657  2910  2910 F DEBUG   :     #10 pc 000000000001bcd8  /system/lib64/libc.so (__libc_init+100)
+06-23 00:22:12.657  2910  2910 F DEBUG   :     #11 pc 000000000000101c  /system/bin/surfaceflinger
+06-23 00:22:12.689  2910  2910 F DEBUG   : 
+06-23 00:22:12.689  2910  2910 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_03
+06-23 00:22:17.705  3184  3184 E McDaemon:   *****************************
+06-23 00:22:17.705  3184  3184 E McDaemon:   *** ERROR: int SecureWorld::open(): No such file or directory opening admin device
+06-23 00:22:17.705  3184  3184 E McDaemon:   *** Detected in hardware/samsung_slsi/exynos8890/mobicore/Daemon/src/SecureWorld.cpp:268()
+06-23 00:22:17.705  3184  3184 E McDaemon:   *****************************
+06-23 00:22:17.709  3180  3180 I Netd    : Netd 1.0 starting
+06-23 00:22:17.709  3180  3180 I QtiConnectivityAdapter: Failed to open libconnctrl, some features may not be present.
+06-23 00:22:17.709  3180  3180 D TetherController: Setting IP forward enable = 0
+06-23 00:22:17.709  3038  3038 W auditd  : type=1325 audit(0.0:67): table=filter family=2 entries=10
+06-23 00:22:17.709  3038  3038 W auditd  : type=1320 audit(0.0:67): 
+06-23 00:22:17.719  3182  3182 I SurfaceFlinger: SurfaceFlinger is starting
+06-23 00:22:17.719  3182  3182 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+06-23 00:22:17.721  3182  3182 E libEGL  : load_driver(/vendor/lib64/egl/libGLES_mali.so): dlopen failed: library "libion.so" not found
+06-23 00:22:17.721  3182  3182 F libEGL  : couldn't find an OpenGL ES implementation
+06-23 00:22:17.721  3182  3182 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 3182 (surfaceflinger)
+06-23 00:22:17.721  2910  2910 I DEBUG   : property debug.db.uid not set; NOT waiting for gdb.
+06-23 00:22:17.721  2910  2910 I DEBUG   : HINT: adb shell setprop debug.db.uid 100000
+06-23 00:22:17.721  2910  2910 I DEBUG   : HINT: adb forward tcp:5039 tcp:5039
+06-23 00:22:17.719  3038  3038 W auditd  : type=1325 audit(0.0:68): table=filter family=10 entries=10
+06-23 00:22:17.719  3038  3038 W auditd  : type=1320 audit(0.0:68): 
+06-23 00:22:17.719  3038  3038 W auditd  : type=1325 audit(0.0:69): table=filter family=2 entries=9
+06-23 00:22:17.719  3038  3038 W auditd  : type=1320 audit(0.0:69): 
+06-23 00:22:17.729  3038  3038 W auditd  : type=1325 audit(0.0:70): table=filter family=10 entries=9
+06-23 00:22:17.729  3038  3038 W auditd  : type=1320 audit(0.0:70): 
+06-23 00:22:17.729  3038  3038 W auditd  : type=1325 audit(0.0:71): table=filter family=2 entries=9
+06-23 00:22:17.729  3038  3038 W auditd  : type=1320 audit(0.0:71): 
+06-23 00:22:17.739  3038  3038 W auditd  : type=1325 audit(0.0:72): table=filter family=10 entries=9
+06-23 00:22:17.739  3038  3038 W auditd  : type=1320 audit(0.0:72): 
+06-23 00:22:17.749  3038  3038 W auditd  : type=1325 audit(0.0:73): table=filter family=2 entries=7
+06-23 00:22:17.749  3038  3038 W auditd  : type=1320 audit(0.0:73): 
+06-23 00:22:17.749  3038  3038 W auditd  : type=1325 audit(0.0:74): table=filter family=10 entries=7
+06-23 00:22:17.749  3038  3038 W auditd  : type=1320 audit(0.0:74): 
+06-23 00:22:17.759  3038  3038 W auditd  : type=1325 audit(0.0:75): table=filter family=2 entries=9
+06-23 00:22:17.759  3038  3038 W auditd  : type=1320 audit(0.0:75): 
+06-23 00:22:17.759  3038  3038 W auditd  : type=1325 audit(0.0:76): table=filter family=10 entries=9
+06-23 00:22:17.759  3038  3038 W auditd  : type=1320 audit(0.0:76): 
+06-23 00:22:17.772  2910  2910 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+06-23 00:22:17.772  2910  2910 F DEBUG   : CM Version: '13.0-20160622-UNOFFICIAL-hero2ltexx'
+06-23 00:22:17.772  2910  2910 F DEBUG   : Build fingerprint: 'samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30M/3e353872b8:eng/test-keys'
+06-23 00:22:17.772  2910  2910 F DEBUG   : Revision: '0'
+06-23 00:22:17.772  2910  2910 F DEBUG   : ABI: 'arm64'
+06-23 00:22:17.772  2910  2910 F DEBUG   : pid: 3182, tid: 3182, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+06-23 00:22:17.772  2910  2910 F DEBUG   : signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+06-23 00:22:17.776  2910  2910 F DEBUG   : Abort message: 'couldn't find an OpenGL ES implementation'
+06-23 00:22:17.776  2910  2910 F DEBUG   :     x0   0000000000000000  x1   0000000000000c6e  x2   0000000000000006  x3   0000000000000000
+06-23 00:22:17.776  2910  2910 F DEBUG   :     x4   0000000000000000  x5   0000000000000001  x6   0000000000000000  x7   0000000000000000
+06-23 00:22:17.776  2910  2910 F DEBUG   :     x8   0000000000000083  x9   0000000000000c6e  x10  0000007f7bd7b044  x11  0000000000004000
+06-23 00:22:17.776  2910  2910 F DEBUG   :     x12  0000000000004001  x13  0000000000000000  x14  0000000000000001  x15  0000000000101001
+06-23 00:22:17.776  2910  2910 F DEBUG   :     x16  0000007f7bad4580  x17  0000007f7ba66fcc  x18  0000007f7bd7c000  x19  0000007f7bd7d0d8
+06-23 00:22:17.776  2910  2910 F DEBUG   :     x20  0000007f7bd7d018  x21  0000000000000002  x22  0000000000000006  x23  0000000000000000
+06-23 00:22:17.776  2910  2910 F DEBUG   :     x24  0000000000000000  x25  0000000000000000  x26  0000000000000000  x27  0000000000000000
+06-23 00:22:17.776  2910  2910 F DEBUG   :     x28  0000000000000000  x29  0000007fc6d5a4a0  x30  0000007f7ba64768
+06-23 00:22:17.776  2910  2910 F DEBUG   :     sp   0000007fc6d5a4a0  pc   0000007f7ba66fd4  pstate 0000000020000000
+06-23 00:22:17.779  2910  2910 F DEBUG   : 
+06-23 00:22:17.779  2910  2910 F DEBUG   : backtrace:
+06-23 00:22:17.779  2910  2910 F DEBUG   :     #00 pc 0000000000068fd4  /system/lib64/libc.so (tgkill+8)
+06-23 00:22:17.779  2910  2910 F DEBUG   :     #01 pc 0000000000066764  /system/lib64/libc.so (pthread_kill+68)
+06-23 00:22:17.779  2910  2910 F DEBUG   :     #02 pc 0000000000023448  /system/lib64/libc.so (raise+28)
+06-23 00:22:17.779  2910  2910 F DEBUG   :     #03 pc 000000000001dbe8  /system/lib64/libc.so (abort+60)
+06-23 00:22:17.779  2910  2910 F DEBUG   :     #04 pc 000000000000d9d4  /system/lib64/libcutils.so (__android_log_assert+236)
+06-23 00:22:17.779  2910  2910 F DEBUG   :     #05 pc 0000000000099c5c  /system/lib64/libEGL.so
+06-23 00:22:17.779  2910  2910 F DEBUG   :     #06 pc 0000000000029108  /system/lib64/libEGL.so
+06-23 00:22:17.779  2910  2910 F DEBUG   :     #07 pc 000000000002b10c  /system/lib64/libEGL.so (eglGetDisplay+24)
+06-23 00:22:17.779  2910  2910 F DEBUG   :     #08 pc 000000000002c8b4  /system/lib64/libsurfaceflinger.so (_ZN7android14SurfaceFlinger4initEv+76)
+06-23 00:22:17.780  2910  2910 F DEBUG   :     #09 pc 000000000000115c  /system/bin/surfaceflinger
+06-23 00:22:17.780  2910  2910 F DEBUG   :     #10 pc 000000000001bcd8  /system/lib64/libc.so (__libc_init+100)
+06-23 00:22:17.780  2910  2910 F DEBUG   :     #11 pc 000000000000101c  /system/bin/surfaceflinger
+06-23 00:22:17.811  2910  2910 F DEBUG   : 
+06-23 00:22:17.811  2910  2910 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_04
+06-23 00:22:22.830  3219  3219 E McDaemon:   *****************************
+06-23 00:22:22.830  3219  3219 E McDaemon:   *** ERROR: int SecureWorld::open(): No such file or directory opening admin device
+06-23 00:22:22.831  3219  3219 E McDaemon:   *** Detected in hardware/samsung_slsi/exynos8890/mobicore/Daemon/src/SecureWorld.cpp:268()
+06-23 00:22:22.831  3219  3219 E McDaemon:   *****************************
+06-23 00:22:22.831  3215  3215 I Netd    : Netd 1.0 starting
+06-23 00:22:22.831  3215  3215 I QtiConnectivityAdapter: Failed to open libconnctrl, some features may not be present.
+06-23 00:22:22.831  3215  3215 D TetherController: Setting IP forward enable = 0
+06-23 00:22:22.841  3217  3217 I SurfaceFlinger: SurfaceFlinger is starting
+06-23 00:22:22.829  3038  3038 W auditd  : type=1325 audit(0.0:88): table=filter family=2 entries=10
+06-23 00:22:22.841  3217  3217 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+06-23 00:22:22.829  3038  3038 W auditd  : type=1320 audit(0.0:88): 
+06-23 00:22:22.842  3217  3217 E libEGL  : load_driver(/vendor/lib64/egl/libGLES_mali.so): dlopen failed: library "libion.so" not found
+06-23 00:22:22.843  3217  3217 F libEGL  : couldn't find an OpenGL ES implementation
+06-23 00:22:22.843  3217  3217 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 3217 (surfaceflinger)
+06-23 00:22:22.843  2910  2910 I DEBUG   : property debug.db.uid not set; NOT waiting for gdb.
+06-23 00:22:22.843  2910  2910 I DEBUG   : HINT: adb shell setprop debug.db.uid 100000
+06-23 00:22:22.843  2910  2910 I DEBUG   : HINT: adb forward tcp:5039 tcp:5039
+06-23 00:22:22.839  3038  3038 W auditd  : type=1325 audit(0.0:89): table=filter family=10 entries=10
+06-23 00:22:22.839  3038  3038 W auditd  : type=1320 audit(0.0:89): 
+06-23 00:22:22.849  3038  3038 W auditd  : type=1325 audit(0.0:90): table=filter family=2 entries=9
+06-23 00:22:22.849  3038  3038 W auditd  : type=1320 audit(0.0:90): 
+06-23 00:22:22.849  3038  3038 W auditd  : type=1325 audit(0.0:91): table=filter family=10 entries=9
+06-23 00:22:22.849  3038  3038 W auditd  : type=1320 audit(0.0:91): 
+06-23 00:22:22.859  3038  3038 W auditd  : type=1325 audit(0.0:92): table=filter family=2 entries=9
+06-23 00:22:22.859  3038  3038 W auditd  : type=1320 audit(0.0:92): 
+06-23 00:22:22.859  3038  3038 W auditd  : type=1325 audit(0.0:93): table=filter family=10 entries=9
+06-23 00:22:22.859  3038  3038 W auditd  : type=1320 audit(0.0:93): 
+06-23 00:22:22.869  3038  3038 W auditd  : type=1325 audit(0.0:94): table=filter family=2 entries=7
+06-23 00:22:22.869  3038  3038 W auditd  : type=1320 audit(0.0:94): 
+06-23 00:22:22.879  3038  3038 W auditd  : type=1325 audit(0.0:95): table=filter family=10 entries=7
+06-23 00:22:22.879  3038  3038 W auditd  : type=1320 audit(0.0:95): 
+06-23 00:22:22.879  3038  3038 W auditd  : type=1325 audit(0.0:96): table=filter family=2 entries=9
+06-23 00:22:22.879  3038  3038 W auditd  : type=1320 audit(0.0:96): 
+06-23 00:22:22.889  3038  3038 W auditd  : type=1325 audit(0.0:97): table=filter family=10 entries=9
+06-23 00:22:22.889  3038  3038 W auditd  : type=1320 audit(0.0:97): 
+06-23 00:22:22.944  2910  2910 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+06-23 00:22:22.944  2910  2910 F DEBUG   : CM Version: '13.0-20160622-UNOFFICIAL-hero2ltexx'
+06-23 00:22:22.944  2910  2910 F DEBUG   : Build fingerprint: 'samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30M/3e353872b8:eng/test-keys'
+06-23 00:22:22.944  2910  2910 F DEBUG   : Revision: '0'
+06-23 00:22:22.944  2910  2910 F DEBUG   : ABI: 'arm64'
+06-23 00:22:22.944  2910  2910 F DEBUG   : pid: 3217, tid: 3217, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+06-23 00:22:22.944  2910  2910 F DEBUG   : signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+06-23 00:22:22.948  2910  2910 F DEBUG   : Abort message: 'couldn't find an OpenGL ES implementation'
+06-23 00:22:22.948  2910  2910 F DEBUG   :     x0   0000000000000000  x1   0000000000000c91  x2   0000000000000006  x3   0000000000000000
+06-23 00:22:22.948  2910  2910 F DEBUG   :     x4   0000000000000000  x5   0000000000000001  x6   0000000000000000  x7   0000000000000000
+06-23 00:22:22.948  2910  2910 F DEBUG   :     x8   0000000000000083  x9   0000000000000c91  x10  0000007fafa2d044  x11  0000000000004000
+06-23 00:22:22.948  2910  2910 F DEBUG   :     x12  0000000000004001  x13  0000000000000000  x14  0000000000000001  x15  0000000000101001
+06-23 00:22:22.948  2910  2910 F DEBUG   :     x16  0000007faf786580  x17  0000007faf718fcc  x18  0000007fafa2e000  x19  0000007fafa2f0d8
+06-23 00:22:22.948  2910  2910 F DEBUG   :     x20  0000007fafa2f018  x21  0000000000000002  x22  0000000000000006  x23  0000000000000000
+06-23 00:22:22.948  2910  2910 F DEBUG   :     x24  0000000000000000  x25  0000000000000000  x26  0000000000000000  x27  0000000000000000
+06-23 00:22:22.948  2910  2910 F DEBUG   :     x28  0000000000000000  x29  0000007fe71e95c0  x30  0000007faf716768
+06-23 00:22:22.948  2910  2910 F DEBUG   :     sp   0000007fe71e95c0  pc   0000007faf718fd4  pstate 0000000020000000
+06-23 00:22:22.952  2910  2910 F DEBUG   : 
+06-23 00:22:22.952  2910  2910 F DEBUG   : backtrace:
+06-23 00:22:22.952  2910  2910 F DEBUG   :     #00 pc 0000000000068fd4  /system/lib64/libc.so (tgkill+8)
+06-23 00:22:22.952  2910  2910 F DEBUG   :     #01 pc 0000000000066764  /system/lib64/libc.so (pthread_kill+68)
+06-23 00:22:22.952  2910  2910 F DEBUG   :     #02 pc 0000000000023448  /system/lib64/libc.so (raise+28)
+06-23 00:22:22.952  2910  2910 F DEBUG   :     #03 pc 000000000001dbe8  /system/lib64/libc.so (abort+60)
+06-23 00:22:22.952  2910  2910 F DEBUG   :     #04 pc 000000000000d9d4  /system/lib64/libcutils.so (__android_log_assert+236)
+06-23 00:22:22.952  2910  2910 F DEBUG   :     #05 pc 0000000000099c5c  /system/lib64/libEGL.so
+06-23 00:22:22.952  2910  2910 F DEBUG   :     #06 pc 0000000000029108  /system/lib64/libEGL.so
+06-23 00:22:22.952  2910  2910 F DEBUG   :     #07 pc 000000000002b10c  /system/lib64/libEGL.so (eglGetDisplay+24)
+06-23 00:22:22.952  2910  2910 F DEBUG   :     #08 pc 000000000002c8b4  /system/lib64/libsurfaceflinger.so (_ZN7android14SurfaceFlinger4initEv+76)
+06-23 00:22:22.952  2910  2910 F DEBUG   :     #09 pc 000000000000115c  /system/bin/surfaceflinger
+06-23 00:22:22.952  2910  2910 F DEBUG   :     #10 pc 000000000001bcd8  /system/lib64/libc.so (__libc_init+100)
+06-23 00:22:22.952  2910  2910 F DEBUG   :     #11 pc 000000000000101c  /system/bin/surfaceflinger
+06-23 00:22:22.958  3218  3218 I mediaserver: ServiceManager: 0xf684e120
+06-23 00:22:22.958  3218  3218 I AudioFlinger: Using default 3000 mSec as standby time.
+06-23 00:22:22.958  3218  3218 E BatteryNotifier: batterystats service unavailable!
+06-23 00:22:22.958  3218  3218 E BatteryNotifier: batterystats service unavailable!
+06-23 00:22:22.958  3218  3218 I CameraService: CameraService started (pid=3218)
+06-23 00:22:22.958  3218  3218 I CameraService: CameraService process starting
+06-23 00:22:22.958  3218  3218 E BatteryNotifier: batterystats service unavailable!
+06-23 00:22:22.958  3218  3218 E BatteryNotifier: batterystats service unavailable!
+06-23 00:22:22.959  3218  3218 E CameraService: Could not load camera HAL module: -2 (No such file or directory)
+06-23 00:22:22.960  3218  3218 I AudioPolicyService: AudioPolicyService CSTOR in new mode
+06-23 00:22:22.960  3218  3218 I APM::ConfigParsingUtils: loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+06-23 00:22:22.985  2910  2910 F DEBUG   : 
+06-23 00:22:22.985  2910  2910 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_05
+06-23 00:22:22.989  2903  2903 I ServiceManager: service 'media.audio_flinger' died
+06-23 00:22:22.989  2903  2903 I ServiceManager: service 'media.player' died
+06-23 00:22:22.989  2903  2903 I ServiceManager: service 'media.resource_manager' died
+06-23 00:22:22.989  2903  2903 I ServiceManager: service 'media.camera' died
+06-23 00:22:28.000  3269  3269 E McDaemon:   *****************************
+06-23 00:22:28.000  3269  3269 E McDaemon:   *** ERROR: int SecureWorld::open(): No such file or directory opening admin device
+06-23 00:22:28.000  3269  3269 E McDaemon:   *** Detected in hardware/samsung_slsi/exynos8890/mobicore/Daemon/src/SecureWorld.cpp:268()
+06-23 00:22:28.000  3269  3269 E McDaemon:   *****************************
+06-23 00:22:28.011  3265  3265 I Netd    : Netd 1.0 starting
+06-23 00:22:28.012  3265  3265 I QtiConnectivityAdapter: Failed to open libconnctrl, some features may not be present.
+06-23 00:22:28.012  3265  3265 D TetherController: Setting IP forward enable = 0
+06-23 00:22:28.012  3267  3267 I SurfaceFlinger: SurfaceFlinger is starting
+06-23 00:22:28.012  3267  3267 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+06-23 00:22:28.013  3267  3267 E libEGL  : load_driver(/vendor/lib64/egl/libGLES_mali.so): dlopen failed: library "libion.so" not found
+06-23 00:22:28.014  3267  3267 F libEGL  : couldn't find an OpenGL ES implementation
+06-23 00:22:28.014  3267  3267 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 3267 (surfaceflinger)
+06-23 00:22:28.014  2910  2910 I DEBUG   : property debug.db.uid not set; NOT waiting for gdb.
+06-23 00:22:28.014  2910  2910 I DEBUG   : HINT: adb shell setprop debug.db.uid 100000
+06-23 00:22:28.014  2910  2910 I DEBUG   : HINT: adb forward tcp:5039 tcp:5039
+06-23 00:22:28.009  3038  3038 W auditd  : type=1325 audit(0.0:113): table=filter family=2 entries=13
+06-23 00:22:28.009  3038  3038 W auditd  : type=1320 audit(0.0:113): 
+06-23 00:22:28.009  3038  3038 W auditd  : type=1325 audit(0.0:114): table=filter family=10 entries=13
+06-23 00:22:28.009  3038  3038 W auditd  : type=1320 audit(0.0:114): 
+06-23 00:22:28.019  3038  3038 W auditd  : type=1325 audit(0.0:115): table=filter family=2 entries=12
+06-23 00:22:28.019  3038  3038 W auditd  : type=1320 audit(0.0:115): 
+06-23 00:22:28.019  3038  3038 W auditd  : type=1325 audit(0.0:116): table=filter family=10 entries=12
+06-23 00:22:28.019  3038  3038 W auditd  : type=1320 audit(0.0:116): 
+06-23 00:22:28.029  3038  3038 W auditd  : type=1325 audit(0.0:117): table=filter family=2 entries=12
+06-23 00:22:28.029  3038  3038 W auditd  : type=1320 audit(0.0:117): 
+06-23 00:22:28.029  3038  3038 W auditd  : type=1325 audit(0.0:118): table=filter family=10 entries=12
+06-23 00:22:28.029  3038  3038 W auditd  : type=1320 audit(0.0:118): 
+06-23 00:22:28.039  3038  3038 W auditd  : type=1325 audit(0.0:119): table=filter family=2 entries=10
+06-23 00:22:28.039  3038  3038 W auditd  : type=1320 audit(0.0:119): 
+06-23 00:22:28.039  3038  3038 W auditd  : type=1325 audit(0.0:120): table=filter family=10 entries=10
+06-23 00:22:28.039  3038  3038 W auditd  : type=1320 audit(0.0:120): 
+06-23 00:22:28.039  3038  3038 W auditd  : type=1325 audit(0.0:121): table=filter family=2 entries=12
+06-23 00:22:28.039  3038  3038 W auditd  : type=1320 audit(0.0:121): 
+06-23 00:22:28.049  3038  3038 W auditd  : type=1325 audit(0.0:122): table=filter family=10 entries=12
+06-23 00:22:28.049  3038  3038 W auditd  : type=1320 audit(0.0:122): 
+06-23 00:22:28.070  2910  2910 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+06-23 00:22:28.070  2910  2910 F DEBUG   : CM Version: '13.0-20160622-UNOFFICIAL-hero2ltexx'
+06-23 00:22:28.070  2910  2910 F DEBUG   : Build fingerprint: 'samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30M/3e353872b8:eng/test-keys'
+06-23 00:22:28.070  2910  2910 F DEBUG   : Revision: '0'
+06-23 00:22:28.070  2910  2910 F DEBUG   : ABI: 'arm64'
+06-23 00:22:28.070  2910  2910 F DEBUG   : pid: 3267, tid: 3267, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+06-23 00:22:28.070  2910  2910 F DEBUG   : signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+06-23 00:22:28.074  2910  2910 F DEBUG   : Abort message: 'couldn't find an OpenGL ES implementation'
+06-23 00:22:28.074  2910  2910 F DEBUG   :     x0   0000000000000000  x1   0000000000000cc3  x2   0000000000000006  x3   0000000000000000
+06-23 00:22:28.074  2910  2910 F DEBUG   :     x4   0000000000000000  x5   0000000000000001  x6   0000000000000000  x7   0000000000000000
+06-23 00:22:28.074  2910  2910 F DEBUG   :     x8   0000000000000083  x9   0000000000000cc3  x10  0000007f931dd044  x11  0000000000004000
+06-23 00:22:28.074  2910  2910 F DEBUG   :     x12  0000000000004001  x13  0000000000000000  x14  0000000000000001  x15  0000000000101001
+06-23 00:22:28.074  2910  2910 F DEBUG   :     x16  0000007f92f36580  x17  0000007f92ec8fcc  x18  0000007f931de000  x19  0000007f931df0d8
+06-23 00:22:28.074  2910  2910 F DEBUG   :     x20  0000007f931df018  x21  0000000000000002  x22  0000000000000006  x23  0000000000000000
+06-23 00:22:28.074  2910  2910 F DEBUG   :     x24  0000000000000000  x25  0000000000000000  x26  0000000000000000  x27  0000000000000000
+06-23 00:22:28.074  2910  2910 F DEBUG   :     x28  0000000000000000  x29  0000007ff8a3bf00  x30  0000007f92ec6768
+06-23 00:22:28.074  2910  2910 F DEBUG   :     sp   0000007ff8a3bf00  pc   0000007f92ec8fd4  pstate 0000000020000000
+06-23 00:22:28.077  2910  2910 F DEBUG   : 
+06-23 00:22:28.077  2910  2910 F DEBUG   : backtrace:
+06-23 00:22:28.077  2910  2910 F DEBUG   :     #00 pc 0000000000068fd4  /system/lib64/libc.so (tgkill+8)
+06-23 00:22:28.077  2910  2910 F DEBUG   :     #01 pc 0000000000066764  /system/lib64/libc.so (pthread_kill+68)
+06-23 00:22:28.078  2910  2910 F DEBUG   :     #02 pc 0000000000023448  /system/lib64/libc.so (raise+28)
+06-23 00:22:28.078  2910  2910 F DEBUG   :     #03 pc 000000000001dbe8  /system/lib64/libc.so (abort+60)
+06-23 00:22:28.078  2910  2910 F DEBUG   :     #04 pc 000000000000d9d4  /system/lib64/libcutils.so (__android_log_assert+236)
+06-23 00:22:28.078  2910  2910 F DEBUG   :     #05 pc 0000000000099c5c  /system/lib64/libEGL.so
+06-23 00:22:28.078  2910  2910 F DEBUG   :     #06 pc 0000000000029108  /system/lib64/libEGL.so
+06-23 00:22:28.078  2910  2910 F DEBUG   :     #07 pc 000000000002b10c  /system/lib64/libEGL.so (eglGetDisplay+24)
+06-23 00:22:28.078  2910  2910 F DEBUG   :     #08 pc 000000000002c8b4  /system/lib64/libsurfaceflinger.so (_ZN7android14SurfaceFlinger4initEv+76)
+06-23 00:22:28.078  2910  2910 F DEBUG   :     #09 pc 000000000000115c  /system/bin/surfaceflinger
+06-23 00:22:28.078  2910  2910 F DEBUG   :     #10 pc 000000000001bcd8  /system/lib64/libc.so (__libc_init+100)
+06-23 00:22:28.078  2910  2910 F DEBUG   :     #11 pc 000000000000101c  /system/bin/surfaceflinger
+06-23 00:22:28.110  2910  2910 F DEBUG   : 
+06-23 00:22:28.110  2910  2910 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_06
+06-23 00:22:33.129  3307  3307 E McDaemon:   *****************************
+06-23 00:22:33.129  3307  3307 E McDaemon:   *** ERROR: int SecureWorld::open(): No such file or directory opening admin device
+06-23 00:22:33.129  3307  3307 E McDaemon:   *** Detected in hardware/samsung_slsi/exynos8890/mobicore/Daemon/src/SecureWorld.cpp:268()
+06-23 00:22:33.129  3307  3307 E McDaemon:   *****************************
+06-23 00:22:33.129  3303  3303 I Netd    : Netd 1.0 starting
+06-23 00:22:33.129  3303  3303 I QtiConnectivityAdapter: Failed to open libconnctrl, some features may not be present.
+06-23 00:22:33.129  3303  3303 D TetherController: Setting IP forward enable = 0
+06-23 00:22:33.137  3305  3305 I SurfaceFlinger: SurfaceFlinger is starting
+06-23 00:22:33.129  3038  3038 W auditd  : type=1325 audit(0.0:137): table=filter family=2 entries=12
+06-23 00:22:33.129  3038  3038 W auditd  : type=1320 audit(0.0:137): 
+06-23 00:22:33.138  3305  3305 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+06-23 00:22:33.138  3305  3305 E libEGL  : load_driver(/vendor/lib64/egl/libGLES_mali.so): dlopen failed: library "libion.so" not found
+06-23 00:22:33.139  3305  3305 F libEGL  : couldn't find an OpenGL ES implementation
+06-23 00:22:33.139  3305  3305 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 3305 (surfaceflinger)
+06-23 00:22:33.139  2910  2910 I DEBUG   : property debug.db.uid not set; NOT waiting for gdb.
+06-23 00:22:33.139  2910  2910 I DEBUG   : HINT: adb shell setprop debug.db.uid 100000
+06-23 00:22:33.139  2910  2910 I DEBUG   : HINT: adb forward tcp:5039 tcp:5039
+06-23 00:22:33.139  3038  3038 W auditd  : type=1325 audit(0.0:138): table=filter family=10 entries=12
+06-23 00:22:33.139  3038  3038 W auditd  : type=1320 audit(0.0:138): 
+06-23 00:22:33.149  3038  3038 W auditd  : type=1325 audit(0.0:139): table=filter family=2 entries=11
+06-23 00:22:33.149  3038  3038 W auditd  : type=1320 audit(0.0:139): 
+06-23 00:22:33.149  3038  3038 W auditd  : type=1325 audit(0.0:140): table=filter family=10 entries=11
+06-23 00:22:33.149  3038  3038 W auditd  : type=1320 audit(0.0:140): 
+06-23 00:22:33.159  3038  3038 W auditd  : type=1325 audit(0.0:141): table=filter family=2 entries=11
+06-23 00:22:33.159  3038  3038 W auditd  : type=1320 audit(0.0:141): 
+06-23 00:22:33.159  3038  3038 W auditd  : type=1325 audit(0.0:142): table=filter family=10 entries=11
+06-23 00:22:33.159  3038  3038 W auditd  : type=1320 audit(0.0:142): 
+06-23 00:22:33.169  3038  3038 W auditd  : type=1325 audit(0.0:143): table=filter family=2 entries=9
+06-23 00:22:33.169  3038  3038 W auditd  : type=1320 audit(0.0:143): 
+06-23 00:22:33.169  3038  3038 W auditd  : type=1325 audit(0.0:144): table=filter family=10 entries=9
+06-23 00:22:33.169  3038  3038 W auditd  : type=1320 audit(0.0:144): 
+06-23 00:22:33.179  3038  3038 W auditd  : type=1325 audit(0.0:145): table=filter family=2 entries=11
+06-23 00:22:33.179  3038  3038 W auditd  : type=1320 audit(0.0:145): 
+06-23 00:22:33.190  2910  2910 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+06-23 00:22:33.190  2910  2910 F DEBUG   : CM Version: '13.0-20160622-UNOFFICIAL-hero2ltexx'
+06-23 00:22:33.190  2910  2910 F DEBUG   : Build fingerprint: 'samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30M/3e353872b8:eng/test-keys'
+06-23 00:22:33.190  2910  2910 F DEBUG   : Revision: '0'
+06-23 00:22:33.190  2910  2910 F DEBUG   : ABI: 'arm64'
+06-23 00:22:33.190  2910  2910 F DEBUG   : pid: 3305, tid: 3305, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+06-23 00:22:33.190  2910  2910 F DEBUG   : signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+06-23 00:22:33.179  3038  3038 W auditd  : type=1325 audit(0.0:146): table=filter family=10 entries=11
+06-23 00:22:33.179  3038  3038 W auditd  : type=1320 audit(0.0:146): 
+06-23 00:22:33.194  2910  2910 F DEBUG   : Abort message: 'couldn't find an OpenGL ES implementation'
+06-23 00:22:33.194  2910  2910 F DEBUG   :     x0   0000000000000000  x1   0000000000000ce9  x2   0000000000000006  x3   0000000000000000
+06-23 00:22:33.194  2910  2910 F DEBUG   :     x4   0000000000000000  x5   0000000000000001  x6   0000000000000000  x7   0000000000000000
+06-23 00:22:33.194  2910  2910 F DEBUG   :     x8   0000000000000083  x9   0000000000000ce9  x10  0000007f8d4b3044  x11  0000000000004000
+06-23 00:22:33.194  2910  2910 F DEBUG   :     x12  0000000000004001  x13  0000000000000000  x14  0000000000000001  x15  0000000000101001
+06-23 00:22:33.194  2910  2910 F DEBUG   :     x16  0000007f8d20c580  x17  0000007f8d19efcc  x18  0000007f8d4b4000  x19  0000007f8d4b50d8
+06-23 00:22:33.194  2910  2910 F DEBUG   :     x20  0000007f8d4b5018  x21  0000000000000002  x22  0000000000000006  x23  0000000000000000
+06-23 00:22:33.194  2910  2910 F DEBUG   :     x24  0000000000000000  x25  0000000000000000  x26  0000000000000000  x27  0000000000000000
+06-23 00:22:33.194  2910  2910 F DEBUG   :     x28  0000000000000000  x29  0000007fe887fd80  x30  0000007f8d19c768
+06-23 00:22:33.194  2910  2910 F DEBUG   :     sp   0000007fe887fd80  pc   0000007f8d19efd4  pstate 0000000020000000
+06-23 00:22:33.197  2910  2910 F DEBUG   : 
+06-23 00:22:33.197  2910  2910 F DEBUG   : backtrace:
+06-23 00:22:33.198  2910  2910 F DEBUG   :     #00 pc 0000000000068fd4  /system/lib64/libc.so (tgkill+8)
+06-23 00:22:33.198  2910  2910 F DEBUG   :     #01 pc 0000000000066764  /system/lib64/libc.so (pthread_kill+68)
+06-23 00:22:33.198  2910  2910 F DEBUG   :     #02 pc 0000000000023448  /system/lib64/libc.so (raise+28)
+06-23 00:22:33.198  2910  2910 F DEBUG   :     #03 pc 000000000001dbe8  /system/lib64/libc.so (abort+60)
+06-23 00:22:33.198  2910  2910 F DEBUG   :     #04 pc 000000000000d9d4  /system/lib64/libcutils.so (__android_log_assert+236)
+06-23 00:22:33.198  2910  2910 F DEBUG   :     #05 pc 0000000000099c5c  /system/lib64/libEGL.so
+06-23 00:22:33.198  2910  2910 F DEBUG   :     #06 pc 0000000000029108  /system/lib64/libEGL.so
+06-23 00:22:33.198  2910  2910 F DEBUG   :     #07 pc 000000000002b10c  /system/lib64/libEGL.so (eglGetDisplay+24)
+06-23 00:22:33.198  2910  2910 F DEBUG   :     #08 pc 000000000002c8b4  /system/lib64/libsurfaceflinger.so (_ZN7android14SurfaceFlinger4initEv+76)
+06-23 00:22:33.198  2910  2910 F DEBUG   :     #09 pc 000000000000115c  /system/bin/surfaceflinger
+06-23 00:22:33.198  2910  2910 F DEBUG   :     #10 pc 000000000001bcd8  /system/lib64/libc.so (__libc_init+100)
+06-23 00:22:33.198  2910  2910 F DEBUG   :     #11 pc 000000000000101c  /system/bin/surfaceflinger
+06-23 00:22:33.230  2910  2910 F DEBUG   : 
+06-23 00:22:33.230  2910  2910 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_07
+06-23 00:22:38.269  3342  3342 E McDaemon:   *****************************
+06-23 00:22:38.270  3342  3342 E McDaemon:   *** ERROR: int SecureWorld::open(): No such file or directory opening admin device
+06-23 00:22:38.270  3342  3342 E McDaemon:   *** Detected in hardware/samsung_slsi/exynos8890/mobicore/Daemon/src/SecureWorld.cpp:268()
+06-23 00:22:38.270  3342  3342 E McDaemon:   *****************************
+06-23 00:22:38.275  3338  3338 I Netd    : Netd 1.0 starting
+06-23 00:22:38.275  3338  3338 I QtiConnectivityAdapter: Failed to open libconnctrl, some features may not be present.
+06-23 00:22:38.275  3338  3338 D TetherController: Setting IP forward enable = 0
+06-23 00:22:38.285  3340  3340 I SurfaceFlinger: SurfaceFlinger is starting
+06-23 00:22:38.285  3340  3340 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+06-23 00:22:38.287  3340  3340 E libEGL  : load_driver(/vendor/lib64/egl/libGLES_mali.so): dlopen failed: library "libion.so" not found
+06-23 00:22:38.287  3340  3340 F libEGL  : couldn't find an OpenGL ES implementation
+06-23 00:22:38.279  3038  3038 W auditd  : type=1325 audit(0.0:155): table=filter family=2 entries=11
+06-23 00:22:38.289  3038  3038 W auditd  : type=1325 audit(0.0:156): table=filter family=10 entries=9
+06-23 00:22:38.289  3038  3038 W auditd  : type=1320 audit(0.0:156): 
+06-23 00:22:38.288  2910  2910 I DEBUG   : property debug.db.uid not set; NOT waiting for gdb.
+06-23 00:22:38.288  2910  2910 I DEBUG   : HINT: adb shell setprop debug.db.uid 100000
+06-23 00:22:38.288  2910  2910 I DEBUG   : HINT: adb forward tcp:5039 tcp:5039
+06-23 00:22:38.309  3038  3038 W auditd  : type=1325 audit(0.0:157): table=filter family=2 entries=10
+06-23 00:22:38.309  3038  3038 W auditd  : type=1320 audit(0.0:157): 
+06-23 00:22:38.329  3038  3038 W auditd  : type=1325 audit(0.0:158): table=filter family=10 entries=8
+06-23 00:22:38.329  3038  3038 W auditd  : type=1320 audit(0.0:158): 
+06-23 00:22:38.344  2910  2910 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+06-23 00:22:38.344  2910  2910 F DEBUG   : CM Version: '13.0-20160622-UNOFFICIAL-hero2ltexx'
+06-23 00:22:38.344  2910  2910 F DEBUG   : Build fingerprint: 'samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30M/3e353872b8:eng/test-keys'
+06-23 00:22:38.344  2910  2910 F DEBUG   : Revision: '0'
+06-23 00:22:38.344  2910  2910 F DEBUG   : ABI: 'arm64'
+06-23 00:22:38.339  3038  3038 W auditd  : type=1325 audit(0.0:159): table=filter family=2 entries=10
+06-23 00:22:38.339  3038  3038 W auditd  : type=1320 audit(0.0:159): 
+06-23 00:22:38.344  2910  2910 F DEBUG   : pid: 3340, tid: 3340, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+06-23 00:22:38.344  2910  2910 F DEBUG   : signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+06-23 00:22:38.348  2910  2910 F DEBUG   : Abort message: 'couldn't find an OpenGL ES implementation'
+06-23 00:22:38.348  2910  2910 F DEBUG   :     x0   0000000000000000  x1   0000000000000d0c  x2   0000000000000006  x3   0000000000000000
+06-23 00:22:38.348  2910  2910 F DEBUG   :     x4   0000000000000000  x5   0000000000000001  x6   0000000000000000  x7   0000000000000000
+06-23 00:22:38.348  2910  2910 F DEBUG   :     x8   0000000000000083  x9   0000000000000d0c  x10  0000007f936b3044  x11  0000000000004000
+06-23 00:22:38.349  2910  2910 F DEBUG   :     x12  0000000000004001  x13  0000000000000000  x14  0000000000000001  x15  0000000000101001
+06-23 00:22:38.349  2910  2910 F DEBUG   :     x16  0000007f9340c580  x17  0000007f9339efcc  x18  0000007f936b4000  x19  0000007f936b50d8
+06-23 00:22:38.349  2910  2910 F DEBUG   :     x20  0000007f936b5018  x21  0000000000000002  x22  0000000000000006  x23  0000000000000000
+06-23 00:22:38.349  2910  2910 F DEBUG   :     x24  0000000000000000  x25  0000000000000000  x26  0000000000000000  x27  0000000000000000
+06-23 00:22:38.349  2910  2910 F DEBUG   :     x28  0000000000000000  x29  0000007fe32f1bf0  x30  0000007f9339c768
+06-23 00:22:38.349  2910  2910 F DEBUG   :     sp   0000007fe32f1bf0  pc   0000007f9339efd4  pstate 0000000020000000
+06-23 00:22:38.353  2910  2910 F DEBUG   : 
+06-23 00:22:38.353  2910  2910 F DEBUG   : backtrace:
+06-23 00:22:38.353  2910  2910 F DEBUG   :     #00 pc 0000000000068fd4  /system/lib64/libc.so (tgkill+8)
+06-23 00:22:38.353  2910  2910 F DEBUG   :     #01 pc 0000000000066764  /system/lib64/libc.so (pthread_kill+68)
+06-23 00:22:38.353  2910  2910 F DEBUG   :     #02 pc 0000000000023448  /system/lib64/libc.so (raise+28)
+06-23 00:22:38.353  2910  2910 F DEBUG   :     #03 pc 000000000001dbe8  /system/lib64/libc.so (abort+60)
+06-23 00:22:38.353  2910  2910 F DEBUG   :     #04 pc 000000000000d9d4  /system/lib64/libcutils.so (__android_log_assert+236)
+06-23 00:22:38.353  2910  2910 F DEBUG   :     #05 pc 0000000000099c5c  /system/lib64/libEGL.so
+06-23 00:22:38.353  2910  2910 F DEBUG   :     #06 pc 0000000000029108  /system/lib64/libEGL.so
+06-23 00:22:38.353  2910  2910 F DEBUG   :     #07 pc 000000000002b10c  /system/lib64/libEGL.so (eglGetDisplay+24)
+06-23 00:22:38.353  2910  2910 F DEBUG   :     #08 pc 000000000002c8b4  /system/lib64/libsurfaceflinger.so (_ZN7android14SurfaceFlinger4initEv+76)
+06-23 00:22:38.353  2910  2910 F DEBUG   :     #09 pc 000000000000115c  /system/bin/surfaceflinger
+06-23 00:22:38.353  2910  2910 F DEBUG   :     #10 pc 000000000001bcd8  /system/lib64/libc.so (__libc_init+100)
+06-23 00:22:38.353  2910  2910 F DEBUG   :     #11 pc 000000000000101c  /system/bin/surfaceflinger
+06-23 00:22:38.349  3038  3038 W auditd  : type=1325 audit(0.0:160): table=filter family=10 entries=8
+06-23 00:22:38.349  3038  3038 W auditd  : type=1320 audit(0.0:160): 
+06-23 00:22:38.359  3038  3038 W auditd  : type=1325 audit(0.0:161): table=filter family=2 entries=8
+06-23 00:22:38.359  3038  3038 W auditd  : type=1320 audit(0.0:161): 
+06-23 00:22:38.359  3038  3038 W auditd  : type=1325 audit(0.0:162): table=filter family=10 entries=6
+06-23 00:22:38.359  3038  3038 W auditd  : type=1320 audit(0.0:162): 
+06-23 00:22:38.369  3038  3038 W auditd  : type=1325 audit(0.0:163): table=filter family=2 entries=10
+06-23 00:22:38.369  3038  3038 W auditd  : type=1320 audit(0.0:163): 
+06-23 00:22:38.387  2910  2910 F DEBUG   : 
+06-23 00:22:38.387  2910  2910 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_08
+06-23 00:22:38.379  3340  3340 W surfaceflinger: type=1701 audit(0.0:164): auid=4294967295 uid=1000 gid=1003 ses=4294967295 exe="/system/bin/surfaceflinger" sig=6
+06-23 00:22:38.379  3038  3038 W auditd  : type=1325 audit(0.0:165): table=filter family=10 entries=8
+06-23 00:22:43.427  3364  3364 I Netd    : Netd 1.0 starting
+06-23 00:22:43.427  3364  3364 I QtiConnectivityAdapter: Failed to open libconnctrl, some features may not be present.
+06-23 00:22:43.427  3364  3364 D TetherController: Setting IP forward enable = 0
+06-23 00:22:43.430  3368  3368 E McDaemon:   *****************************
+06-23 00:22:43.430  3368  3368 E McDaemon:   *** ERROR: int SecureWorld::open(): No such file or directory opening admin device
+06-23 00:22:43.430  3368  3368 E McDaemon:   *** Detected in hardware/samsung_slsi/exynos8890/mobicore/Daemon/src/SecureWorld.cpp:268()
+06-23 00:22:43.430  3368  3368 E McDaemon:   *****************************
+06-23 00:22:43.429  3038  3038 W auditd  : type=1325 audit(0.0:166): table=filter family=2 entries=11
+06-23 00:22:43.429  3038  3038 W auditd  : type=1320 audit(0.0:166): 
+06-23 00:22:43.439  3038  3038 W auditd  : type=1325 audit(0.0:167): table=filter family=10 entries=9
+06-23 00:22:43.439  3038  3038 W auditd  : type=1320 audit(0.0:167): 
+06-23 00:22:43.449  3038  3038 W auditd  : type=1325 audit(0.0:168): table=filter family=2 entries=10
+06-23 00:22:43.449  3038  3038 W auditd  : type=1320 audit(0.0:168): 
+06-23 00:22:43.459  3038  3038 W auditd  : type=1325 audit(0.0:169): table=filter family=10 entries=8
+06-23 00:22:43.459  3038  3038 W auditd  : type=1320 audit(0.0:169): 
+06-23 00:22:43.474  3366  3366 I SurfaceFlinger: SurfaceFlinger is starting
+06-23 00:22:43.474  3366  3366 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+06-23 00:22:43.475  3366  3366 E libEGL  : load_driver(/vendor/lib64/egl/libGLES_mali.so): dlopen failed: library "libion.so" not found
+06-23 00:22:43.475  3366  3366 F libEGL  : couldn't find an OpenGL ES implementation
+06-23 00:22:43.475  3366  3366 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 3366 (surfaceflinger)
+06-23 00:22:43.476  2910  2910 I DEBUG   : property debug.db.uid not set; NOT waiting for gdb.
+06-23 00:22:43.476  2910  2910 I DEBUG   : HINT: adb shell setprop debug.db.uid 100000
+06-23 00:22:43.476  2910  2910 I DEBUG   : HINT: adb forward tcp:5039 tcp:5039
+06-23 00:22:43.479  3038  3038 W auditd  : type=1325 audit(0.0:170): table=filter family=2 entries=10
+06-23 00:22:43.479  3038  3038 W auditd  : type=1320 audit(0.0:170): 
+06-23 00:22:43.489  3038  3038 W auditd  : type=1325 audit(0.0:171): table=filter family=10 entries=8
+06-23 00:22:43.489  3038  3038 W auditd  : type=1320 audit(0.0:171): 
+06-23 00:22:43.499  3038  3038 W auditd  : type=1325 audit(0.0:172): table=filter family=2 entries=8
+06-23 00:22:43.499  3038  3038 W auditd  : type=1320 audit(0.0:172): 
+06-23 00:22:43.509  3038  3038 W auditd  : type=1325 audit(0.0:173): table=filter family=10 entries=6
+06-23 00:22:43.509  3038  3038 W auditd  : type=1320 audit(0.0:173): 
+06-23 00:22:43.519  3038  3038 W auditd  : type=1325 audit(0.0:174): table=filter family=2 entries=10
+06-23 00:22:43.519  3038  3038 W auditd  : type=1320 audit(0.0:174): 
+06-23 00:22:43.529  3038  3038 W auditd  : type=1325 audit(0.0:175): table=filter family=10 entries=8
+06-23 00:22:43.529  3038  3038 W auditd  : type=1320 audit(0.0:175): 
+06-23 00:22:43.577  2910  2910 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+06-23 00:22:43.577  2910  2910 F DEBUG   : CM Version: '13.0-20160622-UNOFFICIAL-hero2ltexx'
+06-23 00:22:43.577  2910  2910 F DEBUG   : Build fingerprint: 'samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30M/3e353872b8:eng/test-keys'
+06-23 00:22:43.577  2910  2910 F DEBUG   : Revision: '0'
+06-23 00:22:43.577  2910  2910 F DEBUG   : ABI: 'arm64'
+06-23 00:22:43.577  2910  2910 F DEBUG   : pid: 3366, tid: 3366, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+06-23 00:22:43.577  2910  2910 F DEBUG   : signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+06-23 00:22:43.580  2910  2910 F DEBUG   : Abort message: 'couldn't find an OpenGL ES implementation'
+06-23 00:22:43.580  2910  2910 F DEBUG   :     x0   0000000000000000  x1   0000000000000d26  x2   0000000000000006  x3   0000000000000000
+06-23 00:22:43.580  2910  2910 F DEBUG   :     x4   0000000000000000  x5   0000000000000001  x6   0000000000000000  x7   0000000000000000
+06-23 00:22:43.580  2910  2910 F DEBUG   :     x8   0000000000000083  x9   0000000000000d26  x10  0000007fb3a33044  x11  0000000000004000
+06-23 00:22:43.580  2910  2910 F DEBUG   :     x12  0000000000004001  x13  0000000000000000  x14  0000000000000001  x15  0000000000101001
+06-23 00:22:43.580  2910  2910 F DEBUG   :     x16  0000007fb378c580  x17  0000007fb371efcc  x18  0000007fb3a34000  x19  0000007fb3a350d8
+06-23 00:22:43.580  2910  2910 F DEBUG   :     x20  0000007fb3a35018  x21  0000000000000002  x22  0000000000000006  x23  0000000000000000
+06-23 00:22:43.580  2910  2910 F DEBUG   :     x24  0000000000000000  x25  0000000000000000  x26  0000000000000000  x27  0000000000000000
+06-23 00:22:43.580  2910  2910 F DEBUG   :     x28  0000000000000000  x29  0000007fda3009a0  x30  0000007fb371c768
+06-23 00:22:43.580  2910  2910 F DEBUG   :     sp   0000007fda3009a0  pc   0000007fb371efd4  pstate 0000000020000000
+06-23 00:22:43.581  3367  3367 I mediaserver: ServiceManager: 0xf61ce120
+06-23 00:22:43.581  3367  3367 I AudioFlinger: Using default 3000 mSec as standby time.
+06-23 00:22:43.581  3367  3367 E BatteryNotifier: batterystats service unavailable!
+06-23 00:22:43.581  3367  3367 E BatteryNotifier: batterystats service unavailable!
+06-23 00:22:43.581  3367  3367 I CameraService: CameraService started (pid=3367)
+06-23 00:22:43.581  3367  3367 I CameraService: CameraService process starting
+06-23 00:22:43.581  3367  3367 E BatteryNotifier: batterystats service unavailable!
+06-23 00:22:43.581  3367  3367 E BatteryNotifier: batterystats service unavailable!
+06-23 00:22:43.582  3367  3367 E CameraService: Could not load camera HAL module: -2 (No such file or directory)
+06-23 00:22:43.582  3367  3367 I AudioPolicyService: AudioPolicyService CSTOR in new mode
+06-23 00:22:43.582  3367  3367 I APM::ConfigParsingUtils: loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+06-23 00:22:43.584  2910  2910 F DEBUG   : 
+06-23 00:22:43.584  2910  2910 F DEBUG   : backtrace:
+06-23 00:22:43.584  2910  2910 F DEBUG   :     #00 pc 0000000000068fd4  /system/lib64/libc.so (tgkill+8)
+06-23 00:22:43.584  2910  2910 F DEBUG   :     #01 pc 0000000000066764  /system/lib64/libc.so (pthread_kill+68)
+06-23 00:22:43.584  2910  2910 F DEBUG   :     #02 pc 0000000000023448  /system/lib64/libc.so (raise+28)
+06-23 00:22:43.584  2910  2910 F DEBUG   :     #03 pc 000000000001dbe8  /system/lib64/libc.so (abort+60)
+06-23 00:22:43.584  2910  2910 F DEBUG   :     #04 pc 000000000000d9d4  /system/lib64/libcutils.so (__android_log_assert+236)
+06-23 00:22:43.584  2910  2910 F DEBUG   :     #05 pc 0000000000099c5c  /system/lib64/libEGL.so
+06-23 00:22:43.584  2910  2910 F DEBUG   :     #06 pc 0000000000029108  /system/lib64/libEGL.so
+06-23 00:22:43.584  2910  2910 F DEBUG   :     #07 pc 000000000002b10c  /system/lib64/libEGL.so (eglGetDisplay+24)
+06-23 00:22:43.584  2910  2910 F DEBUG   :     #08 pc 000000000002c8b4  /system/lib64/libsurfaceflinger.so (_ZN7android14SurfaceFlinger4initEv+76)
+06-23 00:22:43.585  2910  2910 F DEBUG   :     #09 pc 000000000000115c  /system/bin/surfaceflinger
+06-23 00:22:43.585  2910  2910 F DEBUG   :     #10 pc 000000000001bcd8  /system/lib64/libc.so (__libc_init+100)
+06-23 00:22:43.585  2910  2910 F DEBUG   :     #11 pc 000000000000101c  /system/bin/surfaceflinger
+06-23 00:22:43.617  2910  2910 F DEBUG   : 
+06-23 00:22:43.617  2910  2910 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_09
+06-23 00:22:43.622  2903  2903 I ServiceManager: service 'media.audio_flinger' died
+06-23 00:22:43.622  2903  2903 I ServiceManager: service 'media.player' died
+06-23 00:22:43.622  2903  2903 I ServiceManager: service 'media.resource_manager' died
+06-23 00:22:43.622  2903  2903 I ServiceManager: service 'media.camera' died
+06-23 00:22:47.657  3405  3405 I Netd    : Netd 1.0 starting
+06-23 00:22:47.657  3405  3405 I QtiConnectivityAdapter: Failed to open libconnctrl, some features may not be present.
+06-23 00:22:47.657  3405  3405 D TetherController: Setting IP forward enable = 0
+06-23 00:22:47.659  3409  3409 E McDaemon:   *****************************
+06-23 00:22:47.659  3409  3409 E McDaemon:   *** ERROR: int SecureWorld::open(): No such file or directory opening admin device
+06-23 00:22:47.659  3409  3409 E McDaemon:   *** Detected in hardware/samsung_slsi/exynos8890/mobicore/Daemon/src/SecureWorld.cpp:268()
+06-23 00:22:47.659  3409  3409 E McDaemon:   *****************************
+06-23 00:22:47.659  3038  3038 W auditd  : type=1325 audit(0.0:184): table=filter family=2 entries=12
+06-23 00:22:47.659  3038  3038 W auditd  : type=1320 audit(0.0:184): 
+06-23 00:22:47.669  3038  3038 W auditd  : type=1325 audit(0.0:185): table=filter family=10 entries=12
+06-23 00:22:47.669  3038  3038 W auditd  : type=1320 audit(0.0:185): 
+06-23 00:22:47.679  3038  3038 W auditd  : type=1325 audit(0.0:186): table=filter family=2 entries=11
+06-23 00:22:47.679  3038  3038 W auditd  : type=1320 audit(0.0:186): 
+06-23 00:22:47.696  3407  3407 I SurfaceFlinger: SurfaceFlinger is starting
+06-23 00:22:47.697  3407  3407 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+06-23 00:22:47.698  3407  3407 E libEGL  : load_driver(/vendor/lib64/egl/libGLES_mali.so): dlopen failed: library "libion.so" not found
+06-23 00:22:47.698  3407  3407 F libEGL  : couldn't find an OpenGL ES implementation
+06-23 00:22:47.698  3407  3407 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 3407 (surfaceflinger)
+06-23 00:22:47.699  2910  2910 I DEBUG   : property debug.db.uid not set; NOT waiting for gdb.
+06-23 00:22:47.699  2910  2910 I DEBUG   : HINT: adb shell setprop debug.db.uid 100000
+06-23 00:22:47.699  2910  2910 I DEBUG   : HINT: adb forward tcp:5039 tcp:5039
+06-23 00:22:47.689  3038  3038 W auditd  : type=1325 audit(0.0:187): table=filter family=10 entries=11
+06-23 00:22:47.689  3038  3038 W auditd  : type=1320 audit(0.0:187): 
+06-23 00:22:47.699  3038  3038 W auditd  : type=1325 audit(0.0:188): table=filter family=2 entries=11
+06-23 00:22:47.699  3038  3038 W auditd  : type=1320 audit(0.0:188): 
+06-23 00:22:47.709  3038  3038 W auditd  : type=1325 audit(0.0:189): table=filter family=10 entries=11
+06-23 00:22:47.709  3038  3038 W auditd  : type=1320 audit(0.0:189): 
+06-23 00:22:47.719  3038  3038 W auditd  : type=1325 audit(0.0:190): table=filter family=2 entries=9
+06-23 00:22:47.719  3038  3038 W auditd  : type=1320 audit(0.0:190): 
+06-23 00:22:47.729  3038  3038 W auditd  : type=1325 audit(0.0:191): table=filter family=10 entries=9
+06-23 00:22:47.729  3038  3038 W auditd  : type=1320 audit(0.0:191): 
+06-23 00:22:47.739  3038  3038 W auditd  : type=1325 audit(0.0:192): table=filter family=2 entries=11
+06-23 00:22:47.739  3038  3038 W auditd  : type=1320 audit(0.0:192): 
+06-23 00:22:47.750  2910  2910 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+06-23 00:22:47.750  2910  2910 F DEBUG   : CM Version: '13.0-20160622-UNOFFICIAL-hero2ltexx'
+06-23 00:22:47.750  2910  2910 F DEBUG   : Build fingerprint: 'samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30M/3e353872b8:eng/test-keys'
+06-23 00:22:47.750  2910  2910 F DEBUG   : Revision: '0'
+06-23 00:22:47.750  2910  2910 F DEBUG   : ABI: 'arm64'
+06-23 00:22:47.750  2910  2910 F DEBUG   : pid: 3407, tid: 3407, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+06-23 00:22:47.750  2910  2910 F DEBUG   : signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+06-23 00:22:47.754  2910  2910 F DEBUG   : Abort message: 'couldn't find an OpenGL ES implementation'
+06-23 00:22:47.754  2910  2910 F DEBUG   :     x0   0000000000000000  x1   0000000000000d4f  x2   0000000000000006  x3   0000000000000000
+06-23 00:22:47.754  2910  2910 F DEBUG   :     x4   0000000000000000  x5   0000000000000001  x6   0000000000000000  x7   0000000000000000
+06-23 00:22:47.754  2910  2910 F DEBUG   :     x8   0000000000000083  x9   0000000000000d4f  x10  0000007fa0a89044  x11  0000000000004000
+06-23 00:22:47.754  2910  2910 F DEBUG   :     x12  0000000000004001  x13  0000000000000000  x14  0000000000000001  x15  0000000000101001
+06-23 00:22:47.754  2910  2910 F DEBUG   :     x16  0000007fa07e2580  x17  0000007fa0774fcc  x18  0000007fa0a8a000  x19  0000007fa0a8b0d8
+06-23 00:22:47.754  2910  2910 F DEBUG   :     x20  0000007fa0a8b018  x21  0000000000000002  x22  0000000000000006  x23  0000000000000000
+06-23 00:22:47.754  2910  2910 F DEBUG   :     x24  0000000000000000  x25  0000000000000000  x26  0000000000000000  x27  0000000000000000
+06-23 00:22:47.754  2910  2910 F DEBUG   :     x28  0000000000000000  x29  0000007ff43ebc20  x30  0000007fa0772768
+06-23 00:22:47.754  2910  2910 F DEBUG   :     sp   0000007ff43ebc20  pc   0000007fa0774fd4  pstate 0000000020000000
+06-23 00:22:47.758  2910  2910 F DEBUG   : 
+06-23 00:22:47.758  2910  2910 F DEBUG   : backtrace:
+06-23 00:22:47.758  2910  2910 F DEBUG   :     #00 pc 0000000000068fd4  /system/lib64/libc.so (tgkill+8)
+06-23 00:22:47.758  2910  2910 F DEBUG   :     #01 pc 0000000000066764  /system/lib64/libc.so (pthread_kill+68)
+06-23 00:22:47.758  2910  2910 F DEBUG   :     #02 pc 0000000000023448  /system/lib64/libc.so (raise+28)
+06-23 00:22:47.758  2910  2910 F DEBUG   :     #03 pc 000000000001dbe8  /system/lib64/libc.so (abort+60)
+06-23 00:22:47.749  3038  3038 W auditd  : type=1325 audit(0.0:193): table=filter family=10 entries=11
+06-23 00:22:47.749  3038  3038 W auditd  : type=1320 audit(0.0:193): 
+06-23 00:22:47.758  2910  2910 F DEBUG   :     #04 pc 000000000000d9d4  /system/lib64/libcutils.so (__android_log_assert+236)
+06-23 00:22:47.758  2910  2910 F DEBUG   :     #05 pc 0000000000099c5c  /system/lib64/libEGL.so
+06-23 00:22:47.758  2910  2910 F DEBUG   :     #06 pc 0000000000029108  /system/lib64/libEGL.so
+06-23 00:22:47.758  2910  2910 F DEBUG   :     #07 pc 000000000002b10c  /system/lib64/libEGL.so (eglGetDisplay+24)
+06-23 00:22:47.758  2910  2910 F DEBUG   :     #08 pc 000000000002c8b4  /system/lib64/libsurfaceflinger.so (_ZN7android14SurfaceFlinger4initEv+76)
+06-23 00:22:47.758  2910  2910 F DEBUG   :     #09 pc 000000000000115c  /system/bin/surfaceflinger
+06-23 00:22:47.758  2910  2910 F DEBUG   :     #10 pc 000000000001bcd8  /system/lib64/libc.so (__libc_init+100)
+06-23 00:22:47.758  2910  2910 F DEBUG   :     #11 pc 000000000000101c  /system/bin/surfaceflinger
+06-23 00:22:47.792  2910  2910 F DEBUG   : 
+06-23 00:22:47.792  2910  2910 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_00
+06-23 00:22:52.832  3438  3438 E McDaemon:   *****************************
+06-23 00:22:52.832  3438  3438 E McDaemon:   *** ERROR: int SecureWorld::open(): No such file or directory opening admin device
+06-23 00:22:52.832  3438  3438 E McDaemon:   *** Detected in hardware/samsung_slsi/exynos8890/mobicore/Daemon/src/SecureWorld.cpp:268()
+06-23 00:22:52.832  3438  3438 E McDaemon:   *****************************
+06-23 00:22:52.834  3434  3434 I Netd    : Netd 1.0 starting
+06-23 00:22:52.834  3434  3434 I QtiConnectivityAdapter: Failed to open libconnctrl, some features may not be present.
+06-23 00:22:52.834  3434  3434 D TetherController: Setting IP forward enable = 0
+06-23 00:22:52.839  3038  3038 W auditd  : type=1325 audit(0.0:198): table=filter family=2 entries=11
+06-23 00:22:52.839  3038  3038 W auditd  : type=1320 audit(0.0:198): 
+06-23 00:22:52.859  3038  3038 W auditd  : type=1325 audit(0.0:199): table=filter family=10 entries=11
+06-23 00:22:52.859  3038  3038 W auditd  : type=1320 audit(0.0:199): 
+06-23 00:22:52.864  3436  3436 I SurfaceFlinger: SurfaceFlinger is starting
+06-23 00:22:52.873  3436  3436 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+06-23 00:22:52.869  3038  3038 W auditd  : type=1325 audit(0.0:200): table=filter family=2 entries=10
+06-23 00:22:52.869  3038  3038 W auditd  : type=1320 audit(0.0:200): 
+06-23 00:22:52.874  3436  3436 E libEGL  : load_driver(/vendor/lib64/egl/libGLES_mali.so): dlopen failed: library "libion.so" not found
+06-23 00:22:52.874  3436  3436 F libEGL  : couldn't find an OpenGL ES implementation
+06-23 00:22:52.875  3436  3436 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 3436 (surfaceflinger)
+06-23 00:22:52.875  2910  2910 I DEBUG   : property debug.db.uid not set; NOT waiting for gdb.
+06-23 00:22:52.875  2910  2910 I DEBUG   : HINT: adb shell setprop debug.db.uid 100000
+06-23 00:22:52.875  2910  2910 I DEBUG   : HINT: adb forward tcp:5039 tcp:5039
+06-23 00:22:52.879  3038  3038 W auditd  : type=1325 audit(0.0:201): table=filter family=10 entries=10
+06-23 00:22:52.879  3038  3038 W auditd  : type=1320 audit(0.0:201): 
+06-23 00:22:52.879  3038  3038 W auditd  : type=1325 audit(0.0:202): table=filter family=2 entries=10
+06-23 00:22:52.879  3038  3038 W auditd  : type=1320 audit(0.0:202): 
+06-23 00:22:52.889  3038  3038 W auditd  : type=1325 audit(0.0:203): table=filter family=10 entries=10
+06-23 00:22:52.889  3038  3038 W auditd  : type=1320 audit(0.0:203): 
+06-23 00:22:52.899  3038  3038 W auditd  : type=1325 audit(0.0:204): table=filter family=2 entries=8
+06-23 00:22:52.899  3038  3038 W auditd  : type=1320 audit(0.0:204): 
+06-23 00:22:52.909  3038  3038 W auditd  : type=1325 audit(0.0:205): table=filter family=10 entries=8
+06-23 00:22:52.909  3038  3038 W auditd  : type=1320 audit(0.0:205): 
+06-23 00:22:52.919  3038  3038 W auditd  : type=1325 audit(0.0:206): table=filter family=2 entries=10
+06-23 00:22:52.919  3038  3038 W auditd  : type=1320 audit(0.0:206): 
+06-23 00:22:52.929  3038  3038 W auditd  : type=1325 audit(0.0:207): table=filter family=10 entries=10
+06-23 00:22:52.929  3038  3038 W auditd  : type=1320 audit(0.0:207): 
+06-23 00:22:52.976  2910  2910 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+06-23 00:22:52.976  2910  2910 F DEBUG   : CM Version: '13.0-20160622-UNOFFICIAL-hero2ltexx'
+06-23 00:22:52.976  2910  2910 F DEBUG   : Build fingerprint: 'samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30M/3e353872b8:eng/test-keys'
+06-23 00:22:52.976  2910  2910 F DEBUG   : Revision: '0'
+06-23 00:22:52.976  2910  2910 F DEBUG   : ABI: 'arm64'
+06-23 00:22:52.976  2910  2910 F DEBUG   : pid: 3436, tid: 3436, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+06-23 00:22:52.976  2910  2910 F DEBUG   : signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+06-23 00:22:52.979  2910  2910 F DEBUG   : Abort message: 'couldn't find an OpenGL ES implementation'
+06-23 00:22:52.979  2910  2910 F DEBUG   :     x0   0000000000000000  x1   0000000000000d6c  x2   0000000000000006  x3   0000000000000000
+06-23 00:22:52.979  2910  2910 F DEBUG   :     x4   0000000000000000  x5   0000000000000001  x6   0000000000000000  x7   0000000000000000
+06-23 00:22:52.979  2910  2910 F DEBUG   :     x8   0000000000000083  x9   0000000000000d6c  x10  0000007f9b17d044  x11  0000000000004000
+06-23 00:22:52.979  2910  2910 F DEBUG   :     x12  0000000000004001  x13  0000000000000000  x14  0000000000000001  x15  0000000000101001
+06-23 00:22:52.979  2910  2910 F DEBUG   :     x16  0000007f9aed6580  x17  0000007f9ae68fcc  x18  0000007f9b17e000  x19  0000007f9b17f0d8
+06-23 00:22:52.979  2910  2910 F DEBUG   :     x20  0000007f9b17f018  x21  0000000000000002  x22  0000000000000006  x23  0000000000000000
+06-23 00:22:52.979  2910  2910 F DEBUG   :     x24  0000000000000000  x25  0000000000000000  x26  0000000000000000  x27  0000000000000000
+06-23 00:22:52.979  2910  2910 F DEBUG   :     x28  0000000000000000  x29  0000007ffefadaa0  x30  0000007f9ae66768
+06-23 00:22:52.980  2910  2910 F DEBUG   :     sp   0000007ffefadaa0  pc   0000007f9ae68fd4  pstate 0000000020000000
+06-23 00:22:52.981  3437  3437 I mediaserver: ServiceManager: 0xf624e120
+06-23 00:22:52.981  3437  3437 I AudioFlinger: Using default 3000 mSec as standby time.
+06-23 00:22:52.981  3437  3437 E BatteryNotifier: batterystats service unavailable!
+06-23 00:22:52.981  3437  3437 E BatteryNotifier: batterystats service unavailable!
+06-23 00:22:52.982  3437  3437 I CameraService: CameraService started (pid=3437)
+06-23 00:22:52.982  3437  3437 I CameraService: CameraService process starting
+06-23 00:22:52.982  3437  3437 E BatteryNotifier: batterystats service unavailable!
+06-23 00:22:52.982  3437  3437 E BatteryNotifier: batterystats service unavailable!
+06-23 00:22:52.982  3437  3437 E CameraService: Could not load camera HAL module: -2 (No such file or directory)
+06-23 00:22:52.982  3437  3437 I AudioPolicyService: AudioPolicyService CSTOR in new mode
+06-23 00:22:52.982  3437  3437 I APM::ConfigParsingUtils: loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+06-23 00:22:52.984  2910  2910 F DEBUG   : 
+06-23 00:22:52.984  2910  2910 F DEBUG   : backtrace:
+06-23 00:22:52.984  2910  2910 F DEBUG   :     #00 pc 0000000000068fd4  /system/lib64/libc.so (tgkill+8)
+06-23 00:22:52.984  2910  2910 F DEBUG   :     #01 pc 0000000000066764  /system/lib64/libc.so (pthread_kill+68)
+06-23 00:22:52.984  2910  2910 F DEBUG   :     #02 pc 0000000000023448  /system/lib64/libc.so (raise+28)
+06-23 00:22:52.984  2910  2910 F DEBUG   :     #03 pc 000000000001dbe8  /system/lib64/libc.so (abort+60)
+06-23 00:22:52.984  2910  2910 F DEBUG   :     #04 pc 000000000000d9d4  /system/lib64/libcutils.so (__android_log_assert+236)
+06-23 00:22:52.984  2910  2910 F DEBUG   :     #05 pc 0000000000099c5c  /system/lib64/libEGL.so
+06-23 00:22:52.984  2910  2910 F DEBUG   :     #06 pc 0000000000029108  /system/lib64/libEGL.so
+06-23 00:22:52.984  2910  2910 F DEBUG   :     #07 pc 000000000002b10c  /system/lib64/libEGL.so (eglGetDisplay+24)
+06-23 00:22:52.984  2910  2910 F DEBUG   :     #08 pc 000000000002c8b4  /system/lib64/libsurfaceflinger.so (_ZN7android14SurfaceFlinger4initEv+76)
+06-23 00:22:52.984  2910  2910 F DEBUG   :     #09 pc 000000000000115c  /system/bin/surfaceflinger
+06-23 00:22:52.984  2910  2910 F DEBUG   :     #10 pc 000000000001bcd8  /system/lib64/libc.so (__libc_init+100)
+06-23 00:22:52.984  2910  2910 F DEBUG   :     #11 pc 000000000000101c  /system/bin/surfaceflinger
+06-23 00:22:53.017  2910  2910 F DEBUG   : 
+06-23 00:22:53.017  2910  2910 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_01
+06-23 00:22:53.023  2903  2903 I ServiceManager: service 'media.audio_flinger' died
+06-23 00:22:53.023  2903  2903 I ServiceManager: service 'media.player' died
+06-23 00:22:53.023  2903  2903 I ServiceManager: service 'media.resource_manager' died
+06-23 00:22:53.023  2903  2903 I ServiceManager: service 'media.camera' died
+06-23 00:22:58.059  3471  3471 I Netd    : Netd 1.0 starting
+06-23 00:22:58.059  3471  3471 I QtiConnectivityAdapter: Failed to open libconnctrl, some features may not be present.
+06-23 00:22:58.059  3471  3471 D TetherController: Setting IP forward enable = 0
+06-23 00:22:58.064  3475  3475 E McDaemon:   *****************************
+06-23 00:22:58.064  3475  3475 E McDaemon:   *** ERROR: int SecureWorld::open(): No such file or directory opening admin device
+06-23 00:22:58.064  3475  3475 E McDaemon:   *** Detected in hardware/samsung_slsi/exynos8890/mobicore/Daemon/src/SecureWorld.cpp:268()
+06-23 00:22:58.064  3475  3475 E McDaemon:   *****************************
+06-23 00:22:58.069  3038  3038 W auditd  : type=1325 audit(0.0:216): table=filter family=2 entries=12
+06-23 00:22:58.069  3038  3038 W auditd  : type=1320 audit(0.0:216): 
+06-23 00:22:58.069  3038  3038 W auditd  : type=1325 audit(0.0:217): table=filter family=10 entries=11
+06-23 00:22:58.069  3038  3038 W auditd  : type=1320 audit(0.0:217): 
+06-23 00:22:58.079  3038  3038 W auditd  : type=1325 audit(0.0:218): table=filter family=2 entries=11
+06-23 00:22:58.079  3038  3038 W auditd  : type=1320 audit(0.0:218): 
+06-23 00:22:58.089  3038  3038 W auditd  : type=1325 audit(0.0:219): table=filter family=10 entries=10
+06-23 00:22:58.089  3038  3038 W auditd  : type=1320 audit(0.0:219): 
+06-23 00:22:58.099  3038  3038 W auditd  : type=1325 audit(0.0:220): table=filter family=2 entries=11
+06-23 00:22:58.099  3038  3038 W auditd  : type=1320 audit(0.0:220): 
+06-23 00:22:58.112  3473  3473 I SurfaceFlinger: SurfaceFlinger is starting
+06-23 00:22:58.112  3473  3473 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+06-23 00:22:58.114  3473  3473 E libEGL  : load_driver(/vendor/lib64/egl/libGLES_mali.so): dlopen failed: library "libion.so" not found
+06-23 00:22:58.114  3473  3473 F libEGL  : couldn't find an OpenGL ES implementation
+06-23 00:22:58.114  3473  3473 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 3473 (surfaceflinger)
+06-23 00:22:58.114  2910  2910 I DEBUG   : property debug.db.uid not set; NOT waiting for gdb.
+06-23 00:22:58.114  2910  2910 I DEBUG   : HINT: adb shell setprop debug.db.uid 100000
+06-23 00:22:58.114  2910  2910 I DEBUG   : HINT: adb forward tcp:5039 tcp:5039
+06-23 00:22:58.119  3038  3038 W auditd  : type=1325 audit(0.0:221): table=filter family=10 entries=10
+06-23 00:22:58.119  3038  3038 W auditd  : type=1320 audit(0.0:221): 
+06-23 00:22:58.129  3038  3038 W auditd  : type=1325 audit(0.0:222): table=filter family=2 entries=9
+06-23 00:22:58.129  3038  3038 W auditd  : type=1320 audit(0.0:222): 
+06-23 00:22:58.139  3038  3038 W auditd  : type=1325 audit(0.0:223): table=filter family=10 entries=8
+06-23 00:22:58.139  3038  3038 W auditd  : type=1320 audit(0.0:223): 
+06-23 00:22:58.149  3038  3038 W auditd  : type=1325 audit(0.0:224): table=filter family=2 entries=11
+06-23 00:22:58.149  3038  3038 W auditd  : type=1320 audit(0.0:224): 
+06-23 00:22:58.159  3038  3038 W auditd  : type=1325 audit(0.0:225): table=filter family=10 entries=10
+06-23 00:22:58.159  3038  3038 W auditd  : type=1320 audit(0.0:225): 
+06-23 00:22:58.215  2910  2910 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+06-23 00:22:58.215  2910  2910 F DEBUG   : CM Version: '13.0-20160622-UNOFFICIAL-hero2ltexx'
+06-23 00:22:58.215  2910  2910 F DEBUG   : Build fingerprint: 'samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30M/3e353872b8:eng/test-keys'
+06-23 00:22:58.215  2910  2910 F DEBUG   : Revision: '0'
+06-23 00:22:58.215  2910  2910 F DEBUG   : ABI: 'arm64'
+06-23 00:22:58.216  2910  2910 F DEBUG   : pid: 3473, tid: 3473, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+06-23 00:22:58.216  2910  2910 F DEBUG   : signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+06-23 00:22:58.220  2910  2910 F DEBUG   : Abort message: 'couldn't find an OpenGL ES implementation'
+06-23 00:22:58.220  2910  2910 F DEBUG   :     x0   0000000000000000  x1   0000000000000d91  x2   0000000000000006  x3   0000000000000000
+06-23 00:22:58.220  2910  2910 F DEBUG   :     x4   0000000000000000  x5   0000000000000001  x6   0000000000000000  x7   0000000000000000
+06-23 00:22:58.220  2910  2910 F DEBUG   :     x8   0000000000000083  x9   0000000000000d91  x10  0000007faaee7044  x11  0000000000004000
+06-23 00:22:58.220  2910  2910 F DEBUG   :     x12  0000000000004001  x13  0000000000000000  x14  0000000000000001  x15  0000000000101001
+06-23 00:22:58.220  2910  2910 F DEBUG   :     x16  0000007faac40580  x17  0000007faabd2fcc  x18  0000007faaee8000  x19  0000007faaee90d8
+06-23 00:22:58.220  2910  2910 F DEBUG   :     x20  0000007faaee9018  x21  0000000000000002  x22  0000000000000006  x23  0000000000000000
+06-23 00:22:58.220  2910  2910 F DEBUG   :     x24  0000000000000000  x25  0000000000000000  x26  0000000000000000  x27  0000000000000000
+06-23 00:22:58.220  2910  2910 F DEBUG   :     x28  0000000000000000  x29  0000007feda22720  x30  0000007faabd0768
+06-23 00:22:58.220  2910  2910 F DEBUG   :     sp   0000007feda22720  pc   0000007faabd2fd4  pstate 0000000020000000
+06-23 00:22:58.224  2910  2910 F DEBUG   : 
+06-23 00:22:58.224  2910  2910 F DEBUG   : backtrace:
+06-23 00:22:58.224  2910  2910 F DEBUG   :     #00 pc 0000000000068fd4  /system/lib64/libc.so (tgkill+8)
+06-23 00:22:58.224  2910  2910 F DEBUG   :     #01 pc 0000000000066764  /system/lib64/libc.so (pthread_kill+68)
+06-23 00:22:58.224  2910  2910 F DEBUG   :     #02 pc 0000000000023448  /system/lib64/libc.so (raise+28)
+06-23 00:22:58.225  2910  2910 F DEBUG   :     #03 pc 000000000001dbe8  /system/lib64/libc.so (abort+60)
+06-23 00:22:58.225  2910  2910 F DEBUG   :     #04 pc 000000000000d9d4  /system/lib64/libcutils.so (__android_log_assert+236)
+06-23 00:22:58.225  2910  2910 F DEBUG   :     #05 pc 0000000000099c5c  /system/lib64/libEGL.so
+06-23 00:22:58.225  2910  2910 F DEBUG   :     #06 pc 0000000000029108  /system/lib64/libEGL.so
+06-23 00:22:58.225  2910  2910 F DEBUG   :     #07 pc 000000000002b10c  /system/lib64/libEGL.so (eglGetDisplay+24)
+06-23 00:22:58.225  2910  2910 F DEBUG   :     #08 pc 000000000002c8b4  /system/lib64/libsurfaceflinger.so (_ZN7android14SurfaceFlinger4initEv+76)
+06-23 00:22:58.225  2910  2910 F DEBUG   :     #09 pc 000000000000115c  /system/bin/surfaceflinger
+06-23 00:22:58.225  2910  2910 F DEBUG   :     #10 pc 000000000001bcd8  /system/lib64/libc.so (__libc_init+100)
+06-23 00:22:58.225  2910  2910 F DEBUG   :     #11 pc 000000000000101c  /system/bin/surfaceflinger
+06-23 00:22:58.230  3474  3474 I mediaserver: ServiceManager: 0xf62ce120
+06-23 00:22:58.230  3474  3474 I AudioFlinger: Using default 3000 mSec as standby time.
+06-23 00:22:58.230  3474  3474 E BatteryNotifier: batterystats service unavailable!
+06-23 00:22:58.230  3474  3474 E BatteryNotifier: batterystats service unavailable!
+06-23 00:22:58.230  3474  3474 I CameraService: CameraService started (pid=3474)
+06-23 00:22:58.230  3474  3474 I CameraService: CameraService process starting
+06-23 00:22:58.231  3474  3474 E BatteryNotifier: batterystats service unavailable!
+06-23 00:22:58.234  3474  3474 E BatteryNotifier: batterystats service unavailable!
+06-23 00:22:58.235  3474  3474 E CameraService: Could not load camera HAL module: -2 (No such file or directory)
+06-23 00:22:58.235  3474  3474 I AudioPolicyService: AudioPolicyService CSTOR in new mode
+06-23 00:22:58.235  3474  3474 I APM::ConfigParsingUtils: loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+06-23 00:22:58.261  2910  2910 F DEBUG   : 
+06-23 00:22:58.261  2910  2910 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_02
+06-23 00:22:58.266  2903  2903 I ServiceManager: service 'media.audio_flinger' died
+06-23 00:22:58.267  2903  2903 I ServiceManager: service 'media.player' died
+06-23 00:22:58.267  2903  2903 I ServiceManager: service 'media.resource_manager' died
+06-23 00:22:58.267  2903  2903 I ServiceManager: service 'media.camera' died
+06-23 00:23:03.301  3513  3513 E McDaemon:   *****************************
+06-23 00:23:03.301  3513  3513 E McDaemon:   *** ERROR: int SecureWorld::open(): No such file or directory opening admin device
+06-23 00:23:03.301  3513  3513 E McDaemon:   *** Detected in hardware/samsung_slsi/exynos8890/mobicore/Daemon/src/SecureWorld.cpp:268()
+06-23 00:23:03.301  3513  3513 E McDaemon:   *****************************
+06-23 00:23:03.304  3509  3509 I Netd    : Netd 1.0 starting
+06-23 00:23:03.304  3509  3509 I QtiConnectivityAdapter: Failed to open libconnctrl, some features may not be present.
+06-23 00:23:03.304  3509  3509 D TetherController: Setting IP forward enable = 0
+06-23 00:23:03.309  3038  3038 W auditd  : type=1325 audit(0.0:236): table=filter family=2 entries=12
+06-23 00:23:03.309  3038  3038 W auditd  : type=1320 audit(0.0:236): 
+06-23 00:23:03.327  3511  3511 I SurfaceFlinger: SurfaceFlinger is starting
+06-23 00:23:03.327  3511  3511 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+06-23 00:23:03.319  3038  3038 W auditd  : type=1325 audit(0.0:237): table=filter family=10 entries=12
+06-23 00:23:03.319  3038  3038 W auditd  : type=1320 audit(0.0:237): 
+06-23 00:23:03.336  3511  3511 E libEGL  : load_driver(/vendor/lib64/egl/libGLES_mali.so): dlopen failed: library "libion.so" not found
+06-23 00:23:03.336  3511  3511 F libEGL  : couldn't find an OpenGL ES implementation
+06-23 00:23:03.336  3511  3511 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 3511 (surfaceflinger)
+06-23 00:23:03.336  2910  2910 I DEBUG   : property debug.db.uid not set; NOT waiting for gdb.
+06-23 00:23:03.336  2910  2910 I DEBUG   : HINT: adb shell setprop debug.db.uid 100000
+06-23 00:23:03.336  2910  2910 I DEBUG   : HINT: adb forward tcp:5039 tcp:5039
+06-23 00:23:03.329  3038  3038 W auditd  : type=1325 audit(0.0:238): table=filter family=2 entries=11
+06-23 00:23:03.329  3038  3038 W auditd  : type=1320 audit(0.0:238): 
+06-23 00:23:03.349  3038  3038 W auditd  : type=1325 audit(0.0:239): table=filter family=10 entries=11
+06-23 00:23:03.349  3038  3038 W auditd  : type=1320 audit(0.0:239): 
+06-23 00:23:03.369  3038  3038 W auditd  : type=1325 audit(0.0:240): table=filter family=2 entries=11
+06-23 00:23:03.369  3038  3038 W auditd  : type=1320 audit(0.0:240): 
+06-23 00:23:03.379  3038  3038 W auditd  : type=1325 audit(0.0:241): table=filter family=10 entries=11
+06-23 00:23:03.379  3038  3038 W auditd  : type=1320 audit(0.0:241): 
+06-23 00:23:03.392  2910  2910 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+06-23 00:23:03.392  2910  2910 F DEBUG   : CM Version: '13.0-20160622-UNOFFICIAL-hero2ltexx'
+06-23 00:23:03.392  2910  2910 F DEBUG   : Build fingerprint: 'samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30M/3e353872b8:eng/test-keys'
+06-23 00:23:03.392  2910  2910 F DEBUG   : Revision: '0'
+06-23 00:23:03.392  2910  2910 F DEBUG   : ABI: 'arm64'
+06-23 00:23:03.393  2910  2910 F DEBUG   : pid: 3511, tid: 3511, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+06-23 00:23:03.393  2910  2910 F DEBUG   : signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+06-23 00:23:03.397  2910  2910 F DEBUG   : Abort message: 'couldn't find an OpenGL ES implementation'
+06-23 00:23:03.397  2910  2910 F DEBUG   :     x0   0000000000000000  x1   0000000000000db7  x2   0000000000000006  x3   0000000000000000
+06-23 00:23:03.397  2910  2910 F DEBUG   :     x4   0000000000000000  x5   0000000000000001  x6   0000000000000000  x7   0000000000000000
+06-23 00:23:03.397  2910  2910 F DEBUG   :     x8   0000000000000083  x9   0000000000000db7  x10  0000007f96c33044  x11  0000000000004000
+06-23 00:23:03.397  2910  2910 F DEBUG   :     x12  0000000000004001  x13  0000000000000000  x14  0000000000000001  x15  0000000000101001
+06-23 00:23:03.397  2910  2910 F DEBUG   :     x16  0000007f9698c580  x17  0000007f9691efcc  x18  0000007f96c34000  x19  0000007f96c350d8
+06-23 00:23:03.397  2910  2910 F DEBUG   :     x20  0000007f96c35018  x21  0000000000000002  x22  0000000000000006  x23  0000000000000000
+06-23 00:23:03.397  2910  2910 F DEBUG   :     x24  0000000000000000  x25  0000000000000000  x26  0000000000000000  x27  0000000000000000
+06-23 00:23:03.397  2910  2910 F DEBUG   :     x28  0000000000000000  x29  0000007fed151600  x30  0000007f9691c768
+06-23 00:23:03.397  2910  2910 F DEBUG   :     sp   0000007fed151600  pc   0000007f9691efd4  pstate 0000000020000000
+06-23 00:23:03.401  2910  2910 F DEBUG   : 
+06-23 00:23:03.401  2910  2910 F DEBUG   : backtrace:
+06-23 00:23:03.401  2910  2910 F DEBUG   :     #00 pc 0000000000068fd4  /system/lib64/libc.so (tgkill+8)
+06-23 00:23:03.401  2910  2910 F DEBUG   :     #01 pc 0000000000066764  /system/lib64/libc.so (pthread_kill+68)
+06-23 00:23:03.401  2910  2910 F DEBUG   :     #02 pc 0000000000023448  /system/lib64/libc.so (raise+28)
+06-23 00:23:03.401  2910  2910 F DEBUG   :     #03 pc 000000000001dbe8  /system/lib64/libc.so (abort+60)
+06-23 00:23:03.401  2910  2910 F DEBUG   :     #04 pc 000000000000d9d4  /system/lib64/libcutils.so (__android_log_assert+236)
+06-23 00:23:03.401  2910  2910 F DEBUG   :     #05 pc 0000000000099c5c  /system/lib64/libEGL.so
+06-23 00:23:03.401  2910  2910 F DEBUG   :     #06 pc 0000000000029108  /system/lib64/libEGL.so
+06-23 00:23:03.401  2910  2910 F DEBUG   :     #07 pc 000000000002b10c  /system/lib64/libEGL.so (eglGetDisplay+24)
+06-23 00:23:03.401  2910  2910 F DEBUG   :     #08 pc 000000000002c8b4  /system/lib64/libsurfaceflinger.so (_ZN7android14SurfaceFlinger4initEv+76)
+06-23 00:23:03.402  2910  2910 F DEBUG   :     #09 pc 000000000000115c  /system/bin/surfaceflinger
+06-23 00:23:03.402  2910  2910 F DEBUG   :     #10 pc 000000000001bcd8  /system/lib64/libc.so (__libc_init+100)
+06-23 00:23:03.402  2910  2910 F DEBUG   :     #11 pc 000000000000101c  /system/bin/surfaceflinger
+06-23 00:23:03.399  3038  3038 W auditd  : type=1325 audit(0.0:242): table=filter family=2 entries=9
+06-23 00:23:03.399  3038  3038 W auditd  : type=1320 audit(0.0:242): 
+06-23 00:23:03.409  3038  3038 W auditd  : type=1325 audit(0.0:243): table=filter family=10 entries=9
+06-23 00:23:03.409  3038  3038 W auditd  : type=1320 audit(0.0:243): 
+06-23 00:23:03.419  3038  3038 W auditd  : type=1325 audit(0.0:244): table=filter family=2 entries=11
+06-23 00:23:03.419  3038  3038 W auditd  : type=1320 audit(0.0:244): 
+06-23 00:23:03.429  3038  3038 W auditd  : type=1325 audit(0.0:245): table=filter family=10 entries=11
+06-23 00:23:03.429  3038  3038 W auditd  : type=1320 audit(0.0:245): 
+06-23 00:23:03.438  2910  2910 F DEBUG   : 
+06-23 00:23:03.438  2910  2910 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_03
+06-23 00:23:07.460  3536  3536 E McDaemon:   *****************************
+06-23 00:23:07.460  3536  3536 E McDaemon:   *** ERROR: int SecureWorld::open(): No such file or directory opening admin device
+06-23 00:23:07.460  3536  3536 E McDaemon:   *** Detected in hardware/samsung_slsi/exynos8890/mobicore/Daemon/src/SecureWorld.cpp:268()
+06-23 00:23:07.460  3536  3536 E McDaemon:   *****************************
+06-23 00:23:07.474  3532  3532 I Netd    : Netd 1.0 starting
+06-23 00:23:07.474  3532  3532 I QtiConnectivityAdapter: Failed to open libconnctrl, some features may not be present.
+06-23 00:23:07.474  3532  3532 D TetherController: Setting IP forward enable = 0
+06-23 00:23:07.479  3038  3038 W auditd  : type=1325 audit(0.0:247): table=filter family=2 entries=12
+06-23 00:23:07.479  3038  3038 W auditd  : type=1320 audit(0.0:247): 
+06-23 00:23:07.495  3534  3534 I SurfaceFlinger: SurfaceFlinger is starting
+06-23 00:23:07.496  3534  3534 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+06-23 00:23:07.497  3534  3534 E libEGL  : load_driver(/vendor/lib64/egl/libGLES_mali.so): dlopen failed: library "libion.so" not found
+06-23 00:23:07.498  3534  3534 F libEGL  : couldn't find an OpenGL ES implementation
+06-23 00:23:07.498  3534  3534 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 3534 (surfaceflinger)
+06-23 00:23:07.498  2910  2910 I DEBUG   : property debug.db.uid not set; NOT waiting for gdb.
+06-23 00:23:07.498  2910  2910 I DEBUG   : HINT: adb shell setprop debug.db.uid 100000
+06-23 00:23:07.498  2910  2910 I DEBUG   : HINT: adb forward tcp:5039 tcp:5039
+06-23 00:23:07.489  3038  3038 W auditd  : type=1325 audit(0.0:248): table=filter family=10 entries=12
+06-23 00:23:07.489  3038  3038 W auditd  : type=1320 audit(0.0:248): 
+06-23 00:23:07.499  3038  3038 W auditd  : type=1325 audit(0.0:249): table=filter family=2 entries=11
+06-23 00:23:07.499  3038  3038 W auditd  : type=1320 audit(0.0:249): 
+06-23 00:23:07.509  3038  3038 W auditd  : type=1325 audit(0.0:250): table=filter family=10 entries=11
+06-23 00:23:07.509  3038  3038 W auditd  : type=1320 audit(0.0:250): 
+06-23 00:23:07.519  3038  3038 W auditd  : type=1325 audit(0.0:251): table=filter family=2 entries=11
+06-23 00:23:07.519  3038  3038 W auditd  : type=1320 audit(0.0:251): 
+06-23 00:23:07.529  3038  3038 W auditd  : type=1325 audit(0.0:252): table=filter family=10 entries=11
+06-23 00:23:07.529  3038  3038 W auditd  : type=1320 audit(0.0:252): 
+06-23 00:23:07.539  3038  3038 W auditd  : type=1325 audit(0.0:253): table=filter family=2 entries=9
+06-23 00:23:07.539  3038  3038 W auditd  : type=1320 audit(0.0:253): 
+06-23 00:23:07.549  3038  3038 W auditd  : type=1325 audit(0.0:254): table=filter family=10 entries=9
+06-23 00:23:07.549  3038  3038 W auditd  : type=1320 audit(0.0:254): 
+06-23 00:23:07.559  3038  3038 W auditd  : type=1325 audit(0.0:255): table=filter family=2 entries=11
+06-23 00:23:07.559  3038  3038 W auditd  : type=1320 audit(0.0:255): 
+06-23 00:23:07.569  3038  3038 W auditd  : type=1325 audit(0.0:256): table=filter family=10 entries=11
+06-23 00:23:07.569  3038  3038 W auditd  : type=1320 audit(0.0:256): 
+06-23 00:23:07.599  2910  2910 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+06-23 00:23:07.599  2910  2910 F DEBUG   : CM Version: '13.0-20160622-UNOFFICIAL-hero2ltexx'
+06-23 00:23:07.599  2910  2910 F DEBUG   : Build fingerprint: 'samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30M/3e353872b8:eng/test-keys'
+06-23 00:23:07.599  2910  2910 F DEBUG   : Revision: '0'
+06-23 00:23:07.599  2910  2910 F DEBUG   : ABI: 'arm64'
+06-23 00:23:07.599  2910  2910 F DEBUG   : pid: 3534, tid: 3534, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+06-23 00:23:07.599  2910  2910 F DEBUG   : signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+06-23 00:23:07.603  2910  2910 F DEBUG   : Abort message: 'couldn't find an OpenGL ES implementation'
+06-23 00:23:07.603  2910  2910 F DEBUG   :     x0   0000000000000000  x1   0000000000000dce  x2   0000000000000006  x3   0000000000000000
+06-23 00:23:07.603  2910  2910 F DEBUG   :     x4   0000000000000000  x5   0000000000000001  x6   0000000000000000  x7   0000000000000000
+06-23 00:23:07.603  2910  2910 F DEBUG   :     x8   0000000000000083  x9   0000000000000dce  x10  0000007fb41dd044  x11  0000000000004000
+06-23 00:23:07.603  2910  2910 F DEBUG   :     x12  0000000000004001  x13  0000000000000000  x14  0000000000000001  x15  0000000000101001
+06-23 00:23:07.603  2910  2910 F DEBUG   :     x16  0000007fb3f36580  x17  0000007fb3ec8fcc  x18  0000007fb41de000  x19  0000007fb41df0d8
+06-23 00:23:07.603  2910  2910 F DEBUG   :     x20  0000007fb41df018  x21  0000000000000002  x22  0000000000000006  x23  0000000000000000
+06-23 00:23:07.603  2910  2910 F DEBUG   :     x24  0000000000000000  x25  0000000000000000  x26  0000000000000000  x27  0000000000000000
+06-23 00:23:07.603  2910  2910 F DEBUG   :     x28  0000000000000000  x29  0000007fc5a8c0b0  x30  0000007fb3ec6768
+06-23 00:23:07.603  2910  2910 F DEBUG   :     sp   0000007fc5a8c0b0  pc   0000007fb3ec8fd4  pstate 0000000020000000
+06-23 00:23:07.607  2910  2910 F DEBUG   : 
+06-23 00:23:07.607  2910  2910 F DEBUG   : backtrace:
+06-23 00:23:07.607  2910  2910 F DEBUG   :     #00 pc 0000000000068fd4  /system/lib64/libc.so (tgkill+8)
+06-23 00:23:07.607  2910  2910 F DEBUG   :     #01 pc 0000000000066764  /system/lib64/libc.so (pthread_kill+68)
+06-23 00:23:07.607  2910  2910 F DEBUG   :     #02 pc 0000000000023448  /system/lib64/libc.so (raise+28)
+06-23 00:23:07.607  2910  2910 F DEBUG   :     #03 pc 000000000001dbe8  /system/lib64/libc.so (abort+60)
+06-23 00:23:07.607  2910  2910 F DEBUG   :     #04 pc 000000000000d9d4  /system/lib64/libcutils.so (__android_log_assert+236)
+06-23 00:23:07.607  2910  2910 F DEBUG   :     #05 pc 0000000000099c5c  /system/lib64/libEGL.so
+06-23 00:23:07.607  2910  2910 F DEBUG   :     #06 pc 0000000000029108  /system/lib64/libEGL.so
+06-23 00:23:07.607  2910  2910 F DEBUG   :     #07 pc 000000000002b10c  /system/lib64/libEGL.so (eglGetDisplay+24)
+06-23 00:23:07.607  2910  2910 F DEBUG   :     #08 pc 000000000002c8b4  /system/lib64/libsurfaceflinger.so (_ZN7android14SurfaceFlinger4initEv+76)
+06-23 00:23:07.607  2910  2910 F DEBUG   :     #09 pc 000000000000115c  /system/bin/surfaceflinger
+06-23 00:23:07.607  2910  2910 F DEBUG   :     #10 pc 000000000001bcd8  /system/lib64/libc.so (__libc_init+100)
+06-23 00:23:07.607  2910  2910 F DEBUG   :     #11 pc 000000000000101c  /system/bin/surfaceflinger
+06-23 00:23:07.623  3535  3535 I mediaserver: ServiceManager: 0xf620e120
+06-23 00:23:07.623  3535  3535 I AudioFlinger: Using default 3000 mSec as standby time.
+06-23 00:23:07.623  3535  3535 E BatteryNotifier: batterystats service unavailable!
+06-23 00:23:07.623  3535  3535 E BatteryNotifier: batterystats service unavailable!
+06-23 00:23:07.623  3535  3535 I CameraService: CameraService started (pid=3535)
+06-23 00:23:07.623  3535  3535 I CameraService: CameraService process starting
+06-23 00:23:07.624  3535  3535 E BatteryNotifier: batterystats service unavailable!
+06-23 00:23:07.624  3535  3535 E BatteryNotifier: batterystats service unavailable!
+06-23 00:23:07.624  3535  3535 E CameraService: Could not load camera HAL module: -2 (No such file or directory)
+06-23 00:23:07.624  3535  3535 I AudioPolicyService: AudioPolicyService CSTOR in new mode
+06-23 00:23:07.624  3535  3535 I APM::ConfigParsingUtils: loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+06-23 00:23:07.641  2910  2910 F DEBUG   : 
+06-23 00:23:07.641  2910  2910 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_04
+06-23 00:23:07.663  2903  2903 I ServiceManager: service 'media.audio_flinger' died
+06-23 00:23:07.663  2903  2903 I ServiceManager: service 'media.player' died
+06-23 00:23:07.663  2903  2903 I ServiceManager: service 'media.resource_manager' died
+06-23 00:23:07.663  2903  2903 I ServiceManager: service 'media.camera' died

@@ -1,0 +1,1670 @@
+--------- beginning of main
+06-02 02:55:30.461  2996  2996 W auditd  : type=1325 audit(0.0:2): table=filter family=2 entries=0
+06-02 02:55:30.461  2996  2996 W auditd  : type=1325 audit(0.0:3): table=mangle family=2 entries=0
+06-02 02:55:30.461  2996  2996 W auditd  : type=1325 audit(0.0:4): table=nat family=2 entries=0
+06-02 02:55:30.461  2996  2996 W auditd  : type=1325 audit(0.0:5): table=raw family=2 entries=0
+06-02 02:55:30.461  2996  2996 W auditd  : type=1325 audit(0.0:6): table=security family=2 entries=0
+06-02 02:55:30.461  2996  2996 W auditd  : type=1325 audit(0.0:7): table=filter family=3 entries=0
+06-02 02:55:30.461  2996  2996 W auditd  : type=1325 audit(0.0:8): table=filter family=10 entries=0
+06-02 02:55:30.461  2996  2996 W auditd  : type=1325 audit(0.0:9): table=mangle family=10 entries=0
+06-02 02:55:30.461  2996  2996 W auditd  : type=1325 audit(0.0:10): table=raw family=10 entries=0
+06-02 02:55:30.461  2996  2996 W auditd  : type=1325 audit(0.0:11): table=nat family=10 entries=0
+06-02 02:55:30.839  2996  2996 W auditd  : type=1305 audit(0.0:12): audit_pid=2906 old=0 auid=4294967295 ses=4294967295 res=1
+06-02 02:55:30.839  2996  2996 W auditd  : type=1305 audit(0.0:13): audit_rate_limit=20 old=0 auid=4294967295 ses=4294967295 res=1
+06-02 02:55:30.878  2917  2917 I sysinit : Running /system/etc/init.d/00banner 
+--------- beginning of system
+06-02 02:55:30.881  2907  2907 I vold    : Vold 3.0 (the awakening) firing up
+06-02 02:55:30.881  2907  2907 V vold    : Detected support for: exfat ext4 ntfs vfat
+06-02 02:55:30.882  2919  2919 I lowmemorykiller: Using in-kernel low memory killer interface
+06-02 02:55:30.891  2923  2923 I cm      : ____ _   _ ____ _  _ ____ ____ ____ _  _ _  _ ____ ___ 
+06-02 02:55:30.897  2967  2967 I perfprofd: starting Android Wide Profiling daemon
+06-02 02:55:30.897  2986  2986 I cm      : |     \_/  |__| |\ | |  | | __ |___ |\ | |\/| |  | |  \ 
+06-02 02:55:30.900  2967  2967 E perfprofd: unable to open configuration file /data/data/com.google.android.gms/files/perfprofd.conf
+06-02 02:55:30.900  2967  2967 I perfprofd: random seed set to 2495395962
+06-02 02:55:30.901  2942  2942 I DEBUG   : debuggerd: starting
+06-02 02:55:30.904  2989  2989 I cm      : |___   |   |  | | \| |__| |__] |___ | \| |  | |__| |__/ 
+06-02 02:55:30.906  2952  2952 I installd: installd firing up
+06-02 02:55:30.913  2937  2937 I Netd    : Netd 1.0 starting
+06-02 02:55:30.915  2937  2937 I QtiConnectivityAdapter: Failed to open libconnctrl, some features may not be present.
+06-02 02:55:30.915  2937  2937 D TetherController: Setting IP forward enable = 0
+06-02 02:55:30.925  2940  2940 I DEBUG   : debuggerd: starting
+06-02 02:55:30.926  2970  2970 I fingerprintd: Starting fingerprintd
+06-02 02:55:30.926  2953  2953 I keystore: Found keymaster0 module Keymaster OpenSSL HAL, version 2
+06-02 02:55:30.927  2953  2953 I SoftKeymaster: system/keymaster/soft_keymaster_device.cpp, Line 122: Creating device
+06-02 02:55:30.927  2953  2953 D SoftKeymaster: system/keymaster/soft_keymaster_device.cpp, Line 123: Device address: 0x7fb36a3000
+06-02 02:55:30.927  2959  2959 I gatekeeperd: Starting gatekeeperd...
+06-02 02:55:30.927  2959  2959 W gatekeeperd: falling back to software GateKeeper
+06-02 02:55:30.927  2953  2953 I keystore: Keymaster0 module is software-only.  Using SoftKeymasterDevice instead.
+06-02 02:55:30.927  2953  2953 I SoftKeymaster: system/keymaster/soft_keymaster_device.cpp, Line 122: Creating device
+06-02 02:55:30.927  2953  2953 D SoftKeymaster: system/keymaster/soft_keymaster_device.cpp, Line 123: Device address: 0x7fb36a3300
+06-02 02:55:30.927  2953  2953 I keystore: SELinux: Keystore SELinux is disabled.
+06-02 02:55:30.931  2998  2998 I cm      : Welcome to Android 6.0.1 / CyanogenMod-13.0-20160602-UNOFFICIAL-hero2ltexx 
+06-02 02:55:30.938  2921  2921 I SurfaceFlinger: SurfaceFlinger is starting
+06-02 02:55:30.939  2921  2921 E SchedPolicy: /system/bin/surfaceflinger add_tid_to_cgroup failed; fd=-1
+06-02 02:55:30.939  2921  2921 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+06-02 02:55:30.940  3002  3002 I sysinit : Running /system/etc/init.d/90userinit 
+06-02 02:55:30.949  2996  2996 W auditd  : type=1325 audit(0.0:14): table=filter family=2 entries=4
+06-02 02:55:30.949  2996  2996 W auditd  : type=1320 audit(0.0:14): 
+06-02 02:55:30.959  2996  2996 W auditd  : type=1325 audit(0.0:15): table=filter family=10 entries=4
+06-02 02:55:30.959  2996  2996 W auditd  : type=1320 audit(0.0:15): 
+06-02 02:55:30.959  2996  2996 W auditd  : type=1325 audit(0.0:16): table=filter family=2 entries=6
+06-02 02:55:30.959  2996  2996 W auditd  : type=1320 audit(0.0:16): 
+06-02 02:55:30.969  2996  2996 W auditd  : type=1325 audit(0.0:17): table=filter family=10 entries=6
+06-02 02:55:30.969  2996  2996 W auditd  : type=1320 audit(0.0:17): 
+06-02 02:55:30.981  2921  2921 D libEGL  : loaded /vendor/lib64/egl/libGLES_mali.so
+06-02 02:55:30.995  2921  2921 I gralloc : using (id=)
+06-02 02:55:30.995  2921  2921 I gralloc : xres         = 1440 px
+06-02 02:55:30.995  2921  2921 I gralloc : yres         = 2560 px
+06-02 02:55:30.995  2921  2921 I gralloc : width        = 68 mm (537.882324 dpi)
+06-02 02:55:30.995  2921  2921 I gralloc : height       = 122 mm (532.983582 dpi)
+06-02 02:55:30.995  2921  2921 I gralloc : refresh rate = 59.31 Hz
+06-02 02:55:31.009  2996  2996 W auditd  : type=1325 audit(0.0:18): table=filter family=2 entries=7
+06-02 02:55:31.009  2996  2996 W auditd  : type=1320 audit(0.0:18): 
+06-02 02:55:31.009  2996  2996 W auditd  : type=1325 audit(0.0:19): table=filter family=10 entries=7
+06-02 02:55:31.009  2996  2996 W auditd  : type=1320 audit(0.0:19): 
+06-02 02:55:31.011  2921  2921 D hwcomposer: using
+06-02 02:55:31.011  2921  2921 D hwcomposer: xres         = 1440 px
+06-02 02:55:31.011  2921  2921 D hwcomposer: yres         = 2560 px
+06-02 02:55:31.011  2921  2921 D hwcomposer: width        = 68 mm (537.882000 dpi)
+06-02 02:55:31.011  2921  2921 D hwcomposer: height       = 122 mm (532.983000 dpi)
+06-02 02:55:31.011  2921  2921 D hwcomposer: refresh rate = 59 Hz
+06-02 02:55:31.011  2921  2921 I hwcomposer: PSR info devname = /sys/devices/13960000.decon_f/psr_info
+06-02 02:55:31.011  2921  2921 I hwcomposer: PSR mode is 6(0: video mode, 1: DP PSR mode, 2: MIPI-DSI command mode)
+06-02 02:55:31.012  2921  2921 I SurfaceFlinger: Using composer version 1.3
+06-02 02:55:31.012  2921  2921 E display : unknown display attribute 6
+06-02 02:55:31.012  2921  2921 I SurfaceFlinger: EGL information:
+06-02 02:55:31.012  2921  2921 I SurfaceFlinger: vendor    : Android
+06-02 02:55:31.012  2921  2921 I SurfaceFlinger: version   : 1.4 Android META-EGL
+06-02 02:55:31.012  2921  2921 I SurfaceFlinger: extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_swap_buffers_with_damage EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_KHR_config_attribs EGL_KHR_surfaceless_context EGL_EXT_create_context_robustness EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable EGL_KHR_partial_update 
+06-02 02:55:31.012  2921  2921 I SurfaceFlinger: Client API: OpenGL_ES
+06-02 02:55:31.012  2921  2921 I SurfaceFlinger: EGLSurface: 8-8-8-8, config=0x7fb0990128
+06-02 02:55:31.012  2921  2921 D         : ro.exynos.dss isEnabled: 0
+06-02 02:55:31.017  2921  2921 I SurfaceFlinger: OpenGL ES informations:
+06-02 02:55:31.017  2921  2921 I SurfaceFlinger: vendor    : ARM
+06-02 02:55:31.017  2921  2921 I SurfaceFlinger: renderer  : Mali-T880
+06-02 02:55:31.017  2921  2921 I SurfaceFlinger: version   : OpenGL ES 3.1 v1.r9p0-12dev0.c2bae768d87bf40047e1f310c8de7f16
+06-02 02:55:31.017  2921  2921 I SurfaceFlinger: extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_disjoint_timer_query GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_OES_texture_stencil8 G
+06-02 02:55:31.017  2921  2921 I SurfaceFlinger: GL_MAX_TEXTURE_SIZE = 8192
+06-02 02:55:31.017  2921  2921 I SurfaceFlinger: GL_MAX_VIEWPORT_DIMS = 8192
+06-02 02:55:31.018  2921  2921 D mali_winsys: new_window_surface returns 0x3000,  [1440x2560]-format:1
+06-02 02:55:31.019  2996  2996 W auditd  : type=1325 audit(0.0:20): table=filter family=2 entries=9
+06-02 02:55:31.019  2996  2996 W auditd  : type=1320 audit(0.0:20): 
+06-02 02:55:31.029  2996  2996 W auditd  : type=1325 audit(0.0:21): table=filter family=10 entries=9
+06-02 02:55:31.029  2996  2996 W auditd  : type=1320 audit(0.0:21): 
+06-02 02:55:31.035  2921  2921 D SurfaceFlinger: Set power mode=2, type=0 flinger=0x7fb0e83c00
+06-02 02:55:31.089  2996  2996 W auditd  : type=1325 audit(0.0:22): table=filter family=2 entries=10
+06-02 02:55:31.089  2996  2996 W auditd  : type=1320 audit(0.0:22): 
+06-02 02:55:31.099  2996  2996 W auditd  : type=1325 audit(0.0:23): table=filter family=10 entries=10
+06-02 02:55:31.099  2996  2996 W auditd  : type=1320 audit(0.0:23): 
+06-02 02:55:31.099  2996  2996 W auditd  : type=1325 audit(0.0:24): table=filter family=2 entries=12
+06-02 02:55:31.099  2996  2996 W auditd  : type=1320 audit(0.0:24): 
+06-02 02:55:31.109  2996  2996 W auditd  : type=1325 audit(0.0:25): table=filter family=10 entries=12
+06-02 02:55:31.109  2996  2996 W auditd  : type=1320 audit(0.0:25): 
+06-02 02:55:31.124  2951  2951 I mediaserver: ServiceManager: 0xf678e260
+06-02 02:55:31.124  2951  2951 I AudioFlinger: Using default 3000 mSec as standby time.
+06-02 02:55:31.124  2951  2951 E BatteryNotifier: batterystats service unavailable!
+06-02 02:55:31.124  2951  2951 E BatteryNotifier: batterystats service unavailable!
+06-02 02:55:31.125  2951  2951 I CameraService: CameraService started (pid=2951)
+06-02 02:55:31.125  2951  2951 I CameraService: CameraService process starting
+06-02 02:55:31.125  2951  2951 E BatteryNotifier: batterystats service unavailable!
+06-02 02:55:31.125  2951  2951 E BatteryNotifier: batterystats service unavailable!
+06-02 02:55:31.125  2951  2951 E CameraService: Could not load camera HAL module: -2 (No such file or directory)
+06-02 02:55:31.126  2951  2951 I AudioPolicyService: AudioPolicyService CSTOR in new mode
+06-02 02:55:31.127  2951  2951 W APM::HwModule: loadOutput() invalid supported devices
+06-02 02:55:31.127  2951  2951 W APM::HwModule: loadOutput() invalid supported devices
+06-02 02:55:31.127  2951  2951 W APM::HwModule: loadInput() invalid supported devices
+06-02 02:55:31.127  2951  2951 W APM::HwModule: loadInput() invalid supported devices
+06-02 02:55:31.127  2951  2951 I APM::ConfigParsingUtils: loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+06-02 02:55:31.139  2996  2996 W auditd  : type=1325 audit(0.0:26): table=filter family=2 entries=13
+06-02 02:55:31.139  2996  2996 W auditd  : type=1320 audit(0.0:26): 
+06-02 02:55:31.139  2996  2996 W auditd  : type=1325 audit(0.0:27): table=filter family=10 entries=13
+06-02 02:55:31.139  2996  2996 W auditd  : type=1320 audit(0.0:27): 
+06-02 02:55:31.149  2996  2996 W auditd  : type=1325 audit(0.0:28): table=filter family=2 entries=15
+06-02 02:55:31.149  2996  2996 W auditd  : type=1320 audit(0.0:28): 
+06-02 02:55:31.149  2996  2996 W auditd  : type=1325 audit(0.0:29): table=filter family=10 entries=15
+06-02 02:55:31.149  2996  2996 W auditd  : type=1320 audit(0.0:29): 
+06-02 02:55:31.165  3044  3052 D libEGL  : loaded /vendor/lib64/egl/libGLES_mali.so
+06-02 02:55:31.173  3044  3052 D mali_winsys: new_window_surface returns 0x3000,  [1440x2560]-format:2
+06-02 02:55:31.173  3044  3052 D         : ro.exynos.dss isEnabled: 0
+06-02 02:55:31.176  3044  3052 E BootAnimation: couldn't find audio_conf.txt
+06-02 02:55:31.190  3044  3052 D BootAnimation: Use save memory method, maybe small fps in actual.
+06-02 02:55:31.229  2996  2996 W auditd  : type=1325 audit(0.0:30): table=filter family=2 entries=16
+06-02 02:55:31.229  2996  2996 W auditd  : type=1320 audit(0.0:30): 
+06-02 02:55:31.229  2996  2996 W auditd  : type=1325 audit(0.0:31): table=filter family=10 entries=16
+06-02 02:55:31.229  2996  2996 W auditd  : type=1320 audit(0.0:31): 
+06-02 02:55:31.239  2996  2996 W auditd  : type=1325 audit(0.0:32): table=filter family=2 entries=18
+06-02 02:55:31.239  2996  2996 W auditd  : type=1320 audit(0.0:32): 
+06-02 02:55:31.239  2996  2996 W auditd  : type=1325 audit(0.0:33): table=filter family=10 entries=18
+06-02 02:55:31.285  2921  2921 D SurfaceFlinger: SF. shader cache generated - 26 shaders in 127.703156 ms
+06-02 02:55:31.289  2955  2955 D AndroidRuntime: >>>>>> START com.android.internal.os.ZygoteInit uid 0 <<<<<<
+06-02 02:55:31.290  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:31.298  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:31.302  2955  2955 D AndroidRuntime: CheckJNI is ON
+06-02 02:55:31.306  2955  2955 I art     : option[0]=-Xzygote
+06-02 02:55:31.306  2955  2955 I art     : option[1]=-Xcheck:jni
+06-02 02:55:31.306  2955  2955 I art     : option[2]=-Xstacktracefile:/data/anr/traces.txt
+06-02 02:55:31.306  2955  2955 I art     : option[3]=exit
+06-02 02:55:31.306  2955  2955 I art     : option[4]=vfprintf
+06-02 02:55:31.306  2955  2955 I art     : option[5]=sensitiveThread
+06-02 02:55:31.306  2955  2955 I art     : option[6]=-verbose:gc
+06-02 02:55:31.306  2955  2955 I art     : option[7]=-Xms8m
+06-02 02:55:31.306  2955  2955 I art     : option[8]=-Xmx512m
+06-02 02:55:31.306  2955  2955 I art     : option[9]=-XX:HeapGrowthLimit=256m
+06-02 02:55:31.306  2955  2955 I art     : option[10]=-XX:HeapMinFree=2m
+06-02 02:55:31.306  2955  2955 I art     : option[11]=-XX:HeapMaxFree=8m
+06-02 02:55:31.306  2955  2955 I art     : option[12]=-XX:HeapTargetUtilization=0.75
+06-02 02:55:31.306  2955  2955 I art     : option[13]=-Xusejit:true
+06-02 02:55:31.306  2955  2955 I art     : option[14]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+06-02 02:55:31.306  2955  2955 I art     : option[15]=-Xlockprofthreshold:500
+06-02 02:55:31.306  2955  2955 I art     : option[16]=-Ximage-compiler-option
+06-02 02:55:31.306  2955  2955 I art     : option[17]=--runtime-arg
+06-02 02:55:31.306  2955  2955 I art     : option[18]=-Ximage-compiler-option
+06-02 02:55:31.306  2955  2955 I art     : option[19]=-Xms64m
+06-02 02:55:31.306  2955  2955 I art     : option[20]=-Ximage-compiler-option
+06-02 02:55:31.306  2955  2955 I art     : option[21]=--runtime-arg
+06-02 02:55:31.306  2955  2955 I art     : option[22]=-Ximage-compiler-option
+06-02 02:55:31.306  2955  2955 I art     : option[23]=-Xmx64m
+06-02 02:55:31.306  2955  2955 I art     : option[24]=-Ximage-compiler-option
+06-02 02:55:31.306  2955  2955 I art     : option[25]=--compiler-filter=verify-at-runtime
+06-02 02:55:31.306  2955  2955 I art     : option[26]=-Ximage-compiler-option
+06-02 02:55:31.306  2955  2955 I art     : option[27]=--image-classes=/system/etc/preloaded-classes
+06-02 02:55:31.306  2955  2955 I art     : option[28]=-Xcompiler-option
+06-02 02:55:31.306  2955  2955 I art     : option[29]=--runtime-arg
+06-02 02:55:31.306  2955  2955 I art     : option[30]=-Xcompiler-option
+06-02 02:55:31.306  2955  2955 I art     : option[31]=-Xms64m
+06-02 02:55:31.306  2955  2955 I art     : option[32]=-Xcompiler-option
+06-02 02:55:31.306  2955  2955 I art     : option[33]=--runtime-arg
+06-02 02:55:31.306  2955  2955 I art     : option[34]=-Xcompiler-option
+06-02 02:55:31.306  2955  2955 I art     : option[35]=-Xmx512m
+06-02 02:55:31.307  2955  2955 I art     : option[36]=-Xcompiler-option
+06-02 02:55:31.307  2955  2955 I art     : option[37]=--compiler-filter=verify-at-runtime
+06-02 02:55:31.307  2955  2955 I art     : option[38]=-Ximage-compiler-option
+06-02 02:55:31.307  2955  2955 I art     : option[39]=--instruction-set-variant=generic
+06-02 02:55:31.307  2955  2955 I art     : option[40]=-Xcompiler-option
+06-02 02:55:31.307  2955  2955 I art     : option[41]=--instruction-set-variant=generic
+06-02 02:55:31.307  2955  2955 I art     : option[42]=-Ximage-compiler-option
+06-02 02:55:31.307  2955  2955 I art     : option[43]=--instruction-set-features=default
+06-02 02:55:31.307  2955  2955 I art     : option[44]=-Xcompiler-option
+06-02 02:55:31.307  2955  2955 I art     : option[45]=--instruction-set-features=default
+06-02 02:55:31.307  2955  2955 I art     : option[46]=-Duser.locale=en-US
+06-02 02:55:31.307  2955  2955 I art     : option[47]=--cpu-abilist=arm64-v8a,armeabi
+06-02 02:55:31.307  2955  2955 I art     : option[48]=-Xfingerprint:samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30J/cf2c88de62:eng/test-keys
+06-02 02:55:31.315  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:31.332  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:31.348  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:31.383  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:31.399  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:31.404  2955  2955 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+06-02 02:55:31.433  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:31.467  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:31.501  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:31.535  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:31.569  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:31.593  2955  2955 I Radio-JNI: register_android_hardware_Radio DONE
+06-02 02:55:31.603  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:31.637  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:31.640  2955  2955 I SamplingProfilerIntegration: Profiling disabled.
+06-02 02:55:31.641  2955  2955 D Zygote  : begin preload
+06-02 02:55:31.642  2955  2955 I Zygote  : Preloading classes...
+06-02 02:55:31.671  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:31.697  2951  2951 I AudioFlinger: loadHwModule() Loaded primary audio interface from Samsung audio HW HAL (audio) handle 1
+06-02 02:55:31.697  2951  2951 I AudioFlinger: openOutput(), module 1 Device 2, SamplingRate 48000, Format 0x000001, Channels 3, flags a
+06-02 02:55:31.697  2951  2951 I AudioFlinger: AudioStreamOut::open(), mHalFormatIsLinearPcm = 1
+06-02 02:55:31.697  2951  2951 I AudioFlinger: HAL output buffer size 1024 frames, normal sink buffer size 1024 frames
+06-02 02:55:31.702  2951  2951 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libaudioeffectoffload.so
+06-02 02:55:31.704  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:31.705  2951  2951 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libexynosvisualizer.so
+06-02 02:55:31.711  2951  2951 W EffectsFactory: loadLibrary() failed to open /system/lib/libmysound.so
+06-02 02:55:31.711  2951  2951 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libmyspace.so
+06-02 02:55:31.711  2951  2951 W EffectsFactory: loadLibrary() failed to open /system/lib/libaudiosa.so
+06-02 02:55:31.711  2951  2951 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libaudiosaplus_sec.so
+06-02 02:55:31.712  2951  2951 W EffectsFactory: loadLibrary() failed to open /system/lib/libsamsungSoundbooster_plus.so
+06-02 02:55:31.712  2951  2951 W EffectsFactory: loadEffect() could not get library soundbooster_plus
+06-02 02:55:31.712  2951  2951 W EffectsFactory: addSubEffect() could not get library soundalive_sec
+06-02 02:55:31.712  2951  2951 W EffectsFactory: loadEffect() could not add subEffect 
+06-02 02:55:31.712  2951  2951 W EffectsFactory: loadEffect() could not get library soundalive
+06-02 02:55:31.712  2951  2951 W EffectsFactory: loadEffect() could not get library soundalive
+06-02 02:55:31.712  2951  2951 W EffectsFactory: loadEffect() could not get library soundalive
+06-02 02:55:31.712  2951  2951 W EffectsFactory: addSubEffect() could not get library visualizer_hw
+06-02 02:55:31.712  2951  2951 W EffectsFactory: loadEffect() could not add subEffect 
+06-02 02:55:31.712  2951  2951 W EffectsFactory: addSubEffect() could not get library mysound
+06-02 02:55:31.712  2951  2951 W EffectsFactory: loadEffect() could not add subEffect 
+06-02 02:55:31.712  2951  2951 W EffectsFactory: addSubEffect() could not get library myspace
+06-02 02:55:31.712  2951  2951 W EffectsFactory: loadEffect() could not add subEffect 
+06-02 02:55:31.712  2951  2951 I BufferProvider: found effect "Multichannel Downmix To Stereo" from The Android Open Source Project
+06-02 02:55:31.712  2951  2951 I AudioFlinger: Using module 1 has the primary audio interface
+06-02 02:55:31.712  2951  3201 I AudioFlinger: AudioFlinger's thread 0xf4b80000 ready to run
+06-02 02:55:31.712  2951  3201 V audio_hw_primary: do_out_standby: output standby: 1
+06-02 02:55:31.713  2951  3201 V audio_hw_primary: out_set_parameters: key value pairs: routing=2
+06-02 02:55:31.713  2951  3201 E AudioFlinger: no wake lock to update!
+06-02 02:55:31.713  2951  2951 I AudioFlinger: openOutput(), module 1 Device 2, SamplingRate 48000, Format 0x000001, Channels 3, flags 4
+06-02 02:55:31.714  2951  2951 I AudioFlinger: AudioStreamOut::open(), mHalFormatIsLinearPcm = 1
+06-02 02:55:31.714  2951  2951 I AudioFlinger: HAL output buffer size 256 frames, normal sink buffer size 960 frames
+06-02 02:55:31.714  2951  2951 E MonoPipe: Failed to fetch local time frequency when constructing a MonoPipe (res = -32).  getNextWriteTimestamp calls will be non-functional
+06-02 02:55:31.714  2951  3204 I AudioFlinger: AudioFlinger's thread 0xf47c0000 ready to run
+06-02 02:55:31.714  2951  3204 V audio_hw_primary: do_out_standby: output standby: 1
+06-02 02:55:31.714  2951  3204 V audio_hw_primary: out_set_parameters: key value pairs: routing=2
+06-02 02:55:31.714  2951  3204 E AudioFlinger: no wake lock to update!
+06-02 02:55:31.715  2951  2951 V audio_hw_primary: adev_open_input_stream: Requesting input stream with rate: 48000, channels: 0xc
+06-02 02:55:31.715  2951  3205 I AudioFlinger: AudioFlinger's thread 0xf44c0000 ready to run
+06-02 02:55:31.716  2951  2951 I bt_a2dp_hw: adev_open:  adev_open in A2dp_hw module
+06-02 02:55:31.716  2951  2951 I AudioFlinger: loadHwModule() Loaded a2dp audio interface from A2DP Audio HW HAL (audio) handle 5
+06-02 02:55:31.717  2951  2951 I AudioFlinger: loadHwModule() Loaded usb audio interface from USB audio HW HAL (audio) handle 6
+06-02 02:55:31.719  2951  2951 I r_submix: adev_open(name=audio_hw_if)
+06-02 02:55:31.719  2951  2951 I r_submix: adev_init_check()
+06-02 02:55:31.719  2951  2951 I AudioFlinger: loadHwModule() Loaded r_submix audio interface from Wifi Display audio HAL (audio) handle 7
+06-02 02:55:31.719  2951  2951 D r_submix: adev_open_input_stream(addr=0)
+06-02 02:55:31.719  2951  2951 D r_submix: submix_audio_device_create_pipe_l(addr=0, idx=9)
+06-02 02:55:31.719  2951  2951 D r_submix:   now using address 0 for route 9
+06-02 02:55:31.719  2951  3207 I AudioFlinger: AudioFlinger's thread 0xf4440000 ready to run
+06-02 02:55:31.719  2951  2951 D r_submix: adev_close_input_stream()
+06-02 02:55:31.719  2951  2951 D r_submix: submix_audio_device_release_pipe_l(idx=9) addr=0
+06-02 02:55:31.719  2951  2951 D r_submix: submix_audio_device_destroy_pipe_l(): pipe destroyed
+--------- beginning of crash
+06-02 02:55:31.719  2951  2951 F libc    : Fatal signal 11 (SIGSEGV), code 1, fault addr 0x0 in tid 2951 (mediaserver)
+06-02 02:55:31.720  2940  2940 I DEBUG   : property debug.db.uid not set; NOT waiting for gdb.
+06-02 02:55:31.720  2940  2940 I DEBUG   : HINT: adb shell setprop debug.db.uid 100000
+06-02 02:55:31.720  2940  2940 I DEBUG   : HINT: adb forward tcp:5039 tcp:5039
+06-02 02:55:31.738  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:31.772  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:31.773  2940  2940 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+06-02 02:55:31.773  2940  2940 F DEBUG   : Build fingerprint: 'samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30J/cf2c88de62:eng/test-keys'
+06-02 02:55:31.773  2940  2940 F DEBUG   : Revision: '0'
+06-02 02:55:31.773  2940  2940 F DEBUG   : ABI: 'arm'
+06-02 02:55:31.773  2940  2940 F DEBUG   : pid: 2951, tid: 2951, name: mediaserver  >>> /system/bin/mediaserver <<<
+06-02 02:55:31.773  2940  2940 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0
+06-02 02:55:31.777  2940  2940 F DEBUG   :     r0 f4c218f4  r1 00000000  r2 65732020  r3 00000007
+06-02 02:55:31.777  2940  2940 F DEBUG   :     r4 00000008  r5 f4c218f2  r6 f7685be0  r7 ffe862b4
+06-02 02:55:31.777  2940  2940 F DEBUG   :     r8 f67ab08c  r9 f7683431  sl f7683635  fp f4c218f2
+06-02 02:55:31.777  2940  2940 F DEBUG   :     ip 00000000  sp ffe86270  lr f767e4f7  pc f71d13c8  cpsr 600f0010
+06-02 02:55:31.778  2940  2940 F DEBUG   : 
+06-02 02:55:31.778  2940  2940 F DEBUG   : backtrace:
+06-02 02:55:31.778  2940  2940 F DEBUG   :     #00 pc 000183c8  /system/lib/libc.so (strcmp+152)
+06-02 02:55:31.778  2940  2940 F DEBUG   :     #01 pc 000084f3  /system/lib/libaudiopolicyservice.so
+06-02 02:55:31.778  2940  2940 F DEBUG   :     #02 pc 000202b0  [stack]
+06-02 02:55:31.806  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:31.822  2940  2940 F DEBUG   : 
+06-02 02:55:31.822  2940  2940 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_05
+06-02 02:55:31.825  2920  2920 I ServiceManager: service 'media.audio_flinger' died
+06-02 02:55:31.825  2920  2920 I ServiceManager: service 'media.player' died
+06-02 02:55:31.825  2920  2920 I ServiceManager: service 'media.resource_manager' died
+06-02 02:55:31.825  2920  2920 I ServiceManager: service 'media.camera' died
+06-02 02:55:31.840  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:31.874  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:31.876  2937  2937 V NatController: runCmd(/system/bin/iptables -w -F natctrl_FORWARD) res=0
+06-02 02:55:31.881  2937  2937 V NatController: runCmd(/system/bin/iptables -w -A natctrl_FORWARD -j DROP) res=0
+06-02 02:55:31.885  2937  2937 V NatController: runCmd(/system/bin/iptables -w -t nat -F natctrl_nat_POSTROUTING) res=0
+06-02 02:55:31.889  2937  2937 V NatController: runCmd(/system/bin/iptables -w -F natctrl_tether_counters) res=1
+06-02 02:55:31.894  2937  2937 V NatController: runCmd(/system/bin/iptables -w -X natctrl_tether_counters) res=1
+06-02 02:55:31.898  2937  2937 V NatController: runCmd(/system/bin/iptables -w -N natctrl_tether_counters) res=0
+06-02 02:55:31.903  2937  2937 V NatController: runCmd(/system/bin/iptables -w -t mangle -A natctrl_mangle_FORWARD -p tcp --tcp-flags SYN SYN -j TCPMSS --clamp-mss-to-pmtu) res=0
+06-02 02:55:31.908  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:31.942  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:31.976  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:32.009  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:32.043  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:32.077  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:32.095  2955  2955 E Minikin : addFont failed to create font /system/fonts/NanumGothic.ttf
+06-02 02:55:32.096  2955  2955 E Minikin : addFont failed to create font /system/fonts/DroidSansFallback.ttf
+06-02 02:55:32.096  2955  2955 E Minikin : addFont failed to create font /system/fonts/MTLmr3m.ttf
+06-02 02:55:32.109  2996  2996 W auditd  : type=1325 audit(0.0:129): table=filter family=10 entries=52
+06-02 02:55:32.109  2996  2996 W auditd  : type=1320 audit(0.0:129): 
+06-02 02:55:32.109  2996  2996 W auditd  : type=1325 audit(0.0:130): table=filter family=2 entries=50
+06-02 02:55:32.109  2996  2996 W auditd  : type=1320 audit(0.0:130): 
+06-02 02:55:32.111  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:32.119  2996  2996 W auditd  : type=1325 audit(0.0:131): table=filter family=10 entries=53
+06-02 02:55:32.119  2996  2996 W auditd  : type=1320 audit(0.0:131): 
+06-02 02:55:32.119  2996  2996 W auditd  : type=1325 audit(0.0:132): table=filter family=2 entries=51
+06-02 02:55:32.119  2996  2996 W auditd  : type=1320 audit(0.0:132): 
+06-02 02:55:32.129  2996  2996 W auditd  : type=1325 audit(0.0:133): table=filter family=10 entries=54
+06-02 02:55:32.129  2996  2996 W auditd  : type=1320 audit(0.0:133): 
+06-02 02:55:32.129  2996  2996 W auditd  : type=1325 audit(0.0:134): table=raw family=2 entries=9
+06-02 02:55:32.129  2996  2996 W auditd  : type=1320 audit(0.0:134): 
+06-02 02:55:32.129  2996  2996 W auditd  : type=1325 audit(0.0:135): table=raw family=10 entries=9
+06-02 02:55:32.129  2996  2996 W auditd  : type=1320 audit(0.0:135): 
+06-02 02:55:32.139  2996  2996 W auditd  : type=1325 audit(0.0:136): table=mangle family=2 entries=16
+06-02 02:55:32.139  2996  2996 W auditd  : type=1320 audit(0.0:136): 
+06-02 02:55:32.139  2996  2996 W auditd  : type=1325 audit(0.0:137): table=mangle family=10 entries=12
+06-02 02:55:32.139  2996  2996 W auditd  : type=1320 audit(0.0:137): 
+06-02 02:55:32.145  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:32.179  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:32.199  2955  2955 V DngCreator_JNI: DngCreator_nativeClassInit:
+06-02 02:55:32.213  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:32.247  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:32.281  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:32.315  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:32.348  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:32.353  2937  2937 E Netd    : cannot find interface dummy0
+06-02 02:55:32.354  2937  2937 D MDnsDS  : MDnsSdListener::Hander starting up
+06-02 02:55:32.354  2937  3314 D MDnsDS  : MDnsSdListener starting to monitor
+06-02 02:55:32.354  2937  3314 D MDnsDS  : Going to poll with pollCount 1
+06-02 02:55:32.382  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:32.416  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:32.450  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:32.484  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:32.518  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:32.552  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:32.586  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:32.602  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:32.637  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:32.670  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:32.704  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:32.738  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:32.772  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:32.806  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:32.840  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:32.858  2955  2955 I art     : Thread[1,tid=2955,Native,Thread*=0x7f929fba00,peer=0x12c532e0,"main"] recursive attempt to load library "/system/lib64/libmedia_jni.so"
+06-02 02:55:32.858  2955  2955 D MtpDeviceJNI: register_android_mtp_MtpDevice
+06-02 02:55:32.858  2955  2955 I art     : Thread[1,tid=2955,Native,Thread*=0x7f929fba00,peer=0x12c532e0,"main"] recursive attempt to load library "/system/lib64/libmedia_jni.so"
+06-02 02:55:32.859  2955  2955 I art     : Thread[1,tid=2955,Native,Thread*=0x7f929fba00,peer=0x12c532e0,"main"] recursive attempt to load library "/system/lib64/libmedia_jni.so"
+06-02 02:55:32.874  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:32.908  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:32.941  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:32.976  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:33.009  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:33.043  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:33.077  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:33.111  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:33.145  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:33.179  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:33.213  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:33.231  3044  3052 D BootAnimation: Use save memory method, maybe small fps in actual.
+06-02 02:55:33.247  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:33.281  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:33.315  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:33.348  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:33.382  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:33.394  2955  2955 W System  : ClassLoader referenced unknown path: /system/framework/tcmclient.jar
+06-02 02:55:33.416  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:33.450  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:33.484  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:33.518  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:33.552  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:33.586  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:33.620  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:33.654  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:33.688  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:33.721  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:33.735  2955  2955 I System  : Loaded time zone names for "" in 25ms (23ms in ICU)
+06-02 02:55:33.755  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:33.770  2955  2955 I System  : Loaded time zone names for "en_US" in 34ms (14ms in ICU)
+06-02 02:55:33.789  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:33.823  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:33.857  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:33.874  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:33.908  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:33.941  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:33.943  2955  2955 I Zygote  : ...preloaded 3831 classes in 2301ms.
+06-02 02:55:33.944  2955  2955 I art     : VMRuntime.preloadDexCaches starting
+06-02 02:55:33.976  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:33.980  2955  2955 I art     : VMRuntime.preloadDexCaches strings total=248908 before=10083 after=10083
+06-02 02:55:33.980  2955  2955 I art     : VMRuntime.preloadDexCaches types total=20329 before=8245 after=9836
+06-02 02:55:33.980  2955  2955 I art     : VMRuntime.preloadDexCaches fields total=100349 before=35755 after=47720
+06-02 02:55:33.980  2955  2955 I art     : VMRuntime.preloadDexCaches methods total=172744 before=67597 after=83301
+06-02 02:55:33.980  2955  2955 I art     : VMRuntime.preloadDexCaches finished
+06-02 02:55:33.994  3318  3318 D idmap   : error: no read access to /vendor/overlay: No such file or directory
+06-02 02:55:34.009  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:34.014  2955  2955 I Zygote  : Preloading resources...
+06-02 02:55:34.043  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:34.077  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:34.111  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:34.145  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:34.179  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:34.213  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:34.247  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:34.280  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:34.314  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:34.348  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:34.382  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:34.416  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:34.431  2955  2955 I Zygote  : ...preloaded 342 resources in 417ms.
+06-02 02:55:34.441  2955  2955 I Zygote  : ...preloaded 41 resources in 10ms.
+06-02 02:55:34.448  2955  2955 D libEGL  : loaded /vendor/lib64/egl/libGLES_mali.so
+06-02 02:55:34.450  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:34.454  2955  2955 I Zygote  : Preloading shared libraries...
+06-02 02:55:34.466  2955  2955 D Zygote  : end preload
+06-02 02:55:34.466  2955  2955 I art     : Starting a blocking GC Explicit
+06-02 02:55:34.478  2955  2955 I art     : Explicit concurrent mark sweep GC freed 11401(460KB) AllocSpace objects, 0(0B) LOS objects, 35% free, 29MB/45MB, paused 49us total 10.940ms
+06-02 02:55:34.484  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:34.487  2955  2955 I art     : Starting a blocking GC Explicit
+06-02 02:55:34.496  2955  2955 I art     : Explicit concurrent mark sweep GC freed 2657(124KB) AllocSpace objects, 0(0B) LOS objects, 35% free, 28MB/44MB, paused 44us total 8.800ms
+06-02 02:55:34.496  2955  3146 I art     : Starting a blocking GC HeapTrim
+06-02 02:55:34.497  2955  2955 I art     : Starting a blocking GC Background
+06-02 02:55:34.518  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:34.544  2955  2955 I Zygote  : System server process 3319 has been created
+06-02 02:55:34.546  2955  2955 I Zygote  : Accepting command socket connections
+06-02 02:55:34.550  3319  3319 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 02:55:34.552  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:34.586  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:34.620  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:34.653  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:34.687  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:34.721  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:34.755  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:34.789  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:34.823  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:34.857  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:34.891  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:34.925  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:34.958  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:34.992  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:35.026  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:35.060  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:35.094  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:35.128  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:35.162  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:35.179  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:35.213  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:35.247  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:35.280  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:35.314  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:35.348  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:35.382  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:35.416  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:35.450  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:35.484  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:35.518  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:35.550  3319  3319 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 02:55:35.552  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:35.586  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:35.620  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:35.653  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:35.687  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:35.721  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:35.755  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:35.789  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:35.823  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:35.857  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:35.891  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:35.925  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:35.959  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:35.963  3331  3331 I mediaserver: ServiceManager: 0xf634e260
+06-02 02:55:35.963  3331  3331 I AudioFlinger: Using default 3000 mSec as standby time.
+06-02 02:55:35.963  3331  3331 E BatteryNotifier: batterystats service unavailable!
+06-02 02:55:35.963  3331  3331 E BatteryNotifier: batterystats service unavailable!
+06-02 02:55:35.963  3331  3331 I CameraService: CameraService started (pid=3331)
+06-02 02:55:35.963  3331  3331 I CameraService: CameraService process starting
+06-02 02:55:35.963  3331  3331 E BatteryNotifier: batterystats service unavailable!
+06-02 02:55:35.963  3331  3331 E BatteryNotifier: batterystats service unavailable!
+06-02 02:55:35.963  3331  3331 E CameraService: Could not load camera HAL module: -2 (No such file or directory)
+06-02 02:55:35.964  3331  3331 I AudioPolicyService: AudioPolicyService CSTOR in new mode
+06-02 02:55:35.964  3331  3331 W APM::HwModule: loadOutput() invalid supported devices
+06-02 02:55:35.964  3331  3331 W APM::HwModule: loadOutput() invalid supported devices
+06-02 02:55:35.964  3331  3331 W APM::HwModule: loadInput() invalid supported devices
+06-02 02:55:35.964  3331  3331 W APM::HwModule: loadInput() invalid supported devices
+06-02 02:55:35.964  3331  3331 I APM::ConfigParsingUtils: loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+06-02 02:55:35.992  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:36.027  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:36.060  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:36.094  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:36.128  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:36.162  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:36.196  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:36.230  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:36.264  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:36.298  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:36.331  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:36.365  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:36.399  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:36.433  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:36.467  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:36.496  3331  3331 I AudioFlinger: loadHwModule() Loaded primary audio interface from Samsung audio HW HAL (audio) handle 1
+06-02 02:55:36.496  3331  3331 I AudioFlinger: openOutput(), module 1 Device 2, SamplingRate 48000, Format 0x000001, Channels 3, flags a
+06-02 02:55:36.496  3331  3331 I AudioFlinger: AudioStreamOut::open(), mHalFormatIsLinearPcm = 1
+06-02 02:55:36.496  3331  3331 I AudioFlinger: HAL output buffer size 1024 frames, normal sink buffer size 1024 frames
+06-02 02:55:36.497  3331  3331 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libaudioeffectoffload.so
+06-02 02:55:36.497  3331  3331 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libexynosvisualizer.so
+06-02 02:55:36.499  3331  3331 W EffectsFactory: loadLibrary() failed to open /system/lib/libmysound.so
+06-02 02:55:36.499  3331  3331 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libmyspace.so
+06-02 02:55:36.499  3331  3331 W EffectsFactory: loadLibrary() failed to open /system/lib/libaudiosa.so
+06-02 02:55:36.499  3331  3331 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libaudiosaplus_sec.so
+06-02 02:55:36.499  3331  3331 W EffectsFactory: loadLibrary() failed to open /system/lib/libsamsungSoundbooster_plus.so
+06-02 02:55:36.499  3331  3331 W EffectsFactory: loadEffect() could not get library soundbooster_plus
+06-02 02:55:36.499  3331  3331 W EffectsFactory: addSubEffect() could not get library soundalive_sec
+06-02 02:55:36.499  3331  3331 W EffectsFactory: loadEffect() could not add subEffect 
+06-02 02:55:36.499  3331  3331 W EffectsFactory: loadEffect() could not get library soundalive
+06-02 02:55:36.499  3331  3331 W EffectsFactory: loadEffect() could not get library soundalive
+06-02 02:55:36.499  3331  3331 W EffectsFactory: loadEffect() could not get library soundalive
+06-02 02:55:36.499  3331  3331 W EffectsFactory: addSubEffect() could not get library visualizer_hw
+06-02 02:55:36.499  3331  3331 W EffectsFactory: loadEffect() could not add subEffect 
+06-02 02:55:36.499  3331  3331 W EffectsFactory: addSubEffect() could not get library mysound
+06-02 02:55:36.499  3331  3331 W EffectsFactory: loadEffect() could not add subEffect 
+06-02 02:55:36.499  3331  3331 W EffectsFactory: addSubEffect() could not get library myspace
+06-02 02:55:36.499  3331  3331 W EffectsFactory: loadEffect() could not add subEffect 
+06-02 02:55:36.499  3331  3331 I BufferProvider: found effect "Multichannel Downmix To Stereo" from The Android Open Source Project
+06-02 02:55:36.500  3331  3331 I AudioFlinger: Using module 1 has the primary audio interface
+06-02 02:55:36.500  3331  3337 I AudioFlinger: AudioFlinger's thread 0xf4740000 ready to run
+06-02 02:55:36.500  3331  3337 V audio_hw_primary: do_out_standby: output standby: 1
+06-02 02:55:36.500  3331  3337 V audio_hw_primary: out_set_parameters: key value pairs: routing=2
+06-02 02:55:36.500  3331  3337 E AudioFlinger: no wake lock to update!
+06-02 02:55:36.500  3331  3331 I AudioFlinger: openOutput(), module 1 Device 2, SamplingRate 48000, Format 0x000001, Channels 3, flags 4
+06-02 02:55:36.500  3331  3331 I AudioFlinger: AudioStreamOut::open(), mHalFormatIsLinearPcm = 1
+06-02 02:55:36.500  3331  3331 I AudioFlinger: HAL output buffer size 256 frames, normal sink buffer size 960 frames
+06-02 02:55:36.500  3331  3331 E MonoPipe: Failed to fetch local time frequency when constructing a MonoPipe (res = -32).  getNextWriteTimestamp calls will be non-functional
+06-02 02:55:36.500  3331  3339 I AudioFlinger: AudioFlinger's thread 0xf4400000 ready to run
+06-02 02:55:36.501  3331  3339 V audio_hw_primary: out_set_parameters: key value pairs: routing=2
+06-02 02:55:36.501  3331  3339 V audio_hw_primary: do_out_standby: output standby: 1
+06-02 02:55:36.501  3331  3339 E AudioFlinger: no wake lock to update!
+06-02 02:55:36.501  3331  3331 V audio_hw_primary: adev_open_input_stream: Requesting input stream with rate: 48000, channels: 0xc
+06-02 02:55:36.501  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:36.501  3331  3340 I AudioFlinger: AudioFlinger's thread 0xf4100000 ready to run
+06-02 02:55:36.502  3331  3331 I bt_a2dp_hw: adev_open:  adev_open in A2dp_hw module
+06-02 02:55:36.502  3331  3331 I AudioFlinger: loadHwModule() Loaded a2dp audio interface from A2DP Audio HW HAL (audio) handle 5
+06-02 02:55:36.502  3331  3331 I AudioFlinger: loadHwModule() Loaded usb audio interface from USB audio HW HAL (audio) handle 6
+06-02 02:55:36.503  3331  3331 I r_submix: adev_open(name=audio_hw_if)
+06-02 02:55:36.503  3331  3331 I r_submix: adev_init_check()
+06-02 02:55:36.503  3331  3331 I AudioFlinger: loadHwModule() Loaded r_submix audio interface from Wifi Display audio HAL (audio) handle 7
+06-02 02:55:36.503  3331  3331 D r_submix: adev_open_input_stream(addr=0)
+06-02 02:55:36.503  3331  3331 D r_submix: submix_audio_device_create_pipe_l(addr=0, idx=9)
+06-02 02:55:36.503  3331  3331 D r_submix:   now using address 0 for route 9
+06-02 02:55:36.503  3331  3341 I AudioFlinger: AudioFlinger's thread 0xf4040000 ready to run
+06-02 02:55:36.503  3331  3331 D r_submix: adev_close_input_stream()
+06-02 02:55:36.503  3331  3331 D r_submix: submix_audio_device_release_pipe_l(idx=9) addr=0
+06-02 02:55:36.503  3331  3331 D r_submix: submix_audio_device_destroy_pipe_l(): pipe destroyed
+06-02 02:55:36.503  3331  3331 F libc    : Fatal signal 11 (SIGSEGV), code 1, fault addr 0x0 in tid 3331 (mediaserver)
+06-02 02:55:36.503  2940  2940 I DEBUG   : property debug.db.uid not set; NOT waiting for gdb.
+06-02 02:55:36.503  2940  2940 I DEBUG   : HINT: adb shell setprop debug.db.uid 100000
+06-02 02:55:36.503  2940  2940 I DEBUG   : HINT: adb forward tcp:5039 tcp:5039
+06-02 02:55:36.518  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:36.551  3319  3319 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 02:55:36.552  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:36.554  2940  2940 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+06-02 02:55:36.554  2940  2940 F DEBUG   : Build fingerprint: 'samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30J/cf2c88de62:eng/test-keys'
+06-02 02:55:36.554  2940  2940 F DEBUG   : Revision: '0'
+06-02 02:55:36.554  2940  2940 F DEBUG   : ABI: 'arm'
+06-02 02:55:36.554  2940  2940 F DEBUG   : pid: 3331, tid: 3331, name: mediaserver  >>> /system/bin/mediaserver <<<
+06-02 02:55:36.554  2940  2940 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0
+06-02 02:55:36.557  2940  2940 F DEBUG   :     r0 f47e18f4  r1 00000000  r2 65732020  r3 00000007
+06-02 02:55:36.557  2940  2940 F DEBUG   :     r4 00000008  r5 f47e18f2  r6 f7259be0  r7 ff8d60a4
+06-02 02:55:36.557  2940  2940 F DEBUG   :     r8 f636b08c  r9 f7257431  sl f7257635  fp f47e18f2
+06-02 02:55:36.557  2940  2940 F DEBUG   :     ip 00000000  sp ff8d6060  lr f72524f7  pc f6da53c8  cpsr 600f0010
+06-02 02:55:36.558  2940  2940 F DEBUG   : 
+06-02 02:55:36.558  2940  2940 F DEBUG   : backtrace:
+06-02 02:55:36.558  2940  2940 F DEBUG   :     #00 pc 000183c8  /system/lib/libc.so (strcmp+152)
+06-02 02:55:36.558  2940  2940 F DEBUG   :     #01 pc 000084f3  /system/lib/libaudiopolicyservice.so
+06-02 02:55:36.558  2940  2940 F DEBUG   :     #02 pc 000200a0  [stack]
+06-02 02:55:36.586  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:36.589  3331  3331 W mediaserver: type=1701 audit(0.0:138): auid=4294967295 uid=1013 gid=1005 ses=4294967295 exe="/system/bin/mediaserver" sig=11
+06-02 02:55:36.599  2940  2940 F DEBUG   : 
+06-02 02:55:36.599  2940  2940 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_06
+06-02 02:55:36.602  2920  2920 I ServiceManager: service 'media.audio_flinger' died
+06-02 02:55:36.602  2920  2920 I ServiceManager: service 'media.player' died
+06-02 02:55:36.602  2920  2920 I ServiceManager: service 'media.resource_manager' died
+06-02 02:55:36.602  2920  2920 I ServiceManager: service 'media.camera' died
+06-02 02:55:36.619  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:36.653  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:36.687  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:36.721  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:36.755  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:36.789  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:36.823  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:36.857  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:36.891  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:36.925  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:36.959  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:36.992  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:37.027  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:37.060  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:37.094  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:37.128  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:37.162  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:37.196  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:37.230  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:37.264  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:37.298  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:37.332  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:37.365  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:37.399  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:37.433  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:37.467  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:37.501  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:37.535  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:37.551  3319  3319 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 02:55:37.569  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:37.603  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:37.637  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:37.671  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:37.704  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:37.738  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:37.772  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:37.806  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:37.823  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:37.857  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:37.891  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:37.924  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:37.958  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:37.992  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:38.026  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:38.060  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:38.094  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:38.128  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:38.162  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:38.196  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:38.230  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:38.264  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:38.297  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:38.331  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:38.365  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:38.399  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:38.433  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:38.467  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:38.501  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:38.535  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:38.551  3319  3319 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 02:55:38.569  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:38.603  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:38.636  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:38.671  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:38.704  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:38.738  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:38.772  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:38.806  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:38.840  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:38.874  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:38.908  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:38.942  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:38.975  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:39.009  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:39.043  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:39.077  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:39.111  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:39.128  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:39.162  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:39.196  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:39.230  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:39.264  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:39.297  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:39.331  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:39.365  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:39.399  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:39.433  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:39.467  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:39.501  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:39.535  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:39.552  3319  3319 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 02:55:39.569  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:39.602  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:39.636  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:39.670  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:39.704  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:39.738  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:39.772  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:39.806  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:39.840  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:39.874  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:39.908  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:39.942  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:39.975  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:40.009  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:40.043  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:40.077  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:40.111  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:40.145  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:40.179  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:40.213  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:40.247  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:40.281  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:40.314  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:40.348  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:40.382  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:40.416  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:40.450  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:40.467  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:40.501  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:40.535  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:40.552  3319  3319 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 02:55:40.569  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:40.602  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:40.636  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:40.670  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:40.704  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:40.737  3348  3348 I mediaserver: ServiceManager: 0xf640e260
+06-02 02:55:40.737  3348  3348 I AudioFlinger: Using default 3000 mSec as standby time.
+06-02 02:55:40.737  3348  3348 E BatteryNotifier: batterystats service unavailable!
+06-02 02:55:40.737  3348  3348 E BatteryNotifier: batterystats service unavailable!
+06-02 02:55:40.737  3348  3348 I CameraService: CameraService started (pid=3348)
+06-02 02:55:40.737  3348  3348 I CameraService: CameraService process starting
+06-02 02:55:40.737  3348  3348 E BatteryNotifier: batterystats service unavailable!
+06-02 02:55:40.737  3348  3348 E BatteryNotifier: batterystats service unavailable!
+06-02 02:55:40.738  3348  3348 E CameraService: Could not load camera HAL module: -2 (No such file or directory)
+06-02 02:55:40.738  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:40.738  3348  3348 I AudioPolicyService: AudioPolicyService CSTOR in new mode
+06-02 02:55:40.739  3348  3348 W APM::HwModule: loadOutput() invalid supported devices
+06-02 02:55:40.739  3348  3348 W APM::HwModule: loadOutput() invalid supported devices
+06-02 02:55:40.739  3348  3348 W APM::HwModule: loadInput() invalid supported devices
+06-02 02:55:40.739  3348  3348 W APM::HwModule: loadInput() invalid supported devices
+06-02 02:55:40.739  3348  3348 I APM::ConfigParsingUtils: loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+06-02 02:55:40.772  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:40.806  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:40.840  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:40.874  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:40.908  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:40.941  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:40.975  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:41.009  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:41.043  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:41.077  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:41.111  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:41.145  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:41.179  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:41.213  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:41.247  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:41.269  3348  3348 I AudioFlinger: loadHwModule() Loaded primary audio interface from Samsung audio HW HAL (audio) handle 1
+06-02 02:55:41.269  3348  3348 I AudioFlinger: openOutput(), module 1 Device 2, SamplingRate 48000, Format 0x000001, Channels 3, flags a
+06-02 02:55:41.269  3348  3348 I AudioFlinger: AudioStreamOut::open(), mHalFormatIsLinearPcm = 1
+06-02 02:55:41.269  3348  3348 I AudioFlinger: HAL output buffer size 1024 frames, normal sink buffer size 1024 frames
+06-02 02:55:41.270  3348  3348 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libaudioeffectoffload.so
+06-02 02:55:41.271  3348  3348 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libexynosvisualizer.so
+06-02 02:55:41.272  3348  3348 W EffectsFactory: loadLibrary() failed to open /system/lib/libmysound.so
+06-02 02:55:41.272  3348  3348 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libmyspace.so
+06-02 02:55:41.272  3348  3348 W EffectsFactory: loadLibrary() failed to open /system/lib/libaudiosa.so
+06-02 02:55:41.272  3348  3348 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libaudiosaplus_sec.so
+06-02 02:55:41.273  3348  3348 W EffectsFactory: loadLibrary() failed to open /system/lib/libsamsungSoundbooster_plus.so
+06-02 02:55:41.273  3348  3348 W EffectsFactory: loadEffect() could not get library soundbooster_plus
+06-02 02:55:41.273  3348  3348 W EffectsFactory: addSubEffect() could not get library soundalive_sec
+06-02 02:55:41.273  3348  3348 W EffectsFactory: loadEffect() could not add subEffect 
+06-02 02:55:41.273  3348  3348 W EffectsFactory: loadEffect() could not get library soundalive
+06-02 02:55:41.273  3348  3348 W EffectsFactory: loadEffect() could not get library soundalive
+06-02 02:55:41.273  3348  3348 W EffectsFactory: loadEffect() could not get library soundalive
+06-02 02:55:41.273  3348  3348 W EffectsFactory: addSubEffect() could not get library visualizer_hw
+06-02 02:55:41.273  3348  3348 W EffectsFactory: loadEffect() could not add subEffect 
+06-02 02:55:41.273  3348  3348 W EffectsFactory: addSubEffect() could not get library mysound
+06-02 02:55:41.273  3348  3348 W EffectsFactory: loadEffect() could not add subEffect 
+06-02 02:55:41.273  3348  3348 W EffectsFactory: addSubEffect() could not get library myspace
+06-02 02:55:41.273  3348  3348 W EffectsFactory: loadEffect() could not add subEffect 
+06-02 02:55:41.273  3348  3348 I BufferProvider: found effect "Multichannel Downmix To Stereo" from The Android Open Source Project
+06-02 02:55:41.273  3348  3348 I AudioFlinger: Using module 1 has the primary audio interface
+06-02 02:55:41.273  3348  3357 I AudioFlinger: AudioFlinger's thread 0xf47c0000 ready to run
+06-02 02:55:41.273  3348  3357 V audio_hw_primary: do_out_standby: output standby: 1
+06-02 02:55:41.273  3348  3357 V audio_hw_primary: out_set_parameters: key value pairs: routing=2
+06-02 02:55:41.273  3348  3357 E AudioFlinger: no wake lock to update!
+06-02 02:55:41.274  3348  3348 I AudioFlinger: openOutput(), module 1 Device 2, SamplingRate 48000, Format 0x000001, Channels 3, flags 4
+06-02 02:55:41.274  3348  3348 I AudioFlinger: AudioStreamOut::open(), mHalFormatIsLinearPcm = 1
+06-02 02:55:41.274  3348  3348 I AudioFlinger: HAL output buffer size 256 frames, normal sink buffer size 960 frames
+06-02 02:55:41.274  3348  3348 E MonoPipe: Failed to fetch local time frequency when constructing a MonoPipe (res = -32).  getNextWriteTimestamp calls will be non-functional
+06-02 02:55:41.274  3348  3359 I AudioFlinger: AudioFlinger's thread 0xf4480000 ready to run
+06-02 02:55:41.274  3348  3359 V audio_hw_primary: out_set_parameters: key value pairs: routing=2
+06-02 02:55:41.274  3348  3359 V audio_hw_primary: do_out_standby: output standby: 1
+06-02 02:55:41.274  3348  3359 E AudioFlinger: no wake lock to update!
+06-02 02:55:41.275  3348  3348 V audio_hw_primary: adev_open_input_stream: Requesting input stream with rate: 48000, channels: 0xc
+06-02 02:55:41.275  3348  3360 I AudioFlinger: AudioFlinger's thread 0xf4180000 ready to run
+06-02 02:55:41.275  3348  3348 I bt_a2dp_hw: adev_open:  adev_open in A2dp_hw module
+06-02 02:55:41.275  3348  3348 I AudioFlinger: loadHwModule() Loaded a2dp audio interface from A2DP Audio HW HAL (audio) handle 5
+06-02 02:55:41.276  3348  3348 I AudioFlinger: loadHwModule() Loaded usb audio interface from USB audio HW HAL (audio) handle 6
+06-02 02:55:41.276  3348  3348 I r_submix: adev_open(name=audio_hw_if)
+06-02 02:55:41.276  3348  3348 I r_submix: adev_init_check()
+06-02 02:55:41.276  3348  3348 I AudioFlinger: loadHwModule() Loaded r_submix audio interface from Wifi Display audio HAL (audio) handle 7
+06-02 02:55:41.276  3348  3348 D r_submix: adev_open_input_stream(addr=0)
+06-02 02:55:41.276  3348  3348 D r_submix: submix_audio_device_create_pipe_l(addr=0, idx=9)
+06-02 02:55:41.276  3348  3348 D r_submix:   now using address 0 for route 9
+06-02 02:55:41.276  3348  3361 I AudioFlinger: AudioFlinger's thread 0xf40c0000 ready to run
+06-02 02:55:41.276  3348  3348 D r_submix: adev_close_input_stream()
+06-02 02:55:41.276  3348  3348 D r_submix: submix_audio_device_release_pipe_l(idx=9) addr=0
+06-02 02:55:41.276  3348  3348 D r_submix: submix_audio_device_destroy_pipe_l(): pipe destroyed
+06-02 02:55:41.277  3348  3348 F libc    : Fatal signal 11 (SIGSEGV), code 1, fault addr 0x0 in tid 3348 (mediaserver)
+06-02 02:55:41.277  2940  2940 I DEBUG   : property debug.db.uid not set; NOT waiting for gdb.
+06-02 02:55:41.277  2940  2940 I DEBUG   : HINT: adb shell setprop debug.db.uid 100000
+06-02 02:55:41.277  2940  2940 I DEBUG   : HINT: adb forward tcp:5039 tcp:5039
+06-02 02:55:41.280  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:41.314  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:41.327  2940  2940 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+06-02 02:55:41.327  2940  2940 F DEBUG   : Build fingerprint: 'samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30J/cf2c88de62:eng/test-keys'
+06-02 02:55:41.327  2940  2940 F DEBUG   : Revision: '0'
+06-02 02:55:41.327  2940  2940 F DEBUG   : ABI: 'arm'
+06-02 02:55:41.327  2940  2940 F DEBUG   : pid: 3348, tid: 3348, name: mediaserver  >>> /system/bin/mediaserver <<<
+06-02 02:55:41.327  2940  2940 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0
+06-02 02:55:41.331  2940  2940 F DEBUG   :     r0 f48618f4  r1 00000000  r2 65732020  r3 00000007
+06-02 02:55:41.331  2940  2940 F DEBUG   :     r4 00000008  r5 f48618f2  r6 f72f1be0  r7 ffebcd04
+06-02 02:55:41.331  2940  2940 F DEBUG   :     r8 f642b08c  r9 f72ef431  sl f72ef635  fp f48618f2
+06-02 02:55:41.331  2940  2940 F DEBUG   :     ip 00000000  sp ffebccc0  lr f72ea4f7  pc f6e3d3c8  cpsr 600f0010
+06-02 02:55:41.331  2940  2940 F DEBUG   : 
+06-02 02:55:41.331  2940  2940 F DEBUG   : backtrace:
+06-02 02:55:41.331  2940  2940 F DEBUG   :     #00 pc 000183c8  /system/lib/libc.so (strcmp+152)
+06-02 02:55:41.331  2940  2940 F DEBUG   :     #01 pc 000084f3  /system/lib/libaudiopolicyservice.so
+06-02 02:55:41.331  2940  2940 F DEBUG   :     #02 pc 0001fd00  [stack]
+06-02 02:55:41.348  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:41.369  3348  3348 W mediaserver: type=1701 audit(0.0:139): auid=4294967295 uid=1013 gid=1005 ses=4294967295 exe="/system/bin/mediaserver" sig=11
+06-02 02:55:41.373  2940  2940 F DEBUG   : 
+06-02 02:55:41.373  2940  2940 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_07
+06-02 02:55:41.375  2920  2920 I ServiceManager: service 'media.audio_flinger' died
+06-02 02:55:41.375  2920  2920 I ServiceManager: service 'media.player' died
+06-02 02:55:41.375  2920  2920 I ServiceManager: service 'media.resource_manager' died
+06-02 02:55:41.375  2920  2920 I ServiceManager: service 'media.camera' died
+06-02 02:55:41.382  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:41.416  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:41.450  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:41.484  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:41.518  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:41.552  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:41.553  3319  3319 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 02:55:41.586  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:41.620  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:41.654  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:41.687  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:41.704  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:41.738  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:41.772  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:41.806  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:41.840  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:41.874  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:41.908  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:41.941  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:41.976  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:42.009  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:42.043  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:42.077  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:42.111  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:42.145  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:42.179  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:42.213  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:42.247  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:42.280  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:42.315  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:42.348  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:42.382  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:42.416  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:42.450  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:42.484  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:42.518  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:42.552  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:42.553  3319  3319 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 02:55:42.586  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:42.620  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:42.653  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:42.687  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:42.721  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:42.755  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:42.789  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:42.823  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:42.857  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:42.891  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:42.925  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:42.959  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:42.993  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:43.026  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:43.043  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:43.094  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:43.111  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:43.145  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:43.179  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:43.213  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:43.247  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:43.280  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:43.314  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:43.348  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:43.382  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:43.416  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:43.450  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:43.484  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:43.518  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:43.552  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:43.554  3319  3319 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 02:55:43.586  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:43.620  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:43.653  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:43.687  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:43.721  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:43.755  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:43.789  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:43.823  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:43.857  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:43.891  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:43.925  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:43.958  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:43.992  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:44.026  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:44.060  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:44.094  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:44.128  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:44.162  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:44.196  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:44.230  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:44.264  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:44.297  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:44.331  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:44.365  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:44.399  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:44.433  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:44.450  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:44.484  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:44.518  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:44.552  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:44.554  3319  3319 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 02:55:44.586  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:44.619  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:44.653  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:44.687  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:44.721  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:44.755  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:44.789  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:44.823  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:44.857  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:44.891  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:44.925  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:44.959  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:44.992  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:45.026  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:45.060  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:45.094  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:45.128  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:45.162  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:45.196  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:45.230  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:45.264  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:45.297  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:45.332  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:45.365  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:45.399  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:45.433  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:45.467  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:45.501  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:45.535  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:45.554  3319  3319 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 02:55:45.569  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:45.603  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:45.637  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:45.670  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:45.704  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:45.738  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:45.772  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:45.789  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:45.823  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:45.857  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:45.891  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:45.925  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:45.958  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:45.992  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:46.026  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:46.060  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:46.094  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:46.128  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:46.162  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:46.196  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:46.230  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:46.264  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:46.297  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:46.331  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:46.365  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:46.399  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:46.433  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:46.467  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:46.501  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:46.515  3370  3370 I mediaserver: ServiceManager: 0xf658e260
+06-02 02:55:46.515  3370  3370 I AudioFlinger: Using default 3000 mSec as standby time.
+06-02 02:55:46.515  3370  3370 E BatteryNotifier: batterystats service unavailable!
+06-02 02:55:46.515  3370  3370 E BatteryNotifier: batterystats service unavailable!
+06-02 02:55:46.515  3370  3370 I CameraService: CameraService started (pid=3370)
+06-02 02:55:46.515  3370  3370 I CameraService: CameraService process starting
+06-02 02:55:46.515  3370  3370 E BatteryNotifier: batterystats service unavailable!
+06-02 02:55:46.515  3370  3370 E BatteryNotifier: batterystats service unavailable!
+06-02 02:55:46.515  3370  3370 E CameraService: Could not load camera HAL module: -2 (No such file or directory)
+06-02 02:55:46.515  3370  3370 I AudioPolicyService: AudioPolicyService CSTOR in new mode
+06-02 02:55:46.516  3370  3370 W APM::HwModule: loadOutput() invalid supported devices
+06-02 02:55:46.516  3370  3370 W APM::HwModule: loadOutput() invalid supported devices
+06-02 02:55:46.516  3370  3370 W APM::HwModule: loadInput() invalid supported devices
+06-02 02:55:46.516  3370  3370 W APM::HwModule: loadInput() invalid supported devices
+06-02 02:55:46.516  3370  3370 I APM::ConfigParsingUtils: loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+06-02 02:55:46.535  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:46.555  3319  3319 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 02:55:46.569  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:46.602  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:46.637  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:46.670  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:46.704  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:46.738  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:46.772  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:46.806  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:46.840  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:46.874  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:46.908  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:46.942  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:46.976  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:47.009  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:47.026  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:47.047  3370  3370 I AudioFlinger: loadHwModule() Loaded primary audio interface from Samsung audio HW HAL (audio) handle 1
+06-02 02:55:47.047  3370  3370 I AudioFlinger: openOutput(), module 1 Device 2, SamplingRate 48000, Format 0x000001, Channels 3, flags a
+06-02 02:55:47.047  3370  3370 I AudioFlinger: AudioStreamOut::open(), mHalFormatIsLinearPcm = 1
+06-02 02:55:47.047  3370  3370 I AudioFlinger: HAL output buffer size 1024 frames, normal sink buffer size 1024 frames
+06-02 02:55:47.048  3370  3370 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libaudioeffectoffload.so
+06-02 02:55:47.049  3370  3370 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libexynosvisualizer.so
+06-02 02:55:47.050  3370  3370 W EffectsFactory: loadLibrary() failed to open /system/lib/libmysound.so
+06-02 02:55:47.051  3370  3370 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libmyspace.so
+06-02 02:55:47.051  3370  3370 W EffectsFactory: loadLibrary() failed to open /system/lib/libaudiosa.so
+06-02 02:55:47.051  3370  3370 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libaudiosaplus_sec.so
+06-02 02:55:47.051  3370  3370 W EffectsFactory: loadLibrary() failed to open /system/lib/libsamsungSoundbooster_plus.so
+06-02 02:55:47.051  3370  3370 W EffectsFactory: loadEffect() could not get library soundbooster_plus
+06-02 02:55:47.051  3370  3370 W EffectsFactory: addSubEffect() could not get library soundalive_sec
+06-02 02:55:47.051  3370  3370 W EffectsFactory: loadEffect() could not add subEffect 
+06-02 02:55:47.051  3370  3370 W EffectsFactory: loadEffect() could not get library soundalive
+06-02 02:55:47.051  3370  3370 W EffectsFactory: loadEffect() could not get library soundalive
+06-02 02:55:47.051  3370  3370 W EffectsFactory: loadEffect() could not get library soundalive
+06-02 02:55:47.051  3370  3370 W EffectsFactory: addSubEffect() could not get library visualizer_hw
+06-02 02:55:47.051  3370  3370 W EffectsFactory: loadEffect() could not add subEffect 
+06-02 02:55:47.051  3370  3370 W EffectsFactory: addSubEffect() could not get library mysound
+06-02 02:55:47.051  3370  3370 W EffectsFactory: loadEffect() could not add subEffect 
+06-02 02:55:47.051  3370  3370 W EffectsFactory: addSubEffect() could not get library myspace
+06-02 02:55:47.051  3370  3370 W EffectsFactory: loadEffect() could not add subEffect 
+06-02 02:55:47.051  3370  3370 I BufferProvider: found effect "Multichannel Downmix To Stereo" from The Android Open Source Project
+06-02 02:55:47.051  3370  3374 I AudioFlinger: AudioFlinger's thread 0xf4940000 ready to run
+06-02 02:55:47.051  3370  3370 I AudioFlinger: Using module 1 has the primary audio interface
+06-02 02:55:47.051  3370  3374 V audio_hw_primary: do_out_standby: output standby: 1
+06-02 02:55:47.052  3370  3374 V audio_hw_primary: out_set_parameters: key value pairs: routing=2
+06-02 02:55:47.052  3370  3374 E AudioFlinger: no wake lock to update!
+06-02 02:55:47.052  3370  3370 I AudioFlinger: openOutput(), module 1 Device 2, SamplingRate 48000, Format 0x000001, Channels 3, flags 4
+06-02 02:55:47.052  3370  3370 I AudioFlinger: AudioStreamOut::open(), mHalFormatIsLinearPcm = 1
+06-02 02:55:47.052  3370  3370 I AudioFlinger: HAL output buffer size 256 frames, normal sink buffer size 960 frames
+06-02 02:55:47.052  3370  3370 E MonoPipe: Failed to fetch local time frequency when constructing a MonoPipe (res = -32).  getNextWriteTimestamp calls will be non-functional
+06-02 02:55:47.053  3370  3376 I AudioFlinger: AudioFlinger's thread 0xf4600000 ready to run
+06-02 02:55:47.053  3370  3376 V audio_hw_primary: do_out_standby: output standby: 1
+06-02 02:55:47.053  3370  3376 V audio_hw_primary: out_set_parameters: key value pairs: routing=2
+06-02 02:55:47.053  3370  3376 E AudioFlinger: no wake lock to update!
+06-02 02:55:47.053  3370  3370 V audio_hw_primary: adev_open_input_stream: Requesting input stream with rate: 48000, channels: 0xc
+06-02 02:55:47.053  3370  3377 I AudioFlinger: AudioFlinger's thread 0xf4300000 ready to run
+06-02 02:55:47.054  3370  3370 I bt_a2dp_hw: adev_open:  adev_open in A2dp_hw module
+06-02 02:55:47.054  3370  3370 I AudioFlinger: loadHwModule() Loaded a2dp audio interface from A2DP Audio HW HAL (audio) handle 5
+06-02 02:55:47.055  3370  3370 I AudioFlinger: loadHwModule() Loaded usb audio interface from USB audio HW HAL (audio) handle 6
+06-02 02:55:47.055  3370  3370 I r_submix: adev_open(name=audio_hw_if)
+06-02 02:55:47.055  3370  3370 I r_submix: adev_init_check()
+06-02 02:55:47.055  3370  3370 I AudioFlinger: loadHwModule() Loaded r_submix audio interface from Wifi Display audio HAL (audio) handle 7
+06-02 02:55:47.055  3370  3370 D r_submix: adev_open_input_stream(addr=0)
+06-02 02:55:47.055  3370  3370 D r_submix: submix_audio_device_create_pipe_l(addr=0, idx=9)
+06-02 02:55:47.055  3370  3370 D r_submix:   now using address 0 for route 9
+06-02 02:55:47.055  3370  3378 I AudioFlinger: AudioFlinger's thread 0xf4240000 ready to run
+06-02 02:55:47.055  3370  3370 D r_submix: adev_close_input_stream()
+06-02 02:55:47.055  3370  3370 D r_submix: submix_audio_device_release_pipe_l(idx=9) addr=0
+06-02 02:55:47.055  3370  3370 D r_submix: submix_audio_device_destroy_pipe_l(): pipe destroyed
+06-02 02:55:47.056  3370  3370 F libc    : Fatal signal 11 (SIGSEGV), code 1, fault addr 0x0 in tid 3370 (mediaserver)
+06-02 02:55:47.056  2940  2940 I DEBUG   : property debug.db.uid not set; NOT waiting for gdb.
+06-02 02:55:47.056  2940  2940 I DEBUG   : HINT: adb shell setprop debug.db.uid 100000
+06-02 02:55:47.056  2940  2940 I DEBUG   : HINT: adb forward tcp:5039 tcp:5039
+06-02 02:55:47.060  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:47.094  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:47.106  2940  2940 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+06-02 02:55:47.106  2940  2940 F DEBUG   : Build fingerprint: 'samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30J/cf2c88de62:eng/test-keys'
+06-02 02:55:47.106  2940  2940 F DEBUG   : Revision: '0'
+06-02 02:55:47.106  2940  2940 F DEBUG   : ABI: 'arm'
+06-02 02:55:47.106  2940  2940 F DEBUG   : pid: 3370, tid: 3370, name: mediaserver  >>> /system/bin/mediaserver <<<
+06-02 02:55:47.106  2940  2940 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0
+06-02 02:55:47.109  2940  2940 F DEBUG   :     r0 f49e18f4  r1 00000000  r2 65732020  r3 00000007
+06-02 02:55:47.109  2940  2940 F DEBUG   :     r4 00000008  r5 f49e18f2  r6 f7461be0  r7 ffe66dd4
+06-02 02:55:47.109  2940  2940 F DEBUG   :     r8 f65ab08c  r9 f745f431  sl f745f635  fp f49e18f2
+06-02 02:55:47.109  2940  2940 F DEBUG   :     ip 00000000  sp ffe66d90  lr f745a4f7  pc f6fad3c8  cpsr 600f0010
+06-02 02:55:47.110  2940  2940 F DEBUG   : 
+06-02 02:55:47.110  2940  2940 F DEBUG   : backtrace:
+06-02 02:55:47.110  2940  2940 F DEBUG   :     #00 pc 000183c8  /system/lib/libc.so (strcmp+152)
+06-02 02:55:47.110  2940  2940 F DEBUG   :     #01 pc 000084f3  /system/lib/libaudiopolicyservice.so
+06-02 02:55:47.110  2940  2940 F DEBUG   :     #02 pc 0001fdd0  [stack]
+06-02 02:55:47.128  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:47.152  2940  2940 F DEBUG   : 
+06-02 02:55:47.152  2940  2940 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_08
+06-02 02:55:47.139  3370  3370 W mediaserver: type=1701 audit(0.0:140): auid=4294967295 uid=1013 gid=1005 ses=4294967295 exe="/system/bin/mediaserver" sig=11
+06-02 02:55:47.154  2920  2920 I ServiceManager: service 'media.audio_flinger' died
+06-02 02:55:47.154  2920  2920 I ServiceManager: service 'media.player' died
+06-02 02:55:47.155  2920  2920 I ServiceManager: service 'media.resource_manager' died
+06-02 02:55:47.155  2920  2920 I ServiceManager: service 'media.camera' died
+06-02 02:55:47.162  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:47.196  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:47.230  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:47.264  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:47.297  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:47.331  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:47.365  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:47.399  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:47.433  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:47.467  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:47.501  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:47.535  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:47.555  3319  3319 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 02:55:47.569  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:47.603  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:47.636  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:47.671  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:47.704  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:47.738  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:47.772  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:47.806  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:47.840  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:47.874  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:47.908  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:47.942  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:47.976  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:48.009  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:48.043  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:48.077  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:48.111  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:48.145  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:48.179  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:48.213  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:48.247  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:48.281  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:48.314  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:48.331  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:48.365  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:48.399  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:48.433  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:48.467  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:48.501  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:48.535  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:48.556  3319  3319 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 02:55:48.569  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:48.602  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:48.637  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:48.670  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:48.704  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:48.738  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:48.772  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:48.806  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:48.840  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:48.874  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:48.908  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:48.942  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:48.975  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:49.010  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:49.043  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:49.077  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:49.111  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:49.145  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:49.179  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:49.213  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:49.247  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:49.281  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:49.315  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:49.349  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:49.382  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:49.416  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:49.450  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:49.484  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:49.518  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:49.552  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:49.556  3319  3319 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 02:55:49.586  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:49.602  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:49.636  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:49.670  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:49.704  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:49.738  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:49.772  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:49.806  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:49.840  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:49.874  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:49.908  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:49.941  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:49.975  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:50.009  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:50.043  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:50.077  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:50.111  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:50.145  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:50.179  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:50.213  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:50.247  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:50.281  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:50.314  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:50.348  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:50.382  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:50.416  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:50.450  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:50.484  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:50.518  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:50.552  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:50.556  3319  3319 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 02:55:50.586  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:50.619  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:50.653  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:50.688  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:50.721  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:50.755  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:50.789  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:50.823  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:50.857  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:50.891  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:50.908  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:50.941  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:50.975  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:51.009  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:51.043  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:51.077  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:51.111  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:51.145  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:51.179  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:51.213  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:51.247  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:51.281  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:51.293  3385  3385 I mediaserver: ServiceManager: 0xf634e260
+06-02 02:55:51.293  3385  3385 I AudioFlinger: Using default 3000 mSec as standby time.
+06-02 02:55:51.293  3385  3385 E BatteryNotifier: batterystats service unavailable!
+06-02 02:55:51.293  3385  3385 E BatteryNotifier: batterystats service unavailable!
+06-02 02:55:51.293  3385  3385 I CameraService: CameraService started (pid=3385)
+06-02 02:55:51.293  3385  3385 I CameraService: CameraService process starting
+06-02 02:55:51.293  3385  3385 E BatteryNotifier: batterystats service unavailable!
+06-02 02:55:51.293  3385  3385 E BatteryNotifier: batterystats service unavailable!
+06-02 02:55:51.294  3385  3385 E CameraService: Could not load camera HAL module: -2 (No such file or directory)
+06-02 02:55:51.294  3385  3385 I AudioPolicyService: AudioPolicyService CSTOR in new mode
+06-02 02:55:51.294  3385  3385 W APM::HwModule: loadOutput() invalid supported devices
+06-02 02:55:51.294  3385  3385 W APM::HwModule: loadOutput() invalid supported devices
+06-02 02:55:51.294  3385  3385 W APM::HwModule: loadInput() invalid supported devices
+06-02 02:55:51.294  3385  3385 W APM::HwModule: loadInput() invalid supported devices
+06-02 02:55:51.294  3385  3385 I APM::ConfigParsingUtils: loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+06-02 02:55:51.314  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:51.348  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:51.382  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:51.416  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:51.450  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:51.484  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:51.518  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:51.552  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:51.557  3319  3319 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 02:55:51.586  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:51.619  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:51.653  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:51.687  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:51.721  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:51.755  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:51.789  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:51.823  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:51.825  3385  3385 I AudioFlinger: loadHwModule() Loaded primary audio interface from Samsung audio HW HAL (audio) handle 1
+06-02 02:55:51.825  3385  3385 I AudioFlinger: openOutput(), module 1 Device 2, SamplingRate 48000, Format 0x000001, Channels 3, flags a
+06-02 02:55:51.825  3385  3385 I AudioFlinger: AudioStreamOut::open(), mHalFormatIsLinearPcm = 1
+06-02 02:55:51.825  3385  3385 I AudioFlinger: HAL output buffer size 1024 frames, normal sink buffer size 1024 frames
+06-02 02:55:51.826  3385  3385 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libaudioeffectoffload.so
+06-02 02:55:51.827  3385  3385 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libexynosvisualizer.so
+06-02 02:55:51.828  3385  3385 W EffectsFactory: loadLibrary() failed to open /system/lib/libmysound.so
+06-02 02:55:51.828  3385  3385 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libmyspace.so
+06-02 02:55:51.828  3385  3385 W EffectsFactory: loadLibrary() failed to open /system/lib/libaudiosa.so
+06-02 02:55:51.828  3385  3385 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libaudiosaplus_sec.so
+06-02 02:55:51.829  3385  3385 W EffectsFactory: loadLibrary() failed to open /system/lib/libsamsungSoundbooster_plus.so
+06-02 02:55:51.829  3385  3385 W EffectsFactory: loadEffect() could not get library soundbooster_plus
+06-02 02:55:51.829  3385  3385 W EffectsFactory: addSubEffect() could not get library soundalive_sec
+06-02 02:55:51.829  3385  3385 W EffectsFactory: loadEffect() could not add subEffect 
+06-02 02:55:51.829  3385  3385 W EffectsFactory: loadEffect() could not get library soundalive
+06-02 02:55:51.829  3385  3385 W EffectsFactory: loadEffect() could not get library soundalive
+06-02 02:55:51.829  3385  3385 W EffectsFactory: loadEffect() could not get library soundalive
+06-02 02:55:51.829  3385  3385 W EffectsFactory: addSubEffect() could not get library visualizer_hw
+06-02 02:55:51.829  3385  3385 W EffectsFactory: loadEffect() could not add subEffect 
+06-02 02:55:51.829  3385  3385 W EffectsFactory: addSubEffect() could not get library mysound
+06-02 02:55:51.829  3385  3385 W EffectsFactory: loadEffect() could not add subEffect 
+06-02 02:55:51.829  3385  3385 W EffectsFactory: addSubEffect() could not get library myspace
+06-02 02:55:51.829  3385  3385 W EffectsFactory: loadEffect() could not add subEffect 
+06-02 02:55:51.829  3385  3385 I BufferProvider: found effect "Multichannel Downmix To Stereo" from The Android Open Source Project
+06-02 02:55:51.829  3385  3389 I AudioFlinger: AudioFlinger's thread 0xf4740000 ready to run
+06-02 02:55:51.829  3385  3385 I AudioFlinger: Using module 1 has the primary audio interface
+06-02 02:55:51.829  3385  3389 V audio_hw_primary: do_out_standby: output standby: 1
+06-02 02:55:51.829  3385  3389 V audio_hw_primary: out_set_parameters: key value pairs: routing=2
+06-02 02:55:51.829  3385  3389 E AudioFlinger: no wake lock to update!
+06-02 02:55:51.830  3385  3385 I AudioFlinger: openOutput(), module 1 Device 2, SamplingRate 48000, Format 0x000001, Channels 3, flags 4
+06-02 02:55:51.830  3385  3385 I AudioFlinger: AudioStreamOut::open(), mHalFormatIsLinearPcm = 1
+06-02 02:55:51.830  3385  3385 I AudioFlinger: HAL output buffer size 256 frames, normal sink buffer size 960 frames
+06-02 02:55:51.830  3385  3385 E MonoPipe: Failed to fetch local time frequency when constructing a MonoPipe (res = -32).  getNextWriteTimestamp calls will be non-functional
+06-02 02:55:51.830  3385  3391 I AudioFlinger: AudioFlinger's thread 0xf4400000 ready to run
+06-02 02:55:51.830  3385  3391 V audio_hw_primary: out_set_parameters: key value pairs: routing=2
+06-02 02:55:51.830  3385  3391 V audio_hw_primary: do_out_standby: output standby: 1
+06-02 02:55:51.830  3385  3391 E AudioFlinger: no wake lock to update!
+06-02 02:55:51.831  3385  3385 V audio_hw_primary: adev_open_input_stream: Requesting input stream with rate: 48000, channels: 0xc
+06-02 02:55:51.831  3385  3392 I AudioFlinger: AudioFlinger's thread 0xf40c0000 ready to run
+06-02 02:55:51.831  3385  3385 I bt_a2dp_hw: adev_open:  adev_open in A2dp_hw module
+06-02 02:55:51.831  3385  3385 I AudioFlinger: loadHwModule() Loaded a2dp audio interface from A2DP Audio HW HAL (audio) handle 5
+06-02 02:55:51.832  3385  3385 I AudioFlinger: loadHwModule() Loaded usb audio interface from USB audio HW HAL (audio) handle 6
+06-02 02:55:51.832  3385  3385 I r_submix: adev_open(name=audio_hw_if)
+06-02 02:55:51.832  3385  3385 I r_submix: adev_init_check()
+06-02 02:55:51.832  3385  3385 I AudioFlinger: loadHwModule() Loaded r_submix audio interface from Wifi Display audio HAL (audio) handle 7
+06-02 02:55:51.832  3385  3385 D r_submix: adev_open_input_stream(addr=0)
+06-02 02:55:51.832  3385  3385 D r_submix: submix_audio_device_create_pipe_l(addr=0, idx=9)
+06-02 02:55:51.832  3385  3385 D r_submix:   now using address 0 for route 9
+06-02 02:55:51.833  3385  3393 I AudioFlinger: AudioFlinger's thread 0xf4040000 ready to run
+06-02 02:55:51.833  3385  3385 D r_submix: adev_close_input_stream()
+06-02 02:55:51.833  3385  3385 D r_submix: submix_audio_device_release_pipe_l(idx=9) addr=0
+06-02 02:55:51.833  3385  3385 D r_submix: submix_audio_device_destroy_pipe_l(): pipe destroyed
+06-02 02:55:51.833  3385  3385 F libc    : Fatal signal 11 (SIGSEGV), code 1, fault addr 0x0 in tid 3385 (mediaserver)
+06-02 02:55:51.833  2940  2940 I DEBUG   : property debug.db.uid not set; NOT waiting for gdb.
+06-02 02:55:51.833  2940  2940 I DEBUG   : HINT: adb shell setprop debug.db.uid 100000
+06-02 02:55:51.833  2940  2940 I DEBUG   : HINT: adb forward tcp:5039 tcp:5039
+06-02 02:55:51.857  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:51.883  2940  2940 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+06-02 02:55:51.883  2940  2940 F DEBUG   : Build fingerprint: 'samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30J/cf2c88de62:eng/test-keys'
+06-02 02:55:51.883  2940  2940 F DEBUG   : Revision: '0'
+06-02 02:55:51.883  2940  2940 F DEBUG   : ABI: 'arm'
+06-02 02:55:51.884  2940  2940 F DEBUG   : pid: 3385, tid: 3385, name: mediaserver  >>> /system/bin/mediaserver <<<
+06-02 02:55:51.884  2940  2940 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0
+06-02 02:55:51.887  2940  2940 F DEBUG   :     r0 f47e18f4  r1 00000000  r2 65732020  r3 00000007
+06-02 02:55:51.887  2940  2940 F DEBUG   :     r4 00000008  r5 f47e18f2  r6 f7255be0  r7 ff890d54
+06-02 02:55:51.887  2940  2940 F DEBUG   :     r8 f636b08c  r9 f7253431  sl f7253635  fp f47e18f2
+06-02 02:55:51.887  2940  2940 F DEBUG   :     ip 00000000  sp ff890d10  lr f724e4f7  pc f6da13c8  cpsr 600f0010
+06-02 02:55:51.887  2940  2940 F DEBUG   : 
+06-02 02:55:51.887  2940  2940 F DEBUG   : backtrace:
+06-02 02:55:51.887  2940  2940 F DEBUG   :     #00 pc 000183c8  /system/lib/libc.so (strcmp+152)
+06-02 02:55:51.887  2940  2940 F DEBUG   :     #01 pc 000084f3  /system/lib/libaudiopolicyservice.so
+06-02 02:55:51.887  2940  2940 F DEBUG   :     #02 pc 0001fd50  [stack]
+06-02 02:55:51.891  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:51.925  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:51.929  2940  2940 F DEBUG   : 
+06-02 02:55:51.929  2940  2940 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_09
+06-02 02:55:51.919  3385  3385 W mediaserver: type=1701 audit(0.0:141): auid=4294967295 uid=1013 gid=1005 ses=4294967295 exe="/system/bin/mediaserver" sig=11
+06-02 02:55:51.942  2920  2920 I ServiceManager: service 'media.audio_flinger' died
+06-02 02:55:51.942  2920  2920 I ServiceManager: service 'media.player' died
+06-02 02:55:51.942  2920  2920 I ServiceManager: service 'media.resource_manager' died
+06-02 02:55:51.942  2920  2920 I ServiceManager: service 'media.camera' died
+06-02 02:55:51.958  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:51.993  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:52.026  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:52.060  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:52.094  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:52.128  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:52.162  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:52.179  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:52.213  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:52.247  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:52.280  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:52.314  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:52.348  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:52.382  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:52.416  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:52.450  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:52.484  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:52.518  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:52.552  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:52.557  3319  3319 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 02:55:52.586  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:52.619  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:52.653  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:52.687  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:52.721  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:52.755  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:52.789  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:52.823  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:52.857  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:52.891  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:52.925  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:52.959  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:52.993  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:53.026  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:53.060  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:53.094  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:53.128  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:53.162  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:53.196  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:53.230  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:53.264  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:53.298  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:53.331  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:53.365  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:53.399  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:53.433  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:53.467  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:53.484  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:53.518  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:53.552  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:53.558  3319  3319 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 02:55:53.586  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:53.619  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:53.653  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:53.687  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:53.721  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:53.755  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:53.789  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:53.823  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:53.857  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:53.891  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:53.925  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:53.959  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:53.992  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:54.027  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:54.060  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:54.094  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:54.128  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:54.162  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:54.196  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:54.230  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:54.264  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:54.297  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:54.331  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:54.365  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:54.399  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:54.433  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:54.467  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:54.501  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:54.535  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:54.558  3319  3319 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 02:55:54.569  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:54.603  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:54.637  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:54.670  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:54.704  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:54.738  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:54.772  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:54.806  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:54.840  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:54.857  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:54.891  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:54.925  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:54.958  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:54.992  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:55.026  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:55.060  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:55.094  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:55.128  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:55.162  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:55.196  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:55.230  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:55.264  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:55.297  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:55.331  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:55.365  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:55.399  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:55.433  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:55.467  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:55.501  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:55.535  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:55.559  3319  3319 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 02:55:55.569  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:55.602  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:55.636  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:55.671  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:55.707  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:55.738  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:55.772  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:55.806  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:55.840  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:55.874  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:55.908  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:55.942  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:55.976  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:56.009  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:56.043  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:56.076  3399  3399 I mediaserver: ServiceManager: 0xf628e260
+06-02 02:55:56.076  3399  3399 I AudioFlinger: Using default 3000 mSec as standby time.
+06-02 02:55:56.076  3399  3399 E BatteryNotifier: batterystats service unavailable!
+06-02 02:55:56.076  3399  3399 E BatteryNotifier: batterystats service unavailable!
+06-02 02:55:56.077  3399  3399 I CameraService: CameraService started (pid=3399)
+06-02 02:55:56.077  3399  3399 I CameraService: CameraService process starting
+06-02 02:55:56.077  3399  3399 E BatteryNotifier: batterystats service unavailable!
+06-02 02:55:56.077  3399  3399 E BatteryNotifier: batterystats service unavailable!
+06-02 02:55:56.077  3399  3399 E CameraService: Could not load camera HAL module: -2 (No such file or directory)
+06-02 02:55:56.077  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:56.077  3399  3399 I AudioPolicyService: AudioPolicyService CSTOR in new mode
+06-02 02:55:56.078  3399  3399 W APM::HwModule: loadOutput() invalid supported devices
+06-02 02:55:56.078  3399  3399 W APM::HwModule: loadOutput() invalid supported devices
+06-02 02:55:56.078  3399  3399 W APM::HwModule: loadInput() invalid supported devices
+06-02 02:55:56.078  3399  3399 W APM::HwModule: loadInput() invalid supported devices
+06-02 02:55:56.078  3399  3399 I APM::ConfigParsingUtils: loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+06-02 02:55:56.111  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:56.145  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:56.162  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:56.196  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:56.230  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:56.264  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:56.297  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:56.331  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:56.365  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:56.399  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:56.433  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:56.467  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:56.501  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:56.535  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:56.559  3319  3319 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 02:55:56.569  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:56.602  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:56.612  3399  3399 I AudioFlinger: loadHwModule() Loaded primary audio interface from Samsung audio HW HAL (audio) handle 1
+06-02 02:55:56.612  3399  3399 I AudioFlinger: openOutput(), module 1 Device 2, SamplingRate 48000, Format 0x000001, Channels 3, flags a
+06-02 02:55:56.612  3399  3399 I AudioFlinger: AudioStreamOut::open(), mHalFormatIsLinearPcm = 1
+06-02 02:55:56.612  3399  3399 I AudioFlinger: HAL output buffer size 1024 frames, normal sink buffer size 1024 frames
+06-02 02:55:56.613  3399  3399 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libaudioeffectoffload.so
+06-02 02:55:56.614  3399  3399 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libexynosvisualizer.so
+06-02 02:55:56.615  3399  3399 W EffectsFactory: loadLibrary() failed to open /system/lib/libmysound.so
+06-02 02:55:56.615  3399  3399 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libmyspace.so
+06-02 02:55:56.615  3399  3399 W EffectsFactory: loadLibrary() failed to open /system/lib/libaudiosa.so
+06-02 02:55:56.615  3399  3399 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libaudiosaplus_sec.so
+06-02 02:55:56.616  3399  3399 W EffectsFactory: loadLibrary() failed to open /system/lib/libsamsungSoundbooster_plus.so
+06-02 02:55:56.616  3399  3399 W EffectsFactory: loadEffect() could not get library soundbooster_plus
+06-02 02:55:56.616  3399  3399 W EffectsFactory: addSubEffect() could not get library soundalive_sec
+06-02 02:55:56.616  3399  3399 W EffectsFactory: loadEffect() could not add subEffect 
+06-02 02:55:56.616  3399  3399 W EffectsFactory: loadEffect() could not get library soundalive
+06-02 02:55:56.616  3399  3399 W EffectsFactory: loadEffect() could not get library soundalive
+06-02 02:55:56.616  3399  3399 W EffectsFactory: loadEffect() could not get library soundalive
+06-02 02:55:56.616  3399  3399 W EffectsFactory: addSubEffect() could not get library visualizer_hw
+06-02 02:55:56.616  3399  3399 W EffectsFactory: loadEffect() could not add subEffect 
+06-02 02:55:56.616  3399  3399 W EffectsFactory: addSubEffect() could not get library mysound
+06-02 02:55:56.616  3399  3399 W EffectsFactory: loadEffect() could not add subEffect 
+06-02 02:55:56.616  3399  3399 W EffectsFactory: addSubEffect() could not get library myspace
+06-02 02:55:56.616  3399  3399 W EffectsFactory: loadEffect() could not add subEffect 
+06-02 02:55:56.616  3399  3399 I BufferProvider: found effect "Multichannel Downmix To Stereo" from The Android Open Source Project
+06-02 02:55:56.616  3399  3399 I AudioFlinger: Using module 1 has the primary audio interface
+06-02 02:55:56.616  3399  3403 I AudioFlinger: AudioFlinger's thread 0xf4640000 ready to run
+06-02 02:55:56.616  3399  3403 V audio_hw_primary: do_out_standby: output standby: 1
+06-02 02:55:56.616  3399  3403 V audio_hw_primary: out_set_parameters: key value pairs: routing=2
+06-02 02:55:56.616  3399  3403 E AudioFlinger: no wake lock to update!
+06-02 02:55:56.617  3399  3399 I AudioFlinger: openOutput(), module 1 Device 2, SamplingRate 48000, Format 0x000001, Channels 3, flags 4
+06-02 02:55:56.617  3399  3399 I AudioFlinger: AudioStreamOut::open(), mHalFormatIsLinearPcm = 1
+06-02 02:55:56.617  3399  3399 I AudioFlinger: HAL output buffer size 256 frames, normal sink buffer size 960 frames
+06-02 02:55:56.617  3399  3399 E MonoPipe: Failed to fetch local time frequency when constructing a MonoPipe (res = -32).  getNextWriteTimestamp calls will be non-functional
+06-02 02:55:56.617  3399  3405 I AudioFlinger: AudioFlinger's thread 0xf4300000 ready to run
+06-02 02:55:56.617  3399  3405 V audio_hw_primary: out_set_parameters: key value pairs: routing=2
+06-02 02:55:56.617  3399  3405 V audio_hw_primary: do_out_standby: output standby: 1
+06-02 02:55:56.617  3399  3405 E AudioFlinger: no wake lock to update!
+06-02 02:55:56.618  3399  3399 V audio_hw_primary: adev_open_input_stream: Requesting input stream with rate: 48000, channels: 0xc
+06-02 02:55:56.618  3399  3406 I AudioFlinger: AudioFlinger's thread 0xf4000000 ready to run
+06-02 02:55:56.618  3399  3399 I bt_a2dp_hw: adev_open:  adev_open in A2dp_hw module
+06-02 02:55:56.618  3399  3399 I AudioFlinger: loadHwModule() Loaded a2dp audio interface from A2DP Audio HW HAL (audio) handle 5
+06-02 02:55:56.619  3399  3399 I AudioFlinger: loadHwModule() Loaded usb audio interface from USB audio HW HAL (audio) handle 6
+06-02 02:55:56.619  3399  3399 I r_submix: adev_open(name=audio_hw_if)
+06-02 02:55:56.619  3399  3399 I r_submix: adev_init_check()
+06-02 02:55:56.619  3399  3399 I AudioFlinger: loadHwModule() Loaded r_submix audio interface from Wifi Display audio HAL (audio) handle 7
+06-02 02:55:56.619  3399  3399 D r_submix: adev_open_input_stream(addr=0)
+06-02 02:55:56.619  3399  3399 D r_submix: submix_audio_device_create_pipe_l(addr=0, idx=9)
+06-02 02:55:56.619  3399  3399 D r_submix:   now using address 0 for route 9
+06-02 02:55:56.619  3399  3407 I AudioFlinger: AudioFlinger's thread 0xf3f40000 ready to run
+06-02 02:55:56.620  3399  3399 D r_submix: adev_close_input_stream()
+06-02 02:55:56.620  3399  3399 D r_submix: submix_audio_device_release_pipe_l(idx=9) addr=0
+06-02 02:55:56.620  3399  3399 D r_submix: submix_audio_device_destroy_pipe_l(): pipe destroyed
+06-02 02:55:56.620  3399  3399 F libc    : Fatal signal 11 (SIGSEGV), code 1, fault addr 0x0 in tid 3399 (mediaserver)
+06-02 02:55:56.620  2940  2940 I DEBUG   : property debug.db.uid not set; NOT waiting for gdb.
+06-02 02:55:56.620  2940  2940 I DEBUG   : HINT: adb shell setprop debug.db.uid 100000
+06-02 02:55:56.620  2940  2940 I DEBUG   : HINT: adb forward tcp:5039 tcp:5039
+06-02 02:55:56.636  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:56.670  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:56.670  2940  2940 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+06-02 02:55:56.670  2940  2940 F DEBUG   : Build fingerprint: 'samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30J/cf2c88de62:eng/test-keys'
+06-02 02:55:56.670  2940  2940 F DEBUG   : Revision: '0'
+06-02 02:55:56.670  2940  2940 F DEBUG   : ABI: 'arm'
+06-02 02:55:56.670  2940  2940 F DEBUG   : pid: 3399, tid: 3399, name: mediaserver  >>> /system/bin/mediaserver <<<
+06-02 02:55:56.670  2940  2940 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0
+06-02 02:55:56.674  2940  2940 F DEBUG   :     r0 f46e18f4  r1 00000000  r2 65732020  r3 00000007
+06-02 02:55:56.674  2940  2940 F DEBUG   :     r4 00000008  r5 f46e18f2  r6 f7171be0  r7 ffd35884
+06-02 02:55:56.674  2940  2940 F DEBUG   :     r8 f62ab08c  r9 f716f431  sl f716f635  fp f46e18f2
+06-02 02:55:56.674  2940  2940 F DEBUG   :     ip 00000000  sp ffd35840  lr f716a4f7  pc f6cbd3c8  cpsr 600f0010
+06-02 02:55:56.674  2940  2940 F DEBUG   : 
+06-02 02:55:56.674  2940  2940 F DEBUG   : backtrace:
+06-02 02:55:56.674  2940  2940 F DEBUG   :     #00 pc 000183c8  /system/lib/libc.so (strcmp+152)
+06-02 02:55:56.674  2940  2940 F DEBUG   :     #01 pc 000084f3  /system/lib/libaudiopolicyservice.so
+06-02 02:55:56.674  2940  2940 F DEBUG   :     #02 pc 0001f880  [stack]
+06-02 02:55:56.704  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:56.717  2940  2940 F DEBUG   : 
+06-02 02:55:56.717  2940  2940 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_00
+06-02 02:55:56.709  3399  3399 W mediaserver: type=1701 audit(0.0:142): auid=4294967295 uid=1013 gid=1005 ses=4294967295 exe="/system/bin/mediaserver" sig=11
+06-02 02:55:56.719  2920  2920 I ServiceManager: service 'media.audio_flinger' died
+06-02 02:55:56.719  2920  2920 I ServiceManager: service 'media.player' died
+06-02 02:55:56.719  2920  2920 I ServiceManager: service 'media.resource_manager' died
+06-02 02:55:56.719  2920  2920 I ServiceManager: service 'media.camera' died
+06-02 02:55:56.738  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:56.772  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:56.806  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:56.840  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:56.874  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:56.908  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:56.942  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:56.975  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:57.009  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:57.043  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:57.077  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:57.111  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:57.145  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:57.179  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:57.213  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:57.247  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:57.281  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:57.314  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:57.349  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:57.382  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:57.416  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:57.450  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:57.467  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:57.501  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:57.535  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:57.560  3319  3319 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 02:55:57.569  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:57.602  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:57.636  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:57.670  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:57.704  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:57.738  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:57.772  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:57.806  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:57.840  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:57.874  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:57.908  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:57.941  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:57.975  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:58.009  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:58.043  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:58.077  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:58.111  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:58.145  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:58.179  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:58.213  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:58.247  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:58.280  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:58.314  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:58.348  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:58.382  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:58.416  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:58.450  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:58.484  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:58.518  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:58.552  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:58.560  3319  3319 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+06-02 02:55:58.586  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:58.619  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:58.654  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:58.687  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:58.721  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:58.755  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:58.789  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:58.806  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:58.840  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:58.874  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:58.908  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:58.941  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:58.975  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:59.009  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:59.043  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:59.077  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:59.111  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:59.145  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:59.179  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:59.213  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:59.247  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:59.280  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:59.314  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:59.348  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:59.382  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:59.416  2921  2921 W display : release fence dup failed: Bad file descriptor
+06-02 02:55:59.450  2921  2921 W display : release fence dup failed: Bad file descriptor

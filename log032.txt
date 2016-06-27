@@ -1,0 +1,1727 @@
+--------- beginning of main
+06-01 09:25:16.402  2998  2998 W auditd  : type=2000 audit(0.0:1): initialized
+06-01 09:25:17.462  2998  2998 W auditd  : type=1325 audit(0.0:2): table=filter family=2 entries=0
+06-01 09:25:17.462  2998  2998 W auditd  : type=1325 audit(0.0:3): table=mangle family=2 entries=0
+06-01 09:25:17.462  2998  2998 W auditd  : type=1325 audit(0.0:4): table=nat family=2 entries=0
+06-01 09:25:17.462  2998  2998 W auditd  : type=1325 audit(0.0:5): table=raw family=2 entries=0
+06-01 09:25:17.462  2998  2998 W auditd  : type=1325 audit(0.0:6): table=security family=2 entries=0
+06-01 09:25:17.462  2998  2998 W auditd  : type=1325 audit(0.0:7): table=filter family=3 entries=0
+06-01 09:25:17.462  2998  2998 W auditd  : type=1325 audit(0.0:8): table=filter family=10 entries=0
+06-01 09:25:17.462  2998  2998 W auditd  : type=1325 audit(0.0:9): table=mangle family=10 entries=0
+06-01 09:25:17.462  2998  2998 W auditd  : type=1325 audit(0.0:10): table=raw family=10 entries=0
+06-01 09:25:17.462  2998  2998 W auditd  : type=1325 audit(0.0:11): table=nat family=10 entries=0
+06-01 09:25:17.839  2998  2998 W auditd  : type=1305 audit(0.0:12): audit_pid=2905 old=0 auid=4294967295 ses=4294967295 res=1
+06-01 09:25:17.839  2998  2998 W auditd  : type=1305 audit(0.0:13): audit_rate_limit=20 old=0 auid=4294967295 ses=4294967295 res=1
+06-01 09:25:17.870  2916  2916 I sysinit : Running /system/etc/init.d/00banner 
+06-01 09:25:17.874  2918  2918 I lowmemorykiller: Using in-kernel low memory killer interface
+06-01 09:25:17.883  2928  2928 I installd: installd firing up
+--------- beginning of system
+06-01 09:25:17.883  2906  2906 I vold    : Vold 3.0 (the awakening) firing up
+06-01 09:25:17.884  2906  2906 V vold    : Detected support for: exfat ext4 ntfs vfat
+06-01 09:25:17.884  2924  2924 I DEBUG   : debuggerd: starting
+06-01 09:25:17.892  2922  2922 I Netd    : Netd 1.0 starting
+06-01 09:25:17.893  2922  2922 I QtiConnectivityAdapter: Failed to open libconnctrl, some features may not be present.
+06-01 09:25:17.893  2922  2922 D TetherController: Setting IP forward enable = 0
+06-01 09:25:17.897  2932  2932 I perfprofd: starting Android Wide Profiling daemon
+06-01 09:25:17.897  2934  2934 I cm      : ____ _   _ ____ _  _ ____ ____ ____ _  _ _  _ ____ ___ 
+06-01 09:25:17.898  2932  2932 E perfprofd: unable to open configuration file /data/data/com.google.android.gms/files/perfprofd.conf
+06-01 09:25:17.898  2932  2932 I perfprofd: random seed set to 3236865849
+06-01 09:25:17.898  2929  2929 I keystore: Found keymaster0 module Keymaster OpenSSL HAL, version 2
+06-01 09:25:17.899  2929  2929 I SoftKeymaster: system/keymaster/soft_keymaster_device.cpp, Line 122: Creating device
+06-01 09:25:17.899  2929  2929 D SoftKeymaster: system/keymaster/soft_keymaster_device.cpp, Line 123: Device address: 0x7f87b63000
+06-01 09:25:17.900  2929  2929 I keystore: Keymaster0 module is software-only.  Using SoftKeymasterDevice instead.
+06-01 09:25:17.900  2929  2929 I SoftKeymaster: system/keymaster/soft_keymaster_device.cpp, Line 122: Creating device
+06-01 09:25:17.900  2929  2929 D SoftKeymaster: system/keymaster/soft_keymaster_device.cpp, Line 123: Device address: 0x7f87b63300
+06-01 09:25:17.900  2929  2929 I keystore: SELinux: Keystore SELinux is disabled.
+06-01 09:25:17.903  2939  2939 I cm      : |     \_/  |__| |\ | |  | | __ |___ |\ | |\/| |  | |  \ 
+06-01 09:25:17.904  2933  2933 I fingerprintd: Starting fingerprintd
+06-01 09:25:17.908  2980  2980 I cm      : |___   |   |  | | \| |__| |__] |___ | \| |  | |__| |__/ 
+06-01 09:25:17.921  2931  2931 I gatekeeperd: Starting gatekeeperd...
+06-01 09:25:17.922  2923  2923 I DEBUG   : debuggerd: starting
+06-01 09:25:17.922  2931  2931 W gatekeeperd: falling back to software GateKeeper
+06-01 09:25:17.928  2920  2920 I SurfaceFlinger: SurfaceFlinger is starting
+06-01 09:25:17.928  2920  2920 E SchedPolicy: /system/bin/surfaceflinger add_tid_to_cgroup failed; fd=-1
+06-01 09:25:17.928  2920  2920 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+06-01 09:25:17.929  2998  2998 W auditd  : type=1325 audit(0.0:14): table=filter family=2 entries=4
+06-01 09:25:17.929  2998  2998 W auditd  : type=1320 audit(0.0:14): 
+06-01 09:25:17.933  3004  3004 I cm      : Welcome to Android 6.0.1 / CyanogenMod-13.0-20160601-UNOFFICIAL-hero2ltexx 
+06-01 09:25:17.939  2998  2998 W auditd  : type=1325 audit(0.0:15): table=filter family=10 entries=4
+06-01 09:25:17.939  2998  2998 W auditd  : type=1320 audit(0.0:15): 
+06-01 09:25:17.939  3007  3007 I sysinit : Running /system/etc/init.d/90userinit 
+06-01 09:25:17.949  2998  2998 W auditd  : type=1325 audit(0.0:16): table=filter family=2 entries=6
+06-01 09:25:17.949  2998  2998 W auditd  : type=1320 audit(0.0:16): 
+06-01 09:25:17.949  2998  2998 W auditd  : type=1325 audit(0.0:17): table=filter family=10 entries=6
+06-01 09:25:17.949  2998  2998 W auditd  : type=1320 audit(0.0:17): 
+06-01 09:25:17.969  2920  2920 D libEGL  : loaded /vendor/lib64/egl/libGLES_mali.so
+06-01 09:25:17.979  2998  2998 W auditd  : type=1325 audit(0.0:18): table=filter family=2 entries=7
+06-01 09:25:17.979  2998  2998 W auditd  : type=1320 audit(0.0:18): 
+06-01 09:25:17.985  2920  2920 I gralloc : using (id=)
+06-01 09:25:17.985  2920  2920 I gralloc : xres         = 1440 px
+06-01 09:25:17.985  2920  2920 I gralloc : yres         = 2560 px
+06-01 09:25:17.985  2920  2920 I gralloc : width        = 68 mm (537.882324 dpi)
+06-01 09:25:17.985  2920  2920 I gralloc : height       = 122 mm (532.983582 dpi)
+06-01 09:25:17.985  2920  2920 I gralloc : refresh rate = 59.31 Hz
+06-01 09:25:17.989  2998  2998 W auditd  : type=1325 audit(0.0:19): table=filter family=10 entries=7
+06-01 09:25:17.989  2998  2998 W auditd  : type=1320 audit(0.0:19): 
+06-01 09:25:17.999  2998  2998 W auditd  : type=1325 audit(0.0:20): table=filter family=2 entries=9
+06-01 09:25:17.999  2998  2998 W auditd  : type=1320 audit(0.0:20): 
+06-01 09:25:17.999  2998  2998 W auditd  : type=1325 audit(0.0:21): table=filter family=10 entries=9
+06-01 09:25:17.999  2998  2998 W auditd  : type=1320 audit(0.0:21): 
+06-01 09:25:18.001  2920  2920 D hwcomposer: using
+06-01 09:25:18.001  2920  2920 D hwcomposer: xres         = 1440 px
+06-01 09:25:18.001  2920  2920 D hwcomposer: yres         = 2560 px
+06-01 09:25:18.001  2920  2920 D hwcomposer: width        = 68 mm (537.882000 dpi)
+06-01 09:25:18.001  2920  2920 D hwcomposer: height       = 122 mm (532.983000 dpi)
+06-01 09:25:18.001  2920  2920 D hwcomposer: refresh rate = 59 Hz
+06-01 09:25:18.001  2920  2920 I hwcomposer: PSR info devname = /sys/devices/13960000.decon_f/psr_info
+06-01 09:25:18.001  2920  2920 I hwcomposer: PSR mode is 6(0: video mode, 1: DP PSR mode, 2: MIPI-DSI command mode)
+06-01 09:25:18.001  2920  2920 I SurfaceFlinger: Using composer version 1.3
+06-01 09:25:18.001  2920  2920 E display : unknown display attribute 6
+06-01 09:25:18.001  2920  2920 I SurfaceFlinger: EGL information:
+06-01 09:25:18.001  2920  2920 I SurfaceFlinger: vendor    : Android
+06-01 09:25:18.001  2920  2920 I SurfaceFlinger: version   : 1.4 Android META-EGL
+06-01 09:25:18.001  2920  2920 I SurfaceFlinger: extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_swap_buffers_with_damage EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_KHR_config_attribs EGL_KHR_surfaceless_context EGL_EXT_create_context_robustness EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable EGL_KHR_partial_update 
+06-01 09:25:18.001  2920  2920 I SurfaceFlinger: Client API: OpenGL_ES
+06-01 09:25:18.001  2920  2920 I SurfaceFlinger: EGLSurface: 8-8-8-8, config=0x7f9bf50128
+06-01 09:25:18.002  2920  2920 D         : ro.exynos.dss isEnabled: 0
+06-01 09:25:18.007  2920  2920 I SurfaceFlinger: OpenGL ES informations:
+06-01 09:25:18.007  2920  2920 I SurfaceFlinger: vendor    : ARM
+06-01 09:25:18.007  2920  2920 I SurfaceFlinger: renderer  : Mali-T880
+06-01 09:25:18.007  2920  2920 I SurfaceFlinger: version   : OpenGL ES 3.1 v1.r9p0-12dev0.c2bae768d87bf40047e1f310c8de7f16
+06-01 09:25:18.007  2920  2920 I SurfaceFlinger: extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_disjoint_timer_query GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_OES_texture_stencil8 G
+06-01 09:25:18.007  2920  2920 I SurfaceFlinger: GL_MAX_TEXTURE_SIZE = 8192
+06-01 09:25:18.007  2920  2920 I SurfaceFlinger: GL_MAX_VIEWPORT_DIMS = 8192
+06-01 09:25:18.008  2920  2920 D mali_winsys: new_window_surface returns 0x3000,  [1440x2560]-format:1
+06-01 09:25:18.025  2920  2920 D SurfaceFlinger: Set power mode=2, type=0 flinger=0x7f9c403c00
+06-01 09:25:18.039  2998  2998 W auditd  : type=1325 audit(0.0:22): table=filter family=2 entries=10
+06-01 09:25:18.039  2998  2998 W auditd  : type=1320 audit(0.0:22): 
+06-01 09:25:18.039  2998  2998 W auditd  : type=1325 audit(0.0:23): table=filter family=10 entries=10
+06-01 09:25:18.039  2998  2998 W auditd  : type=1320 audit(0.0:23): 
+06-01 09:25:18.049  2998  2998 W auditd  : type=1325 audit(0.0:24): table=filter family=2 entries=12
+06-01 09:25:18.049  2998  2998 W auditd  : type=1320 audit(0.0:24): 
+06-01 09:25:18.049  2998  2998 W auditd  : type=1325 audit(0.0:25): table=filter family=10 entries=12
+06-01 09:25:18.049  2998  2998 W auditd  : type=1320 audit(0.0:25): 
+06-01 09:25:18.089  2998  2998 W auditd  : type=1325 audit(0.0:26): table=filter family=2 entries=13
+06-01 09:25:18.089  2998  2998 W auditd  : type=1320 audit(0.0:26): 
+06-01 09:25:18.089  2998  2998 W auditd  : type=1325 audit(0.0:27): table=filter family=10 entries=13
+06-01 09:25:18.089  2998  2998 W auditd  : type=1320 audit(0.0:27): 
+06-01 09:25:18.099  2998  2998 W auditd  : type=1325 audit(0.0:28): table=filter family=2 entries=15
+06-01 09:25:18.099  2998  2998 W auditd  : type=1320 audit(0.0:28): 
+06-01 09:25:18.099  2998  2998 W auditd  : type=1325 audit(0.0:29): table=filter family=10 entries=15
+06-01 09:25:18.099  2998  2998 W auditd  : type=1320 audit(0.0:29): 
+06-01 09:25:18.139  2998  2998 W auditd  : type=1325 audit(0.0:30): table=filter family=2 entries=16
+06-01 09:25:18.139  2998  2998 W auditd  : type=1320 audit(0.0:30): 
+06-01 09:25:18.145  2927  2927 I mediaserver: ServiceManager: 0xf62ce260
+06-01 09:25:18.145  2927  2927 I AudioFlinger: Using default 3000 mSec as standby time.
+06-01 09:25:18.145  3046  3060 D libEGL  : loaded /vendor/lib64/egl/libGLES_mali.so
+06-01 09:25:18.145  2927  2927 E BatteryNotifier: batterystats service unavailable!
+06-01 09:25:18.145  2927  2927 E BatteryNotifier: batterystats service unavailable!
+06-01 09:25:18.146  2927  2927 I CameraService: CameraService started (pid=2927)
+06-01 09:25:18.146  2927  2927 I CameraService: CameraService process starting
+06-01 09:25:18.146  2927  2927 E BatteryNotifier: batterystats service unavailable!
+06-01 09:25:18.146  2927  2927 E BatteryNotifier: batterystats service unavailable!
+06-01 09:25:18.147  2927  2927 E CameraService: Could not load camera HAL module: -2 (No such file or directory)
+06-01 09:25:18.147  2927  2927 I AudioPolicyService: AudioPolicyService CSTOR in new mode
+06-01 09:25:18.148  2927  2927 W APM::HwModule: loadOutput() invalid supported devices
+06-01 09:25:18.148  2927  2927 W APM::HwModule: loadOutput() invalid supported devices
+06-01 09:25:18.148  2927  2927 W APM::HwModule: loadInput() invalid supported devices
+06-01 09:25:18.148  2927  2927 W APM::HwModule: loadInput() invalid supported devices
+06-01 09:25:18.148  2927  2927 I APM::ConfigParsingUtils: loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+06-01 09:25:18.149  2998  2998 W auditd  : type=1325 audit(0.0:31): table=filter family=10 entries=16
+06-01 09:25:18.149  2998  2998 W auditd  : type=1320 audit(0.0:31): 
+06-01 09:25:18.158  3046  3060 D mali_winsys: new_window_surface returns 0x3000,  [1440x2560]-format:2
+06-01 09:25:18.159  2998  2998 W auditd  : type=1325 audit(0.0:32): table=filter family=2 entries=18
+06-01 09:25:18.159  2998  2998 W auditd  : type=1320 audit(0.0:32): 
+06-01 09:25:18.159  2998  2998 W auditd  : type=1325 audit(0.0:33): table=filter family=10 entries=18
+06-01 09:25:18.159  3046  3060 D         : ro.exynos.dss isEnabled: 0
+06-01 09:25:18.161  3046  3060 E BootAnimation: couldn't find audio_conf.txt
+06-01 09:25:18.180  3046  3060 D BootAnimation: Use save memory method, maybe small fps in actual.
+06-01 09:25:18.263  2920  2920 D SurfaceFlinger: SF. shader cache generated - 26 shaders in 125.442116 ms
+06-01 09:25:18.268  2920  2920 E display : ioctl DECON_WIN_CONFIG failed: Not a typewriter
+06-01 09:25:18.268  2920  2920 F display : ioctl DECON_WIN_CONFIG failed to clear screen: Not a typewriter
+--------- beginning of crash
+06-01 09:25:18.268  2920  2920 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 2920 (surfaceflinger)
+06-01 09:25:18.268  2924  2924 I DEBUG   : property debug.db.uid not set; NOT waiting for gdb.
+06-01 09:25:18.268  2924  2924 I DEBUG   : HINT: adb shell setprop debug.db.uid 100000
+06-01 09:25:18.268  2924  2924 I DEBUG   : HINT: adb forward tcp:5039 tcp:5039
+06-01 09:25:18.282  2930  2930 D AndroidRuntime: >>>>>> START com.android.internal.os.ZygoteInit uid 0 <<<<<<
+06-01 09:25:18.294  2930  2930 D AndroidRuntime: CheckJNI is ON
+06-01 09:25:18.299  2930  2930 I art     : option[0]=-Xzygote
+06-01 09:25:18.299  2930  2930 I art     : option[1]=-Xcheck:jni
+06-01 09:25:18.299  2930  2930 I art     : option[2]=-Xstacktracefile:/data/anr/traces.txt
+06-01 09:25:18.299  2930  2930 I art     : option[3]=exit
+06-01 09:25:18.299  2930  2930 I art     : option[4]=vfprintf
+06-01 09:25:18.299  2930  2930 I art     : option[5]=sensitiveThread
+06-01 09:25:18.299  2930  2930 I art     : option[6]=-verbose:gc
+06-01 09:25:18.299  2930  2930 I art     : option[7]=-Xms8m
+06-01 09:25:18.299  2930  2930 I art     : option[8]=-Xmx512m
+06-01 09:25:18.299  2930  2930 I art     : option[9]=-XX:HeapGrowthLimit=256m
+06-01 09:25:18.299  2930  2930 I art     : option[10]=-XX:HeapMinFree=2m
+06-01 09:25:18.299  2930  2930 I art     : option[11]=-XX:HeapMaxFree=8m
+06-01 09:25:18.299  2930  2930 I art     : option[12]=-XX:HeapTargetUtilization=0.75
+06-01 09:25:18.299  2930  2930 I art     : option[13]=-Xusejit:true
+06-01 09:25:18.299  2930  2930 I art     : option[14]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+06-01 09:25:18.299  2930  2930 I art     : option[15]=-Xlockprofthreshold:500
+06-01 09:25:18.299  2930  2930 I art     : option[16]=-Ximage-compiler-option
+06-01 09:25:18.299  2930  2930 I art     : option[17]=--runtime-arg
+06-01 09:25:18.299  2930  2930 I art     : option[18]=-Ximage-compiler-option
+06-01 09:25:18.299  2930  2930 I art     : option[19]=-Xms64m
+06-01 09:25:18.299  2930  2930 I art     : option[20]=-Ximage-compiler-option
+06-01 09:25:18.299  2930  2930 I art     : option[21]=--runtime-arg
+06-01 09:25:18.299  2930  2930 I art     : option[22]=-Ximage-compiler-option
+06-01 09:25:18.299  2930  2930 I art     : option[23]=-Xmx64m
+06-01 09:25:18.299  2930  2930 I art     : option[24]=-Ximage-compiler-option
+06-01 09:25:18.299  2930  2930 I art     : option[25]=--compiler-filter=verify-at-runtime
+06-01 09:25:18.299  2930  2930 I art     : option[26]=-Ximage-compiler-option
+06-01 09:25:18.299  2930  2930 I art     : option[27]=--image-classes=/system/etc/preloaded-classes
+06-01 09:25:18.299  2930  2930 I art     : option[28]=-Xcompiler-option
+06-01 09:25:18.299  2930  2930 I art     : option[29]=--runtime-arg
+06-01 09:25:18.299  2930  2930 I art     : option[30]=-Xcompiler-option
+06-01 09:25:18.299  2930  2930 I art     : option[31]=-Xms64m
+06-01 09:25:18.299  2930  2930 I art     : option[32]=-Xcompiler-option
+06-01 09:25:18.299  2930  2930 I art     : option[33]=--runtime-arg
+06-01 09:25:18.299  2930  2930 I art     : option[34]=-Xcompiler-option
+06-01 09:25:18.299  2930  2930 I art     : option[35]=-Xmx512m
+06-01 09:25:18.299  2930  2930 I art     : option[36]=-Xcompiler-option
+06-01 09:25:18.299  2930  2930 I art     : option[37]=--compiler-filter=verify-at-runtime
+06-01 09:25:18.299  2930  2930 I art     : option[38]=-Ximage-compiler-option
+06-01 09:25:18.299  2930  2930 I art     : option[39]=--instruction-set-variant=generic
+06-01 09:25:18.299  2930  2930 I art     : option[40]=-Xcompiler-option
+06-01 09:25:18.299  2930  2930 I art     : option[41]=--instruction-set-variant=generic
+06-01 09:25:18.299  2930  2930 I art     : option[42]=-Ximage-compiler-option
+06-01 09:25:18.299  2930  2930 I art     : option[43]=--instruction-set-features=default
+06-01 09:25:18.299  2930  2930 I art     : option[44]=-Xcompiler-option
+06-01 09:25:18.299  2930  2930 I art     : option[45]=--instruction-set-features=default
+06-01 09:25:18.299  2930  2930 I art     : option[46]=-Duser.locale=en-US
+06-01 09:25:18.299  2930  2930 I art     : option[47]=--cpu-abilist=arm64-v8a,armeabi
+06-01 09:25:18.299  2930  2930 I art     : option[48]=-Xfingerprint:samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30J/4f0fbab6f5:eng/test-keys
+06-01 09:25:18.320  2924  2924 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+06-01 09:25:18.320  2924  2924 F DEBUG   : Build fingerprint: 'samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30J/4f0fbab6f5:eng/test-keys'
+06-01 09:25:18.320  2924  2924 F DEBUG   : Revision: '0'
+06-01 09:25:18.320  2924  2924 F DEBUG   : ABI: 'arm64'
+06-01 09:25:18.320  2924  2924 F DEBUG   : pid: 2920, tid: 2920, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+06-01 09:25:18.320  2924  2924 F DEBUG   : signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+06-01 09:25:18.323  2924  2924 F DEBUG   : Abort message: 'ioctl DECON_WIN_CONFIG failed to clear screen: Not a typewriter'
+06-01 09:25:18.323  2924  2924 F DEBUG   :     x0   0000000000000000  x1   0000000000000b68  x2   0000000000000006  x3   0000000000000000
+06-01 09:25:18.323  2924  2924 F DEBUG   :     x4   0000000000000000  x5   0000000000000001  x6   0000000000000000  x7   0000000000000000
+06-01 09:25:18.323  2924  2924 F DEBUG   :     x8   0000000000000083  x9   0000000000000049  x10  0000007ff72a4c6c  x11  0000007ff72a4ca8
+06-01 09:25:18.323  2924  2924 F DEBUG   :     x12  0000007ff72a4b80  x13  0000000000000040  x14  0000007ff72a4d58  x15  0000000000000000
+06-01 09:25:18.323  2924  2924 F DEBUG   :     x16  0000007f9c9cc580  x17  0000007f9c95efcc  x18  0000007f9cb7ef00  x19  0000007f9cc730d8
+06-01 09:25:18.323  2924  2924 F DEBUG   :     x20  0000007f9cc73018  x21  0000000000000019  x22  0000000000000006  x23  00000000ffffffff
+06-01 09:25:18.323  2924  2924 F DEBUG   :     x24  0000007f9990b000  x25  0000000000000018  x26  0000007f9c41d8c0  x27  0000000000000001
+06-01 09:25:18.323  2924  2924 F DEBUG   :     x28  0000000000000001  x29  0000007ff72a4c10  x30  0000007f9c95c768
+06-01 09:25:18.323  2924  2924 F DEBUG   :     sp   0000007ff72a4c10  pc   0000007f9c95efd4  pstate 0000000020000000
+06-01 09:25:18.328  2924  2924 F DEBUG   : 
+06-01 09:25:18.328  2924  2924 F DEBUG   : backtrace:
+06-01 09:25:18.328  2924  2924 F DEBUG   :     #00 pc 0000000000068fd4  /system/lib64/libc.so (tgkill+8)
+06-01 09:25:18.328  2924  2924 F DEBUG   :     #01 pc 0000000000066764  /system/lib64/libc.so (pthread_kill+68)
+06-01 09:25:18.328  2924  2924 F DEBUG   :     #02 pc 0000000000023448  /system/lib64/libc.so (raise+28)
+06-01 09:25:18.328  2924  2924 F DEBUG   :     #03 pc 000000000001dbe8  /system/lib64/libc.so (abort+60)
+06-01 09:25:18.328  2924  2924 F DEBUG   :     #04 pc 0000000000003a7c  /system/lib64/liblog.so (__android_log_assert+236)
+06-01 09:25:18.328  2924  2924 F DEBUG   :     #05 pc 00000000000036c8  /system/lib64/libdisplay.so (_ZN20ExynosOverlayDisplay12clearDisplayEv+124)
+06-01 09:25:18.328  2924  2924 F DEBUG   :     #06 pc 000000000000375c  /system/lib64/libdisplay.so (_ZN20ExynosOverlayDisplay3setEP22hwc_display_contents_1+144)
+06-01 09:25:18.328  2924  2924 F DEBUG   :     #07 pc 00000000000025cc  /system/lib64/hw/hwcomposer.exynos5.so (_Z11exynos5_setP21hwc_composer_device_1mPP22hwc_display_contents_1+88)
+06-01 09:25:18.328  2924  2924 F DEBUG   :     #08 pc 000000000003cf5c  /system/lib64/libsurfaceflinger.so
+06-01 09:25:18.328  2924  2924 F DEBUG   :     #09 pc 000000000002fc74  /system/lib64/libsurfaceflinger.so
+06-01 09:25:18.328  2924  2924 F DEBUG   :     #10 pc 000000000002f300  /system/lib64/libsurfaceflinger.so
+06-01 09:25:18.328  2924  2924 F DEBUG   :     #11 pc 000000000002e1a0  /system/lib64/libsurfaceflinger.so
+06-01 09:25:18.328  2924  2924 F DEBUG   :     #12 pc 000000000002df08  /system/lib64/libsurfaceflinger.so
+06-01 09:25:18.328  2924  2924 F DEBUG   :     #13 pc 000000000001aed4  /system/lib64/libutils.so (_ZN7android6Looper9pollInnerEi+312)
+06-01 09:25:18.328  2924  2924 F DEBUG   :     #14 pc 000000000001b20c  /system/lib64/libutils.so (_ZN7android6Looper8pollOnceEiPiS1_PPv+80)
+06-01 09:25:18.328  2924  2924 F DEBUG   :     #15 pc 000000000002a344  /system/lib64/libsurfaceflinger.so
+06-01 09:25:18.328  2924  2924 F DEBUG   :     #16 pc 000000000002d9fc  /system/lib64/libsurfaceflinger.so (_ZN7android14SurfaceFlinger3runEv+20)
+06-01 09:25:18.328  2924  2924 F DEBUG   :     #17 pc 00000000000011ec  /system/bin/surfaceflinger
+06-01 09:25:18.328  2924  2924 F DEBUG   :     #18 pc 000000000001bcd8  /system/lib64/libc.so (__libc_init+100)
+06-01 09:25:18.328  2924  2924 F DEBUG   :     #19 pc 000000000000101c  /system/bin/surfaceflinger
+06-01 09:25:18.396  2930  2930 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+06-01 09:25:18.423  2924  2924 F DEBUG   : 
+06-01 09:25:18.423  2924  2924 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_06
+06-01 09:25:18.464  3046  3060 D         : NULL == surf->write_back_color_buffer
+06-01 09:25:18.464  3046  3060 W         : GLES-MALI OOM error: failed to allocate CPU memory (gles_fb_first_drawcall_cb at hardware/samsung_slsi/MaliT880_r9p0_12dev0_JF/product/gles/src/fb/mali_gles_fb_module_api.c:1291)
+06-01 09:25:18.464  3046  3060 D         : NULL == surf->write_back_color_buffer
+06-01 09:25:18.464  3046  3058 W SurfaceComposerClient: ComposerService remote (surfaceflinger) died [0x7fb0663320]
+06-01 09:25:18.464  3046  3058 D BootAnimation: SurfaceFlinger died, exiting...
+06-01 09:25:18.464  2919  2919 I ServiceManager: service 'SurfaceFlinger' died
+06-01 09:25:18.464  2919  2919 I ServiceManager: service 'Exynos.HWCService' died
+06-01 09:25:18.534  2919  2919 I ServiceManager: service 'media.audio_flinger' died
+06-01 09:25:18.534  2919  2919 I ServiceManager: service 'media.player' died
+06-01 09:25:18.534  2919  2919 I ServiceManager: service 'media.resource_manager' died
+06-01 09:25:18.534  2919  2919 I ServiceManager: service 'media.camera' died
+06-01 09:25:22.539  2998  2998 W auditd  : type=1325 audit(0.0:63): table=filter family=2 entries=34
+06-01 09:25:22.539  2998  2998 W auditd  : type=1320 audit(0.0:63): 
+06-01 09:25:22.547  3176  3176 I Netd    : Netd 1.0 starting
+06-01 09:25:22.547  3176  3176 I QtiConnectivityAdapter: Failed to open libconnctrl, some features may not be present.
+06-01 09:25:22.547  3176  3176 D TetherController: Setting IP forward enable = 0
+06-01 09:25:22.549  2998  2998 W auditd  : type=1325 audit(0.0:64): table=filter family=10 entries=34
+06-01 09:25:22.549  2998  2998 W auditd  : type=1320 audit(0.0:64): 
+06-01 09:25:22.555  3178  3178 I SurfaceFlinger: SurfaceFlinger is starting
+06-01 09:25:22.556  3178  3178 E SchedPolicy: /system/bin/surfaceflinger add_tid_to_cgroup failed; fd=-1
+06-01 09:25:22.556  3178  3178 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+06-01 09:25:22.559  2998  2998 W auditd  : type=1325 audit(0.0:65): table=filter family=2 entries=33
+06-01 09:25:22.559  2998  2998 W auditd  : type=1320 audit(0.0:65): 
+06-01 09:25:22.563  3178  3178 D libEGL  : loaded /vendor/lib64/egl/libGLES_mali.so
+06-01 09:25:22.569  2998  2998 W auditd  : type=1325 audit(0.0:66): table=filter family=10 entries=33
+06-01 09:25:22.569  2998  2998 W auditd  : type=1320 audit(0.0:66): 
+06-01 09:25:22.570  3178  3178 I gralloc : using (id=)
+06-01 09:25:22.570  3178  3178 I gralloc : xres         = 1440 px
+06-01 09:25:22.570  3178  3178 I gralloc : yres         = 2560 px
+06-01 09:25:22.570  3178  3178 I gralloc : width        = 68 mm (537.882324 dpi)
+06-01 09:25:22.570  3178  3178 I gralloc : height       = 122 mm (532.983582 dpi)
+06-01 09:25:22.570  3178  3178 I gralloc : refresh rate = 59.31 Hz
+06-01 09:25:22.577  3178  3178 D hwcomposer: using
+06-01 09:25:22.577  3178  3178 D hwcomposer: xres         = 1440 px
+06-01 09:25:22.577  3178  3178 D hwcomposer: yres         = 2560 px
+06-01 09:25:22.577  3178  3178 D hwcomposer: width        = 68 mm (537.882000 dpi)
+06-01 09:25:22.577  3178  3178 D hwcomposer: height       = 122 mm (532.983000 dpi)
+06-01 09:25:22.577  3178  3178 D hwcomposer: refresh rate = 59 Hz
+06-01 09:25:22.577  3178  3178 I hwcomposer: PSR info devname = /sys/devices/13960000.decon_f/psr_info
+06-01 09:25:22.577  3178  3178 I hwcomposer: PSR mode is 6(0: video mode, 1: DP PSR mode, 2: MIPI-DSI command mode)
+06-01 09:25:22.578  3178  3178 I SurfaceFlinger: Using composer version 1.3
+06-01 09:25:22.578  3178  3178 E display : unknown display attribute 6
+06-01 09:25:22.578  3178  3178 I SurfaceFlinger: EGL information:
+06-01 09:25:22.578  3178  3178 I SurfaceFlinger: vendor    : Android
+06-01 09:25:22.578  3178  3178 I SurfaceFlinger: version   : 1.4 Android META-EGL
+06-01 09:25:22.578  3178  3178 I SurfaceFlinger: extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_swap_buffers_with_damage EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_KHR_config_attribs EGL_KHR_surfaceless_context EGL_EXT_create_context_robustness EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable EGL_KHR_partial_update 
+06-01 09:25:22.578  3178  3178 I SurfaceFlinger: Client API: OpenGL_ES
+06-01 09:25:22.578  3178  3178 I SurfaceFlinger: EGLSurface: 8-8-8-8, config=0x7fa52bb128
+06-01 09:25:22.578  3178  3178 D         : ro.exynos.dss isEnabled: 0
+06-01 09:25:22.579  2998  2998 W auditd  : type=1325 audit(0.0:67): table=filter family=2 entries=33
+06-01 09:25:22.579  2998  2998 W auditd  : type=1320 audit(0.0:67): 
+06-01 09:25:22.579  2998  2998 W auditd  : type=1325 audit(0.0:68): table=filter family=10 entries=33
+06-01 09:25:22.579  2998  2998 W auditd  : type=1320 audit(0.0:68): 
+06-01 09:25:22.580  3178  3178 I SurfaceFlinger: OpenGL ES informations:
+06-01 09:25:22.580  3178  3178 I SurfaceFlinger: vendor    : ARM
+06-01 09:25:22.580  3178  3178 I SurfaceFlinger: renderer  : Mali-T880
+06-01 09:25:22.580  3178  3178 I SurfaceFlinger: version   : OpenGL ES 3.1 v1.r9p0-12dev0.c2bae768d87bf40047e1f310c8de7f16
+06-01 09:25:22.580  3178  3178 I SurfaceFlinger: extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_disjoint_timer_query GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_OES_texture_stencil8 G
+06-01 09:25:22.580  3178  3178 I SurfaceFlinger: GL_MAX_TEXTURE_SIZE = 8192
+06-01 09:25:22.580  3178  3178 I SurfaceFlinger: GL_MAX_VIEWPORT_DIMS = 8192
+06-01 09:25:22.581  3178  3178 D mali_winsys: new_window_surface returns 0x3000,  [1440x2560]-format:1
+06-01 09:25:22.582  3178  3178 D SurfaceFlinger: Set power mode=2, type=0 flinger=0x7fa5283c00
+06-01 09:25:22.589  2998  2998 W auditd  : type=1325 audit(0.0:69): table=filter family=2 entries=31
+06-01 09:25:22.589  2998  2998 W auditd  : type=1320 audit(0.0:69): 
+06-01 09:25:22.599  2998  2998 W auditd  : type=1325 audit(0.0:70): table=filter family=10 entries=31
+06-01 09:25:22.599  2998  2998 W auditd  : type=1320 audit(0.0:70): 
+06-01 09:25:22.609  2998  2998 W auditd  : type=1325 audit(0.0:71): table=filter family=2 entries=33
+06-01 09:25:22.609  2998  2998 W auditd  : type=1320 audit(0.0:71): 
+06-01 09:25:22.629  2998  2998 W auditd  : type=1325 audit(0.0:72): table=filter family=10 entries=33
+06-01 09:25:22.629  2998  2998 W auditd  : type=1320 audit(0.0:72): 
+06-01 09:25:22.671  3179  3179 I mediaserver: ServiceManager: 0xf648e260
+06-01 09:25:22.671  3179  3179 I AudioFlinger: Using default 3000 mSec as standby time.
+06-01 09:25:22.671  3179  3179 E BatteryNotifier: batterystats service unavailable!
+06-01 09:25:22.672  3179  3179 E BatteryNotifier: batterystats service unavailable!
+06-01 09:25:22.672  3179  3179 I CameraService: CameraService started (pid=3179)
+06-01 09:25:22.672  3179  3179 I CameraService: CameraService process starting
+06-01 09:25:22.672  3179  3179 E BatteryNotifier: batterystats service unavailable!
+06-01 09:25:22.672  3179  3179 E BatteryNotifier: batterystats service unavailable!
+06-01 09:25:22.672  3179  3179 E CameraService: Could not load camera HAL module: -2 (No such file or directory)
+06-01 09:25:22.673  3179  3179 I AudioPolicyService: AudioPolicyService CSTOR in new mode
+06-01 09:25:22.673  3179  3179 W APM::HwModule: loadOutput() invalid supported devices
+06-01 09:25:22.673  3179  3179 W APM::HwModule: loadOutput() invalid supported devices
+06-01 09:25:22.673  3179  3179 W APM::HwModule: loadInput() invalid supported devices
+06-01 09:25:22.673  3179  3179 W APM::HwModule: loadInput() invalid supported devices
+06-01 09:25:22.673  3179  3179 I APM::ConfigParsingUtils: loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+06-01 09:25:22.740  3178  3178 D SurfaceFlinger: SF. shader cache generated - 26 shaders in 118.586960 ms
+06-01 09:25:22.745  3178  3178 E display : ioctl DECON_WIN_CONFIG failed: Not a typewriter
+06-01 09:25:22.745  3178  3178 F display : ioctl DECON_WIN_CONFIG failed to clear screen: Not a typewriter
+06-01 09:25:22.745  3178  3178 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 3178 (surfaceflinger)
+06-01 09:25:22.745  2924  2924 I DEBUG   : property debug.db.uid not set; NOT waiting for gdb.
+06-01 09:25:22.745  2924  2924 I DEBUG   : HINT: adb shell setprop debug.db.uid 100000
+06-01 09:25:22.745  2924  2924 I DEBUG   : HINT: adb forward tcp:5039 tcp:5039
+06-01 09:25:22.759  3180  3180 D AndroidRuntime: >>>>>> START com.android.internal.os.ZygoteInit uid 0 <<<<<<
+06-01 09:25:22.762  3180  3180 D AndroidRuntime: CheckJNI is ON
+06-01 09:25:22.762  3180  3180 I art     : option[0]=-Xzygote
+06-01 09:25:22.762  3180  3180 I art     : option[1]=-Xcheck:jni
+06-01 09:25:22.762  3180  3180 I art     : option[2]=-Xstacktracefile:/data/anr/traces.txt
+06-01 09:25:22.762  3180  3180 I art     : option[3]=exit
+06-01 09:25:22.762  3180  3180 I art     : option[4]=vfprintf
+06-01 09:25:22.762  3180  3180 I art     : option[5]=sensitiveThread
+06-01 09:25:22.762  3180  3180 I art     : option[6]=-verbose:gc
+06-01 09:25:22.762  3180  3180 I art     : option[7]=-Xms8m
+06-01 09:25:22.762  3180  3180 I art     : option[8]=-Xmx512m
+06-01 09:25:22.762  3180  3180 I art     : option[9]=-XX:HeapGrowthLimit=256m
+06-01 09:25:22.762  3180  3180 I art     : option[10]=-XX:HeapMinFree=2m
+06-01 09:25:22.762  3180  3180 I art     : option[11]=-XX:HeapMaxFree=8m
+06-01 09:25:22.762  3180  3180 I art     : option[12]=-XX:HeapTargetUtilization=0.75
+06-01 09:25:22.762  3180  3180 I art     : option[13]=-Xusejit:true
+06-01 09:25:22.762  3180  3180 I art     : option[14]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+06-01 09:25:22.762  3180  3180 I art     : option[15]=-Xlockprofthreshold:500
+06-01 09:25:22.762  3180  3180 I art     : option[16]=-Ximage-compiler-option
+06-01 09:25:22.762  3180  3180 I art     : option[17]=--runtime-arg
+06-01 09:25:22.762  3180  3180 I art     : option[18]=-Ximage-compiler-option
+06-01 09:25:22.762  3180  3180 I art     : option[19]=-Xms64m
+06-01 09:25:22.762  3180  3180 I art     : option[20]=-Ximage-compiler-option
+06-01 09:25:22.762  3180  3180 I art     : option[21]=--runtime-arg
+06-01 09:25:22.762  3180  3180 I art     : option[22]=-Ximage-compiler-option
+06-01 09:25:22.762  3180  3180 I art     : option[23]=-Xmx64m
+06-01 09:25:22.762  3180  3180 I art     : option[24]=-Ximage-compiler-option
+06-01 09:25:22.762  3180  3180 I art     : option[25]=--compiler-filter=verify-at-runtime
+06-01 09:25:22.762  3180  3180 I art     : option[26]=-Ximage-compiler-option
+06-01 09:25:22.762  3180  3180 I art     : option[27]=--image-classes=/system/etc/preloaded-classes
+06-01 09:25:22.762  3180  3180 I art     : option[28]=-Xcompiler-option
+06-01 09:25:22.762  3180  3180 I art     : option[29]=--runtime-arg
+06-01 09:25:22.762  3180  3180 I art     : option[30]=-Xcompiler-option
+06-01 09:25:22.762  3180  3180 I art     : option[31]=-Xms64m
+06-01 09:25:22.762  3180  3180 I art     : option[32]=-Xcompiler-option
+06-01 09:25:22.762  3180  3180 I art     : option[33]=--runtime-arg
+06-01 09:25:22.762  3180  3180 I art     : option[34]=-Xcompiler-option
+06-01 09:25:22.762  3180  3180 I art     : option[35]=-Xmx512m
+06-01 09:25:22.762  3180  3180 I art     : option[36]=-Xcompiler-option
+06-01 09:25:22.762  3180  3180 I art     : option[37]=--compiler-filter=verify-at-runtime
+06-01 09:25:22.762  3180  3180 I art     : option[38]=-Ximage-compiler-option
+06-01 09:25:22.762  3180  3180 I art     : option[39]=--instruction-set-variant=generic
+06-01 09:25:22.762  3180  3180 I art     : option[40]=-Xcompiler-option
+06-01 09:25:22.762  3180  3180 I art     : option[41]=--instruction-set-variant=generic
+06-01 09:25:22.762  3180  3180 I art     : option[42]=-Ximage-compiler-option
+06-01 09:25:22.762  3180  3180 I art     : option[43]=--instruction-set-features=default
+06-01 09:25:22.762  3180  3180 I art     : option[44]=-Xcompiler-option
+06-01 09:25:22.762  3180  3180 I art     : option[45]=--instruction-set-features=default
+06-01 09:25:22.762  3180  3180 I art     : option[46]=-Duser.locale=en-US
+06-01 09:25:22.762  3180  3180 I art     : option[47]=--cpu-abilist=arm64-v8a,armeabi
+06-01 09:25:22.762  3180  3180 I art     : option[48]=-Xfingerprint:samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30J/4f0fbab6f5:eng/test-keys
+06-01 09:25:22.788  3180  3180 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+06-01 09:25:22.796  2924  2924 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+06-01 09:25:22.796  2924  2924 F DEBUG   : Build fingerprint: 'samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30J/4f0fbab6f5:eng/test-keys'
+06-01 09:25:22.796  2924  2924 F DEBUG   : Revision: '0'
+06-01 09:25:22.796  2924  2924 F DEBUG   : ABI: 'arm64'
+06-01 09:25:22.796  2924  2924 F DEBUG   : pid: 3178, tid: 3178, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+06-01 09:25:22.796  2924  2924 F DEBUG   : signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+06-01 09:25:22.799  2924  2924 F DEBUG   : Abort message: 'ioctl DECON_WIN_CONFIG failed to clear screen: Not a typewriter'
+06-01 09:25:22.799  2924  2924 F DEBUG   :     x0   0000000000000000  x1   0000000000000c6a  x2   0000000000000006  x3   0000000000000000
+06-01 09:25:22.799  2924  2924 F DEBUG   :     x4   0000000000000000  x5   0000000000000001  x6   0000000000000000  x7   0000000000000000
+06-01 09:25:22.799  2924  2924 F DEBUG   :     x8   0000000000000083  x9   0000000000000049  x10  0000007fe156421c  x11  0000007fe1564258
+06-01 09:25:22.799  2924  2924 F DEBUG   :     x12  0000007fe1564130  x13  0000000000000040  x14  0000007fe1564308  x15  0000000000000000
+06-01 09:25:22.799  2924  2924 F DEBUG   :     x16  0000007fa582a580  x17  0000007fa57bcfcc  x18  0000007fa59dcf00  x19  0000007fa5ad10d8
+06-01 09:25:22.799  2924  2924 F DEBUG   :     x20  0000007fa5ad1018  x21  0000000000000019  x22  0000000000000006  x23  00000000ffffffff
+06-01 09:25:22.799  2924  2924 F DEBUG   :     x24  0000007fa278b000  x25  0000000000000018  x26  0000007fa529d820  x27  0000007fa5a57000
+06-01 09:25:22.799  2924  2924 F DEBUG   :     x28  0000000000000001  x29  0000007fe15641c0  x30  0000007fa57ba768
+06-01 09:25:22.799  2924  2924 F DEBUG   :     sp   0000007fe15641c0  pc   0000007fa57bcfd4  pstate 0000000020000000
+06-01 09:25:22.804  2924  2924 F DEBUG   : 
+06-01 09:25:22.804  2924  2924 F DEBUG   : backtrace:
+06-01 09:25:22.804  2924  2924 F DEBUG   :     #00 pc 0000000000068fd4  /system/lib64/libc.so (tgkill+8)
+06-01 09:25:22.804  2924  2924 F DEBUG   :     #01 pc 0000000000066764  /system/lib64/libc.so (pthread_kill+68)
+06-01 09:25:22.804  2924  2924 F DEBUG   :     #02 pc 0000000000023448  /system/lib64/libc.so (raise+28)
+06-01 09:25:22.804  2924  2924 F DEBUG   :     #03 pc 000000000001dbe8  /system/lib64/libc.so (abort+60)
+06-01 09:25:22.804  2924  2924 F DEBUG   :     #04 pc 0000000000003a7c  /system/lib64/liblog.so (__android_log_assert+236)
+06-01 09:25:22.804  2924  2924 F DEBUG   :     #05 pc 00000000000036c8  /system/lib64/libdisplay.so (_ZN20ExynosOverlayDisplay12clearDisplayEv+124)
+06-01 09:25:22.804  2924  2924 F DEBUG   :     #06 pc 000000000000375c  /system/lib64/libdisplay.so (_ZN20ExynosOverlayDisplay3setEP22hwc_display_contents_1+144)
+06-01 09:25:22.804  2924  2924 F DEBUG   :     #07 pc 00000000000025cc  /system/lib64/hw/hwcomposer.exynos5.so (_Z11exynos5_setP21hwc_composer_device_1mPP22hwc_display_contents_1+88)
+06-01 09:25:22.804  2924  2924 F DEBUG   :     #08 pc 000000000003cf5c  /system/lib64/libsurfaceflinger.so
+06-01 09:25:22.804  2924  2924 F DEBUG   :     #09 pc 000000000002fc74  /system/lib64/libsurfaceflinger.so
+06-01 09:25:22.804  2924  2924 F DEBUG   :     #10 pc 000000000002f300  /system/lib64/libsurfaceflinger.so
+06-01 09:25:22.804  2924  2924 F DEBUG   :     #11 pc 000000000002e1a0  /system/lib64/libsurfaceflinger.so
+06-01 09:25:22.804  2924  2924 F DEBUG   :     #12 pc 000000000002df08  /system/lib64/libsurfaceflinger.so
+06-01 09:25:22.804  2924  2924 F DEBUG   :     #13 pc 000000000001aed4  /system/lib64/libutils.so (_ZN7android6Looper9pollInnerEi+312)
+06-01 09:25:22.804  2924  2924 F DEBUG   :     #14 pc 000000000001b20c  /system/lib64/libutils.so (_ZN7android6Looper8pollOnceEiPiS1_PPv+80)
+06-01 09:25:22.804  2924  2924 F DEBUG   :     #15 pc 000000000002a344  /system/lib64/libsurfaceflinger.so
+06-01 09:25:22.804  2924  2924 F DEBUG   :     #16 pc 000000000002d9fc  /system/lib64/libsurfaceflinger.so (_ZN7android14SurfaceFlinger3runEv+20)
+06-01 09:25:22.804  2924  2924 F DEBUG   :     #17 pc 00000000000011ec  /system/bin/surfaceflinger
+06-01 09:25:22.804  2924  2924 F DEBUG   :     #18 pc 000000000001bcd8  /system/lib64/libc.so (__libc_init+100)
+06-01 09:25:22.804  2924  2924 F DEBUG   :     #19 pc 000000000000101c  /system/bin/surfaceflinger
+06-01 09:25:22.894  2924  2924 F DEBUG   : 
+06-01 09:25:22.894  2924  2924 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_07
+06-01 09:25:22.931  3180  3180 I Radio-JNI: register_android_hardware_Radio DONE
+06-01 09:25:22.945  3206  3215 E SurfaceControl: invalid handle (0x0) or client (0x7f9459c640)
+06-01 09:25:22.945  2919  2919 I ServiceManager: service 'SurfaceFlinger' died
+06-01 09:25:22.945  3206  3206 W SurfaceComposerClient: ComposerService remote (surfaceflinger) died [0x7f945a3320]
+06-01 09:25:22.945  2919  2919 I ServiceManager: service 'Exynos.HWCService' died
+06-01 09:25:22.945  3206  3206 D BootAnimation: SurfaceFlinger died, exiting...
+06-01 09:25:22.979  3180  3180 I SamplingProfilerIntegration: Profiling disabled.
+06-01 09:25:22.980  3180  3180 D Zygote  : begin preload
+06-01 09:25:22.981  3180  3180 I Zygote  : Preloading classes...
+06-01 09:25:23.012  2919  2919 I ServiceManager: service 'media.audio_flinger' died
+06-01 09:25:23.012  2919  2919 I ServiceManager: service 'media.player' died
+06-01 09:25:23.012  2919  2919 I ServiceManager: service 'media.resource_manager' died
+06-01 09:25:23.012  2919  2919 I ServiceManager: service 'media.camera' died
+06-01 09:25:28.028  3284  3284 I Netd    : Netd 1.0 starting
+06-01 09:25:28.028  3284  3284 I QtiConnectivityAdapter: Failed to open libconnctrl, some features may not be present.
+06-01 09:25:28.028  3284  3284 D TetherController: Setting IP forward enable = 0
+06-01 09:25:28.029  2998  2998 W auditd  : type=1325 audit(0.0:125): table=filter family=2 entries=33
+06-01 09:25:28.029  2998  2998 W auditd  : type=1320 audit(0.0:125): 
+06-01 09:25:28.034  3286  3286 I SurfaceFlinger: SurfaceFlinger is starting
+06-01 09:25:28.035  3286  3286 E SchedPolicy: /system/bin/surfaceflinger add_tid_to_cgroup failed; fd=-1
+06-01 09:25:28.035  3286  3286 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+06-01 09:25:28.039  2998  2998 W auditd  : type=1325 audit(0.0:126): table=filter family=10 entries=34
+06-01 09:25:28.039  2998  2998 W auditd  : type=1320 audit(0.0:126): 
+06-01 09:25:28.042  3286  3286 D libEGL  : loaded /vendor/lib64/egl/libGLES_mali.so
+06-01 09:25:28.049  2998  2998 W auditd  : type=1325 audit(0.0:127): table=filter family=2 entries=32
+06-01 09:25:28.049  2998  2998 W auditd  : type=1320 audit(0.0:127): 
+06-01 09:25:28.049  3286  3286 I gralloc : using (id=)
+06-01 09:25:28.049  3286  3286 I gralloc : xres         = 1440 px
+06-01 09:25:28.049  3286  3286 I gralloc : yres         = 2560 px
+06-01 09:25:28.049  3286  3286 I gralloc : width        = 68 mm (537.882324 dpi)
+06-01 09:25:28.049  3286  3286 I gralloc : height       = 122 mm (532.983582 dpi)
+06-01 09:25:28.049  3286  3286 I gralloc : refresh rate = 59.31 Hz
+06-01 09:25:28.057  3286  3286 D hwcomposer: using
+06-01 09:25:28.057  3286  3286 D hwcomposer: xres         = 1440 px
+06-01 09:25:28.057  3286  3286 D hwcomposer: yres         = 2560 px
+06-01 09:25:28.057  3286  3286 D hwcomposer: width        = 68 mm (537.882000 dpi)
+06-01 09:25:28.057  3286  3286 D hwcomposer: height       = 122 mm (532.983000 dpi)
+06-01 09:25:28.057  3286  3286 D hwcomposer: refresh rate = 59 Hz
+06-01 09:25:28.057  3286  3286 I hwcomposer: PSR info devname = /sys/devices/13960000.decon_f/psr_info
+06-01 09:25:28.057  3286  3286 I hwcomposer: PSR mode is 6(0: video mode, 1: DP PSR mode, 2: MIPI-DSI command mode)
+06-01 09:25:28.058  3286  3286 I SurfaceFlinger: Using composer version 1.3
+06-01 09:25:28.058  3286  3286 E display : unknown display attribute 6
+06-01 09:25:28.058  3286  3286 I SurfaceFlinger: EGL information:
+06-01 09:25:28.058  3286  3286 I SurfaceFlinger: vendor    : Android
+06-01 09:25:28.058  3286  3286 I SurfaceFlinger: version   : 1.4 Android META-EGL
+06-01 09:25:28.058  3286  3286 I SurfaceFlinger: extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_swap_buffers_with_damage EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_KHR_config_attribs EGL_KHR_surfaceless_context EGL_EXT_create_context_robustness EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable EGL_KHR_partial_update 
+06-01 09:25:28.058  3286  3286 I SurfaceFlinger: Client API: OpenGL_ES
+06-01 09:25:28.058  3286  3286 I SurfaceFlinger: EGLSurface: 8-8-8-8, config=0x7f9df3b128
+06-01 09:25:28.058  3286  3286 D         : ro.exynos.dss isEnabled: 0
+06-01 09:25:28.059  2998  2998 W auditd  : type=1325 audit(0.0:128): table=filter family=10 entries=33
+06-01 09:25:28.059  2998  2998 W auditd  : type=1320 audit(0.0:128): 
+06-01 09:25:28.059  2998  2998 W auditd  : type=1325 audit(0.0:129): table=filter family=2 entries=32
+06-01 09:25:28.059  2998  2998 W auditd  : type=1320 audit(0.0:129): 
+06-01 09:25:28.060  3286  3286 I SurfaceFlinger: OpenGL ES informations:
+06-01 09:25:28.060  3286  3286 I SurfaceFlinger: vendor    : ARM
+06-01 09:25:28.060  3286  3286 I SurfaceFlinger: renderer  : Mali-T880
+06-01 09:25:28.060  3286  3286 I SurfaceFlinger: version   : OpenGL ES 3.1 v1.r9p0-12dev0.c2bae768d87bf40047e1f310c8de7f16
+06-01 09:25:28.060  3286  3286 I SurfaceFlinger: extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_disjoint_timer_query GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_OES_texture_stencil8 G
+06-01 09:25:28.060  3286  3286 I SurfaceFlinger: GL_MAX_TEXTURE_SIZE = 8192
+06-01 09:25:28.060  3286  3286 I SurfaceFlinger: GL_MAX_VIEWPORT_DIMS = 8192
+06-01 09:25:28.061  3286  3286 D mali_winsys: new_window_surface returns 0x3000,  [1440x2560]-format:1
+06-01 09:25:28.062  3286  3286 D SurfaceFlinger: Set power mode=2, type=0 flinger=0x7f9df03c00
+06-01 09:25:28.069  2998  2998 W auditd  : type=1325 audit(0.0:130): table=filter family=10 entries=33
+06-01 09:25:28.069  2998  2998 W auditd  : type=1320 audit(0.0:130): 
+06-01 09:25:28.079  2998  2998 W auditd  : type=1325 audit(0.0:131): table=filter family=2 entries=30
+06-01 09:25:28.079  2998  2998 W auditd  : type=1320 audit(0.0:131): 
+06-01 09:25:28.099  2998  2998 W auditd  : type=1325 audit(0.0:132): table=filter family=10 entries=31
+06-01 09:25:28.099  2998  2998 W auditd  : type=1320 audit(0.0:132): 
+06-01 09:25:28.109  2998  2998 W auditd  : type=1325 audit(0.0:133): table=filter family=2 entries=32
+06-01 09:25:28.109  2998  2998 W auditd  : type=1320 audit(0.0:133): 
+06-01 09:25:28.109  2998  2998 W auditd  : type=1325 audit(0.0:134): table=filter family=10 entries=33
+06-01 09:25:28.109  2998  2998 W auditd  : type=1320 audit(0.0:134): 
+06-01 09:25:28.161  3287  3287 I mediaserver: ServiceManager: 0xf624e260
+06-01 09:25:28.161  3287  3287 I AudioFlinger: Using default 3000 mSec as standby time.
+06-01 09:25:28.161  3287  3287 E BatteryNotifier: batterystats service unavailable!
+06-01 09:25:28.161  3287  3287 E BatteryNotifier: batterystats service unavailable!
+06-01 09:25:28.162  3287  3287 I CameraService: CameraService started (pid=3287)
+06-01 09:25:28.162  3287  3287 I CameraService: CameraService process starting
+06-01 09:25:28.162  3287  3287 E BatteryNotifier: batterystats service unavailable!
+06-01 09:25:28.162  3287  3287 E BatteryNotifier: batterystats service unavailable!
+06-01 09:25:28.162  3287  3287 E CameraService: Could not load camera HAL module: -2 (No such file or directory)
+06-01 09:25:28.162  3287  3287 I AudioPolicyService: AudioPolicyService CSTOR in new mode
+06-01 09:25:28.163  3287  3287 W APM::HwModule: loadOutput() invalid supported devices
+06-01 09:25:28.163  3287  3287 W APM::HwModule: loadOutput() invalid supported devices
+06-01 09:25:28.163  3287  3287 W APM::HwModule: loadInput() invalid supported devices
+06-01 09:25:28.163  3287  3287 W APM::HwModule: loadInput() invalid supported devices
+06-01 09:25:28.163  3287  3287 I APM::ConfigParsingUtils: loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+06-01 09:25:28.214  3286  3286 D SurfaceFlinger: SF. shader cache generated - 26 shaders in 117.344696 ms
+06-01 09:25:28.218  3286  3286 E display : ioctl DECON_WIN_CONFIG failed: Not a typewriter
+06-01 09:25:28.218  3286  3286 F display : ioctl DECON_WIN_CONFIG failed to clear screen: Not a typewriter
+06-01 09:25:28.218  3286  3286 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 3286 (surfaceflinger)
+06-01 09:25:28.219  2924  2924 I DEBUG   : property debug.db.uid not set; NOT waiting for gdb.
+06-01 09:25:28.219  2924  2924 I DEBUG   : HINT: adb shell setprop debug.db.uid 100000
+06-01 09:25:28.219  2924  2924 I DEBUG   : HINT: adb forward tcp:5039 tcp:5039
+06-01 09:25:28.242  3288  3288 D AndroidRuntime: >>>>>> START com.android.internal.os.ZygoteInit uid 0 <<<<<<
+06-01 09:25:28.244  3288  3288 D AndroidRuntime: CheckJNI is ON
+06-01 09:25:28.244  3288  3288 I art     : option[0]=-Xzygote
+06-01 09:25:28.244  3288  3288 I art     : option[1]=-Xcheck:jni
+06-01 09:25:28.244  3288  3288 I art     : option[2]=-Xstacktracefile:/data/anr/traces.txt
+06-01 09:25:28.244  3288  3288 I art     : option[3]=exit
+06-01 09:25:28.244  3288  3288 I art     : option[4]=vfprintf
+06-01 09:25:28.244  3288  3288 I art     : option[5]=sensitiveThread
+06-01 09:25:28.244  3288  3288 I art     : option[6]=-verbose:gc
+06-01 09:25:28.244  3288  3288 I art     : option[7]=-Xms8m
+06-01 09:25:28.244  3288  3288 I art     : option[8]=-Xmx512m
+06-01 09:25:28.244  3288  3288 I art     : option[9]=-XX:HeapGrowthLimit=256m
+06-01 09:25:28.244  3288  3288 I art     : option[10]=-XX:HeapMinFree=2m
+06-01 09:25:28.244  3288  3288 I art     : option[11]=-XX:HeapMaxFree=8m
+06-01 09:25:28.244  3288  3288 I art     : option[12]=-XX:HeapTargetUtilization=0.75
+06-01 09:25:28.244  3288  3288 I art     : option[13]=-Xusejit:true
+06-01 09:25:28.245  3288  3288 I art     : option[14]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+06-01 09:25:28.245  3288  3288 I art     : option[15]=-Xlockprofthreshold:500
+06-01 09:25:28.245  3288  3288 I art     : option[16]=-Ximage-compiler-option
+06-01 09:25:28.245  3288  3288 I art     : option[17]=--runtime-arg
+06-01 09:25:28.245  3288  3288 I art     : option[18]=-Ximage-compiler-option
+06-01 09:25:28.245  3288  3288 I art     : option[19]=-Xms64m
+06-01 09:25:28.245  3288  3288 I art     : option[20]=-Ximage-compiler-option
+06-01 09:25:28.245  3288  3288 I art     : option[21]=--runtime-arg
+06-01 09:25:28.245  3288  3288 I art     : option[22]=-Ximage-compiler-option
+06-01 09:25:28.245  3288  3288 I art     : option[23]=-Xmx64m
+06-01 09:25:28.245  3288  3288 I art     : option[24]=-Ximage-compiler-option
+06-01 09:25:28.245  3288  3288 I art     : option[25]=--compiler-filter=verify-at-runtime
+06-01 09:25:28.245  3288  3288 I art     : option[26]=-Ximage-compiler-option
+06-01 09:25:28.245  3288  3288 I art     : option[27]=--image-classes=/system/etc/preloaded-classes
+06-01 09:25:28.245  3288  3288 I art     : option[28]=-Xcompiler-option
+06-01 09:25:28.245  3288  3288 I art     : option[29]=--runtime-arg
+06-01 09:25:28.245  3288  3288 I art     : option[30]=-Xcompiler-option
+06-01 09:25:28.245  3288  3288 I art     : option[31]=-Xms64m
+06-01 09:25:28.245  3288  3288 I art     : option[32]=-Xcompiler-option
+06-01 09:25:28.245  3288  3288 I art     : option[33]=--runtime-arg
+06-01 09:25:28.245  3288  3288 I art     : option[34]=-Xcompiler-option
+06-01 09:25:28.245  3288  3288 I art     : option[35]=-Xmx512m
+06-01 09:25:28.245  3288  3288 I art     : option[36]=-Xcompiler-option
+06-01 09:25:28.245  3288  3288 I art     : option[37]=--compiler-filter=verify-at-runtime
+06-01 09:25:28.245  3288  3288 I art     : option[38]=-Ximage-compiler-option
+06-01 09:25:28.245  3288  3288 I art     : option[39]=--instruction-set-variant=generic
+06-01 09:25:28.245  3288  3288 I art     : option[40]=-Xcompiler-option
+06-01 09:25:28.245  3288  3288 I art     : option[41]=--instruction-set-variant=generic
+06-01 09:25:28.245  3288  3288 I art     : option[42]=-Ximage-compiler-option
+06-01 09:25:28.245  3288  3288 I art     : option[43]=--instruction-set-features=default
+06-01 09:25:28.245  3288  3288 I art     : option[44]=-Xcompiler-option
+06-01 09:25:28.245  3288  3288 I art     : option[45]=--instruction-set-features=default
+06-01 09:25:28.245  3288  3288 I art     : option[46]=-Duser.locale=en-US
+06-01 09:25:28.245  3288  3288 I art     : option[47]=--cpu-abilist=arm64-v8a,armeabi
+06-01 09:25:28.245  3288  3288 I art     : option[48]=-Xfingerprint:samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30J/4f0fbab6f5:eng/test-keys
+06-01 09:25:28.269  2924  2924 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+06-01 09:25:28.269  2924  2924 F DEBUG   : Build fingerprint: 'samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30J/4f0fbab6f5:eng/test-keys'
+06-01 09:25:28.269  2924  2924 F DEBUG   : Revision: '0'
+06-01 09:25:28.269  2924  2924 F DEBUG   : ABI: 'arm64'
+06-01 09:25:28.269  2924  2924 F DEBUG   : pid: 3286, tid: 3286, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+06-01 09:25:28.269  2924  2924 F DEBUG   : signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+06-01 09:25:28.271  3288  3288 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+06-01 09:25:28.272  2924  2924 F DEBUG   : Abort message: 'ioctl DECON_WIN_CONFIG failed to clear screen: Not a typewriter'
+06-01 09:25:28.272  2924  2924 F DEBUG   :     x0   0000000000000000  x1   0000000000000cd6  x2   0000000000000006  x3   0000000000000000
+06-01 09:25:28.272  2924  2924 F DEBUG   :     x4   0000000000000000  x5   0000000000000001  x6   0000000000000000  x7   0000000000000000
+06-01 09:25:28.272  2924  2924 F DEBUG   :     x8   0000000000000083  x9   0000000000000049  x10  0000007fe29f57bc  x11  0000007fe29f57f8
+06-01 09:25:28.272  2924  2924 F DEBUG   :     x12  0000007fe29f56d0  x13  0000000000000040  x14  0000007fe29f58a8  x15  0000000000000000
+06-01 09:25:28.272  2924  2924 F DEBUG   :     x16  0000007f9e4d4580  x17  0000007f9e466fcc  x18  0000007f9e686f00  x19  0000007f9e77b0d8
+06-01 09:25:28.272  2924  2924 F DEBUG   :     x20  0000007f9e77b018  x21  0000000000000019  x22  0000000000000006  x23  00000000ffffffff
+06-01 09:25:28.272  2924  2924 F DEBUG   :     x24  0000007f9b44b000  x25  0000000000000018  x26  0000007f9df1d820  x27  0000007f9e701000
+06-01 09:25:28.272  2924  2924 F DEBUG   :     x28  0000000000000001  x29  0000007fe29f5760  x30  0000007f9e464768
+06-01 09:25:28.272  2924  2924 F DEBUG   :     sp   0000007fe29f5760  pc   0000007f9e466fd4  pstate 0000000020000000
+06-01 09:25:28.277  2924  2924 F DEBUG   : 
+06-01 09:25:28.277  2924  2924 F DEBUG   : backtrace:
+06-01 09:25:28.277  2924  2924 F DEBUG   :     #00 pc 0000000000068fd4  /system/lib64/libc.so (tgkill+8)
+06-01 09:25:28.277  2924  2924 F DEBUG   :     #01 pc 0000000000066764  /system/lib64/libc.so (pthread_kill+68)
+06-01 09:25:28.277  2924  2924 F DEBUG   :     #02 pc 0000000000023448  /system/lib64/libc.so (raise+28)
+06-01 09:25:28.277  2924  2924 F DEBUG   :     #03 pc 000000000001dbe8  /system/lib64/libc.so (abort+60)
+06-01 09:25:28.277  2924  2924 F DEBUG   :     #04 pc 0000000000003a7c  /system/lib64/liblog.so (__android_log_assert+236)
+06-01 09:25:28.277  2924  2924 F DEBUG   :     #05 pc 00000000000036c8  /system/lib64/libdisplay.so (_ZN20ExynosOverlayDisplay12clearDisplayEv+124)
+06-01 09:25:28.277  2924  2924 F DEBUG   :     #06 pc 000000000000375c  /system/lib64/libdisplay.so (_ZN20ExynosOverlayDisplay3setEP22hwc_display_contents_1+144)
+06-01 09:25:28.277  2924  2924 F DEBUG   :     #07 pc 00000000000025cc  /system/lib64/hw/hwcomposer.exynos5.so (_Z11exynos5_setP21hwc_composer_device_1mPP22hwc_display_contents_1+88)
+06-01 09:25:28.277  2924  2924 F DEBUG   :     #08 pc 000000000003cf5c  /system/lib64/libsurfaceflinger.so
+06-01 09:25:28.277  2924  2924 F DEBUG   :     #09 pc 000000000002fc74  /system/lib64/libsurfaceflinger.so
+06-01 09:25:28.277  2924  2924 F DEBUG   :     #10 pc 000000000002f300  /system/lib64/libsurfaceflinger.so
+06-01 09:25:28.277  2924  2924 F DEBUG   :     #11 pc 000000000002e1a0  /system/lib64/libsurfaceflinger.so
+06-01 09:25:28.277  2924  2924 F DEBUG   :     #12 pc 000000000002df08  /system/lib64/libsurfaceflinger.so
+06-01 09:25:28.277  2924  2924 F DEBUG   :     #13 pc 000000000001aed4  /system/lib64/libutils.so (_ZN7android6Looper9pollInnerEi+312)
+06-01 09:25:28.277  2924  2924 F DEBUG   :     #14 pc 000000000001b20c  /system/lib64/libutils.so (_ZN7android6Looper8pollOnceEiPiS1_PPv+80)
+06-01 09:25:28.277  2924  2924 F DEBUG   :     #15 pc 000000000002a344  /system/lib64/libsurfaceflinger.so
+06-01 09:25:28.277  2924  2924 F DEBUG   :     #16 pc 000000000002d9fc  /system/lib64/libsurfaceflinger.so (_ZN7android14SurfaceFlinger3runEv+20)
+06-01 09:25:28.277  2924  2924 F DEBUG   :     #17 pc 00000000000011ec  /system/bin/surfaceflinger
+06-01 09:25:28.277  2924  2924 F DEBUG   :     #18 pc 000000000001bcd8  /system/lib64/libc.so (__libc_init+100)
+06-01 09:25:28.277  2924  2924 F DEBUG   :     #19 pc 000000000000101c  /system/bin/surfaceflinger
+06-01 09:25:28.370  2924  2924 F DEBUG   : 
+06-01 09:25:28.370  2924  2924 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_08
+06-01 09:25:28.404  3288  3288 I Radio-JNI: register_android_hardware_Radio DONE
+06-01 09:25:28.414  2919  2919 I ServiceManager: service 'SurfaceFlinger' died
+06-01 09:25:28.414  3313  3320 W SurfaceComposerClient: ComposerService remote (surfaceflinger) died [0x7f9cde3320]
+06-01 09:25:28.414  2919  2919 I ServiceManager: service 'Exynos.HWCService' died
+06-01 09:25:28.414  3313  3320 D BootAnimation: SurfaceFlinger died, exiting...
+06-01 09:25:28.424  2919  2919 I ServiceManager: service 'media.audio_flinger' died
+06-01 09:25:28.424  2919  2919 I ServiceManager: service 'media.player' died
+06-01 09:25:28.424  2919  2919 I ServiceManager: service 'media.resource_manager' died
+06-01 09:25:28.424  2919  2919 I ServiceManager: service 'media.camera' died
+06-01 09:25:32.439  3386  3386 I Netd    : Netd 1.0 starting
+06-01 09:25:32.439  3386  3386 I QtiConnectivityAdapter: Failed to open libconnctrl, some features may not be present.
+06-01 09:25:32.439  3386  3386 D TetherController: Setting IP forward enable = 0
+06-01 09:25:32.446  3388  3388 I SurfaceFlinger: SurfaceFlinger is starting
+06-01 09:25:32.439  2998  2998 W auditd  : type=1325 audit(0.0:179): table=filter family=2 entries=32
+06-01 09:25:32.446  3388  3388 E SchedPolicy: /system/bin/surfaceflinger add_tid_to_cgroup failed; fd=-1
+06-01 09:25:32.446  3388  3388 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+06-01 09:25:32.439  2998  2998 W auditd  : type=1320 audit(0.0:179): 
+06-01 09:25:32.453  3388  3388 D libEGL  : loaded /vendor/lib64/egl/libGLES_mali.so
+06-01 09:25:32.449  2998  2998 W auditd  : type=1325 audit(0.0:180): table=filter family=10 entries=33
+06-01 09:25:32.449  2998  2998 W auditd  : type=1320 audit(0.0:180): 
+06-01 09:25:32.461  3388  3388 I gralloc : using (id=)
+06-01 09:25:32.461  3388  3388 I gralloc : xres         = 1440 px
+06-01 09:25:32.461  3388  3388 I gralloc : yres         = 2560 px
+06-01 09:25:32.461  3388  3388 I gralloc : width        = 68 mm (537.882324 dpi)
+06-01 09:25:32.461  3388  3388 I gralloc : height       = 122 mm (532.983582 dpi)
+06-01 09:25:32.461  3388  3388 I gralloc : refresh rate = 59.31 Hz
+06-01 09:25:32.468  3388  3388 D hwcomposer: using
+06-01 09:25:32.468  3388  3388 D hwcomposer: xres         = 1440 px
+06-01 09:25:32.468  3388  3388 D hwcomposer: yres         = 2560 px
+06-01 09:25:32.468  3388  3388 D hwcomposer: width        = 68 mm (537.882000 dpi)
+06-01 09:25:32.468  3388  3388 D hwcomposer: height       = 122 mm (532.983000 dpi)
+06-01 09:25:32.468  3388  3388 D hwcomposer: refresh rate = 59 Hz
+06-01 09:25:32.468  3388  3388 I hwcomposer: PSR info devname = /sys/devices/13960000.decon_f/psr_info
+06-01 09:25:32.468  3388  3388 I hwcomposer: PSR mode is 6(0: video mode, 1: DP PSR mode, 2: MIPI-DSI command mode)
+06-01 09:25:32.469  3388  3388 I SurfaceFlinger: Using composer version 1.3
+06-01 09:25:32.469  3388  3388 E display : unknown display attribute 6
+06-01 09:25:32.469  3388  3388 I SurfaceFlinger: EGL information:
+06-01 09:25:32.469  3388  3388 I SurfaceFlinger: vendor    : Android
+06-01 09:25:32.469  3388  3388 I SurfaceFlinger: version   : 1.4 Android META-EGL
+06-01 09:25:32.469  3388  3388 I SurfaceFlinger: extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_swap_buffers_with_damage EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_KHR_config_attribs EGL_KHR_surfaceless_context EGL_EXT_create_context_robustness EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable EGL_KHR_partial_update 
+06-01 09:25:32.469  3388  3388 I SurfaceFlinger: Client API: OpenGL_ES
+06-01 09:25:32.469  3388  3388 I SurfaceFlinger: EGLSurface: 8-8-8-8, config=0x7fb62fb128
+06-01 09:25:32.469  3388  3388 D         : ro.exynos.dss isEnabled: 0
+06-01 09:25:32.471  3388  3388 I SurfaceFlinger: OpenGL ES informations:
+06-01 09:25:32.471  3388  3388 I SurfaceFlinger: vendor    : ARM
+06-01 09:25:32.471  3388  3388 I SurfaceFlinger: renderer  : Mali-T880
+06-01 09:25:32.471  3388  3388 I SurfaceFlinger: version   : OpenGL ES 3.1 v1.r9p0-12dev0.c2bae768d87bf40047e1f310c8de7f16
+06-01 09:25:32.471  3388  3388 I SurfaceFlinger: extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_disjoint_timer_query GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_OES_texture_stencil8 G
+06-01 09:25:32.471  3388  3388 I SurfaceFlinger: GL_MAX_TEXTURE_SIZE = 8192
+06-01 09:25:32.471  3388  3388 I SurfaceFlinger: GL_MAX_VIEWPORT_DIMS = 8192
+06-01 09:25:32.472  3388  3388 D mali_winsys: new_window_surface returns 0x3000,  [1440x2560]-format:1
+06-01 09:25:32.459  2998  2998 W auditd  : type=1325 audit(0.0:181): table=filter family=2 entries=31
+06-01 09:25:32.459  2998  2998 W auditd  : type=1320 audit(0.0:181): 
+06-01 09:25:32.473  3388  3388 D SurfaceFlinger: Set power mode=2, type=0 flinger=0x7fb62c3c00
+06-01 09:25:32.469  2998  2998 W auditd  : type=1325 audit(0.0:182): table=filter family=10 entries=32
+06-01 09:25:32.469  2998  2998 W auditd  : type=1320 audit(0.0:182): 
+06-01 09:25:32.489  2998  2998 W auditd  : type=1325 audit(0.0:183): table=filter family=2 entries=31
+06-01 09:25:32.489  2998  2998 W auditd  : type=1320 audit(0.0:183): 
+06-01 09:25:32.499  2998  2998 W auditd  : type=1325 audit(0.0:184): table=filter family=10 entries=32
+06-01 09:25:32.499  2998  2998 W auditd  : type=1320 audit(0.0:184): 
+06-01 09:25:32.509  2998  2998 W auditd  : type=1325 audit(0.0:185): table=filter family=2 entries=29
+06-01 09:25:32.509  2998  2998 W auditd  : type=1320 audit(0.0:185): 
+06-01 09:25:32.519  2998  2998 W auditd  : type=1325 audit(0.0:186): table=filter family=10 entries=30
+06-01 09:25:32.519  2998  2998 W auditd  : type=1320 audit(0.0:186): 
+06-01 09:25:32.529  2998  2998 W auditd  : type=1325 audit(0.0:187): table=filter family=2 entries=31
+06-01 09:25:32.529  2998  2998 W auditd  : type=1320 audit(0.0:187): 
+06-01 09:25:32.539  2998  2998 W auditd  : type=1325 audit(0.0:188): table=filter family=10 entries=32
+06-01 09:25:32.539  2998  2998 W auditd  : type=1320 audit(0.0:188): 
+06-01 09:25:32.570  3389  3389 I mediaserver: ServiceManager: 0xf614e260
+06-01 09:25:32.570  3389  3389 I AudioFlinger: Using default 3000 mSec as standby time.
+06-01 09:25:32.571  3389  3389 E BatteryNotifier: batterystats service unavailable!
+06-01 09:25:32.571  3389  3389 E BatteryNotifier: batterystats service unavailable!
+06-01 09:25:32.571  3389  3389 I CameraService: CameraService started (pid=3389)
+06-01 09:25:32.571  3389  3389 I CameraService: CameraService process starting
+06-01 09:25:32.571  3389  3389 E BatteryNotifier: batterystats service unavailable!
+06-01 09:25:32.572  3389  3389 E BatteryNotifier: batterystats service unavailable!
+06-01 09:25:32.572  3389  3389 E CameraService: Could not load camera HAL module: -2 (No such file or directory)
+06-01 09:25:32.572  3389  3389 I AudioPolicyService: AudioPolicyService CSTOR in new mode
+06-01 09:25:32.573  3389  3389 W APM::HwModule: loadOutput() invalid supported devices
+06-01 09:25:32.573  3389  3389 W APM::HwModule: loadOutput() invalid supported devices
+06-01 09:25:32.573  3389  3389 W APM::HwModule: loadInput() invalid supported devices
+06-01 09:25:32.573  3389  3389 W APM::HwModule: loadInput() invalid supported devices
+06-01 09:25:32.573  3389  3389 I APM::ConfigParsingUtils: loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+06-01 09:25:32.640  3388  3388 D SurfaceFlinger: SF. shader cache generated - 26 shaders in 119.267960 ms
+06-01 09:25:32.645  3388  3388 E display : ioctl DECON_WIN_CONFIG failed: Not a typewriter
+06-01 09:25:32.645  3388  3388 F display : ioctl DECON_WIN_CONFIG failed to clear screen: Not a typewriter
+06-01 09:25:32.645  3388  3388 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 3388 (surfaceflinger)
+06-01 09:25:32.645  2924  2924 I DEBUG   : property debug.db.uid not set; NOT waiting for gdb.
+06-01 09:25:32.645  2924  2924 I DEBUG   : HINT: adb shell setprop debug.db.uid 100000
+06-01 09:25:32.645  2924  2924 I DEBUG   : HINT: adb forward tcp:5039 tcp:5039
+06-01 09:25:32.652  3390  3390 D AndroidRuntime: >>>>>> START com.android.internal.os.ZygoteInit uid 0 <<<<<<
+06-01 09:25:32.655  3390  3390 D AndroidRuntime: CheckJNI is ON
+06-01 09:25:32.655  3390  3390 I art     : option[0]=-Xzygote
+06-01 09:25:32.655  3390  3390 I art     : option[1]=-Xcheck:jni
+06-01 09:25:32.655  3390  3390 I art     : option[2]=-Xstacktracefile:/data/anr/traces.txt
+06-01 09:25:32.655  3390  3390 I art     : option[3]=exit
+06-01 09:25:32.655  3390  3390 I art     : option[4]=vfprintf
+06-01 09:25:32.655  3390  3390 I art     : option[5]=sensitiveThread
+06-01 09:25:32.655  3390  3390 I art     : option[6]=-verbose:gc
+06-01 09:25:32.655  3390  3390 I art     : option[7]=-Xms8m
+06-01 09:25:32.655  3390  3390 I art     : option[8]=-Xmx512m
+06-01 09:25:32.655  3390  3390 I art     : option[9]=-XX:HeapGrowthLimit=256m
+06-01 09:25:32.655  3390  3390 I art     : option[10]=-XX:HeapMinFree=2m
+06-01 09:25:32.655  3390  3390 I art     : option[11]=-XX:HeapMaxFree=8m
+06-01 09:25:32.655  3390  3390 I art     : option[12]=-XX:HeapTargetUtilization=0.75
+06-01 09:25:32.655  3390  3390 I art     : option[13]=-Xusejit:true
+06-01 09:25:32.655  3390  3390 I art     : option[14]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+06-01 09:25:32.655  3390  3390 I art     : option[15]=-Xlockprofthreshold:500
+06-01 09:25:32.655  3390  3390 I art     : option[16]=-Ximage-compiler-option
+06-01 09:25:32.655  3390  3390 I art     : option[17]=--runtime-arg
+06-01 09:25:32.655  3390  3390 I art     : option[18]=-Ximage-compiler-option
+06-01 09:25:32.655  3390  3390 I art     : option[19]=-Xms64m
+06-01 09:25:32.655  3390  3390 I art     : option[20]=-Ximage-compiler-option
+06-01 09:25:32.655  3390  3390 I art     : option[21]=--runtime-arg
+06-01 09:25:32.655  3390  3390 I art     : option[22]=-Ximage-compiler-option
+06-01 09:25:32.655  3390  3390 I art     : option[23]=-Xmx64m
+06-01 09:25:32.655  3390  3390 I art     : option[24]=-Ximage-compiler-option
+06-01 09:25:32.655  3390  3390 I art     : option[25]=--compiler-filter=verify-at-runtime
+06-01 09:25:32.655  3390  3390 I art     : option[26]=-Ximage-compiler-option
+06-01 09:25:32.655  3390  3390 I art     : option[27]=--image-classes=/system/etc/preloaded-classes
+06-01 09:25:32.655  3390  3390 I art     : option[28]=-Xcompiler-option
+06-01 09:25:32.655  3390  3390 I art     : option[29]=--runtime-arg
+06-01 09:25:32.655  3390  3390 I art     : option[30]=-Xcompiler-option
+06-01 09:25:32.655  3390  3390 I art     : option[31]=-Xms64m
+06-01 09:25:32.655  3390  3390 I art     : option[32]=-Xcompiler-option
+06-01 09:25:32.655  3390  3390 I art     : option[33]=--runtime-arg
+06-01 09:25:32.655  3390  3390 I art     : option[34]=-Xcompiler-option
+06-01 09:25:32.655  3390  3390 I art     : option[35]=-Xmx512m
+06-01 09:25:32.655  3390  3390 I art     : option[36]=-Xcompiler-option
+06-01 09:25:32.655  3390  3390 I art     : option[37]=--compiler-filter=verify-at-runtime
+06-01 09:25:32.655  3390  3390 I art     : option[38]=-Ximage-compiler-option
+06-01 09:25:32.655  3390  3390 I art     : option[39]=--instruction-set-variant=generic
+06-01 09:25:32.655  3390  3390 I art     : option[40]=-Xcompiler-option
+06-01 09:25:32.655  3390  3390 I art     : option[41]=--instruction-set-variant=generic
+06-01 09:25:32.655  3390  3390 I art     : option[42]=-Ximage-compiler-option
+06-01 09:25:32.655  3390  3390 I art     : option[43]=--instruction-set-features=default
+06-01 09:25:32.655  3390  3390 I art     : option[44]=-Xcompiler-option
+06-01 09:25:32.655  3390  3390 I art     : option[45]=--instruction-set-features=default
+06-01 09:25:32.655  3390  3390 I art     : option[46]=-Duser.locale=en-US
+06-01 09:25:32.655  3390  3390 I art     : option[47]=--cpu-abilist=arm64-v8a,armeabi
+06-01 09:25:32.655  3390  3390 I art     : option[48]=-Xfingerprint:samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30J/4f0fbab6f5:eng/test-keys
+06-01 09:25:32.681  3390  3390 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+06-01 09:25:32.695  2924  2924 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+06-01 09:25:32.695  2924  2924 F DEBUG   : Build fingerprint: 'samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30J/4f0fbab6f5:eng/test-keys'
+06-01 09:25:32.696  2924  2924 F DEBUG   : Revision: '0'
+06-01 09:25:32.696  2924  2924 F DEBUG   : ABI: 'arm64'
+06-01 09:25:32.696  2924  2924 F DEBUG   : pid: 3388, tid: 3388, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+06-01 09:25:32.696  2924  2924 F DEBUG   : signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+06-01 09:25:32.698  2924  2924 F DEBUG   : Abort message: 'ioctl DECON_WIN_CONFIG failed to clear screen: Not a typewriter'
+06-01 09:25:32.698  2924  2924 F DEBUG   :     x0   0000000000000000  x1   0000000000000d3c  x2   0000000000000006  x3   0000000000000000
+06-01 09:25:32.698  2924  2924 F DEBUG   :     x4   0000000000000000  x5   0000000000000001  x6   0000000000000000  x7   0000000000000000
+06-01 09:25:32.698  2924  2924 F DEBUG   :     x8   0000000000000083  x9   0000000000000049  x10  0000007fedb77eec  x11  0000007fedb77f28
+06-01 09:25:32.698  2924  2924 F DEBUG   :     x12  0000007fedb77e00  x13  0000000000000040  x14  0000007fedb77fd8  x15  0000000000000000
+06-01 09:25:32.698  2924  2924 F DEBUG   :     x16  0000007fb6868580  x17  0000007fb67fafcc  x18  0000007fb6a1af00  x19  0000007fb6b0f0d8
+06-01 09:25:32.698  2924  2924 F DEBUG   :     x20  0000007fb6b0f018  x21  0000000000000019  x22  0000000000000006  x23  00000000ffffffff
+06-01 09:25:32.698  2924  2924 F DEBUG   :     x24  0000007fb37cb000  x25  0000000000000018  x26  0000007fb62dd820  x27  0000007fb6a95000
+06-01 09:25:32.698  2924  2924 F DEBUG   :     x28  0000000000000001  x29  0000007fedb77e90  x30  0000007fb67f8768
+06-01 09:25:32.698  2924  2924 F DEBUG   :     sp   0000007fedb77e90  pc   0000007fb67fafd4  pstate 0000000020000000
+06-01 09:25:32.704  2924  2924 F DEBUG   : 
+06-01 09:25:32.704  2924  2924 F DEBUG   : backtrace:
+06-01 09:25:32.704  2924  2924 F DEBUG   :     #00 pc 0000000000068fd4  /system/lib64/libc.so (tgkill+8)
+06-01 09:25:32.704  2924  2924 F DEBUG   :     #01 pc 0000000000066764  /system/lib64/libc.so (pthread_kill+68)
+06-01 09:25:32.704  2924  2924 F DEBUG   :     #02 pc 0000000000023448  /system/lib64/libc.so (raise+28)
+06-01 09:25:32.704  2924  2924 F DEBUG   :     #03 pc 000000000001dbe8  /system/lib64/libc.so (abort+60)
+06-01 09:25:32.704  2924  2924 F DEBUG   :     #04 pc 0000000000003a7c  /system/lib64/liblog.so (__android_log_assert+236)
+06-01 09:25:32.704  2924  2924 F DEBUG   :     #05 pc 00000000000036c8  /system/lib64/libdisplay.so (_ZN20ExynosOverlayDisplay12clearDisplayEv+124)
+06-01 09:25:32.704  2924  2924 F DEBUG   :     #06 pc 000000000000375c  /system/lib64/libdisplay.so (_ZN20ExynosOverlayDisplay3setEP22hwc_display_contents_1+144)
+06-01 09:25:32.704  2924  2924 F DEBUG   :     #07 pc 00000000000025cc  /system/lib64/hw/hwcomposer.exynos5.so (_Z11exynos5_setP21hwc_composer_device_1mPP22hwc_display_contents_1+88)
+06-01 09:25:32.704  2924  2924 F DEBUG   :     #08 pc 000000000003cf5c  /system/lib64/libsurfaceflinger.so
+06-01 09:25:32.704  2924  2924 F DEBUG   :     #09 pc 000000000002fc74  /system/lib64/libsurfaceflinger.so
+06-01 09:25:32.704  2924  2924 F DEBUG   :     #10 pc 000000000002f300  /system/lib64/libsurfaceflinger.so
+06-01 09:25:32.704  2924  2924 F DEBUG   :     #11 pc 000000000002e1a0  /system/lib64/libsurfaceflinger.so
+06-01 09:25:32.704  2924  2924 F DEBUG   :     #12 pc 000000000002df08  /system/lib64/libsurfaceflinger.so
+06-01 09:25:32.704  2924  2924 F DEBUG   :     #13 pc 000000000001aed4  /system/lib64/libutils.so (_ZN7android6Looper9pollInnerEi+312)
+06-01 09:25:32.704  2924  2924 F DEBUG   :     #14 pc 000000000001b20c  /system/lib64/libutils.so (_ZN7android6Looper8pollOnceEiPiS1_PPv+80)
+06-01 09:25:32.704  2924  2924 F DEBUG   :     #15 pc 000000000002a344  /system/lib64/libsurfaceflinger.so
+06-01 09:25:32.704  2924  2924 F DEBUG   :     #16 pc 000000000002d9fc  /system/lib64/libsurfaceflinger.so (_ZN7android14SurfaceFlinger3runEv+20)
+06-01 09:25:32.704  2924  2924 F DEBUG   :     #17 pc 00000000000011ec  /system/bin/surfaceflinger
+06-01 09:25:32.704  2924  2924 F DEBUG   :     #18 pc 000000000001bcd8  /system/lib64/libc.so (__libc_init+100)
+06-01 09:25:32.704  2924  2924 F DEBUG   :     #19 pc 000000000000101c  /system/bin/surfaceflinger
+06-01 09:25:32.796  2924  2924 F DEBUG   : 
+06-01 09:25:32.796  2924  2924 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_09
+06-01 09:25:32.814  3390  3390 I Radio-JNI: register_android_hardware_Radio DONE
+06-01 09:25:32.858  3390  3390 I SamplingProfilerIntegration: Profiling disabled.
+06-01 09:25:32.858  3390  3390 D Zygote  : begin preload
+06-01 09:25:32.860  3390  3390 I Zygote  : Preloading classes...
+06-01 09:25:32.864  3415  3423 E SurfaceControl: invalid handle (0x0) or client (0x7fb09dc640)
+06-01 09:25:32.864  2919  2919 I ServiceManager: service 'SurfaceFlinger' died
+06-01 09:25:32.864  2919  2919 I ServiceManager: service 'Exynos.HWCService' died
+06-01 09:25:32.864  3415  3422 W SurfaceComposerClient: ComposerService remote (surfaceflinger) died [0x7fb09e3320]
+06-01 09:25:32.864  3415  3422 D BootAnimation: SurfaceFlinger died, exiting...
+06-01 09:25:32.875  2919  2919 I ServiceManager: service 'media.audio_flinger' died
+06-01 09:25:32.875  2919  2919 I ServiceManager: service 'media.player' died
+06-01 09:25:32.875  2919  2919 I ServiceManager: service 'media.resource_manager' died
+06-01 09:25:32.875  2919  2919 I ServiceManager: service 'media.camera' died
+06-01 09:25:37.891  3487  3487 I Netd    : Netd 1.0 starting
+06-01 09:25:37.891  3487  3487 I QtiConnectivityAdapter: Failed to open libconnctrl, some features may not be present.
+06-01 09:25:37.891  3487  3487 D TetherController: Setting IP forward enable = 0
+06-01 09:25:37.898  3489  3489 I SurfaceFlinger: SurfaceFlinger is starting
+06-01 09:25:37.898  3489  3489 E SchedPolicy: /system/bin/surfaceflinger add_tid_to_cgroup failed; fd=-1
+06-01 09:25:37.898  3489  3489 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+06-01 09:25:37.889  2998  2998 W auditd  : type=1325 audit(0.0:235): table=filter family=2 entries=32
+06-01 09:25:37.889  2998  2998 W auditd  : type=1320 audit(0.0:235): 
+06-01 09:25:37.906  3489  3489 D libEGL  : loaded /vendor/lib64/egl/libGLES_mali.so
+06-01 09:25:37.912  3489  3489 I gralloc : using (id=)
+06-01 09:25:37.912  3489  3489 I gralloc : xres         = 1440 px
+06-01 09:25:37.912  3489  3489 I gralloc : yres         = 2560 px
+06-01 09:25:37.912  3489  3489 I gralloc : width        = 68 mm (537.882324 dpi)
+06-01 09:25:37.912  3489  3489 I gralloc : height       = 122 mm (532.983582 dpi)
+06-01 09:25:37.912  3489  3489 I gralloc : refresh rate = 59.31 Hz
+06-01 09:25:37.909  2998  2998 W auditd  : type=1325 audit(0.0:236): table=filter family=10 entries=31
+06-01 09:25:37.909  2998  2998 W auditd  : type=1320 audit(0.0:236): 
+06-01 09:25:37.920  3489  3489 D hwcomposer: using
+06-01 09:25:37.920  3489  3489 D hwcomposer: xres         = 1440 px
+06-01 09:25:37.920  3489  3489 D hwcomposer: yres         = 2560 px
+06-01 09:25:37.920  3489  3489 D hwcomposer: width        = 68 mm (537.882000 dpi)
+06-01 09:25:37.920  3489  3489 D hwcomposer: height       = 122 mm (532.983000 dpi)
+06-01 09:25:37.920  3489  3489 D hwcomposer: refresh rate = 59 Hz
+06-01 09:25:37.920  3489  3489 I hwcomposer: PSR info devname = /sys/devices/13960000.decon_f/psr_info
+06-01 09:25:37.920  3489  3489 I hwcomposer: PSR mode is 6(0: video mode, 1: DP PSR mode, 2: MIPI-DSI command mode)
+06-01 09:25:37.920  3489  3489 I SurfaceFlinger: Using composer version 1.3
+06-01 09:25:37.920  3489  3489 E display : unknown display attribute 6
+06-01 09:25:37.920  3489  3489 I SurfaceFlinger: EGL information:
+06-01 09:25:37.920  3489  3489 I SurfaceFlinger: vendor    : Android
+06-01 09:25:37.920  3489  3489 I SurfaceFlinger: version   : 1.4 Android META-EGL
+06-01 09:25:37.920  3489  3489 I SurfaceFlinger: extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_swap_buffers_with_damage EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_KHR_config_attribs EGL_KHR_surfaceless_context EGL_EXT_create_context_robustness EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable EGL_KHR_partial_update 
+06-01 09:25:37.921  3489  3489 I SurfaceFlinger: Client API: OpenGL_ES
+06-01 09:25:37.921  3489  3489 I SurfaceFlinger: EGLSurface: 8-8-8-8, config=0x7fa4afb128
+06-01 09:25:37.921  3489  3489 D         : ro.exynos.dss isEnabled: 0
+06-01 09:25:37.923  3489  3489 I SurfaceFlinger: OpenGL ES informations:
+06-01 09:25:37.923  3489  3489 I SurfaceFlinger: vendor    : ARM
+06-01 09:25:37.923  3489  3489 I SurfaceFlinger: renderer  : Mali-T880
+06-01 09:25:37.923  3489  3489 I SurfaceFlinger: version   : OpenGL ES 3.1 v1.r9p0-12dev0.c2bae768d87bf40047e1f310c8de7f16
+06-01 09:25:37.923  3489  3489 I SurfaceFlinger: extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_disjoint_timer_query GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_OES_texture_stencil8 G
+06-01 09:25:37.923  3489  3489 I SurfaceFlinger: GL_MAX_TEXTURE_SIZE = 8192
+06-01 09:25:37.923  3489  3489 I SurfaceFlinger: GL_MAX_VIEWPORT_DIMS = 8192
+06-01 09:25:37.924  3489  3489 D mali_winsys: new_window_surface returns 0x3000,  [1440x2560]-format:1
+06-01 09:25:37.925  3489  3489 D SurfaceFlinger: Set power mode=2, type=0 flinger=0x7fa4ac3c00
+06-01 09:25:37.919  2998  2998 W auditd  : type=1325 audit(0.0:237): table=filter family=2 entries=31
+06-01 09:25:37.919  2998  2998 W auditd  : type=1320 audit(0.0:237): 
+06-01 09:25:37.919  2998  2998 W auditd  : type=1325 audit(0.0:238): table=filter family=10 entries=30
+06-01 09:25:37.919  2998  2998 W auditd  : type=1320 audit(0.0:238): 
+06-01 09:25:37.929  2998  2998 W auditd  : type=1325 audit(0.0:239): table=filter family=2 entries=31
+06-01 09:25:37.929  2998  2998 W auditd  : type=1320 audit(0.0:239): 
+06-01 09:25:37.939  2998  2998 W auditd  : type=1325 audit(0.0:240): table=filter family=10 entries=30
+06-01 09:25:37.939  2998  2998 W auditd  : type=1320 audit(0.0:240): 
+06-01 09:25:37.939  2998  2998 W auditd  : type=1325 audit(0.0:241): table=filter family=2 entries=29
+06-01 09:25:37.939  2998  2998 W auditd  : type=1320 audit(0.0:241): 
+06-01 09:25:37.949  2998  2998 W auditd  : type=1325 audit(0.0:242): table=filter family=10 entries=28
+06-01 09:25:37.949  2998  2998 W auditd  : type=1320 audit(0.0:242): 
+06-01 09:25:37.949  2998  2998 W auditd  : type=1325 audit(0.0:243): table=filter family=2 entries=31
+06-01 09:25:37.949  2998  2998 W auditd  : type=1320 audit(0.0:243): 
+06-01 09:25:37.959  2998  2998 W auditd  : type=1325 audit(0.0:244): table=filter family=10 entries=30
+06-01 09:25:37.959  2998  2998 W auditd  : type=1320 audit(0.0:244): 
+06-01 09:25:38.022  3490  3490 I mediaserver: ServiceManager: 0xf630e260
+06-01 09:25:38.022  3490  3490 I AudioFlinger: Using default 3000 mSec as standby time.
+06-01 09:25:38.022  3490  3490 E BatteryNotifier: batterystats service unavailable!
+06-01 09:25:38.022  3490  3490 E BatteryNotifier: batterystats service unavailable!
+06-01 09:25:38.022  3490  3490 I CameraService: CameraService started (pid=3490)
+06-01 09:25:38.022  3490  3490 I CameraService: CameraService process starting
+06-01 09:25:38.023  3490  3490 E BatteryNotifier: batterystats service unavailable!
+06-01 09:25:38.023  3490  3490 E BatteryNotifier: batterystats service unavailable!
+06-01 09:25:38.023  3490  3490 E CameraService: Could not load camera HAL module: -2 (No such file or directory)
+06-01 09:25:38.023  3490  3490 I AudioPolicyService: AudioPolicyService CSTOR in new mode
+06-01 09:25:38.024  3490  3490 W APM::HwModule: loadOutput() invalid supported devices
+06-01 09:25:38.024  3490  3490 W APM::HwModule: loadOutput() invalid supported devices
+06-01 09:25:38.024  3490  3490 W APM::HwModule: loadInput() invalid supported devices
+06-01 09:25:38.024  3490  3490 W APM::HwModule: loadInput() invalid supported devices
+06-01 09:25:38.024  3490  3490 I APM::ConfigParsingUtils: loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+06-01 09:25:38.089  3489  3489 D SurfaceFlinger: SF. shader cache generated - 26 shaders in 119.370232 ms
+06-01 09:25:38.093  3489  3489 E display : ioctl DECON_WIN_CONFIG failed: Not a typewriter
+06-01 09:25:38.093  3489  3489 F display : ioctl DECON_WIN_CONFIG failed to clear screen: Not a typewriter
+06-01 09:25:38.093  3489  3489 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 3489 (surfaceflinger)
+06-01 09:25:38.094  2924  2924 I DEBUG   : property debug.db.uid not set; NOT waiting for gdb.
+06-01 09:25:38.094  2924  2924 I DEBUG   : HINT: adb shell setprop debug.db.uid 100000
+06-01 09:25:38.094  2924  2924 I DEBUG   : HINT: adb forward tcp:5039 tcp:5039
+06-01 09:25:38.107  3491  3491 D AndroidRuntime: >>>>>> START com.android.internal.os.ZygoteInit uid 0 <<<<<<
+06-01 09:25:38.109  3491  3491 D AndroidRuntime: CheckJNI is ON
+06-01 09:25:38.109  3491  3491 I art     : option[0]=-Xzygote
+06-01 09:25:38.109  3491  3491 I art     : option[1]=-Xcheck:jni
+06-01 09:25:38.109  3491  3491 I art     : option[2]=-Xstacktracefile:/data/anr/traces.txt
+06-01 09:25:38.109  3491  3491 I art     : option[3]=exit
+06-01 09:25:38.109  3491  3491 I art     : option[4]=vfprintf
+06-01 09:25:38.109  3491  3491 I art     : option[5]=sensitiveThread
+06-01 09:25:38.109  3491  3491 I art     : option[6]=-verbose:gc
+06-01 09:25:38.109  3491  3491 I art     : option[7]=-Xms8m
+06-01 09:25:38.109  3491  3491 I art     : option[8]=-Xmx512m
+06-01 09:25:38.109  3491  3491 I art     : option[9]=-XX:HeapGrowthLimit=256m
+06-01 09:25:38.109  3491  3491 I art     : option[10]=-XX:HeapMinFree=2m
+06-01 09:25:38.109  3491  3491 I art     : option[11]=-XX:HeapMaxFree=8m
+06-01 09:25:38.109  3491  3491 I art     : option[12]=-XX:HeapTargetUtilization=0.75
+06-01 09:25:38.109  3491  3491 I art     : option[13]=-Xusejit:true
+06-01 09:25:38.109  3491  3491 I art     : option[14]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+06-01 09:25:38.109  3491  3491 I art     : option[15]=-Xlockprofthreshold:500
+06-01 09:25:38.109  3491  3491 I art     : option[16]=-Ximage-compiler-option
+06-01 09:25:38.109  3491  3491 I art     : option[17]=--runtime-arg
+06-01 09:25:38.109  3491  3491 I art     : option[18]=-Ximage-compiler-option
+06-01 09:25:38.109  3491  3491 I art     : option[19]=-Xms64m
+06-01 09:25:38.109  3491  3491 I art     : option[20]=-Ximage-compiler-option
+06-01 09:25:38.109  3491  3491 I art     : option[21]=--runtime-arg
+06-01 09:25:38.109  3491  3491 I art     : option[22]=-Ximage-compiler-option
+06-01 09:25:38.109  3491  3491 I art     : option[23]=-Xmx64m
+06-01 09:25:38.109  3491  3491 I art     : option[24]=-Ximage-compiler-option
+06-01 09:25:38.109  3491  3491 I art     : option[25]=--compiler-filter=verify-at-runtime
+06-01 09:25:38.109  3491  3491 I art     : option[26]=-Ximage-compiler-option
+06-01 09:25:38.109  3491  3491 I art     : option[27]=--image-classes=/system/etc/preloaded-classes
+06-01 09:25:38.109  3491  3491 I art     : option[28]=-Xcompiler-option
+06-01 09:25:38.109  3491  3491 I art     : option[29]=--runtime-arg
+06-01 09:25:38.109  3491  3491 I art     : option[30]=-Xcompiler-option
+06-01 09:25:38.109  3491  3491 I art     : option[31]=-Xms64m
+06-01 09:25:38.109  3491  3491 I art     : option[32]=-Xcompiler-option
+06-01 09:25:38.109  3491  3491 I art     : option[33]=--runtime-arg
+06-01 09:25:38.109  3491  3491 I art     : option[34]=-Xcompiler-option
+06-01 09:25:38.109  3491  3491 I art     : option[35]=-Xmx512m
+06-01 09:25:38.109  3491  3491 I art     : option[36]=-Xcompiler-option
+06-01 09:25:38.109  3491  3491 I art     : option[37]=--compiler-filter=verify-at-runtime
+06-01 09:25:38.109  3491  3491 I art     : option[38]=-Ximage-compiler-option
+06-01 09:25:38.110  3491  3491 I art     : option[39]=--instruction-set-variant=generic
+06-01 09:25:38.110  3491  3491 I art     : option[40]=-Xcompiler-option
+06-01 09:25:38.110  3491  3491 I art     : option[41]=--instruction-set-variant=generic
+06-01 09:25:38.110  3491  3491 I art     : option[42]=-Ximage-compiler-option
+06-01 09:25:38.110  3491  3491 I art     : option[43]=--instruction-set-features=default
+06-01 09:25:38.110  3491  3491 I art     : option[44]=-Xcompiler-option
+06-01 09:25:38.110  3491  3491 I art     : option[45]=--instruction-set-features=default
+06-01 09:25:38.110  3491  3491 I art     : option[46]=-Duser.locale=en-US
+06-01 09:25:38.110  3491  3491 I art     : option[47]=--cpu-abilist=arm64-v8a,armeabi
+06-01 09:25:38.110  3491  3491 I art     : option[48]=-Xfingerprint:samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30J/4f0fbab6f5:eng/test-keys
+06-01 09:25:38.135  3491  3491 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+06-01 09:25:38.144  2924  2924 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+06-01 09:25:38.144  2924  2924 F DEBUG   : Build fingerprint: 'samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30J/4f0fbab6f5:eng/test-keys'
+06-01 09:25:38.144  2924  2924 F DEBUG   : Revision: '0'
+06-01 09:25:38.144  2924  2924 F DEBUG   : ABI: 'arm64'
+06-01 09:25:38.144  2924  2924 F DEBUG   : pid: 3489, tid: 3489, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+06-01 09:25:38.144  2924  2924 F DEBUG   : signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+06-01 09:25:38.147  2924  2924 F DEBUG   : Abort message: 'ioctl DECON_WIN_CONFIG failed to clear screen: Not a typewriter'
+06-01 09:25:38.147  2924  2924 F DEBUG   :     x0   0000000000000000  x1   0000000000000da1  x2   0000000000000006  x3   0000000000000000
+06-01 09:25:38.147  2924  2924 F DEBUG   :     x4   0000000000000000  x5   0000000000000001  x6   0000000000000000  x7   0000000000000000
+06-01 09:25:38.147  2924  2924 F DEBUG   :     x8   0000000000000083  x9   0000000000000049  x10  0000007fdb27918c  x11  0000007fdb2791c8
+06-01 09:25:38.147  2924  2924 F DEBUG   :     x12  0000007fdb2790a0  x13  0000000000000040  x14  0000007fdb279278  x15  0000000000000000
+06-01 09:25:38.147  2924  2924 F DEBUG   :     x16  0000007fa5092580  x17  0000007fa5024fcc  x18  0000007fa5244f00  x19  0000007fa53390d8
+06-01 09:25:38.147  2924  2924 F DEBUG   :     x20  0000007fa5339018  x21  0000000000000019  x22  0000000000000006  x23  00000000ffffffff
+06-01 09:25:38.147  2924  2924 F DEBUG   :     x24  0000007fa1fcb000  x25  0000000000000018  x26  0000007fa4add820  x27  0000007fa52bf000
+06-01 09:25:38.147  2924  2924 F DEBUG   :     x28  0000000000000001  x29  0000007fdb279130  x30  0000007fa5022768
+06-01 09:25:38.147  2924  2924 F DEBUG   :     sp   0000007fdb279130  pc   0000007fa5024fd4  pstate 0000000020000000
+06-01 09:25:38.152  2924  2924 F DEBUG   : 
+06-01 09:25:38.152  2924  2924 F DEBUG   : backtrace:
+06-01 09:25:38.152  2924  2924 F DEBUG   :     #00 pc 0000000000068fd4  /system/lib64/libc.so (tgkill+8)
+06-01 09:25:38.152  2924  2924 F DEBUG   :     #01 pc 0000000000066764  /system/lib64/libc.so (pthread_kill+68)
+06-01 09:25:38.152  2924  2924 F DEBUG   :     #02 pc 0000000000023448  /system/lib64/libc.so (raise+28)
+06-01 09:25:38.152  2924  2924 F DEBUG   :     #03 pc 000000000001dbe8  /system/lib64/libc.so (abort+60)
+06-01 09:25:38.152  2924  2924 F DEBUG   :     #04 pc 0000000000003a7c  /system/lib64/liblog.so (__android_log_assert+236)
+06-01 09:25:38.152  2924  2924 F DEBUG   :     #05 pc 00000000000036c8  /system/lib64/libdisplay.so (_ZN20ExynosOverlayDisplay12clearDisplayEv+124)
+06-01 09:25:38.152  2924  2924 F DEBUG   :     #06 pc 000000000000375c  /system/lib64/libdisplay.so (_ZN20ExynosOverlayDisplay3setEP22hwc_display_contents_1+144)
+06-01 09:25:38.152  2924  2924 F DEBUG   :     #07 pc 00000000000025cc  /system/lib64/hw/hwcomposer.exynos5.so (_Z11exynos5_setP21hwc_composer_device_1mPP22hwc_display_contents_1+88)
+06-01 09:25:38.152  2924  2924 F DEBUG   :     #08 pc 000000000003cf5c  /system/lib64/libsurfaceflinger.so
+06-01 09:25:38.152  2924  2924 F DEBUG   :     #09 pc 000000000002fc74  /system/lib64/libsurfaceflinger.so
+06-01 09:25:38.152  2924  2924 F DEBUG   :     #10 pc 000000000002f300  /system/lib64/libsurfaceflinger.so
+06-01 09:25:38.152  2924  2924 F DEBUG   :     #11 pc 000000000002e1a0  /system/lib64/libsurfaceflinger.so
+06-01 09:25:38.153  2924  2924 F DEBUG   :     #12 pc 000000000002df08  /system/lib64/libsurfaceflinger.so
+06-01 09:25:38.153  2924  2924 F DEBUG   :     #13 pc 000000000001aed4  /system/lib64/libutils.so (_ZN7android6Looper9pollInnerEi+312)
+06-01 09:25:38.153  2924  2924 F DEBUG   :     #14 pc 000000000001b20c  /system/lib64/libutils.so (_ZN7android6Looper8pollOnceEiPiS1_PPv+80)
+06-01 09:25:38.153  2924  2924 F DEBUG   :     #15 pc 000000000002a344  /system/lib64/libsurfaceflinger.so
+06-01 09:25:38.153  2924  2924 F DEBUG   :     #16 pc 000000000002d9fc  /system/lib64/libsurfaceflinger.so (_ZN7android14SurfaceFlinger3runEv+20)
+06-01 09:25:38.153  2924  2924 F DEBUG   :     #17 pc 00000000000011ec  /system/bin/surfaceflinger
+06-01 09:25:38.153  2924  2924 F DEBUG   :     #18 pc 000000000001bcd8  /system/lib64/libc.so (__libc_init+100)
+06-01 09:25:38.153  2924  2924 F DEBUG   :     #19 pc 000000000000101c  /system/bin/surfaceflinger
+06-01 09:25:38.244  2924  2924 F DEBUG   : 
+06-01 09:25:38.244  2924  2924 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_00
+06-01 09:25:38.271  3491  3491 I Radio-JNI: register_android_hardware_Radio DONE
+06-01 09:25:38.294  2919  2919 I ServiceManager: service 'SurfaceFlinger' died
+06-01 09:25:38.294  2919  2919 I ServiceManager: service 'Exynos.HWCService' died
+06-01 09:25:38.294  3516  3527 E SurfaceControl: invalid handle (0x0) or client (0x7f7995c640)
+06-01 09:25:38.294  3516  3516 W SurfaceComposerClient: ComposerService remote (surfaceflinger) died [0x7f79963320]
+06-01 09:25:38.294  3516  3516 D BootAnimation: SurfaceFlinger died, exiting...
+06-01 09:25:38.304  2919  2919 I ServiceManager: service 'media.audio_flinger' died
+06-01 09:25:38.304  2919  2919 I ServiceManager: service 'media.player' died
+06-01 09:25:38.304  2919  2919 I ServiceManager: service 'media.resource_manager' died
+06-01 09:25:38.304  2919  2919 I ServiceManager: service 'media.camera' died
+06-01 09:25:43.320  3581  3581 I Netd    : Netd 1.0 starting
+06-01 09:25:43.320  3581  3581 I QtiConnectivityAdapter: Failed to open libconnctrl, some features may not be present.
+06-01 09:25:43.320  3581  3581 D TetherController: Setting IP forward enable = 0
+06-01 09:25:43.326  3583  3583 I SurfaceFlinger: SurfaceFlinger is starting
+06-01 09:25:43.326  3583  3583 E SchedPolicy: /system/bin/surfaceflinger add_tid_to_cgroup failed; fd=-1
+06-01 09:25:43.326  3583  3583 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+06-01 09:25:43.319  2998  2998 W auditd  : type=1325 audit(0.0:286): table=filter family=2 entries=32
+06-01 09:25:43.319  2998  2998 W auditd  : type=1320 audit(0.0:286): 
+06-01 09:25:43.335  3583  3583 D libEGL  : loaded /vendor/lib64/egl/libGLES_mali.so
+06-01 09:25:43.342  3583  3583 I gralloc : using (id=)
+06-01 09:25:43.342  3583  3583 I gralloc : xres         = 1440 px
+06-01 09:25:43.342  3583  3583 I gralloc : yres         = 2560 px
+06-01 09:25:43.342  3583  3583 I gralloc : width        = 68 mm (537.882324 dpi)
+06-01 09:25:43.342  3583  3583 I gralloc : height       = 122 mm (532.983582 dpi)
+06-01 09:25:43.342  3583  3583 I gralloc : refresh rate = 59.31 Hz
+06-01 09:25:43.339  2998  2998 W auditd  : type=1325 audit(0.0:287): table=filter family=10 entries=31
+06-01 09:25:43.339  2998  2998 W auditd  : type=1320 audit(0.0:287): 
+06-01 09:25:43.349  3583  3583 D hwcomposer: using
+06-01 09:25:43.349  3583  3583 D hwcomposer: xres         = 1440 px
+06-01 09:25:43.349  3583  3583 D hwcomposer: yres         = 2560 px
+06-01 09:25:43.349  3583  3583 D hwcomposer: width        = 68 mm (537.882000 dpi)
+06-01 09:25:43.349  3583  3583 D hwcomposer: height       = 122 mm (532.983000 dpi)
+06-01 09:25:43.349  3583  3583 D hwcomposer: refresh rate = 59 Hz
+06-01 09:25:43.350  3583  3583 I hwcomposer: PSR info devname = /sys/devices/13960000.decon_f/psr_info
+06-01 09:25:43.350  3583  3583 I hwcomposer: PSR mode is 6(0: video mode, 1: DP PSR mode, 2: MIPI-DSI command mode)
+06-01 09:25:43.350  3583  3583 I SurfaceFlinger: Using composer version 1.3
+06-01 09:25:43.350  3583  3583 E display : unknown display attribute 6
+06-01 09:25:43.350  3583  3583 I SurfaceFlinger: EGL information:
+06-01 09:25:43.350  3583  3583 I SurfaceFlinger: vendor    : Android
+06-01 09:25:43.350  3583  3583 I SurfaceFlinger: version   : 1.4 Android META-EGL
+06-01 09:25:43.350  3583  3583 I SurfaceFlinger: extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_swap_buffers_with_damage EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_KHR_config_attribs EGL_KHR_surfaceless_context EGL_EXT_create_context_robustness EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable EGL_KHR_partial_update 
+06-01 09:25:43.350  3583  3583 I SurfaceFlinger: Client API: OpenGL_ES
+06-01 09:25:43.350  3583  3583 I SurfaceFlinger: EGLSurface: 8-8-8-8, config=0x7f9717b128
+06-01 09:25:43.351  3583  3583 D         : ro.exynos.dss isEnabled: 0
+06-01 09:25:43.353  3583  3583 I SurfaceFlinger: OpenGL ES informations:
+06-01 09:25:43.353  3583  3583 I SurfaceFlinger: vendor    : ARM
+06-01 09:25:43.353  3583  3583 I SurfaceFlinger: renderer  : Mali-T880
+06-01 09:25:43.353  3583  3583 I SurfaceFlinger: version   : OpenGL ES 3.1 v1.r9p0-12dev0.c2bae768d87bf40047e1f310c8de7f16
+06-01 09:25:43.353  3583  3583 I SurfaceFlinger: extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_disjoint_timer_query GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_OES_texture_stencil8 G
+06-01 09:25:43.353  3583  3583 I SurfaceFlinger: GL_MAX_TEXTURE_SIZE = 8192
+06-01 09:25:43.353  3583  3583 I SurfaceFlinger: GL_MAX_VIEWPORT_DIMS = 8192
+06-01 09:25:43.353  3583  3583 D mali_winsys: new_window_surface returns 0x3000,  [1440x2560]-format:1
+06-01 09:25:43.355  3583  3583 D SurfaceFlinger: Set power mode=2, type=0 flinger=0x7f97143c00
+06-01 09:25:43.349  2998  2998 W auditd  : type=1325 audit(0.0:288): table=filter family=2 entries=31
+06-01 09:25:43.349  2998  2998 W auditd  : type=1320 audit(0.0:288): 
+06-01 09:25:43.359  2998  2998 W auditd  : type=1325 audit(0.0:289): table=filter family=10 entries=30
+06-01 09:25:43.359  2998  2998 W auditd  : type=1320 audit(0.0:289): 
+06-01 09:25:43.369  2998  2998 W auditd  : type=1325 audit(0.0:290): table=filter family=2 entries=31
+06-01 09:25:43.369  2998  2998 W auditd  : type=1320 audit(0.0:290): 
+06-01 09:25:43.379  2998  2998 W auditd  : type=1325 audit(0.0:291): table=filter family=10 entries=30
+06-01 09:25:43.379  2998  2998 W auditd  : type=1320 audit(0.0:291): 
+06-01 09:25:43.389  2998  2998 W auditd  : type=1325 audit(0.0:292): table=filter family=2 entries=29
+06-01 09:25:43.389  2998  2998 W auditd  : type=1320 audit(0.0:292): 
+06-01 09:25:43.399  2998  2998 W auditd  : type=1325 audit(0.0:293): table=filter family=10 entries=28
+06-01 09:25:43.399  2998  2998 W auditd  : type=1320 audit(0.0:293): 
+06-01 09:25:43.409  2998  2998 W auditd  : type=1325 audit(0.0:294): table=filter family=2 entries=31
+06-01 09:25:43.409  2998  2998 W auditd  : type=1320 audit(0.0:294): 
+06-01 09:25:43.419  2998  2998 W auditd  : type=1325 audit(0.0:295): table=filter family=10 entries=30
+06-01 09:25:43.419  2998  2998 W auditd  : type=1320 audit(0.0:295): 
+06-01 09:25:43.451  3584  3584 I mediaserver: ServiceManager: 0xf618e260
+06-01 09:25:43.451  3584  3584 I AudioFlinger: Using default 3000 mSec as standby time.
+06-01 09:25:43.452  3584  3584 E BatteryNotifier: batterystats service unavailable!
+06-01 09:25:43.452  3584  3584 E BatteryNotifier: batterystats service unavailable!
+06-01 09:25:43.452  3584  3584 I CameraService: CameraService started (pid=3584)
+06-01 09:25:43.452  3584  3584 I CameraService: CameraService process starting
+06-01 09:25:43.452  3584  3584 E BatteryNotifier: batterystats service unavailable!
+06-01 09:25:43.452  3584  3584 E BatteryNotifier: batterystats service unavailable!
+06-01 09:25:43.453  3584  3584 E CameraService: Could not load camera HAL module: -2 (No such file or directory)
+06-01 09:25:43.453  3584  3584 I AudioPolicyService: AudioPolicyService CSTOR in new mode
+06-01 09:25:43.454  3584  3584 W APM::HwModule: loadOutput() invalid supported devices
+06-01 09:25:43.454  3584  3584 W APM::HwModule: loadOutput() invalid supported devices
+06-01 09:25:43.454  3584  3584 W APM::HwModule: loadInput() invalid supported devices
+06-01 09:25:43.454  3584  3584 W APM::HwModule: loadInput() invalid supported devices
+06-01 09:25:43.454  3584  3584 I APM::ConfigParsingUtils: loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+06-01 09:25:43.523  3583  3583 D SurfaceFlinger: SF. shader cache generated - 26 shaders in 119.481697 ms
+06-01 09:25:43.528  3583  3583 E display : ioctl DECON_WIN_CONFIG failed: Not a typewriter
+06-01 09:25:43.528  3583  3583 F display : ioctl DECON_WIN_CONFIG failed to clear screen: Not a typewriter
+06-01 09:25:43.528  3583  3583 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 3583 (surfaceflinger)
+06-01 09:25:43.528  2924  2924 I DEBUG   : property debug.db.uid not set; NOT waiting for gdb.
+06-01 09:25:43.528  2924  2924 I DEBUG   : HINT: adb shell setprop debug.db.uid 100000
+06-01 09:25:43.528  2924  2924 I DEBUG   : HINT: adb forward tcp:5039 tcp:5039
+06-01 09:25:43.533  3585  3585 D AndroidRuntime: >>>>>> START com.android.internal.os.ZygoteInit uid 0 <<<<<<
+06-01 09:25:43.535  3585  3585 D AndroidRuntime: CheckJNI is ON
+06-01 09:25:43.535  3585  3585 I art     : option[0]=-Xzygote
+06-01 09:25:43.535  3585  3585 I art     : option[1]=-Xcheck:jni
+06-01 09:25:43.535  3585  3585 I art     : option[2]=-Xstacktracefile:/data/anr/traces.txt
+06-01 09:25:43.535  3585  3585 I art     : option[3]=exit
+06-01 09:25:43.535  3585  3585 I art     : option[4]=vfprintf
+06-01 09:25:43.535  3585  3585 I art     : option[5]=sensitiveThread
+06-01 09:25:43.535  3585  3585 I art     : option[6]=-verbose:gc
+06-01 09:25:43.535  3585  3585 I art     : option[7]=-Xms8m
+06-01 09:25:43.535  3585  3585 I art     : option[8]=-Xmx512m
+06-01 09:25:43.535  3585  3585 I art     : option[9]=-XX:HeapGrowthLimit=256m
+06-01 09:25:43.535  3585  3585 I art     : option[10]=-XX:HeapMinFree=2m
+06-01 09:25:43.535  3585  3585 I art     : option[11]=-XX:HeapMaxFree=8m
+06-01 09:25:43.535  3585  3585 I art     : option[12]=-XX:HeapTargetUtilization=0.75
+06-01 09:25:43.535  3585  3585 I art     : option[13]=-Xusejit:true
+06-01 09:25:43.535  3585  3585 I art     : option[14]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+06-01 09:25:43.535  3585  3585 I art     : option[15]=-Xlockprofthreshold:500
+06-01 09:25:43.535  3585  3585 I art     : option[16]=-Ximage-compiler-option
+06-01 09:25:43.535  3585  3585 I art     : option[17]=--runtime-arg
+06-01 09:25:43.535  3585  3585 I art     : option[18]=-Ximage-compiler-option
+06-01 09:25:43.535  3585  3585 I art     : option[19]=-Xms64m
+06-01 09:25:43.535  3585  3585 I art     : option[20]=-Ximage-compiler-option
+06-01 09:25:43.535  3585  3585 I art     : option[21]=--runtime-arg
+06-01 09:25:43.535  3585  3585 I art     : option[22]=-Ximage-compiler-option
+06-01 09:25:43.535  3585  3585 I art     : option[23]=-Xmx64m
+06-01 09:25:43.535  3585  3585 I art     : option[24]=-Ximage-compiler-option
+06-01 09:25:43.535  3585  3585 I art     : option[25]=--compiler-filter=verify-at-runtime
+06-01 09:25:43.535  3585  3585 I art     : option[26]=-Ximage-compiler-option
+06-01 09:25:43.535  3585  3585 I art     : option[27]=--image-classes=/system/etc/preloaded-classes
+06-01 09:25:43.535  3585  3585 I art     : option[28]=-Xcompiler-option
+06-01 09:25:43.535  3585  3585 I art     : option[29]=--runtime-arg
+06-01 09:25:43.535  3585  3585 I art     : option[30]=-Xcompiler-option
+06-01 09:25:43.535  3585  3585 I art     : option[31]=-Xms64m
+06-01 09:25:43.535  3585  3585 I art     : option[32]=-Xcompiler-option
+06-01 09:25:43.535  3585  3585 I art     : option[33]=--runtime-arg
+06-01 09:25:43.535  3585  3585 I art     : option[34]=-Xcompiler-option
+06-01 09:25:43.535  3585  3585 I art     : option[35]=-Xmx512m
+06-01 09:25:43.535  3585  3585 I art     : option[36]=-Xcompiler-option
+06-01 09:25:43.536  3585  3585 I art     : option[37]=--compiler-filter=verify-at-runtime
+06-01 09:25:43.536  3585  3585 I art     : option[38]=-Ximage-compiler-option
+06-01 09:25:43.536  3585  3585 I art     : option[39]=--instruction-set-variant=generic
+06-01 09:25:43.536  3585  3585 I art     : option[40]=-Xcompiler-option
+06-01 09:25:43.536  3585  3585 I art     : option[41]=--instruction-set-variant=generic
+06-01 09:25:43.536  3585  3585 I art     : option[42]=-Ximage-compiler-option
+06-01 09:25:43.536  3585  3585 I art     : option[43]=--instruction-set-features=default
+06-01 09:25:43.536  3585  3585 I art     : option[44]=-Xcompiler-option
+06-01 09:25:43.536  3585  3585 I art     : option[45]=--instruction-set-features=default
+06-01 09:25:43.536  3585  3585 I art     : option[46]=-Duser.locale=en-US
+06-01 09:25:43.536  3585  3585 I art     : option[47]=--cpu-abilist=arm64-v8a,armeabi
+06-01 09:25:43.536  3585  3585 I art     : option[48]=-Xfingerprint:samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30J/4f0fbab6f5:eng/test-keys
+06-01 09:25:43.561  3585  3585 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+06-01 09:25:43.579  2924  2924 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+06-01 09:25:43.579  2924  2924 F DEBUG   : Build fingerprint: 'samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30J/4f0fbab6f5:eng/test-keys'
+06-01 09:25:43.579  2924  2924 F DEBUG   : Revision: '0'
+06-01 09:25:43.579  2924  2924 F DEBUG   : ABI: 'arm64'
+06-01 09:25:43.579  2924  2924 F DEBUG   : pid: 3583, tid: 3583, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+06-01 09:25:43.579  2924  2924 F DEBUG   : signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+06-01 09:25:43.582  2924  2924 F DEBUG   : Abort message: 'ioctl DECON_WIN_CONFIG failed to clear screen: Not a typewriter'
+06-01 09:25:43.582  2924  2924 F DEBUG   :     x0   0000000000000000  x1   0000000000000dff  x2   0000000000000006  x3   0000000000000000
+06-01 09:25:43.582  2924  2924 F DEBUG   :     x4   0000000000000000  x5   0000000000000001  x6   0000000000000000  x7   0000000000000000
+06-01 09:25:43.582  2924  2924 F DEBUG   :     x8   0000000000000083  x9   0000000000000049  x10  0000007fd9cfbc2c  x11  0000007fd9cfbc68
+06-01 09:25:43.582  2924  2924 F DEBUG   :     x12  0000007fd9cfbb40  x13  0000000000000040  x14  0000007fd9cfbd18  x15  0000000000000000
+06-01 09:25:43.582  2924  2924 F DEBUG   :     x16  0000007f97718580  x17  0000007f976aafcc  x18  0000007f978caf00  x19  0000007f979bf0d8
+06-01 09:25:43.582  2924  2924 F DEBUG   :     x20  0000007f979bf018  x21  0000000000000019  x22  0000000000000006  x23  00000000ffffffff
+06-01 09:25:43.582  2924  2924 F DEBUG   :     x24  0000007f9468b000  x25  0000000000000018  x26  0000007f9715d820  x27  0000007f97945000
+06-01 09:25:43.582  2924  2924 F DEBUG   :     x28  0000000000000001  x29  0000007fd9cfbbd0  x30  0000007f976a8768
+06-01 09:25:43.582  2924  2924 F DEBUG   :     sp   0000007fd9cfbbd0  pc   0000007f976aafd4  pstate 0000000020000000
+06-01 09:25:43.587  2924  2924 F DEBUG   : 
+06-01 09:25:43.587  2924  2924 F DEBUG   : backtrace:
+06-01 09:25:43.587  2924  2924 F DEBUG   :     #00 pc 0000000000068fd4  /system/lib64/libc.so (tgkill+8)
+06-01 09:25:43.587  2924  2924 F DEBUG   :     #01 pc 0000000000066764  /system/lib64/libc.so (pthread_kill+68)
+06-01 09:25:43.587  2924  2924 F DEBUG   :     #02 pc 0000000000023448  /system/lib64/libc.so (raise+28)
+06-01 09:25:43.587  2924  2924 F DEBUG   :     #03 pc 000000000001dbe8  /system/lib64/libc.so (abort+60)
+06-01 09:25:43.587  2924  2924 F DEBUG   :     #04 pc 0000000000003a7c  /system/lib64/liblog.so (__android_log_assert+236)
+06-01 09:25:43.587  2924  2924 F DEBUG   :     #05 pc 00000000000036c8  /system/lib64/libdisplay.so (_ZN20ExynosOverlayDisplay12clearDisplayEv+124)
+06-01 09:25:43.587  2924  2924 F DEBUG   :     #06 pc 000000000000375c  /system/lib64/libdisplay.so (_ZN20ExynosOverlayDisplay3setEP22hwc_display_contents_1+144)
+06-01 09:25:43.587  2924  2924 F DEBUG   :     #07 pc 00000000000025cc  /system/lib64/hw/hwcomposer.exynos5.so (_Z11exynos5_setP21hwc_composer_device_1mPP22hwc_display_contents_1+88)
+06-01 09:25:43.587  2924  2924 F DEBUG   :     #08 pc 000000000003cf5c  /system/lib64/libsurfaceflinger.so
+06-01 09:25:43.587  2924  2924 F DEBUG   :     #09 pc 000000000002fc74  /system/lib64/libsurfaceflinger.so
+06-01 09:25:43.587  2924  2924 F DEBUG   :     #10 pc 000000000002f300  /system/lib64/libsurfaceflinger.so
+06-01 09:25:43.587  2924  2924 F DEBUG   :     #11 pc 000000000002e1a0  /system/lib64/libsurfaceflinger.so
+06-01 09:25:43.587  2924  2924 F DEBUG   :     #12 pc 000000000002df08  /system/lib64/libsurfaceflinger.so
+06-01 09:25:43.587  2924  2924 F DEBUG   :     #13 pc 000000000001aed4  /system/lib64/libutils.so (_ZN7android6Looper9pollInnerEi+312)
+06-01 09:25:43.587  2924  2924 F DEBUG   :     #14 pc 000000000001b20c  /system/lib64/libutils.so (_ZN7android6Looper8pollOnceEiPiS1_PPv+80)
+06-01 09:25:43.587  2924  2924 F DEBUG   :     #15 pc 000000000002a344  /system/lib64/libsurfaceflinger.so
+06-01 09:25:43.587  2924  2924 F DEBUG   :     #16 pc 000000000002d9fc  /system/lib64/libsurfaceflinger.so (_ZN7android14SurfaceFlinger3runEv+20)
+06-01 09:25:43.587  2924  2924 F DEBUG   :     #17 pc 00000000000011ec  /system/bin/surfaceflinger
+06-01 09:25:43.587  2924  2924 F DEBUG   :     #18 pc 000000000001bcd8  /system/lib64/libc.so (__libc_init+100)
+06-01 09:25:43.587  2924  2924 F DEBUG   :     #19 pc 000000000000101c  /system/bin/surfaceflinger
+06-01 09:25:43.685  2924  2924 F DEBUG   : 
+06-01 09:25:43.685  2924  2924 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_01
+06-01 09:25:43.695  3585  3585 I Radio-JNI: register_android_hardware_Radio DONE
+06-01 09:25:43.738  3585  3585 I SamplingProfilerIntegration: Profiling disabled.
+06-01 09:25:43.739  3585  3585 D Zygote  : begin preload
+06-01 09:25:43.741  3585  3585 I Zygote  : Preloading classes...
+06-01 09:25:43.744  2919  2919 I ServiceManager: service 'SurfaceFlinger' died
+06-01 09:25:43.744  2919  2919 I ServiceManager: service 'Exynos.HWCService' died
+06-01 09:25:43.744  3610  3621 E SurfaceControl: invalid handle (0x0) or client (0x7fa0e1c640)
+06-01 09:25:43.744  3610  3619 W SurfaceComposerClient: ComposerService remote (surfaceflinger) died [0x7fa0e23320]
+06-01 09:25:43.744  3610  3619 D BootAnimation: SurfaceFlinger died, exiting...
+06-01 09:25:43.754  2919  2919 I ServiceManager: service 'media.audio_flinger' died
+06-01 09:25:43.754  2919  2919 I ServiceManager: service 'media.player' died
+06-01 09:25:43.754  2919  2919 I ServiceManager: service 'media.resource_manager' died
+06-01 09:25:43.754  2919  2919 I ServiceManager: service 'media.camera' died
+06-01 09:25:47.772  3686  3686 I Netd    : Netd 1.0 starting
+06-01 09:25:47.772  3686  3686 I QtiConnectivityAdapter: Failed to open libconnctrl, some features may not be present.
+06-01 09:25:47.772  3686  3686 D TetherController: Setting IP forward enable = 0
+06-01 09:25:47.776  3688  3688 I SurfaceFlinger: SurfaceFlinger is starting
+06-01 09:25:47.776  3688  3688 E SchedPolicy: /system/bin/surfaceflinger add_tid_to_cgroup failed; fd=-1
+06-01 09:25:47.776  3688  3688 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+06-01 09:25:47.769  2998  2998 W auditd  : type=1325 audit(0.0:344): table=filter family=2 entries=33
+06-01 09:25:47.769  2998  2998 W auditd  : type=1320 audit(0.0:344): 
+06-01 09:25:47.782  3688  3688 D libEGL  : loaded /vendor/lib64/egl/libGLES_mali.so
+06-01 09:25:47.779  2998  2998 W auditd  : type=1325 audit(0.0:345): table=filter family=10 entries=33
+06-01 09:25:47.779  2998  2998 W auditd  : type=1320 audit(0.0:345): 
+06-01 09:25:47.789  3688  3688 I gralloc : using (id=)
+06-01 09:25:47.789  3688  3688 I gralloc : xres         = 1440 px
+06-01 09:25:47.789  3688  3688 I gralloc : yres         = 2560 px
+06-01 09:25:47.789  3688  3688 I gralloc : width        = 68 mm (537.882324 dpi)
+06-01 09:25:47.789  3688  3688 I gralloc : height       = 122 mm (532.983582 dpi)
+06-01 09:25:47.789  3688  3688 I gralloc : refresh rate = 59.31 Hz
+06-01 09:25:47.797  3688  3688 D hwcomposer: using
+06-01 09:25:47.797  3688  3688 D hwcomposer: xres         = 1440 px
+06-01 09:25:47.797  3688  3688 D hwcomposer: yres         = 2560 px
+06-01 09:25:47.797  3688  3688 D hwcomposer: width        = 68 mm (537.882000 dpi)
+06-01 09:25:47.797  3688  3688 D hwcomposer: height       = 122 mm (532.983000 dpi)
+06-01 09:25:47.797  3688  3688 D hwcomposer: refresh rate = 59 Hz
+06-01 09:25:47.797  3688  3688 I hwcomposer: PSR info devname = /sys/devices/13960000.decon_f/psr_info
+06-01 09:25:47.797  3688  3688 I hwcomposer: PSR mode is 6(0: video mode, 1: DP PSR mode, 2: MIPI-DSI command mode)
+06-01 09:25:47.798  3688  3688 I SurfaceFlinger: Using composer version 1.3
+06-01 09:25:47.798  3688  3688 E display : unknown display attribute 6
+06-01 09:25:47.798  3688  3688 I SurfaceFlinger: EGL information:
+06-01 09:25:47.798  3688  3688 I SurfaceFlinger: vendor    : Android
+06-01 09:25:47.798  3688  3688 I SurfaceFlinger: version   : 1.4 Android META-EGL
+06-01 09:25:47.798  3688  3688 I SurfaceFlinger: extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_swap_buffers_with_damage EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_KHR_config_attribs EGL_KHR_surfaceless_context EGL_EXT_create_context_robustness EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable EGL_KHR_partial_update 
+06-01 09:25:47.798  3688  3688 I SurfaceFlinger: Client API: OpenGL_ES
+06-01 09:25:47.798  3688  3688 I SurfaceFlinger: EGLSurface: 8-8-8-8, config=0x7f8e8bb128
+06-01 09:25:47.789  2998  2998 W auditd  : type=1325 audit(0.0:346): table=filter family=2 entries=32
+06-01 09:25:47.789  2998  2998 W auditd  : type=1320 audit(0.0:346): 
+06-01 09:25:47.798  3688  3688 D         : ro.exynos.dss isEnabled: 0
+06-01 09:25:47.800  3688  3688 I SurfaceFlinger: OpenGL ES informations:
+06-01 09:25:47.800  3688  3688 I SurfaceFlinger: vendor    : ARM
+06-01 09:25:47.800  3688  3688 I SurfaceFlinger: renderer  : Mali-T880
+06-01 09:25:47.800  3688  3688 I SurfaceFlinger: version   : OpenGL ES 3.1 v1.r9p0-12dev0.c2bae768d87bf40047e1f310c8de7f16
+06-01 09:25:47.800  3688  3688 I SurfaceFlinger: extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_disjoint_timer_query GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_OES_texture_stencil8 G
+06-01 09:25:47.800  3688  3688 I SurfaceFlinger: GL_MAX_TEXTURE_SIZE = 8192
+06-01 09:25:47.800  3688  3688 I SurfaceFlinger: GL_MAX_VIEWPORT_DIMS = 8192
+06-01 09:25:47.801  3688  3688 D mali_winsys: new_window_surface returns 0x3000,  [1440x2560]-format:1
+06-01 09:25:47.802  3688  3688 D SurfaceFlinger: Set power mode=2, type=0 flinger=0x7f8e883c00
+06-01 09:25:47.789  2998  2998 W auditd  : type=1325 audit(0.0:347): table=filter family=10 entries=32
+06-01 09:25:47.789  2998  2998 W auditd  : type=1320 audit(0.0:347): 
+06-01 09:25:47.799  2998  2998 W auditd  : type=1325 audit(0.0:348): table=filter family=2 entries=32
+06-01 09:25:47.799  2998  2998 W auditd  : type=1320 audit(0.0:348): 
+06-01 09:25:47.809  2998  2998 W auditd  : type=1325 audit(0.0:349): table=filter family=10 entries=32
+06-01 09:25:47.809  2998  2998 W auditd  : type=1320 audit(0.0:349): 
+06-01 09:25:47.819  2998  2998 W auditd  : type=1325 audit(0.0:350): table=filter family=2 entries=30
+06-01 09:25:47.819  2998  2998 W auditd  : type=1320 audit(0.0:350): 
+06-01 09:25:47.829  2998  2998 W auditd  : type=1325 audit(0.0:351): table=filter family=10 entries=30
+06-01 09:25:47.829  2998  2998 W auditd  : type=1320 audit(0.0:351): 
+06-01 09:25:47.849  2998  2998 W auditd  : type=1325 audit(0.0:352): table=filter family=2 entries=32
+06-01 09:25:47.849  2998  2998 W auditd  : type=1320 audit(0.0:352): 
+06-01 09:25:47.859  2998  2998 W auditd  : type=1325 audit(0.0:353): table=filter family=10 entries=32
+06-01 09:25:47.859  2998  2998 W auditd  : type=1320 audit(0.0:353): 
+06-01 09:25:47.893  3689  3689 I mediaserver: ServiceManager: 0xf644e260
+06-01 09:25:47.893  3689  3689 I AudioFlinger: Using default 3000 mSec as standby time.
+06-01 09:25:47.894  3689  3689 E BatteryNotifier: batterystats service unavailable!
+06-01 09:25:47.894  3689  3689 E BatteryNotifier: batterystats service unavailable!
+06-01 09:25:47.895  3689  3689 I CameraService: CameraService started (pid=3689)
+06-01 09:25:47.895  3689  3689 I CameraService: CameraService process starting
+06-01 09:25:47.895  3689  3689 E BatteryNotifier: batterystats service unavailable!
+06-01 09:25:47.895  3689  3689 E BatteryNotifier: batterystats service unavailable!
+06-01 09:25:47.895  3689  3689 E CameraService: Could not load camera HAL module: -2 (No such file or directory)
+06-01 09:25:47.896  3689  3689 I AudioPolicyService: AudioPolicyService CSTOR in new mode
+06-01 09:25:47.896  3689  3689 W APM::HwModule: loadOutput() invalid supported devices
+06-01 09:25:47.896  3689  3689 W APM::HwModule: loadOutput() invalid supported devices
+06-01 09:25:47.896  3689  3689 W APM::HwModule: loadInput() invalid supported devices
+06-01 09:25:47.896  3689  3689 W APM::HwModule: loadInput() invalid supported devices
+06-01 09:25:47.896  3689  3689 I APM::ConfigParsingUtils: loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+06-01 09:25:47.970  3688  3688 D SurfaceFlinger: SF. shader cache generated - 26 shaders in 128.374847 ms
+06-01 09:25:47.975  3688  3688 E display : ioctl DECON_WIN_CONFIG failed: Not a typewriter
+06-01 09:25:47.975  3688  3688 F display : ioctl DECON_WIN_CONFIG failed to clear screen: Not a typewriter
+06-01 09:25:47.975  3688  3688 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 3688 (surfaceflinger)
+06-01 09:25:47.976  2924  2924 I DEBUG   : property debug.db.uid not set; NOT waiting for gdb.
+06-01 09:25:47.976  2924  2924 I DEBUG   : HINT: adb shell setprop debug.db.uid 100000
+06-01 09:25:47.976  2924  2924 I DEBUG   : HINT: adb forward tcp:5039 tcp:5039
+06-01 09:25:47.981  3690  3690 D AndroidRuntime: >>>>>> START com.android.internal.os.ZygoteInit uid 0 <<<<<<
+06-01 09:25:47.983  3690  3690 D AndroidRuntime: CheckJNI is ON
+06-01 09:25:47.984  3690  3690 I art     : option[0]=-Xzygote
+06-01 09:25:47.984  3690  3690 I art     : option[1]=-Xcheck:jni
+06-01 09:25:47.984  3690  3690 I art     : option[2]=-Xstacktracefile:/data/anr/traces.txt
+06-01 09:25:47.984  3690  3690 I art     : option[3]=exit
+06-01 09:25:47.984  3690  3690 I art     : option[4]=vfprintf
+06-01 09:25:47.984  3690  3690 I art     : option[5]=sensitiveThread
+06-01 09:25:47.984  3690  3690 I art     : option[6]=-verbose:gc
+06-01 09:25:47.984  3690  3690 I art     : option[7]=-Xms8m
+06-01 09:25:47.984  3690  3690 I art     : option[8]=-Xmx512m
+06-01 09:25:47.984  3690  3690 I art     : option[9]=-XX:HeapGrowthLimit=256m
+06-01 09:25:47.984  3690  3690 I art     : option[10]=-XX:HeapMinFree=2m
+06-01 09:25:47.984  3690  3690 I art     : option[11]=-XX:HeapMaxFree=8m
+06-01 09:25:47.984  3690  3690 I art     : option[12]=-XX:HeapTargetUtilization=0.75
+06-01 09:25:47.984  3690  3690 I art     : option[13]=-Xusejit:true
+06-01 09:25:47.984  3690  3690 I art     : option[14]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+06-01 09:25:47.984  3690  3690 I art     : option[15]=-Xlockprofthreshold:500
+06-01 09:25:47.984  3690  3690 I art     : option[16]=-Ximage-compiler-option
+06-01 09:25:47.984  3690  3690 I art     : option[17]=--runtime-arg
+06-01 09:25:47.984  3690  3690 I art     : option[18]=-Ximage-compiler-option
+06-01 09:25:47.984  3690  3690 I art     : option[19]=-Xms64m
+06-01 09:25:47.984  3690  3690 I art     : option[20]=-Ximage-compiler-option
+06-01 09:25:47.984  3690  3690 I art     : option[21]=--runtime-arg
+06-01 09:25:47.984  3690  3690 I art     : option[22]=-Ximage-compiler-option
+06-01 09:25:47.984  3690  3690 I art     : option[23]=-Xmx64m
+06-01 09:25:47.984  3690  3690 I art     : option[24]=-Ximage-compiler-option
+06-01 09:25:47.984  3690  3690 I art     : option[25]=--compiler-filter=verify-at-runtime
+06-01 09:25:47.984  3690  3690 I art     : option[26]=-Ximage-compiler-option
+06-01 09:25:47.984  3690  3690 I art     : option[27]=--image-classes=/system/etc/preloaded-classes
+06-01 09:25:47.984  3690  3690 I art     : option[28]=-Xcompiler-option
+06-01 09:25:47.984  3690  3690 I art     : option[29]=--runtime-arg
+06-01 09:25:47.984  3690  3690 I art     : option[30]=-Xcompiler-option
+06-01 09:25:47.984  3690  3690 I art     : option[31]=-Xms64m
+06-01 09:25:47.984  3690  3690 I art     : option[32]=-Xcompiler-option
+06-01 09:25:47.984  3690  3690 I art     : option[33]=--runtime-arg
+06-01 09:25:47.984  3690  3690 I art     : option[34]=-Xcompiler-option
+06-01 09:25:47.984  3690  3690 I art     : option[35]=-Xmx512m
+06-01 09:25:47.984  3690  3690 I art     : option[36]=-Xcompiler-option
+06-01 09:25:47.984  3690  3690 I art     : option[37]=--compiler-filter=verify-at-runtime
+06-01 09:25:47.984  3690  3690 I art     : option[38]=-Ximage-compiler-option
+06-01 09:25:47.984  3690  3690 I art     : option[39]=--instruction-set-variant=generic
+06-01 09:25:47.984  3690  3690 I art     : option[40]=-Xcompiler-option
+06-01 09:25:47.984  3690  3690 I art     : option[41]=--instruction-set-variant=generic
+06-01 09:25:47.984  3690  3690 I art     : option[42]=-Ximage-compiler-option
+06-01 09:25:47.984  3690  3690 I art     : option[43]=--instruction-set-features=default
+06-01 09:25:47.984  3690  3690 I art     : option[44]=-Xcompiler-option
+06-01 09:25:47.984  3690  3690 I art     : option[45]=--instruction-set-features=default
+06-01 09:25:47.984  3690  3690 I art     : option[46]=-Duser.locale=en-US
+06-01 09:25:47.984  3690  3690 I art     : option[47]=--cpu-abilist=arm64-v8a,armeabi
+06-01 09:25:47.984  3690  3690 I art     : option[48]=-Xfingerprint:samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30J/4f0fbab6f5:eng/test-keys
+06-01 09:25:48.009  3690  3690 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+06-01 09:25:48.026  2924  2924 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+06-01 09:25:48.026  2924  2924 F DEBUG   : Build fingerprint: 'samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30J/4f0fbab6f5:eng/test-keys'
+06-01 09:25:48.026  2924  2924 F DEBUG   : Revision: '0'
+06-01 09:25:48.026  2924  2924 F DEBUG   : ABI: 'arm64'
+06-01 09:25:48.026  2924  2924 F DEBUG   : pid: 3688, tid: 3688, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+06-01 09:25:48.026  2924  2924 F DEBUG   : signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+06-01 09:25:48.029  2924  2924 F DEBUG   : Abort message: 'ioctl DECON_WIN_CONFIG failed to clear screen: Not a typewriter'
+06-01 09:25:48.029  2924  2924 F DEBUG   :     x0   0000000000000000  x1   0000000000000e68  x2   0000000000000006  x3   0000000000000000
+06-01 09:25:48.029  2924  2924 F DEBUG   :     x4   0000000000000000  x5   0000000000000001  x6   0000000000000000  x7   0000000000000000
+06-01 09:25:48.029  2924  2924 F DEBUG   :     x8   0000000000000083  x9   0000000000000049  x10  0000007ff4eb17ec  x11  0000007ff4eb1828
+06-01 09:25:48.029  2924  2924 F DEBUG   :     x12  0000007ff4eb1700  x13  0000000000000040  x14  0000007ff4eb18d8  x15  0000000000000000
+06-01 09:25:48.029  2924  2924 F DEBUG   :     x16  0000007f8ee52580  x17  0000007f8ede4fcc  x18  0000007f8f004f00  x19  0000007f8f0f90d8
+06-01 09:25:48.029  2924  2924 F DEBUG   :     x20  0000007f8f0f9018  x21  0000000000000019  x22  0000000000000006  x23  00000000ffffffff
+06-01 09:25:48.029  2924  2924 F DEBUG   :     x24  0000007f8bdcb000  x25  0000000000000018  x26  0000007f8e89d820  x27  0000007f8f07f000
+06-01 09:25:48.029  2924  2924 F DEBUG   :     x28  0000000000000001  x29  0000007ff4eb1790  x30  0000007f8ede2768
+06-01 09:25:48.029  2924  2924 F DEBUG   :     sp   0000007ff4eb1790  pc   0000007f8ede4fd4  pstate 0000000020000000
+06-01 09:25:48.035  2924  2924 F DEBUG   : 
+06-01 09:25:48.035  2924  2924 F DEBUG   : backtrace:
+06-01 09:25:48.035  2924  2924 F DEBUG   :     #00 pc 0000000000068fd4  /system/lib64/libc.so (tgkill+8)
+06-01 09:25:48.035  2924  2924 F DEBUG   :     #01 pc 0000000000066764  /system/lib64/libc.so (pthread_kill+68)
+06-01 09:25:48.035  2924  2924 F DEBUG   :     #02 pc 0000000000023448  /system/lib64/libc.so (raise+28)
+06-01 09:25:48.035  2924  2924 F DEBUG   :     #03 pc 000000000001dbe8  /system/lib64/libc.so (abort+60)
+06-01 09:25:48.035  2924  2924 F DEBUG   :     #04 pc 0000000000003a7c  /system/lib64/liblog.so (__android_log_assert+236)
+06-01 09:25:48.035  2924  2924 F DEBUG   :     #05 pc 00000000000036c8  /system/lib64/libdisplay.so (_ZN20ExynosOverlayDisplay12clearDisplayEv+124)
+06-01 09:25:48.035  2924  2924 F DEBUG   :     #06 pc 000000000000375c  /system/lib64/libdisplay.so (_ZN20ExynosOverlayDisplay3setEP22hwc_display_contents_1+144)
+06-01 09:25:48.035  2924  2924 F DEBUG   :     #07 pc 00000000000025cc  /system/lib64/hw/hwcomposer.exynos5.so (_Z11exynos5_setP21hwc_composer_device_1mPP22hwc_display_contents_1+88)
+06-01 09:25:48.035  2924  2924 F DEBUG   :     #08 pc 000000000003cf5c  /system/lib64/libsurfaceflinger.so
+06-01 09:25:48.035  2924  2924 F DEBUG   :     #09 pc 000000000002fc74  /system/lib64/libsurfaceflinger.so
+06-01 09:25:48.035  2924  2924 F DEBUG   :     #10 pc 000000000002f300  /system/lib64/libsurfaceflinger.so
+06-01 09:25:48.035  2924  2924 F DEBUG   :     #11 pc 000000000002e1a0  /system/lib64/libsurfaceflinger.so
+06-01 09:25:48.035  2924  2924 F DEBUG   :     #12 pc 000000000002df08  /system/lib64/libsurfaceflinger.so
+06-01 09:25:48.035  2924  2924 F DEBUG   :     #13 pc 000000000001aed4  /system/lib64/libutils.so (_ZN7android6Looper9pollInnerEi+312)
+06-01 09:25:48.035  2924  2924 F DEBUG   :     #14 pc 000000000001b20c  /system/lib64/libutils.so (_ZN7android6Looper8pollOnceEiPiS1_PPv+80)
+06-01 09:25:48.035  2924  2924 F DEBUG   :     #15 pc 000000000002a344  /system/lib64/libsurfaceflinger.so
+06-01 09:25:48.035  2924  2924 F DEBUG   :     #16 pc 000000000002d9fc  /system/lib64/libsurfaceflinger.so (_ZN7android14SurfaceFlinger3runEv+20)
+06-01 09:25:48.035  2924  2924 F DEBUG   :     #17 pc 00000000000011ec  /system/bin/surfaceflinger
+06-01 09:25:48.035  2924  2924 F DEBUG   :     #18 pc 000000000001bcd8  /system/lib64/libc.so (__libc_init+100)
+06-01 09:25:48.035  2924  2924 F DEBUG   :     #19 pc 000000000000101c  /system/bin/surfaceflinger
+06-01 09:25:48.134  2924  2924 F DEBUG   : 
+06-01 09:25:48.134  2924  2924 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_02
+06-01 09:25:48.146  3690  3690 I Radio-JNI: register_android_hardware_Radio DONE
+06-01 09:25:48.174  2919  2919 I ServiceManager: service 'SurfaceFlinger' died
+06-01 09:25:48.174  3716  3725 E SurfaceControl: invalid handle (0x0) or client (0x7f77d5c640)
+06-01 09:25:48.174  2919  2919 I ServiceManager: service 'Exynos.HWCService' died
+06-01 09:25:48.174  3716  3723 W SurfaceComposerClient: ComposerService remote (surfaceflinger) died [0x7f77d63320]
+06-01 09:25:48.174  3716  3723 D BootAnimation: SurfaceFlinger died, exiting...
+06-01 09:25:48.184  2919  2919 I ServiceManager: service 'media.audio_flinger' died
+06-01 09:25:48.185  2919  2919 I ServiceManager: service 'media.player' died
+06-01 09:25:48.185  2919  2919 I ServiceManager: service 'media.resource_manager' died
+06-01 09:25:48.185  2919  2919 I ServiceManager: service 'media.camera' died
+06-01 09:25:53.200  3786  3786 I Netd    : Netd 1.0 starting
+06-01 09:25:53.199  2998  2998 W auditd  : type=1325 audit(0.0:402): table=filter family=2 entries=32
+06-01 09:25:53.199  2998  2998 W auditd  : type=1320 audit(0.0:402): 
+06-01 09:25:53.200  3786  3786 I QtiConnectivityAdapter: Failed to open libconnctrl, some features may not be present.
+06-01 09:25:53.200  3786  3786 D TetherController: Setting IP forward enable = 0
+06-01 09:25:53.207  3788  3788 I SurfaceFlinger: SurfaceFlinger is starting
+06-01 09:25:53.207  3788  3788 E SchedPolicy: /system/bin/surfaceflinger add_tid_to_cgroup failed; fd=-1
+06-01 09:25:53.207  3788  3788 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+06-01 09:25:53.216  3788  3788 D libEGL  : loaded /vendor/lib64/egl/libGLES_mali.so
+06-01 09:25:53.209  2998  2998 W auditd  : type=1325 audit(0.0:403): table=filter family=10 entries=30
+06-01 09:25:53.209  2998  2998 W auditd  : type=1320 audit(0.0:403): 
+06-01 09:25:53.223  3788  3788 I gralloc : using (id=)
+06-01 09:25:53.223  3788  3788 I gralloc : xres         = 1440 px
+06-01 09:25:53.223  3788  3788 I gralloc : yres         = 2560 px
+06-01 09:25:53.223  3788  3788 I gralloc : width        = 68 mm (537.882324 dpi)
+06-01 09:25:53.223  3788  3788 I gralloc : height       = 122 mm (532.983582 dpi)
+06-01 09:25:53.223  3788  3788 I gralloc : refresh rate = 59.31 Hz
+06-01 09:25:53.219  2998  2998 W auditd  : type=1325 audit(0.0:404): table=filter family=2 entries=31
+06-01 09:25:53.219  2998  2998 W auditd  : type=1320 audit(0.0:404): 
+06-01 09:25:53.230  3788  3788 D hwcomposer: using
+06-01 09:25:53.230  3788  3788 D hwcomposer: xres         = 1440 px
+06-01 09:25:53.230  3788  3788 D hwcomposer: yres         = 2560 px
+06-01 09:25:53.230  3788  3788 D hwcomposer: width        = 68 mm (537.882000 dpi)
+06-01 09:25:53.230  3788  3788 D hwcomposer: height       = 122 mm (532.983000 dpi)
+06-01 09:25:53.230  3788  3788 D hwcomposer: refresh rate = 59 Hz
+06-01 09:25:53.230  3788  3788 I hwcomposer: PSR info devname = /sys/devices/13960000.decon_f/psr_info
+06-01 09:25:53.230  3788  3788 I hwcomposer: PSR mode is 6(0: video mode, 1: DP PSR mode, 2: MIPI-DSI command mode)
+06-01 09:25:53.231  3788  3788 I SurfaceFlinger: Using composer version 1.3
+06-01 09:25:53.231  3788  3788 E display : unknown display attribute 6
+06-01 09:25:53.231  3788  3788 I SurfaceFlinger: EGL information:
+06-01 09:25:53.231  3788  3788 I SurfaceFlinger: vendor    : Android
+06-01 09:25:53.231  3788  3788 I SurfaceFlinger: version   : 1.4 Android META-EGL
+06-01 09:25:53.231  3788  3788 I SurfaceFlinger: extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_swap_buffers_with_damage EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_KHR_config_attribs EGL_KHR_surfaceless_context EGL_EXT_create_context_robustness EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable EGL_KHR_partial_update 
+06-01 09:25:53.231  3788  3788 I SurfaceFlinger: Client API: OpenGL_ES
+06-01 09:25:53.231  3788  3788 I SurfaceFlinger: EGLSurface: 8-8-8-8, config=0x7f82b3b128
+06-01 09:25:53.231  3788  3788 D         : ro.exynos.dss isEnabled: 0
+06-01 09:25:53.234  3788  3788 I SurfaceFlinger: OpenGL ES informations:
+06-01 09:25:53.234  3788  3788 I SurfaceFlinger: vendor    : ARM
+06-01 09:25:53.234  3788  3788 I SurfaceFlinger: renderer  : Mali-T880
+06-01 09:25:53.234  3788  3788 I SurfaceFlinger: version   : OpenGL ES 3.1 v1.r9p0-12dev0.c2bae768d87bf40047e1f310c8de7f16
+06-01 09:25:53.234  3788  3788 I SurfaceFlinger: extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_disjoint_timer_query GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_OES_texture_stencil8 G
+06-01 09:25:53.234  3788  3788 I SurfaceFlinger: GL_MAX_TEXTURE_SIZE = 8192
+06-01 09:25:53.234  3788  3788 I SurfaceFlinger: GL_MAX_VIEWPORT_DIMS = 8192
+06-01 09:25:53.234  3788  3788 D mali_winsys: new_window_surface returns 0x3000,  [1440x2560]-format:1
+06-01 09:25:53.236  3788  3788 D SurfaceFlinger: Set power mode=2, type=0 flinger=0x7f82b03c00
+06-01 09:25:53.229  2998  2998 W auditd  : type=1325 audit(0.0:405): table=filter family=10 entries=29
+06-01 09:25:53.229  2998  2998 W auditd  : type=1320 audit(0.0:405): 
+06-01 09:25:53.239  2998  2998 W auditd  : type=1325 audit(0.0:406): table=filter family=2 entries=31
+06-01 09:25:53.239  2998  2998 W auditd  : type=1320 audit(0.0:406): 
+06-01 09:25:53.249  2998  2998 W auditd  : type=1325 audit(0.0:407): table=filter family=10 entries=29
+06-01 09:25:53.249  2998  2998 W auditd  : type=1320 audit(0.0:407): 
+06-01 09:25:53.259  2998  2998 W auditd  : type=1325 audit(0.0:408): table=filter family=2 entries=29
+06-01 09:25:53.259  2998  2998 W auditd  : type=1320 audit(0.0:408): 
+06-01 09:25:53.269  2998  2998 W auditd  : type=1325 audit(0.0:409): table=filter family=10 entries=27
+06-01 09:25:53.269  2998  2998 W auditd  : type=1320 audit(0.0:409): 
+06-01 09:25:53.279  2998  2998 W auditd  : type=1325 audit(0.0:410): table=filter family=2 entries=31
+06-01 09:25:53.279  2998  2998 W auditd  : type=1320 audit(0.0:410): 
+06-01 09:25:53.289  2998  2998 W auditd  : type=1325 audit(0.0:411): table=filter family=10 entries=29
+06-01 09:25:53.289  2998  2998 W auditd  : type=1320 audit(0.0:411): 
+06-01 09:25:53.331  3789  3789 I mediaserver: ServiceManager: 0xf678e260
+06-01 09:25:53.331  3789  3789 I AudioFlinger: Using default 3000 mSec as standby time.
+06-01 09:25:53.332  3789  3789 E BatteryNotifier: batterystats service unavailable!
+06-01 09:25:53.332  3789  3789 E BatteryNotifier: batterystats service unavailable!
+06-01 09:25:53.332  3789  3789 I CameraService: CameraService started (pid=3789)
+06-01 09:25:53.332  3789  3789 I CameraService: CameraService process starting
+06-01 09:25:53.332  3789  3789 E BatteryNotifier: batterystats service unavailable!
+06-01 09:25:53.332  3789  3789 E BatteryNotifier: batterystats service unavailable!
+06-01 09:25:53.332  3789  3789 E CameraService: Could not load camera HAL module: -2 (No such file or directory)
+06-01 09:25:53.333  3789  3789 I AudioPolicyService: AudioPolicyService CSTOR in new mode
+06-01 09:25:53.333  3789  3789 W APM::HwModule: loadOutput() invalid supported devices
+06-01 09:25:53.333  3789  3789 W APM::HwModule: loadOutput() invalid supported devices
+06-01 09:25:53.333  3789  3789 W APM::HwModule: loadInput() invalid supported devices
+06-01 09:25:53.333  3789  3789 W APM::HwModule: loadInput() invalid supported devices
+06-01 09:25:53.333  3789  3789 I APM::ConfigParsingUtils: loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+06-01 09:25:53.405  3788  3788 D SurfaceFlinger: SF. shader cache generated - 26 shaders in 119.347382 ms
+06-01 09:25:53.410  3788  3788 E display : ioctl DECON_WIN_CONFIG failed: Not a typewriter
+06-01 09:25:53.410  3788  3788 F display : ioctl DECON_WIN_CONFIG failed to clear screen: Not a typewriter
+06-01 09:25:53.410  3788  3788 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 3788 (surfaceflinger)
+06-01 09:25:53.410  2924  2924 I DEBUG   : property debug.db.uid not set; NOT waiting for gdb.
+06-01 09:25:53.410  2924  2924 I DEBUG   : HINT: adb shell setprop debug.db.uid 100000
+06-01 09:25:53.410  2924  2924 I DEBUG   : HINT: adb forward tcp:5039 tcp:5039
+06-01 09:25:53.413  3790  3790 D AndroidRuntime: >>>>>> START com.android.internal.os.ZygoteInit uid 0 <<<<<<
+06-01 09:25:53.415  3790  3790 D AndroidRuntime: CheckJNI is ON
+06-01 09:25:53.416  3790  3790 I art     : option[0]=-Xzygote
+06-01 09:25:53.416  3790  3790 I art     : option[1]=-Xcheck:jni
+06-01 09:25:53.416  3790  3790 I art     : option[2]=-Xstacktracefile:/data/anr/traces.txt
+06-01 09:25:53.416  3790  3790 I art     : option[3]=exit
+06-01 09:25:53.416  3790  3790 I art     : option[4]=vfprintf
+06-01 09:25:53.416  3790  3790 I art     : option[5]=sensitiveThread
+06-01 09:25:53.416  3790  3790 I art     : option[6]=-verbose:gc
+06-01 09:25:53.416  3790  3790 I art     : option[7]=-Xms8m
+06-01 09:25:53.416  3790  3790 I art     : option[8]=-Xmx512m
+06-01 09:25:53.416  3790  3790 I art     : option[9]=-XX:HeapGrowthLimit=256m
+06-01 09:25:53.416  3790  3790 I art     : option[10]=-XX:HeapMinFree=2m
+06-01 09:25:53.416  3790  3790 I art     : option[11]=-XX:HeapMaxFree=8m
+06-01 09:25:53.416  3790  3790 I art     : option[12]=-XX:HeapTargetUtilization=0.75
+06-01 09:25:53.416  3790  3790 I art     : option[13]=-Xusejit:true
+06-01 09:25:53.416  3790  3790 I art     : option[14]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+06-01 09:25:53.416  3790  3790 I art     : option[15]=-Xlockprofthreshold:500
+06-01 09:25:53.416  3790  3790 I art     : option[16]=-Ximage-compiler-option
+06-01 09:25:53.416  3790  3790 I art     : option[17]=--runtime-arg
+06-01 09:25:53.416  3790  3790 I art     : option[18]=-Ximage-compiler-option
+06-01 09:25:53.416  3790  3790 I art     : option[19]=-Xms64m
+06-01 09:25:53.416  3790  3790 I art     : option[20]=-Ximage-compiler-option
+06-01 09:25:53.416  3790  3790 I art     : option[21]=--runtime-arg
+06-01 09:25:53.416  3790  3790 I art     : option[22]=-Ximage-compiler-option
+06-01 09:25:53.416  3790  3790 I art     : option[23]=-Xmx64m
+06-01 09:25:53.416  3790  3790 I art     : option[24]=-Ximage-compiler-option
+06-01 09:25:53.416  3790  3790 I art     : option[25]=--compiler-filter=verify-at-runtime
+06-01 09:25:53.416  3790  3790 I art     : option[26]=-Ximage-compiler-option
+06-01 09:25:53.416  3790  3790 I art     : option[27]=--image-classes=/system/etc/preloaded-classes
+06-01 09:25:53.416  3790  3790 I art     : option[28]=-Xcompiler-option
+06-01 09:25:53.416  3790  3790 I art     : option[29]=--runtime-arg
+06-01 09:25:53.416  3790  3790 I art     : option[30]=-Xcompiler-option
+06-01 09:25:53.416  3790  3790 I art     : option[31]=-Xms64m
+06-01 09:25:53.416  3790  3790 I art     : option[32]=-Xcompiler-option
+06-01 09:25:53.416  3790  3790 I art     : option[33]=--runtime-arg
+06-01 09:25:53.416  3790  3790 I art     : option[34]=-Xcompiler-option
+06-01 09:25:53.416  3790  3790 I art     : option[35]=-Xmx512m
+06-01 09:25:53.416  3790  3790 I art     : option[36]=-Xcompiler-option
+06-01 09:25:53.416  3790  3790 I art     : option[37]=--compiler-filter=verify-at-runtime
+06-01 09:25:53.416  3790  3790 I art     : option[38]=-Ximage-compiler-option
+06-01 09:25:53.416  3790  3790 I art     : option[39]=--instruction-set-variant=generic
+06-01 09:25:53.416  3790  3790 I art     : option[40]=-Xcompiler-option
+06-01 09:25:53.416  3790  3790 I art     : option[41]=--instruction-set-variant=generic
+06-01 09:25:53.416  3790  3790 I art     : option[42]=-Ximage-compiler-option
+06-01 09:25:53.416  3790  3790 I art     : option[43]=--instruction-set-features=default
+06-01 09:25:53.416  3790  3790 I art     : option[44]=-Xcompiler-option
+06-01 09:25:53.416  3790  3790 I art     : option[45]=--instruction-set-features=default
+06-01 09:25:53.416  3790  3790 I art     : option[46]=-Duser.locale=en-US
+06-01 09:25:53.416  3790  3790 I art     : option[47]=--cpu-abilist=arm64-v8a,armeabi
+06-01 09:25:53.416  3790  3790 I art     : option[48]=-Xfingerprint:samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30J/4f0fbab6f5:eng/test-keys
+06-01 09:25:53.442  3790  3790 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+06-01 09:25:53.461  2924  2924 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+06-01 09:25:53.461  2924  2924 F DEBUG   : Build fingerprint: 'samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30J/4f0fbab6f5:eng/test-keys'
+06-01 09:25:53.461  2924  2924 F DEBUG   : Revision: '0'
+06-01 09:25:53.461  2924  2924 F DEBUG   : ABI: 'arm64'
+06-01 09:25:53.461  2924  2924 F DEBUG   : pid: 3788, tid: 3788, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+06-01 09:25:53.461  2924  2924 F DEBUG   : signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+06-01 09:25:53.464  2924  2924 F DEBUG   : Abort message: 'ioctl DECON_WIN_CONFIG failed to clear screen: Not a typewriter'
+06-01 09:25:53.464  2924  2924 F DEBUG   :     x0   0000000000000000  x1   0000000000000ecc  x2   0000000000000006  x3   0000000000000000
+06-01 09:25:53.464  2924  2924 F DEBUG   :     x4   0000000000000000  x5   0000000000000001  x6   0000000000000000  x7   0000000000000000
+06-01 09:25:53.464  2924  2924 F DEBUG   :     x8   0000000000000083  x9   0000000000000049  x10  0000007ffd3d783c  x11  0000007ffd3d7878
+06-01 09:25:53.464  2924  2924 F DEBUG   :     x12  0000007ffd3d7750  x13  0000000000000040  x14  0000007ffd3d7928  x15  0000000000000000
+06-01 09:25:53.464  2924  2924 F DEBUG   :     x16  0000007f830d2580  x17  0000007f83064fcc  x18  0000007f83284f00  x19  0000007f833790d8
+06-01 09:25:53.464  2924  2924 F DEBUG   :     x20  0000007f83379018  x21  0000000000000019  x22  0000000000000006  x23  00000000ffffffff
+06-01 09:25:53.464  2924  2924 F DEBUG   :     x24  0000007f80cbd000  x25  0000000000000018  x26  0000007f82b1d820  x27  0000007f832ff000
+06-01 09:25:53.464  2924  2924 F DEBUG   :     x28  0000000000000001  x29  0000007ffd3d77e0  x30  0000007f83062768
+06-01 09:25:53.464  2924  2924 F DEBUG   :     sp   0000007ffd3d77e0  pc   0000007f83064fd4  pstate 0000000020000000
+06-01 09:25:53.468  2924  2924 F DEBUG   : 
+06-01 09:25:53.468  2924  2924 F DEBUG   : backtrace:
+06-01 09:25:53.468  2924  2924 F DEBUG   :     #00 pc 0000000000068fd4  /system/lib64/libc.so (tgkill+8)
+06-01 09:25:53.468  2924  2924 F DEBUG   :     #01 pc 0000000000066764  /system/lib64/libc.so (pthread_kill+68)
+06-01 09:25:53.468  2924  2924 F DEBUG   :     #02 pc 0000000000023448  /system/lib64/libc.so (raise+28)
+06-01 09:25:53.468  2924  2924 F DEBUG   :     #03 pc 000000000001dbe8  /system/lib64/libc.so (abort+60)
+06-01 09:25:53.468  2924  2924 F DEBUG   :     #04 pc 0000000000003a7c  /system/lib64/liblog.so (__android_log_assert+236)
+06-01 09:25:53.468  2924  2924 F DEBUG   :     #05 pc 00000000000036c8  /system/lib64/libdisplay.so (_ZN20ExynosOverlayDisplay12clearDisplayEv+124)
+06-01 09:25:53.468  2924  2924 F DEBUG   :     #06 pc 000000000000375c  /system/lib64/libdisplay.so (_ZN20ExynosOverlayDisplay3setEP22hwc_display_contents_1+144)
+06-01 09:25:53.468  2924  2924 F DEBUG   :     #07 pc 00000000000025cc  /system/lib64/hw/hwcomposer.exynos5.so (_Z11exynos5_setP21hwc_composer_device_1mPP22hwc_display_contents_1+88)
+06-01 09:25:53.469  2924  2924 F DEBUG   :     #08 pc 000000000003cf5c  /system/lib64/libsurfaceflinger.so
+06-01 09:25:53.469  2924  2924 F DEBUG   :     #09 pc 000000000002fc74  /system/lib64/libsurfaceflinger.so
+06-01 09:25:53.469  2924  2924 F DEBUG   :     #10 pc 000000000002f300  /system/lib64/libsurfaceflinger.so
+06-01 09:25:53.469  2924  2924 F DEBUG   :     #11 pc 000000000002e1a0  /system/lib64/libsurfaceflinger.so
+06-01 09:25:53.469  2924  2924 F DEBUG   :     #12 pc 000000000002df08  /system/lib64/libsurfaceflinger.so
+06-01 09:25:53.469  2924  2924 F DEBUG   :     #13 pc 000000000001aed4  /system/lib64/libutils.so (_ZN7android6Looper9pollInnerEi+312)
+06-01 09:25:53.469  2924  2924 F DEBUG   :     #14 pc 000000000001b20c  /system/lib64/libutils.so (_ZN7android6Looper8pollOnceEiPiS1_PPv+80)
+06-01 09:25:53.469  2924  2924 F DEBUG   :     #15 pc 000000000002a344  /system/lib64/libsurfaceflinger.so
+06-01 09:25:53.469  2924  2924 F DEBUG   :     #16 pc 000000000002d9fc  /system/lib64/libsurfaceflinger.so (_ZN7android14SurfaceFlinger3runEv+20)
+06-01 09:25:53.469  2924  2924 F DEBUG   :     #17 pc 00000000000011ec  /system/bin/surfaceflinger
+06-01 09:25:53.469  2924  2924 F DEBUG   :     #18 pc 000000000001bcd8  /system/lib64/libc.so (__libc_init+100)
+06-01 09:25:53.469  2924  2924 F DEBUG   :     #19 pc 000000000000101c  /system/bin/surfaceflinger
+06-01 09:25:53.564  2924  2924 F DEBUG   : 
+06-01 09:25:53.564  2924  2924 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_03
+06-01 09:25:53.585  3790  3790 I Radio-JNI: register_android_hardware_Radio DONE
+06-01 09:25:53.628  3790  3790 I SamplingProfilerIntegration: Profiling disabled.
+06-01 09:25:53.628  3790  3790 D Zygote  : begin preload
+06-01 09:25:53.630  3790  3790 I Zygote  : Preloading classes...
+06-01 09:25:53.644  2919  2919 I ServiceManager: service 'SurfaceFlinger' died
+06-01 09:25:53.644  2919  2919 I ServiceManager: service 'Exynos.HWCService' died
+06-01 09:25:53.644  3816  3829 E SurfaceControl: invalid handle (0x0) or client (0x7fb1a9c640)
+06-01 09:25:53.644  3816  3827 W SurfaceComposerClient: ComposerService remote (surfaceflinger) died [0x7fb1aa3320]
+06-01 09:25:53.644  3816  3827 D BootAnimation: SurfaceFlinger died, exiting...
+06-01 09:25:53.664  2919  2919 I ServiceManager: service 'media.audio_flinger' died
+06-01 09:25:53.664  2919  2919 I ServiceManager: service 'media.player' died
+06-01 09:25:53.664  2919  2919 I ServiceManager: service 'media.resource_manager' died
+06-01 09:25:53.664  2919  2919 I ServiceManager: service 'media.camera' died
+06-01 09:25:57.691  3893  3893 I Netd    : Netd 1.0 starting
+06-01 09:25:57.691  3893  3893 I QtiConnectivityAdapter: Failed to open libconnctrl, some features may not be present.
+06-01 09:25:57.691  3893  3893 D TetherController: Setting IP forward enable = 0
+06-01 09:25:57.689  2998  2998 W auditd  : type=1325 audit(0.0:460): table=filter family=2 entries=33
+06-01 09:25:57.689  2998  2998 W auditd  : type=1320 audit(0.0:460): 
+06-01 09:25:57.699  2998  2998 W auditd  : type=1325 audit(0.0:461): table=filter family=10 entries=33
+06-01 09:25:57.699  2998  2998 W auditd  : type=1320 audit(0.0:461): 
+06-01 09:25:57.714  3895  3895 I SurfaceFlinger: SurfaceFlinger is starting
+06-01 09:25:57.714  3895  3895 E SchedPolicy: /system/bin/surfaceflinger add_tid_to_cgroup failed; fd=-1
+06-01 09:25:57.714  3895  3895 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+06-01 09:25:57.720  3895  3895 D libEGL  : loaded /vendor/lib64/egl/libGLES_mali.so
+06-01 09:25:57.727  3895  3895 I gralloc : using (id=)
+06-01 09:25:57.727  3895  3895 I gralloc : xres         = 1440 px
+06-01 09:25:57.727  3895  3895 I gralloc : yres         = 2560 px
+06-01 09:25:57.727  3895  3895 I gralloc : width        = 68 mm (537.882324 dpi)
+06-01 09:25:57.727  3895  3895 I gralloc : height       = 122 mm (532.983582 dpi)
+06-01 09:25:57.727  3895  3895 I gralloc : refresh rate = 59.31 Hz
+06-01 09:25:57.719  2998  2998 W auditd  : type=1325 audit(0.0:462): table=filter family=2 entries=32
+06-01 09:25:57.719  2998  2998 W auditd  : type=1320 audit(0.0:462): 
+06-01 09:25:57.735  3895  3895 D hwcomposer: using
+06-01 09:25:57.735  3895  3895 D hwcomposer: xres         = 1440 px
+06-01 09:25:57.735  3895  3895 D hwcomposer: yres         = 2560 px
+06-01 09:25:57.735  3895  3895 D hwcomposer: width        = 68 mm (537.882000 dpi)
+06-01 09:25:57.735  3895  3895 D hwcomposer: height       = 122 mm (532.983000 dpi)
+06-01 09:25:57.735  3895  3895 D hwcomposer: refresh rate = 59 Hz
+06-01 09:25:57.735  3895  3895 I hwcomposer: PSR info devname = /sys/devices/13960000.decon_f/psr_info
+06-01 09:25:57.735  3895  3895 I hwcomposer: PSR mode is 6(0: video mode, 1: DP PSR mode, 2: MIPI-DSI command mode)
+06-01 09:25:57.735  3895  3895 I SurfaceFlinger: Using composer version 1.3
+06-01 09:25:57.735  3895  3895 E display : unknown display attribute 6
+06-01 09:25:57.735  3895  3895 I SurfaceFlinger: EGL information:
+06-01 09:25:57.735  3895  3895 I SurfaceFlinger: vendor    : Android
+06-01 09:25:57.735  3895  3895 I SurfaceFlinger: version   : 1.4 Android META-EGL
+06-01 09:25:57.735  3895  3895 I SurfaceFlinger: extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_swap_buffers_with_damage EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_KHR_config_attribs EGL_KHR_surfaceless_context EGL_EXT_create_context_robustness EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable EGL_KHR_partial_update 
+06-01 09:25:57.735  3895  3895 I SurfaceFlinger: Client API: OpenGL_ES
+06-01 09:25:57.735  3895  3895 I SurfaceFlinger: EGLSurface: 8-8-8-8, config=0x7f7debb128
+06-01 09:25:57.736  3895  3895 D         : ro.exynos.dss isEnabled: 0
+06-01 09:25:57.738  3895  3895 I SurfaceFlinger: OpenGL ES informations:
+06-01 09:25:57.738  3895  3895 I SurfaceFlinger: vendor    : ARM
+06-01 09:25:57.738  3895  3895 I SurfaceFlinger: renderer  : Mali-T880
+06-01 09:25:57.738  3895  3895 I SurfaceFlinger: version   : OpenGL ES 3.1 v1.r9p0-12dev0.c2bae768d87bf40047e1f310c8de7f16
+06-01 09:25:57.738  3895  3895 I SurfaceFlinger: extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_disjoint_timer_query GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_OES_texture_stencil8 G
+06-01 09:25:57.738  3895  3895 I SurfaceFlinger: GL_MAX_TEXTURE_SIZE = 8192
+06-01 09:25:57.738  3895  3895 I SurfaceFlinger: GL_MAX_VIEWPORT_DIMS = 8192
+06-01 09:25:57.729  2998  2998 W auditd  : type=1325 audit(0.0:463): table=filter family=10 entries=32
+06-01 09:25:57.729  2998  2998 W auditd  : type=1320 audit(0.0:463): 
+06-01 09:25:57.739  3895  3895 D mali_winsys: new_window_surface returns 0x3000,  [1440x2560]-format:1
+06-01 09:25:57.740  3895  3895 D SurfaceFlinger: Set power mode=2, type=0 flinger=0x7f7de83c00
+06-01 09:25:57.729  2998  2998 W auditd  : type=1325 audit(0.0:464): table=filter family=2 entries=32
+06-01 09:25:57.729  2998  2998 W auditd  : type=1320 audit(0.0:464): 
+06-01 09:25:57.759  2998  2998 W auditd  : type=1325 audit(0.0:465): table=filter family=10 entries=32
+06-01 09:25:57.759  2998  2998 W auditd  : type=1320 audit(0.0:465): 
+06-01 09:25:57.759  2998  2998 W auditd  : type=1325 audit(0.0:466): table=filter family=2 entries=30
+06-01 09:25:57.759  2998  2998 W auditd  : type=1320 audit(0.0:466): 
+06-01 09:25:57.769  2998  2998 W auditd  : type=1325 audit(0.0:467): table=filter family=10 entries=30
+06-01 09:25:57.769  2998  2998 W auditd  : type=1320 audit(0.0:467): 
+06-01 09:25:57.779  2998  2998 W auditd  : type=1325 audit(0.0:468): table=filter family=2 entries=32
+06-01 09:25:57.779  2998  2998 W auditd  : type=1320 audit(0.0:468): 
+06-01 09:25:57.789  2998  2998 W auditd  : type=1325 audit(0.0:469): table=filter family=10 entries=32
+06-01 09:25:57.789  2998  2998 W auditd  : type=1320 audit(0.0:469): 
+06-01 09:25:57.838  3896  3896 I mediaserver: ServiceManager: 0xf64ce260
+06-01 09:25:57.838  3896  3896 I AudioFlinger: Using default 3000 mSec as standby time.
+06-01 09:25:57.838  3896  3896 E BatteryNotifier: batterystats service unavailable!
+06-01 09:25:57.838  3896  3896 E BatteryNotifier: batterystats service unavailable!
+06-01 09:25:57.838  3896  3896 I CameraService: CameraService started (pid=3896)
+06-01 09:25:57.838  3896  3896 I CameraService: CameraService process starting
+06-01 09:25:57.838  3896  3896 E BatteryNotifier: batterystats service unavailable!
+06-01 09:25:57.839  3896  3896 E BatteryNotifier: batterystats service unavailable!
+06-01 09:25:57.839  3896  3896 E CameraService: Could not load camera HAL module: -2 (No such file or directory)
+06-01 09:25:57.840  3896  3896 I AudioPolicyService: AudioPolicyService CSTOR in new mode
+06-01 09:25:57.840  3896  3896 W APM::HwModule: loadOutput() invalid supported devices
+06-01 09:25:57.840  3896  3896 W APM::HwModule: loadOutput() invalid supported devices
+06-01 09:25:57.840  3896  3896 W APM::HwModule: loadInput() invalid supported devices
+06-01 09:25:57.840  3896  3896 W APM::HwModule: loadInput() invalid supported devices
+06-01 09:25:57.840  3896  3896 I APM::ConfigParsingUtils: loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+06-01 09:25:57.902  3897  3897 D AndroidRuntime: >>>>>> START com.android.internal.os.ZygoteInit uid 0 <<<<<<
+06-01 09:25:57.905  3897  3897 D AndroidRuntime: CheckJNI is ON
+06-01 09:25:57.905  3897  3897 I art     : option[0]=-Xzygote
+06-01 09:25:57.905  3897  3897 I art     : option[1]=-Xcheck:jni
+06-01 09:25:57.905  3897  3897 I art     : option[2]=-Xstacktracefile:/data/anr/traces.txt
+06-01 09:25:57.905  3897  3897 I art     : option[3]=exit
+06-01 09:25:57.905  3897  3897 I art     : option[4]=vfprintf
+06-01 09:25:57.905  3897  3897 I art     : option[5]=sensitiveThread
+06-01 09:25:57.905  3897  3897 I art     : option[6]=-verbose:gc
+06-01 09:25:57.905  3897  3897 I art     : option[7]=-Xms8m
+06-01 09:25:57.905  3897  3897 I art     : option[8]=-Xmx512m
+06-01 09:25:57.905  3897  3897 I art     : option[9]=-XX:HeapGrowthLimit=256m
+06-01 09:25:57.905  3897  3897 I art     : option[10]=-XX:HeapMinFree=2m
+06-01 09:25:57.905  3897  3897 I art     : option[11]=-XX:HeapMaxFree=8m
+06-01 09:25:57.905  3897  3897 I art     : option[12]=-XX:HeapTargetUtilization=0.75
+06-01 09:25:57.905  3897  3897 I art     : option[13]=-Xusejit:true
+06-01 09:25:57.905  3897  3897 I art     : option[14]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+06-01 09:25:57.905  3897  3897 I art     : option[15]=-Xlockprofthreshold:500
+06-01 09:25:57.905  3897  3897 I art     : option[16]=-Ximage-compiler-option
+06-01 09:25:57.905  3897  3897 I art     : option[17]=--runtime-arg
+06-01 09:25:57.905  3897  3897 I art     : option[18]=-Ximage-compiler-option
+06-01 09:25:57.905  3897  3897 I art     : option[19]=-Xms64m
+06-01 09:25:57.905  3897  3897 I art     : option[20]=-Ximage-compiler-option
+06-01 09:25:57.905  3897  3897 I art     : option[21]=--runtime-arg
+06-01 09:25:57.905  3897  3897 I art     : option[22]=-Ximage-compiler-option
+06-01 09:25:57.905  3897  3897 I art     : option[23]=-Xmx64m
+06-01 09:25:57.905  3897  3897 I art     : option[24]=-Ximage-compiler-option
+06-01 09:25:57.905  3897  3897 I art     : option[25]=--compiler-filter=verify-at-runtime
+06-01 09:25:57.905  3897  3897 I art     : option[26]=-Ximage-compiler-option
+06-01 09:25:57.905  3897  3897 I art     : option[27]=--image-classes=/system/etc/preloaded-classes
+06-01 09:25:57.905  3897  3897 I art     : option[28]=-Xcompiler-option
+06-01 09:25:57.905  3897  3897 I art     : option[29]=--runtime-arg
+06-01 09:25:57.905  3897  3897 I art     : option[30]=-Xcompiler-option
+06-01 09:25:57.905  3897  3897 I art     : option[31]=-Xms64m
+06-01 09:25:57.905  3897  3897 I art     : option[32]=-Xcompiler-option
+06-01 09:25:57.905  3897  3897 I art     : option[33]=--runtime-arg
+06-01 09:25:57.905  3897  3897 I art     : option[34]=-Xcompiler-option
+06-01 09:25:57.905  3897  3897 I art     : option[35]=-Xmx512m
+06-01 09:25:57.905  3897  3897 I art     : option[36]=-Xcompiler-option
+06-01 09:25:57.905  3897  3897 I art     : option[37]=--compiler-filter=verify-at-runtime
+06-01 09:25:57.905  3897  3897 I art     : option[38]=-Ximage-compiler-option
+06-01 09:25:57.905  3897  3897 I art     : option[39]=--instruction-set-variant=generic
+06-01 09:25:57.905  3897  3897 I art     : option[40]=-Xcompiler-option
+06-01 09:25:57.905  3897  3897 I art     : option[41]=--instruction-set-variant=generic
+06-01 09:25:57.905  3897  3897 I art     : option[42]=-Ximage-compiler-option
+06-01 09:25:57.905  3897  3897 I art     : option[43]=--instruction-set-features=default
+06-01 09:25:57.905  3897  3897 I art     : option[44]=-Xcompiler-option
+06-01 09:25:57.905  3897  3897 I art     : option[45]=--instruction-set-features=default
+06-01 09:25:57.905  3897  3897 I art     : option[46]=-Duser.locale=en-US
+06-01 09:25:57.905  3897  3897 I art     : option[47]=--cpu-abilist=arm64-v8a,armeabi
+06-01 09:25:57.905  3897  3897 I art     : option[48]=-Xfingerprint:samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30J/4f0fbab6f5:eng/test-keys
+06-01 09:25:57.909  3895  3895 D SurfaceFlinger: SF. shader cache generated - 26 shaders in 127.401810 ms
+06-01 09:25:57.914  3895  3895 E display : ioctl DECON_WIN_CONFIG failed: Not a typewriter
+06-01 09:25:57.914  3895  3895 F display : ioctl DECON_WIN_CONFIG failed to clear screen: Not a typewriter
+06-01 09:25:57.915  3895  3895 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 3895 (surfaceflinger)
+06-01 09:25:57.915  2924  2924 I DEBUG   : property debug.db.uid not set; NOT waiting for gdb.
+06-01 09:25:57.915  2924  2924 I DEBUG   : HINT: adb shell setprop debug.db.uid 100000
+06-01 09:25:57.915  2924  2924 I DEBUG   : HINT: adb forward tcp:5039 tcp:5039
+06-01 09:25:57.932  3897  3897 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+06-01 09:25:57.966  2924  2924 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+06-01 09:25:57.966  2924  2924 F DEBUG   : Build fingerprint: 'samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30J/4f0fbab6f5:eng/test-keys'
+06-01 09:25:57.966  2924  2924 F DEBUG   : Revision: '0'
+06-01 09:25:57.966  2924  2924 F DEBUG   : ABI: 'arm64'
+06-01 09:25:57.967  2924  2924 F DEBUG   : pid: 3895, tid: 3895, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+06-01 09:25:57.967  2924  2924 F DEBUG   : signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+06-01 09:25:57.985  2924  2924 F DEBUG   : Abort message: 'ioctl DECON_WIN_CONFIG failed to clear screen: Not a typewriter'
+06-01 09:25:57.985  2924  2924 F DEBUG   :     x0   0000000000000000  x1   0000000000000f37  x2   0000000000000006  x3   0000000000000000
+06-01 09:25:57.985  2924  2924 F DEBUG   :     x4   0000000000000000  x5   0000000000000001  x6   0000000000000000  x7   0000000000000000
+06-01 09:25:57.986  2924  2924 F DEBUG   :     x8   0000000000000083  x9   0000000000000049  x10  0000007fdec558ec  x11  0000007fdec55928
+06-01 09:25:57.986  2924  2924 F DEBUG   :     x12  0000007fdec55800  x13  0000000000000040  x14  0000007fdec559d8  x15  0000000000000000
+06-01 09:25:57.986  2924  2924 F DEBUG   :     x16  0000007f7e44e580  x17  0000007f7e3e0fcc  x18  0000007f7e600f00  x19  0000007f7e6f50d8
+06-01 09:25:57.986  2924  2924 F DEBUG   :     x20  0000007f7e6f5018  x21  0000000000000019  x22  0000000000000006  x23  00000000ffffffff
+06-01 09:25:57.986  2924  2924 F DEBUG   :     x24  0000007f7b38b000  x25  0000000000000018  x26  0000007f7de9d820  x27  0000007f7e67b000
+06-01 09:25:57.986  2924  2924 F DEBUG   :     x28  0000000000000001  x29  0000007fdec55890  x30  0000007f7e3de768
+06-01 09:25:57.986  2924  2924 F DEBUG   :     sp   0000007fdec55890  pc   0000007f7e3e0fd4  pstate 0000000020000000
+06-01 09:25:58.000  2924  2924 F DEBUG   : 
+06-01 09:25:58.000  2924  2924 F DEBUG   : backtrace:
+06-01 09:25:58.000  2924  2924 F DEBUG   :     #00 pc 0000000000068fd4  /system/lib64/libc.so (tgkill+8)
+06-01 09:25:58.000  2924  2924 F DEBUG   :     #01 pc 0000000000066764  /system/lib64/libc.so (pthread_kill+68)
+06-01 09:25:58.000  2924  2924 F DEBUG   :     #02 pc 0000000000023448  /system/lib64/libc.so (raise+28)
+06-01 09:25:58.000  2924  2924 F DEBUG   :     #03 pc 000000000001dbe8  /system/lib64/libc.so (abort+60)
+06-01 09:25:58.000  2924  2924 F DEBUG   :     #04 pc 0000000000003a7c  /system/lib64/liblog.so (__android_log_assert+236)
+06-01 09:25:58.000  2924  2924 F DEBUG   :     #05 pc 00000000000036c8  /system/lib64/libdisplay.so (_ZN20ExynosOverlayDisplay12clearDisplayEv+124)
+06-01 09:25:58.000  2924  2924 F DEBUG   :     #06 pc 000000000000375c  /system/lib64/libdisplay.so (_ZN20ExynosOverlayDisplay3setEP22hwc_display_contents_1+144)
+06-01 09:25:58.000  2924  2924 F DEBUG   :     #07 pc 00000000000025cc  /system/lib64/hw/hwcomposer.exynos5.so (_Z11exynos5_setP21hwc_composer_device_1mPP22hwc_display_contents_1+88)
+06-01 09:25:58.000  2924  2924 F DEBUG   :     #08 pc 000000000003cf5c  /system/lib64/libsurfaceflinger.so
+06-01 09:25:58.000  2924  2924 F DEBUG   :     #09 pc 000000000002fc74  /system/lib64/libsurfaceflinger.so
+06-01 09:25:58.000  2924  2924 F DEBUG   :     #10 pc 000000000002f300  /system/lib64/libsurfaceflinger.so
+06-01 09:25:58.000  2924  2924 F DEBUG   :     #11 pc 000000000002e1a0  /system/lib64/libsurfaceflinger.so
+06-01 09:25:58.000  2924  2924 F DEBUG   :     #12 pc 000000000002df08  /system/lib64/libsurfaceflinger.so
+06-01 09:25:58.001  2924  2924 F DEBUG   :     #13 pc 000000000001aed4  /system/lib64/libutils.so (_ZN7android6Looper9pollInnerEi+312)
+06-01 09:25:58.001  2924  2924 F DEBUG   :     #14 pc 000000000001b20c  /system/lib64/libutils.so (_ZN7android6Looper8pollOnceEiPiS1_PPv+80)
+06-01 09:25:58.001  2924  2924 F DEBUG   :     #15 pc 000000000002a344  /system/lib64/libsurfaceflinger.so
+06-01 09:25:58.001  2924  2924 F DEBUG   :     #16 pc 000000000002d9fc  /system/lib64/libsurfaceflinger.so (_ZN7android14SurfaceFlinger3runEv+20)
+06-01 09:25:58.001  2924  2924 F DEBUG   :     #17 pc 00000000000011ec  /system/bin/surfaceflinger
+06-01 09:25:58.001  2924  2924 F DEBUG   :     #18 pc 000000000001bcd8  /system/lib64/libc.so (__libc_init+100)
+06-01 09:25:58.001  2924  2924 F DEBUG   :     #19 pc 000000000000101c  /system/bin/surfaceflinger
+06-01 09:25:58.062  3897  3897 I Radio-JNI: register_android_hardware_Radio DONE
+06-01 09:25:58.102  2924  2924 F DEBUG   : 
+06-01 09:25:58.102  2924  2924 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_04
+06-01 09:25:58.108  3897  3897 I SamplingProfilerIntegration: Profiling disabled.
+06-01 09:25:58.108  3897  3897 D Zygote  : begin preload
+06-01 09:25:58.110  3897  3897 I Zygote  : Preloading classes...
+06-01 09:25:58.154  3924  3938 E SurfaceControl: invalid handle (0x0) or client (0x7fadf9c640)
+06-01 09:25:58.154  3924  3935 W SurfaceComposerClient: ComposerService remote (surfaceflinger) died [0x7fadfa3320]
+06-01 09:25:58.154  3924  3935 D BootAnimation: SurfaceFlinger died, exiting...
+06-01 09:25:58.155  2919  2919 I ServiceManager: service 'SurfaceFlinger' died
+06-01 09:25:58.155  2919  2919 I ServiceManager: service 'Exynos.HWCService' died
+06-01 09:25:58.174  2919  2919 I ServiceManager: service 'media.audio_flinger' died
+06-01 09:25:58.174  2919  2919 I ServiceManager: service 'media.player' died
+06-01 09:25:58.174  2919  2919 I ServiceManager: service 'media.resource_manager' died
+06-01 09:25:58.174  2919  2919 I ServiceManager: service 'media.camera' died

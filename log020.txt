@@ -1,0 +1,1250 @@
+--------- beginning of main
+05-25 10:48:40.464  2969  2969 W auditd  : type=1325 audit(0.0:2): table=filter family=2 entries=0
+05-25 10:48:40.464  2969  2969 W auditd  : type=1325 audit(0.0:3): table=mangle family=2 entries=0
+05-25 10:48:40.464  2969  2969 W auditd  : type=1325 audit(0.0:4): table=nat family=2 entries=0
+05-25 10:48:40.464  2969  2969 W auditd  : type=1325 audit(0.0:5): table=raw family=2 entries=0
+05-25 10:48:40.464  2969  2969 W auditd  : type=1325 audit(0.0:6): table=security family=2 entries=0
+05-25 10:48:40.464  2969  2969 W auditd  : type=1325 audit(0.0:7): table=filter family=3 entries=0
+05-25 10:48:40.464  2969  2969 W auditd  : type=1325 audit(0.0:8): table=filter family=10 entries=0
+05-25 10:48:40.464  2969  2969 W auditd  : type=1325 audit(0.0:9): table=mangle family=10 entries=0
+05-25 10:48:40.464  2969  2969 W auditd  : type=1325 audit(0.0:10): table=raw family=10 entries=0
+05-25 10:48:40.464  2969  2969 W auditd  : type=1325 audit(0.0:11): table=nat family=10 entries=0
+05-25 10:48:40.769  2969  2969 W auditd  : type=1305 audit(0.0:12): audit_pid=2884 old=0 auid=4294967295 ses=4294967295 res=1
+05-25 10:48:40.769  2969  2969 W auditd  : type=1305 audit(0.0:13): audit_rate_limit=20 old=0 auid=4294967295 ses=4294967295 res=1
+05-25 10:48:40.801  2899  2899 I sysinit : Running /system/etc/init.d/00banner 
+05-25 10:48:40.802  2895  2895 I lowmemorykiller: Using in-kernel low memory killer interface
+05-25 10:48:40.810  2905  2905 I cm      : ____ _   _ ____ _  _ ____ ____ ____ _  _ _  _ ____ ___ 
+--------- beginning of system
+05-25 10:48:40.811  2885  2885 I vold    : Vold 3.0 (the awakening) firing up
+05-25 10:48:40.811  2885  2885 V vold    : Detected support for: exfat ext4 f2fs ntfs vfat
+05-25 10:48:40.815  2906  2906 I cm      : |     \_/  |__| |\ | |  | | __ |___ |\ | |\/| |  | |  \ 
+05-25 10:48:40.819  2917  2917 I cm      : |___   |   |  | | \| |__| |__] |___ | \| |  | |__| |__/ 
+05-25 10:48:40.822  2885  2960 D VoldCryptCmdListener: cryptfs mountdefaultencrypted
+05-25 10:48:40.822  2885  2960 I Ext4Crypt: ext4 crypto complete called on /data
+05-25 10:48:40.822  2885  2960 I Ext4Crypt: No master key, so not ext4enc
+05-25 10:48:40.822  2885  2960 I Cryptfs : cryptfs_check_passwd
+05-25 10:48:40.822  2885  2960 I Ext4Crypt: ext4 crypto complete called on /data
+05-25 10:48:40.822  2885  2960 I Ext4Crypt: No master key, so not ext4enc
+05-25 10:48:40.822  2885  2960 D Cryptfs : crypt_ftr->fs_size = 52821984
+05-25 10:48:40.822  2885  2960 I Cryptfs : Using scrypt for cryptfs KDF
+05-25 10:48:40.828  2897  2897 I SurfaceFlinger: SurfaceFlinger is starting
+05-25 10:48:40.828  2897  2897 E SchedPolicy: /system/bin/surfaceflinger add_tid_to_cgroup failed; fd=-1
+05-25 10:48:40.829  2897  2897 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+05-25 10:48:40.835  2965  2965 I cm      : Welcome to Android 6.0.1 / CyanogenMod-13.0-20160525-UNOFFICIAL-hero2ltexx 
+05-25 10:48:40.840  2966  2966 I sysinit : Running /system/etc/init.d/90userinit 
+05-25 10:48:40.866  2897  2897 D libEGL  : loaded /vendor/lib64/egl/libGLES_mali.so
+05-25 10:48:40.880  2897  2897 I gralloc : using (id=)
+05-25 10:48:40.880  2897  2897 I gralloc : xres         = 1440 px
+05-25 10:48:40.880  2897  2897 I gralloc : yres         = 2560 px
+05-25 10:48:40.880  2897  2897 I gralloc : width        = 68 mm (537.882324 dpi)
+05-25 10:48:40.880  2897  2897 I gralloc : height       = 122 mm (532.983582 dpi)
+05-25 10:48:40.880  2897  2897 I gralloc : refresh rate = 59.42 Hz
+05-25 10:48:40.889  2897  2897 E linker  : Shim lib "/system/lib64/libsamsung_symbols.so" can not be loaded, ignoring.
+05-25 10:48:40.889  2897  2897 E HAL     : load: module=/system/lib64/hw/hwcomposer.exynos5.so
+05-25 10:48:40.889  2897  2897 E HAL     : dlopen failed: cannot locate symbol "hwcDebug" referenced by "/system/lib64/hw/hwcomposer.exynos5.so"...
+05-25 10:48:40.889  2897  2897 E SurfaceFlinger: hwcomposer module not found
+05-25 10:48:40.889  2897  2897 I SurfaceFlinger: EGL information:
+05-25 10:48:40.889  2897  2897 I SurfaceFlinger: vendor    : Android
+05-25 10:48:40.889  2897  2897 I SurfaceFlinger: version   : 1.4 Android META-EGL
+05-25 10:48:40.889  2897  2897 I SurfaceFlinger: extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_swap_buffers_with_damage EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_KHR_config_attribs EGL_KHR_surfaceless_context EGL_EXT_create_context_robustness EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable EGL_KHR_partial_update 
+05-25 10:48:40.889  2897  2897 I SurfaceFlinger: Client API: OpenGL_ES
+05-25 10:48:40.889  2897  2897 I SurfaceFlinger: EGLSurface: 8-8-8-8, config=0x7f9a410128
+05-25 10:48:40.890  2897  2897 D         : ro.exynos.dss isEnabled: 0
+05-25 10:48:40.894  2897  2897 I SurfaceFlinger: OpenGL ES informations:
+05-25 10:48:40.894  2897  2897 I SurfaceFlinger: vendor    : ARM
+05-25 10:48:40.894  2897  2897 I SurfaceFlinger: renderer  : Mali-T880
+05-25 10:48:40.894  2897  2897 I SurfaceFlinger: version   : OpenGL ES 3.1 v1.r9p0-12dev0.c2bae768d87bf40047e1f310c8de7f16
+05-25 10:48:40.894  2897  2897 I SurfaceFlinger: extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_disjoint_timer_query GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisampled_render_to_texture GL_OES_surfaceless_context GL_OES_texture_stencil8 G
+05-25 10:48:40.894  2897  2897 I SurfaceFlinger: GL_MAX_TEXTURE_SIZE = 8192
+05-25 10:48:40.894  2897  2897 I SurfaceFlinger: GL_MAX_VIEWPORT_DIMS = 8192
+05-25 10:48:40.895  2897  2897 D mali_winsys: new_window_surface returns 0x3000,  [1440x2560]-format:1
+05-25 10:48:40.910  2897  2897 D SurfaceFlinger: Set power mode=2, type=0 flinger=0x7f9a8c3c00
+05-25 10:48:41.030  2897  2897 D SurfaceFlinger: SF. shader cache generated - 26 shaders in 117.630577 ms
+05-25 10:48:41.261  2885  2960 I Cryptfs : Enabling support for allow_discards in dmcrypt.
+05-25 10:48:41.261  2885  2960 I Cryptfs : target_type = crypt
+05-25 10:48:41.261  2885  2960 I Cryptfs : real_blk_name = /dev/block/platform/155a0000.ufs/by-name/USERDATA, extra_params = 1 allow_discards
+05-25 10:48:41.262  2885  2907 D vold    : Disk at 253:0 changed
+05-25 10:48:41.273  2987  2991 D libEGL  : loaded /vendor/lib64/egl/libGLES_mali.so
+05-25 10:48:41.281  2987  2991 D mali_winsys: new_window_surface returns 0x3000,  [1440x2560]-format:2
+05-25 10:48:41.281  2987  2991 D         : ro.exynos.dss isEnabled: 0
+05-25 10:48:41.287  2987  2991 E BootAnimation: couldn't find audio_conf.txt
+05-25 10:48:41.299  2987  2991 D BootAnimation: Use save memory method, maybe small fps in actual.
+05-25 10:48:41.687  2885  2960 I Cryptfs : Password matches
+05-25 10:48:41.688  2885  2960 D Cryptfs : test_mount_encrypted_fs(): Master key saved
+05-25 10:48:41.691  2885  2960 I Cryptfs : keymaster module name is Keymaster OpenSSL HAL
+05-25 10:48:41.691  2885  2960 I Cryptfs : keymaster version is 2
+05-25 10:48:41.691  2885  2960 I Cryptfs : Found keymaster0 module, using keymaster0 API.
+05-25 10:48:41.691  2885  2960 D Cryptfs : Password is default - restarting filesystem
+05-25 10:48:41.692  2885  2960 D Cryptfs : unmounting /data succeeded
+05-25 10:48:41.720  2885  2960 D Cryptfs : Just triggered post_fs_data
+05-25 10:48:41.739  3024  3024 I /system/bin/tzdatacheck: tzdata file /data/misc/zoneinfo/current/tzdata does not exist. No action required.
+05-25 10:48:41.752  3026  3026 I sysinit : Running /system/etc/init.d/00banner 
+05-25 10:48:41.761  3028  3028 I cm      : ____ _   _ ____ _  _ ____ ____ ____ _  _ _  _ ____ ___ 
+05-25 10:48:41.765  3029  3029 I cm      : |     \_/  |__| |\ | |  | | __ |___ |\ | |\/| |  | |  \ 
+05-25 10:48:41.770  3030  3030 I cm      : |___   |   |  | | \| |__| |__] |___ | \| |  | |__| |__/ 
+05-25 10:48:41.770  2885  2960 D Cryptfs : post_fs_data done
+05-25 10:48:41.770  2885  2960 D Cryptfs : Just triggered restart_framework
+05-25 10:48:41.784  3034  3034 I DEBUG   : debuggerd: starting
+05-25 10:48:41.786  3038  3038 I installd: installd firing up
+05-25 10:48:41.786  3045  3045 I cm      : Welcome to Android 6.0.1 / CyanogenMod-13.0-20160525-UNOFFICIAL-hero2ltexx 
+05-25 10:48:41.787  3042  3042 I perfprofd: starting Android Wide Profiling daemon
+05-25 10:48:41.788  3042  3042 E perfprofd: unable to open configuration file /data/data/com.google.android.gms/files/perfprofd.conf
+05-25 10:48:41.789  3042  3042 I perfprofd: random seed set to 3792017437
+05-25 10:48:41.792  3046  3046 I sysinit : Running /system/etc/init.d/90userinit 
+05-25 10:48:41.796  3043  3043 I fingerprintd: Starting fingerprintd
+05-25 10:48:41.798  3031  3031 I Netd    : Netd 1.0 starting
+05-25 10:48:41.798  3031  3031 I QtiConnectivityAdapter: Failed to open libconnctrl, some features may not be present.
+05-25 10:48:41.803  3031  3031 D TetherController: Setting IP forward enable = 0
+05-25 10:48:41.808  3039  3039 I keystore: Found keymaster0 module Keymaster OpenSSL HAL, version 2
+05-25 10:48:41.808  3039  3039 I SoftKeymaster: system/keymaster/soft_keymaster_device.cpp, Line 122: Creating device
+05-25 10:48:41.808  3039  3039 D SoftKeymaster: system/keymaster/soft_keymaster_device.cpp, Line 123: Device address: 0x7f7cce3000
+05-25 10:48:41.808  3039  3039 I keystore: Keymaster0 module is software-only.  Using SoftKeymasterDevice instead.
+05-25 10:48:41.808  3039  3039 I SoftKeymaster: system/keymaster/soft_keymaster_device.cpp, Line 122: Creating device
+05-25 10:48:41.808  3039  3039 D SoftKeymaster: system/keymaster/soft_keymaster_device.cpp, Line 123: Device address: 0x7f7cce3300
+05-25 10:48:41.808  3039  3039 I keystore: SELinux: Keystore SELinux is disabled.
+05-25 10:48:41.809  3033  3033 I DEBUG   : debuggerd: starting
+05-25 10:48:41.811  3041  3041 I gatekeeperd: Starting gatekeeperd...
+05-25 10:48:41.811  3041  3041 W gatekeeperd: falling back to software GateKeeper
+05-25 10:48:41.811  3041  3041 I gatekeeperd: cold boot: clearing state
+05-25 10:48:41.849  2969  2969 W auditd  : type=1325 audit(0.0:14): table=filter family=2 entries=4
+05-25 10:48:41.849  2969  2969 W auditd  : type=1320 audit(0.0:14): 
+05-25 10:48:41.859  2969  2969 W auditd  : type=1325 audit(0.0:15): table=filter family=10 entries=4
+05-25 10:48:41.859  2969  2969 W auditd  : type=1320 audit(0.0:15): 
+05-25 10:48:41.869  2969  2969 W auditd  : type=1325 audit(0.0:16): table=filter family=2 entries=6
+05-25 10:48:41.869  2969  2969 W auditd  : type=1320 audit(0.0:16): 
+05-25 10:48:41.879  2969  2969 W auditd  : type=1325 audit(0.0:17): table=filter family=10 entries=6
+05-25 10:48:41.879  2969  2969 W auditd  : type=1320 audit(0.0:17): 
+05-25 10:48:41.949  2969  2969 W auditd  : type=1325 audit(0.0:18): table=filter family=2 entries=7
+05-25 10:48:41.949  2969  2969 W auditd  : type=1320 audit(0.0:18): 
+05-25 10:48:41.959  2969  2969 W auditd  : type=1325 audit(0.0:19): table=filter family=10 entries=7
+05-25 10:48:41.959  2969  2969 W auditd  : type=1320 audit(0.0:19): 
+05-25 10:48:41.969  2969  2969 W auditd  : type=1325 audit(0.0:20): table=filter family=2 entries=9
+05-25 10:48:41.969  2969  2969 W auditd  : type=1320 audit(0.0:20): 
+05-25 10:48:41.976  3037  3037 I mediaserver: ServiceManager: 0xf660e120
+05-25 10:48:41.976  3037  3037 I AudioFlinger: Using default 3000 mSec as standby time.
+05-25 10:48:41.976  3037  3037 E BatteryNotifier: batterystats service unavailable!
+05-25 10:48:41.976  3037  3037 E BatteryNotifier: batterystats service unavailable!
+05-25 10:48:41.979  2969  2969 W auditd  : type=1325 audit(0.0:21): table=filter family=10 entries=9
+05-25 10:48:41.979  2969  2969 W auditd  : type=1320 audit(0.0:21): 
+05-25 10:48:41.981  3037  3037 I CameraService: CameraService started (pid=3037)
+05-25 10:48:41.981  3037  3037 I CameraService: CameraService process starting
+05-25 10:48:41.981  3037  3037 E BatteryNotifier: batterystats service unavailable!
+05-25 10:48:41.981  3037  3037 E BatteryNotifier: batterystats service unavailable!
+05-25 10:48:41.982  3037  3037 E CameraService: Could not load camera HAL module: -2 (No such file or directory)
+05-25 10:48:41.982  3037  3037 I AudioPolicyService: AudioPolicyService CSTOR in new mode
+05-25 10:48:41.983  3037  3037 W APM::HwModule: loadOutput() invalid supported devices
+05-25 10:48:41.983  3037  3037 W APM::HwModule: loadOutput() invalid supported devices
+05-25 10:48:41.983  3037  3037 W APM::HwModule: loadInput() invalid supported devices
+05-25 10:48:41.983  3037  3037 W APM::HwModule: loadInput() invalid supported devices
+05-25 10:48:41.983  3037  3037 I APM::ConfigParsingUtils: loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+05-25 10:48:42.009  2969  2969 W auditd  : type=1325 audit(0.0:22): table=filter family=2 entries=10
+05-25 10:48:42.009  2969  2969 W auditd  : type=1320 audit(0.0:22): 
+05-25 10:48:42.009  2969  2969 W auditd  : type=1325 audit(0.0:23): table=filter family=10 entries=10
+05-25 10:48:42.009  2969  2969 W auditd  : type=1320 audit(0.0:23): 
+05-25 10:48:42.019  2969  2969 W auditd  : type=1325 audit(0.0:24): table=filter family=2 entries=12
+05-25 10:48:42.019  2969  2969 W auditd  : type=1320 audit(0.0:24): 
+05-25 10:48:42.029  2969  2969 W auditd  : type=1325 audit(0.0:25): table=filter family=10 entries=12
+05-25 10:48:42.029  2969  2969 W auditd  : type=1320 audit(0.0:25): 
+05-25 10:48:42.089  2969  2969 W auditd  : type=1325 audit(0.0:26): table=filter family=2 entries=13
+05-25 10:48:42.089  2969  2969 W auditd  : type=1320 audit(0.0:26): 
+05-25 10:48:42.099  2969  2969 W auditd  : type=1325 audit(0.0:27): table=filter family=10 entries=13
+05-25 10:48:42.099  2969  2969 W auditd  : type=1320 audit(0.0:27): 
+05-25 10:48:42.109  2969  2969 W auditd  : type=1325 audit(0.0:28): table=filter family=2 entries=15
+05-25 10:48:42.109  2969  2969 W auditd  : type=1320 audit(0.0:28): 
+05-25 10:48:42.109  2969  2969 W auditd  : type=1325 audit(0.0:29): table=filter family=10 entries=15
+05-25 10:48:42.109  2969  2969 W auditd  : type=1320 audit(0.0:29): 
+05-25 10:48:42.134  3040  3040 D AndroidRuntime: >>>>>> START com.android.internal.os.ZygoteInit uid 0 <<<<<<
+05-25 10:48:42.149  2969  2969 W auditd  : type=1325 audit(0.0:30): table=filter family=2 entries=16
+05-25 10:48:42.149  2969  2969 W auditd  : type=1320 audit(0.0:30): 
+05-25 10:48:42.149  3040  3040 D AndroidRuntime: CheckJNI is ON
+05-25 10:48:42.154  3040  3040 I art     : option[0]=-Xzygote
+05-25 10:48:42.154  3040  3040 I art     : option[1]=-Xcheck:jni
+05-25 10:48:42.154  3040  3040 I art     : option[2]=-Xstacktracefile:/data/anr/traces.txt
+05-25 10:48:42.154  3040  3040 I art     : option[3]=exit
+05-25 10:48:42.154  3040  3040 I art     : option[4]=vfprintf
+05-25 10:48:42.154  3040  3040 I art     : option[5]=sensitiveThread
+05-25 10:48:42.154  3040  3040 I art     : option[6]=-verbose:gc
+05-25 10:48:42.154  3040  3040 I art     : option[7]=-Xms8m
+05-25 10:48:42.154  3040  3040 I art     : option[8]=-Xmx512m
+05-25 10:48:42.154  3040  3040 I art     : option[9]=-XX:HeapGrowthLimit=256m
+05-25 10:48:42.154  3040  3040 I art     : option[10]=-XX:HeapMinFree=2m
+05-25 10:48:42.154  3040  3040 I art     : option[11]=-XX:HeapMaxFree=8m
+05-25 10:48:42.154  3040  3040 I art     : option[12]=-XX:HeapTargetUtilization=0.75
+05-25 10:48:42.154  3040  3040 I art     : option[13]=-Xusejit:true
+05-25 10:48:42.154  3040  3040 I art     : option[14]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+05-25 10:48:42.154  3040  3040 I art     : option[15]=-Xlockprofthreshold:500
+05-25 10:48:42.154  3040  3040 I art     : option[16]=-Ximage-compiler-option
+05-25 10:48:42.154  3040  3040 I art     : option[17]=--runtime-arg
+05-25 10:48:42.154  3040  3040 I art     : option[18]=-Ximage-compiler-option
+05-25 10:48:42.154  3040  3040 I art     : option[19]=-Xms64m
+05-25 10:48:42.154  3040  3040 I art     : option[20]=-Ximage-compiler-option
+05-25 10:48:42.154  3040  3040 I art     : option[21]=--runtime-arg
+05-25 10:48:42.154  3040  3040 I art     : option[22]=-Ximage-compiler-option
+05-25 10:48:42.154  3040  3040 I art     : option[23]=-Xmx64m
+05-25 10:48:42.154  3040  3040 I art     : option[24]=-Ximage-compiler-option
+05-25 10:48:42.154  3040  3040 I art     : option[25]=--compiler-filter=verify-at-runtime
+05-25 10:48:42.154  3040  3040 I art     : option[26]=-Ximage-compiler-option
+05-25 10:48:42.154  3040  3040 I art     : option[27]=--image-classes=/system/etc/preloaded-classes
+05-25 10:48:42.154  3040  3040 I art     : option[28]=-Xcompiler-option
+05-25 10:48:42.154  3040  3040 I art     : option[29]=--runtime-arg
+05-25 10:48:42.154  3040  3040 I art     : option[30]=-Xcompiler-option
+05-25 10:48:42.154  3040  3040 I art     : option[31]=-Xms64m
+05-25 10:48:42.154  3040  3040 I art     : option[32]=-Xcompiler-option
+05-25 10:48:42.154  3040  3040 I art     : option[33]=--runtime-arg
+05-25 10:48:42.154  3040  3040 I art     : option[34]=-Xcompiler-option
+05-25 10:48:42.154  3040  3040 I art     : option[35]=-Xmx512m
+05-25 10:48:42.154  3040  3040 I art     : option[36]=-Xcompiler-option
+05-25 10:48:42.154  3040  3040 I art     : option[37]=--compiler-filter=verify-at-runtime
+05-25 10:48:42.154  3040  3040 I art     : option[38]=-Ximage-compiler-option
+05-25 10:48:42.154  3040  3040 I art     : option[39]=--instruction-set-variant=generic
+05-25 10:48:42.154  3040  3040 I art     : option[40]=-Xcompiler-option
+05-25 10:48:42.154  3040  3040 I art     : option[41]=--instruction-set-variant=generic
+05-25 10:48:42.154  3040  3040 I art     : option[42]=-Ximage-compiler-option
+05-25 10:48:42.154  3040  3040 I art     : option[43]=--instruction-set-features=default
+05-25 10:48:42.154  3040  3040 I art     : option[44]=-Xcompiler-option
+05-25 10:48:42.154  3040  3040 I art     : option[45]=--instruction-set-features=default
+05-25 10:48:42.154  3040  3040 I art     : option[46]=-Duser.locale=en-US
+05-25 10:48:42.154  3040  3040 I art     : option[47]=--cpu-abilist=arm64-v8a,armeabi
+05-25 10:48:42.154  3040  3040 I art     : option[48]=-Xfingerprint:samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30J/29ac460943:eng/test-keys
+05-25 10:48:42.159  2969  2969 W auditd  : type=1325 audit(0.0:31): table=filter family=10 entries=16
+05-25 10:48:42.159  2969  2969 W auditd  : type=1320 audit(0.0:31): 
+05-25 10:48:42.168  3040  3040 I art     : Pruning dalvik-cache since we are generating an image and will need to recompile
+05-25 10:48:42.168  3040  3040 I art     : Using an offset of 0xffda3000 from default art base address of 0x70000000
+05-25 10:48:42.168  3040  3040 I art     : GenerateImage: /system/bin/dex2oat --image=/data/dalvik-cache/arm64/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/apache-xml.jar --dex-file=/system/framework/org.apache.http.legacy.boot.jar --oat-file=/data/dalvik-cache/arm64/system@framework@boot.oat --instruction-set=arm64 --instruction-set-features=smp,a53 --base=0x6fda3000 --runtime-arg -Xms64m --runtime-arg -Xmx64m --compiler-filter=verify-at-runtime --image-classes=/system/etc/preloaded-classes --instruction-set-variant=generic --instruction-set-features=default
+05-25 10:48:42.169  2969  2969 W auditd  : type=1325 audit(0.0:32): table=filter family=2 entries=18
+05-25 10:48:42.169  2969  2969 W auditd  : type=1320 audit(0.0:32): 
+05-25 10:48:42.169  2969  2969 W auditd  : type=1325 audit(0.0:33): table=filter family=10 entries=18
+05-25 10:48:42.209  3100  3100 I dex2oat : /system/bin/dex2oat --image=/data/dalvik-cache/arm64/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/apache-xml.jar --dex-file=/system/framework/org.apache.http.legacy.boot.jar --oat-file=/data/dalvik-cache/arm64/system@framework@boot.oat --instruction-set=arm64 --instruction-set-features=smp,a53 --base=0x6fda3000 --runtime-arg -Xms64m --runtime-arg -Xmx64m --compiler-filter=verify-at-runtime --image-classes=/system/etc/preloaded-classes --instruction-set-variant=generic --instruction-set-features=default
+05-25 10:48:42.215  3100  3100 I dex2oat : setting boot class path to /system/framework/core-libart.jar:/system/framework/conscrypt.jar:/system/framework/okhttp.jar:/system/framework/core-junit.jar:/system/framework/bouncycastle.jar:/system/framework/ext.jar:/system/framework/framework.jar:/system/framework/telephony-common.jar:/system/framework/voip-common.jar:/system/framework/ims-common.jar:/system/framework/apache-xml.jar:/system/framework/org.apache.http.legacy.boot.jar
+05-25 10:48:42.639  3037  3037 I AudioFlinger: loadHwModule() Loaded primary audio interface from Samsung audio HW HAL (audio) handle 1
+05-25 10:48:42.639  3037  3037 I AudioFlinger: openOutput(), module 1 Device 2, SamplingRate 48000, Format 0x000001, Channels 3, flags a
+05-25 10:48:42.639  3037  3037 I AudioFlinger: AudioStreamOut::open(), mHalFormatIsLinearPcm = 1
+05-25 10:48:42.639  3037  3037 I AudioFlinger: HAL output buffer size 1024 frames, normal sink buffer size 1024 frames
+05-25 10:48:42.644  3037  3037 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libaudioeffectoffload.so
+05-25 10:48:42.647  3037  3037 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libexynosvisualizer.so
+05-25 10:48:42.653  3037  3037 W EffectsFactory: loadLibrary() failed to open /system/lib/libmysound.so
+05-25 10:48:42.653  3037  3037 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libmyspace.so
+05-25 10:48:42.653  3037  3037 W EffectsFactory: loadLibrary() failed to open /system/lib/libaudiosa.so
+05-25 10:48:42.653  3037  3037 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libaudiosaplus_sec.so
+05-25 10:48:42.654  3037  3037 W EffectsFactory: loadLibrary() failed to open /system/lib/libsamsungSoundbooster_plus.so
+05-25 10:48:42.654  3037  3037 W EffectsFactory: loadEffect() could not get library soundbooster_plus
+05-25 10:48:42.654  3037  3037 W EffectsFactory: addSubEffect() could not get library soundalive_sec
+05-25 10:48:42.654  3037  3037 W EffectsFactory: loadEffect() could not add subEffect 
+05-25 10:48:42.654  3037  3037 W EffectsFactory: loadEffect() could not get library soundalive
+05-25 10:48:42.654  3037  3037 W EffectsFactory: loadEffect() could not get library soundalive
+05-25 10:48:42.654  3037  3037 W EffectsFactory: loadEffect() could not get library soundalive
+05-25 10:48:42.654  3037  3037 W EffectsFactory: addSubEffect() could not get library visualizer_hw
+05-25 10:48:42.654  3037  3037 W EffectsFactory: loadEffect() could not add subEffect 
+05-25 10:48:42.654  3037  3037 W EffectsFactory: addSubEffect() could not get library mysound
+05-25 10:48:42.654  3037  3037 W EffectsFactory: loadEffect() could not add subEffect 
+05-25 10:48:42.654  3037  3037 W EffectsFactory: addSubEffect() could not get library myspace
+05-25 10:48:42.654  3037  3037 W EffectsFactory: loadEffect() could not add subEffect 
+05-25 10:48:42.655  3037  3037 I BufferProvider: found effect "Multichannel Downmix To Stereo" from The Android Open Source Project
+05-25 10:48:42.655  3037  3037 I AudioFlinger: Using module 1 has the primary audio interface
+05-25 10:48:42.655  3037  3160 I AudioFlinger: AudioFlinger's thread 0xf49c0000 ready to run
+05-25 10:48:42.655  3037  3160 V audio_hw_primary: do_out_standby: output standby: 1
+05-25 10:48:42.656  3037  3160 V audio_hw_primary: out_set_parameters: key value pairs: routing=2
+05-25 10:48:42.656  3037  3160 E AudioFlinger: no wake lock to update!
+05-25 10:48:42.657  3037  3037 I AudioFlinger: openOutput(), module 1 Device 2, SamplingRate 48000, Format 0x000001, Channels 3, flags 4
+05-25 10:48:42.657  3037  3037 I AudioFlinger: AudioStreamOut::open(), mHalFormatIsLinearPcm = 1
+05-25 10:48:42.657  3037  3037 I AudioFlinger: HAL output buffer size 256 frames, normal sink buffer size 960 frames
+05-25 10:48:42.657  3037  3037 E MonoPipe: Failed to fetch local time frequency when constructing a MonoPipe (res = -32).  getNextWriteTimestamp calls will be non-functional
+05-25 10:48:42.664  3037  3163 I AudioFlinger: AudioFlinger's thread 0xf4680000 ready to run
+05-25 10:48:42.664  3037  3163 V audio_hw_primary: out_set_parameters: key value pairs: routing=2
+05-25 10:48:42.665  3037  3163 V audio_hw_primary: do_out_standby: output standby: 1
+05-25 10:48:42.665  3037  3163 E AudioFlinger: no wake lock to update!
+05-25 10:48:42.665  3037  3037 V audio_hw_primary: adev_open_input_stream: Requesting input stream with rate: 48000, channels: 0xc
+05-25 10:48:42.666  3037  3166 I AudioFlinger: AudioFlinger's thread 0xf4380000 ready to run
+05-25 10:48:42.668  3037  3037 I bt_a2dp_hw: adev_open:  adev_open in A2dp_hw module
+05-25 10:48:42.668  3037  3037 I AudioFlinger: loadHwModule() Loaded a2dp audio interface from A2DP Audio HW HAL (audio) handle 5
+05-25 10:48:42.670  3037  3037 I AudioFlinger: loadHwModule() Loaded usb audio interface from USB audio HW HAL (audio) handle 6
+05-25 10:48:42.671  3037  3037 I r_submix: adev_open(name=audio_hw_if)
+05-25 10:48:42.671  3037  3037 I r_submix: adev_init_check()
+05-25 10:48:42.671  3037  3037 I AudioFlinger: loadHwModule() Loaded r_submix audio interface from Wifi Display audio HAL (audio) handle 7
+05-25 10:48:42.671  3037  3037 D r_submix: adev_open_input_stream(addr=0)
+05-25 10:48:42.671  3037  3037 D r_submix: submix_audio_device_create_pipe_l(addr=0, idx=9)
+05-25 10:48:42.671  3037  3037 D r_submix:   now using address 0 for route 9
+05-25 10:48:42.672  3037  3168 I AudioFlinger: AudioFlinger's thread 0xf42c0000 ready to run
+05-25 10:48:42.672  3037  3037 D r_submix: adev_close_input_stream()
+05-25 10:48:42.672  3037  3037 D r_submix: submix_audio_device_release_pipe_l(idx=9) addr=0
+05-25 10:48:42.672  3037  3037 D r_submix: submix_audio_device_destroy_pipe_l(): pipe destroyed
+--------- beginning of crash
+05-25 10:48:42.672  3037  3037 F libc    : Fatal signal 11 (SIGSEGV), code 1, fault addr 0x0 in tid 3037 (mediaserver)
+05-25 10:48:42.672  3033  3033 I DEBUG   : property debug.db.uid not set; NOT waiting for gdb.
+05-25 10:48:42.672  3033  3033 I DEBUG   : HINT: adb shell setprop debug.db.uid 100000
+05-25 10:48:42.672  3033  3033 I DEBUG   : HINT: adb forward tcp:5039 tcp:5039
+05-25 10:48:42.773  3033  3033 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+05-25 10:48:42.773  3033  3033 F DEBUG   : Build fingerprint: 'samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30J/29ac460943:eng/test-keys'
+05-25 10:48:42.773  3033  3033 F DEBUG   : Revision: '0'
+05-25 10:48:42.773  3033  3033 F DEBUG   : ABI: 'arm'
+05-25 10:48:42.773  3033  3033 F DEBUG   : pid: 3037, tid: 3037, name: mediaserver  >>> /system/bin/mediaserver <<<
+05-25 10:48:42.773  3033  3033 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0
+05-25 10:48:42.777  3033  3033 F DEBUG   :     r0 f4a5e8f4  r1 00000000  r2 65732020  r3 00000007
+05-25 10:48:42.777  3033  3033 F DEBUG   :     r4 00000008  r5 f4a5e8f2  r6 f7473be0  r7 ffe552c4
+05-25 10:48:42.777  3033  3033 F DEBUG   :     r8 f4abe00c  r9 f7471431  sl f7471635  fp f4a5e8f2
+05-25 10:48:42.777  3033  3033 F DEBUG   :     ip 00000000  sp ffe55280  lr f746c4f7  pc f6fbf3c8  cpsr 600f0010
+05-25 10:48:42.778  3033  3033 F DEBUG   : 
+05-25 10:48:42.778  3033  3033 F DEBUG   : backtrace:
+05-25 10:48:42.778  3033  3033 F DEBUG   :     #00 pc 000183c8  /system/lib/libc.so (strcmp+152)
+05-25 10:48:42.778  3033  3033 F DEBUG   :     #01 pc 000084f3  /system/lib/libaudiopolicyservice.so
+05-25 10:48:42.778  3033  3033 F DEBUG   :     #02 pc 000202c0  [stack]
+05-25 10:48:42.834  3033  3033 F DEBUG   : 
+05-25 10:48:42.834  3033  3033 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_00
+05-25 10:48:42.846  2896  2896 I ServiceManager: service 'media.audio_flinger' died
+05-25 10:48:42.846  2896  2896 I ServiceManager: service 'media.player' died
+05-25 10:48:42.846  2896  2896 I ServiceManager: service 'media.resource_manager' died
+05-25 10:48:42.846  2896  2896 I ServiceManager: service 'media.camera' died
+05-25 10:48:43.019  2969  2969 W auditd  : type=1325 audit(0.0:89): table=filter family=2 entries=38
+05-25 10:48:43.019  2969  2969 W auditd  : type=1320 audit(0.0:89): 
+05-25 10:48:43.029  2969  2969 W auditd  : type=1325 audit(0.0:90): table=filter family=10 entries=44
+05-25 10:48:43.029  2969  2969 W auditd  : type=1320 audit(0.0:90): 
+05-25 10:48:43.039  2969  2969 W auditd  : type=1325 audit(0.0:91): table=filter family=2 entries=40
+05-25 10:48:43.039  2969  2969 W auditd  : type=1320 audit(0.0:91): 
+05-25 10:48:43.039  2969  2969 W auditd  : type=1325 audit(0.0:92): table=filter family=2 entries=40
+05-25 10:48:43.039  2969  2969 W auditd  : type=1320 audit(0.0:92): 
+05-25 10:48:43.049  2969  2969 W auditd  : type=1325 audit(0.0:93): table=nat family=2 entries=11
+05-25 10:48:43.049  2969  2969 W auditd  : type=1320 audit(0.0:93): 
+05-25 10:48:43.050  3031  3031 V NatController: runCmd(/system/bin/iptables -w -F natctrl_FORWARD) res=0
+05-25 10:48:43.055  3031  3031 V NatController: runCmd(/system/bin/iptables -w -A natctrl_FORWARD -j DROP) res=0
+05-25 10:48:43.059  2969  2969 W auditd  : type=1325 audit(0.0:94): table=filter family=2 entries=41
+05-25 10:48:43.059  2969  2969 W auditd  : type=1320 audit(0.0:94): 
+05-25 10:48:43.059  3031  3031 V NatController: runCmd(/system/bin/iptables -w -t nat -F natctrl_nat_POSTROUTING) res=0
+05-25 10:48:43.064  3031  3031 V NatController: runCmd(/system/bin/iptables -w -F natctrl_tether_counters) res=1
+05-25 10:48:43.068  3031  3031 V NatController: runCmd(/system/bin/iptables -w -X natctrl_tether_counters) res=1
+05-25 10:48:43.069  2969  2969 W auditd  : type=1325 audit(0.0:95): table=mangle family=2 entries=15
+05-25 10:48:43.069  2969  2969 W auditd  : type=1320 audit(0.0:95): 
+05-25 10:48:43.073  3031  3031 V NatController: runCmd(/system/bin/iptables -w -N natctrl_tether_counters) res=0
+05-25 10:48:43.077  3031  3031 V NatController: runCmd(/system/bin/iptables -w -t mangle -A natctrl_mangle_FORWARD -p tcp --tcp-flags SYN SYN -j TCPMSS --clamp-mss-to-pmtu) res=0
+05-25 10:48:43.079  2969  2969 W auditd  : type=1325 audit(0.0:96): table=filter family=2 entries=43
+05-25 10:48:43.079  2969  2969 W auditd  : type=1320 audit(0.0:96): 
+05-25 10:48:43.079  2969  2969 W auditd  : type=1325 audit(0.0:97): table=filter family=10 entries=46
+05-25 10:48:43.079  2969  2969 W auditd  : type=1320 audit(0.0:97): 
+05-25 10:48:43.089  2969  2969 W auditd  : type=1325 audit(0.0:98): table=filter family=2 entries=43
+05-25 10:48:43.089  2969  2969 W auditd  : type=1320 audit(0.0:98): 
+05-25 10:48:43.576  3031  3031 E Netd    : cannot find interface dummy0
+05-25 10:48:43.576  3031  3031 D MDnsDS  : MDnsSdListener::Hander starting up
+05-25 10:48:43.576  3031  3324 D MDnsDS  : MDnsSdListener starting to monitor
+05-25 10:48:43.576  3031  3324 D MDnsDS  : Going to poll with pollCount 1
+05-25 10:48:43.906  3100  3100 W dex2oat : Skipping class com.quicinc.tcmiface.DpmTcmIface from /system/framework/org.apache.http.legacy.boot.jar previously found in /system/framework/okhttp.jar
+05-25 10:48:44.245  3100  3100 I dex2oat : Explicit concurrent mark sweep GC freed 58553(21MB) AllocSpace objects, 0(0B) LOS objects, 34% free, 7MB/11MB, paused 90us total 10.919ms
+05-25 10:48:44.729  3100  3100 I dex2oat : dex2oat took 2.521s (threads: 8) arena alloc=144B java alloc=7MB native alloc=10MB free=10MB
+05-25 10:48:44.764  3040  3040 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+05-25 10:48:44.900  3040  3040 I Radio-JNI: register_android_hardware_Radio DONE
+05-25 10:48:44.940  3040  3040 I SamplingProfilerIntegration: Profiling disabled.
+05-25 10:48:44.941  3040  3040 D Zygote  : begin preload
+05-25 10:48:44.942  3040  3040 I Zygote  : Preloading classes...
+05-25 10:48:45.358  3040  3040 E Minikin : addFont failed to create font /system/fonts/NanumGothic.ttf
+05-25 10:48:45.358  3040  3040 E Minikin : addFont failed to create font /system/fonts/DroidSansFallback.ttf
+05-25 10:48:45.358  3040  3040 E Minikin : addFont failed to create font /system/fonts/MTLmr3m.ttf
+05-25 10:48:45.454  3040  3040 V DngCreator_JNI: DngCreator_nativeClassInit:
+05-25 10:48:46.086  3040  3040 I art     : Thread[1,tid=3040,Native,Thread*=0x7f7bb7ba00,peer=0x12c532e0,"main"] recursive attempt to load library "/system/lib64/libmedia_jni.so"
+05-25 10:48:46.087  3040  3040 D MtpDeviceJNI: register_android_mtp_MtpDevice
+05-25 10:48:46.087  3040  3040 I art     : Thread[1,tid=3040,Native,Thread*=0x7f7bb7ba00,peer=0x12c532e0,"main"] recursive attempt to load library "/system/lib64/libmedia_jni.so"
+05-25 10:48:46.087  3040  3040 I art     : Thread[1,tid=3040,Native,Thread*=0x7f7bb7ba00,peer=0x12c532e0,"main"] recursive attempt to load library "/system/lib64/libmedia_jni.so"
+05-25 10:48:46.602  3040  3040 W System  : ClassLoader referenced unknown path: /system/framework/tcmclient.jar
+05-25 10:48:46.935  3040  3040 I System  : Loaded time zone names for "" in 28ms (25ms in ICU)
+05-25 10:48:46.967  3333  3333 I mediaserver: ServiceManager: 0xf670e120
+05-25 10:48:46.967  3333  3333 I AudioFlinger: Using default 3000 mSec as standby time.
+05-25 10:48:46.967  3333  3333 E BatteryNotifier: batterystats service unavailable!
+05-25 10:48:46.967  3333  3333 E BatteryNotifier: batterystats service unavailable!
+05-25 10:48:46.967  3333  3333 I CameraService: CameraService started (pid=3333)
+05-25 10:48:46.967  3333  3333 I CameraService: CameraService process starting
+05-25 10:48:46.968  3333  3333 E BatteryNotifier: batterystats service unavailable!
+05-25 10:48:46.968  3333  3333 E BatteryNotifier: batterystats service unavailable!
+05-25 10:48:46.968  3333  3333 E CameraService: Could not load camera HAL module: -2 (No such file or directory)
+05-25 10:48:46.968  3333  3333 I AudioPolicyService: AudioPolicyService CSTOR in new mode
+05-25 10:48:46.969  3333  3333 W APM::HwModule: loadOutput() invalid supported devices
+05-25 10:48:46.969  3333  3333 W APM::HwModule: loadOutput() invalid supported devices
+05-25 10:48:46.969  3333  3333 W APM::HwModule: loadInput() invalid supported devices
+05-25 10:48:46.969  3333  3333 W APM::HwModule: loadInput() invalid supported devices
+05-25 10:48:46.969  3333  3333 I APM::ConfigParsingUtils: loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+05-25 10:48:46.969  3040  3040 I System  : Loaded time zone names for "en_US" in 34ms (13ms in ICU)
+05-25 10:48:47.138  3040  3040 I Zygote  : ...preloaded 3831 classes in 2195ms.
+05-25 10:48:47.138  3040  3040 I art     : VMRuntime.preloadDexCaches starting
+05-25 10:48:47.171  3040  3040 I art     : VMRuntime.preloadDexCaches strings total=248908 before=10083 after=10083
+05-25 10:48:47.171  3040  3040 I art     : VMRuntime.preloadDexCaches types total=20329 before=8245 after=9836
+05-25 10:48:47.171  3040  3040 I art     : VMRuntime.preloadDexCaches fields total=100349 before=35755 after=47720
+05-25 10:48:47.171  3040  3040 I art     : VMRuntime.preloadDexCaches methods total=172744 before=67597 after=83301
+05-25 10:48:47.171  3040  3040 I art     : VMRuntime.preloadDexCaches finished
+05-25 10:48:47.188  3337  3337 D idmap   : error: no read access to /vendor/overlay: No such file or directory
+05-25 10:48:47.209  3040  3040 I Zygote  : Preloading resources...
+05-25 10:48:47.531  3333  3333 I AudioFlinger: loadHwModule() Loaded primary audio interface from Samsung audio HW HAL (audio) handle 1
+05-25 10:48:47.531  3333  3333 I AudioFlinger: openOutput(), module 1 Device 2, SamplingRate 48000, Format 0x000001, Channels 3, flags a
+05-25 10:48:47.531  3333  3333 I AudioFlinger: AudioStreamOut::open(), mHalFormatIsLinearPcm = 1
+05-25 10:48:47.531  3333  3333 I AudioFlinger: HAL output buffer size 1024 frames, normal sink buffer size 1024 frames
+05-25 10:48:47.532  3333  3333 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libaudioeffectoffload.so
+05-25 10:48:47.533  3333  3333 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libexynosvisualizer.so
+05-25 10:48:47.535  3333  3333 W EffectsFactory: loadLibrary() failed to open /system/lib/libmysound.so
+05-25 10:48:47.535  3333  3333 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libmyspace.so
+05-25 10:48:47.535  3333  3333 W EffectsFactory: loadLibrary() failed to open /system/lib/libaudiosa.so
+05-25 10:48:47.535  3333  3333 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libaudiosaplus_sec.so
+05-25 10:48:47.536  3333  3333 W EffectsFactory: loadLibrary() failed to open /system/lib/libsamsungSoundbooster_plus.so
+05-25 10:48:47.536  3333  3333 W EffectsFactory: loadEffect() could not get library soundbooster_plus
+05-25 10:48:47.536  3333  3333 W EffectsFactory: addSubEffect() could not get library soundalive_sec
+05-25 10:48:47.536  3333  3333 W EffectsFactory: loadEffect() could not add subEffect 
+05-25 10:48:47.536  3333  3333 W EffectsFactory: loadEffect() could not get library soundalive
+05-25 10:48:47.536  3333  3333 W EffectsFactory: loadEffect() could not get library soundalive
+05-25 10:48:47.536  3333  3333 W EffectsFactory: loadEffect() could not get library soundalive
+05-25 10:48:47.536  3333  3333 W EffectsFactory: addSubEffect() could not get library visualizer_hw
+05-25 10:48:47.536  3333  3333 W EffectsFactory: loadEffect() could not add subEffect 
+05-25 10:48:47.536  3333  3333 W EffectsFactory: addSubEffect() could not get library mysound
+05-25 10:48:47.536  3333  3333 W EffectsFactory: loadEffect() could not add subEffect 
+05-25 10:48:47.536  3333  3333 W EffectsFactory: addSubEffect() could not get library myspace
+05-25 10:48:47.536  3333  3333 W EffectsFactory: loadEffect() could not add subEffect 
+05-25 10:48:47.536  3333  3333 I BufferProvider: found effect "Multichannel Downmix To Stereo" from The Android Open Source Project
+05-25 10:48:47.536  3333  3333 I AudioFlinger: Using module 1 has the primary audio interface
+05-25 10:48:47.536  3333  3338 I AudioFlinger: AudioFlinger's thread 0xf4b00000 ready to run
+05-25 10:48:47.536  3333  3338 V audio_hw_primary: out_set_parameters: key value pairs: routing=2
+05-25 10:48:47.536  3333  3338 V audio_hw_primary: do_out_standby: output standby: 1
+05-25 10:48:47.537  3333  3338 E AudioFlinger: no wake lock to update!
+05-25 10:48:47.538  3333  3333 I AudioFlinger: openOutput(), module 1 Device 2, SamplingRate 48000, Format 0x000001, Channels 3, flags 4
+05-25 10:48:47.538  3333  3333 I AudioFlinger: AudioStreamOut::open(), mHalFormatIsLinearPcm = 1
+05-25 10:48:47.538  3333  3333 I AudioFlinger: HAL output buffer size 256 frames, normal sink buffer size 960 frames
+05-25 10:48:47.538  3333  3333 E MonoPipe: Failed to fetch local time frequency when constructing a MonoPipe (res = -32).  getNextWriteTimestamp calls will be non-functional
+05-25 10:48:47.538  3333  3341 I AudioFlinger: AudioFlinger's thread 0xf4780000 ready to run
+05-25 10:48:47.538  3333  3341 V audio_hw_primary: out_set_parameters: key value pairs: routing=2
+05-25 10:48:47.538  3333  3341 V audio_hw_primary: do_out_standby: output standby: 1
+05-25 10:48:47.538  3333  3341 E AudioFlinger: no wake lock to update!
+05-25 10:48:47.539  3333  3333 V audio_hw_primary: adev_open_input_stream: Requesting input stream with rate: 48000, channels: 0xc
+05-25 10:48:47.539  3333  3342 I AudioFlinger: AudioFlinger's thread 0xf4480000 ready to run
+05-25 10:48:47.540  3333  3333 I bt_a2dp_hw: adev_open:  adev_open in A2dp_hw module
+05-25 10:48:47.540  3333  3333 I AudioFlinger: loadHwModule() Loaded a2dp audio interface from A2DP Audio HW HAL (audio) handle 5
+05-25 10:48:47.540  3333  3333 I AudioFlinger: loadHwModule() Loaded usb audio interface from USB audio HW HAL (audio) handle 6
+05-25 10:48:47.541  3333  3333 I r_submix: adev_open(name=audio_hw_if)
+05-25 10:48:47.541  3333  3333 I r_submix: adev_init_check()
+05-25 10:48:47.541  3333  3333 I AudioFlinger: loadHwModule() Loaded r_submix audio interface from Wifi Display audio HAL (audio) handle 7
+05-25 10:48:47.541  3333  3333 D r_submix: adev_open_input_stream(addr=0)
+05-25 10:48:47.541  3333  3333 D r_submix: submix_audio_device_create_pipe_l(addr=0, idx=9)
+05-25 10:48:47.541  3333  3333 D r_submix:   now using address 0 for route 9
+05-25 10:48:47.541  3333  3343 I AudioFlinger: AudioFlinger's thread 0xf4400000 ready to run
+05-25 10:48:47.541  3333  3333 D r_submix: adev_close_input_stream()
+05-25 10:48:47.541  3333  3333 D r_submix: submix_audio_device_release_pipe_l(idx=9) addr=0
+05-25 10:48:47.541  3333  3333 D r_submix: submix_audio_device_destroy_pipe_l(): pipe destroyed
+05-25 10:48:47.542  3333  3333 F libc    : Fatal signal 11 (SIGSEGV), code 1, fault addr 0x0 in tid 3333 (mediaserver)
+05-25 10:48:47.542  3033  3033 I DEBUG   : property debug.db.uid not set; NOT waiting for gdb.
+05-25 10:48:47.542  3033  3033 I DEBUG   : HINT: adb shell setprop debug.db.uid 100000
+05-25 10:48:47.542  3033  3033 I DEBUG   : HINT: adb forward tcp:5039 tcp:5039
+05-25 10:48:47.592  3033  3033 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+05-25 10:48:47.592  3033  3033 F DEBUG   : Build fingerprint: 'samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30J/29ac460943:eng/test-keys'
+05-25 10:48:47.592  3033  3033 F DEBUG   : Revision: '0'
+05-25 10:48:47.592  3033  3033 F DEBUG   : ABI: 'arm'
+05-25 10:48:47.592  3033  3033 F DEBUG   : pid: 3333, tid: 3333, name: mediaserver  >>> /system/bin/mediaserver <<<
+05-25 10:48:47.592  3033  3033 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0
+05-25 10:48:47.595  3033  3033 F DEBUG   :     r0 f4b9e8f4  r1 00000000  r2 65732020  r3 00000007
+05-25 10:48:47.595  3033  3033 F DEBUG   :     r4 00000008  r5 f4b9e8f2  r6 f7589be0  r7 ffdf1554
+05-25 10:48:47.595  3033  3033 F DEBUG   :     r8 f4bfe00c  r9 f7587431  sl f7587635  fp f4b9e8f2
+05-25 10:48:47.595  3033  3033 F DEBUG   :     ip 00000000  sp ffdf1510  lr f75824f7  pc f70d53c8  cpsr 600f0010
+05-25 10:48:47.596  3033  3033 F DEBUG   : 
+05-25 10:48:47.596  3033  3033 F DEBUG   : backtrace:
+05-25 10:48:47.596  3033  3033 F DEBUG   :     #00 pc 000183c8  /system/lib/libc.so (strcmp+152)
+05-25 10:48:47.596  3033  3033 F DEBUG   :     #01 pc 000084f3  /system/lib/libaudiopolicyservice.so
+05-25 10:48:47.596  3033  3033 F DEBUG   :     #02 pc 00020550  [stack]
+05-25 10:48:47.629  3333  3333 W mediaserver: type=1701 audit(0.0:138): auid=4294967295 uid=1013 gid=1005 ses=4294967295 exe="/system/bin/mediaserver" sig=11
+05-25 10:48:47.644  3040  3040 I Zygote  : ...preloaded 342 resources in 435ms.
+05-25 10:48:47.644  3033  3033 F DEBUG   : 
+05-25 10:48:47.644  3033  3033 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_01
+05-25 10:48:47.646  2896  2896 I ServiceManager: service 'media.audio_flinger' died
+05-25 10:48:47.646  2896  2896 I ServiceManager: service 'media.player' died
+05-25 10:48:47.646  2896  2896 I ServiceManager: service 'media.resource_manager' died
+05-25 10:48:47.646  2896  2896 I ServiceManager: service 'media.camera' died
+05-25 10:48:47.654  3040  3040 I Zygote  : ...preloaded 41 resources in 10ms.
+05-25 10:48:47.661  3040  3040 D libEGL  : loaded /vendor/lib64/egl/libGLES_mali.so
+05-25 10:48:47.667  3040  3040 I Zygote  : Preloading shared libraries...
+05-25 10:48:47.680  3040  3040 D Zygote  : end preload
+05-25 10:48:47.680  3040  3040 I art     : Starting a blocking GC Explicit
+05-25 10:48:47.691  3040  3040 I art     : Explicit concurrent mark sweep GC freed 11416(460KB) AllocSpace objects, 0(0B) LOS objects, 35% free, 29MB/45MB, paused 49us total 10.811ms
+05-25 10:48:47.697  3040  3040 I art     : Starting a blocking GC Explicit
+05-25 10:48:47.707  3040  3040 I art     : Explicit concurrent mark sweep GC freed 2694(126KB) AllocSpace objects, 0(0B) LOS objects, 35% free, 28MB/44MB, paused 46us total 9.281ms
+05-25 10:48:47.707  3040  3331 I art     : Starting a blocking GC HeapTrim
+05-25 10:48:47.708  3040  3040 I art     : Starting a blocking GC Background
+05-25 10:48:47.758  3040  3040 I Zygote  : System server process 3349 has been created
+05-25 10:48:47.760  3040  3040 I Zygote  : Accepting command socket connections
+05-25 10:48:47.766  3349  3349 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+05-25 10:48:48.767  3349  3349 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+05-25 10:48:49.767  3349  3349 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+05-25 10:48:50.768  3349  3349 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+05-25 10:48:51.768  3349  3349 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+05-25 10:48:51.774  3366  3366 I mediaserver: ServiceManager: 0xf66ce120
+05-25 10:48:51.774  3366  3366 I AudioFlinger: Using default 3000 mSec as standby time.
+05-25 10:48:51.775  3366  3366 E BatteryNotifier: batterystats service unavailable!
+05-25 10:48:51.775  3366  3366 E BatteryNotifier: batterystats service unavailable!
+05-25 10:48:51.775  3366  3366 I CameraService: CameraService started (pid=3366)
+05-25 10:48:51.775  3366  3366 I CameraService: CameraService process starting
+05-25 10:48:51.775  3366  3366 E BatteryNotifier: batterystats service unavailable!
+05-25 10:48:51.775  3366  3366 E BatteryNotifier: batterystats service unavailable!
+05-25 10:48:51.775  3366  3366 E CameraService: Could not load camera HAL module: -2 (No such file or directory)
+05-25 10:48:51.776  3366  3366 I AudioPolicyService: AudioPolicyService CSTOR in new mode
+05-25 10:48:51.776  3366  3366 W APM::HwModule: loadOutput() invalid supported devices
+05-25 10:48:51.776  3366  3366 W APM::HwModule: loadOutput() invalid supported devices
+05-25 10:48:51.776  3366  3366 W APM::HwModule: loadInput() invalid supported devices
+05-25 10:48:51.776  3366  3366 W APM::HwModule: loadInput() invalid supported devices
+05-25 10:48:51.776  3366  3366 I APM::ConfigParsingUtils: loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+05-25 10:48:52.334  3366  3366 I AudioFlinger: loadHwModule() Loaded primary audio interface from Samsung audio HW HAL (audio) handle 1
+05-25 10:48:52.334  3366  3366 I AudioFlinger: openOutput(), module 1 Device 2, SamplingRate 48000, Format 0x000001, Channels 3, flags a
+05-25 10:48:52.334  3366  3366 I AudioFlinger: AudioStreamOut::open(), mHalFormatIsLinearPcm = 1
+05-25 10:48:52.335  3366  3366 I AudioFlinger: HAL output buffer size 1024 frames, normal sink buffer size 1024 frames
+05-25 10:48:52.336  3366  3366 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libaudioeffectoffload.so
+05-25 10:48:52.337  3366  3366 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libexynosvisualizer.so
+05-25 10:48:52.338  3366  3366 W EffectsFactory: loadLibrary() failed to open /system/lib/libmysound.so
+05-25 10:48:52.338  3366  3366 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libmyspace.so
+05-25 10:48:52.338  3366  3366 W EffectsFactory: loadLibrary() failed to open /system/lib/libaudiosa.so
+05-25 10:48:52.339  3366  3366 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libaudiosaplus_sec.so
+05-25 10:48:52.339  3366  3366 W EffectsFactory: loadLibrary() failed to open /system/lib/libsamsungSoundbooster_plus.so
+05-25 10:48:52.339  3366  3366 W EffectsFactory: loadEffect() could not get library soundbooster_plus
+05-25 10:48:52.339  3366  3366 W EffectsFactory: addSubEffect() could not get library soundalive_sec
+05-25 10:48:52.339  3366  3366 W EffectsFactory: loadEffect() could not add subEffect 
+05-25 10:48:52.339  3366  3366 W EffectsFactory: loadEffect() could not get library soundalive
+05-25 10:48:52.339  3366  3366 W EffectsFactory: loadEffect() could not get library soundalive
+05-25 10:48:52.339  3366  3366 W EffectsFactory: loadEffect() could not get library soundalive
+05-25 10:48:52.339  3366  3366 W EffectsFactory: addSubEffect() could not get library visualizer_hw
+05-25 10:48:52.339  3366  3366 W EffectsFactory: loadEffect() could not add subEffect 
+05-25 10:48:52.339  3366  3366 W EffectsFactory: addSubEffect() could not get library mysound
+05-25 10:48:52.339  3366  3366 W EffectsFactory: loadEffect() could not add subEffect 
+05-25 10:48:52.339  3366  3366 W EffectsFactory: addSubEffect() could not get library myspace
+05-25 10:48:52.339  3366  3366 W EffectsFactory: loadEffect() could not add subEffect 
+05-25 10:48:52.339  3366  3366 I BufferProvider: found effect "Multichannel Downmix To Stereo" from The Android Open Source Project
+05-25 10:48:52.339  3366  3366 I AudioFlinger: Using module 1 has the primary audio interface
+05-25 10:48:52.339  3366  3373 I AudioFlinger: AudioFlinger's thread 0xf4a80000 ready to run
+05-25 10:48:52.339  3366  3373 V audio_hw_primary: do_out_standby: output standby: 1
+05-25 10:48:52.340  3366  3373 V audio_hw_primary: out_set_parameters: key value pairs: routing=2
+05-25 10:48:52.340  3366  3373 E AudioFlinger: no wake lock to update!
+05-25 10:48:52.340  3366  3366 I AudioFlinger: openOutput(), module 1 Device 2, SamplingRate 48000, Format 0x000001, Channels 3, flags 4
+05-25 10:48:52.340  3366  3366 I AudioFlinger: AudioStreamOut::open(), mHalFormatIsLinearPcm = 1
+05-25 10:48:52.340  3366  3366 I AudioFlinger: HAL output buffer size 256 frames, normal sink buffer size 960 frames
+05-25 10:48:52.341  3366  3366 E MonoPipe: Failed to fetch local time frequency when constructing a MonoPipe (res = -32).  getNextWriteTimestamp calls will be non-functional
+05-25 10:48:52.341  3366  3375 I AudioFlinger: AudioFlinger's thread 0xf4740000 ready to run
+05-25 10:48:52.341  3366  3375 V audio_hw_primary: out_set_parameters: key value pairs: routing=2
+05-25 10:48:52.341  3366  3375 V audio_hw_primary: do_out_standby: output standby: 1
+05-25 10:48:52.341  3366  3375 E AudioFlinger: no wake lock to update!
+05-25 10:48:52.341  3366  3366 V audio_hw_primary: adev_open_input_stream: Requesting input stream with rate: 48000, channels: 0xc
+05-25 10:48:52.342  3366  3376 I AudioFlinger: AudioFlinger's thread 0xf4440000 ready to run
+05-25 10:48:52.342  3366  3366 I bt_a2dp_hw: adev_open:  adev_open in A2dp_hw module
+05-25 10:48:52.342  3366  3366 I AudioFlinger: loadHwModule() Loaded a2dp audio interface from A2DP Audio HW HAL (audio) handle 5
+05-25 10:48:52.343  3366  3366 I AudioFlinger: loadHwModule() Loaded usb audio interface from USB audio HW HAL (audio) handle 6
+05-25 10:48:52.343  3366  3366 I r_submix: adev_open(name=audio_hw_if)
+05-25 10:48:52.343  3366  3366 I r_submix: adev_init_check()
+05-25 10:48:52.343  3366  3366 I AudioFlinger: loadHwModule() Loaded r_submix audio interface from Wifi Display audio HAL (audio) handle 7
+05-25 10:48:52.343  3366  3366 D r_submix: adev_open_input_stream(addr=0)
+05-25 10:48:52.343  3366  3366 D r_submix: submix_audio_device_create_pipe_l(addr=0, idx=9)
+05-25 10:48:52.343  3366  3366 D r_submix:   now using address 0 for route 9
+05-25 10:48:52.344  3366  3377 I AudioFlinger: AudioFlinger's thread 0xf4380000 ready to run
+05-25 10:48:52.344  3366  3366 D r_submix: adev_close_input_stream()
+05-25 10:48:52.344  3366  3366 D r_submix: submix_audio_device_release_pipe_l(idx=9) addr=0
+05-25 10:48:52.344  3366  3366 D r_submix: submix_audio_device_destroy_pipe_l(): pipe destroyed
+05-25 10:48:52.344  3366  3366 F libc    : Fatal signal 11 (SIGSEGV), code 1, fault addr 0x0 in tid 3366 (mediaserver)
+05-25 10:48:52.344  3033  3033 I DEBUG   : property debug.db.uid not set; NOT waiting for gdb.
+05-25 10:48:52.344  3033  3033 I DEBUG   : HINT: adb shell setprop debug.db.uid 100000
+05-25 10:48:52.344  3033  3033 I DEBUG   : HINT: adb forward tcp:5039 tcp:5039
+05-25 10:48:52.395  3033  3033 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+05-25 10:48:52.395  3033  3033 F DEBUG   : Build fingerprint: 'samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30J/29ac460943:eng/test-keys'
+05-25 10:48:52.395  3033  3033 F DEBUG   : Revision: '0'
+05-25 10:48:52.395  3033  3033 F DEBUG   : ABI: 'arm'
+05-25 10:48:52.395  3033  3033 F DEBUG   : pid: 3366, tid: 3366, name: mediaserver  >>> /system/bin/mediaserver <<<
+05-25 10:48:52.395  3033  3033 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0
+05-25 10:48:52.398  3033  3033 F DEBUG   :     r0 f4b1e8f4  r1 00000000  r2 65732020  r3 00000007
+05-25 10:48:52.398  3033  3033 F DEBUG   :     r4 00000008  r5 f4b1e8f2  r6 f7525be0  r7 ff9b0c84
+05-25 10:48:52.398  3033  3033 F DEBUG   :     r8 f4b7e00c  r9 f7523431  sl f7523635  fp f4b1e8f2
+05-25 10:48:52.398  3033  3033 F DEBUG   :     ip 00000000  sp ff9b0c40  lr f751e4f7  pc f70713c8  cpsr 600f0010
+05-25 10:48:52.399  3033  3033 F DEBUG   : 
+05-25 10:48:52.399  3033  3033 F DEBUG   : backtrace:
+05-25 10:48:52.399  3033  3033 F DEBUG   :     #00 pc 000183c8  /system/lib/libc.so (strcmp+152)
+05-25 10:48:52.399  3033  3033 F DEBUG   :     #01 pc 000084f3  /system/lib/libaudiopolicyservice.so
+05-25 10:48:52.399  3033  3033 F DEBUG   :     #02 pc 0001fc80  [stack]
+05-25 10:48:52.445  3033  3033 F DEBUG   : 
+05-25 10:48:52.445  3033  3033 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_02
+05-25 10:48:52.429  3366  3366 W mediaserver: type=1701 audit(0.0:139): auid=4294967295 uid=1013 gid=1005 ses=4294967295 exe="/system/bin/mediaserver" sig=11
+05-25 10:48:52.447  2896  2896 I ServiceManager: service 'media.audio_flinger' died
+05-25 10:48:52.447  2896  2896 I ServiceManager: service 'media.player' died
+05-25 10:48:52.447  2896  2896 I ServiceManager: service 'media.resource_manager' died
+05-25 10:48:52.447  2896  2896 I ServiceManager: service 'media.camera' died
+05-25 10:48:52.769  3349  3349 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+05-25 10:48:53.769  3349  3349 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+05-25 10:48:54.769  3349  3349 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+05-25 10:48:55.428  2987  2991 D BootAnimation: Use save memory method, maybe small fps in actual.
+05-25 10:48:55.770  3349  3349 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+05-25 10:48:56.770  3349  3349 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+05-25 10:48:57.570  3383  3383 I mediaserver: ServiceManager: 0xf674e120
+05-25 10:48:57.570  3383  3383 I AudioFlinger: Using default 3000 mSec as standby time.
+05-25 10:48:57.571  3383  3383 E BatteryNotifier: batterystats service unavailable!
+05-25 10:48:57.571  3383  3383 E BatteryNotifier: batterystats service unavailable!
+05-25 10:48:57.571  3383  3383 I CameraService: CameraService started (pid=3383)
+05-25 10:48:57.571  3383  3383 I CameraService: CameraService process starting
+05-25 10:48:57.571  3383  3383 E BatteryNotifier: batterystats service unavailable!
+05-25 10:48:57.571  3383  3383 E BatteryNotifier: batterystats service unavailable!
+05-25 10:48:57.571  3383  3383 E CameraService: Could not load camera HAL module: -2 (No such file or directory)
+05-25 10:48:57.572  3383  3383 I AudioPolicyService: AudioPolicyService CSTOR in new mode
+05-25 10:48:57.572  3383  3383 W APM::HwModule: loadOutput() invalid supported devices
+05-25 10:48:57.572  3383  3383 W APM::HwModule: loadOutput() invalid supported devices
+05-25 10:48:57.572  3383  3383 W APM::HwModule: loadInput() invalid supported devices
+05-25 10:48:57.572  3383  3383 W APM::HwModule: loadInput() invalid supported devices
+05-25 10:48:57.572  3383  3383 I APM::ConfigParsingUtils: loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+05-25 10:48:57.771  3349  3349 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+05-25 10:48:58.141  3383  3383 I AudioFlinger: loadHwModule() Loaded primary audio interface from Samsung audio HW HAL (audio) handle 1
+05-25 10:48:58.141  3383  3383 I AudioFlinger: openOutput(), module 1 Device 2, SamplingRate 48000, Format 0x000001, Channels 3, flags a
+05-25 10:48:58.141  3383  3383 I AudioFlinger: AudioStreamOut::open(), mHalFormatIsLinearPcm = 1
+05-25 10:48:58.141  3383  3383 I AudioFlinger: HAL output buffer size 1024 frames, normal sink buffer size 1024 frames
+05-25 10:48:58.142  3383  3383 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libaudioeffectoffload.so
+05-25 10:48:58.143  3383  3383 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libexynosvisualizer.so
+05-25 10:48:58.145  3383  3383 W EffectsFactory: loadLibrary() failed to open /system/lib/libmysound.so
+05-25 10:48:58.145  3383  3383 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libmyspace.so
+05-25 10:48:58.145  3383  3383 W EffectsFactory: loadLibrary() failed to open /system/lib/libaudiosa.so
+05-25 10:48:58.145  3383  3383 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libaudiosaplus_sec.so
+05-25 10:48:58.145  3383  3383 W EffectsFactory: loadLibrary() failed to open /system/lib/libsamsungSoundbooster_plus.so
+05-25 10:48:58.145  3383  3383 W EffectsFactory: loadEffect() could not get library soundbooster_plus
+05-25 10:48:58.145  3383  3383 W EffectsFactory: addSubEffect() could not get library soundalive_sec
+05-25 10:48:58.145  3383  3383 W EffectsFactory: loadEffect() could not add subEffect 
+05-25 10:48:58.145  3383  3383 W EffectsFactory: loadEffect() could not get library soundalive
+05-25 10:48:58.145  3383  3383 W EffectsFactory: loadEffect() could not get library soundalive
+05-25 10:48:58.145  3383  3383 W EffectsFactory: loadEffect() could not get library soundalive
+05-25 10:48:58.145  3383  3383 W EffectsFactory: addSubEffect() could not get library visualizer_hw
+05-25 10:48:58.145  3383  3383 W EffectsFactory: loadEffect() could not add subEffect 
+05-25 10:48:58.146  3383  3383 W EffectsFactory: addSubEffect() could not get library mysound
+05-25 10:48:58.146  3383  3383 W EffectsFactory: loadEffect() could not add subEffect 
+05-25 10:48:58.146  3383  3383 W EffectsFactory: addSubEffect() could not get library myspace
+05-25 10:48:58.146  3383  3383 W EffectsFactory: loadEffect() could not add subEffect 
+05-25 10:48:58.146  3383  3383 I BufferProvider: found effect "Multichannel Downmix To Stereo" from The Android Open Source Project
+05-25 10:48:58.146  3383  3383 I AudioFlinger: Using module 1 has the primary audio interface
+05-25 10:48:58.146  3383  3387 I AudioFlinger: AudioFlinger's thread 0xf4b00000 ready to run
+05-25 10:48:58.146  3383  3387 V audio_hw_primary: do_out_standby: output standby: 1
+05-25 10:48:58.146  3383  3387 V audio_hw_primary: out_set_parameters: key value pairs: routing=2
+05-25 10:48:58.146  3383  3387 E AudioFlinger: no wake lock to update!
+05-25 10:48:58.147  3383  3383 I AudioFlinger: openOutput(), module 1 Device 2, SamplingRate 48000, Format 0x000001, Channels 3, flags 4
+05-25 10:48:58.147  3383  3383 I AudioFlinger: AudioStreamOut::open(), mHalFormatIsLinearPcm = 1
+05-25 10:48:58.147  3383  3383 I AudioFlinger: HAL output buffer size 256 frames, normal sink buffer size 960 frames
+05-25 10:48:58.147  3383  3383 E MonoPipe: Failed to fetch local time frequency when constructing a MonoPipe (res = -32).  getNextWriteTimestamp calls will be non-functional
+05-25 10:48:58.147  3383  3389 I AudioFlinger: AudioFlinger's thread 0xf47c0000 ready to run
+05-25 10:48:58.147  3383  3389 V audio_hw_primary: out_set_parameters: key value pairs: routing=2
+05-25 10:48:58.147  3383  3389 V audio_hw_primary: do_out_standby: output standby: 1
+05-25 10:48:58.147  3383  3389 E AudioFlinger: no wake lock to update!
+05-25 10:48:58.148  3383  3383 V audio_hw_primary: adev_open_input_stream: Requesting input stream with rate: 48000, channels: 0xc
+05-25 10:48:58.148  3383  3390 I AudioFlinger: AudioFlinger's thread 0xf44c0000 ready to run
+05-25 10:48:58.148  3383  3383 I bt_a2dp_hw: adev_open:  adev_open in A2dp_hw module
+05-25 10:48:58.148  3383  3383 I AudioFlinger: loadHwModule() Loaded a2dp audio interface from A2DP Audio HW HAL (audio) handle 5
+05-25 10:48:58.149  3383  3383 I AudioFlinger: loadHwModule() Loaded usb audio interface from USB audio HW HAL (audio) handle 6
+05-25 10:48:58.150  3383  3383 I r_submix: adev_open(name=audio_hw_if)
+05-25 10:48:58.150  3383  3383 I r_submix: adev_init_check()
+05-25 10:48:58.150  3383  3383 I AudioFlinger: loadHwModule() Loaded r_submix audio interface from Wifi Display audio HAL (audio) handle 7
+05-25 10:48:58.150  3383  3383 D r_submix: adev_open_input_stream(addr=0)
+05-25 10:48:58.150  3383  3383 D r_submix: submix_audio_device_create_pipe_l(addr=0, idx=9)
+05-25 10:48:58.150  3383  3383 D r_submix:   now using address 0 for route 9
+05-25 10:48:58.150  3383  3391 I AudioFlinger: AudioFlinger's thread 0xf4400000 ready to run
+05-25 10:48:58.150  3383  3383 D r_submix: adev_close_input_stream()
+05-25 10:48:58.150  3383  3383 D r_submix: submix_audio_device_release_pipe_l(idx=9) addr=0
+05-25 10:48:58.150  3383  3383 D r_submix: submix_audio_device_destroy_pipe_l(): pipe destroyed
+05-25 10:48:58.150  3383  3383 F libc    : Fatal signal 11 (SIGSEGV), code 1, fault addr 0x0 in tid 3383 (mediaserver)
+05-25 10:48:58.150  3033  3033 I DEBUG   : property debug.db.uid not set; NOT waiting for gdb.
+05-25 10:48:58.150  3033  3033 I DEBUG   : HINT: adb shell setprop debug.db.uid 100000
+05-25 10:48:58.150  3033  3033 I DEBUG   : HINT: adb forward tcp:5039 tcp:5039
+05-25 10:48:58.251  3033  3033 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+05-25 10:48:58.251  3033  3033 F DEBUG   : Build fingerprint: 'samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30J/29ac460943:eng/test-keys'
+05-25 10:48:58.251  3033  3033 F DEBUG   : Revision: '0'
+05-25 10:48:58.251  3033  3033 F DEBUG   : ABI: 'arm'
+05-25 10:48:58.251  3033  3033 F DEBUG   : pid: 3383, tid: 3383, name: mediaserver  >>> /system/bin/mediaserver <<<
+05-25 10:48:58.251  3033  3033 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0
+05-25 10:48:58.254  3033  3033 F DEBUG   :     r0 f4b9e8f4  r1 00000000  r2 65732020  r3 00000007
+05-25 10:48:58.254  3033  3033 F DEBUG   :     r4 00000008  r5 f4b9e8f2  r6 f75a1be0  r7 ffdf5a34
+05-25 10:48:58.254  3033  3033 F DEBUG   :     r8 f4bfe00c  r9 f759f431  sl f759f635  fp f4b9e8f2
+05-25 10:48:58.254  3033  3033 F DEBUG   :     ip 00000000  sp ffdf59f0  lr f759a4f7  pc f70ed3c8  cpsr 600f0010
+05-25 10:48:58.255  3033  3033 F DEBUG   : 
+05-25 10:48:58.255  3033  3033 F DEBUG   : backtrace:
+05-25 10:48:58.255  3033  3033 F DEBUG   :     #00 pc 000183c8  /system/lib/libc.so (strcmp+152)
+05-25 10:48:58.255  3033  3033 F DEBUG   :     #01 pc 000084f3  /system/lib/libaudiopolicyservice.so
+05-25 10:48:58.255  3033  3033 F DEBUG   :     #02 pc 0001fa30  [stack]
+05-25 10:48:58.301  3033  3033 F DEBUG   : 
+05-25 10:48:58.301  3033  3033 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_03
+05-25 10:48:58.289  3383  3383 W mediaserver: type=1701 audit(0.0:140): auid=4294967295 uid=1013 gid=1005 ses=4294967295 exe="/system/bin/mediaserver" sig=11
+05-25 10:48:58.303  2896  2896 I ServiceManager: service 'media.audio_flinger' died
+05-25 10:48:58.303  2896  2896 I ServiceManager: service 'media.player' died
+05-25 10:48:58.303  2896  2896 I ServiceManager: service 'media.resource_manager' died
+05-25 10:48:58.303  2896  2896 I ServiceManager: service 'media.camera' died
+05-25 10:48:58.771  3349  3349 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+05-25 10:48:59.772  3349  3349 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+05-25 10:49:00.772  3349  3349 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+05-25 10:49:01.773  3349  3349 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+05-25 10:49:02.426  3398  3398 I mediaserver: ServiceManager: 0xf638e120
+05-25 10:49:02.426  3398  3398 I AudioFlinger: Using default 3000 mSec as standby time.
+05-25 10:49:02.426  3398  3398 E BatteryNotifier: batterystats service unavailable!
+05-25 10:49:02.427  3398  3398 E BatteryNotifier: batterystats service unavailable!
+05-25 10:49:02.427  3398  3398 I CameraService: CameraService started (pid=3398)
+05-25 10:49:02.427  3398  3398 I CameraService: CameraService process starting
+05-25 10:49:02.427  3398  3398 E BatteryNotifier: batterystats service unavailable!
+05-25 10:49:02.427  3398  3398 E BatteryNotifier: batterystats service unavailable!
+05-25 10:49:02.427  3398  3398 E CameraService: Could not load camera HAL module: -2 (No such file or directory)
+05-25 10:49:02.428  3398  3398 I AudioPolicyService: AudioPolicyService CSTOR in new mode
+05-25 10:49:02.428  3398  3398 W APM::HwModule: loadOutput() invalid supported devices
+05-25 10:49:02.428  3398  3398 W APM::HwModule: loadOutput() invalid supported devices
+05-25 10:49:02.428  3398  3398 W APM::HwModule: loadInput() invalid supported devices
+05-25 10:49:02.428  3398  3398 W APM::HwModule: loadInput() invalid supported devices
+05-25 10:49:02.428  3398  3398 I APM::ConfigParsingUtils: loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+05-25 10:49:02.773  3349  3349 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+05-25 10:49:02.983  3398  3398 I AudioFlinger: loadHwModule() Loaded primary audio interface from Samsung audio HW HAL (audio) handle 1
+05-25 10:49:02.983  3398  3398 I AudioFlinger: openOutput(), module 1 Device 2, SamplingRate 48000, Format 0x000001, Channels 3, flags a
+05-25 10:49:02.983  3398  3398 I AudioFlinger: AudioStreamOut::open(), mHalFormatIsLinearPcm = 1
+05-25 10:49:02.983  3398  3398 I AudioFlinger: HAL output buffer size 1024 frames, normal sink buffer size 1024 frames
+05-25 10:49:02.984  3398  3398 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libaudioeffectoffload.so
+05-25 10:49:02.985  3398  3398 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libexynosvisualizer.so
+05-25 10:49:02.987  3398  3398 W EffectsFactory: loadLibrary() failed to open /system/lib/libmysound.so
+05-25 10:49:02.987  3398  3398 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libmyspace.so
+05-25 10:49:02.987  3398  3398 W EffectsFactory: loadLibrary() failed to open /system/lib/libaudiosa.so
+05-25 10:49:02.987  3398  3398 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libaudiosaplus_sec.so
+05-25 10:49:02.988  3398  3398 W EffectsFactory: loadLibrary() failed to open /system/lib/libsamsungSoundbooster_plus.so
+05-25 10:49:02.988  3398  3398 W EffectsFactory: loadEffect() could not get library soundbooster_plus
+05-25 10:49:02.988  3398  3398 W EffectsFactory: addSubEffect() could not get library soundalive_sec
+05-25 10:49:02.988  3398  3398 W EffectsFactory: loadEffect() could not add subEffect 
+05-25 10:49:02.988  3398  3398 W EffectsFactory: loadEffect() could not get library soundalive
+05-25 10:49:02.988  3398  3398 W EffectsFactory: loadEffect() could not get library soundalive
+05-25 10:49:02.988  3398  3398 W EffectsFactory: loadEffect() could not get library soundalive
+05-25 10:49:02.988  3398  3398 W EffectsFactory: addSubEffect() could not get library visualizer_hw
+05-25 10:49:02.988  3398  3398 W EffectsFactory: loadEffect() could not add subEffect 
+05-25 10:49:02.988  3398  3398 W EffectsFactory: addSubEffect() could not get library mysound
+05-25 10:49:02.988  3398  3398 W EffectsFactory: loadEffect() could not add subEffect 
+05-25 10:49:02.988  3398  3398 W EffectsFactory: addSubEffect() could not get library myspace
+05-25 10:49:02.988  3398  3398 W EffectsFactory: loadEffect() could not add subEffect 
+05-25 10:49:02.988  3398  3398 I BufferProvider: found effect "Multichannel Downmix To Stereo" from The Android Open Source Project
+05-25 10:49:02.988  3398  3398 I AudioFlinger: Using module 1 has the primary audio interface
+05-25 10:49:02.988  3398  3402 I AudioFlinger: AudioFlinger's thread 0xf4780000 ready to run
+05-25 10:49:02.988  3398  3402 V audio_hw_primary: do_out_standby: output standby: 1
+05-25 10:49:02.989  3398  3402 V audio_hw_primary: out_set_parameters: key value pairs: routing=2
+05-25 10:49:02.989  3398  3402 E AudioFlinger: no wake lock to update!
+05-25 10:49:02.989  3398  3398 I AudioFlinger: openOutput(), module 1 Device 2, SamplingRate 48000, Format 0x000001, Channels 3, flags 4
+05-25 10:49:02.989  3398  3398 I AudioFlinger: AudioStreamOut::open(), mHalFormatIsLinearPcm = 1
+05-25 10:49:02.989  3398  3398 I AudioFlinger: HAL output buffer size 256 frames, normal sink buffer size 960 frames
+05-25 10:49:02.990  3398  3398 E MonoPipe: Failed to fetch local time frequency when constructing a MonoPipe (res = -32).  getNextWriteTimestamp calls will be non-functional
+05-25 10:49:02.990  3398  3404 I AudioFlinger: AudioFlinger's thread 0xf4440000 ready to run
+05-25 10:49:02.990  3398  3404 V audio_hw_primary: out_set_parameters: key value pairs: routing=2
+05-25 10:49:02.990  3398  3404 V audio_hw_primary: do_out_standby: output standby: 1
+05-25 10:49:02.990  3398  3404 E AudioFlinger: no wake lock to update!
+05-25 10:49:02.991  3398  3398 V audio_hw_primary: adev_open_input_stream: Requesting input stream with rate: 48000, channels: 0xc
+05-25 10:49:02.991  3398  3405 I AudioFlinger: AudioFlinger's thread 0xf4140000 ready to run
+05-25 10:49:02.991  3398  3398 I bt_a2dp_hw: adev_open:  adev_open in A2dp_hw module
+05-25 10:49:02.991  3398  3398 I AudioFlinger: loadHwModule() Loaded a2dp audio interface from A2DP Audio HW HAL (audio) handle 5
+05-25 10:49:02.992  3398  3398 I AudioFlinger: loadHwModule() Loaded usb audio interface from USB audio HW HAL (audio) handle 6
+05-25 10:49:02.992  3398  3398 I r_submix: adev_open(name=audio_hw_if)
+05-25 10:49:02.993  3398  3398 I r_submix: adev_init_check()
+05-25 10:49:02.993  3398  3398 I AudioFlinger: loadHwModule() Loaded r_submix audio interface from Wifi Display audio HAL (audio) handle 7
+05-25 10:49:02.993  3398  3398 D r_submix: adev_open_input_stream(addr=0)
+05-25 10:49:02.993  3398  3398 D r_submix: submix_audio_device_create_pipe_l(addr=0, idx=9)
+05-25 10:49:02.993  3398  3398 D r_submix:   now using address 0 for route 9
+05-25 10:49:02.993  3398  3406 I AudioFlinger: AudioFlinger's thread 0xf4080000 ready to run
+05-25 10:49:02.993  3398  3398 D r_submix: adev_close_input_stream()
+05-25 10:49:02.993  3398  3398 D r_submix: submix_audio_device_release_pipe_l(idx=9) addr=0
+05-25 10:49:02.993  3398  3398 D r_submix: submix_audio_device_destroy_pipe_l(): pipe destroyed
+05-25 10:49:02.993  3398  3398 F libc    : Fatal signal 11 (SIGSEGV), code 1, fault addr 0x0 in tid 3398 (mediaserver)
+05-25 10:49:02.993  3033  3033 I DEBUG   : property debug.db.uid not set; NOT waiting for gdb.
+05-25 10:49:02.993  3033  3033 I DEBUG   : HINT: adb shell setprop debug.db.uid 100000
+05-25 10:49:02.993  3033  3033 I DEBUG   : HINT: adb forward tcp:5039 tcp:5039
+05-25 10:49:03.044  3033  3033 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+05-25 10:49:03.044  3033  3033 F DEBUG   : Build fingerprint: 'samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30J/29ac460943:eng/test-keys'
+05-25 10:49:03.044  3033  3033 F DEBUG   : Revision: '0'
+05-25 10:49:03.044  3033  3033 F DEBUG   : ABI: 'arm'
+05-25 10:49:03.044  3033  3033 F DEBUG   : pid: 3398, tid: 3398, name: mediaserver  >>> /system/bin/mediaserver <<<
+05-25 10:49:03.044  3033  3033 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0
+05-25 10:49:03.047  3033  3033 F DEBUG   :     r0 f481e8f4  r1 00000000  r2 65732020  r3 00000007
+05-25 10:49:03.047  3033  3033 F DEBUG   :     r4 00000008  r5 f481e8f2  r6 f721bbe0  r7 ff9b8234
+05-25 10:49:03.047  3033  3033 F DEBUG   :     r8 f487e00c  r9 f7219431  sl f7219635  fp f481e8f2
+05-25 10:49:03.047  3033  3033 F DEBUG   :     ip 00000000  sp ff9b81f0  lr f72144f7  pc f6d673c8  cpsr 600f0010
+05-25 10:49:03.048  3033  3033 F DEBUG   : 
+05-25 10:49:03.048  3033  3033 F DEBUG   : backtrace:
+05-25 10:49:03.048  3033  3033 F DEBUG   :     #00 pc 000183c8  /system/lib/libc.so (strcmp+152)
+05-25 10:49:03.048  3033  3033 F DEBUG   :     #01 pc 000084f3  /system/lib/libaudiopolicyservice.so
+05-25 10:49:03.048  3033  3033 F DEBUG   :     #02 pc 00020230  [stack]
+05-25 10:49:03.094  3033  3033 F DEBUG   : 
+05-25 10:49:03.094  3033  3033 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_04
+05-25 10:49:03.079  3398  3398 W mediaserver: type=1701 audit(0.0:141): auid=4294967295 uid=1013 gid=1005 ses=4294967295 exe="/system/bin/mediaserver" sig=11
+05-25 10:49:03.105  2896  2896 I ServiceManager: service 'media.audio_flinger' died
+05-25 10:49:03.105  2896  2896 I ServiceManager: service 'media.player' died
+05-25 10:49:03.105  2896  2896 I ServiceManager: service 'media.resource_manager' died
+05-25 10:49:03.105  2896  2896 I ServiceManager: service 'media.camera' died
+05-25 10:49:03.774  3349  3349 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+05-25 10:49:04.774  3349  3349 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+05-25 10:49:05.775  3349  3349 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+05-25 10:49:06.775  3349  3349 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+05-25 10:49:07.219  3412  3412 I mediaserver: ServiceManager: 0xf680e120
+05-25 10:49:07.219  3412  3412 I AudioFlinger: Using default 3000 mSec as standby time.
+05-25 10:49:07.219  3412  3412 E BatteryNotifier: batterystats service unavailable!
+05-25 10:49:07.219  3412  3412 E BatteryNotifier: batterystats service unavailable!
+05-25 10:49:07.220  3412  3412 I CameraService: CameraService started (pid=3412)
+05-25 10:49:07.220  3412  3412 I CameraService: CameraService process starting
+05-25 10:49:07.220  3412  3412 E BatteryNotifier: batterystats service unavailable!
+05-25 10:49:07.220  3412  3412 E BatteryNotifier: batterystats service unavailable!
+05-25 10:49:07.220  3412  3412 E CameraService: Could not load camera HAL module: -2 (No such file or directory)
+05-25 10:49:07.220  3412  3412 I AudioPolicyService: AudioPolicyService CSTOR in new mode
+05-25 10:49:07.221  3412  3412 W APM::HwModule: loadOutput() invalid supported devices
+05-25 10:49:07.221  3412  3412 W APM::HwModule: loadOutput() invalid supported devices
+05-25 10:49:07.221  3412  3412 W APM::HwModule: loadInput() invalid supported devices
+05-25 10:49:07.221  3412  3412 W APM::HwModule: loadInput() invalid supported devices
+05-25 10:49:07.221  3412  3412 I APM::ConfigParsingUtils: loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+05-25 10:49:07.776  3349  3349 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+05-25 10:49:07.786  3412  3412 I AudioFlinger: loadHwModule() Loaded primary audio interface from Samsung audio HW HAL (audio) handle 1
+05-25 10:49:07.786  3412  3412 I AudioFlinger: openOutput(), module 1 Device 2, SamplingRate 48000, Format 0x000001, Channels 3, flags a
+05-25 10:49:07.786  3412  3412 I AudioFlinger: AudioStreamOut::open(), mHalFormatIsLinearPcm = 1
+05-25 10:49:07.786  3412  3412 I AudioFlinger: HAL output buffer size 1024 frames, normal sink buffer size 1024 frames
+05-25 10:49:07.787  3412  3412 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libaudioeffectoffload.so
+05-25 10:49:07.788  3412  3412 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libexynosvisualizer.so
+05-25 10:49:07.790  3412  3412 W EffectsFactory: loadLibrary() failed to open /system/lib/libmysound.so
+05-25 10:49:07.790  3412  3412 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libmyspace.so
+05-25 10:49:07.790  3412  3412 W EffectsFactory: loadLibrary() failed to open /system/lib/libaudiosa.so
+05-25 10:49:07.790  3412  3412 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libaudiosaplus_sec.so
+05-25 10:49:07.791  3412  3412 W EffectsFactory: loadLibrary() failed to open /system/lib/libsamsungSoundbooster_plus.so
+05-25 10:49:07.791  3412  3412 W EffectsFactory: loadEffect() could not get library soundbooster_plus
+05-25 10:49:07.791  3412  3412 W EffectsFactory: addSubEffect() could not get library soundalive_sec
+05-25 10:49:07.791  3412  3412 W EffectsFactory: loadEffect() could not add subEffect 
+05-25 10:49:07.791  3412  3412 W EffectsFactory: loadEffect() could not get library soundalive
+05-25 10:49:07.791  3412  3412 W EffectsFactory: loadEffect() could not get library soundalive
+05-25 10:49:07.791  3412  3412 W EffectsFactory: loadEffect() could not get library soundalive
+05-25 10:49:07.791  3412  3412 W EffectsFactory: addSubEffect() could not get library visualizer_hw
+05-25 10:49:07.791  3412  3412 W EffectsFactory: loadEffect() could not add subEffect 
+05-25 10:49:07.791  3412  3412 W EffectsFactory: addSubEffect() could not get library mysound
+05-25 10:49:07.791  3412  3412 W EffectsFactory: loadEffect() could not add subEffect 
+05-25 10:49:07.791  3412  3412 W EffectsFactory: addSubEffect() could not get library myspace
+05-25 10:49:07.791  3412  3412 W EffectsFactory: loadEffect() could not add subEffect 
+05-25 10:49:07.791  3412  3412 I BufferProvider: found effect "Multichannel Downmix To Stereo" from The Android Open Source Project
+05-25 10:49:07.791  3412  3412 I AudioFlinger: Using module 1 has the primary audio interface
+05-25 10:49:07.791  3412  3416 I AudioFlinger: AudioFlinger's thread 0xf4bc0000 ready to run
+05-25 10:49:07.791  3412  3416 V audio_hw_primary: do_out_standby: output standby: 1
+05-25 10:49:07.791  3412  3416 V audio_hw_primary: out_set_parameters: key value pairs: routing=2
+05-25 10:49:07.791  3412  3416 E AudioFlinger: no wake lock to update!
+05-25 10:49:07.792  3412  3412 I AudioFlinger: openOutput(), module 1 Device 2, SamplingRate 48000, Format 0x000001, Channels 3, flags 4
+05-25 10:49:07.792  3412  3412 I AudioFlinger: AudioStreamOut::open(), mHalFormatIsLinearPcm = 1
+05-25 10:49:07.792  3412  3412 I AudioFlinger: HAL output buffer size 256 frames, normal sink buffer size 960 frames
+05-25 10:49:07.792  3412  3412 E MonoPipe: Failed to fetch local time frequency when constructing a MonoPipe (res = -32).  getNextWriteTimestamp calls will be non-functional
+05-25 10:49:07.792  3412  3418 I AudioFlinger: AudioFlinger's thread 0xf4840000 ready to run
+05-25 10:49:07.792  3412  3418 V audio_hw_primary: out_set_parameters: key value pairs: routing=2
+05-25 10:49:07.792  3412  3418 V audio_hw_primary: do_out_standby: output standby: 1
+05-25 10:49:07.793  3412  3418 E AudioFlinger: no wake lock to update!
+05-25 10:49:07.793  3412  3412 V audio_hw_primary: adev_open_input_stream: Requesting input stream with rate: 48000, channels: 0xc
+05-25 10:49:07.793  3412  3419 I AudioFlinger: AudioFlinger's thread 0xf4540000 ready to run
+05-25 10:49:07.794  3412  3412 I bt_a2dp_hw: adev_open:  adev_open in A2dp_hw module
+05-25 10:49:07.794  3412  3412 I AudioFlinger: loadHwModule() Loaded a2dp audio interface from A2DP Audio HW HAL (audio) handle 5
+05-25 10:49:07.795  3412  3412 I AudioFlinger: loadHwModule() Loaded usb audio interface from USB audio HW HAL (audio) handle 6
+05-25 10:49:07.795  3412  3412 I r_submix: adev_open(name=audio_hw_if)
+05-25 10:49:07.795  3412  3412 I r_submix: adev_init_check()
+05-25 10:49:07.795  3412  3412 I AudioFlinger: loadHwModule() Loaded r_submix audio interface from Wifi Display audio HAL (audio) handle 7
+05-25 10:49:07.795  3412  3412 D r_submix: adev_open_input_stream(addr=0)
+05-25 10:49:07.795  3412  3412 D r_submix: submix_audio_device_create_pipe_l(addr=0, idx=9)
+05-25 10:49:07.795  3412  3412 D r_submix:   now using address 0 for route 9
+05-25 10:49:07.795  3412  3420 I AudioFlinger: AudioFlinger's thread 0xf44c0000 ready to run
+05-25 10:49:07.796  3412  3412 D r_submix: adev_close_input_stream()
+05-25 10:49:07.796  3412  3412 D r_submix: submix_audio_device_release_pipe_l(idx=9) addr=0
+05-25 10:49:07.796  3412  3412 D r_submix: submix_audio_device_destroy_pipe_l(): pipe destroyed
+05-25 10:49:07.796  3412  3412 F libc    : Fatal signal 11 (SIGSEGV), code 1, fault addr 0x0 in tid 3412 (mediaserver)
+05-25 10:49:07.796  3033  3033 I DEBUG   : property debug.db.uid not set; NOT waiting for gdb.
+05-25 10:49:07.796  3033  3033 I DEBUG   : HINT: adb shell setprop debug.db.uid 100000
+05-25 10:49:07.796  3033  3033 I DEBUG   : HINT: adb forward tcp:5039 tcp:5039
+05-25 10:49:07.897  3033  3033 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+05-25 10:49:07.897  3033  3033 F DEBUG   : Build fingerprint: 'samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30J/29ac460943:eng/test-keys'
+05-25 10:49:07.897  3033  3033 F DEBUG   : Revision: '0'
+05-25 10:49:07.897  3033  3033 F DEBUG   : ABI: 'arm'
+05-25 10:49:07.897  3033  3033 F DEBUG   : pid: 3412, tid: 3412, name: mediaserver  >>> /system/bin/mediaserver <<<
+05-25 10:49:07.897  3033  3033 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0
+05-25 10:49:07.900  3033  3033 F DEBUG   :     r0 f4c5e8f4  r1 00000000  r2 65732020  r3 00000007
+05-25 10:49:07.900  3033  3033 F DEBUG   :     r4 00000008  r5 f4c5e8f2  r6 f766dbe0  r7 ffaaa1f4
+05-25 10:49:07.900  3033  3033 F DEBUG   :     r8 f4cbe00c  r9 f766b431  sl f766b635  fp f4c5e8f2
+05-25 10:49:07.900  3033  3033 F DEBUG   :     ip 00000000  sp ffaaa1b0  lr f76664f7  pc f71b93c8  cpsr 600f0010
+05-25 10:49:07.901  3033  3033 F DEBUG   : 
+05-25 10:49:07.901  3033  3033 F DEBUG   : backtrace:
+05-25 10:49:07.901  3033  3033 F DEBUG   :     #00 pc 000183c8  /system/lib/libc.so (strcmp+152)
+05-25 10:49:07.901  3033  3033 F DEBUG   :     #01 pc 000084f3  /system/lib/libaudiopolicyservice.so
+05-25 10:49:07.901  3033  3033 F DEBUG   :     #02 pc 000201f0  [stack]
+05-25 10:49:07.947  3033  3033 F DEBUG   : 
+05-25 10:49:07.947  3033  3033 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_05
+05-25 10:49:07.939  3412  3412 W mediaserver: type=1701 audit(0.0:142): auid=4294967295 uid=1013 gid=1005 ses=4294967295 exe="/system/bin/mediaserver" sig=11
+05-25 10:49:07.951  2896  2896 I ServiceManager: service 'media.audio_flinger' died
+05-25 10:49:07.951  2896  2896 I ServiceManager: service 'media.player' died
+05-25 10:49:07.951  2896  2896 I ServiceManager: service 'media.resource_manager' died
+05-25 10:49:07.951  2896  2896 I ServiceManager: service 'media.camera' died
+05-25 10:49:08.776  3349  3349 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+05-25 10:49:09.777  3349  3349 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+05-25 10:49:10.777  3349  3349 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+05-25 10:49:11.777  3349  3349 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+05-25 10:49:12.074  3427  3427 I mediaserver: ServiceManager: 0xf654e120
+05-25 10:49:12.074  3427  3427 I AudioFlinger: Using default 3000 mSec as standby time.
+05-25 10:49:12.074  3427  3427 E BatteryNotifier: batterystats service unavailable!
+05-25 10:49:12.074  3427  3427 E BatteryNotifier: batterystats service unavailable!
+05-25 10:49:12.075  3427  3427 I CameraService: CameraService started (pid=3427)
+05-25 10:49:12.075  3427  3427 I CameraService: CameraService process starting
+05-25 10:49:12.075  3427  3427 E BatteryNotifier: batterystats service unavailable!
+05-25 10:49:12.075  3427  3427 E BatteryNotifier: batterystats service unavailable!
+05-25 10:49:12.075  3427  3427 E CameraService: Could not load camera HAL module: -2 (No such file or directory)
+05-25 10:49:12.075  3427  3427 I AudioPolicyService: AudioPolicyService CSTOR in new mode
+05-25 10:49:12.076  3427  3427 W APM::HwModule: loadOutput() invalid supported devices
+05-25 10:49:12.076  3427  3427 W APM::HwModule: loadOutput() invalid supported devices
+05-25 10:49:12.076  3427  3427 W APM::HwModule: loadInput() invalid supported devices
+05-25 10:49:12.076  3427  3427 W APM::HwModule: loadInput() invalid supported devices
+05-25 10:49:12.076  3427  3427 I APM::ConfigParsingUtils: loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+05-25 10:49:12.679  3427  3427 I AudioFlinger: loadHwModule() Loaded primary audio interface from Samsung audio HW HAL (audio) handle 1
+05-25 10:49:12.679  3427  3427 I AudioFlinger: openOutput(), module 1 Device 2, SamplingRate 48000, Format 0x000001, Channels 3, flags a
+05-25 10:49:12.679  3427  3427 I AudioFlinger: AudioStreamOut::open(), mHalFormatIsLinearPcm = 1
+05-25 10:49:12.679  3427  3427 I AudioFlinger: HAL output buffer size 1024 frames, normal sink buffer size 1024 frames
+05-25 10:49:12.680  3427  3427 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libaudioeffectoffload.so
+05-25 10:49:12.682  3427  3427 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libexynosvisualizer.so
+05-25 10:49:12.683  3427  3427 W EffectsFactory: loadLibrary() failed to open /system/lib/libmysound.so
+05-25 10:49:12.683  3427  3427 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libmyspace.so
+05-25 10:49:12.683  3427  3427 W EffectsFactory: loadLibrary() failed to open /system/lib/libaudiosa.so
+05-25 10:49:12.683  3427  3427 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libaudiosaplus_sec.so
+05-25 10:49:12.684  3427  3427 W EffectsFactory: loadLibrary() failed to open /system/lib/libsamsungSoundbooster_plus.so
+05-25 10:49:12.684  3427  3427 W EffectsFactory: loadEffect() could not get library soundbooster_plus
+05-25 10:49:12.684  3427  3427 W EffectsFactory: addSubEffect() could not get library soundalive_sec
+05-25 10:49:12.684  3427  3427 W EffectsFactory: loadEffect() could not add subEffect 
+05-25 10:49:12.684  3427  3427 W EffectsFactory: loadEffect() could not get library soundalive
+05-25 10:49:12.684  3427  3427 W EffectsFactory: loadEffect() could not get library soundalive
+05-25 10:49:12.684  3427  3427 W EffectsFactory: loadEffect() could not get library soundalive
+05-25 10:49:12.684  3427  3427 W EffectsFactory: addSubEffect() could not get library visualizer_hw
+05-25 10:49:12.684  3427  3427 W EffectsFactory: loadEffect() could not add subEffect 
+05-25 10:49:12.684  3427  3427 W EffectsFactory: addSubEffect() could not get library mysound
+05-25 10:49:12.684  3427  3427 W EffectsFactory: loadEffect() could not add subEffect 
+05-25 10:49:12.684  3427  3427 W EffectsFactory: addSubEffect() could not get library myspace
+05-25 10:49:12.684  3427  3427 W EffectsFactory: loadEffect() could not add subEffect 
+05-25 10:49:12.684  3427  3427 I BufferProvider: found effect "Multichannel Downmix To Stereo" from The Android Open Source Project
+05-25 10:49:12.684  3427  3427 I AudioFlinger: Using module 1 has the primary audio interface
+05-25 10:49:12.684  3427  3431 I AudioFlinger: AudioFlinger's thread 0xf4900000 ready to run
+05-25 10:49:12.684  3427  3431 V audio_hw_primary: do_out_standby: output standby: 1
+05-25 10:49:12.685  3427  3431 V audio_hw_primary: out_set_parameters: key value pairs: routing=2
+05-25 10:49:12.685  3427  3431 E AudioFlinger: no wake lock to update!
+05-25 10:49:12.686  3427  3427 I AudioFlinger: openOutput(), module 1 Device 2, SamplingRate 48000, Format 0x000001, Channels 3, flags 4
+05-25 10:49:12.686  3427  3427 I AudioFlinger: AudioStreamOut::open(), mHalFormatIsLinearPcm = 1
+05-25 10:49:12.686  3427  3427 I AudioFlinger: HAL output buffer size 256 frames, normal sink buffer size 960 frames
+05-25 10:49:12.686  3427  3427 E MonoPipe: Failed to fetch local time frequency when constructing a MonoPipe (res = -32).  getNextWriteTimestamp calls will be non-functional
+05-25 10:49:12.686  3427  3433 I AudioFlinger: AudioFlinger's thread 0xf45c0000 ready to run
+05-25 10:49:12.686  3427  3433 V audio_hw_primary: out_set_parameters: key value pairs: routing=2
+05-25 10:49:12.686  3427  3433 V audio_hw_primary: do_out_standby: output standby: 1
+05-25 10:49:12.686  3427  3433 E AudioFlinger: no wake lock to update!
+05-25 10:49:12.687  3427  3427 V audio_hw_primary: adev_open_input_stream: Requesting input stream with rate: 48000, channels: 0xc
+05-25 10:49:12.687  3427  3434 I AudioFlinger: AudioFlinger's thread 0xf42c0000 ready to run
+05-25 10:49:12.688  3427  3427 I bt_a2dp_hw: adev_open:  adev_open in A2dp_hw module
+05-25 10:49:12.688  3427  3427 I AudioFlinger: loadHwModule() Loaded a2dp audio interface from A2DP Audio HW HAL (audio) handle 5
+05-25 10:49:12.688  3427  3427 I AudioFlinger: loadHwModule() Loaded usb audio interface from USB audio HW HAL (audio) handle 6
+05-25 10:49:12.689  3427  3427 I r_submix: adev_open(name=audio_hw_if)
+05-25 10:49:12.689  3427  3427 I r_submix: adev_init_check()
+05-25 10:49:12.689  3427  3427 I AudioFlinger: loadHwModule() Loaded r_submix audio interface from Wifi Display audio HAL (audio) handle 7
+05-25 10:49:12.689  3427  3427 D r_submix: adev_open_input_stream(addr=0)
+05-25 10:49:12.689  3427  3427 D r_submix: submix_audio_device_create_pipe_l(addr=0, idx=9)
+05-25 10:49:12.689  3427  3427 D r_submix:   now using address 0 for route 9
+05-25 10:49:12.689  3427  3435 I AudioFlinger: AudioFlinger's thread 0xf4200000 ready to run
+05-25 10:49:12.689  3427  3427 D r_submix: adev_close_input_stream()
+05-25 10:49:12.689  3427  3427 D r_submix: submix_audio_device_release_pipe_l(idx=9) addr=0
+05-25 10:49:12.689  3427  3427 D r_submix: submix_audio_device_destroy_pipe_l(): pipe destroyed
+05-25 10:49:12.689  3427  3427 F libc    : Fatal signal 11 (SIGSEGV), code 1, fault addr 0x0 in tid 3427 (mediaserver)
+05-25 10:49:12.690  3033  3033 I DEBUG   : property debug.db.uid not set; NOT waiting for gdb.
+05-25 10:49:12.690  3033  3033 I DEBUG   : HINT: adb shell setprop debug.db.uid 100000
+05-25 10:49:12.690  3033  3033 I DEBUG   : HINT: adb forward tcp:5039 tcp:5039
+05-25 10:49:12.740  3033  3033 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+05-25 10:49:12.740  3033  3033 F DEBUG   : Build fingerprint: 'samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30J/29ac460943:eng/test-keys'
+05-25 10:49:12.740  3033  3033 F DEBUG   : Revision: '0'
+05-25 10:49:12.740  3033  3033 F DEBUG   : ABI: 'arm'
+05-25 10:49:12.740  3033  3033 F DEBUG   : pid: 3427, tid: 3427, name: mediaserver  >>> /system/bin/mediaserver <<<
+05-25 10:49:12.740  3033  3033 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0
+05-25 10:49:12.743  3033  3033 F DEBUG   :     r0 f499e8f4  r1 00000000  r2 65732020  r3 00000007
+05-25 10:49:12.743  3033  3033 F DEBUG   :     r4 00000008  r5 f499e8f2  r6 f73a9be0  r7 ffa14ff4
+05-25 10:49:12.743  3033  3033 F DEBUG   :     r8 f49fe00c  r9 f73a7431  sl f73a7635  fp f499e8f2
+05-25 10:49:12.743  3033  3033 F DEBUG   :     ip 00000000  sp ffa14fb0  lr f73a24f7  pc f6ef53c8  cpsr 600f0010
+05-25 10:49:12.744  3033  3033 F DEBUG   : 
+05-25 10:49:12.744  3033  3033 F DEBUG   : backtrace:
+05-25 10:49:12.744  3033  3033 F DEBUG   :     #00 pc 000183c8  /system/lib/libc.so (strcmp+152)
+05-25 10:49:12.744  3033  3033 F DEBUG   :     #01 pc 000084f3  /system/lib/libaudiopolicyservice.so
+05-25 10:49:12.744  3033  3033 F DEBUG   :     #02 pc 0001fff0  [stack]
+05-25 10:49:12.778  3349  3349 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+05-25 10:49:12.790  3033  3033 F DEBUG   : 
+05-25 10:49:12.790  3033  3033 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_06
+05-25 10:49:12.779  3427  3427 W mediaserver: type=1701 audit(0.0:143): auid=4294967295 uid=1013 gid=1005 ses=4294967295 exe="/system/bin/mediaserver" sig=11
+05-25 10:49:12.792  2896  2896 I ServiceManager: service 'media.audio_flinger' died
+05-25 10:49:12.792  2896  2896 I ServiceManager: service 'media.player' died
+05-25 10:49:12.792  2896  2896 I ServiceManager: service 'media.resource_manager' died
+05-25 10:49:12.792  2896  2896 I ServiceManager: service 'media.camera' died
+05-25 10:49:13.778  3349  3349 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+05-25 10:49:14.779  3349  3349 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+05-25 10:49:15.779  3349  3349 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+05-25 10:49:16.780  3349  3349 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+05-25 10:49:16.918  3441  3441 I mediaserver: ServiceManager: 0xf67ce120
+05-25 10:49:16.918  3441  3441 I AudioFlinger: Using default 3000 mSec as standby time.
+05-25 10:49:16.918  3441  3441 E BatteryNotifier: batterystats service unavailable!
+05-25 10:49:16.918  3441  3441 E BatteryNotifier: batterystats service unavailable!
+05-25 10:49:16.919  3441  3441 I CameraService: CameraService started (pid=3441)
+05-25 10:49:16.919  3441  3441 I CameraService: CameraService process starting
+05-25 10:49:16.919  3441  3441 E BatteryNotifier: batterystats service unavailable!
+05-25 10:49:16.919  3441  3441 E BatteryNotifier: batterystats service unavailable!
+05-25 10:49:16.919  3441  3441 E CameraService: Could not load camera HAL module: -2 (No such file or directory)
+05-25 10:49:16.920  3441  3441 I AudioPolicyService: AudioPolicyService CSTOR in new mode
+05-25 10:49:16.920  3441  3441 W APM::HwModule: loadOutput() invalid supported devices
+05-25 10:49:16.920  3441  3441 W APM::HwModule: loadOutput() invalid supported devices
+05-25 10:49:16.920  3441  3441 W APM::HwModule: loadInput() invalid supported devices
+05-25 10:49:16.920  3441  3441 W APM::HwModule: loadInput() invalid supported devices
+05-25 10:49:16.920  3441  3441 I APM::ConfigParsingUtils: loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+05-25 10:49:17.478  3441  3441 I AudioFlinger: loadHwModule() Loaded primary audio interface from Samsung audio HW HAL (audio) handle 1
+05-25 10:49:17.478  3441  3441 I AudioFlinger: openOutput(), module 1 Device 2, SamplingRate 48000, Format 0x000001, Channels 3, flags a
+05-25 10:49:17.478  3441  3441 I AudioFlinger: AudioStreamOut::open(), mHalFormatIsLinearPcm = 1
+05-25 10:49:17.478  3441  3441 I AudioFlinger: HAL output buffer size 1024 frames, normal sink buffer size 1024 frames
+05-25 10:49:17.479  3441  3441 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libaudioeffectoffload.so
+05-25 10:49:17.480  3441  3441 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libexynosvisualizer.so
+05-25 10:49:17.482  3441  3441 W EffectsFactory: loadLibrary() failed to open /system/lib/libmysound.so
+05-25 10:49:17.482  3441  3441 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libmyspace.so
+05-25 10:49:17.482  3441  3441 W EffectsFactory: loadLibrary() failed to open /system/lib/libaudiosa.so
+05-25 10:49:17.482  3441  3441 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libaudiosaplus_sec.so
+05-25 10:49:17.482  3441  3441 W EffectsFactory: loadLibrary() failed to open /system/lib/libsamsungSoundbooster_plus.so
+05-25 10:49:17.482  3441  3441 W EffectsFactory: loadEffect() could not get library soundbooster_plus
+05-25 10:49:17.482  3441  3441 W EffectsFactory: addSubEffect() could not get library soundalive_sec
+05-25 10:49:17.482  3441  3441 W EffectsFactory: loadEffect() could not add subEffect 
+05-25 10:49:17.482  3441  3441 W EffectsFactory: loadEffect() could not get library soundalive
+05-25 10:49:17.482  3441  3441 W EffectsFactory: loadEffect() could not get library soundalive
+05-25 10:49:17.482  3441  3441 W EffectsFactory: loadEffect() could not get library soundalive
+05-25 10:49:17.482  3441  3441 W EffectsFactory: addSubEffect() could not get library visualizer_hw
+05-25 10:49:17.482  3441  3441 W EffectsFactory: loadEffect() could not add subEffect 
+05-25 10:49:17.483  3441  3441 W EffectsFactory: addSubEffect() could not get library mysound
+05-25 10:49:17.483  3441  3441 W EffectsFactory: loadEffect() could not add subEffect 
+05-25 10:49:17.483  3441  3441 W EffectsFactory: addSubEffect() could not get library myspace
+05-25 10:49:17.483  3441  3441 W EffectsFactory: loadEffect() could not add subEffect 
+05-25 10:49:17.483  3441  3441 I BufferProvider: found effect "Multichannel Downmix To Stereo" from The Android Open Source Project
+05-25 10:49:17.483  3441  3441 I AudioFlinger: Using module 1 has the primary audio interface
+05-25 10:49:17.483  3441  3445 I AudioFlinger: AudioFlinger's thread 0xf4b80000 ready to run
+05-25 10:49:17.483  3441  3445 V audio_hw_primary: out_set_parameters: key value pairs: routing=2
+05-25 10:49:17.483  3441  3445 V audio_hw_primary: do_out_standby: output standby: 1
+05-25 10:49:17.483  3441  3445 E AudioFlinger: no wake lock to update!
+05-25 10:49:17.484  3441  3441 I AudioFlinger: openOutput(), module 1 Device 2, SamplingRate 48000, Format 0x000001, Channels 3, flags 4
+05-25 10:49:17.484  3441  3441 I AudioFlinger: AudioStreamOut::open(), mHalFormatIsLinearPcm = 1
+05-25 10:49:17.484  3441  3441 I AudioFlinger: HAL output buffer size 256 frames, normal sink buffer size 960 frames
+05-25 10:49:17.484  3441  3441 E MonoPipe: Failed to fetch local time frequency when constructing a MonoPipe (res = -32).  getNextWriteTimestamp calls will be non-functional
+05-25 10:49:17.484  3441  3447 I AudioFlinger: AudioFlinger's thread 0xf4840000 ready to run
+05-25 10:49:17.484  3441  3447 V audio_hw_primary: out_set_parameters: key value pairs: routing=2
+05-25 10:49:17.484  3441  3447 V audio_hw_primary: do_out_standby: output standby: 1
+05-25 10:49:17.484  3441  3447 E AudioFlinger: no wake lock to update!
+05-25 10:49:17.485  3441  3441 V audio_hw_primary: adev_open_input_stream: Requesting input stream with rate: 48000, channels: 0xc
+05-25 10:49:17.485  3441  3448 I AudioFlinger: AudioFlinger's thread 0xf4540000 ready to run
+05-25 10:49:17.486  3441  3441 I bt_a2dp_hw: adev_open:  adev_open in A2dp_hw module
+05-25 10:49:17.486  3441  3441 I AudioFlinger: loadHwModule() Loaded a2dp audio interface from A2DP Audio HW HAL (audio) handle 5
+05-25 10:49:17.486  3441  3441 I AudioFlinger: loadHwModule() Loaded usb audio interface from USB audio HW HAL (audio) handle 6
+05-25 10:49:17.487  3441  3441 I r_submix: adev_open(name=audio_hw_if)
+05-25 10:49:17.487  3441  3441 I r_submix: adev_init_check()
+05-25 10:49:17.487  3441  3441 I AudioFlinger: loadHwModule() Loaded r_submix audio interface from Wifi Display audio HAL (audio) handle 7
+05-25 10:49:17.487  3441  3441 D r_submix: adev_open_input_stream(addr=0)
+05-25 10:49:17.487  3441  3441 D r_submix: submix_audio_device_create_pipe_l(addr=0, idx=9)
+05-25 10:49:17.487  3441  3441 D r_submix:   now using address 0 for route 9
+05-25 10:49:17.487  3441  3449 I AudioFlinger: AudioFlinger's thread 0xf4480000 ready to run
+05-25 10:49:17.487  3441  3441 D r_submix: adev_close_input_stream()
+05-25 10:49:17.487  3441  3441 D r_submix: submix_audio_device_release_pipe_l(idx=9) addr=0
+05-25 10:49:17.487  3441  3441 D r_submix: submix_audio_device_destroy_pipe_l(): pipe destroyed
+05-25 10:49:17.488  3441  3441 F libc    : Fatal signal 11 (SIGSEGV), code 1, fault addr 0x0 in tid 3441 (mediaserver)
+05-25 10:49:17.488  3033  3033 I DEBUG   : property debug.db.uid not set; NOT waiting for gdb.
+05-25 10:49:17.488  3033  3033 I DEBUG   : HINT: adb shell setprop debug.db.uid 100000
+05-25 10:49:17.488  3033  3033 I DEBUG   : HINT: adb forward tcp:5039 tcp:5039
+05-25 10:49:17.538  3033  3033 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+05-25 10:49:17.538  3033  3033 F DEBUG   : Build fingerprint: 'samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30J/29ac460943:eng/test-keys'
+05-25 10:49:17.538  3033  3033 F DEBUG   : Revision: '0'
+05-25 10:49:17.538  3033  3033 F DEBUG   : ABI: 'arm'
+05-25 10:49:17.538  3033  3033 F DEBUG   : pid: 3441, tid: 3441, name: mediaserver  >>> /system/bin/mediaserver <<<
+05-25 10:49:17.538  3033  3033 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0
+05-25 10:49:17.541  3033  3033 F DEBUG   :     r0 f4c1e8f4  r1 00000000  r2 65732020  r3 00000007
+05-25 10:49:17.541  3033  3033 F DEBUG   :     r4 00000008  r5 f4c1e8f2  r6 f762dbe0  r7 ffeb7fd4
+05-25 10:49:17.541  3033  3033 F DEBUG   :     r8 f4c7e00c  r9 f762b431  sl f762b635  fp f4c1e8f2
+05-25 10:49:17.541  3033  3033 F DEBUG   :     ip 00000000  sp ffeb7f90  lr f76264f7  pc f71793c8  cpsr 600f0010
+05-25 10:49:17.542  3033  3033 F DEBUG   : 
+05-25 10:49:17.542  3033  3033 F DEBUG   : backtrace:
+05-25 10:49:17.542  3033  3033 F DEBUG   :     #00 pc 000183c8  /system/lib/libc.so (strcmp+152)
+05-25 10:49:17.542  3033  3033 F DEBUG   :     #01 pc 000084f3  /system/lib/libaudiopolicyservice.so
+05-25 10:49:17.542  3033  3033 F DEBUG   :     #02 pc 0001ffd0  [stack]
+05-25 10:49:17.588  3033  3033 F DEBUG   : 
+05-25 10:49:17.588  3033  3033 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_07
+05-25 10:49:17.579  3441  3441 W mediaserver: type=1701 audit(0.0:144): auid=4294967295 uid=1013 gid=1005 ses=4294967295 exe="/system/bin/mediaserver" sig=11
+05-25 10:49:17.591  2896  2896 I ServiceManager: service 'media.audio_flinger' died
+05-25 10:49:17.591  2896  2896 I ServiceManager: service 'media.player' died
+05-25 10:49:17.591  2896  2896 I ServiceManager: service 'media.resource_manager' died
+05-25 10:49:17.591  2896  2896 I ServiceManager: service 'media.camera' died
+05-25 10:49:17.780  3349  3349 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+05-25 10:49:18.781  3349  3349 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+05-25 10:49:18.882  2987  3016 W         : g2d fimg library does not exist
+05-25 10:49:19.334  2987  3016 W         : fimg library or stretchFimgApi_v5 symbol can not be loaded
+05-25 10:49:19.782  3349  3349 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+05-25 10:49:20.783  3349  3349 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+05-25 10:49:21.710  3458  3458 I mediaserver: ServiceManager: 0xf630e120
+05-25 10:49:21.710  3458  3458 I AudioFlinger: Using default 3000 mSec as standby time.
+05-25 10:49:21.710  3458  3458 E BatteryNotifier: batterystats service unavailable!
+05-25 10:49:21.710  3458  3458 E BatteryNotifier: batterystats service unavailable!
+05-25 10:49:21.710  3458  3458 I CameraService: CameraService started (pid=3458)
+05-25 10:49:21.710  3458  3458 I CameraService: CameraService process starting
+05-25 10:49:21.711  3458  3458 E BatteryNotifier: batterystats service unavailable!
+05-25 10:49:21.711  3458  3458 E BatteryNotifier: batterystats service unavailable!
+05-25 10:49:21.711  3458  3458 E CameraService: Could not load camera HAL module: -2 (No such file or directory)
+05-25 10:49:21.711  3458  3458 I AudioPolicyService: AudioPolicyService CSTOR in new mode
+05-25 10:49:21.711  3458  3458 W APM::HwModule: loadOutput() invalid supported devices
+05-25 10:49:21.712  3458  3458 W APM::HwModule: loadOutput() invalid supported devices
+05-25 10:49:21.712  3458  3458 W APM::HwModule: loadInput() invalid supported devices
+05-25 10:49:21.712  3458  3458 W APM::HwModule: loadInput() invalid supported devices
+05-25 10:49:21.712  3458  3458 I APM::ConfigParsingUtils: loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+05-25 10:49:21.784  3349  3349 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+05-25 10:49:22.245  3458  3458 I AudioFlinger: loadHwModule() Loaded primary audio interface from Samsung audio HW HAL (audio) handle 1
+05-25 10:49:22.245  3458  3458 I AudioFlinger: openOutput(), module 1 Device 2, SamplingRate 48000, Format 0x000001, Channels 3, flags a
+05-25 10:49:22.245  3458  3458 I AudioFlinger: AudioStreamOut::open(), mHalFormatIsLinearPcm = 1
+05-25 10:49:22.245  3458  3458 I AudioFlinger: HAL output buffer size 1024 frames, normal sink buffer size 1024 frames
+05-25 10:49:22.246  3458  3458 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libaudioeffectoffload.so
+05-25 10:49:22.247  3458  3458 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libexynosvisualizer.so
+05-25 10:49:22.248  3458  3458 W EffectsFactory: loadLibrary() failed to open /system/lib/libmysound.so
+05-25 10:49:22.248  3458  3458 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libmyspace.so
+05-25 10:49:22.248  3458  3458 W EffectsFactory: loadLibrary() failed to open /system/lib/libaudiosa.so
+05-25 10:49:22.248  3458  3458 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libaudiosaplus_sec.so
+05-25 10:49:22.249  3458  3458 W EffectsFactory: loadLibrary() failed to open /system/lib/libsamsungSoundbooster_plus.so
+05-25 10:49:22.249  3458  3458 W EffectsFactory: loadEffect() could not get library soundbooster_plus
+05-25 10:49:22.249  3458  3458 W EffectsFactory: addSubEffect() could not get library soundalive_sec
+05-25 10:49:22.249  3458  3458 W EffectsFactory: loadEffect() could not add subEffect 
+05-25 10:49:22.249  3458  3458 W EffectsFactory: loadEffect() could not get library soundalive
+05-25 10:49:22.249  3458  3458 W EffectsFactory: loadEffect() could not get library soundalive
+05-25 10:49:22.249  3458  3458 W EffectsFactory: loadEffect() could not get library soundalive
+05-25 10:49:22.249  3458  3458 W EffectsFactory: addSubEffect() could not get library visualizer_hw
+05-25 10:49:22.249  3458  3458 W EffectsFactory: loadEffect() could not add subEffect 
+05-25 10:49:22.249  3458  3458 W EffectsFactory: addSubEffect() could not get library mysound
+05-25 10:49:22.249  3458  3458 W EffectsFactory: loadEffect() could not add subEffect 
+05-25 10:49:22.249  3458  3458 W EffectsFactory: addSubEffect() could not get library myspace
+05-25 10:49:22.249  3458  3458 W EffectsFactory: loadEffect() could not add subEffect 
+05-25 10:49:22.249  3458  3458 I BufferProvider: found effect "Multichannel Downmix To Stereo" from The Android Open Source Project
+05-25 10:49:22.249  3458  3458 I AudioFlinger: Using module 1 has the primary audio interface
+05-25 10:49:22.249  3458  3462 I AudioFlinger: AudioFlinger's thread 0xf4700000 ready to run
+05-25 10:49:22.249  3458  3462 V audio_hw_primary: do_out_standby: output standby: 1
+05-25 10:49:22.250  3458  3462 V audio_hw_primary: out_set_parameters: key value pairs: routing=2
+05-25 10:49:22.250  3458  3462 E AudioFlinger: no wake lock to update!
+05-25 10:49:22.251  3458  3458 I AudioFlinger: openOutput(), module 1 Device 2, SamplingRate 48000, Format 0x000001, Channels 3, flags 4
+05-25 10:49:22.251  3458  3458 I AudioFlinger: AudioStreamOut::open(), mHalFormatIsLinearPcm = 1
+05-25 10:49:22.251  3458  3458 I AudioFlinger: HAL output buffer size 256 frames, normal sink buffer size 960 frames
+05-25 10:49:22.252  3458  3458 E MonoPipe: Failed to fetch local time frequency when constructing a MonoPipe (res = -32).  getNextWriteTimestamp calls will be non-functional
+05-25 10:49:22.252  3458  3464 I AudioFlinger: AudioFlinger's thread 0xf43c0000 ready to run
+05-25 10:49:22.252  3458  3464 V audio_hw_primary: do_out_standby: output standby: 1
+05-25 10:49:22.252  3458  3464 V audio_hw_primary: out_set_parameters: key value pairs: routing=2
+05-25 10:49:22.252  3458  3464 E AudioFlinger: no wake lock to update!
+05-25 10:49:22.254  3458  3458 V audio_hw_primary: adev_open_input_stream: Requesting input stream with rate: 48000, channels: 0xc
+05-25 10:49:22.254  3458  3465 I AudioFlinger: AudioFlinger's thread 0xf40c0000 ready to run
+05-25 10:49:22.254  3458  3458 I bt_a2dp_hw: adev_open:  adev_open in A2dp_hw module
+05-25 10:49:22.254  3458  3458 I AudioFlinger: loadHwModule() Loaded a2dp audio interface from A2DP Audio HW HAL (audio) handle 5
+05-25 10:49:22.255  3458  3458 I AudioFlinger: loadHwModule() Loaded usb audio interface from USB audio HW HAL (audio) handle 6
+05-25 10:49:22.256  3458  3458 I r_submix: adev_open(name=audio_hw_if)
+05-25 10:49:22.256  3458  3458 I r_submix: adev_init_check()
+05-25 10:49:22.256  3458  3458 I AudioFlinger: loadHwModule() Loaded r_submix audio interface from Wifi Display audio HAL (audio) handle 7
+05-25 10:49:22.256  3458  3458 D r_submix: adev_open_input_stream(addr=0)
+05-25 10:49:22.256  3458  3458 D r_submix: submix_audio_device_create_pipe_l(addr=0, idx=9)
+05-25 10:49:22.256  3458  3458 D r_submix:   now using address 0 for route 9
+05-25 10:49:22.256  3458  3466 I AudioFlinger: AudioFlinger's thread 0xf4040000 ready to run
+05-25 10:49:22.256  3458  3458 D r_submix: adev_close_input_stream()
+05-25 10:49:22.256  3458  3458 D r_submix: submix_audio_device_release_pipe_l(idx=9) addr=0
+05-25 10:49:22.256  3458  3458 D r_submix: submix_audio_device_destroy_pipe_l(): pipe destroyed
+05-25 10:49:22.256  3458  3458 F libc    : Fatal signal 11 (SIGSEGV), code 1, fault addr 0x0 in tid 3458 (mediaserver)
+05-25 10:49:22.256  3033  3033 I DEBUG   : property debug.db.uid not set; NOT waiting for gdb.
+05-25 10:49:22.256  3033  3033 I DEBUG   : HINT: adb shell setprop debug.db.uid 100000
+05-25 10:49:22.256  3033  3033 I DEBUG   : HINT: adb forward tcp:5039 tcp:5039
+05-25 10:49:22.308  3033  3033 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+05-25 10:49:22.308  3033  3033 F DEBUG   : Build fingerprint: 'samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30J/29ac460943:eng/test-keys'
+05-25 10:49:22.308  3033  3033 F DEBUG   : Revision: '0'
+05-25 10:49:22.308  3033  3033 F DEBUG   : ABI: 'arm'
+05-25 10:49:22.308  3033  3033 F DEBUG   : pid: 3458, tid: 3458, name: mediaserver  >>> /system/bin/mediaserver <<<
+05-25 10:49:22.308  3033  3033 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0
+05-25 10:49:22.324  3033  3033 F DEBUG   :     r0 f479e8f4  r1 00000000  r2 65732020  r3 00000007
+05-25 10:49:22.324  3033  3033 F DEBUG   :     r4 00000008  r5 f479e8f2  r6 f719fbe0  r7 ffbdfd34
+05-25 10:49:22.324  3033  3033 F DEBUG   :     r8 f47fe00c  r9 f719d431  sl f719d635  fp f479e8f2
+05-25 10:49:22.324  3033  3033 F DEBUG   :     ip 00000000  sp ffbdfcf0  lr f71984f7  pc f6ceb3c8  cpsr 600f0010
+05-25 10:49:22.326  3033  3033 F DEBUG   : 
+05-25 10:49:22.326  3033  3033 F DEBUG   : backtrace:
+05-25 10:49:22.326  3033  3033 F DEBUG   :     #00 pc 000183c8  /system/lib/libc.so (strcmp+152)
+05-25 10:49:22.327  3033  3033 F DEBUG   :     #01 pc 000084f3  /system/lib/libaudiopolicyservice.so
+05-25 10:49:22.327  3033  3033 F DEBUG   :     #02 pc 0001fd30  [stack]
+05-25 10:49:22.380  3033  3033 F DEBUG   : 
+05-25 10:49:22.380  3033  3033 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_08
+05-25 10:49:22.369  3458  3458 W mediaserver: type=1701 audit(0.0:145): auid=4294967295 uid=1013 gid=1005 ses=4294967295 exe="/system/bin/mediaserver" sig=11
+05-25 10:49:22.383  2896  2896 I ServiceManager: service 'media.audio_flinger' died
+05-25 10:49:22.383  2896  2896 I ServiceManager: service 'media.player' died
+05-25 10:49:22.383  2896  2896 I ServiceManager: service 'media.resource_manager' died
+05-25 10:49:22.383  2896  2896 I ServiceManager: service 'media.camera' died
+05-25 10:49:22.785  3349  3349 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+05-25 10:49:23.786  3349  3349 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+05-25 10:49:24.787  3349  3349 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+05-25 10:49:25.789  3349  3349 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+05-25 10:49:26.789  3349  3349 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+05-25 10:49:27.515  3474  3474 I mediaserver: ServiceManager: 0xf674e120
+05-25 10:49:27.515  3474  3474 I AudioFlinger: Using default 3000 mSec as standby time.
+05-25 10:49:27.516  3474  3474 E BatteryNotifier: batterystats service unavailable!
+05-25 10:49:27.516  3474  3474 E BatteryNotifier: batterystats service unavailable!
+05-25 10:49:27.517  3474  3474 I CameraService: CameraService started (pid=3474)
+05-25 10:49:27.517  3474  3474 I CameraService: CameraService process starting
+05-25 10:49:27.517  3474  3474 E BatteryNotifier: batterystats service unavailable!
+05-25 10:49:27.517  3474  3474 E BatteryNotifier: batterystats service unavailable!
+05-25 10:49:27.517  3474  3474 E CameraService: Could not load camera HAL module: -2 (No such file or directory)
+05-25 10:49:27.518  3474  3474 I AudioPolicyService: AudioPolicyService CSTOR in new mode
+05-25 10:49:27.518  3474  3474 W APM::HwModule: loadOutput() invalid supported devices
+05-25 10:49:27.518  3474  3474 W APM::HwModule: loadOutput() invalid supported devices
+05-25 10:49:27.518  3474  3474 W APM::HwModule: loadInput() invalid supported devices
+05-25 10:49:27.518  3474  3474 W APM::HwModule: loadInput() invalid supported devices
+05-25 10:49:27.518  3474  3474 I APM::ConfigParsingUtils: loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+05-25 10:49:27.790  3349  3349 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
+05-25 10:49:28.053  3474  3474 I AudioFlinger: loadHwModule() Loaded primary audio interface from Samsung audio HW HAL (audio) handle 1
+05-25 10:49:28.053  3474  3474 I AudioFlinger: openOutput(), module 1 Device 2, SamplingRate 48000, Format 0x000001, Channels 3, flags a
+05-25 10:49:28.053  3474  3474 I AudioFlinger: AudioStreamOut::open(), mHalFormatIsLinearPcm = 1
+05-25 10:49:28.053  3474  3474 I AudioFlinger: HAL output buffer size 1024 frames, normal sink buffer size 1024 frames
+05-25 10:49:28.054  3474  3474 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libaudioeffectoffload.so
+05-25 10:49:28.055  3474  3474 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libexynosvisualizer.so
+05-25 10:49:28.057  3474  3474 W EffectsFactory: loadLibrary() failed to open /system/lib/libmysound.so
+05-25 10:49:28.057  3474  3474 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libmyspace.so
+05-25 10:49:28.057  3474  3474 W EffectsFactory: loadLibrary() failed to open /system/lib/libaudiosa.so
+05-25 10:49:28.057  3474  3474 W EffectsFactory: loadLibrary() failed to open /system/lib/soundfx/libaudiosaplus_sec.so
+05-25 10:49:28.058  3474  3474 W EffectsFactory: loadLibrary() failed to open /system/lib/libsamsungSoundbooster_plus.so
+05-25 10:49:28.058  3474  3474 W EffectsFactory: loadEffect() could not get library soundbooster_plus
+05-25 10:49:28.058  3474  3474 W EffectsFactory: addSubEffect() could not get library soundalive_sec
+05-25 10:49:28.058  3474  3474 W EffectsFactory: loadEffect() could not add subEffect 
+05-25 10:49:28.058  3474  3474 W EffectsFactory: loadEffect() could not get library soundalive
+05-25 10:49:28.058  3474  3474 W EffectsFactory: loadEffect() could not get library soundalive
+05-25 10:49:28.058  3474  3474 W EffectsFactory: loadEffect() could not get library soundalive
+05-25 10:49:28.058  3474  3474 W EffectsFactory: addSubEffect() could not get library visualizer_hw
+05-25 10:49:28.058  3474  3474 W EffectsFactory: loadEffect() could not add subEffect 
+05-25 10:49:28.058  3474  3474 W EffectsFactory: addSubEffect() could not get library mysound
+05-25 10:49:28.058  3474  3474 W EffectsFactory: loadEffect() could not add subEffect 
+05-25 10:49:28.058  3474  3474 W EffectsFactory: addSubEffect() could not get library myspace
+05-25 10:49:28.058  3474  3474 W EffectsFactory: loadEffect() could not add subEffect 
+05-25 10:49:28.058  3474  3474 I BufferProvider: found effect "Multichannel Downmix To Stereo" from The Android Open Source Project
+05-25 10:49:28.058  3474  3474 I AudioFlinger: Using module 1 has the primary audio interface
+05-25 10:49:28.058  3474  3478 I AudioFlinger: AudioFlinger's thread 0xf4b40000 ready to run
+05-25 10:49:28.058  3474  3478 V audio_hw_primary: do_out_standby: output standby: 1
+05-25 10:49:28.058  3474  3478 V audio_hw_primary: out_set_parameters: key value pairs: routing=2
+05-25 10:49:28.058  3474  3478 E AudioFlinger: no wake lock to update!
+05-25 10:49:28.060  3474  3474 I AudioFlinger: openOutput(), module 1 Device 2, SamplingRate 48000, Format 0x000001, Channels 3, flags 4
+05-25 10:49:28.060  3474  3474 I AudioFlinger: AudioStreamOut::open(), mHalFormatIsLinearPcm = 1
+05-25 10:49:28.060  3474  3474 I AudioFlinger: HAL output buffer size 256 frames, normal sink buffer size 960 frames
+05-25 10:49:28.060  3474  3474 E MonoPipe: Failed to fetch local time frequency when constructing a MonoPipe (res = -32).  getNextWriteTimestamp calls will be non-functional
+05-25 10:49:28.060  3474  3480 I AudioFlinger: AudioFlinger's thread 0xf4800000 ready to run
+05-25 10:49:28.060  3474  3480 V audio_hw_primary: out_set_parameters: key value pairs: routing=2
+05-25 10:49:28.060  3474  3480 V audio_hw_primary: do_out_standby: output standby: 1
+05-25 10:49:28.060  3474  3480 E AudioFlinger: no wake lock to update!
+05-25 10:49:28.061  3474  3474 V audio_hw_primary: adev_open_input_stream: Requesting input stream with rate: 48000, channels: 0xc
+05-25 10:49:28.061  3474  3481 I AudioFlinger: AudioFlinger's thread 0xf4500000 ready to run
+05-25 10:49:28.062  3474  3474 I bt_a2dp_hw: adev_open:  adev_open in A2dp_hw module
+05-25 10:49:28.062  3474  3474 I AudioFlinger: loadHwModule() Loaded a2dp audio interface from A2DP Audio HW HAL (audio) handle 5
+05-25 10:49:28.062  3474  3474 I AudioFlinger: loadHwModule() Loaded usb audio interface from USB audio HW HAL (audio) handle 6
+05-25 10:49:28.063  3474  3474 I r_submix: adev_open(name=audio_hw_if)
+05-25 10:49:28.063  3474  3474 I r_submix: adev_init_check()
+05-25 10:49:28.063  3474  3474 I AudioFlinger: loadHwModule() Loaded r_submix audio interface from Wifi Display audio HAL (audio) handle 7
+05-25 10:49:28.063  3474  3474 D r_submix: adev_open_input_stream(addr=0)
+05-25 10:49:28.063  3474  3474 D r_submix: submix_audio_device_create_pipe_l(addr=0, idx=9)
+05-25 10:49:28.063  3474  3474 D r_submix:   now using address 0 for route 9
+05-25 10:49:28.063  3474  3482 I AudioFlinger: AudioFlinger's thread 0xf4300000 ready to run
+05-25 10:49:28.063  3474  3474 D r_submix: adev_close_input_stream()
+05-25 10:49:28.063  3474  3474 D r_submix: submix_audio_device_release_pipe_l(idx=9) addr=0
+05-25 10:49:28.063  3474  3474 D r_submix: submix_audio_device_destroy_pipe_l(): pipe destroyed
+05-25 10:49:28.064  3474  3474 F libc    : Fatal signal 11 (SIGSEGV), code 1, fault addr 0x0 in tid 3474 (mediaserver)
+05-25 10:49:28.064  3033  3033 I DEBUG   : property debug.db.uid not set; NOT waiting for gdb.
+05-25 10:49:28.064  3033  3033 I DEBUG   : HINT: adb shell setprop debug.db.uid 100000
+05-25 10:49:28.064  3033  3033 I DEBUG   : HINT: adb forward tcp:5039 tcp:5039
+05-25 10:49:28.114  3033  3033 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+05-25 10:49:28.114  3033  3033 F DEBUG   : Build fingerprint: 'samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30J/29ac460943:eng/test-keys'
+05-25 10:49:28.114  3033  3033 F DEBUG   : Revision: '0'
+05-25 10:49:28.114  3033  3033 F DEBUG   : ABI: 'arm'
+05-25 10:49:28.115  3033  3033 F DEBUG   : pid: 3474, tid: 3474, name: mediaserver  >>> /system/bin/mediaserver <<<
+05-25 10:49:28.115  3033  3033 F DEBUG   : signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0
+05-25 10:49:28.121  3033  3033 F DEBUG   :     r0 f4bde8f4  r1 00000000  r2 65732020  r3 00000007
+05-25 10:49:28.121  3033  3033 F DEBUG   :     r4 00000008  r5 f4bde8f2  r6 f75dbbe0  r7 ff8ec094
+05-25 10:49:28.121  3033  3033 F DEBUG   :     r8 f4c3e00c  r9 f75d9431  sl f75d9635  fp f4bde8f2
+05-25 10:49:28.121  3033  3033 F DEBUG   :     ip 00000000  sp ff8ec050  lr f75d44f7  pc f71273c8  cpsr 600f0010
+05-25 10:49:28.122  3033  3033 F DEBUG   : 
+05-25 10:49:28.122  3033  3033 F DEBUG   : backtrace:
+05-25 10:49:28.123  3033  3033 F DEBUG   :     #00 pc 000183c8  /system/lib/libc.so (strcmp+152)
+05-25 10:49:28.123  3033  3033 F DEBUG   :     #01 pc 000084f3  /system/lib/libaudiopolicyservice.so
+05-25 10:49:28.123  3033  3033 F DEBUG   :     #02 pc 00020090  [stack]
+05-25 10:49:28.180  3033  3033 F DEBUG   : 
+05-25 10:49:28.180  3033  3033 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_09
+05-25 10:49:28.169  3474  3474 W mediaserver: type=1701 audit(0.0:146): auid=4294967295 uid=1013 gid=1005 ses=4294967295 exe="/system/bin/mediaserver" sig=11
+05-25 10:49:28.184  2896  2896 I ServiceManager: service 'media.audio_flinger' died
+05-25 10:49:28.184  2896  2896 I ServiceManager: service 'media.player' died
+05-25 10:49:28.184  2896  2896 I ServiceManager: service 'media.resource_manager' died
+05-25 10:49:28.184  2896  2896 I ServiceManager: service 'media.camera' died
+05-25 10:49:28.791  3349  3349 W Zygote  : Got error connecting to zygote, retrying. msg= No such file or directory
