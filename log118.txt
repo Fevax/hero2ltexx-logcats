@@ -1,0 +1,1689 @@
+--------- beginning of main
+08-26 07:49:09.462  3074  3074 W auditd  : type=1325 audit(0.0:2): table=filter family=2 entries=0
+08-26 07:49:09.462  3074  3074 W auditd  : type=1325 audit(0.0:3): table=mangle family=2 entries=0
+08-26 07:49:09.462  3074  3074 W auditd  : type=1325 audit(0.0:4): table=nat family=2 entries=0
+08-26 07:49:09.462  3074  3074 W auditd  : type=1325 audit(0.0:5): table=raw family=2 entries=0
+08-26 07:49:09.462  3074  3074 W auditd  : type=1325 audit(0.0:6): table=security family=2 entries=0
+08-26 07:49:09.462  3074  3074 W auditd  : type=1325 audit(0.0:7): table=filter family=3 entries=0
+08-26 07:49:09.462  3074  3074 W auditd  : type=1325 audit(0.0:8): table=filter family=10 entries=0
+08-26 07:49:09.462  3074  3074 W auditd  : type=1325 audit(0.0:9): table=mangle family=10 entries=0
+08-26 07:49:09.462  3074  3074 W auditd  : type=1325 audit(0.0:10): table=raw family=10 entries=0
+08-26 07:49:09.462  3074  3074 W auditd  : type=1325 audit(0.0:11): table=nat family=10 entries=0
+08-26 07:49:09.849  3074  3074 W auditd  : type=1305 audit(0.0:12): audit_pid=2919 old=0 auid=4294967295 ses=4294967295 res=1
+08-26 07:49:09.849  3074  3074 W auditd  : type=1305 audit(0.0:13): audit_rate_limit=20 old=0 auid=4294967295 ses=4294967295 res=1
+08-26 07:49:09.885  2935  2935 I sysinit : Running /system/etc/init.d/00banner 
+08-26 07:49:09.886  2931  2931 I lowmemorykiller: Using in-kernel low memory killer interface
+--------- beginning of system
+08-26 07:49:09.888  2920  2920 I vold    : Vold 3.0 (the awakening) firing up
+08-26 07:49:09.888  2920  2920 V vold    : Detected support for: exfat ext4 ntfs vfat
+08-26 07:49:09.892  2938  2938 I DEBUG   : debuggerd: starting
+08-26 07:49:09.900  2936  2936 I Netd    : Netd 1.0 starting
+08-26 07:49:09.901  2936  2936 I QtiConnectivityAdapter: Failed to open libconnctrl, some features may not be present.
+08-26 07:49:09.901  2936  2936 D TetherController: Setting IP forward enable = 0
+08-26 07:49:09.902  2942  2942 I installd: installd firing up
+08-26 07:49:09.914  2947  2947 I gatekeeperd: Starting gatekeeperd...
+08-26 07:49:09.916  2949  2949 I fingerprintd: Starting fingerprintd
+08-26 07:49:09.917  2967  2967 I cm      : ____ _   _ ____ _  _ ____ ____ ____ _  _ _  _ ____ ___ 
+08-26 07:49:09.924  2948  2948 I perfprofd: starting Android Wide Profiling daemon
+08-26 07:49:09.925  2948  2948 E perfprofd: unable to open configuration file /data/data/com.google.android.gms/files/perfprofd.conf
+08-26 07:49:09.925  2948  2948 I perfprofd: random seed set to 1553361645
+08-26 07:49:09.927  2937  2937 I DEBUG   : debuggerd: starting
+08-26 07:49:09.928  2974  2974 I cm      : |     \_/  |__| |\ | |  | | __ |___ |\ | |\/| |  | |  \ 
+08-26 07:49:09.930  2947  2947 W gatekeeperd: falling back to software GateKeeper
+08-26 07:49:09.931  2943  2943 I keystore: Found keymaster0 module Keymaster OpenSSL HAL, version 2
+08-26 07:49:09.931  2943  2943 I SoftKeymaster: system/keymaster/soft_keymaster_device.cpp, Line 122: Creating device
+08-26 07:49:09.931  2943  2943 D SoftKeymaster: system/keymaster/soft_keymaster_device.cpp, Line 123: Device address: 0x7f9d463000
+08-26 07:49:09.932  2943  2943 I keystore: Keymaster0 module is software-only.  Using SoftKeymasterDevice instead.
+08-26 07:49:09.932  2943  2943 I SoftKeymaster: system/keymaster/soft_keymaster_device.cpp, Line 122: Creating device
+08-26 07:49:09.932  2943  2943 D SoftKeymaster: system/keymaster/soft_keymaster_device.cpp, Line 123: Device address: 0x7f9d463300
+08-26 07:49:09.932  2943  2943 I keystore: SELinux: Keystore SELinux is disabled.
+08-26 07:49:09.935  3024  3024 I cm      : |___   |   |  | | \| |__| |__] |___ | \| |  | |__| |__/ 
+08-26 07:49:09.940  2933  2933 I SurfaceFlinger: SurfaceFlinger is starting
+08-26 07:49:09.941  2933  2933 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+08-26 07:49:09.969  3074  3074 W auditd  : type=1325 audit(0.0:14): table=filter family=2 entries=4
+08-26 07:49:09.969  3074  3074 W auditd  : type=1320 audit(0.0:14): 
+08-26 07:49:09.969  3074  3074 W auditd  : type=1325 audit(0.0:15): table=filter family=10 entries=4
+08-26 07:49:09.969  3074  3074 W auditd  : type=1320 audit(0.0:15): 
+08-26 07:49:09.973  3064  3064 I cm      : Welcome to Android 6.0.1 / CyanogenMod-13.0-20160826-UNOFFICIAL-hero2ltexx 
+08-26 07:49:09.979  3074  3074 W auditd  : type=1325 audit(0.0:16): table=filter family=2 entries=6
+08-26 07:49:09.979  3074  3074 W auditd  : type=1320 audit(0.0:16): 
+08-26 07:49:09.986  3065  3065 I sysinit : Running /system/etc/init.d/90userinit 
+08-26 07:49:09.995  2933  2933 D libEGL  : loaded /vendor/lib64/egl/libGLES_mali.so
+08-26 07:49:09.999  3074  3074 W auditd  : type=1325 audit(0.0:17): table=filter family=10 entries=6
+08-26 07:49:09.999  3074  3074 W auditd  : type=1320 audit(0.0:17): 
+08-26 07:49:10.021  2933  2933 E HAL     : load: module=/system/lib64/hw/gralloc.exynos5.so
+08-26 07:49:10.021  2933  2933 E HAL     : dlopen failed: cannot locate symbol "ion_sync_fd_partial" referenced by "/system/lib64/hw/gralloc.exynos5.so"...
+08-26 07:49:10.021  2933  2933 W libEGL  : eglInitialize(0x7f790eb000) failed (EGL_NOT_INITIALIZED)
+08-26 07:49:10.022  2933  2933 E HAL     : load: module=/system/lib64/hw/gralloc.exynos5.so
+08-26 07:49:10.022  2933  2933 E HAL     : dlopen failed: cannot locate symbol "ion_sync_fd_partial" referenced by "/system/lib64/hw/gralloc.exynos5.so"...
+08-26 07:49:10.022  2933  2933 E SurfaceFlinger: gralloc module not found
+08-26 07:49:10.026  2933  2933 E HAL     : load: module=/system/lib64/hw/gralloc.exynos5.so
+08-26 07:49:10.026  2933  2933 E HAL     : dlopen failed: cannot locate symbol "ion_sync_fd_partial" referenced by "/system/lib64/hw/gralloc.exynos5.so"...
+08-26 07:49:10.026  2933  2933 E hwcomposer: failed to get gralloc hw module
+08-26 07:49:10.026  2933  2933 E SurfaceFlinger: composer device failed to initialize (Invalid argument)
+08-26 07:49:10.026  2933  2933 E SurfaceFlinger: ERROR: failed to open framebuffer (Invalid argument), aborting
+--------- beginning of crash
+08-26 07:49:10.026  2933  2933 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 2933 (surfaceflinger)
+08-26 07:49:10.027  2938  2938 I DEBUG   : property debug.db.uid not set; NOT waiting for gdb.
+08-26 07:49:10.027  2938  2938 I DEBUG   : HINT: adb shell setprop debug.db.uid 100000
+08-26 07:49:10.027  2938  2938 I DEBUG   : HINT: adb forward tcp:5039 tcp:5039
+08-26 07:49:10.069  3074  3074 W auditd  : type=1325 audit(0.0:18): table=filter family=2 entries=7
+08-26 07:49:10.069  3074  3074 W auditd  : type=1320 audit(0.0:18): 
+08-26 07:49:10.069  3074  3074 W auditd  : type=1325 audit(0.0:19): table=filter family=10 entries=7
+08-26 07:49:10.069  3074  3074 W auditd  : type=1320 audit(0.0:19): 
+08-26 07:49:10.078  2938  2938 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+08-26 07:49:10.078  2938  2938 F DEBUG   : CM Version: '13.0-20160826-UNOFFICIAL-hero2ltexx'
+08-26 07:49:10.078  2938  2938 F DEBUG   : Build fingerprint: 'samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30Z/31574d5b39:eng/test-keys'
+08-26 07:49:10.078  2938  2938 F DEBUG   : Revision: '0'
+08-26 07:49:10.078  2938  2938 F DEBUG   : ABI: 'arm64'
+08-26 07:49:10.078  2938  2938 F DEBUG   : pid: 2933, tid: 2933, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+08-26 07:49:10.078  2938  2938 F DEBUG   : signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+08-26 07:49:10.079  3074  3074 W auditd  : type=1325 audit(0.0:20): table=filter family=2 entries=9
+08-26 07:49:10.079  3074  3074 W auditd  : type=1320 audit(0.0:20): 
+08-26 07:49:10.082  2938  2938 F DEBUG   :     x0   0000000000000000  x1   0000000000000b75  x2   0000000000000006  x3   0000000000000000
+08-26 07:49:10.082  2938  2938 F DEBUG   :     x4   0000000000000000  x5   0000000000000001  x6   0000000000000000  x7   0000000000000000
+08-26 07:49:10.082  2938  2938 F DEBUG   :     x8   0000000000000083  x9   000000000000004f  x10  0000007fcc2b798c  x11  0000007fcc2b79c8
+08-26 07:49:10.082  2938  2938 F DEBUG   :     x12  0000007fcc2b78a0  x13  000000000000003f  x14  0000007fcc2b7a88  x15  0000000000000000
+08-26 07:49:10.082  2938  2938 F DEBUG   :     x16  0000007f79cda560  x17  0000007f79c6bd6c  x18  0000007f79e903a4  x19  0000007f79f850d8
+08-26 07:49:10.082  2938  2938 F DEBUG   :     x20  0000007f79f85018  x21  0000000000000002  x22  0000000000000006  x23  581443d0a8206456
+08-26 07:49:10.082  2938  2938 F DEBUG   :     x24  000000000100ffff  x25  0000007f79f027b0  x26  0000000000000000  x27  0000000000000000
+08-26 07:49:10.082  2938  2938 F DEBUG   :     x28  0000000000000000  x29  0000007fcc2b7e80  x30  0000007f79c69508
+08-26 07:49:10.082  2938  2938 F DEBUG   :     sp   0000007fcc2b7e80  pc   0000007f79c6bd74  pstate 0000000020000000
+08-26 07:49:10.086  2938  2938 F DEBUG   : 
+08-26 07:49:10.086  2938  2938 F DEBUG   : backtrace:
+08-26 07:49:10.086  2938  2938 F DEBUG   :     #00 pc 0000000000069d74  /system/lib64/libc.so (tgkill+8)
+08-26 07:49:10.086  2938  2938 F DEBUG   :     #01 pc 0000000000067504  /system/lib64/libc.so (pthread_kill+68)
+08-26 07:49:10.086  2938  2938 F DEBUG   :     #02 pc 0000000000023448  /system/lib64/libc.so (raise+28)
+08-26 07:49:10.086  2938  2938 F DEBUG   :     #03 pc 000000000001dbe8  /system/lib64/libc.so (abort+60)
+08-26 07:49:10.086  2938  2938 F DEBUG   :     #04 pc 000000000003c0f8  /system/lib64/libsurfaceflinger.so
+08-26 07:49:10.086  2938  2938 F DEBUG   :     #05 pc 0000000000045f4c  /system/lib64/libsurfaceflinger.so
+08-26 07:49:10.086  2938  2938 F DEBUG   :     #06 pc 000000000002ce94  /system/lib64/libsurfaceflinger.so (_ZN7android14SurfaceFlinger4initEv+440)
+08-26 07:49:10.086  2938  2938 F DEBUG   :     #07 pc 000000000000115c  /system/bin/surfaceflinger
+08-26 07:49:10.086  2938  2938 F DEBUG   :     #08 pc 000000000001bcd8  /system/lib64/libc.so (__libc_init+100)
+08-26 07:49:10.086  2938  2938 F DEBUG   :     #09 pc 000000000000101c  /system/bin/surfaceflinger
+08-26 07:49:10.089  3074  3074 W auditd  : type=1325 audit(0.0:21): table=filter family=10 entries=9
+08-26 07:49:10.089  3074  3074 W auditd  : type=1320 audit(0.0:21): 
+08-26 07:49:10.117  2941  2941 V MediaUtils: physMem: 3748511744
+08-26 07:49:10.117  2941  2941 V MediaUtils: requested limit: 2436532605
+08-26 07:49:10.117  2941  2941 V MediaUtils: actual limit: 2436532605
+08-26 07:49:10.117  2941  2941 V MediaUtils: original limits: 4294967295/4294967295
+08-26 07:49:10.117  2941  2941 V MediaUtils: new limits: 2436532605/4294967295
+08-26 07:49:10.121  2941  2941 I mediaserver: ServiceManager: 0xf610e120
+08-26 07:49:10.122  2941  2941 I AudioFlinger: Using default 3000 mSec as standby time.
+08-26 07:49:10.122  2941  2941 E BatteryNotifier: batterystats service unavailable!
+08-26 07:49:10.122  2941  2941 E BatteryNotifier: batterystats service unavailable!
+08-26 07:49:10.122  2941  2941 I CameraService: CameraService started (pid=2941)
+08-26 07:49:10.122  2941  2941 I CameraService: CameraService process starting
+08-26 07:49:10.122  2941  2941 E BatteryNotifier: batterystats service unavailable!
+08-26 07:49:10.122  2941  2941 E BatteryNotifier: batterystats service unavailable!
+08-26 07:49:10.123  2941  2941 E CameraService: Could not load camera HAL module: -2 (No such file or directory)
+08-26 07:49:10.123  2941  2941 I AudioPolicyService: AudioPolicyService CSTOR in new mode
+08-26 07:49:10.124  2941  2941 I APM::ConfigParsingUtils: loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+08-26 07:49:10.140  2934  2934 W McDaemon: mcRegistry read So.Soc failed: 16 [hardware/samsung_slsi/exynos8890/mobicore/Daemon/src/PrivateRegistry.cpp:374]
+08-26 07:49:10.140  2934  2934 W McDaemon: mcRegistry read So.Soc failed: 16 [hardware/samsung_slsi/exynos8890/mobicore/Daemon/src/PrivateRegistry.cpp:429]
+08-26 07:49:10.140  2934  2934 W McDaemon: mcRegistry read So.Root failed: 16 [hardware/samsung_slsi/exynos8890/mobicore/Daemon/src/PrivateRegistry.cpp:533]
+08-26 07:49:10.140  2934  2934 W McDaemon: Device endorsements not supported! [hardware/samsung_slsi/exynos8890/mobicore/Daemon/src/MobiCoreDriverDaemon.cpp:588]
+08-26 07:49:10.140  2934  2934 I McDaemon: Daemon starting up... [hardware/samsung_slsi/exynos8890/mobicore/Daemon/src/MobiCoreDriverDaemon.cpp:548]
+08-26 07:49:10.140  2934  2934 I McDaemon: Interface version is 0.4 [hardware/samsung_slsi/exynos8890/mobicore/Daemon/src/MobiCoreDriverDaemon.cpp:550]
+08-26 07:49:10.140  2934  2934 I McDaemon: t-base-EXYNOS64-Android-310B-V007-20160505_211700_344 [hardware/samsung_slsi/exynos8890/mobicore/Daemon/src/MobiCoreDriverDaemon.cpp:552]
+08-26 07:49:10.140  2934  2934 I McDaemon: Build timestamp is Aug  9 2016 18:54:04 [hardware/samsung_slsi/exynos8890/mobicore/Daemon/src/MobiCoreDriverDaemon.cpp:553]
+08-26 07:49:10.141  2934  3116 I TeeDriverClient: driver client open [hardware/samsung_slsi/exynos8890/mobicore/ClientLib/src/driver_client.cpp:103]
+08-26 07:49:10.141  2934  2934 W McDaemon: Cannot open trustlet /data/app/mcRegistry/07050501000000000000000000000020.tlbin (2) [hardware/samsung_slsi/exynos8890/mobicore/Daemon/src/SecureWorld.cpp:178]
+08-26 07:49:10.143  2934  3116 I TeeFilesystem: void FileSystem::Impl::run(): Start listening for request from STH2 [hardware/samsung_slsi/exynos8890/mobicore/Daemon/src/FSD2.cpp:376]
+08-26 07:49:10.158  3118  3118 I CSTORAGE: ============================================================
+08-26 07:49:10.158  3118  3118 I CSTORAGE:  CSTORAGE, v1.1.14, OS = android, ChipId = ex8890
+08-26 07:49:10.158  3118  3118 I CSTORAGE: ============================================================
+08-26 07:49:10.158  3118  3118 I CSTORAGE: ============================================================
+08-26 07:49:10.158  3118  3118 I CSTORAGE:  CSTORAGE_SKM_LIB, v1.1.14, OS = android, ChipId = ex8890
+08-26 07:49:10.158  3118  3118 I CSTORAGE: ============================================================
+08-26 07:49:10.159  3074  3074 W auditd  : type=1325 audit(0.0:22): table=filter family=2 entries=10
+08-26 07:49:10.159  3074  3074 W auditd  : type=1320 audit(0.0:22): 
+08-26 07:49:10.169  3074  3074 W auditd  : type=1325 audit(0.0:23): table=filter family=10 entries=10
+08-26 07:49:10.169  3074  3074 W auditd  : type=1320 audit(0.0:23): 
+08-26 07:49:10.179  3074  3074 W auditd  : type=1325 audit(0.0:24): table=filter family=2 entries=12
+08-26 07:49:10.179  3074  3074 W auditd  : type=1320 audit(0.0:24): 
+08-26 07:49:10.189  3074  3074 W auditd  : type=1325 audit(0.0:25): table=filter family=10 entries=12
+08-26 07:49:10.189  3074  3074 W auditd  : type=1320 audit(0.0:25): 
+08-26 07:49:10.199  2933  2933 W surfaceflinger: type=1701 audit(0.0:26): auid=4294967295 uid=1000 gid=1003 ses=4294967295 exe="/system/bin/surfaceflinger" sig=6
+08-26 07:49:10.207  2938  2938 F DEBUG   : 
+08-26 07:49:10.207  2938  2938 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_01
+08-26 07:49:10.249  3074  3074 W auditd  : type=1325 audit(0.0:27): table=filter family=2 entries=13
+08-26 07:49:10.249  3074  3074 W auditd  : type=1320 audit(0.0:27): 
+08-26 07:49:10.259  3074  3074 W auditd  : type=1325 audit(0.0:28): table=filter family=10 entries=13
+08-26 07:49:10.259  3074  3074 W auditd  : type=1320 audit(0.0:28): 
+08-26 07:49:10.259  3074  3074 W auditd  : type=1325 audit(0.0:29): table=filter family=2 entries=15
+08-26 07:49:10.259  3074  3074 W auditd  : type=1320 audit(0.0:29): 
+08-26 07:49:10.279  3074  3074 W auditd  : type=1325 audit(0.0:30): table=filter family=10 entries=15
+08-26 07:49:10.279  3074  3074 W auditd  : type=1320 audit(0.0:30): 
+08-26 07:49:10.289  2932  2932 I ServiceManager: service 'media.audio_flinger' died
+08-26 07:49:10.290  2932  2932 I ServiceManager: service 'media.player' died
+08-26 07:49:10.290  2932  2932 I ServiceManager: service 'media.resource_manager' died
+08-26 07:49:10.290  2932  2932 I ServiceManager: service 'media.camera' died
+08-26 07:49:10.332  2946  2946 D AndroidRuntime: >>>>>> START com.android.internal.os.ZygoteInit uid 0 <<<<<<
+08-26 07:49:10.342  2946  2946 D AndroidRuntime: CheckJNI is ON
+08-26 07:49:10.346  2946  2946 I art     : option[0]=-Xzygote
+08-26 07:49:10.346  2946  2946 I art     : option[1]=-Xcheck:jni
+08-26 07:49:10.346  2946  2946 I art     : option[2]=-Xstacktracefile:/data/anr/traces.txt
+08-26 07:49:10.346  2946  2946 I art     : option[3]=exit
+08-26 07:49:10.346  2946  2946 I art     : option[4]=vfprintf
+08-26 07:49:10.346  2946  2946 I art     : option[5]=sensitiveThread
+08-26 07:49:10.346  2946  2946 I art     : option[6]=-verbose:gc
+08-26 07:49:10.346  2946  2946 I art     : option[7]=-Xms8m
+08-26 07:49:10.346  2946  2946 I art     : option[8]=-Xmx768m
+08-26 07:49:10.346  2946  2946 I art     : option[9]=-XX:HeapGrowthLimit=288m
+08-26 07:49:10.346  2946  2946 I art     : option[10]=-XX:HeapMinFree=2m
+08-26 07:49:10.346  2946  2946 I art     : option[11]=-XX:HeapMaxFree=8m
+08-26 07:49:10.346  2946  2946 I art     : option[12]=-XX:HeapTargetUtilization=0.75
+08-26 07:49:10.346  2946  2946 I art     : option[13]=-Xusejit:true
+08-26 07:49:10.346  2946  2946 I art     : option[14]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+08-26 07:49:10.346  2946  2946 I art     : option[15]=-Xlockprofthreshold:500
+08-26 07:49:10.346  2946  2946 I art     : option[16]=-Ximage-compiler-option
+08-26 07:49:10.346  2946  2946 I art     : option[17]=--runtime-arg
+08-26 07:49:10.346  2946  2946 I art     : option[18]=-Ximage-compiler-option
+08-26 07:49:10.346  2946  2946 I art     : option[19]=-Xms64m
+08-26 07:49:10.346  2946  2946 I art     : option[20]=-Ximage-compiler-option
+08-26 07:49:10.346  2946  2946 I art     : option[21]=--runtime-arg
+08-26 07:49:10.346  2946  2946 I art     : option[22]=-Ximage-compiler-option
+08-26 07:49:10.346  2946  2946 I art     : option[23]=-Xmx64m
+08-26 07:49:10.346  2946  2946 I art     : option[24]=-Ximage-compiler-option
+08-26 07:49:10.346  2946  2946 I art     : option[25]=--compiler-filter=verify-at-runtime
+08-26 07:49:10.346  2946  2946 I art     : option[26]=-Ximage-compiler-option
+08-26 07:49:10.346  2946  2946 I art     : option[27]=--image-classes=/system/etc/preloaded-classes
+08-26 07:49:10.346  2946  2946 I art     : option[28]=-Xcompiler-option
+08-26 07:49:10.346  2946  2946 I art     : option[29]=--runtime-arg
+08-26 07:49:10.346  2946  2946 I art     : option[30]=-Xcompiler-option
+08-26 07:49:10.346  2946  2946 I art     : option[31]=-Xms64m
+08-26 07:49:10.346  2946  2946 I art     : option[32]=-Xcompiler-option
+08-26 07:49:10.346  2946  2946 I art     : option[33]=--runtime-arg
+08-26 07:49:10.346  2946  2946 I art     : option[34]=-Xcompiler-option
+08-26 07:49:10.346  2946  2946 I art     : option[35]=-Xmx512m
+08-26 07:49:10.346  2946  2946 I art     : option[36]=-Xcompiler-option
+08-26 07:49:10.346  2946  2946 I art     : option[37]=--compiler-filter=verify-at-runtime
+08-26 07:49:10.346  2946  2946 I art     : option[38]=-Ximage-compiler-option
+08-26 07:49:10.346  2946  2946 I art     : option[39]=--instruction-set-variant=cortex-a53
+08-26 07:49:10.346  2946  2946 I art     : option[40]=-Xcompiler-option
+08-26 07:49:10.346  2946  2946 I art     : option[41]=--instruction-set-variant=cortex-a53
+08-26 07:49:10.346  2946  2946 I art     : option[42]=-Ximage-compiler-option
+08-26 07:49:10.346  2946  2946 I art     : option[43]=--instruction-set-features=default
+08-26 07:49:10.346  2946  2946 I art     : option[44]=-Xcompiler-option
+08-26 07:49:10.346  2946  2946 I art     : option[45]=--instruction-set-features=default
+08-26 07:49:10.346  2946  2946 I art     : option[46]=-Duser.locale=en-US
+08-26 07:49:10.346  2946  2946 I art     : option[47]=--cpu-abilist=armeabi-v7a,armeabi
+08-26 07:49:10.346  2946  2946 I art     : option[48]=-Xfingerprint:samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30Z/31574d5b39:eng/test-keys
+08-26 07:49:10.432  2946  2946 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+08-26 07:49:10.613  2946  2946 I Radio-JNI: register_android_hardware_Radio DONE
+08-26 07:49:10.659  2946  2946 I SamplingProfilerIntegration: Profiling disabled.
+08-26 07:49:10.659  2946  2946 D Zygote  : begin preload
+08-26 07:49:10.661  2946  2946 I Zygote  : Preloading classes...
+08-26 07:49:11.110  2946  2946 E Minikin : addFont failed to create font /system/fonts/NanumGothic.ttf
+08-26 07:49:11.110  2946  2946 E Minikin : addFont failed to create font /system/fonts/DroidSansFallback.ttf
+08-26 07:49:11.110  2946  2946 E Minikin : addFont failed to create font /system/fonts/MTLmr3m.ttf
+08-26 07:49:11.213  2946  2946 V DngCreator_JNI: DngCreator_nativeClassInit:
+08-26 07:49:12.003  2946  2946 I art     : Thread[1,tid=2946,Native,Thread*=0xf4eb6500,peer=0x12c21340,"main"] recursive attempt to load library "/system/lib/libmedia_jni.so"
+08-26 07:49:12.003  2946  2946 D MtpDeviceJNI: register_android_mtp_MtpDevice
+08-26 07:49:12.004  2946  2946 I art     : Thread[1,tid=2946,Native,Thread*=0xf4eb6500,peer=0x12c21340,"main"] recursive attempt to load library "/system/lib/libmedia_jni.so"
+08-26 07:49:12.004  2946  2946 I art     : Thread[1,tid=2946,Native,Thread*=0xf4eb6500,peer=0x12c21340,"main"] recursive attempt to load library "/system/lib/libmedia_jni.so"
+08-26 07:49:12.570  2946  2946 W System  : ClassLoader referenced unknown path: /system/framework/tcmclient.jar
+08-26 07:49:12.938  2946  2946 I System  : Loaded time zone names for "" in 24ms (21ms in ICU)
+08-26 07:49:12.976  2946  2946 I System  : Loaded time zone names for "en_US" in 38ms (12ms in ICU)
+08-26 07:49:13.200  2946  2946 I Zygote  : ...preloaded 3831 classes in 2539ms.
+08-26 07:49:13.200  2946  2946 I art     : VMRuntime.preloadDexCaches starting
+08-26 07:49:13.235  2946  2946 I art     : VMRuntime.preloadDexCaches strings total=249042 before=10084 after=10084
+08-26 07:49:13.235  2946  2946 I art     : VMRuntime.preloadDexCaches types total=20335 before=8244 after=9837
+08-26 07:49:13.235  2946  2946 I art     : VMRuntime.preloadDexCaches fields total=100408 before=35771 after=47736
+08-26 07:49:13.235  2946  2946 I art     : VMRuntime.preloadDexCaches methods total=172844 before=67608 after=83315
+08-26 07:49:13.236  2946  2946 I art     : VMRuntime.preloadDexCaches finished
+08-26 07:49:13.248  3160  3160 D idmap   : error: no read access to /vendor/overlay: No such file or directory
+08-26 07:49:13.275  2946  2946 I Zygote  : Preloading resources...
+08-26 07:49:13.709  2946  2946 I Zygote  : ...preloaded 342 resources in 435ms.
+08-26 07:49:13.719  2946  2946 I Zygote  : ...preloaded 41 resources in 9ms.
+08-26 07:49:13.756  2946  2946 D libEGL  : loaded /vendor/lib/egl/libGLES_mali.so
+08-26 07:49:13.767  2946  2946 I Zygote  : Preloading shared libraries...
+08-26 07:49:13.777  2946  2946 D Zygote  : end preload
+08-26 07:49:13.777  2946  2946 I art     : Starting a blocking GC Explicit
+08-26 07:49:13.787  2946  2946 I art     : Explicit concurrent mark sweep GC freed 11338(456KB) AllocSpace objects, 0(0B) LOS objects, 36% free, 27MB/43MB, paused 72us total 9.782ms
+08-26 07:49:13.798  2946  2946 I art     : Starting a blocking GC Explicit
+08-26 07:49:13.806  2946  2946 I art     : Explicit concurrent mark sweep GC freed 2423(114KB) AllocSpace objects, 0(0B) LOS objects, 36% free, 27MB/43MB, paused 67us total 8.037ms
+08-26 07:49:13.806  2946  2946 I Zygote  : Accepting command socket connections
+08-26 07:49:15.409  3074  3074 W auditd  : type=1325 audit(0.0:31): table=filter family=2 entries=16
+08-26 07:49:15.409  3074  3074 W auditd  : type=1320 audit(0.0:31): 
+08-26 07:49:15.411  3162  3162 I Netd    : Netd 1.0 starting
+08-26 07:49:15.411  3162  3162 I QtiConnectivityAdapter: Failed to open libconnctrl, some features may not be present.
+08-26 07:49:15.411  3162  3162 D TetherController: Setting IP forward enable = 0
+08-26 07:49:15.419  3074  3074 W auditd  : type=1325 audit(0.0:32): table=filter family=10 entries=16
+08-26 07:49:15.419  3074  3074 W auditd  : type=1320 audit(0.0:32): 
+08-26 07:49:15.423  3164  3164 I SurfaceFlinger: SurfaceFlinger is starting
+08-26 07:49:15.423  3164  3164 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+08-26 07:49:15.429  3074  3074 W auditd  : type=1325 audit(0.0:33): table=filter family=2 entries=15
+08-26 07:49:15.429  3074  3074 W auditd  : type=1320 audit(0.0:33): 
+08-26 07:49:15.437  3164  3164 D libEGL  : loaded /vendor/lib64/egl/libGLES_mali.so
+08-26 07:49:15.439  3074  3074 W auditd  : type=1325 audit(0.0:34): table=filter family=10 entries=15
+08-26 07:49:15.439  3074  3074 W auditd  : type=1320 audit(0.0:34): 
+08-26 07:49:15.449  3074  3074 W auditd  : type=1325 audit(0.0:35): table=filter family=2 entries=15
+08-26 07:49:15.449  3074  3074 W auditd  : type=1320 audit(0.0:35): 
+08-26 07:49:15.452  3164  3164 E HAL     : load: module=/system/lib64/hw/gralloc.exynos5.so
+08-26 07:49:15.452  3164  3164 E HAL     : dlopen failed: cannot locate symbol "ion_sync_fd_partial" referenced by "/system/lib64/hw/gralloc.exynos5.so"...
+08-26 07:49:15.452  3164  3164 W libEGL  : eglInitialize(0x7f9d9e9000) failed (EGL_NOT_INITIALIZED)
+08-26 07:49:15.453  3164  3164 E HAL     : load: module=/system/lib64/hw/gralloc.exynos5.so
+08-26 07:49:15.453  3164  3164 E HAL     : dlopen failed: cannot locate symbol "ion_sync_fd_partial" referenced by "/system/lib64/hw/gralloc.exynos5.so"...
+08-26 07:49:15.453  3164  3164 E SurfaceFlinger: gralloc module not found
+08-26 07:49:15.455  3164  3164 E HAL     : load: module=/system/lib64/hw/gralloc.exynos5.so
+08-26 07:49:15.455  3164  3164 E HAL     : dlopen failed: cannot locate symbol "ion_sync_fd_partial" referenced by "/system/lib64/hw/gralloc.exynos5.so"...
+08-26 07:49:15.455  3164  3164 E hwcomposer: failed to get gralloc hw module
+08-26 07:49:15.455  3164  3164 E SurfaceFlinger: composer device failed to initialize (Invalid argument)
+08-26 07:49:15.455  3164  3164 E SurfaceFlinger: ERROR: failed to open framebuffer (Invalid argument), aborting
+08-26 07:49:15.455  3164  3164 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 3164 (surfaceflinger)
+08-26 07:49:15.456  2938  2938 I DEBUG   : property debug.db.uid not set; NOT waiting for gdb.
+08-26 07:49:15.456  2938  2938 I DEBUG   : HINT: adb shell setprop debug.db.uid 100000
+08-26 07:49:15.456  2938  2938 I DEBUG   : HINT: adb forward tcp:5039 tcp:5039
+08-26 07:49:15.459  3074  3074 W auditd  : type=1325 audit(0.0:36): table=filter family=10 entries=15
+08-26 07:49:15.459  3074  3074 W auditd  : type=1320 audit(0.0:36): 
+08-26 07:49:15.469  3074  3074 W auditd  : type=1325 audit(0.0:37): table=filter family=2 entries=13
+08-26 07:49:15.469  3074  3074 W auditd  : type=1320 audit(0.0:37): 
+08-26 07:49:15.479  3074  3074 W auditd  : type=1325 audit(0.0:38): table=filter family=10 entries=13
+08-26 07:49:15.479  3074  3074 W auditd  : type=1320 audit(0.0:38): 
+08-26 07:49:15.489  3074  3074 W auditd  : type=1325 audit(0.0:39): table=filter family=2 entries=15
+08-26 07:49:15.489  3074  3074 W auditd  : type=1320 audit(0.0:39): 
+08-26 07:49:15.499  3074  3074 W auditd  : type=1325 audit(0.0:40): table=filter family=10 entries=15
+08-26 07:49:15.499  3074  3074 W auditd  : type=1320 audit(0.0:40): 
+08-26 07:49:15.506  2938  2938 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+08-26 07:49:15.506  2938  2938 F DEBUG   : CM Version: '13.0-20160826-UNOFFICIAL-hero2ltexx'
+08-26 07:49:15.506  2938  2938 F DEBUG   : Build fingerprint: 'samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30Z/31574d5b39:eng/test-keys'
+08-26 07:49:15.506  2938  2938 F DEBUG   : Revision: '0'
+08-26 07:49:15.506  2938  2938 F DEBUG   : ABI: 'arm64'
+08-26 07:49:15.506  2938  2938 F DEBUG   : pid: 3164, tid: 3164, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+08-26 07:49:15.506  2938  2938 F DEBUG   : signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+08-26 07:49:15.509  3074  3074 W auditd  : type=1325 audit(0.0:41): table=filter family=2 entries=16
+08-26 07:49:15.509  3074  3074 W auditd  : type=1320 audit(0.0:41): 
+08-26 07:49:15.510  2938  2938 F DEBUG   :     x0   0000000000000000  x1   0000000000000c5c  x2   0000000000000006  x3   0000000000000000
+08-26 07:49:15.510  2938  2938 F DEBUG   :     x4   0000000000000000  x5   0000000000000001  x6   0000000000000000  x7   0000000000000000
+08-26 07:49:15.510  2938  2938 F DEBUG   :     x8   0000000000000083  x9   000000000000004f  x10  0000007fc4d233dc  x11  0000007fc4d23418
+08-26 07:49:15.510  2938  2938 F DEBUG   :     x12  0000007fc4d232f0  x13  000000000000003f  x14  0000007fc4d234d8  x15  0000000000000000
+08-26 07:49:15.510  2938  2938 F DEBUG   :     x16  0000007f9e5d2560  x17  0000007f9e563d6c  x18  0000007f9e7883a4  x19  0000007f9e87d0d8
+08-26 07:49:15.510  2938  2938 F DEBUG   :     x20  0000007f9e87d018  x21  0000000000000002  x22  0000000000000006  x23  a213e17cf767fa03
+08-26 07:49:15.510  2938  2938 F DEBUG   :     x24  000000000100ffff  x25  0000007f9e7fa7b0  x26  0000000000000000  x27  0000000000000000
+08-26 07:49:15.510  2938  2938 F DEBUG   :     x28  0000000000000000  x29  0000007fc4d238d0  x30  0000007f9e561508
+08-26 07:49:15.510  2938  2938 F DEBUG   :     sp   0000007fc4d238d0  pc   0000007f9e563d74  pstate 0000000020000000
+08-26 07:49:15.513  2938  2938 F DEBUG   : 
+08-26 07:49:15.513  2938  2938 F DEBUG   : backtrace:
+08-26 07:49:15.513  2938  2938 F DEBUG   :     #00 pc 0000000000069d74  /system/lib64/libc.so (tgkill+8)
+08-26 07:49:15.513  2938  2938 F DEBUG   :     #01 pc 0000000000067504  /system/lib64/libc.so (pthread_kill+68)
+08-26 07:49:15.513  2938  2938 F DEBUG   :     #02 pc 0000000000023448  /system/lib64/libc.so (raise+28)
+08-26 07:49:15.513  2938  2938 F DEBUG   :     #03 pc 000000000001dbe8  /system/lib64/libc.so (abort+60)
+08-26 07:49:15.513  2938  2938 F DEBUG   :     #04 pc 000000000003c0f8  /system/lib64/libsurfaceflinger.so
+08-26 07:49:15.513  2938  2938 F DEBUG   :     #05 pc 0000000000045f4c  /system/lib64/libsurfaceflinger.so
+08-26 07:49:15.513  2938  2938 F DEBUG   :     #06 pc 000000000002ce94  /system/lib64/libsurfaceflinger.so (_ZN7android14SurfaceFlinger4initEv+440)
+08-26 07:49:15.513  2938  2938 F DEBUG   :     #07 pc 000000000000115c  /system/bin/surfaceflinger
+08-26 07:49:15.514  2938  2938 F DEBUG   :     #08 pc 000000000001bcd8  /system/lib64/libc.so (__libc_init+100)
+08-26 07:49:15.514  2938  2938 F DEBUG   :     #09 pc 000000000000101c  /system/bin/surfaceflinger
+08-26 07:49:15.519  3074  3074 W auditd  : type=1325 audit(0.0:42): table=filter family=10 entries=16
+08-26 07:49:15.519  3074  3074 W auditd  : type=1320 audit(0.0:42): 
+08-26 07:49:15.529  3074  3074 W auditd  : type=1325 audit(0.0:43): table=filter family=2 entries=15
+08-26 07:49:15.529  3074  3074 W auditd  : type=1320 audit(0.0:43): 
+08-26 07:49:15.533  3165  3165 V MediaUtils: physMem: 3759357952
+08-26 07:49:15.533  3165  3165 V MediaUtils: requested limit: 2443582635
+08-26 07:49:15.533  3165  3165 V MediaUtils: actual limit: 2443582635
+08-26 07:49:15.533  3165  3165 V MediaUtils: original limits: 4294967295/4294967295
+08-26 07:49:15.533  3165  3165 V MediaUtils: new limits: 2443582635/4294967295
+08-26 07:49:15.533  3165  3165 I mediaserver: ServiceManager: 0xf678e120
+08-26 07:49:15.533  3165  3165 I AudioFlinger: Using default 3000 mSec as standby time.
+08-26 07:49:15.533  3165  3165 E BatteryNotifier: batterystats service unavailable!
+08-26 07:49:15.534  3165  3165 E BatteryNotifier: batterystats service unavailable!
+08-26 07:49:15.534  3165  3165 I CameraService: CameraService started (pid=3165)
+08-26 07:49:15.534  3165  3165 I CameraService: CameraService process starting
+08-26 07:49:15.534  3165  3165 E BatteryNotifier: batterystats service unavailable!
+08-26 07:49:15.534  3165  3165 E BatteryNotifier: batterystats service unavailable!
+08-26 07:49:15.534  3165  3165 E CameraService: Could not load camera HAL module: -2 (No such file or directory)
+08-26 07:49:15.535  3165  3165 I AudioPolicyService: AudioPolicyService CSTOR in new mode
+08-26 07:49:15.535  3165  3165 I APM::ConfigParsingUtils: loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+08-26 07:49:15.629  2938  2938 F DEBUG   : 
+08-26 07:49:15.629  2938  2938 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_02
+08-26 07:49:15.638  3166  3166 D AndroidRuntime: >>>>>> START com.android.internal.os.ZygoteInit uid 0 <<<<<<
+08-26 07:49:15.650  3166  3166 D AndroidRuntime: CheckJNI is ON
+08-26 07:49:15.654  3166  3166 I art     : option[0]=-Xzygote
+08-26 07:49:15.654  3166  3166 I art     : option[1]=-Xcheck:jni
+08-26 07:49:15.654  3166  3166 I art     : option[2]=-Xstacktracefile:/data/anr/traces.txt
+08-26 07:49:15.654  3166  3166 I art     : option[3]=exit
+08-26 07:49:15.654  3166  3166 I art     : option[4]=vfprintf
+08-26 07:49:15.654  3166  3166 I art     : option[5]=sensitiveThread
+08-26 07:49:15.654  3166  3166 I art     : option[6]=-verbose:gc
+08-26 07:49:15.654  3166  3166 I art     : option[7]=-Xms8m
+08-26 07:49:15.654  3166  3166 I art     : option[8]=-Xmx768m
+08-26 07:49:15.654  3166  3166 I art     : option[9]=-XX:HeapGrowthLimit=288m
+08-26 07:49:15.654  3166  3166 I art     : option[10]=-XX:HeapMinFree=2m
+08-26 07:49:15.654  3166  3166 I art     : option[11]=-XX:HeapMaxFree=8m
+08-26 07:49:15.654  3166  3166 I art     : option[12]=-XX:HeapTargetUtilization=0.75
+08-26 07:49:15.654  3166  3166 I art     : option[13]=-Xusejit:true
+08-26 07:49:15.654  3166  3166 I art     : option[14]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+08-26 07:49:15.654  3166  3166 I art     : option[15]=-Xlockprofthreshold:500
+08-26 07:49:15.654  3166  3166 I art     : option[16]=-Ximage-compiler-option
+08-26 07:49:15.654  3166  3166 I art     : option[17]=--runtime-arg
+08-26 07:49:15.654  3166  3166 I art     : option[18]=-Ximage-compiler-option
+08-26 07:49:15.654  3166  3166 I art     : option[19]=-Xms64m
+08-26 07:49:15.654  3166  3166 I art     : option[20]=-Ximage-compiler-option
+08-26 07:49:15.654  3166  3166 I art     : option[21]=--runtime-arg
+08-26 07:49:15.654  3166  3166 I art     : option[22]=-Ximage-compiler-option
+08-26 07:49:15.654  3166  3166 I art     : option[23]=-Xmx64m
+08-26 07:49:15.654  3166  3166 I art     : option[24]=-Ximage-compiler-option
+08-26 07:49:15.654  3166  3166 I art     : option[25]=--compiler-filter=verify-at-runtime
+08-26 07:49:15.654  3166  3166 I art     : option[26]=-Ximage-compiler-option
+08-26 07:49:15.654  3166  3166 I art     : option[27]=--image-classes=/system/etc/preloaded-classes
+08-26 07:49:15.654  3166  3166 I art     : option[28]=-Xcompiler-option
+08-26 07:49:15.654  3166  3166 I art     : option[29]=--runtime-arg
+08-26 07:49:15.654  3166  3166 I art     : option[30]=-Xcompiler-option
+08-26 07:49:15.654  3166  3166 I art     : option[31]=-Xms64m
+08-26 07:49:15.654  3166  3166 I art     : option[32]=-Xcompiler-option
+08-26 07:49:15.654  3166  3166 I art     : option[33]=--runtime-arg
+08-26 07:49:15.654  3166  3166 I art     : option[34]=-Xcompiler-option
+08-26 07:49:15.654  3166  3166 I art     : option[35]=-Xmx512m
+08-26 07:49:15.654  3166  3166 I art     : option[36]=-Xcompiler-option
+08-26 07:49:15.654  3166  3166 I art     : option[37]=--compiler-filter=verify-at-runtime
+08-26 07:49:15.654  3166  3166 I art     : option[38]=-Ximage-compiler-option
+08-26 07:49:15.654  3166  3166 I art     : option[39]=--instruction-set-variant=generic
+08-26 07:49:15.654  3166  3166 I art     : option[40]=-Xcompiler-option
+08-26 07:49:15.654  3166  3166 I art     : option[41]=--instruction-set-variant=generic
+08-26 07:49:15.654  3166  3166 I art     : option[42]=-Ximage-compiler-option
+08-26 07:49:15.654  3166  3166 I art     : option[43]=--instruction-set-features=default
+08-26 07:49:15.654  3166  3166 I art     : option[44]=-Xcompiler-option
+08-26 07:49:15.654  3166  3166 I art     : option[45]=--instruction-set-features=default
+08-26 07:49:15.654  3166  3166 I art     : option[46]=-Duser.locale=en-US
+08-26 07:49:15.654  3166  3166 I art     : option[47]=--cpu-abilist=arm64-v8a,armeabi
+08-26 07:49:15.654  3166  3166 I art     : option[48]=-Xfingerprint:samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30Z/31574d5b39:eng/test-keys
+08-26 07:49:15.681  2932  2932 I ServiceManager: service 'media.audio_flinger' died
+08-26 07:49:15.681  2932  2932 I ServiceManager: service 'media.player' died
+08-26 07:49:15.681  2932  2932 I ServiceManager: service 'media.resource_manager' died
+08-26 07:49:15.681  2932  2932 I ServiceManager: service 'media.camera' died
+08-26 07:49:19.694  3244  3244 I Netd    : Netd 1.0 starting
+08-26 07:49:19.695  3244  3244 I QtiConnectivityAdapter: Failed to open libconnctrl, some features may not be present.
+08-26 07:49:19.695  3244  3244 D TetherController: Setting IP forward enable = 0
+08-26 07:49:19.705  3246  3246 I SurfaceFlinger: SurfaceFlinger is starting
+08-26 07:49:19.705  3246  3246 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+08-26 07:49:19.709  3074  3074 W auditd  : type=1325 audit(0.0:72): table=filter family=2 entries=16
+08-26 07:49:19.709  3074  3074 W auditd  : type=1320 audit(0.0:72): 
+08-26 07:49:19.709  3074  3074 W auditd  : type=1325 audit(0.0:73): table=filter family=10 entries=16
+08-26 07:49:19.709  3074  3074 W auditd  : type=1320 audit(0.0:73): 
+08-26 07:49:19.719  3074  3074 W auditd  : type=1325 audit(0.0:74): table=filter family=2 entries=15
+08-26 07:49:19.719  3074  3074 W auditd  : type=1320 audit(0.0:74): 
+08-26 07:49:19.719  3246  3246 D libEGL  : loaded /vendor/lib64/egl/libGLES_mali.so
+08-26 07:49:19.729  3074  3074 W auditd  : type=1325 audit(0.0:75): table=filter family=10 entries=15
+08-26 07:49:19.729  3074  3074 W auditd  : type=1320 audit(0.0:75): 
+08-26 07:49:19.734  3246  3246 E HAL     : load: module=/system/lib64/hw/gralloc.exynos5.so
+08-26 07:49:19.734  3246  3246 E HAL     : dlopen failed: cannot locate symbol "ion_sync_fd_partial" referenced by "/system/lib64/hw/gralloc.exynos5.so"...
+08-26 07:49:19.734  3246  3246 W libEGL  : eglInitialize(0x7f90529000) failed (EGL_NOT_INITIALIZED)
+08-26 07:49:19.735  3246  3246 E HAL     : load: module=/system/lib64/hw/gralloc.exynos5.so
+08-26 07:49:19.735  3246  3246 E HAL     : dlopen failed: cannot locate symbol "ion_sync_fd_partial" referenced by "/system/lib64/hw/gralloc.exynos5.so"...
+08-26 07:49:19.735  3246  3246 E SurfaceFlinger: gralloc module not found
+08-26 07:49:19.736  3246  3246 E HAL     : load: module=/system/lib64/hw/gralloc.exynos5.so
+08-26 07:49:19.736  3246  3246 E HAL     : dlopen failed: cannot locate symbol "ion_sync_fd_partial" referenced by "/system/lib64/hw/gralloc.exynos5.so"...
+08-26 07:49:19.736  3246  3246 E hwcomposer: failed to get gralloc hw module
+08-26 07:49:19.736  3246  3246 E SurfaceFlinger: composer device failed to initialize (Invalid argument)
+08-26 07:49:19.736  3246  3246 E SurfaceFlinger: ERROR: failed to open framebuffer (Invalid argument), aborting
+08-26 07:49:19.737  3246  3246 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 3246 (surfaceflinger)
+08-26 07:49:19.737  2938  2938 I DEBUG   : property debug.db.uid not set; NOT waiting for gdb.
+08-26 07:49:19.737  2938  2938 I DEBUG   : HINT: adb shell setprop debug.db.uid 100000
+08-26 07:49:19.737  2938  2938 I DEBUG   : HINT: adb forward tcp:5039 tcp:5039
+08-26 07:49:19.739  3074  3074 W auditd  : type=1325 audit(0.0:76): table=filter family=2 entries=15
+08-26 07:49:19.739  3074  3074 W auditd  : type=1320 audit(0.0:76): 
+08-26 07:49:19.749  3074  3074 W auditd  : type=1325 audit(0.0:77): table=filter family=10 entries=15
+08-26 07:49:19.749  3074  3074 W auditd  : type=1320 audit(0.0:77): 
+08-26 07:49:19.759  3074  3074 W auditd  : type=1325 audit(0.0:78): table=filter family=2 entries=13
+08-26 07:49:19.759  3074  3074 W auditd  : type=1320 audit(0.0:78): 
+08-26 07:49:19.759  3074  3074 W auditd  : type=1325 audit(0.0:79): table=filter family=10 entries=13
+08-26 07:49:19.759  3074  3074 W auditd  : type=1320 audit(0.0:79): 
+08-26 07:49:19.769  3074  3074 W auditd  : type=1325 audit(0.0:80): table=filter family=2 entries=15
+08-26 07:49:19.769  3074  3074 W auditd  : type=1320 audit(0.0:80): 
+08-26 07:49:19.779  3074  3074 W auditd  : type=1325 audit(0.0:81): table=filter family=10 entries=15
+08-26 07:49:19.779  3074  3074 W auditd  : type=1320 audit(0.0:81): 
+08-26 07:49:19.788  2938  2938 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+08-26 07:49:19.788  2938  2938 F DEBUG   : CM Version: '13.0-20160826-UNOFFICIAL-hero2ltexx'
+08-26 07:49:19.788  2938  2938 F DEBUG   : Build fingerprint: 'samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30Z/31574d5b39:eng/test-keys'
+08-26 07:49:19.788  2938  2938 F DEBUG   : Revision: '0'
+08-26 07:49:19.788  2938  2938 F DEBUG   : ABI: 'arm64'
+08-26 07:49:19.788  2938  2938 F DEBUG   : pid: 3246, tid: 3246, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+08-26 07:49:19.788  2938  2938 F DEBUG   : signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+08-26 07:49:19.791  2938  2938 F DEBUG   :     x0   0000000000000000  x1   0000000000000cae  x2   0000000000000006  x3   0000000000000000
+08-26 07:49:19.791  2938  2938 F DEBUG   :     x4   0000000000000000  x5   0000000000000001  x6   0000000000000000  x7   0000000000000000
+08-26 07:49:19.791  2938  2938 F DEBUG   :     x8   0000000000000083  x9   000000000000004f  x10  0000007fde5c63ec  x11  0000007fde5c6428
+08-26 07:49:19.791  2938  2938 F DEBUG   :     x12  0000007fde5c6300  x13  000000000000003f  x14  0000007fde5c64e8  x15  0000000000000000
+08-26 07:49:19.791  2938  2938 F DEBUG   :     x16  0000007f910f4560  x17  0000007f91085d6c  x18  0000007f912aa3a4  x19  0000007f9139f0d8
+08-26 07:49:19.791  2938  2938 F DEBUG   :     x20  0000007f9139f018  x21  0000000000000002  x22  0000000000000006  x23  44fd14f985d4646b
+08-26 07:49:19.791  2938  2938 F DEBUG   :     x24  000000000100ffff  x25  0000007f9131c7b0  x26  0000000000000000  x27  0000000000000000
+08-26 07:49:19.791  2938  2938 F DEBUG   :     x28  0000000000000000  x29  0000007fde5c68e0  x30  0000007f91083508
+08-26 07:49:19.791  2938  2938 F DEBUG   :     sp   0000007fde5c68e0  pc   0000007f91085d74  pstate 0000000020000000
+08-26 07:49:19.794  2938  2938 F DEBUG   : 
+08-26 07:49:19.794  2938  2938 F DEBUG   : backtrace:
+08-26 07:49:19.794  2938  2938 F DEBUG   :     #00 pc 0000000000069d74  /system/lib64/libc.so (tgkill+8)
+08-26 07:49:19.794  2938  2938 F DEBUG   :     #01 pc 0000000000067504  /system/lib64/libc.so (pthread_kill+68)
+08-26 07:49:19.795  2938  2938 F DEBUG   :     #02 pc 0000000000023448  /system/lib64/libc.so (raise+28)
+08-26 07:49:19.795  2938  2938 F DEBUG   :     #03 pc 000000000001dbe8  /system/lib64/libc.so (abort+60)
+08-26 07:49:19.795  2938  2938 F DEBUG   :     #04 pc 000000000003c0f8  /system/lib64/libsurfaceflinger.so
+08-26 07:49:19.795  2938  2938 F DEBUG   :     #05 pc 0000000000045f4c  /system/lib64/libsurfaceflinger.so
+08-26 07:49:19.795  2938  2938 F DEBUG   :     #06 pc 000000000002ce94  /system/lib64/libsurfaceflinger.so (_ZN7android14SurfaceFlinger4initEv+440)
+08-26 07:49:19.795  2938  2938 F DEBUG   :     #07 pc 000000000000115c  /system/bin/surfaceflinger
+08-26 07:49:19.795  2938  2938 F DEBUG   :     #08 pc 000000000001bcd8  /system/lib64/libc.so (__libc_init+100)
+08-26 07:49:19.795  2938  2938 F DEBUG   :     #09 pc 000000000000101c  /system/bin/surfaceflinger
+08-26 07:49:19.816  3247  3247 V MediaUtils: physMem: 3759357952
+08-26 07:49:19.816  3247  3247 V MediaUtils: requested limit: 2443582635
+08-26 07:49:19.816  3247  3247 V MediaUtils: actual limit: 2443582635
+08-26 07:49:19.816  3247  3247 V MediaUtils: original limits: 4294967295/4294967295
+08-26 07:49:19.816  3247  3247 V MediaUtils: new limits: 2443582635/4294967295
+08-26 07:49:19.816  3247  3247 I mediaserver: ServiceManager: 0xf60ce120
+08-26 07:49:19.816  3247  3247 I AudioFlinger: Using default 3000 mSec as standby time.
+08-26 07:49:19.816  3247  3247 E BatteryNotifier: batterystats service unavailable!
+08-26 07:49:19.816  3247  3247 E BatteryNotifier: batterystats service unavailable!
+08-26 07:49:19.816  3247  3247 I CameraService: CameraService started (pid=3247)
+08-26 07:49:19.817  3247  3247 I CameraService: CameraService process starting
+08-26 07:49:19.817  3247  3247 E BatteryNotifier: batterystats service unavailable!
+08-26 07:49:19.817  3247  3247 E BatteryNotifier: batterystats service unavailable!
+08-26 07:49:19.817  3247  3247 E CameraService: Could not load camera HAL module: -2 (No such file or directory)
+08-26 07:49:19.817  3247  3247 I AudioPolicyService: AudioPolicyService CSTOR in new mode
+08-26 07:49:19.817  3247  3247 I APM::ConfigParsingUtils: loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+08-26 07:49:19.893  3248  3248 D AndroidRuntime: >>>>>> START com.android.internal.os.ZygoteInit uid 0 <<<<<<
+08-26 07:49:19.896  3248  3248 D AndroidRuntime: CheckJNI is ON
+08-26 07:49:19.896  3248  3248 I art     : option[0]=-Xzygote
+08-26 07:49:19.896  3248  3248 I art     : option[1]=-Xcheck:jni
+08-26 07:49:19.896  3248  3248 I art     : option[2]=-Xstacktracefile:/data/anr/traces.txt
+08-26 07:49:19.896  3248  3248 I art     : option[3]=exit
+08-26 07:49:19.896  3248  3248 I art     : option[4]=vfprintf
+08-26 07:49:19.896  3248  3248 I art     : option[5]=sensitiveThread
+08-26 07:49:19.896  3248  3248 I art     : option[6]=-verbose:gc
+08-26 07:49:19.896  3248  3248 I art     : option[7]=-Xms8m
+08-26 07:49:19.896  3248  3248 I art     : option[8]=-Xmx768m
+08-26 07:49:19.896  3248  3248 I art     : option[9]=-XX:HeapGrowthLimit=288m
+08-26 07:49:19.896  3248  3248 I art     : option[10]=-XX:HeapMinFree=2m
+08-26 07:49:19.896  3248  3248 I art     : option[11]=-XX:HeapMaxFree=8m
+08-26 07:49:19.896  3248  3248 I art     : option[12]=-XX:HeapTargetUtilization=0.75
+08-26 07:49:19.896  3248  3248 I art     : option[13]=-Xusejit:true
+08-26 07:49:19.896  3248  3248 I art     : option[14]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+08-26 07:49:19.896  3248  3248 I art     : option[15]=-Xlockprofthreshold:500
+08-26 07:49:19.896  3248  3248 I art     : option[16]=-Ximage-compiler-option
+08-26 07:49:19.896  3248  3248 I art     : option[17]=--runtime-arg
+08-26 07:49:19.896  3248  3248 I art     : option[18]=-Ximage-compiler-option
+08-26 07:49:19.896  3248  3248 I art     : option[19]=-Xms64m
+08-26 07:49:19.896  3248  3248 I art     : option[20]=-Ximage-compiler-option
+08-26 07:49:19.896  3248  3248 I art     : option[21]=--runtime-arg
+08-26 07:49:19.896  3248  3248 I art     : option[22]=-Ximage-compiler-option
+08-26 07:49:19.896  3248  3248 I art     : option[23]=-Xmx64m
+08-26 07:49:19.896  3248  3248 I art     : option[24]=-Ximage-compiler-option
+08-26 07:49:19.896  3248  3248 I art     : option[25]=--compiler-filter=verify-at-runtime
+08-26 07:49:19.896  3248  3248 I art     : option[26]=-Ximage-compiler-option
+08-26 07:49:19.896  3248  3248 I art     : option[27]=--image-classes=/system/etc/preloaded-classes
+08-26 07:49:19.896  3248  3248 I art     : option[28]=-Xcompiler-option
+08-26 07:49:19.896  3248  3248 I art     : option[29]=--runtime-arg
+08-26 07:49:19.896  3248  3248 I art     : option[30]=-Xcompiler-option
+08-26 07:49:19.896  3248  3248 I art     : option[31]=-Xms64m
+08-26 07:49:19.896  3248  3248 I art     : option[32]=-Xcompiler-option
+08-26 07:49:19.896  3248  3248 I art     : option[33]=--runtime-arg
+08-26 07:49:19.896  3248  3248 I art     : option[34]=-Xcompiler-option
+08-26 07:49:19.896  3248  3248 I art     : option[35]=-Xmx512m
+08-26 07:49:19.896  3248  3248 I art     : option[36]=-Xcompiler-option
+08-26 07:49:19.896  3248  3248 I art     : option[37]=--compiler-filter=verify-at-runtime
+08-26 07:49:19.896  3248  3248 I art     : option[38]=-Ximage-compiler-option
+08-26 07:49:19.896  3248  3248 I art     : option[39]=--instruction-set-variant=generic
+08-26 07:49:19.896  3248  3248 I art     : option[40]=-Xcompiler-option
+08-26 07:49:19.897  3248  3248 I art     : option[41]=--instruction-set-variant=generic
+08-26 07:49:19.897  3248  3248 I art     : option[42]=-Ximage-compiler-option
+08-26 07:49:19.897  3248  3248 I art     : option[43]=--instruction-set-features=default
+08-26 07:49:19.897  3248  3248 I art     : option[44]=-Xcompiler-option
+08-26 07:49:19.897  3248  3248 I art     : option[45]=--instruction-set-features=default
+08-26 07:49:19.897  3248  3248 I art     : option[46]=-Duser.locale=en-US
+08-26 07:49:19.897  3248  3248 I art     : option[47]=--cpu-abilist=arm64-v8a,armeabi
+08-26 07:49:19.897  3248  3248 I art     : option[48]=-Xfingerprint:samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30Z/31574d5b39:eng/test-keys
+08-26 07:49:19.910  2938  2938 F DEBUG   : 
+08-26 07:49:19.910  2938  2938 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_03
+08-26 07:49:19.950  2932  2932 I ServiceManager: service 'media.audio_flinger' died
+08-26 07:49:19.950  2932  2932 I ServiceManager: service 'media.player' died
+08-26 07:49:19.950  2932  2932 I ServiceManager: service 'media.resource_manager' died
+08-26 07:49:19.950  2932  2932 I ServiceManager: service 'media.camera' died
+08-26 07:49:24.966  3333  3333 I Netd    : Netd 1.0 starting
+08-26 07:49:24.966  3333  3333 I QtiConnectivityAdapter: Failed to open libconnctrl, some features may not be present.
+08-26 07:49:24.966  3333  3333 D TetherController: Setting IP forward enable = 0
+08-26 07:49:24.959  3074  3074 W auditd  : type=1325 audit(0.0:114): table=filter family=2 entries=18
+08-26 07:49:24.959  3074  3074 W auditd  : type=1320 audit(0.0:114): 
+08-26 07:49:24.969  3074  3074 W auditd  : type=1325 audit(0.0:115): table=filter family=10 entries=16
+08-26 07:49:24.969  3074  3074 W auditd  : type=1320 audit(0.0:115): 
+08-26 07:49:24.979  3335  3335 I SurfaceFlinger: SurfaceFlinger is starting
+08-26 07:49:24.979  3335  3335 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+08-26 07:49:24.979  3074  3074 W auditd  : type=1325 audit(0.0:116): table=filter family=2 entries=17
+08-26 07:49:24.979  3074  3074 W auditd  : type=1320 audit(0.0:116): 
+08-26 07:49:24.979  3074  3074 W auditd  : type=1325 audit(0.0:117): table=filter family=10 entries=15
+08-26 07:49:24.979  3074  3074 W auditd  : type=1320 audit(0.0:117): 
+08-26 07:49:24.993  3335  3335 D libEGL  : loaded /vendor/lib64/egl/libGLES_mali.so
+08-26 07:49:24.989  3074  3074 W auditd  : type=1325 audit(0.0:118): table=filter family=2 entries=17
+08-26 07:49:24.989  3074  3074 W auditd  : type=1320 audit(0.0:118): 
+08-26 07:49:24.989  3074  3074 W auditd  : type=1325 audit(0.0:119): table=filter family=10 entries=15
+08-26 07:49:24.989  3074  3074 W auditd  : type=1320 audit(0.0:119): 
+08-26 07:49:24.999  3074  3074 W auditd  : type=1325 audit(0.0:120): table=filter family=2 entries=15
+08-26 07:49:24.999  3074  3074 W auditd  : type=1320 audit(0.0:120): 
+08-26 07:49:25.009  3335  3335 E HAL     : load: module=/system/lib64/hw/gralloc.exynos5.so
+08-26 07:49:25.009  3335  3335 E HAL     : dlopen failed: cannot locate symbol "ion_sync_fd_partial" referenced by "/system/lib64/hw/gralloc.exynos5.so"...
+08-26 07:49:25.009  3335  3335 W libEGL  : eglInitialize(0x7faaf29000) failed (EGL_NOT_INITIALIZED)
+08-26 07:49:25.010  3335  3335 E HAL     : load: module=/system/lib64/hw/gralloc.exynos5.so
+08-26 07:49:25.010  3335  3335 E HAL     : dlopen failed: cannot locate symbol "ion_sync_fd_partial" referenced by "/system/lib64/hw/gralloc.exynos5.so"...
+08-26 07:49:25.010  3335  3335 E SurfaceFlinger: gralloc module not found
+08-26 07:49:25.012  3335  3335 E HAL     : load: module=/system/lib64/hw/gralloc.exynos5.so
+08-26 07:49:25.012  3335  3335 E HAL     : dlopen failed: cannot locate symbol "ion_sync_fd_partial" referenced by "/system/lib64/hw/gralloc.exynos5.so"...
+08-26 07:49:25.012  3335  3335 E hwcomposer: failed to get gralloc hw module
+08-26 07:49:25.012  3335  3335 E SurfaceFlinger: composer device failed to initialize (Invalid argument)
+08-26 07:49:25.012  3335  3335 E SurfaceFlinger: ERROR: failed to open framebuffer (Invalid argument), aborting
+08-26 07:49:25.012  3335  3335 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 3335 (surfaceflinger)
+08-26 07:49:25.012  2938  2938 I DEBUG   : property debug.db.uid not set; NOT waiting for gdb.
+08-26 07:49:25.012  2938  2938 I DEBUG   : HINT: adb shell setprop debug.db.uid 100000
+08-26 07:49:25.012  2938  2938 I DEBUG   : HINT: adb forward tcp:5039 tcp:5039
+08-26 07:49:25.009  3074  3074 W auditd  : type=1325 audit(0.0:121): table=filter family=10 entries=13
+08-26 07:49:25.009  3074  3074 W auditd  : type=1320 audit(0.0:121): 
+08-26 07:49:25.009  3074  3074 W auditd  : type=1325 audit(0.0:122): table=filter family=2 entries=17
+08-26 07:49:25.009  3074  3074 W auditd  : type=1320 audit(0.0:122): 
+08-26 07:49:25.019  3074  3074 W auditd  : type=1325 audit(0.0:123): table=filter family=10 entries=15
+08-26 07:49:25.019  3074  3074 W auditd  : type=1320 audit(0.0:123): 
+08-26 07:49:25.068  2938  2938 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+08-26 07:49:25.068  2938  2938 F DEBUG   : CM Version: '13.0-20160826-UNOFFICIAL-hero2ltexx'
+08-26 07:49:25.068  2938  2938 F DEBUG   : Build fingerprint: 'samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30Z/31574d5b39:eng/test-keys'
+08-26 07:49:25.068  2938  2938 F DEBUG   : Revision: '0'
+08-26 07:49:25.068  2938  2938 F DEBUG   : ABI: 'arm64'
+08-26 07:49:25.068  2938  2938 F DEBUG   : pid: 3335, tid: 3335, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+08-26 07:49:25.068  2938  2938 F DEBUG   : signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+08-26 07:49:25.072  2938  2938 F DEBUG   :     x0   0000000000000000  x1   0000000000000d07  x2   0000000000000006  x3   0000000000000000
+08-26 07:49:25.072  2938  2938 F DEBUG   :     x4   0000000000000000  x5   0000000000000001  x6   0000000000000000  x7   0000000000000000
+08-26 07:49:25.072  2938  2938 F DEBUG   :     x8   0000000000000083  x9   000000000000004f  x10  0000007fd1afafbc  x11  0000007fd1afaff8
+08-26 07:49:25.072  2938  2938 F DEBUG   :     x12  0000007fd1afaed0  x13  000000000000003f  x14  0000007fd1afb0b8  x15  0000000000000000
+08-26 07:49:25.072  2938  2938 F DEBUG   :     x16  0000007fabb0e560  x17  0000007faba9fd6c  x18  0000007fabcc43a4  x19  0000007fabdb90d8
+08-26 07:49:25.072  2938  2938 F DEBUG   :     x20  0000007fabdb9018  x21  0000000000000002  x22  0000000000000006  x23  43117134b93271ec
+08-26 07:49:25.072  2938  2938 F DEBUG   :     x24  000000000100ffff  x25  0000007fabd367b0  x26  0000000000000000  x27  0000000000000000
+08-26 07:49:25.072  2938  2938 F DEBUG   :     x28  0000000000000000  x29  0000007fd1afb4b0  x30  0000007faba9d508
+08-26 07:49:25.072  2938  2938 F DEBUG   :     sp   0000007fd1afb4b0  pc   0000007faba9fd74  pstate 0000000020000000
+08-26 07:49:25.075  2938  2938 F DEBUG   : 
+08-26 07:49:25.075  2938  2938 F DEBUG   : backtrace:
+08-26 07:49:25.075  2938  2938 F DEBUG   :     #00 pc 0000000000069d74  /system/lib64/libc.so (tgkill+8)
+08-26 07:49:25.075  2938  2938 F DEBUG   :     #01 pc 0000000000067504  /system/lib64/libc.so (pthread_kill+68)
+08-26 07:49:25.075  2938  2938 F DEBUG   :     #02 pc 0000000000023448  /system/lib64/libc.so (raise+28)
+08-26 07:49:25.075  2938  2938 F DEBUG   :     #03 pc 000000000001dbe8  /system/lib64/libc.so (abort+60)
+08-26 07:49:25.075  2938  2938 F DEBUG   :     #04 pc 000000000003c0f8  /system/lib64/libsurfaceflinger.so
+08-26 07:49:25.075  2938  2938 F DEBUG   :     #05 pc 0000000000045f4c  /system/lib64/libsurfaceflinger.so
+08-26 07:49:25.075  2938  2938 F DEBUG   :     #06 pc 000000000002ce94  /system/lib64/libsurfaceflinger.so (_ZN7android14SurfaceFlinger4initEv+440)
+08-26 07:49:25.075  2938  2938 F DEBUG   :     #07 pc 000000000000115c  /system/bin/surfaceflinger
+08-26 07:49:25.075  2938  2938 F DEBUG   :     #08 pc 000000000001bcd8  /system/lib64/libc.so (__libc_init+100)
+08-26 07:49:25.075  2938  2938 F DEBUG   :     #09 pc 000000000000101c  /system/bin/surfaceflinger
+08-26 07:49:25.081  3336  3336 V MediaUtils: physMem: 3759357952
+08-26 07:49:25.081  3336  3336 V MediaUtils: requested limit: 2443582635
+08-26 07:49:25.081  3336  3336 V MediaUtils: actual limit: 2443582635
+08-26 07:49:25.081  3336  3336 V MediaUtils: original limits: 4294967295/4294967295
+08-26 07:49:25.081  3336  3336 V MediaUtils: new limits: 2443582635/4294967295
+08-26 07:49:25.081  3336  3336 I mediaserver: ServiceManager: 0xf644e120
+08-26 07:49:25.081  3336  3336 I AudioFlinger: Using default 3000 mSec as standby time.
+08-26 07:49:25.081  3336  3336 E BatteryNotifier: batterystats service unavailable!
+08-26 07:49:25.082  3336  3336 E BatteryNotifier: batterystats service unavailable!
+08-26 07:49:25.082  3336  3336 I CameraService: CameraService started (pid=3336)
+08-26 07:49:25.082  3336  3336 I CameraService: CameraService process starting
+08-26 07:49:25.082  3336  3336 E BatteryNotifier: batterystats service unavailable!
+08-26 07:49:25.082  3336  3336 E BatteryNotifier: batterystats service unavailable!
+08-26 07:49:25.082  3336  3336 E CameraService: Could not load camera HAL module: -2 (No such file or directory)
+08-26 07:49:25.083  3336  3336 I AudioPolicyService: AudioPolicyService CSTOR in new mode
+08-26 07:49:25.083  3336  3336 I APM::ConfigParsingUtils: loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+08-26 07:49:25.170  3337  3337 D AndroidRuntime: >>>>>> START com.android.internal.os.ZygoteInit uid 0 <<<<<<
+08-26 07:49:25.172  3337  3337 D AndroidRuntime: CheckJNI is ON
+08-26 07:49:25.172  3337  3337 I art     : option[0]=-Xzygote
+08-26 07:49:25.172  3337  3337 I art     : option[1]=-Xcheck:jni
+08-26 07:49:25.172  3337  3337 I art     : option[2]=-Xstacktracefile:/data/anr/traces.txt
+08-26 07:49:25.172  3337  3337 I art     : option[3]=exit
+08-26 07:49:25.172  3337  3337 I art     : option[4]=vfprintf
+08-26 07:49:25.172  3337  3337 I art     : option[5]=sensitiveThread
+08-26 07:49:25.172  3337  3337 I art     : option[6]=-verbose:gc
+08-26 07:49:25.172  3337  3337 I art     : option[7]=-Xms8m
+08-26 07:49:25.172  3337  3337 I art     : option[8]=-Xmx768m
+08-26 07:49:25.172  3337  3337 I art     : option[9]=-XX:HeapGrowthLimit=288m
+08-26 07:49:25.172  3337  3337 I art     : option[10]=-XX:HeapMinFree=2m
+08-26 07:49:25.172  3337  3337 I art     : option[11]=-XX:HeapMaxFree=8m
+08-26 07:49:25.172  3337  3337 I art     : option[12]=-XX:HeapTargetUtilization=0.75
+08-26 07:49:25.172  3337  3337 I art     : option[13]=-Xusejit:true
+08-26 07:49:25.172  3337  3337 I art     : option[14]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+08-26 07:49:25.172  3337  3337 I art     : option[15]=-Xlockprofthreshold:500
+08-26 07:49:25.172  3337  3337 I art     : option[16]=-Ximage-compiler-option
+08-26 07:49:25.172  3337  3337 I art     : option[17]=--runtime-arg
+08-26 07:49:25.172  3337  3337 I art     : option[18]=-Ximage-compiler-option
+08-26 07:49:25.172  3337  3337 I art     : option[19]=-Xms64m
+08-26 07:49:25.172  3337  3337 I art     : option[20]=-Ximage-compiler-option
+08-26 07:49:25.172  3337  3337 I art     : option[21]=--runtime-arg
+08-26 07:49:25.172  3337  3337 I art     : option[22]=-Ximage-compiler-option
+08-26 07:49:25.172  3337  3337 I art     : option[23]=-Xmx64m
+08-26 07:49:25.172  3337  3337 I art     : option[24]=-Ximage-compiler-option
+08-26 07:49:25.172  3337  3337 I art     : option[25]=--compiler-filter=verify-at-runtime
+08-26 07:49:25.172  3337  3337 I art     : option[26]=-Ximage-compiler-option
+08-26 07:49:25.172  3337  3337 I art     : option[27]=--image-classes=/system/etc/preloaded-classes
+08-26 07:49:25.172  3337  3337 I art     : option[28]=-Xcompiler-option
+08-26 07:49:25.172  3337  3337 I art     : option[29]=--runtime-arg
+08-26 07:49:25.172  3337  3337 I art     : option[30]=-Xcompiler-option
+08-26 07:49:25.172  3337  3337 I art     : option[31]=-Xms64m
+08-26 07:49:25.172  3337  3337 I art     : option[32]=-Xcompiler-option
+08-26 07:49:25.172  3337  3337 I art     : option[33]=--runtime-arg
+08-26 07:49:25.172  3337  3337 I art     : option[34]=-Xcompiler-option
+08-26 07:49:25.172  3337  3337 I art     : option[35]=-Xmx512m
+08-26 07:49:25.172  3337  3337 I art     : option[36]=-Xcompiler-option
+08-26 07:49:25.172  3337  3337 I art     : option[37]=--compiler-filter=verify-at-runtime
+08-26 07:49:25.172  3337  3337 I art     : option[38]=-Ximage-compiler-option
+08-26 07:49:25.172  3337  3337 I art     : option[39]=--instruction-set-variant=generic
+08-26 07:49:25.172  3337  3337 I art     : option[40]=-Xcompiler-option
+08-26 07:49:25.172  3337  3337 I art     : option[41]=--instruction-set-variant=generic
+08-26 07:49:25.172  3337  3337 I art     : option[42]=-Ximage-compiler-option
+08-26 07:49:25.172  3337  3337 I art     : option[43]=--instruction-set-features=default
+08-26 07:49:25.172  3337  3337 I art     : option[44]=-Xcompiler-option
+08-26 07:49:25.172  3337  3337 I art     : option[45]=--instruction-set-features=default
+08-26 07:49:25.172  3337  3337 I art     : option[46]=-Duser.locale=en-US
+08-26 07:49:25.172  3337  3337 I art     : option[47]=--cpu-abilist=arm64-v8a,armeabi
+08-26 07:49:25.172  3337  3337 I art     : option[48]=-Xfingerprint:samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30Z/31574d5b39:eng/test-keys
+08-26 07:49:25.175  3337  3337 W art     : Incomplete boot detected. Pruning dalvik cache
+08-26 07:49:25.191  2938  2938 F DEBUG   : 
+08-26 07:49:25.191  2938  2938 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_04
+08-26 07:49:25.216  3337  3337 W art     : Invalid image header in '/data/dalvik-cache/arm64/system@framework@boot.art'
+08-26 07:49:25.216  3337  3337 I art     : Pruning dalvik-cache since we are generating an image and will need to recompile
+08-26 07:49:25.216  3337  3337 I art     : Using an offset of 0xfa7000 from default art base address of 0x70000000
+08-26 07:49:25.216  3337  3337 I art     : GenerateImage: /system/bin/dex2oat --image=/data/dalvik-cache/arm64/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/apache-xml.jar --dex-file=/system/framework/org.apache.http.legacy.boot.jar --oat-file=/data/dalvik-cache/arm64/system@framework@boot.oat --instruction-set=arm64 --instruction-set-features=smp,a53 --base=0x70fa7000 --runtime-arg -Xms64m --runtime-arg -Xmx64m --compiler-filter=verify-at-runtime --image-classes=/system/etc/preloaded-classes --instruction-set-variant=generic --instruction-set-features=default
+08-26 07:49:25.243  3422  3422 I dex2oat : /system/bin/dex2oat --image=/data/dalvik-cache/arm64/system@framework@boot.art --dex-file=/system/framework/core-libart.jar --dex-file=/system/framework/conscrypt.jar --dex-file=/system/framework/okhttp.jar --dex-file=/system/framework/core-junit.jar --dex-file=/system/framework/bouncycastle.jar --dex-file=/system/framework/ext.jar --dex-file=/system/framework/framework.jar --dex-file=/system/framework/telephony-common.jar --dex-file=/system/framework/voip-common.jar --dex-file=/system/framework/ims-common.jar --dex-file=/system/framework/apache-xml.jar --dex-file=/system/framework/org.apache.http.legacy.boot.jar --oat-file=/data/dalvik-cache/arm64/system@framework@boot.oat --instruction-set=arm64 --instruction-set-features=smp,a53 --base=0x70fa7000 --runtime-arg -Xms64m --runtime-arg -Xmx64m --compiler-filter=verify-at-runtime --image-classes=/system/etc/preloaded-classes --instruction-set-variant=generic --instruction-set-features=default
+08-26 07:49:25.246  3422  3422 I dex2oat : setting boot class path to /system/framework/core-libart.jar:/system/framework/conscrypt.jar:/system/framework/okhttp.jar:/system/framework/core-junit.jar:/system/framework/bouncycastle.jar:/system/framework/ext.jar:/system/framework/framework.jar:/system/framework/telephony-common.jar:/system/framework/voip-common.jar:/system/framework/ims-common.jar:/system/framework/apache-xml.jar:/system/framework/org.apache.http.legacy.boot.jar
+08-26 07:49:25.259  2932  2932 I ServiceManager: service 'media.audio_flinger' died
+08-26 07:49:25.259  2932  2932 I ServiceManager: service 'media.player' died
+08-26 07:49:25.259  2932  2932 I ServiceManager: service 'media.resource_manager' died
+08-26 07:49:25.260  2932  2932 I ServiceManager: service 'media.camera' died
+08-26 07:49:26.726  3422  3434 W dex2oat : Skipping class com.quicinc.tcmiface.DpmTcmIface from /system/framework/org.apache.http.legacy.boot.jar previously found in /system/framework/okhttp.jar
+08-26 07:49:27.057  3422  3422 I dex2oat : Explicit concurrent mark sweep GC freed 58615(21MB) AllocSpace objects, 0(0B) LOS objects, 34% free, 7MB/11MB, paused 131us total 10.556ms
+08-26 07:49:27.529  3422  3422 I dex2oat : dex2oat took 2.286s (threads: 8) arena alloc=784B java alloc=7MB native alloc=10MB free=10MB
+08-26 07:49:29.551  3440  3440 I Netd    : Netd 1.0 starting
+08-26 07:49:29.551  3440  3440 I QtiConnectivityAdapter: Failed to open libconnctrl, some features may not be present.
+08-26 07:49:29.551  3440  3440 D TetherController: Setting IP forward enable = 0
+08-26 07:49:29.549  3074  3074 W auditd  : type=1325 audit(0.0:165): table=filter family=2 entries=22
+08-26 07:49:29.549  3074  3074 W auditd  : type=1320 audit(0.0:165): 
+08-26 07:49:29.549  3074  3074 W auditd  : type=1325 audit(0.0:166): table=filter family=10 entries=22
+08-26 07:49:29.549  3074  3074 W auditd  : type=1320 audit(0.0:166): 
+08-26 07:49:29.564  3442  3442 I SurfaceFlinger: SurfaceFlinger is starting
+08-26 07:49:29.564  3442  3442 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+08-26 07:49:29.559  3074  3074 W auditd  : type=1325 audit(0.0:167): table=filter family=2 entries=21
+08-26 07:49:29.559  3074  3074 W auditd  : type=1320 audit(0.0:167): 
+08-26 07:49:29.559  3074  3074 W auditd  : type=1325 audit(0.0:168): table=filter family=10 entries=21
+08-26 07:49:29.559  3074  3074 W auditd  : type=1320 audit(0.0:168): 
+08-26 07:49:29.569  3074  3074 W auditd  : type=1325 audit(0.0:169): table=filter family=2 entries=21
+08-26 07:49:29.569  3074  3074 W auditd  : type=1320 audit(0.0:169): 
+08-26 07:49:29.578  3442  3442 D libEGL  : loaded /vendor/lib64/egl/libGLES_mali.so
+08-26 07:49:29.579  3074  3074 W auditd  : type=1325 audit(0.0:170): table=filter family=10 entries=21
+08-26 07:49:29.579  3074  3074 W auditd  : type=1320 audit(0.0:170): 
+08-26 07:49:29.579  3074  3074 W auditd  : type=1325 audit(0.0:171): table=filter family=2 entries=19
+08-26 07:49:29.579  3074  3074 W auditd  : type=1320 audit(0.0:171): 
+08-26 07:49:29.594  3442  3442 E HAL     : load: module=/system/lib64/hw/gralloc.exynos5.so
+08-26 07:49:29.594  3442  3442 E HAL     : dlopen failed: cannot locate symbol "ion_sync_fd_partial" referenced by "/system/lib64/hw/gralloc.exynos5.so"...
+08-26 07:49:29.594  3442  3442 W libEGL  : eglInitialize(0x7fa91ab000) failed (EGL_NOT_INITIALIZED)
+08-26 07:49:29.595  3442  3442 E HAL     : load: module=/system/lib64/hw/gralloc.exynos5.so
+08-26 07:49:29.595  3442  3442 E HAL     : dlopen failed: cannot locate symbol "ion_sync_fd_partial" referenced by "/system/lib64/hw/gralloc.exynos5.so"...
+08-26 07:49:29.595  3442  3442 E SurfaceFlinger: gralloc module not found
+08-26 07:49:29.589  3074  3074 W auditd  : type=1325 audit(0.0:172): table=filter family=10 entries=19
+08-26 07:49:29.589  3074  3074 W auditd  : type=1320 audit(0.0:172): 
+08-26 07:49:29.597  3442  3442 E HAL     : load: module=/system/lib64/hw/gralloc.exynos5.so
+08-26 07:49:29.597  3442  3442 E HAL     : dlopen failed: cannot locate symbol "ion_sync_fd_partial" referenced by "/system/lib64/hw/gralloc.exynos5.so"...
+08-26 07:49:29.597  3442  3442 E hwcomposer: failed to get gralloc hw module
+08-26 07:49:29.597  3442  3442 E SurfaceFlinger: composer device failed to initialize (Invalid argument)
+08-26 07:49:29.597  3442  3442 E SurfaceFlinger: ERROR: failed to open framebuffer (Invalid argument), aborting
+08-26 07:49:29.597  3442  3442 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 3442 (surfaceflinger)
+08-26 07:49:29.597  2938  2938 I DEBUG   : property debug.db.uid not set; NOT waiting for gdb.
+08-26 07:49:29.597  2938  2938 I DEBUG   : HINT: adb shell setprop debug.db.uid 100000
+08-26 07:49:29.597  2938  2938 I DEBUG   : HINT: adb forward tcp:5039 tcp:5039
+08-26 07:49:29.589  3074  3074 W auditd  : type=1325 audit(0.0:173): table=filter family=2 entries=21
+08-26 07:49:29.589  3074  3074 W auditd  : type=1320 audit(0.0:173): 
+08-26 07:49:29.599  3074  3074 W auditd  : type=1325 audit(0.0:174): table=filter family=10 entries=21
+08-26 07:49:29.599  3074  3074 W auditd  : type=1320 audit(0.0:174): 
+08-26 07:49:29.648  2938  2938 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+08-26 07:49:29.648  2938  2938 F DEBUG   : CM Version: '13.0-20160826-UNOFFICIAL-hero2ltexx'
+08-26 07:49:29.648  2938  2938 F DEBUG   : Build fingerprint: 'samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30Z/31574d5b39:eng/test-keys'
+08-26 07:49:29.648  2938  2938 F DEBUG   : Revision: '0'
+08-26 07:49:29.648  2938  2938 F DEBUG   : ABI: 'arm64'
+08-26 07:49:29.648  2938  2938 F DEBUG   : pid: 3442, tid: 3442, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+08-26 07:49:29.648  2938  2938 F DEBUG   : signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+08-26 07:49:29.652  2938  2938 F DEBUG   :     x0   0000000000000000  x1   0000000000000d72  x2   0000000000000006  x3   0000000000000000
+08-26 07:49:29.652  2938  2938 F DEBUG   :     x4   0000000000000000  x5   0000000000000001  x6   0000000000000000  x7   0000000000000000
+08-26 07:49:29.652  2938  2938 F DEBUG   :     x8   0000000000000083  x9   000000000000004f  x10  0000007fdc3ad13c  x11  0000007fdc3ad178
+08-26 07:49:29.652  2938  2938 F DEBUG   :     x12  0000007fdc3ad050  x13  000000000000003f  x14  0000007fdc3ad238  x15  0000000000000000
+08-26 07:49:29.652  2938  2938 F DEBUG   :     x16  0000007fa9d6a560  x17  0000007fa9cfbd6c  x18  0000007fa9f203a4  x19  0000007faa0150d8
+08-26 07:49:29.652  2938  2938 F DEBUG   :     x20  0000007faa015018  x21  0000000000000002  x22  0000000000000006  x23  9b5ff17b6d3f5d91
+08-26 07:49:29.652  2938  2938 F DEBUG   :     x24  000000000100ffff  x25  0000007fa9f927b0  x26  0000000000000000  x27  0000000000000000
+08-26 07:49:29.652  2938  2938 F DEBUG   :     x28  0000000000000000  x29  0000007fdc3ad630  x30  0000007fa9cf9508
+08-26 07:49:29.652  2938  2938 F DEBUG   :     sp   0000007fdc3ad630  pc   0000007fa9cfbd74  pstate 0000000020000000
+08-26 07:49:29.655  2938  2938 F DEBUG   : 
+08-26 07:49:29.655  2938  2938 F DEBUG   : backtrace:
+08-26 07:49:29.655  2938  2938 F DEBUG   :     #00 pc 0000000000069d74  /system/lib64/libc.so (tgkill+8)
+08-26 07:49:29.655  2938  2938 F DEBUG   :     #01 pc 0000000000067504  /system/lib64/libc.so (pthread_kill+68)
+08-26 07:49:29.655  2938  2938 F DEBUG   :     #02 pc 0000000000023448  /system/lib64/libc.so (raise+28)
+08-26 07:49:29.655  2938  2938 F DEBUG   :     #03 pc 000000000001dbe8  /system/lib64/libc.so (abort+60)
+08-26 07:49:29.655  2938  2938 F DEBUG   :     #04 pc 000000000003c0f8  /system/lib64/libsurfaceflinger.so
+08-26 07:49:29.655  2938  2938 F DEBUG   :     #05 pc 0000000000045f4c  /system/lib64/libsurfaceflinger.so
+08-26 07:49:29.655  2938  2938 F DEBUG   :     #06 pc 000000000002ce94  /system/lib64/libsurfaceflinger.so (_ZN7android14SurfaceFlinger4initEv+440)
+08-26 07:49:29.655  2938  2938 F DEBUG   :     #07 pc 000000000000115c  /system/bin/surfaceflinger
+08-26 07:49:29.655  2938  2938 F DEBUG   :     #08 pc 000000000001bcd8  /system/lib64/libc.so (__libc_init+100)
+08-26 07:49:29.655  2938  2938 F DEBUG   :     #09 pc 000000000000101c  /system/bin/surfaceflinger
+08-26 07:49:29.674  3443  3443 V MediaUtils: physMem: 3759357952
+08-26 07:49:29.674  3443  3443 V MediaUtils: requested limit: 2443582635
+08-26 07:49:29.674  3443  3443 V MediaUtils: actual limit: 2443582635
+08-26 07:49:29.674  3443  3443 V MediaUtils: original limits: 4294967295/4294967295
+08-26 07:49:29.674  3443  3443 V MediaUtils: new limits: 2443582635/4294967295
+08-26 07:49:29.674  3443  3443 I mediaserver: ServiceManager: 0xf60ce120
+08-26 07:49:29.674  3443  3443 I AudioFlinger: Using default 3000 mSec as standby time.
+08-26 07:49:29.674  3443  3443 E BatteryNotifier: batterystats service unavailable!
+08-26 07:49:29.674  3443  3443 E BatteryNotifier: batterystats service unavailable!
+08-26 07:49:29.675  3443  3443 I CameraService: CameraService started (pid=3443)
+08-26 07:49:29.675  3443  3443 I CameraService: CameraService process starting
+08-26 07:49:29.675  3443  3443 E BatteryNotifier: batterystats service unavailable!
+08-26 07:49:29.675  3443  3443 E BatteryNotifier: batterystats service unavailable!
+08-26 07:49:29.675  3443  3443 E CameraService: Could not load camera HAL module: -2 (No such file or directory)
+08-26 07:49:29.676  3443  3443 I AudioPolicyService: AudioPolicyService CSTOR in new mode
+08-26 07:49:29.676  3443  3443 I APM::ConfigParsingUtils: loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+08-26 07:49:29.748  3444  3444 D AndroidRuntime: >>>>>> START com.android.internal.os.ZygoteInit uid 0 <<<<<<
+08-26 07:49:29.750  3444  3444 D AndroidRuntime: CheckJNI is ON
+08-26 07:49:29.751  3444  3444 I art     : option[0]=-Xzygote
+08-26 07:49:29.751  3444  3444 I art     : option[1]=-Xcheck:jni
+08-26 07:49:29.751  3444  3444 I art     : option[2]=-Xstacktracefile:/data/anr/traces.txt
+08-26 07:49:29.751  3444  3444 I art     : option[3]=exit
+08-26 07:49:29.751  3444  3444 I art     : option[4]=vfprintf
+08-26 07:49:29.751  3444  3444 I art     : option[5]=sensitiveThread
+08-26 07:49:29.751  3444  3444 I art     : option[6]=-verbose:gc
+08-26 07:49:29.751  3444  3444 I art     : option[7]=-Xms8m
+08-26 07:49:29.751  3444  3444 I art     : option[8]=-Xmx768m
+08-26 07:49:29.751  3444  3444 I art     : option[9]=-XX:HeapGrowthLimit=288m
+08-26 07:49:29.751  3444  3444 I art     : option[10]=-XX:HeapMinFree=2m
+08-26 07:49:29.751  3444  3444 I art     : option[11]=-XX:HeapMaxFree=8m
+08-26 07:49:29.751  3444  3444 I art     : option[12]=-XX:HeapTargetUtilization=0.75
+08-26 07:49:29.751  3444  3444 I art     : option[13]=-Xusejit:true
+08-26 07:49:29.751  3444  3444 I art     : option[14]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+08-26 07:49:29.751  3444  3444 I art     : option[15]=-Xlockprofthreshold:500
+08-26 07:49:29.751  3444  3444 I art     : option[16]=-Ximage-compiler-option
+08-26 07:49:29.751  3444  3444 I art     : option[17]=--runtime-arg
+08-26 07:49:29.751  3444  3444 I art     : option[18]=-Ximage-compiler-option
+08-26 07:49:29.751  3444  3444 I art     : option[19]=-Xms64m
+08-26 07:49:29.751  3444  3444 I art     : option[20]=-Ximage-compiler-option
+08-26 07:49:29.751  3444  3444 I art     : option[21]=--runtime-arg
+08-26 07:49:29.751  3444  3444 I art     : option[22]=-Ximage-compiler-option
+08-26 07:49:29.751  3444  3444 I art     : option[23]=-Xmx64m
+08-26 07:49:29.751  3444  3444 I art     : option[24]=-Ximage-compiler-option
+08-26 07:49:29.751  3444  3444 I art     : option[25]=--compiler-filter=verify-at-runtime
+08-26 07:49:29.751  3444  3444 I art     : option[26]=-Ximage-compiler-option
+08-26 07:49:29.751  3444  3444 I art     : option[27]=--image-classes=/system/etc/preloaded-classes
+08-26 07:49:29.751  3444  3444 I art     : option[28]=-Xcompiler-option
+08-26 07:49:29.751  3444  3444 I art     : option[29]=--runtime-arg
+08-26 07:49:29.751  3444  3444 I art     : option[30]=-Xcompiler-option
+08-26 07:49:29.751  3444  3444 I art     : option[31]=-Xms64m
+08-26 07:49:29.751  3444  3444 I art     : option[32]=-Xcompiler-option
+08-26 07:49:29.751  3444  3444 I art     : option[33]=--runtime-arg
+08-26 07:49:29.751  3444  3444 I art     : option[34]=-Xcompiler-option
+08-26 07:49:29.751  3444  3444 I art     : option[35]=-Xmx512m
+08-26 07:49:29.751  3444  3444 I art     : option[36]=-Xcompiler-option
+08-26 07:49:29.751  3444  3444 I art     : option[37]=--compiler-filter=verify-at-runtime
+08-26 07:49:29.751  3444  3444 I art     : option[38]=-Ximage-compiler-option
+08-26 07:49:29.751  3444  3444 I art     : option[39]=--instruction-set-variant=generic
+08-26 07:49:29.751  3444  3444 I art     : option[40]=-Xcompiler-option
+08-26 07:49:29.751  3444  3444 I art     : option[41]=--instruction-set-variant=generic
+08-26 07:49:29.751  3444  3444 I art     : option[42]=-Ximage-compiler-option
+08-26 07:49:29.751  3444  3444 I art     : option[43]=--instruction-set-features=default
+08-26 07:49:29.751  3444  3444 I art     : option[44]=-Xcompiler-option
+08-26 07:49:29.751  3444  3444 I art     : option[45]=--instruction-set-features=default
+08-26 07:49:29.751  3444  3444 I art     : option[46]=-Duser.locale=en-US
+08-26 07:49:29.751  3444  3444 I art     : option[47]=--cpu-abilist=arm64-v8a,armeabi
+08-26 07:49:29.751  3444  3444 I art     : option[48]=-Xfingerprint:samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30Z/31574d5b39:eng/test-keys
+08-26 07:49:29.771  2938  2938 F DEBUG   : 
+08-26 07:49:29.771  2938  2938 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_05
+08-26 07:49:29.789  3444  3444 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+08-26 07:49:29.841  2932  2932 I ServiceManager: service 'media.audio_flinger' died
+08-26 07:49:29.841  2932  2932 I ServiceManager: service 'media.player' died
+08-26 07:49:29.841  2932  2932 I ServiceManager: service 'media.resource_manager' died
+08-26 07:49:29.841  2932  2932 I ServiceManager: service 'media.camera' died
+08-26 07:49:34.857  3543  3543 I Netd    : Netd 1.0 starting
+08-26 07:49:34.858  3543  3543 I QtiConnectivityAdapter: Failed to open libconnctrl, some features may not be present.
+08-26 07:49:34.858  3543  3543 D TetherController: Setting IP forward enable = 0
+08-26 07:49:34.859  3074  3074 W auditd  : type=1325 audit(0.0:226): table=filter family=2 entries=22
+08-26 07:49:34.859  3074  3074 W auditd  : type=1320 audit(0.0:226): 
+08-26 07:49:34.869  3545  3545 I SurfaceFlinger: SurfaceFlinger is starting
+08-26 07:49:34.869  3545  3545 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+08-26 07:49:34.869  3074  3074 W auditd  : type=1325 audit(0.0:227): table=filter family=10 entries=22
+08-26 07:49:34.869  3074  3074 W auditd  : type=1320 audit(0.0:227): 
+08-26 07:49:34.883  3545  3545 D libEGL  : loaded /vendor/lib64/egl/libGLES_mali.so
+08-26 07:49:34.879  3074  3074 W auditd  : type=1325 audit(0.0:228): table=filter family=2 entries=21
+08-26 07:49:34.879  3074  3074 W auditd  : type=1320 audit(0.0:228): 
+08-26 07:49:34.879  3074  3074 W auditd  : type=1325 audit(0.0:229): table=filter family=10 entries=21
+08-26 07:49:34.879  3074  3074 W auditd  : type=1320 audit(0.0:229): 
+08-26 07:49:34.889  3074  3074 W auditd  : type=1325 audit(0.0:230): table=filter family=2 entries=21
+08-26 07:49:34.889  3074  3074 W auditd  : type=1320 audit(0.0:230): 
+08-26 07:49:34.898  3545  3545 E HAL     : load: module=/system/lib64/hw/gralloc.exynos5.so
+08-26 07:49:34.898  3545  3545 E HAL     : dlopen failed: cannot locate symbol "ion_sync_fd_partial" referenced by "/system/lib64/hw/gralloc.exynos5.so"...
+08-26 07:49:34.898  3545  3545 W libEGL  : eglInitialize(0x7f97069000) failed (EGL_NOT_INITIALIZED)
+08-26 07:49:34.899  3545  3545 E HAL     : load: module=/system/lib64/hw/gralloc.exynos5.so
+08-26 07:49:34.899  3545  3545 E HAL     : dlopen failed: cannot locate symbol "ion_sync_fd_partial" referenced by "/system/lib64/hw/gralloc.exynos5.so"...
+08-26 07:49:34.899  3545  3545 E SurfaceFlinger: gralloc module not found
+08-26 07:49:34.901  3545  3545 E HAL     : load: module=/system/lib64/hw/gralloc.exynos5.so
+08-26 07:49:34.901  3545  3545 E HAL     : dlopen failed: cannot locate symbol "ion_sync_fd_partial" referenced by "/system/lib64/hw/gralloc.exynos5.so"...
+08-26 07:49:34.901  3545  3545 E hwcomposer: failed to get gralloc hw module
+08-26 07:49:34.901  3545  3545 E SurfaceFlinger: composer device failed to initialize (Invalid argument)
+08-26 07:49:34.901  3545  3545 E SurfaceFlinger: ERROR: failed to open framebuffer (Invalid argument), aborting
+08-26 07:49:34.901  3545  3545 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 3545 (surfaceflinger)
+08-26 07:49:34.889  3074  3074 W auditd  : type=1325 audit(0.0:231): table=filter family=10 entries=21
+08-26 07:49:34.889  3074  3074 W auditd  : type=1320 audit(0.0:231): 
+08-26 07:49:34.902  2938  2938 I DEBUG   : property debug.db.uid not set; NOT waiting for gdb.
+08-26 07:49:34.902  2938  2938 I DEBUG   : HINT: adb shell setprop debug.db.uid 100000
+08-26 07:49:34.902  2938  2938 I DEBUG   : HINT: adb forward tcp:5039 tcp:5039
+08-26 07:49:34.899  3074  3074 W auditd  : type=1325 audit(0.0:232): table=filter family=2 entries=19
+08-26 07:49:34.899  3074  3074 W auditd  : type=1320 audit(0.0:232): 
+08-26 07:49:34.899  3074  3074 W auditd  : type=1325 audit(0.0:233): table=filter family=10 entries=19
+08-26 07:49:34.899  3074  3074 W auditd  : type=1320 audit(0.0:233): 
+08-26 07:49:34.909  3074  3074 W auditd  : type=1325 audit(0.0:234): table=filter family=2 entries=21
+08-26 07:49:34.909  3074  3074 W auditd  : type=1320 audit(0.0:234): 
+08-26 07:49:34.919  3074  3074 W auditd  : type=1325 audit(0.0:235): table=filter family=10 entries=21
+08-26 07:49:34.919  3074  3074 W auditd  : type=1320 audit(0.0:235): 
+08-26 07:49:34.957  2938  2938 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+08-26 07:49:34.957  2938  2938 F DEBUG   : CM Version: '13.0-20160826-UNOFFICIAL-hero2ltexx'
+08-26 07:49:34.957  2938  2938 F DEBUG   : Build fingerprint: 'samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30Z/31574d5b39:eng/test-keys'
+08-26 07:49:34.957  2938  2938 F DEBUG   : Revision: '0'
+08-26 07:49:34.957  2938  2938 F DEBUG   : ABI: 'arm64'
+08-26 07:49:34.957  2938  2938 F DEBUG   : pid: 3545, tid: 3545, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+08-26 07:49:34.957  2938  2938 F DEBUG   : signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+08-26 07:49:34.961  2938  2938 F DEBUG   :     x0   0000000000000000  x1   0000000000000dd9  x2   0000000000000006  x3   0000000000000000
+08-26 07:49:34.961  2938  2938 F DEBUG   :     x4   0000000000000000  x5   0000000000000001  x6   0000000000000000  x7   0000000000000000
+08-26 07:49:34.961  2938  2938 F DEBUG   :     x8   0000000000000083  x9   000000000000004f  x10  0000007fcf7680ec  x11  0000007fcf768128
+08-26 07:49:34.961  2938  2938 F DEBUG   :     x12  0000007fcf768000  x13  000000000000003f  x14  0000007fcf7681e8  x15  0000000000000000
+08-26 07:49:34.961  2938  2938 F DEBUG   :     x16  0000007f97c56560  x17  0000007f97be7d6c  x18  0000007f97e0c3a4  x19  0000007f97f010d8
+08-26 07:49:34.961  2938  2938 F DEBUG   :     x20  0000007f97f01018  x21  0000000000000002  x22  0000000000000006  x23  0473c2c38fae997c
+08-26 07:49:34.961  2938  2938 F DEBUG   :     x24  000000000100ffff  x25  0000007f97e7e7b0  x26  0000000000000000  x27  0000000000000000
+08-26 07:49:34.961  2938  2938 F DEBUG   :     x28  0000000000000000  x29  0000007fcf7685e0  x30  0000007f97be5508
+08-26 07:49:34.961  2938  2938 F DEBUG   :     sp   0000007fcf7685e0  pc   0000007f97be7d74  pstate 0000000020000000
+08-26 07:49:34.964  2938  2938 F DEBUG   : 
+08-26 07:49:34.964  2938  2938 F DEBUG   : backtrace:
+08-26 07:49:34.964  2938  2938 F DEBUG   :     #00 pc 0000000000069d74  /system/lib64/libc.so (tgkill+8)
+08-26 07:49:34.964  2938  2938 F DEBUG   :     #01 pc 0000000000067504  /system/lib64/libc.so (pthread_kill+68)
+08-26 07:49:34.964  2938  2938 F DEBUG   :     #02 pc 0000000000023448  /system/lib64/libc.so (raise+28)
+08-26 07:49:34.964  2938  2938 F DEBUG   :     #03 pc 000000000001dbe8  /system/lib64/libc.so (abort+60)
+08-26 07:49:34.964  2938  2938 F DEBUG   :     #04 pc 000000000003c0f8  /system/lib64/libsurfaceflinger.so
+08-26 07:49:34.964  2938  2938 F DEBUG   :     #05 pc 0000000000045f4c  /system/lib64/libsurfaceflinger.so
+08-26 07:49:34.964  2938  2938 F DEBUG   :     #06 pc 000000000002ce94  /system/lib64/libsurfaceflinger.so (_ZN7android14SurfaceFlinger4initEv+440)
+08-26 07:49:34.964  2938  2938 F DEBUG   :     #07 pc 000000000000115c  /system/bin/surfaceflinger
+08-26 07:49:34.964  2938  2938 F DEBUG   :     #08 pc 000000000001bcd8  /system/lib64/libc.so (__libc_init+100)
+08-26 07:49:34.964  2938  2938 F DEBUG   :     #09 pc 000000000000101c  /system/bin/surfaceflinger
+08-26 07:49:34.978  3546  3546 V MediaUtils: physMem: 3759357952
+08-26 07:49:34.978  3546  3546 V MediaUtils: requested limit: 2443582635
+08-26 07:49:34.978  3546  3546 V MediaUtils: actual limit: 2443582635
+08-26 07:49:34.978  3546  3546 V MediaUtils: original limits: 4294967295/4294967295
+08-26 07:49:34.978  3546  3546 V MediaUtils: new limits: 2443582635/4294967295
+08-26 07:49:34.978  3546  3546 I mediaserver: ServiceManager: 0xf660e120
+08-26 07:49:34.978  3546  3546 I AudioFlinger: Using default 3000 mSec as standby time.
+08-26 07:49:34.978  3546  3546 E BatteryNotifier: batterystats service unavailable!
+08-26 07:49:34.979  3546  3546 E BatteryNotifier: batterystats service unavailable!
+08-26 07:49:34.979  3546  3546 I CameraService: CameraService started (pid=3546)
+08-26 07:49:34.979  3546  3546 I CameraService: CameraService process starting
+08-26 07:49:34.979  3546  3546 E BatteryNotifier: batterystats service unavailable!
+08-26 07:49:34.979  3546  3546 E BatteryNotifier: batterystats service unavailable!
+08-26 07:49:34.979  3546  3546 E CameraService: Could not load camera HAL module: -2 (No such file or directory)
+08-26 07:49:34.979  3546  3546 I AudioPolicyService: AudioPolicyService CSTOR in new mode
+08-26 07:49:34.980  3546  3546 I APM::ConfigParsingUtils: loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+08-26 07:49:35.062  3547  3547 D AndroidRuntime: >>>>>> START com.android.internal.os.ZygoteInit uid 0 <<<<<<
+08-26 07:49:35.065  3547  3547 D AndroidRuntime: CheckJNI is ON
+08-26 07:49:35.065  3547  3547 I art     : option[0]=-Xzygote
+08-26 07:49:35.065  3547  3547 I art     : option[1]=-Xcheck:jni
+08-26 07:49:35.065  3547  3547 I art     : option[2]=-Xstacktracefile:/data/anr/traces.txt
+08-26 07:49:35.065  3547  3547 I art     : option[3]=exit
+08-26 07:49:35.065  3547  3547 I art     : option[4]=vfprintf
+08-26 07:49:35.065  3547  3547 I art     : option[5]=sensitiveThread
+08-26 07:49:35.065  3547  3547 I art     : option[6]=-verbose:gc
+08-26 07:49:35.065  3547  3547 I art     : option[7]=-Xms8m
+08-26 07:49:35.065  3547  3547 I art     : option[8]=-Xmx768m
+08-26 07:49:35.065  3547  3547 I art     : option[9]=-XX:HeapGrowthLimit=288m
+08-26 07:49:35.065  3547  3547 I art     : option[10]=-XX:HeapMinFree=2m
+08-26 07:49:35.065  3547  3547 I art     : option[11]=-XX:HeapMaxFree=8m
+08-26 07:49:35.065  3547  3547 I art     : option[12]=-XX:HeapTargetUtilization=0.75
+08-26 07:49:35.065  3547  3547 I art     : option[13]=-Xusejit:true
+08-26 07:49:35.065  3547  3547 I art     : option[14]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+08-26 07:49:35.065  3547  3547 I art     : option[15]=-Xlockprofthreshold:500
+08-26 07:49:35.065  3547  3547 I art     : option[16]=-Ximage-compiler-option
+08-26 07:49:35.065  3547  3547 I art     : option[17]=--runtime-arg
+08-26 07:49:35.065  3547  3547 I art     : option[18]=-Ximage-compiler-option
+08-26 07:49:35.065  3547  3547 I art     : option[19]=-Xms64m
+08-26 07:49:35.065  3547  3547 I art     : option[20]=-Ximage-compiler-option
+08-26 07:49:35.065  3547  3547 I art     : option[21]=--runtime-arg
+08-26 07:49:35.065  3547  3547 I art     : option[22]=-Ximage-compiler-option
+08-26 07:49:35.065  3547  3547 I art     : option[23]=-Xmx64m
+08-26 07:49:35.065  3547  3547 I art     : option[24]=-Ximage-compiler-option
+08-26 07:49:35.065  3547  3547 I art     : option[25]=--compiler-filter=verify-at-runtime
+08-26 07:49:35.065  3547  3547 I art     : option[26]=-Ximage-compiler-option
+08-26 07:49:35.065  3547  3547 I art     : option[27]=--image-classes=/system/etc/preloaded-classes
+08-26 07:49:35.065  3547  3547 I art     : option[28]=-Xcompiler-option
+08-26 07:49:35.065  3547  3547 I art     : option[29]=--runtime-arg
+08-26 07:49:35.065  3547  3547 I art     : option[30]=-Xcompiler-option
+08-26 07:49:35.065  3547  3547 I art     : option[31]=-Xms64m
+08-26 07:49:35.065  3547  3547 I art     : option[32]=-Xcompiler-option
+08-26 07:49:35.065  3547  3547 I art     : option[33]=--runtime-arg
+08-26 07:49:35.065  3547  3547 I art     : option[34]=-Xcompiler-option
+08-26 07:49:35.065  3547  3547 I art     : option[35]=-Xmx512m
+08-26 07:49:35.065  3547  3547 I art     : option[36]=-Xcompiler-option
+08-26 07:49:35.065  3547  3547 I art     : option[37]=--compiler-filter=verify-at-runtime
+08-26 07:49:35.065  3547  3547 I art     : option[38]=-Ximage-compiler-option
+08-26 07:49:35.065  3547  3547 I art     : option[39]=--instruction-set-variant=generic
+08-26 07:49:35.065  3547  3547 I art     : option[40]=-Xcompiler-option
+08-26 07:49:35.065  3547  3547 I art     : option[41]=--instruction-set-variant=generic
+08-26 07:49:35.065  3547  3547 I art     : option[42]=-Ximage-compiler-option
+08-26 07:49:35.065  3547  3547 I art     : option[43]=--instruction-set-features=default
+08-26 07:49:35.065  3547  3547 I art     : option[44]=-Xcompiler-option
+08-26 07:49:35.066  3547  3547 I art     : option[45]=--instruction-set-features=default
+08-26 07:49:35.066  3547  3547 I art     : option[46]=-Duser.locale=en-US
+08-26 07:49:35.066  3547  3547 I art     : option[47]=--cpu-abilist=arm64-v8a,armeabi
+08-26 07:49:35.066  3547  3547 I art     : option[48]=-Xfingerprint:samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30Z/31574d5b39:eng/test-keys
+08-26 07:49:35.080  2938  2938 F DEBUG   : 
+08-26 07:49:35.080  2938  2938 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_06
+08-26 07:49:35.093  3547  3547 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+08-26 07:49:35.142  2932  2932 I ServiceManager: service 'media.audio_flinger' died
+08-26 07:49:35.142  2932  2932 I ServiceManager: service 'media.player' died
+08-26 07:49:35.142  2932  2932 I ServiceManager: service 'media.resource_manager' died
+08-26 07:49:35.142  2932  2932 I ServiceManager: service 'media.camera' died
+08-26 07:49:40.160  3638  3638 I Netd    : Netd 1.0 starting
+08-26 07:49:40.160  3638  3638 I QtiConnectivityAdapter: Failed to open libconnctrl, some features may not be present.
+08-26 07:49:40.161  3638  3638 D TetherController: Setting IP forward enable = 0
+08-26 07:49:40.159  3074  3074 W auditd  : type=1325 audit(0.0:281): table=filter family=2 entries=21
+08-26 07:49:40.159  3074  3074 W auditd  : type=1320 audit(0.0:281): 
+08-26 07:49:40.168  3640  3640 I SurfaceFlinger: SurfaceFlinger is starting
+08-26 07:49:40.168  3640  3640 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+08-26 07:49:40.159  3074  3074 W auditd  : type=1325 audit(0.0:282): table=filter family=10 entries=21
+08-26 07:49:40.159  3074  3074 W auditd  : type=1320 audit(0.0:282): 
+08-26 07:49:40.169  3074  3074 W auditd  : type=1325 audit(0.0:283): table=filter family=2 entries=20
+08-26 07:49:40.169  3074  3074 W auditd  : type=1320 audit(0.0:283): 
+08-26 07:49:40.183  3640  3640 D libEGL  : loaded /vendor/lib64/egl/libGLES_mali.so
+08-26 07:49:40.179  3074  3074 W auditd  : type=1325 audit(0.0:284): table=filter family=10 entries=20
+08-26 07:49:40.179  3074  3074 W auditd  : type=1320 audit(0.0:284): 
+08-26 07:49:40.179  3074  3074 W auditd  : type=1325 audit(0.0:285): table=filter family=2 entries=20
+08-26 07:49:40.179  3074  3074 W auditd  : type=1320 audit(0.0:285): 
+08-26 07:49:40.189  3074  3074 W auditd  : type=1325 audit(0.0:286): table=filter family=10 entries=20
+08-26 07:49:40.189  3074  3074 W auditd  : type=1320 audit(0.0:286): 
+08-26 07:49:40.199  3640  3640 E HAL     : load: module=/system/lib64/hw/gralloc.exynos5.so
+08-26 07:49:40.199  3640  3640 E HAL     : dlopen failed: cannot locate symbol "ion_sync_fd_partial" referenced by "/system/lib64/hw/gralloc.exynos5.so"...
+08-26 07:49:40.199  3640  3640 W libEGL  : eglInitialize(0x7fa4069000) failed (EGL_NOT_INITIALIZED)
+08-26 07:49:40.200  3640  3640 E HAL     : load: module=/system/lib64/hw/gralloc.exynos5.so
+08-26 07:49:40.200  3640  3640 E HAL     : dlopen failed: cannot locate symbol "ion_sync_fd_partial" referenced by "/system/lib64/hw/gralloc.exynos5.so"...
+08-26 07:49:40.200  3640  3640 E SurfaceFlinger: gralloc module not found
+08-26 07:49:40.202  3640  3640 E HAL     : load: module=/system/lib64/hw/gralloc.exynos5.so
+08-26 07:49:40.202  3640  3640 E HAL     : dlopen failed: cannot locate symbol "ion_sync_fd_partial" referenced by "/system/lib64/hw/gralloc.exynos5.so"...
+08-26 07:49:40.202  3640  3640 E hwcomposer: failed to get gralloc hw module
+08-26 07:49:40.202  3640  3640 E SurfaceFlinger: composer device failed to initialize (Invalid argument)
+08-26 07:49:40.202  3640  3640 E SurfaceFlinger: ERROR: failed to open framebuffer (Invalid argument), aborting
+08-26 07:49:40.189  3074  3074 W auditd  : type=1325 audit(0.0:287): table=filter family=2 entries=18
+08-26 07:49:40.202  3640  3640 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 3640 (surfaceflinger)
+08-26 07:49:40.189  3074  3074 W auditd  : type=1320 audit(0.0:287): 
+08-26 07:49:40.202  2938  2938 I DEBUG   : property debug.db.uid not set; NOT waiting for gdb.
+08-26 07:49:40.202  2938  2938 I DEBUG   : HINT: adb shell setprop debug.db.uid 100000
+08-26 07:49:40.202  2938  2938 I DEBUG   : HINT: adb forward tcp:5039 tcp:5039
+08-26 07:49:40.199  3074  3074 W auditd  : type=1325 audit(0.0:288): table=filter family=10 entries=18
+08-26 07:49:40.199  3074  3074 W auditd  : type=1320 audit(0.0:288): 
+08-26 07:49:40.199  3074  3074 W auditd  : type=1325 audit(0.0:289): table=filter family=2 entries=20
+08-26 07:49:40.199  3074  3074 W auditd  : type=1320 audit(0.0:289): 
+08-26 07:49:40.209  3074  3074 W auditd  : type=1325 audit(0.0:290): table=filter family=10 entries=20
+08-26 07:49:40.209  3074  3074 W auditd  : type=1320 audit(0.0:290): 
+08-26 07:49:40.253  2938  2938 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+08-26 07:49:40.253  2938  2938 F DEBUG   : CM Version: '13.0-20160826-UNOFFICIAL-hero2ltexx'
+08-26 07:49:40.253  2938  2938 F DEBUG   : Build fingerprint: 'samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30Z/31574d5b39:eng/test-keys'
+08-26 07:49:40.253  2938  2938 F DEBUG   : Revision: '0'
+08-26 07:49:40.253  2938  2938 F DEBUG   : ABI: 'arm64'
+08-26 07:49:40.253  2938  2938 F DEBUG   : pid: 3640, tid: 3640, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+08-26 07:49:40.253  2938  2938 F DEBUG   : signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+08-26 07:49:40.257  2938  2938 F DEBUG   :     x0   0000000000000000  x1   0000000000000e38  x2   0000000000000006  x3   0000000000000000
+08-26 07:49:40.257  2938  2938 F DEBUG   :     x4   0000000000000000  x5   0000000000000001  x6   0000000000000000  x7   0000000000000000
+08-26 07:49:40.257  2938  2938 F DEBUG   :     x8   0000000000000083  x9   000000000000004f  x10  0000007fee15969c  x11  0000007fee1596d8
+08-26 07:49:40.257  2938  2938 F DEBUG   :     x12  0000007fee1595b0  x13  000000000000003f  x14  0000007fee159798  x15  0000000000000000
+08-26 07:49:40.257  2938  2938 F DEBUG   :     x16  0000007fa4c40560  x17  0000007fa4bd1d6c  x18  0000007fa4df63a4  x19  0000007fa4eeb0d8
+08-26 07:49:40.257  2938  2938 F DEBUG   :     x20  0000007fa4eeb018  x21  0000000000000002  x22  0000000000000006  x23  ebe4b675eb6ff80f
+08-26 07:49:40.257  2938  2938 F DEBUG   :     x24  000000000100ffff  x25  0000007fa4e687b0  x26  0000000000000000  x27  0000000000000000
+08-26 07:49:40.257  2938  2938 F DEBUG   :     x28  0000000000000000  x29  0000007fee159b90  x30  0000007fa4bcf508
+08-26 07:49:40.257  2938  2938 F DEBUG   :     sp   0000007fee159b90  pc   0000007fa4bd1d74  pstate 0000000020000000
+08-26 07:49:40.259  2938  2938 F DEBUG   : 
+08-26 07:49:40.259  2938  2938 F DEBUG   : backtrace:
+08-26 07:49:40.259  2938  2938 F DEBUG   :     #00 pc 0000000000069d74  /system/lib64/libc.so (tgkill+8)
+08-26 07:49:40.260  2938  2938 F DEBUG   :     #01 pc 0000000000067504  /system/lib64/libc.so (pthread_kill+68)
+08-26 07:49:40.260  2938  2938 F DEBUG   :     #02 pc 0000000000023448  /system/lib64/libc.so (raise+28)
+08-26 07:49:40.260  2938  2938 F DEBUG   :     #03 pc 000000000001dbe8  /system/lib64/libc.so (abort+60)
+08-26 07:49:40.260  2938  2938 F DEBUG   :     #04 pc 000000000003c0f8  /system/lib64/libsurfaceflinger.so
+08-26 07:49:40.260  2938  2938 F DEBUG   :     #05 pc 0000000000045f4c  /system/lib64/libsurfaceflinger.so
+08-26 07:49:40.260  2938  2938 F DEBUG   :     #06 pc 000000000002ce94  /system/lib64/libsurfaceflinger.so (_ZN7android14SurfaceFlinger4initEv+440)
+08-26 07:49:40.260  2938  2938 F DEBUG   :     #07 pc 000000000000115c  /system/bin/surfaceflinger
+08-26 07:49:40.260  2938  2938 F DEBUG   :     #08 pc 000000000001bcd8  /system/lib64/libc.so (__libc_init+100)
+08-26 07:49:40.260  2938  2938 F DEBUG   :     #09 pc 000000000000101c  /system/bin/surfaceflinger
+08-26 07:49:40.278  3641  3641 V MediaUtils: physMem: 3759357952
+08-26 07:49:40.278  3641  3641 V MediaUtils: requested limit: 2443582635
+08-26 07:49:40.278  3641  3641 V MediaUtils: actual limit: 2443582635
+08-26 07:49:40.278  3641  3641 V MediaUtils: original limits: 4294967295/4294967295
+08-26 07:49:40.278  3641  3641 V MediaUtils: new limits: 2443582635/4294967295
+08-26 07:49:40.278  3641  3641 I mediaserver: ServiceManager: 0xf618e120
+08-26 07:49:40.278  3641  3641 I AudioFlinger: Using default 3000 mSec as standby time.
+08-26 07:49:40.279  3641  3641 E BatteryNotifier: batterystats service unavailable!
+08-26 07:49:40.279  3641  3641 E BatteryNotifier: batterystats service unavailable!
+08-26 07:49:40.279  3641  3641 I CameraService: CameraService started (pid=3641)
+08-26 07:49:40.279  3641  3641 I CameraService: CameraService process starting
+08-26 07:49:40.279  3641  3641 E BatteryNotifier: batterystats service unavailable!
+08-26 07:49:40.279  3641  3641 E BatteryNotifier: batterystats service unavailable!
+08-26 07:49:40.279  3641  3641 E CameraService: Could not load camera HAL module: -2 (No such file or directory)
+08-26 07:49:40.279  3641  3641 I AudioPolicyService: AudioPolicyService CSTOR in new mode
+08-26 07:49:40.280  3641  3641 I APM::ConfigParsingUtils: loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+08-26 07:49:40.355  3642  3642 D AndroidRuntime: >>>>>> START com.android.internal.os.ZygoteInit uid 0 <<<<<<
+08-26 07:49:40.358  3642  3642 D AndroidRuntime: CheckJNI is ON
+08-26 07:49:40.358  3642  3642 I art     : option[0]=-Xzygote
+08-26 07:49:40.358  3642  3642 I art     : option[1]=-Xcheck:jni
+08-26 07:49:40.358  3642  3642 I art     : option[2]=-Xstacktracefile:/data/anr/traces.txt
+08-26 07:49:40.358  3642  3642 I art     : option[3]=exit
+08-26 07:49:40.358  3642  3642 I art     : option[4]=vfprintf
+08-26 07:49:40.358  3642  3642 I art     : option[5]=sensitiveThread
+08-26 07:49:40.358  3642  3642 I art     : option[6]=-verbose:gc
+08-26 07:49:40.358  3642  3642 I art     : option[7]=-Xms8m
+08-26 07:49:40.358  3642  3642 I art     : option[8]=-Xmx768m
+08-26 07:49:40.358  3642  3642 I art     : option[9]=-XX:HeapGrowthLimit=288m
+08-26 07:49:40.358  3642  3642 I art     : option[10]=-XX:HeapMinFree=2m
+08-26 07:49:40.358  3642  3642 I art     : option[11]=-XX:HeapMaxFree=8m
+08-26 07:49:40.358  3642  3642 I art     : option[12]=-XX:HeapTargetUtilization=0.75
+08-26 07:49:40.358  3642  3642 I art     : option[13]=-Xusejit:true
+08-26 07:49:40.358  3642  3642 I art     : option[14]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+08-26 07:49:40.358  3642  3642 I art     : option[15]=-Xlockprofthreshold:500
+08-26 07:49:40.358  3642  3642 I art     : option[16]=-Ximage-compiler-option
+08-26 07:49:40.358  3642  3642 I art     : option[17]=--runtime-arg
+08-26 07:49:40.358  3642  3642 I art     : option[18]=-Ximage-compiler-option
+08-26 07:49:40.358  3642  3642 I art     : option[19]=-Xms64m
+08-26 07:49:40.358  3642  3642 I art     : option[20]=-Ximage-compiler-option
+08-26 07:49:40.358  3642  3642 I art     : option[21]=--runtime-arg
+08-26 07:49:40.358  3642  3642 I art     : option[22]=-Ximage-compiler-option
+08-26 07:49:40.358  3642  3642 I art     : option[23]=-Xmx64m
+08-26 07:49:40.358  3642  3642 I art     : option[24]=-Ximage-compiler-option
+08-26 07:49:40.358  3642  3642 I art     : option[25]=--compiler-filter=verify-at-runtime
+08-26 07:49:40.358  3642  3642 I art     : option[26]=-Ximage-compiler-option
+08-26 07:49:40.358  3642  3642 I art     : option[27]=--image-classes=/system/etc/preloaded-classes
+08-26 07:49:40.358  3642  3642 I art     : option[28]=-Xcompiler-option
+08-26 07:49:40.358  3642  3642 I art     : option[29]=--runtime-arg
+08-26 07:49:40.358  3642  3642 I art     : option[30]=-Xcompiler-option
+08-26 07:49:40.358  3642  3642 I art     : option[31]=-Xms64m
+08-26 07:49:40.358  3642  3642 I art     : option[32]=-Xcompiler-option
+08-26 07:49:40.358  3642  3642 I art     : option[33]=--runtime-arg
+08-26 07:49:40.358  3642  3642 I art     : option[34]=-Xcompiler-option
+08-26 07:49:40.358  3642  3642 I art     : option[35]=-Xmx512m
+08-26 07:49:40.358  3642  3642 I art     : option[36]=-Xcompiler-option
+08-26 07:49:40.358  3642  3642 I art     : option[37]=--compiler-filter=verify-at-runtime
+08-26 07:49:40.358  3642  3642 I art     : option[38]=-Ximage-compiler-option
+08-26 07:49:40.358  3642  3642 I art     : option[39]=--instruction-set-variant=generic
+08-26 07:49:40.358  3642  3642 I art     : option[40]=-Xcompiler-option
+08-26 07:49:40.358  3642  3642 I art     : option[41]=--instruction-set-variant=generic
+08-26 07:49:40.358  3642  3642 I art     : option[42]=-Ximage-compiler-option
+08-26 07:49:40.358  3642  3642 I art     : option[43]=--instruction-set-features=default
+08-26 07:49:40.358  3642  3642 I art     : option[44]=-Xcompiler-option
+08-26 07:49:40.358  3642  3642 I art     : option[45]=--instruction-set-features=default
+08-26 07:49:40.358  3642  3642 I art     : option[46]=-Duser.locale=en-US
+08-26 07:49:40.358  3642  3642 I art     : option[47]=--cpu-abilist=arm64-v8a,armeabi
+08-26 07:49:40.358  3642  3642 I art     : option[48]=-Xfingerprint:samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30Z/31574d5b39:eng/test-keys
+08-26 07:49:40.376  2938  2938 F DEBUG   : 
+08-26 07:49:40.376  2938  2938 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_07
+08-26 07:49:40.386  3642  3642 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+08-26 07:49:40.420  2932  2932 I ServiceManager: service 'media.audio_flinger' died
+08-26 07:49:40.421  2932  2932 I ServiceManager: service 'media.player' died
+08-26 07:49:40.421  2932  2932 I ServiceManager: service 'media.resource_manager' died
+08-26 07:49:40.421  2932  2932 I ServiceManager: service 'media.camera' died
+08-26 07:49:45.437  3728  3728 I Netd    : Netd 1.0 starting
+08-26 07:49:45.437  3728  3728 I QtiConnectivityAdapter: Failed to open libconnctrl, some features may not be present.
+08-26 07:49:45.437  3728  3728 D TetherController: Setting IP forward enable = 0
+08-26 07:49:45.439  3074  3074 W auditd  : type=1325 audit(0.0:335): table=filter family=2 entries=19
+08-26 07:49:45.439  3074  3074 W auditd  : type=1320 audit(0.0:335): 
+08-26 07:49:45.447  3730  3730 I SurfaceFlinger: SurfaceFlinger is starting
+08-26 07:49:45.447  3730  3730 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+08-26 07:49:45.449  3074  3074 W auditd  : type=1325 audit(0.0:336): table=filter family=10 entries=21
+08-26 07:49:45.449  3074  3074 W auditd  : type=1320 audit(0.0:336): 
+08-26 07:49:45.462  3730  3730 D libEGL  : loaded /vendor/lib64/egl/libGLES_mali.so
+08-26 07:49:45.459  3074  3074 W auditd  : type=1325 audit(0.0:337): table=filter family=2 entries=18
+08-26 07:49:45.459  3074  3074 W auditd  : type=1320 audit(0.0:337): 
+08-26 07:49:45.477  3730  3730 E HAL     : load: module=/system/lib64/hw/gralloc.exynos5.so
+08-26 07:49:45.477  3730  3730 E HAL     : dlopen failed: cannot locate symbol "ion_sync_fd_partial" referenced by "/system/lib64/hw/gralloc.exynos5.so"...
+08-26 07:49:45.477  3730  3730 W libEGL  : eglInitialize(0x7f81f2b000) failed (EGL_NOT_INITIALIZED)
+08-26 07:49:45.469  3074  3074 W auditd  : type=1325 audit(0.0:338): table=filter family=10 entries=20
+08-26 07:49:45.469  3074  3074 W auditd  : type=1320 audit(0.0:338): 
+08-26 07:49:45.479  3730  3730 E HAL     : load: module=/system/lib64/hw/gralloc.exynos5.so
+08-26 07:49:45.479  3730  3730 E HAL     : dlopen failed: cannot locate symbol "ion_sync_fd_partial" referenced by "/system/lib64/hw/gralloc.exynos5.so"...
+08-26 07:49:45.479  3730  3730 E SurfaceFlinger: gralloc module not found
+08-26 07:49:45.481  3730  3730 E HAL     : load: module=/system/lib64/hw/gralloc.exynos5.so
+08-26 07:49:45.481  3730  3730 E HAL     : dlopen failed: cannot locate symbol "ion_sync_fd_partial" referenced by "/system/lib64/hw/gralloc.exynos5.so"...
+08-26 07:49:45.481  3730  3730 E hwcomposer: failed to get gralloc hw module
+08-26 07:49:45.481  3730  3730 E SurfaceFlinger: composer device failed to initialize (Invalid argument)
+08-26 07:49:45.481  3730  3730 E SurfaceFlinger: ERROR: failed to open framebuffer (Invalid argument), aborting
+08-26 07:49:45.481  3730  3730 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 3730 (surfaceflinger)
+08-26 07:49:45.481  2938  2938 I DEBUG   : property debug.db.uid not set; NOT waiting for gdb.
+08-26 07:49:45.481  2938  2938 I DEBUG   : HINT: adb shell setprop debug.db.uid 100000
+08-26 07:49:45.481  2938  2938 I DEBUG   : HINT: adb forward tcp:5039 tcp:5039
+08-26 07:49:45.469  3074  3074 W auditd  : type=1325 audit(0.0:339): table=filter family=2 entries=18
+08-26 07:49:45.469  3074  3074 W auditd  : type=1320 audit(0.0:339): 
+08-26 07:49:45.479  3074  3074 W auditd  : type=1325 audit(0.0:340): table=filter family=10 entries=20
+08-26 07:49:45.479  3074  3074 W auditd  : type=1320 audit(0.0:340): 
+08-26 07:49:45.479  3074  3074 W auditd  : type=1325 audit(0.0:341): table=filter family=2 entries=16
+08-26 07:49:45.479  3074  3074 W auditd  : type=1320 audit(0.0:341): 
+08-26 07:49:45.489  3074  3074 W auditd  : type=1325 audit(0.0:342): table=filter family=10 entries=18
+08-26 07:49:45.489  3074  3074 W auditd  : type=1320 audit(0.0:342): 
+08-26 07:49:45.489  3074  3074 W auditd  : type=1325 audit(0.0:343): table=filter family=2 entries=18
+08-26 07:49:45.489  3074  3074 W auditd  : type=1320 audit(0.0:343): 
+08-26 07:49:45.499  3074  3074 W auditd  : type=1325 audit(0.0:344): table=filter family=10 entries=20
+08-26 07:49:45.499  3074  3074 W auditd  : type=1320 audit(0.0:344): 
+08-26 07:49:45.532  2938  2938 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+08-26 07:49:45.532  2938  2938 F DEBUG   : CM Version: '13.0-20160826-UNOFFICIAL-hero2ltexx'
+08-26 07:49:45.532  2938  2938 F DEBUG   : Build fingerprint: 'samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30Z/31574d5b39:eng/test-keys'
+08-26 07:49:45.532  2938  2938 F DEBUG   : Revision: '0'
+08-26 07:49:45.532  2938  2938 F DEBUG   : ABI: 'arm64'
+08-26 07:49:45.532  2938  2938 F DEBUG   : pid: 3730, tid: 3730, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+08-26 07:49:45.532  2938  2938 F DEBUG   : signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+08-26 07:49:45.536  2938  2938 F DEBUG   :     x0   0000000000000000  x1   0000000000000e92  x2   0000000000000006  x3   0000000000000000
+08-26 07:49:45.536  2938  2938 F DEBUG   :     x4   0000000000000000  x5   0000000000000001  x6   0000000000000000  x7   0000000000000000
+08-26 07:49:45.536  2938  2938 F DEBUG   :     x8   0000000000000083  x9   000000000000004f  x10  0000007ff30ef9ac  x11  0000007ff30ef9e8
+08-26 07:49:45.536  2938  2938 F DEBUG   :     x12  0000007ff30ef8c0  x13  000000000000003f  x14  0000007ff30efaa8  x15  0000000000000000
+08-26 07:49:45.536  2938  2938 F DEBUG   :     x16  0000007f82b08560  x17  0000007f82a99d6c  x18  0000007f82cbe3a4  x19  0000007f82db30d8
+08-26 07:49:45.536  2938  2938 F DEBUG   :     x20  0000007f82db3018  x21  0000000000000002  x22  0000000000000006  x23  748e0560e5b0044c
+08-26 07:49:45.536  2938  2938 F DEBUG   :     x24  000000000100ffff  x25  0000007f82d307b0  x26  0000000000000000  x27  0000000000000000
+08-26 07:49:45.536  2938  2938 F DEBUG   :     x28  0000000000000000  x29  0000007ff30efea0  x30  0000007f82a97508
+08-26 07:49:45.536  2938  2938 F DEBUG   :     sp   0000007ff30efea0  pc   0000007f82a99d74  pstate 0000000020000000
+08-26 07:49:45.539  2938  2938 F DEBUG   : 
+08-26 07:49:45.539  2938  2938 F DEBUG   : backtrace:
+08-26 07:49:45.539  2938  2938 F DEBUG   :     #00 pc 0000000000069d74  /system/lib64/libc.so (tgkill+8)
+08-26 07:49:45.539  2938  2938 F DEBUG   :     #01 pc 0000000000067504  /system/lib64/libc.so (pthread_kill+68)
+08-26 07:49:45.539  2938  2938 F DEBUG   :     #02 pc 0000000000023448  /system/lib64/libc.so (raise+28)
+08-26 07:49:45.539  2938  2938 F DEBUG   :     #03 pc 000000000001dbe8  /system/lib64/libc.so (abort+60)
+08-26 07:49:45.539  2938  2938 F DEBUG   :     #04 pc 000000000003c0f8  /system/lib64/libsurfaceflinger.so
+08-26 07:49:45.539  2938  2938 F DEBUG   :     #05 pc 0000000000045f4c  /system/lib64/libsurfaceflinger.so
+08-26 07:49:45.539  2938  2938 F DEBUG   :     #06 pc 000000000002ce94  /system/lib64/libsurfaceflinger.so (_ZN7android14SurfaceFlinger4initEv+440)
+08-26 07:49:45.539  2938  2938 F DEBUG   :     #07 pc 000000000000115c  /system/bin/surfaceflinger
+08-26 07:49:45.539  2938  2938 F DEBUG   :     #08 pc 000000000001bcd8  /system/lib64/libc.so (__libc_init+100)
+08-26 07:49:45.539  2938  2938 F DEBUG   :     #09 pc 000000000000101c  /system/bin/surfaceflinger
+08-26 07:49:45.560  3731  3731 V MediaUtils: physMem: 3759357952
+08-26 07:49:45.560  3731  3731 V MediaUtils: requested limit: 2443582635
+08-26 07:49:45.560  3731  3731 V MediaUtils: actual limit: 2443582635
+08-26 07:49:45.560  3731  3731 V MediaUtils: original limits: 4294967295/4294967295
+08-26 07:49:45.560  3731  3731 V MediaUtils: new limits: 2443582635/4294967295
+08-26 07:49:45.560  3731  3731 I mediaserver: ServiceManager: 0xf64ce120
+08-26 07:49:45.560  3731  3731 I AudioFlinger: Using default 3000 mSec as standby time.
+08-26 07:49:45.560  3731  3731 E BatteryNotifier: batterystats service unavailable!
+08-26 07:49:45.560  3731  3731 E BatteryNotifier: batterystats service unavailable!
+08-26 07:49:45.560  3731  3731 I CameraService: CameraService started (pid=3731)
+08-26 07:49:45.560  3731  3731 I CameraService: CameraService process starting
+08-26 07:49:45.560  3731  3731 E BatteryNotifier: batterystats service unavailable!
+08-26 07:49:45.561  3731  3731 E BatteryNotifier: batterystats service unavailable!
+08-26 07:49:45.561  3731  3731 E CameraService: Could not load camera HAL module: -2 (No such file or directory)
+08-26 07:49:45.561  3731  3731 I AudioPolicyService: AudioPolicyService CSTOR in new mode
+08-26 07:49:45.561  3731  3731 I APM::ConfigParsingUtils: loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+08-26 07:49:45.640  3732  3732 D AndroidRuntime: >>>>>> START com.android.internal.os.ZygoteInit uid 0 <<<<<<
+08-26 07:49:45.643  3732  3732 D AndroidRuntime: CheckJNI is ON
+08-26 07:49:45.643  3732  3732 I art     : option[0]=-Xzygote
+08-26 07:49:45.643  3732  3732 I art     : option[1]=-Xcheck:jni
+08-26 07:49:45.643  3732  3732 I art     : option[2]=-Xstacktracefile:/data/anr/traces.txt
+08-26 07:49:45.643  3732  3732 I art     : option[3]=exit
+08-26 07:49:45.643  3732  3732 I art     : option[4]=vfprintf
+08-26 07:49:45.643  3732  3732 I art     : option[5]=sensitiveThread
+08-26 07:49:45.643  3732  3732 I art     : option[6]=-verbose:gc
+08-26 07:49:45.643  3732  3732 I art     : option[7]=-Xms8m
+08-26 07:49:45.643  3732  3732 I art     : option[8]=-Xmx768m
+08-26 07:49:45.643  3732  3732 I art     : option[9]=-XX:HeapGrowthLimit=288m
+08-26 07:49:45.643  3732  3732 I art     : option[10]=-XX:HeapMinFree=2m
+08-26 07:49:45.643  3732  3732 I art     : option[11]=-XX:HeapMaxFree=8m
+08-26 07:49:45.643  3732  3732 I art     : option[12]=-XX:HeapTargetUtilization=0.75
+08-26 07:49:45.643  3732  3732 I art     : option[13]=-Xusejit:true
+08-26 07:49:45.643  3732  3732 I art     : option[14]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+08-26 07:49:45.643  3732  3732 I art     : option[15]=-Xlockprofthreshold:500
+08-26 07:49:45.643  3732  3732 I art     : option[16]=-Ximage-compiler-option
+08-26 07:49:45.643  3732  3732 I art     : option[17]=--runtime-arg
+08-26 07:49:45.643  3732  3732 I art     : option[18]=-Ximage-compiler-option
+08-26 07:49:45.643  3732  3732 I art     : option[19]=-Xms64m
+08-26 07:49:45.643  3732  3732 I art     : option[20]=-Ximage-compiler-option
+08-26 07:49:45.643  3732  3732 I art     : option[21]=--runtime-arg
+08-26 07:49:45.643  3732  3732 I art     : option[22]=-Ximage-compiler-option
+08-26 07:49:45.643  3732  3732 I art     : option[23]=-Xmx64m
+08-26 07:49:45.643  3732  3732 I art     : option[24]=-Ximage-compiler-option
+08-26 07:49:45.643  3732  3732 I art     : option[25]=--compiler-filter=verify-at-runtime
+08-26 07:49:45.643  3732  3732 I art     : option[26]=-Ximage-compiler-option
+08-26 07:49:45.643  3732  3732 I art     : option[27]=--image-classes=/system/etc/preloaded-classes
+08-26 07:49:45.643  3732  3732 I art     : option[28]=-Xcompiler-option
+08-26 07:49:45.643  3732  3732 I art     : option[29]=--runtime-arg
+08-26 07:49:45.643  3732  3732 I art     : option[30]=-Xcompiler-option
+08-26 07:49:45.643  3732  3732 I art     : option[31]=-Xms64m
+08-26 07:49:45.643  3732  3732 I art     : option[32]=-Xcompiler-option
+08-26 07:49:45.643  3732  3732 I art     : option[33]=--runtime-arg
+08-26 07:49:45.643  3732  3732 I art     : option[34]=-Xcompiler-option
+08-26 07:49:45.643  3732  3732 I art     : option[35]=-Xmx512m
+08-26 07:49:45.643  3732  3732 I art     : option[36]=-Xcompiler-option
+08-26 07:49:45.643  3732  3732 I art     : option[37]=--compiler-filter=verify-at-runtime
+08-26 07:49:45.643  3732  3732 I art     : option[38]=-Ximage-compiler-option
+08-26 07:49:45.643  3732  3732 I art     : option[39]=--instruction-set-variant=generic
+08-26 07:49:45.643  3732  3732 I art     : option[40]=-Xcompiler-option
+08-26 07:49:45.643  3732  3732 I art     : option[41]=--instruction-set-variant=generic
+08-26 07:49:45.643  3732  3732 I art     : option[42]=-Ximage-compiler-option
+08-26 07:49:45.643  3732  3732 I art     : option[43]=--instruction-set-features=default
+08-26 07:49:45.643  3732  3732 I art     : option[44]=-Xcompiler-option
+08-26 07:49:45.643  3732  3732 I art     : option[45]=--instruction-set-features=default
+08-26 07:49:45.643  3732  3732 I art     : option[46]=-Duser.locale=en-US
+08-26 07:49:45.643  3732  3732 I art     : option[47]=--cpu-abilist=arm64-v8a,armeabi
+08-26 07:49:45.643  3732  3732 I art     : option[48]=-Xfingerprint:samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30Z/31574d5b39:eng/test-keys
+08-26 07:49:45.655  2938  2938 F DEBUG   : 
+08-26 07:49:45.655  2938  2938 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_08
+08-26 07:49:45.671  3732  3732 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+08-26 07:49:45.701  2932  2932 I ServiceManager: service 'media.audio_flinger' died
+08-26 07:49:45.701  2932  2932 I ServiceManager: service 'media.player' died
+08-26 07:49:45.701  2932  2932 I ServiceManager: service 'media.resource_manager' died
+08-26 07:49:45.701  2932  2932 I ServiceManager: service 'media.camera' died
+08-26 07:49:50.737  3815  3815 I Netd    : Netd 1.0 starting
+08-26 07:49:50.737  3815  3815 I QtiConnectivityAdapter: Failed to open libconnctrl, some features may not be present.
+08-26 07:49:50.737  3815  3815 D TetherController: Setting IP forward enable = 0
+08-26 07:49:50.739  3074  3074 W auditd  : type=1325 audit(0.0:386): table=filter family=2 entries=19
+08-26 07:49:50.739  3074  3074 W auditd  : type=1320 audit(0.0:386): 
+08-26 07:49:50.749  3074  3074 W auditd  : type=1325 audit(0.0:387): table=filter family=10 entries=21
+08-26 07:49:50.749  3074  3074 W auditd  : type=1320 audit(0.0:387): 
+08-26 07:49:50.769  3074  3074 W auditd  : type=1325 audit(0.0:388): table=filter family=2 entries=18
+08-26 07:49:50.769  3074  3074 W auditd  : type=1320 audit(0.0:388): 
+08-26 07:49:50.786  3817  3817 I SurfaceFlinger: SurfaceFlinger is starting
+08-26 07:49:50.786  3817  3817 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+08-26 07:49:50.779  3074  3074 W auditd  : type=1325 audit(0.0:389): table=filter family=10 entries=20
+08-26 07:49:50.779  3074  3074 W auditd  : type=1320 audit(0.0:389): 
+08-26 07:49:50.802  3817  3817 D libEGL  : loaded /vendor/lib64/egl/libGLES_mali.so
+08-26 07:49:50.799  3074  3074 W auditd  : type=1325 audit(0.0:390): table=filter family=2 entries=18
+08-26 07:49:50.799  3074  3074 W auditd  : type=1320 audit(0.0:390): 
+08-26 07:49:50.818  3817  3817 E HAL     : load: module=/system/lib64/hw/gralloc.exynos5.so
+08-26 07:49:50.818  3817  3817 E HAL     : dlopen failed: cannot locate symbol "ion_sync_fd_partial" referenced by "/system/lib64/hw/gralloc.exynos5.so"...
+08-26 07:49:50.818  3817  3817 W libEGL  : eglInitialize(0x7fae9e9000) failed (EGL_NOT_INITIALIZED)
+08-26 07:49:50.819  3817  3817 E HAL     : load: module=/system/lib64/hw/gralloc.exynos5.so
+08-26 07:49:50.819  3817  3817 E HAL     : dlopen failed: cannot locate symbol "ion_sync_fd_partial" referenced by "/system/lib64/hw/gralloc.exynos5.so"...
+08-26 07:49:50.819  3817  3817 E SurfaceFlinger: gralloc module not found
+08-26 07:49:50.809  3074  3074 W auditd  : type=1325 audit(0.0:391): table=filter family=10 entries=20
+08-26 07:49:50.809  3074  3074 W auditd  : type=1320 audit(0.0:391): 
+08-26 07:49:50.822  3817  3817 E HAL     : load: module=/system/lib64/hw/gralloc.exynos5.so
+08-26 07:49:50.822  3817  3817 E HAL     : dlopen failed: cannot locate symbol "ion_sync_fd_partial" referenced by "/system/lib64/hw/gralloc.exynos5.so"...
+08-26 07:49:50.822  3817  3817 E hwcomposer: failed to get gralloc hw module
+08-26 07:49:50.822  3817  3817 E SurfaceFlinger: composer device failed to initialize (Invalid argument)
+08-26 07:49:50.822  3817  3817 E SurfaceFlinger: ERROR: failed to open framebuffer (Invalid argument), aborting
+08-26 07:49:50.822  3817  3817 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 3817 (surfaceflinger)
+08-26 07:49:50.822  2938  2938 I DEBUG   : property debug.db.uid not set; NOT waiting for gdb.
+08-26 07:49:50.822  2938  2938 I DEBUG   : HINT: adb shell setprop debug.db.uid 100000
+08-26 07:49:50.822  2938  2938 I DEBUG   : HINT: adb forward tcp:5039 tcp:5039
+08-26 07:49:50.819  3074  3074 W auditd  : type=1325 audit(0.0:392): table=filter family=2 entries=16
+08-26 07:49:50.819  3074  3074 W auditd  : type=1320 audit(0.0:392): 
+08-26 07:49:50.829  3074  3074 W auditd  : type=1325 audit(0.0:393): table=filter family=10 entries=18
+08-26 07:49:50.829  3074  3074 W auditd  : type=1320 audit(0.0:393): 
+08-26 07:49:50.839  3074  3074 W auditd  : type=1325 audit(0.0:394): table=filter family=2 entries=18
+08-26 07:49:50.839  3074  3074 W auditd  : type=1320 audit(0.0:394): 
+08-26 07:49:50.849  3074  3074 W auditd  : type=1325 audit(0.0:395): table=filter family=10 entries=20
+08-26 07:49:50.849  3074  3074 W auditd  : type=1320 audit(0.0:395): 
+08-26 07:49:50.873  2938  2938 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+08-26 07:49:50.873  2938  2938 F DEBUG   : CM Version: '13.0-20160826-UNOFFICIAL-hero2ltexx'
+08-26 07:49:50.873  2938  2938 F DEBUG   : Build fingerprint: 'samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30Z/31574d5b39:eng/test-keys'
+08-26 07:49:50.873  2938  2938 F DEBUG   : Revision: '0'
+08-26 07:49:50.873  2938  2938 F DEBUG   : pid: 3817, tid: 3817, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+08-26 07:49:50.873  2938  2938 F DEBUG   : signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+08-26 07:49:50.877  2938  2938 F DEBUG   :     x0   0000000000000000  x1   0000000000000ee9  x2   0000000000000006  x3   0000000000000000
+08-26 07:49:50.877  2938  2938 F DEBUG   :     x4   0000000000000000  x5   0000000000000001  x6   0000000000000000  x7   0000000000000000
+08-26 07:49:50.877  2938  2938 F DEBUG   :     x8   0000000000000083  x9   000000000000004f  x10  0000007fe1d7bd4c  x11  0000007fe1d7bd88
+08-26 07:49:50.877  2938  2938 F DEBUG   :     x12  0000007fe1d7bc60  x13  000000000000003f  x14  0000007fe1d7be48  x15  0000000000000000
+08-26 07:49:50.877  2938  2938 F DEBUG   :     x16  0000007faf5ce560  x17  0000007faf55fd6c  x18  0000007faf7843a4  x19  0000007faf8790d8
+08-26 07:49:50.877  2938  2938 F DEBUG   :     x20  0000007faf879018  x21  0000000000000002  x22  0000000000000006  x23  53b1545287473fd0
+08-26 07:49:50.877  2938  2938 F DEBUG   :     x24  000000000100ffff  x25  0000007faf7f67b0  x26  0000000000000000  x27  0000000000000000
+08-26 07:49:50.877  2938  2938 F DEBUG   :     x28  0000000000000000  x29  0000007fe1d7c240  x30  0000007faf55d508
+08-26 07:49:50.877  2938  2938 F DEBUG   :     sp   0000007fe1d7c240  pc   0000007faf55fd74  pstate 0000000020000000
+08-26 07:49:50.880  2938  2938 F DEBUG   : 
+08-26 07:49:50.880  2938  2938 F DEBUG   : backtrace:
+08-26 07:49:50.880  2938  2938 F DEBUG   :     #00 pc 0000000000069d74  /system/lib64/libc.so (tgkill+8)
+08-26 07:49:50.881  2938  2938 F DEBUG   :     #01 pc 0000000000067504  /system/lib64/libc.so (pthread_kill+68)
+08-26 07:49:50.881  2938  2938 F DEBUG   :     #02 pc 0000000000023448  /system/lib64/libc.so (raise+28)
+08-26 07:49:50.881  2938  2938 F DEBUG   :     #03 pc 000000000001dbe8  /system/lib64/libc.so (abort+60)
+08-26 07:49:50.881  2938  2938 F DEBUG   :     #04 pc 000000000003c0f8  /system/lib64/libsurfaceflinger.so
+08-26 07:49:50.881  2938  2938 F DEBUG   :     #05 pc 0000000000045f4c  /system/lib64/libsurfaceflinger.so
+08-26 07:49:50.881  2938  2938 F DEBUG   :     #06 pc 000000000002ce94  /system/lib64/libsurfaceflinger.so (_ZN7android14SurfaceFlinger4initEv+440)
+08-26 07:49:50.881  2938  2938 F DEBUG   :     #07 pc 000000000000115c  /system/bin/surfaceflinger
+08-26 07:49:50.881  2938  2938 F DEBUG   :     #08 pc 000000000001bcd8  /system/lib64/libc.so (__libc_init+100)
+08-26 07:49:50.881  2938  2938 F DEBUG   :     #09 pc 000000000000101c  /system/bin/surfaceflinger
+08-26 07:49:50.948  3818  3818 V MediaUtils: physMem: 3759357952
+08-26 07:49:50.948  3818  3818 V MediaUtils: requested limit: 2443582635
+08-26 07:49:50.948  3818  3818 V MediaUtils: actual limit: 2443582635
+08-26 07:49:50.948  3818  3818 V MediaUtils: original limits: 4294967295/4294967295
+08-26 07:49:50.948  3818  3818 V MediaUtils: new limits: 2443582635/4294967295
+08-26 07:49:50.948  3818  3818 I mediaserver: ServiceManager: 0xf60ce120
+08-26 07:49:50.949  3818  3818 I AudioFlinger: Using default 3000 mSec as standby time.
+08-26 07:49:50.949  3818  3818 E BatteryNotifier: batterystats service unavailable!
+08-26 07:49:50.949  3818  3818 E BatteryNotifier: batterystats service unavailable!
+08-26 07:49:50.949  3818  3818 I CameraService: CameraService started (pid=3818)
+08-26 07:49:50.949  3818  3818 I CameraService: CameraService process starting
+08-26 07:49:50.949  3818  3818 E BatteryNotifier: batterystats service unavailable!
+08-26 07:49:50.949  3818  3818 E BatteryNotifier: batterystats service unavailable!
+08-26 07:49:50.950  3818  3818 E CameraService: Could not load camera HAL module: -2 (No such file or directory)
+08-26 07:49:50.950  3818  3818 I AudioPolicyService: AudioPolicyService CSTOR in new mode
+08-26 07:49:50.950  3818  3818 I APM::ConfigParsingUtils: loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+08-26 07:49:50.972  3819  3819 D AndroidRuntime: >>>>>> START com.android.internal.os.ZygoteInit uid 0 <<<<<<
+08-26 07:49:50.975  3819  3819 D AndroidRuntime: CheckJNI is ON
+08-26 07:49:50.975  3819  3819 I art     : option[0]=-Xzygote
+08-26 07:49:50.975  3819  3819 I art     : option[1]=-Xcheck:jni
+08-26 07:49:50.975  3819  3819 I art     : option[2]=-Xstacktracefile:/data/anr/traces.txt
+08-26 07:49:50.975  3819  3819 I art     : option[3]=exit
+08-26 07:49:50.975  3819  3819 I art     : option[4]=vfprintf
+08-26 07:49:50.975  3819  3819 I art     : option[5]=sensitiveThread
+08-26 07:49:50.975  3819  3819 I art     : option[6]=-verbose:gc
+08-26 07:49:50.975  3819  3819 I art     : option[7]=-Xms8m
+08-26 07:49:50.975  3819  3819 I art     : option[8]=-Xmx768m
+08-26 07:49:50.975  3819  3819 I art     : option[9]=-XX:HeapGrowthLimit=288m
+08-26 07:49:50.975  3819  3819 I art     : option[10]=-XX:HeapMinFree=2m
+08-26 07:49:50.975  3819  3819 I art     : option[11]=-XX:HeapMaxFree=8m
+08-26 07:49:50.975  3819  3819 I art     : option[12]=-XX:HeapTargetUtilization=0.75
+08-26 07:49:50.975  3819  3819 I art     : option[13]=-Xusejit:true
+08-26 07:49:50.975  3819  3819 I art     : option[14]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+08-26 07:49:50.975  3819  3819 I art     : option[15]=-Xlockprofthreshold:500
+08-26 07:49:50.975  3819  3819 I art     : option[16]=-Ximage-compiler-option
+08-26 07:49:50.975  3819  3819 I art     : option[17]=--runtime-arg
+08-26 07:49:50.975  3819  3819 I art     : option[18]=-Ximage-compiler-option
+08-26 07:49:50.975  3819  3819 I art     : option[19]=-Xms64m
+08-26 07:49:50.975  3819  3819 I art     : option[20]=-Ximage-compiler-option
+08-26 07:49:50.975  3819  3819 I art     : option[21]=--runtime-arg
+08-26 07:49:50.975  3819  3819 I art     : option[22]=-Ximage-compiler-option
+08-26 07:49:50.975  3819  3819 I art     : option[23]=-Xmx64m
+08-26 07:49:50.975  3819  3819 I art     : option[24]=-Ximage-compiler-option
+08-26 07:49:50.975  3819  3819 I art     : option[25]=--compiler-filter=verify-at-runtime
+08-26 07:49:50.975  3819  3819 I art     : option[26]=-Ximage-compiler-option
+08-26 07:49:50.975  3819  3819 I art     : option[27]=--image-classes=/system/etc/preloaded-classes
+08-26 07:49:50.975  3819  3819 I art     : option[28]=-Xcompiler-option
+08-26 07:49:50.975  3819  3819 I art     : option[29]=--runtime-arg
+08-26 07:49:50.975  3819  3819 I art     : option[30]=-Xcompiler-option
+08-26 07:49:50.975  3819  3819 I art     : option[31]=-Xms64m
+08-26 07:49:50.975  3819  3819 I art     : option[32]=-Xcompiler-option
+08-26 07:49:50.975  3819  3819 I art     : option[33]=--runtime-arg
+08-26 07:49:50.975  3819  3819 I art     : option[34]=-Xcompiler-option
+08-26 07:49:50.975  3819  3819 I art     : option[35]=-Xmx512m
+08-26 07:49:50.975  3819  3819 I art     : option[36]=-Xcompiler-option
+08-26 07:49:50.975  3819  3819 I art     : option[37]=--compiler-filter=verify-at-runtime
+08-26 07:49:50.975  3819  3819 I art     : option[38]=-Ximage-compiler-option
+08-26 07:49:50.975  3819  3819 I art     : option[39]=--instruction-set-variant=generic
+08-26 07:49:50.975  3819  3819 I art     : option[40]=-Xcompiler-option
+08-26 07:49:50.975  3819  3819 I art     : option[41]=--instruction-set-variant=generic
+08-26 07:49:50.975  3819  3819 I art     : option[42]=-Ximage-compiler-option
+08-26 07:49:50.975  3819  3819 I art     : option[43]=--instruction-set-features=default
+08-26 07:49:50.975  3819  3819 I art     : option[44]=-Xcompiler-option
+08-26 07:49:50.975  3819  3819 I art     : option[45]=--instruction-set-features=default
+08-26 07:49:50.975  3819  3819 I art     : option[46]=-Duser.locale=en-US
+08-26 07:49:50.975  3819  3819 I art     : option[47]=--cpu-abilist=arm64-v8a,armeabi
+08-26 07:49:50.975  3819  3819 I art     : option[48]=-Xfingerprint:samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30Z/31574d5b39:eng/test-keys
+08-26 07:49:50.997  2938  2938 F DEBUG   : 
+08-26 07:49:50.997  2938  2938 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_09
+08-26 07:49:51.003  3819  3819 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+08-26 07:49:51.084  2932  2932 I ServiceManager: service 'media.audio_flinger' died
+08-26 07:49:51.084  2932  2932 I ServiceManager: service 'media.player' died
+08-26 07:49:51.084  2932  2932 I ServiceManager: service 'media.resource_manager' died
+08-26 07:49:51.084  2932  2932 I ServiceManager: service 'media.camera' died
+08-26 07:49:56.100  3907  3907 I Netd    : Netd 1.0 starting
+08-26 07:49:56.100  3907  3907 I QtiConnectivityAdapter: Failed to open libconnctrl, some features may not be present.
+08-26 07:49:56.100  3907  3907 D TetherController: Setting IP forward enable = 0
+08-26 07:49:56.099  3074  3074 W auditd  : type=1325 audit(0.0:437): table=filter family=2 entries=19
+08-26 07:49:56.099  3074  3074 W auditd  : type=1320 audit(0.0:437): 
+08-26 07:49:56.109  3074  3074 W auditd  : type=1325 audit(0.0:438): table=filter family=10 entries=21
+08-26 07:49:56.109  3074  3074 W auditd  : type=1320 audit(0.0:438): 
+08-26 07:49:56.119  3074  3074 W auditd  : type=1325 audit(0.0:439): table=filter family=2 entries=18
+08-26 07:49:56.119  3074  3074 W auditd  : type=1320 audit(0.0:439): 
+08-26 07:49:56.129  3074  3074 W auditd  : type=1325 audit(0.0:440): table=filter family=10 entries=20
+08-26 07:49:56.129  3074  3074 W auditd  : type=1320 audit(0.0:440): 
+08-26 07:49:56.149  3909  3909 I SurfaceFlinger: SurfaceFlinger is starting
+08-26 07:49:56.149  3909  3909 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+08-26 07:49:56.139  3074  3074 W auditd  : type=1325 audit(0.0:441): table=filter family=2 entries=18
+08-26 07:49:56.139  3074  3074 W auditd  : type=1320 audit(0.0:441): 
+08-26 07:49:56.165  3909  3909 D libEGL  : loaded /vendor/lib64/egl/libGLES_mali.so
+08-26 07:49:56.159  3074  3074 W auditd  : type=1325 audit(0.0:442): table=filter family=10 entries=20
+08-26 07:49:56.159  3074  3074 W auditd  : type=1320 audit(0.0:442): 
+08-26 07:49:56.169  3074  3074 W auditd  : type=1325 audit(0.0:443): table=filter family=2 entries=16
+08-26 07:49:56.169  3074  3074 W auditd  : type=1320 audit(0.0:443): 
+08-26 07:49:56.182  3909  3909 E HAL     : load: module=/system/lib64/hw/gralloc.exynos5.so
+08-26 07:49:56.182  3909  3909 E HAL     : dlopen failed: cannot locate symbol "ion_sync_fd_partial" referenced by "/system/lib64/hw/gralloc.exynos5.so"...
+08-26 07:49:56.182  3909  3909 W libEGL  : eglInitialize(0x7f916a9000) failed (EGL_NOT_INITIALIZED)
+08-26 07:49:56.183  3909  3909 E HAL     : load: module=/system/lib64/hw/gralloc.exynos5.so
+08-26 07:49:56.183  3909  3909 E HAL     : dlopen failed: cannot locate symbol "ion_sync_fd_partial" referenced by "/system/lib64/hw/gralloc.exynos5.so"...
+08-26 07:49:56.183  3909  3909 E SurfaceFlinger: gralloc module not found
+08-26 07:49:56.179  3074  3074 W auditd  : type=1325 audit(0.0:444): table=filter family=10 entries=18
+08-26 07:49:56.179  3074  3074 W auditd  : type=1320 audit(0.0:444): 
+08-26 07:49:56.186  3909  3909 E HAL     : load: module=/system/lib64/hw/gralloc.exynos5.so
+08-26 07:49:56.186  3909  3909 E HAL     : dlopen failed: cannot locate symbol "ion_sync_fd_partial" referenced by "/system/lib64/hw/gralloc.exynos5.so"...
+08-26 07:49:56.186  3909  3909 E hwcomposer: failed to get gralloc hw module
+08-26 07:49:56.186  3909  3909 E SurfaceFlinger: composer device failed to initialize (Invalid argument)
+08-26 07:49:56.186  3909  3909 E SurfaceFlinger: ERROR: failed to open framebuffer (Invalid argument), aborting
+08-26 07:49:56.186  3909  3909 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 3909 (surfaceflinger)
+08-26 07:49:56.186  2938  2938 I DEBUG   : property debug.db.uid not set; NOT waiting for gdb.
+08-26 07:49:56.186  2938  2938 I DEBUG   : HINT: adb shell setprop debug.db.uid 100000
+08-26 07:49:56.186  2938  2938 I DEBUG   : HINT: adb forward tcp:5039 tcp:5039
+08-26 07:49:56.179  3074  3074 W auditd  : type=1325 audit(0.0:445): table=filter family=2 entries=18
+08-26 07:49:56.179  3074  3074 W auditd  : type=1320 audit(0.0:445): 
+08-26 07:49:56.189  3074  3074 W auditd  : type=1325 audit(0.0:446): table=filter family=10 entries=20
+08-26 07:49:56.189  3074  3074 W auditd  : type=1320 audit(0.0:446): 
+08-26 07:49:56.237  2938  2938 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+08-26 07:49:56.237  2938  2938 F DEBUG   : CM Version: '13.0-20160826-UNOFFICIAL-hero2ltexx'
+08-26 07:49:56.237  2938  2938 F DEBUG   : Build fingerprint: 'samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30Z/31574d5b39:eng/test-keys'
+08-26 07:49:56.237  2938  2938 F DEBUG   : Revision: '0'
+08-26 07:49:56.237  2938  2938 F DEBUG   : ABI: 'arm64'
+08-26 07:49:56.237  2938  2938 F DEBUG   : pid: 3909, tid: 3909, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+08-26 07:49:56.237  2938  2938 F DEBUG   : signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+08-26 07:49:56.241  2938  2938 F DEBUG   :     x0   0000000000000000  x1   0000000000000f45  x2   0000000000000006  x3   0000000000000000
+08-26 07:49:56.241  2938  2938 F DEBUG   :     x4   0000000000000000  x5   0000000000000001  x6   0000000000000000  x7   0000000000000000
+08-26 07:49:56.241  2938  2938 F DEBUG   :     x8   0000000000000083  x9   000000000000004f  x10  0000007fe0094a4c  x11  0000007fe0094a88
+08-26 07:49:56.241  2938  2938 F DEBUG   :     x12  0000007fe0094960  x13  000000000000003f  x14  0000007fe0094b48  x15  0000000000000000
+08-26 07:49:56.241  2938  2938 F DEBUG   :     x16  0000007f92278560  x17  0000007f92209d6c  x18  0000007f9242e3a4  x19  0000007f925230d8
+08-26 07:49:56.241  2938  2938 F DEBUG   :     x20  0000007f92523018  x21  0000000000000002  x22  0000000000000006  x23  fff62b5c503d6b2a
+08-26 07:49:56.241  2938  2938 F DEBUG   :     x24  000000000100ffff  x25  0000007f924a07b0  x26  0000000000000000  x27  0000000000000000
+08-26 07:49:56.241  2938  2938 F DEBUG   :     x28  0000000000000000  x29  0000007fe0094f40  x30  0000007f92207508
+08-26 07:49:56.241  2938  2938 F DEBUG   :     sp   0000007fe0094f40  pc   0000007f92209d74  pstate 0000000020000000
+08-26 07:49:56.244  2938  2938 F DEBUG   : 
+08-26 07:49:56.244  2938  2938 F DEBUG   : backtrace:
+08-26 07:49:56.244  2938  2938 F DEBUG   :     #00 pc 0000000000069d74  /system/lib64/libc.so (tgkill+8)
+08-26 07:49:56.244  2938  2938 F DEBUG   :     #01 pc 0000000000067504  /system/lib64/libc.so (pthread_kill+68)
+08-26 07:49:56.244  2938  2938 F DEBUG   :     #02 pc 0000000000023448  /system/lib64/libc.so (raise+28)
+08-26 07:49:56.244  2938  2938 F DEBUG   :     #03 pc 000000000001dbe8  /system/lib64/libc.so (abort+60)
+08-26 07:49:56.244  2938  2938 F DEBUG   :     #04 pc 000000000003c0f8  /system/lib64/libsurfaceflinger.so
+08-26 07:49:56.244  2938  2938 F DEBUG   :     #05 pc 0000000000045f4c  /system/lib64/libsurfaceflinger.so
+08-26 07:49:56.244  2938  2938 F DEBUG   :     #06 pc 000000000002ce94  /system/lib64/libsurfaceflinger.so (_ZN7android14SurfaceFlinger4initEv+440)
+08-26 07:49:56.244  2938  2938 F DEBUG   :     #07 pc 000000000000115c  /system/bin/surfaceflinger
+08-26 07:49:56.244  2938  2938 F DEBUG   :     #08 pc 000000000001bcd8  /system/lib64/libc.so (__libc_init+100)
+08-26 07:49:56.244  2938  2938 F DEBUG   :     #09 pc 000000000000101c  /system/bin/surfaceflinger
+08-26 07:49:56.282  3910  3910 V MediaUtils: physMem: 3759357952
+08-26 07:49:56.282  3910  3910 V MediaUtils: requested limit: 2443582635
+08-26 07:49:56.282  3910  3910 V MediaUtils: actual limit: 2443582635
+08-26 07:49:56.282  3910  3910 V MediaUtils: original limits: 4294967295/4294967295
+08-26 07:49:56.282  3910  3910 V MediaUtils: new limits: 2443582635/4294967295
+08-26 07:49:56.282  3910  3910 I mediaserver: ServiceManager: 0xf674e120
+08-26 07:49:56.282  3910  3910 I AudioFlinger: Using default 3000 mSec as standby time.
+08-26 07:49:56.283  3910  3910 E BatteryNotifier: batterystats service unavailable!
+08-26 07:49:56.283  3910  3910 E BatteryNotifier: batterystats service unavailable!
+08-26 07:49:56.283  3910  3910 I CameraService: CameraService started (pid=3910)
+08-26 07:49:56.283  3910  3910 I CameraService: CameraService process starting
+08-26 07:49:56.283  3910  3910 E BatteryNotifier: batterystats service unavailable!
+08-26 07:49:56.283  3910  3910 E BatteryNotifier: batterystats service unavailable!
+08-26 07:49:56.283  3910  3910 E CameraService: Could not load camera HAL module: -2 (No such file or directory)
+08-26 07:49:56.284  3910  3910 I AudioPolicyService: AudioPolicyService CSTOR in new mode
+08-26 07:49:56.284  3910  3910 I APM::ConfigParsingUtils: loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+08-26 07:49:56.345  3911  3911 D AndroidRuntime: >>>>>> START com.android.internal.os.ZygoteInit uid 0 <<<<<<
+08-26 07:49:56.348  3911  3911 D AndroidRuntime: CheckJNI is ON
+08-26 07:49:56.348  3911  3911 I art     : option[0]=-Xzygote
+08-26 07:49:56.348  3911  3911 I art     : option[1]=-Xcheck:jni
+08-26 07:49:56.348  3911  3911 I art     : option[2]=-Xstacktracefile:/data/anr/traces.txt
+08-26 07:49:56.348  3911  3911 I art     : option[3]=exit
+08-26 07:49:56.348  3911  3911 I art     : option[4]=vfprintf
+08-26 07:49:56.348  3911  3911 I art     : option[5]=sensitiveThread
+08-26 07:49:56.348  3911  3911 I art     : option[6]=-verbose:gc
+08-26 07:49:56.348  3911  3911 I art     : option[7]=-Xms8m
+08-26 07:49:56.348  3911  3911 I art     : option[8]=-Xmx768m
+08-26 07:49:56.348  3911  3911 I art     : option[9]=-XX:HeapGrowthLimit=288m
+08-26 07:49:56.348  3911  3911 I art     : option[10]=-XX:HeapMinFree=2m
+08-26 07:49:56.348  3911  3911 I art     : option[11]=-XX:HeapMaxFree=8m
+08-26 07:49:56.348  3911  3911 I art     : option[12]=-XX:HeapTargetUtilization=0.75
+08-26 07:49:56.348  3911  3911 I art     : option[13]=-Xusejit:true
+08-26 07:49:56.348  3911  3911 I art     : option[14]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+08-26 07:49:56.348  3911  3911 I art     : option[15]=-Xlockprofthreshold:500
+08-26 07:49:56.348  3911  3911 I art     : option[16]=-Ximage-compiler-option
+08-26 07:49:56.348  3911  3911 I art     : option[17]=--runtime-arg
+08-26 07:49:56.348  3911  3911 I art     : option[18]=-Ximage-compiler-option
+08-26 07:49:56.348  3911  3911 I art     : option[19]=-Xms64m
+08-26 07:49:56.348  3911  3911 I art     : option[20]=-Ximage-compiler-option
+08-26 07:49:56.348  3911  3911 I art     : option[21]=--runtime-arg
+08-26 07:49:56.348  3911  3911 I art     : option[22]=-Ximage-compiler-option
+08-26 07:49:56.348  3911  3911 I art     : option[23]=-Xmx64m
+08-26 07:49:56.348  3911  3911 I art     : option[24]=-Ximage-compiler-option
+08-26 07:49:56.348  3911  3911 I art     : option[25]=--compiler-filter=verify-at-runtime
+08-26 07:49:56.348  3911  3911 I art     : option[26]=-Ximage-compiler-option
+08-26 07:49:56.348  3911  3911 I art     : option[27]=--image-classes=/system/etc/preloaded-classes
+08-26 07:49:56.348  3911  3911 I art     : option[28]=-Xcompiler-option
+08-26 07:49:56.348  3911  3911 I art     : option[29]=--runtime-arg
+08-26 07:49:56.348  3911  3911 I art     : option[30]=-Xcompiler-option
+08-26 07:49:56.348  3911  3911 I art     : option[31]=-Xms64m
+08-26 07:49:56.348  3911  3911 I art     : option[32]=-Xcompiler-option
+08-26 07:49:56.348  3911  3911 I art     : option[33]=--runtime-arg
+08-26 07:49:56.348  3911  3911 I art     : option[34]=-Xcompiler-option
+08-26 07:49:56.348  3911  3911 I art     : option[35]=-Xmx512m
+08-26 07:49:56.348  3911  3911 I art     : option[36]=-Xcompiler-option
+08-26 07:49:56.348  3911  3911 I art     : option[37]=--compiler-filter=verify-at-runtime
+08-26 07:49:56.348  3911  3911 I art     : option[38]=-Ximage-compiler-option
+08-26 07:49:56.348  3911  3911 I art     : option[39]=--instruction-set-variant=generic
+08-26 07:49:56.348  3911  3911 I art     : option[40]=-Xcompiler-option
+08-26 07:49:56.348  3911  3911 I art     : option[41]=--instruction-set-variant=generic
+08-26 07:49:56.348  3911  3911 I art     : option[42]=-Ximage-compiler-option
+08-26 07:49:56.348  3911  3911 I art     : option[43]=--instruction-set-features=default
+08-26 07:49:56.348  3911  3911 I art     : option[44]=-Xcompiler-option
+08-26 07:49:56.348  3911  3911 I art     : option[45]=--instruction-set-features=default
+08-26 07:49:56.348  3911  3911 I art     : option[46]=-Duser.locale=en-US
+08-26 07:49:56.348  3911  3911 I art     : option[47]=--cpu-abilist=arm64-v8a,armeabi
+08-26 07:49:56.348  3911  3911 I art     : option[48]=-Xfingerprint:samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30Z/31574d5b39:eng/test-keys
+08-26 07:49:56.376  3911  3911 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+08-26 07:49:56.380  2938  2938 F DEBUG   : 
+08-26 07:49:56.380  2938  2938 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_00
+08-26 07:49:56.443  2932  2932 I ServiceManager: service 'media.audio_flinger' died
+08-26 07:49:56.444  2932  2932 I ServiceManager: service 'media.player' died
+08-26 07:49:56.444  2932  2932 I ServiceManager: service 'media.resource_manager' died
+08-26 07:49:56.444  2932  2932 I ServiceManager: service 'media.camera' died
+08-26 07:50:00.477  4008  4008 I Netd    : Netd 1.0 starting
+08-26 07:50:00.477  4008  4008 I QtiConnectivityAdapter: Failed to open libconnctrl, some features may not be present.
+08-26 07:50:00.477  4008  4008 D TetherController: Setting IP forward enable = 0
+08-26 07:50:00.479  3074  3074 W auditd  : type=1325 audit(0.0:494): table=filter family=2 entries=22
+08-26 07:50:00.479  3074  3074 W auditd  : type=1320 audit(0.0:494): 
+08-26 07:50:00.489  3074  3074 W auditd  : type=1325 audit(0.0:495): table=filter family=10 entries=22
+08-26 07:50:00.489  3074  3074 W auditd  : type=1320 audit(0.0:495): 
+08-26 07:50:00.509  3074  3074 W auditd  : type=1325 audit(0.0:496): table=filter family=2 entries=21
+08-26 07:50:00.509  3074  3074 W auditd  : type=1320 audit(0.0:496): 
+08-26 07:50:00.524  4010  4010 I SurfaceFlinger: SurfaceFlinger is starting
+08-26 07:50:00.524  4010  4010 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+08-26 07:50:00.519  3074  3074 W auditd  : type=1325 audit(0.0:497): table=filter family=10 entries=21
+08-26 07:50:00.519  3074  3074 W auditd  : type=1320 audit(0.0:497): 
+08-26 07:50:00.529  3074  3074 W auditd  : type=1325 audit(0.0:498): table=filter family=2 entries=21
+08-26 07:50:00.529  3074  3074 W auditd  : type=1320 audit(0.0:498): 
+08-26 07:50:00.540  4010  4010 D libEGL  : loaded /vendor/lib64/egl/libGLES_mali.so
+08-26 07:50:00.539  3074  3074 W auditd  : type=1325 audit(0.0:499): table=filter family=10 entries=21
+08-26 07:50:00.539  3074  3074 W auditd  : type=1320 audit(0.0:499): 
+08-26 07:50:00.557  4010  4010 E HAL     : load: module=/system/lib64/hw/gralloc.exynos5.so
+08-26 07:50:00.557  4010  4010 E HAL     : dlopen failed: cannot locate symbol "ion_sync_fd_partial" referenced by "/system/lib64/hw/gralloc.exynos5.so"...
+08-26 07:50:00.557  4010  4010 W libEGL  : eglInitialize(0x7f7f529000) failed (EGL_NOT_INITIALIZED)
+08-26 07:50:00.558  4010  4010 E HAL     : load: module=/system/lib64/hw/gralloc.exynos5.so
+08-26 07:50:00.558  4010  4010 E HAL     : dlopen failed: cannot locate symbol "ion_sync_fd_partial" referenced by "/system/lib64/hw/gralloc.exynos5.so"...
+08-26 07:50:00.558  4010  4010 E SurfaceFlinger: gralloc module not found
+08-26 07:50:00.549  3074  3074 W auditd  : type=1325 audit(0.0:500): table=filter family=2 entries=19
+08-26 07:50:00.549  3074  3074 W auditd  : type=1320 audit(0.0:500): 
+08-26 07:50:00.560  4010  4010 E HAL     : load: module=/system/lib64/hw/gralloc.exynos5.so
+08-26 07:50:00.560  4010  4010 E HAL     : dlopen failed: cannot locate symbol "ion_sync_fd_partial" referenced by "/system/lib64/hw/gralloc.exynos5.so"...
+08-26 07:50:00.560  4010  4010 E hwcomposer: failed to get gralloc hw module
+08-26 07:50:00.560  4010  4010 E SurfaceFlinger: composer device failed to initialize (Invalid argument)
+08-26 07:50:00.560  4010  4010 E SurfaceFlinger: ERROR: failed to open framebuffer (Invalid argument), aborting
+08-26 07:50:00.560  4010  4010 F libc    : Fatal signal 6 (SIGABRT), code -6 in tid 4010 (surfaceflinger)
+08-26 07:50:00.561  2938  2938 I DEBUG   : property debug.db.uid not set; NOT waiting for gdb.
+08-26 07:50:00.561  2938  2938 I DEBUG   : HINT: adb shell setprop debug.db.uid 100000
+08-26 07:50:00.561  2938  2938 I DEBUG   : HINT: adb forward tcp:5039 tcp:5039
+08-26 07:50:00.559  3074  3074 W auditd  : type=1325 audit(0.0:501): table=filter family=10 entries=19
+08-26 07:50:00.559  3074  3074 W auditd  : type=1320 audit(0.0:501): 
+08-26 07:50:00.569  3074  3074 W auditd  : type=1325 audit(0.0:502): table=filter family=2 entries=21
+08-26 07:50:00.569  3074  3074 W auditd  : type=1320 audit(0.0:502): 
+08-26 07:50:00.579  3074  3074 W auditd  : type=1325 audit(0.0:503): table=filter family=10 entries=21
+08-26 07:50:00.579  3074  3074 W auditd  : type=1320 audit(0.0:503): 
+08-26 07:50:00.611  2938  2938 F DEBUG   : *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
+08-26 07:50:00.611  2938  2938 F DEBUG   : CM Version: '13.0-20160826-UNOFFICIAL-hero2ltexx'
+08-26 07:50:00.611  2938  2938 F DEBUG   : Build fingerprint: 'samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30Z/31574d5b39:eng/test-keys'
+08-26 07:50:00.611  2938  2938 F DEBUG   : Revision: '0'
+08-26 07:50:00.611  2938  2938 F DEBUG   : ABI: 'arm64'
+08-26 07:50:00.612  2938  2938 F DEBUG   : pid: 4010, tid: 4010, name: surfaceflinger  >>> /system/bin/surfaceflinger <<<
+08-26 07:50:00.612  2938  2938 F DEBUG   : signal 6 (SIGABRT), code -6 (SI_TKILL), fault addr --------
+08-26 07:50:00.615  2938  2938 F DEBUG   :     x0   0000000000000000  x1   0000000000000faa  x2   0000000000000006  x3   0000000000000000
+08-26 07:50:00.615  2938  2938 F DEBUG   :     x4   0000000000000000  x5   0000000000000001  x6   0000000000000000  x7   0000000000000000
+08-26 07:50:00.615  2938  2938 F DEBUG   :     x8   0000000000000083  x9   000000000000004f  x10  0000007ffc362bbc  x11  0000007ffc362bf8
+08-26 07:50:00.615  2938  2938 F DEBUG   :     x12  0000007ffc362ad0  x13  000000000000003f  x14  0000007ffc362cb8  x15  0000000000000000
+08-26 07:50:00.615  2938  2938 F DEBUG   :     x16  0000007f800f4560  x17  0000007f80085d6c  x18  0000007f802aa3a4  x19  0000007f8039f0d8
+08-26 07:50:00.615  2938  2938 F DEBUG   :     x20  0000007f8039f018  x21  0000000000000002  x22  0000000000000006  x23  b1ca1735a3845b6c
+08-26 07:50:00.615  2938  2938 F DEBUG   :     x24  000000000100ffff  x25  0000007f8031c7b0  x26  0000000000000000  x27  0000000000000000
+08-26 07:50:00.615  2938  2938 F DEBUG   :     x28  0000000000000000  x29  0000007ffc3630b0  x30  0000007f80083508
+08-26 07:50:00.615  2938  2938 F DEBUG   :     sp   0000007ffc3630b0  pc   0000007f80085d74  pstate 0000000020000000
+08-26 07:50:00.618  2938  2938 F DEBUG   : 
+08-26 07:50:00.618  2938  2938 F DEBUG   : backtrace:
+08-26 07:50:00.618  2938  2938 F DEBUG   :     #00 pc 0000000000069d74  /system/lib64/libc.so (tgkill+8)
+08-26 07:50:00.618  2938  2938 F DEBUG   :     #01 pc 0000000000067504  /system/lib64/libc.so (pthread_kill+68)
+08-26 07:50:00.618  2938  2938 F DEBUG   :     #02 pc 0000000000023448  /system/lib64/libc.so (raise+28)
+08-26 07:50:00.618  2938  2938 F DEBUG   :     #03 pc 000000000001dbe8  /system/lib64/libc.so (abort+60)
+08-26 07:50:00.618  2938  2938 F DEBUG   :     #04 pc 000000000003c0f8  /system/lib64/libsurfaceflinger.so
+08-26 07:50:00.618  2938  2938 F DEBUG   :     #05 pc 0000000000045f4c  /system/lib64/libsurfaceflinger.so
+08-26 07:50:00.618  2938  2938 F DEBUG   :     #06 pc 000000000002ce94  /system/lib64/libsurfaceflinger.so (_ZN7android14SurfaceFlinger4initEv+440)
+08-26 07:50:00.618  2938  2938 F DEBUG   :     #07 pc 000000000000115c  /system/bin/surfaceflinger
+08-26 07:50:00.618  2938  2938 F DEBUG   :     #08 pc 000000000001bcd8  /system/lib64/libc.so (__libc_init+100)
+08-26 07:50:00.618  2938  2938 F DEBUG   :     #09 pc 000000000000101c  /system/bin/surfaceflinger
+08-26 07:50:00.689  4011  4011 V MediaUtils: physMem: 3759357952
+08-26 07:50:00.689  4011  4011 V MediaUtils: requested limit: 2443582635
+08-26 07:50:00.689  4011  4011 V MediaUtils: actual limit: 2443582635
+08-26 07:50:00.689  4011  4011 V MediaUtils: original limits: 4294967295/4294967295
+08-26 07:50:00.689  4011  4011 V MediaUtils: new limits: 2443582635/4294967295
+08-26 07:50:00.689  4011  4011 I mediaserver: ServiceManager: 0xf620e120
+08-26 07:50:00.690  4011  4011 I AudioFlinger: Using default 3000 mSec as standby time.
+08-26 07:50:00.690  4011  4011 E BatteryNotifier: batterystats service unavailable!
+08-26 07:50:00.690  4011  4011 E BatteryNotifier: batterystats service unavailable!
+08-26 07:50:00.690  4011  4011 I CameraService: CameraService started (pid=4011)
+08-26 07:50:00.690  4011  4011 I CameraService: CameraService process starting
+08-26 07:50:00.690  4011  4011 E BatteryNotifier: batterystats service unavailable!
+08-26 07:50:00.690  4011  4011 E BatteryNotifier: batterystats service unavailable!
+08-26 07:50:00.691  4011  4011 E CameraService: Could not load camera HAL module: -2 (No such file or directory)
+08-26 07:50:00.691  4011  4011 I AudioPolicyService: AudioPolicyService CSTOR in new mode
+08-26 07:50:00.691  4011  4011 I APM::ConfigParsingUtils: loadAudioPolicyConfig() loaded /system/etc/audio_policy.conf
+08-26 07:50:00.715  4012  4012 D AndroidRuntime: >>>>>> START com.android.internal.os.ZygoteInit uid 0 <<<<<<
+08-26 07:50:00.717  4012  4012 D AndroidRuntime: CheckJNI is ON
+08-26 07:50:00.718  4012  4012 I art     : option[0]=-Xzygote
+08-26 07:50:00.718  4012  4012 I art     : option[1]=-Xcheck:jni
+08-26 07:50:00.718  4012  4012 I art     : option[2]=-Xstacktracefile:/data/anr/traces.txt
+08-26 07:50:00.718  4012  4012 I art     : option[3]=exit
+08-26 07:50:00.718  4012  4012 I art     : option[4]=vfprintf
+08-26 07:50:00.718  4012  4012 I art     : option[5]=sensitiveThread
+08-26 07:50:00.718  4012  4012 I art     : option[6]=-verbose:gc
+08-26 07:50:00.718  4012  4012 I art     : option[7]=-Xms8m
+08-26 07:50:00.718  4012  4012 I art     : option[8]=-Xmx768m
+08-26 07:50:00.718  4012  4012 I art     : option[9]=-XX:HeapGrowthLimit=288m
+08-26 07:50:00.718  4012  4012 I art     : option[10]=-XX:HeapMinFree=2m
+08-26 07:50:00.718  4012  4012 I art     : option[11]=-XX:HeapMaxFree=8m
+08-26 07:50:00.718  4012  4012 I art     : option[12]=-XX:HeapTargetUtilization=0.75
+08-26 07:50:00.718  4012  4012 I art     : option[13]=-Xusejit:true
+08-26 07:50:00.718  4012  4012 I art     : option[14]=-agentlib:jdwp=transport=dt_android_adb,suspend=n,server=y
+08-26 07:50:00.718  4012  4012 I art     : option[15]=-Xlockprofthreshold:500
+08-26 07:50:00.718  4012  4012 I art     : option[16]=-Ximage-compiler-option
+08-26 07:50:00.718  4012  4012 I art     : option[17]=--runtime-arg
+08-26 07:50:00.718  4012  4012 I art     : option[18]=-Ximage-compiler-option
+08-26 07:50:00.718  4012  4012 I art     : option[19]=-Xms64m
+08-26 07:50:00.718  4012  4012 I art     : option[20]=-Ximage-compiler-option
+08-26 07:50:00.718  4012  4012 I art     : option[21]=--runtime-arg
+08-26 07:50:00.718  4012  4012 I art     : option[22]=-Ximage-compiler-option
+08-26 07:50:00.718  4012  4012 I art     : option[23]=-Xmx64m
+08-26 07:50:00.718  4012  4012 I art     : option[24]=-Ximage-compiler-option
+08-26 07:50:00.718  4012  4012 I art     : option[25]=--compiler-filter=verify-at-runtime
+08-26 07:50:00.718  4012  4012 I art     : option[26]=-Ximage-compiler-option
+08-26 07:50:00.718  4012  4012 I art     : option[27]=--image-classes=/system/etc/preloaded-classes
+08-26 07:50:00.718  4012  4012 I art     : option[28]=-Xcompiler-option
+08-26 07:50:00.718  4012  4012 I art     : option[29]=--runtime-arg
+08-26 07:50:00.718  4012  4012 I art     : option[30]=-Xcompiler-option
+08-26 07:50:00.718  4012  4012 I art     : option[31]=-Xms64m
+08-26 07:50:00.718  4012  4012 I art     : option[32]=-Xcompiler-option
+08-26 07:50:00.718  4012  4012 I art     : option[33]=--runtime-arg
+08-26 07:50:00.718  4012  4012 I art     : option[34]=-Xcompiler-option
+08-26 07:50:00.718  4012  4012 I art     : option[35]=-Xmx512m
+08-26 07:50:00.718  4012  4012 I art     : option[36]=-Xcompiler-option
+08-26 07:50:00.718  4012  4012 I art     : option[37]=--compiler-filter=verify-at-runtime
+08-26 07:50:00.718  4012  4012 I art     : option[38]=-Ximage-compiler-option
+08-26 07:50:00.718  4012  4012 I art     : option[39]=--instruction-set-variant=generic
+08-26 07:50:00.718  4012  4012 I art     : option[40]=-Xcompiler-option
+08-26 07:50:00.718  4012  4012 I art     : option[41]=--instruction-set-variant=generic
+08-26 07:50:00.718  4012  4012 I art     : option[42]=-Ximage-compiler-option
+08-26 07:50:00.718  4012  4012 I art     : option[43]=--instruction-set-features=default
+08-26 07:50:00.718  4012  4012 I art     : option[44]=-Xcompiler-option
+08-26 07:50:00.718  4012  4012 I art     : option[45]=--instruction-set-features=default
+08-26 07:50:00.718  4012  4012 I art     : option[46]=-Duser.locale=en-US
+08-26 07:50:00.718  4012  4012 I art     : option[47]=--cpu-abilist=arm64-v8a,armeabi
+08-26 07:50:00.718  4012  4012 I art     : option[48]=-Xfingerprint:samsung/cm_hero2ltexx/hero2ltexx:6.0.1/MOB30Z/31574d5b39:eng/test-keys
+08-26 07:50:00.733  2938  2938 F DEBUG   : 
+08-26 07:50:00.733  2938  2938 F DEBUG   : Tombstone written to: /data/tombstones/tombstone_01
+08-26 07:50:00.746  4012  4012 D ICU     : No timezone override file found: /data/misc/zoneinfo/current/icu/icu_tzdata.dat
+08-26 07:50:00.834  2932  2932 I ServiceManager: service 'media.audio_flinger' died
+08-26 07:50:00.834  2932  2932 I ServiceManager: service 'media.player' died
+08-26 07:50:00.834  2932  2932 I ServiceManager: service 'media.resource_manager' died
+08-26 07:50:00.834  2932  2932 I ServiceManager: service 'media.camera' died
