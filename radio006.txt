@@ -1,0 +1,1675 @@
+12-15 02:27:34.002 D/RILD    ( 3013): **RIL Daemon Started**
+12-15 02:27:34.002 D/RILD    ( 3013): **RILd param count=1**
+12-15 02:27:34.059 D/RILD    ( 3013): RIL_Init argc = 5 clientId = 0
+12-15 02:27:34.059 E/RILD    ( 3013): RIL_Init: RilIndex: 0
+12-15 02:27:34.059 E/RILD    ( 3013): RIL_Init: SimCount: 1
+12-15 02:27:34.059 E/RILD    ( 3013): RIL_Init: ModelType[LTE]
+12-15 02:27:34.059 E/RILD    ( 3013): RIL_Init: phy intf: rmnet_mhi0, gsm net prefix: rmnet
+12-15 02:27:34.059 E/RILD    ( 3013): First Ril
+12-15 02:27:34.059 E/RILD    ( 3013): LoadLogLevel: Log level is 3.
+12-15 02:27:34.059 E/RILD    ( 3013): RIL_Init: version(8)
+12-15 02:27:34.059 D/RILD    ( 3013): RIL_Init rilInit completed
+12-15 02:27:34.059 I/RILC    ( 3013): SIM_COUNT: 1
+12-15 02:27:34.059 E/RILC    ( 3013): RIL_register: RIL version 8
+12-15 02:27:34.059 I/RILC    ( 3013): s_registerCalled flag set, 1
+12-15 02:27:34.059 I/RILC    ( 3013): Start to listen RIL_SOCKET_1
+12-15 02:27:34.059 D/RILD    ( 3013): RIL_Init RIL_register completed
+12-15 02:27:34.059 D/RILD    ( 3013): RIL_register_socket started
+12-15 02:27:34.059 D/RIL_UIM_SOCKET( 3013): Adding socket with id: 0
+12-15 02:27:34.059 D/RILD    ( 3013): RIL_register_socket completed
+12-15 02:27:34.059 D/RILD    ( 3013): RIL_Init starting sleep loop
+12-15 02:27:34.159 E/RILD    ( 3013): LazyRilInit
+12-15 02:27:34.160 E/RILD    ( 3013): Region() mCscSalesCode() / mCscCountry() / mCscCountryISO()
+12-15 02:27:34.160 E/RILD    ( 3013): SetCSCode: entered
+12-15 02:27:34.160 E/RILD    ( 3013): SetCSCode: cannot open customer xml file
+12-15 02:27:34.160 E/RILD    ( 3013): SecRil(): ModelType: 2
+12-15 02:27:34.161 E/RILD    ( 3013): LoadModemConfiguration(): NumModem(1).
+12-15 02:27:34.161 E/RILD    ( 3013): Modem config #0: index[0], iftype[3], ifname[/dev/umts_ipc0], mtype[4], proto[1], protover[2], dbg-ifname[IPCDEBUG_UNIX_SOCKET]
+12-15 02:27:34.161 E/RILD    ( 3013): Modem config #0: rfsIfName[/dev/umts_rfs0], nvHeader[nv], modemDev[/dev/mbin0], nvSize[1048576], nvDir[/efs] nvOffSet[10485760]
+12-15 02:27:34.163 E/RILD    ( 3013): Debug channel is not opened for ship build.
+12-15 02:27:34.163 E/RILD    ( 3013): Nv::CheckEfsMountMode: found_rw_fs is 2
+12-15 02:27:34.163 E/RILD    ( 3013): Nv::isSecureEfsMounted: secure EFS is not mounted
+12-15 02:27:34.164 E/RILD    ( 3013): Nv::InitNvOffset: index(0) : TOC 	 0x0 	 0x200
+12-15 02:27:34.164 E/RILD    ( 3013): Nv::InitNvOffset: index(1) : BOOT 	 0x200 	 0x2564
+12-15 02:27:34.164 E/RILD    ( 3013): Nv::InitNvOffset: index(2) : MAIN 	 0x2780 	 0x24F1210
+12-15 02:27:34.164 E/RILD    ( 3013): Nv::InitNvOffset: index(3) : NV 	 0x0 	 0x100000
+12-15 02:27:34.164 E/RILD    ( 3013): Nv::InitNvOffset: NV
+12-15 02:27:34.164 E/RILD    ( 3013): Nv::InitNvOffset: index(4) : OFFSET 	 0x7AA00 	 0x85600
+12-15 02:27:34.164 E/RILD    ( 3013): Nv::InitNvOffset: OFFSET
+12-15 02:27:34.164 E/RILD    ( 3013): Nv::InitNvOffset: index(5) :  	 0x0 	 0x0
+12-15 02:27:34.164 E/RILD    ( 3013): Nv::InitNvOffset: index(6) :  	 0x0 	 0x0
+12-15 02:27:34.164 E/RILD    ( 3013): Nv::InitNvOffset: index(7) :  	 0x0 	 0x0
+12-15 02:27:34.164 E/RILD    ( 3013): Nv::InitNvOffset: index(8) :  	 0x0 	 0x0
+12-15 02:27:34.164 E/RILD    ( 3013): Nv::InitNvOffset: index(9) :  	 0x0 	 0x0
+12-15 02:27:34.164 E/RILD    ( 3013): Nv::InitNvOffset: index(10) :  	 0x0 	 0x0
+12-15 02:27:34.164 E/RILD    ( 3013): Nv::InitNvOffset: index(11) :  	 0x0 	 0x0
+12-15 02:27:34.164 E/RILD    ( 3013): Nv::InitNvOffset: index(12) :  	 0x0 	 0x0
+12-15 02:27:34.164 E/RILD    ( 3013): Nv::InitNvOffset: index(13) :  	 0x0 	 0x0
+12-15 02:27:34.164 E/RILD    ( 3013): Nv::InitNvOffset: index(14) :  	 0x0 	 0x0
+12-15 02:27:34.164 E/RILD    ( 3013): End Of TOC(15)
+12-15 02:27:34.165 E/RILD    ( 3013): Nv::LoadNvChecksumState: checksum state 1
+12-15 02:27:34.165 E/RILD    ( 3013): Nv::SetChecksumState: on 1
+12-15 02:27:34.165 E/RILD    ( 3013): Nv::CopyLogElfs() mNvDefaultDevice - /dev/mbin0
+12-15 02:27:34.165 E/RILD    ( 3013): Nv::CopyLogElfs() mLogElfsOffset - 0, mLogElfsSize - 0
+12-15 02:27:34.165 E/RILD    ( 3013): Nv::CheckNvDataChecksum: 
+12-15 02:27:34.165 E/RILD    ( 3013): Nv::ReadHeader: Writting Count : 0x2DF00007(770703367)
+12-15 02:27:34.165 E/RILD    ( 3013): Nv::ReadHeader: Item Count : 0x847886(8681606))
+12-15 02:27:34.165 E/RILD    ( 3013): Nv::ReadHeader: Data Size : 0x14726(83750) Byte
+12-15 02:27:34.173 E/RILD    ( 3013): Nv::CompareCheckSum: Checksum Offset : 0x94736
+12-15 02:27:34.173 E/RILD    ( 3013): Nv::CompareCheckSum: Checksum is OK : 0x8C32
+12-15 02:27:34.173 E/RILD    ( 3013): Nv::CheckNvDataChecksum: check sum NvDataPath valid
+12-15 02:27:34.173 E/RILD    ( 3013): Nv::CheckNvDataValidity: 
+12-15 02:27:34.173 E/RILD    ( 3013): Nv::IsNvDataSizeValid
+12-15 02:27:34.173 E/RILD    ( 3013): Nv::GetChecksumValidityWith: nvdata
+12-15 02:27:34.182 E/RILD    ( 3013): Nv::ComputeChecksum: ComputeChecksum Ok
+12-15 02:27:34.182 E/RILD    ( 3013): Nv::GetChecksumValidityWith: checksum OK
+12-15 02:27:34.183 E/RILD    ( 3013): Force-exit is required for this thread
+12-15 02:27:34.184 E/RILD    ( 3013): fail to remove MSISDN_FILE_PATH
+12-15 02:27:34.184 E/RILD    ( 3013): fail to remove IMSI_FILE_PATH
+12-15 02:27:34.184 E/RILD    ( 3013): fail to remove IMEI_FILE_PATH
+12-15 02:27:34.184 E/RILD    ( 3013): fail to remove ENCRYPT_KEY_FILE_PATH
+12-15 02:27:34.184 E/RILD    ( 3013): fail to remove IV_FILE_PATH
+12-15 02:27:34.184 E/RILD    ( 3013): fail to remove ICCID_FILE
+12-15 02:27:34.184 E/RILD    ( 3013): fail to remove IMSIM_FILE
+12-15 02:27:34.184 E/RILD    ( 3013): fail to remove IMSIG_FILE
+12-15 02:27:34.184 E/RILD    ( 3013): fail to remove MDN_FILE
+12-15 02:27:34.193 E/RILD    ( 3013): LoadSimOperator(): read gsm.sim.operator.numeric
+12-15 02:27:34.193 E/RILD    ( 3013): SetSimOperator: invalid operator
+12-15 02:27:34.193 E/RILD    ( 3013): Failed to set IMSI from [gsm.sim.operator.numeric] RilIndex=0
+12-15 02:27:34.193 E/RILD    ( 3013): [NIF] Clearing IPv4 address.
+12-15 02:27:34.193 E/RILD    ( 3013): [NIF] Address is set for rmnet0
+12-15 02:27:34.193 E/RILD    ( 3013): [NIF] Clearing all the IPv6 global addresses.
+12-15 02:27:34.193 E/RILD    ( 3013): [NIF] Deleting IPv6 default routes.
+12-15 02:27:34.193 E/RILD    ( 3013): [NIF] Deleting IPv6 host routes.
+12-15 02:27:34.193 E/RILD    ( 3013): [NIF] Interface(rmnet0) is down.
+12-15 02:27:34.193 E/RILD    ( 3013): [NIF] Clearing IPv4 address.
+12-15 02:27:34.193 E/RILD    ( 3013): [NIF] Address is set for rmnet1
+12-15 02:27:34.193 E/RILD    ( 3013): [NIF] Clearing all the IPv6 global addresses.
+12-15 02:27:34.193 E/RILD    ( 3013): [NIF] Deleting IPv6 default routes.
+12-15 02:27:34.193 E/RILD    ( 3013): [NIF] Deleting IPv6 host routes.
+12-15 02:27:34.193 E/RILD    ( 3013): [NIF] Interface(rmnet1) is down.
+12-15 02:27:34.193 E/RILD    ( 3013): [NIF] Clearing IPv4 address.
+12-15 02:27:34.193 E/RILD    ( 3013): [NIF] Address is set for rmnet2
+12-15 02:27:34.194 E/RILD    ( 3013): [NIF] Clearing all the IPv6 global addresses.
+12-15 02:27:34.194 E/RILD    ( 3013): [NIF] Deleting IPv6 default routes.
+12-15 02:27:34.194 E/RILD    ( 3013): [NIF] Deleting IPv6 host routes.
+12-15 02:27:34.194 E/RILD    ( 3013): [NIF] Interface(rmnet2) is down.
+12-15 02:27:34.194 E/RILD    ( 3013): [NIF] Clearing IPv4 address.
+12-15 02:27:34.194 E/RILD    ( 3013): [NIF] Address is set for rmnet3
+12-15 02:27:34.194 E/RILD    ( 3013): [NIF] Clearing all the IPv6 global addresses.
+12-15 02:27:34.194 E/RILD    ( 3013): [NIF] Deleting IPv6 default routes.
+12-15 02:27:34.194 E/RILD    ( 3013): [NIF] Deleting IPv6 host routes.
+12-15 02:27:34.194 E/RILD    ( 3013): [NIF] Interface(rmnet3) is down.
+12-15 02:27:34.194 E/RILD    ( 3013): [NIF] Clearing IPv4 address.
+12-15 02:27:34.194 E/RILD    ( 3013): [NIF] Address is set for rmnet4
+12-15 02:27:34.194 E/RILD    ( 3013): [NIF] Clearing all the IPv6 global addresses.
+12-15 02:27:34.194 E/RILD    ( 3013): [NIF] Deleting IPv6 default routes.
+12-15 02:27:34.194 E/RILD    ( 3013): [NIF] Deleting IPv6 host routes.
+12-15 02:27:34.194 E/RILD    ( 3013): [NIF] Interface(rmnet4) is down.
+12-15 02:27:34.194 E/RILD    ( 3013): [FD] wakelocktime : 0
+12-15 02:27:34.194 E/RILD    ( 3013): [NIF] Clearing IPv4 address.
+12-15 02:27:34.194 E/RILD    ( 3013): [NIF] Address is set for rmnet0
+12-15 02:27:34.194 E/RILD    ( 3013): [NIF] Clearing all the IPv6 global addresses.
+12-15 02:27:34.194 E/RILD    ( 3013): [NIF] Deleting IPv6 default routes.
+12-15 02:27:34.194 E/RILD    ( 3013): [NIF] Deleting IPv6 host routes.
+12-15 02:27:34.195 E/RILD    ( 3013): [NIF] Interface(rmnet0) is down.
+12-15 02:27:34.195 E/RILD    ( 3013): [NIF] Clearing IPv4 address.
+12-15 02:27:34.195 E/RILD    ( 3013): [NIF] Address is set for rmnet1
+12-15 02:27:34.195 E/RILD    ( 3013): [NIF] Clearing all the IPv6 global addresses.
+12-15 02:27:34.195 E/RILD    ( 3013): [NIF] Deleting IPv6 default routes.
+12-15 02:27:34.195 E/RILD    ( 3013): [NIF] Deleting IPv6 host routes.
+12-15 02:27:34.195 E/RILD    ( 3013): [NIF] Interface(rmnet1) is down.
+12-15 02:27:34.195 E/RILD    ( 3013): [NIF] Clearing IPv4 address.
+12-15 02:27:34.195 E/RILD    ( 3013): [NIF] Address is set for rmnet2
+12-15 02:27:34.195 E/RILD    ( 3013): [NIF] Clearing all the IPv6 global addresses.
+12-15 02:27:34.195 E/RILD    ( 3013): [NIF] Deleting IPv6 default routes.
+12-15 02:27:34.195 E/RILD    ( 3013): [NIF] Deleting IPv6 host routes.
+12-15 02:27:34.195 E/RILD    ( 3013): [NIF] Interface(rmnet2) is down.
+12-15 02:27:34.195 E/RILD    ( 3013): [NIF] Clearing IPv4 address.
+12-15 02:27:34.195 E/RILD    ( 3013): [NIF] Address is set for rmnet3
+12-15 02:27:34.195 E/RILD    ( 3013): [NIF] Clearing all the IPv6 global addresses.
+12-15 02:27:34.195 E/RILD    ( 3013): [NIF] Deleting IPv6 default routes.
+12-15 02:27:34.195 E/RILD    ( 3013): [NIF] Deleting IPv6 host routes.
+12-15 02:27:34.195 E/RILD    ( 3013): [NIF] Interface(rmnet3) is down.
+12-15 02:27:34.195 E/RILD    ( 3013): [NIF] Clearing IPv4 address.
+12-15 02:27:34.195 E/RILD    ( 3013): [NIF] Address is set for rmnet4
+12-15 02:27:34.195 E/RILD    ( 3013): [NIF] Clearing all the IPv6 global addresses.
+12-15 02:27:34.195 E/RILD    ( 3013): [NIF] Deleting IPv6 default routes.
+12-15 02:27:34.195 E/RILD    ( 3013): [NIF] Deleting IPv6 host routes.
+12-15 02:27:34.195 E/RILD    ( 3013): [NIF] Interface(rmnet4) is down.
+12-15 02:27:34.196 E/RILD    ( 3013): Handlers registered
+12-15 02:27:34.196 E/RILD    ( 3013): manager objects are created.
+12-15 02:27:34.198 E/RILD    ( 3013): LoadOpnameDb(): db open error
+12-15 02:27:34.198 E/RILD    ( 3013): Force-exit is required for this thread
+12-15 02:27:34.200 E/RILD    ( 3013): Initialize(): read gsm.sim.operator.numeric
+12-15 02:27:34.200 E/RILD    ( 3013): SetSimOperator: invalid operator
+12-15 02:27:34.200 E/RILD    ( 3013): Failed to get IMSI value.
+12-15 02:27:34.200 E/RILD    ( 3013): Start, NetlinkUtils thread Started
+12-15 02:27:34.200 E/RILD    ( 3013): Force-exit is required for this thread
+12-15 02:27:34.200 E/RILD    ( 3013): DefRoute for rmnet0 is disabled
+12-15 02:27:34.200 E/RILD    ( 3013): DefRoute for rmnet1 is disabled
+12-15 02:27:34.200 E/RILD    ( 3013): DefRoute for rmnet2 is disabled
+12-15 02:27:34.200 E/RILD    ( 3013): DefRoute for rmnet3 is disabled
+12-15 02:27:34.200 E/RILD    ( 3013): DefRoute for rmnet4 is disabled
+12-15 02:27:34.200 E/RILD    ( 3013): autoconf for rmnet0 is disabled.
+12-15 02:27:34.200 E/RILD    ( 3013): autoconf for rmnet1 is disabled.
+12-15 02:27:34.200 E/RILD    ( 3013): autoconf for rmnet2 is disabled.
+12-15 02:27:34.200 E/RILD    ( 3013): autoconf for rmnet3 is disabled.
+12-15 02:27:34.201 E/RILD    ( 3013): autoconf for rmnet4 is disabled.
+12-15 02:27:34.202 E/RILD    ( 3013): AcceptRa is set to 2 for rmnet0.
+12-15 02:27:34.202 E/RILD    ( 3013): AcceptRa is set to 2 for rmnet1.
+12-15 02:27:34.202 E/RILD    ( 3013): AcceptRa is set to 2 for rmnet2.
+12-15 02:27:34.202 E/RILD    ( 3013): AcceptRa is set to 2 for rmnet3.
+12-15 02:27:34.202 E/RILD    ( 3013): AcceptRa is set to 2 for rmnet4.
+12-15 02:27:34.202 E/RILD    ( 3013): AddHandler: Handler CA-DCA already exit.
+12-15 02:27:34.203 E/RILD    ( 3013): Wait boot ready
+12-15 02:27:34.203 E/RILD    ( 3013): Force-exit is required for this thread
+12-15 02:27:34.203 E/RILD    ( 3013): Modem status[waiting: 0x3, current: 0x0]
+12-15 02:27:34.208 E/RILD    ( 3013): Force-exit is required for this thread
+12-15 02:27:34.208 E/RILD    ( 3013): LDC-MGR(9): evt(10001)
+12-15 02:27:34.403 E/RILD    ( 3013): Modem status[waiting: 0x3, current: 0x0]
+12-15 02:27:34.604 E/RILD    ( 3013): Modem status[waiting: 0x3, current: 0x0]
+12-15 02:27:34.804 E/RILD    ( 3013): Modem status[waiting: 0x3, current: 0x0]
+12-15 02:27:35.004 E/RILD    ( 3013): Modem status[waiting: 0x3, current: 0x3]
+12-15 02:27:35.004 E/RILD    ( 3013): 
+12-15 02:27:35.004 E/RILD    ( 3013): 
+12-15 02:27:35.004 E/RILD    ( 3013): Modem is in BOOTING state
+12-15 02:27:35.004 E/RILD    ( 3013): 
+12-15 02:27:35.004 E/RILD    ( 3013): 
+12-15 02:27:35.004 E/RILD    ( 3013): Wait boot ready
+12-15 02:27:35.004 E/RILD    ( 3013): Modem status[waiting: 0x4, current: 0x3]
+12-15 02:27:35.204 E/RILD    ( 3013): Modem status[waiting: 0x4, current: 0x3]
+12-15 02:27:35.404 E/RILD    ( 3013): Modem status[waiting: 0x4, current: 0x3]
+12-15 02:27:35.604 E/RILD    ( 3013): Modem status[waiting: 0x4, current: 0x3]
+12-15 02:27:35.804 E/RILD    ( 3013): Modem status[waiting: 0x4, current: 0x3]
+12-15 02:27:36.004 E/RILD    ( 3013): Modem status[waiting: 0x4, current: 0x4]
+12-15 02:27:36.004 E/RILD    ( 3013): 
+12-15 02:27:36.004 E/RILD    ( 3013): 
+12-15 02:27:36.004 E/RILD    ( 3013): Modem is in ONLINE state
+12-15 02:27:36.004 E/RILD    ( 3013): 
+12-15 02:27:36.004 E/RILD    ( 3013): 
+12-15 02:27:36.005 E/RILD    ( 3013): Modem is started now.
+12-15 02:27:36.005 E/RILD    ( 3013): Force-exit is required for this thread
+12-15 02:27:36.007 E/RILD    ( 3013): Succeeded to init SEC RIL.
+12-15 02:27:36.007 E/RILD    ( 3013): OemClientReceiver started
+12-15 02:27:36.007 E/RILD    ( 3013): Init() - SendModemCrashReason fail
+12-15 02:27:36.007 E/RILD    ( 3013): Force-exit is required for this thread
+12-15 02:27:36.007 E/RILD    ( 3013): SecRil proxy inited
+12-15 02:27:36.007 E/RILD    ( 3013): LazyRilSapInit
+12-15 02:27:36.162 D/TelephonyManager( 3031): /proc/cmdline=androidboot.hardware=samsungexynos8890 console=ram loglevel=4 sec_debug.level=0 sec_watchdog.sec_pet=5 androidboot.debug_level=0x4f4c ess_setup=0x91200000 sec_tima_log=0x200000@0x92e02000 sec_avc_log=0x40000@0x93004000 charging_mode=0x30 s3cfb.bootloaderfb=0xe2a00000 lcdtype=4214792 consoleblank=0 vmalloc=384m sec_debug.reset_reason=7 ehci_hcd.park=3 oops=panic pmic_info=35 cordon=673b8485ec40a6da1142a0378c7eccf4 connie=SM-G935F_OPEN_EUR_46db84fb557339aa9425d0615ebf25de fg_reset=0 androidboot.emmc_checksum=3 androidboot.boot_salescode= androidboot.odin_download=1 androidboot.bootloader=G935FXXU1BPIF androidboot.selinux=enforcing androidboot.security_mode=1526595585 androidboot.ucs_mode=0 kaslr_region=0x1000@0x80001000 androidboot.hw_rev=9 androidboot.hardware=samsungexynos8890 androidboot.warranty_bit=1 androidboot.hmac_mismatch=0 androidboot.sec_atd.tty=/dev/ttySAC4 androidboot.serialno=9886733536574f4947 snd_soc_core.pmdown_time=1000 androidboot.fmp_config=0 firmware_class.path=/vendor/firmware region1=EUR region2=OPEN
+12-15 02:27:36.163 D/TelephonyManager( 3030): /proc/cmdline=androidboot.hardware=samsungexynos8890 console=ram loglevel=4 sec_debug.level=0 sec_watchdog.sec_pet=5 androidboot.debug_level=0x4f4c ess_setup=0x91200000 sec_tima_log=0x200000@0x92e02000 sec_avc_log=0x40000@0x93004000 charging_mode=0x30 s3cfb.bootloaderfb=0xe2a00000 lcdtype=4214792 consoleblank=0 vmalloc=384m sec_debug.reset_reason=7 ehci_hcd.park=3 oops=panic pmic_info=35 cordon=673b8485ec40a6da1142a0378c7eccf4 connie=SM-G935F_OPEN_EUR_46db84fb557339aa9425d0615ebf25de fg_reset=0 androidboot.emmc_checksum=3 androidboot.boot_salescode= androidboot.odin_download=1 androidboot.bootloader=G935FXXU1BPIF androidboot.selinux=enforcing androidboot.security_mode=1526595585 androidboot.ucs_mode=0 kaslr_region=0x1000@0x80001000 androidboot.hw_rev=9 androidboot.hardware=samsungexynos8890 androidboot.warranty_bit=1 androidboot.hmac_mismatch=0 androidboot.sec_atd.tty=/dev/ttySAC4 androidboot.serialno=9886733536574f4947 snd_soc_core.pmdown_time=1000 androidboot.fmp_config=0 firmware_class.path=/vendor/firmware region1=EUR region2=OPEN
+12-15 02:27:37.250 E/RILD    ( 3013): [G] RX: (M)FACTORY_CMD (S)FACTORY_BYPASS_TEST (T)NOTI l:19 m:00 a:00 [ 0F 00 0D 0A 41 53 54 5F 50 4F 57 45 52 4F 4E 0D 0A 00 ]
+12-15 02:27:37.250 E/RILD    ( 3013): IpcRxFactory:
+12-15 02:27:37.251 E/RILD    ( 3013): FAC-MGR(15): evt(108)
+12-15 02:27:37.251 E/RILD    ( 3013): [G] RX: (M)PWR_CMD (S)PWR_PHONE_PWR_UP (T)NOTI l:8 m:01 a:00 [ 00 ]
+12-15 02:27:37.251 E/RILD    ( 3013): OnFactoryBypassNoti : 
+12-15 02:27:37.251 E/RILD    ( 3013): AST_POWERON
+12-15 02:27:37.251 E/RILD    ( 3013): at_distributor is not ready. queuing a message
+12-15 02:27:37.251 E/RILD    ( 3013): IMEI-MGR(16): evt(106)
+12-15 02:27:37.251 E/RILD    ( 3013): Nv::ProcessRfsPacket: received standalone RFS frame (32 bytes)
+12-15 02:27:37.251 E/RILD    ( 3013): Nv::ProcessRfsMessage: cmd = 0x11
+12-15 02:27:37.251 E/RILD    ( 3013): GP-MGR(1): evt(102)
+12-15 02:27:37.251 E/RILD    ( 3013): Nv::ProcessOpenFile: open file "/system/etc/CP_AUDIO_SLSI.bin" flag(0x00000000)
+12-15 02:27:37.251 E/RILD    ( 3013): PWR: newState(0) oldState(1)
+12-15 02:27:37.251 E/RILD    ( 3013): Nv::CheckRfsDirectory: check dir '/system/etc'
+12-15 02:27:37.251 E/RILD    ( 3013): A directory already exists
+12-15 02:27:37.251 E/RILD    ( 3013): NotifyRadioStateChanged: 0(PWR:0 SIM:0)
+12-15 02:27:37.251 E/RILD    ( 3013): OnUnsolicitedResponse: unsolId: 1000
+12-15 02:27:37.251 E/RILD    ( 3013): Nv::ProcessOpenFile: open failed No such file or directory(2)
+12-15 02:27:37.251 E/RILD    ( 3013): Nv::ProcessOpenFile: length 14
+12-15 02:27:37.251 E/RILD    ( 3013): Nv::SendRfsMessage
+12-15 02:27:37.251 E/RILD    ( 3013): [G] RX: (M)GPRS_CMD (S)GPRS_PIN_CTRL (T)NOTI l:9 m:02 a:00 [ 06 00 ]
+12-15 02:27:37.251 E/RILD    ( 3013): Notify power state changed: 2
+12-15 02:27:37.251 E/RILD    ( 3013): Request processing is enabled.
+12-15 02:27:37.251 E/RILD    ( 3013): setPreconfigOnFirstBoot(): support one cp bin.
+12-15 02:27:37.251 E/RILD    ( 3013): setPreconfigOnFirstBoot(): first boot
+12-15 02:27:37.251 E/RILD    ( 3013): GetStringFromFile: Error(/system/csc/sales_code.dat)
+12-15 02:27:37.251 E/RILD    ( 3013): setPreconfigOnFirstBoot(): sales code : 
+12-15 02:27:37.251 E/RILD    ( 3013): GLNET-MGR(3): evt(1002)
+12-15 02:27:37.252 E/RILD    ( 3013): GNET-MGR: EVENT_RADIO_STATE_CHANGED
+12-15 02:27:37.252 E/RILD    ( 3013): OnRadioStateChanged: LteNetworkManager
+12-15 02:27:37.252 E/RILD    ( 3013): networkmanager radio off
+12-15 02:27:37.252 E/RILD    ( 3013): EMBMS-MGR(21): evt(203)
+12-15 02:27:37.252 E/RILD    ( 3013): OnOemEmbmsRadioStateNoti():
+12-15 02:27:37.252 E/RILD    ( 3013): SMS-MGR(8): evt(8006)
+12-15 02:27:37.252 E/RILD    ( 3013): OnRadioStateChanged: RADIO_OFF : mIsDeviceReadyNotiNeed = NOT_CONNECTED
+12-15 02:27:37.252 E/RILD    ( 3013): LDC-MGR(9): evt(107)
+12-15 02:27:37.252 E/RILD    ( 3013): OnRadioStateChanged: Attach-tried flag is set to false
+12-15 02:27:37.252 E/RILD    ( 3013): LDC-MGR(9): evt(108)
+12-15 02:27:37.252 E/RILD    ( 3013): OnUnsolicitedResponse: unsolId: 11011
+12-15 02:27:37.252 D/RILC    ( 3013): SAMSUNG: unsolResponse=11011, unsolResponseIndex=11
+12-15 02:27:37.252 E/RILD    ( 3013): Oem OnUnsolicitedResponse: response code=11011
+12-15 02:27:37.252 E/RILD    ( 3013): Onprocessing: request id(1011), handleEvent(100)
+12-15 02:27:37.252 E/RILD    ( 3013): IMEI-MGR(16): evt(100)
+12-15 02:27:37.252 E/RILD    ( 3013): DoOemImei: sub id = 0x01
+12-15 02:27:37.252 E/RILD    ( 3013): DoOemImeiSetPreconfig:
+12-15 02:27:37.252 E/RILD    ( 3013): mkdir failed (/efs/imei) 
+12-15 02:27:37.253 E/RILD    ( 3013): Nv::ProcessRfsPacket: received standalone RFS frame (10 bytes)
+12-15 02:27:37.253 E/RILD    ( 3013): Nv::ProcessRfsMessage: cmd = 0x06
+12-15 02:27:37.253 E/RILD    ( 3013): Nv::ProcessCloseFile: fileHandler=-1
+12-15 02:27:37.253 E/RILD    ( 3013): Nv::ProcessCloseFile: length 14
+12-15 02:27:37.253 E/RILD    ( 3013): Nv::SendRfsMessage
+12-15 02:27:37.255 E/RILD    ( 3013): IpcTxImeiPreconfigSet:
+12-15 02:27:37.255 E/RILD    ( 3013): [G] TX: (M)IMEI_CMD (S)IMEI_PRE_CONFIG (T)SET l:e m:00 a:00 [ 00 00 00 00 00 00 00 ]
+12-15 02:27:37.257 E/RILD    ( 3013): [G] RX: (M)GEN_CMD (S)GEN_PHONE_RES (T)RESP l:c m:03 a:00 [ 10 03 03 00 80 ]
+12-15 02:27:37.257 E/RILD    ( 3013): IpcProtocol41 GR: 0x8000
+12-15 02:27:37.257 E/RILD    ( 3013): IpcProtocol GR: 0x8000
+12-15 02:27:37.257 E/RILD    ( 3013): IMEI-MGR(16): evt(109)
+12-15 02:27:37.257 E/RILD    ( 3013): EVENT_PRECONFIG_SET_DONE response
+12-15 02:27:37.257 E/RILD    ( 3013): GetLog: radio_PRECONFG_SET.log
+12-15 02:27:38.255 E/RILD    ( 3013): Nv::ProcessRfsPacket: full RFS frame received (42 packets / 83780 bytes)
+12-15 02:27:38.255 E/RILD    ( 3013): Nv::ProcessRfsMessage: cmd = 0x02
+12-15 02:27:38.255 E/RILD    ( 3013): Nv::GetChecksumValidityWith: nvdata
+12-15 02:27:38.259 E/RILD    ( 3013): Nv::ComputeChecksum: ComputeChecksum Ok
+12-15 02:27:38.259 E/RILD    ( 3013): Nv::GetChecksumValidityWith: checksum OK
+12-15 02:27:38.259 E/RILD    ( 3013): Nv::ProcessNvWrite: offset=0x00080000, size=0x00014736
+12-15 02:27:38.264 E/RILD    ( 3013): Nv::ProcessNvWrite: writeCount 0x14736(83766)
+12-15 02:27:38.264 E/RILD    ( 3013): Nv::UpdateChecksumFile
+12-15 02:27:38.268 E/RILD    ( 3013): Nv::ComputeChecksum: ComputeChecksum Ok
+12-15 02:27:38.269 E/RILD    ( 3013): Nv::UpdateChecksumFile() SetIoBoost
+12-15 02:27:38.269 E/RILD    ( 3013): Nv::UpdateChecksumFile() WriteBytes
+12-15 02:27:38.272 E/RILD    ( 3013): Nv::SendRfsMessage
+12-15 02:27:38.272 E/RILD    ( 3013): Nv::ProcessRfsPacket: full RFS frame received (9 packets / 16762 bytes)
+12-15 02:27:38.272 E/RILD    ( 3013): Nv::ProcessRfsMessage: cmd = 0x02
+12-15 02:27:38.272 E/RILD    ( 3013): Nv::GetChecksumValidityWith: nvdata
+12-15 02:27:38.276 E/RILD    ( 3013): Nv::ComputeChecksum: ComputeChecksum Ok
+12-15 02:27:38.276 E/RILD    ( 3013): Nv::GetChecksumValidityWith: checksum OK
+12-15 02:27:38.276 E/RILD    ( 3013): Nv::ProcessNvWrite: offset=0x00000000, size=0x0000416C
+12-15 02:27:38.279 E/RILD    ( 3013): Nv::ProcessNvWrite: writeCount 0x416C(16748)
+12-15 02:27:38.279 E/RILD    ( 3013): Nv::UpdateChecksumFile
+12-15 02:27:38.283 E/RILD    ( 3013): Nv::ComputeChecksum: ComputeChecksum Ok
+12-15 02:27:38.283 E/RILD    ( 3013): Nv::UpdateChecksumFile() SetIoBoost
+12-15 02:27:38.283 E/RILD    ( 3013): Nv::UpdateChecksumFile() WriteBytes
+12-15 02:27:38.286 E/RILD    ( 3013): Nv::SendRfsMessage
+12-15 02:27:38.759 E/RILD    ( 3013): [G] RX: (M)FACTORY_CMD (S)FACTORY_DEVICE_TEST (T)INDI l:b m:04 a:ff [ 02 00 33 42 ]
+12-15 02:27:38.759 E/RILD    ( 3013): IpcRxFactory:
+12-15 02:27:38.759 E/RILD    ( 3013): IpcRxFactoryDeviceTest:
+12-15 02:27:38.759 E/RILD    ( 3013): INDI len=0x02
+12-15 02:27:38.759 E/RILD    ( 3013): FAC-MGR(15): evt(104)
+12-15 02:27:38.759 E/RILD    ( 3013): IpcProtocol41::IpcTxFactoryConfirm
+12-15 02:27:38.759 E/RILD    ( 3013): [G] TX: (M)FACTORY_CMD (S)FACTORY_DEVICE_TEST (T)CFRM l:7 m:01 a:00 [ ]
+12-15 02:27:38.759 E/RILD    ( 3013): Nv::BackupNvData
+12-15 02:27:38.759 E/RILD    ( 3013): Nv::IsNvDataSizeValid
+12-15 02:27:38.759 E/RILD    ( 3013): Nv::ReadHeader: Writting Count : 0x2DF00007(770703367)
+12-15 02:27:38.759 E/RILD    ( 3013): Nv::ReadHeader: Item Count : 0x847886(8681606))
+12-15 02:27:38.759 E/RILD    ( 3013): Nv::ReadHeader: Data Size : 0x14724(83748) Byte
+12-15 02:27:38.766 E/RILD    ( 3013): Nv::CompareCheckSum: Checksum Offset : 0x94734
+12-15 02:27:38.766 E/RILD    ( 3013): Nv::CompareCheckSum: Checksum is OK : 0x16F7
+12-15 02:27:38.766 E/RILD    ( 3013): Nv::BackupIncludeCoreBackup:
+12-15 02:27:38.766 E/RILD    ( 3013): lengthOfCoreData(0, 546304 bytes), 546304 bytes
+12-15 02:27:38.767 E/RILD    ( 3013): Nv::BackupIncludeCoreBackup: offset = 0x7AA00, size = 0x85600
+12-15 02:27:38.825 E/RILD    ( 3013): Nv::UpdateChecksumFile
+12-15 02:27:38.825 E/RILD    ( 3013): lengthOfCoreData(0, 546304 bytes), 546304 bytes
+12-15 02:27:38.827 E/RILD    ( 3013): Nv::ComputeChecksum: ComputeChecksum Ok
+12-15 02:27:38.828 E/RILD    ( 3013): Nv::UpdateChecksumFile() SetIoBoost
+12-15 02:27:38.828 E/RILD    ( 3013): Nv::UpdateChecksumFile() WriteBytes
+12-15 02:27:38.857 E/RILD    ( 3013): Nv::CopyFile
+12-15 02:27:38.859 E/RILD    ( 3013): Nv::CopyFile: offset 0x00000000 size 0x00100000
+12-15 02:27:38.862 E/RILD    ( 3013): Nv::CopyFile: 1048576 bytes written.
+12-15 02:27:38.862 E/RILD    ( 3013): Nv::UpdateChecksumFile
+12-15 02:27:38.865 E/RILD    ( 3013): Nv::ComputeChecksum: ComputeChecksum Ok
+12-15 02:27:38.866 E/RILD    ( 3013): Nv::UpdateChecksumFile() SetIoBoost
+12-15 02:27:38.866 E/RILD    ( 3013): Nv::UpdateChecksumFile() WriteBytes
+12-15 02:27:38.950 E/RILD    ( 3013): IpcProtocol41::IpcTxFactoryEvent
+12-15 02:27:38.950 E/RILD    ( 3013): [G] TX: (M)FACTORY_CMD (S)FACTORY_DEVICE_TEST (T)EVENT l:b m:02 a:00 [ 02 00 33 42 ]
+12-15 02:27:39.759 E/RILD    ( 3013): [G] RX: (M)PWR_CMD (S)PWR_PHONE_RESET (T)NOTI l:9 m:05 a:00 [ 01 04 ]
+12-15 02:27:39.759 E/RILD    ( 3013): GP-MGR(1): evt(104)
+12-15 02:27:39.759 E/RILD    ( 3013): PWR: newState(1) oldState(0)
+12-15 02:27:39.759 E/RILD    ( 3013): NotifyRadioStateChanged: 1(PWR:1 SIM:0)
+12-15 02:27:39.759 E/RILD    ( 3013): OnUnsolicitedResponse: unsolId: 1000
+12-15 02:27:39.760 E/RILD    ( 3013): DoModemSilentReset()
+12-15 02:27:39.771 D/RILD    ( 3504): **RIL Daemon Started**
+12-15 02:27:39.771 D/RILD    ( 3504): **RILd param count=1**
+12-15 02:27:39.793 D/RILD    ( 3504): RIL_Init argc = 5 clientId = 0
+12-15 02:27:39.793 E/RILD    ( 3504): RIL_Init: RilIndex: 0
+12-15 02:27:39.793 E/RILD    ( 3504): RIL_Init: SimCount: 1
+12-15 02:27:39.793 E/RILD    ( 3504): RIL_Init: ModelType[LTE]
+12-15 02:27:39.793 E/RILD    ( 3504): RIL_Init: phy intf: rmnet_mhi0, gsm net prefix: rmnet
+12-15 02:27:39.793 E/RILD    ( 3504): First Ril
+12-15 02:27:39.793 E/RILD    ( 3504): LoadLogLevel: Log level is 3.
+12-15 02:27:39.793 E/RILD    ( 3504): RIL_Init: version(8)
+12-15 02:27:39.793 D/RILD    ( 3504): RIL_Init rilInit completed
+12-15 02:27:39.793 I/RILC    ( 3504): SIM_COUNT: 1
+12-15 02:27:39.793 E/RILC    ( 3504): RIL_register: RIL version 8
+12-15 02:27:39.793 I/RILC    ( 3504): s_registerCalled flag set, 1
+12-15 02:27:39.793 I/RILC    ( 3504): Start to listen RIL_SOCKET_1
+12-15 02:27:39.793 D/RILD    ( 3504): RIL_Init RIL_register completed
+12-15 02:27:39.793 D/RILD    ( 3504): RIL_register_socket started
+12-15 02:27:39.793 D/RIL_UIM_SOCKET( 3504): Adding socket with id: 0
+12-15 02:27:39.793 D/RILD    ( 3504): RIL_register_socket completed
+12-15 02:27:39.793 D/RILD    ( 3504): RIL_Init starting sleep loop
+12-15 02:27:39.893 E/RILD    ( 3504): LazyRilInit
+12-15 02:27:39.894 E/RILD    ( 3504): Region() mCscSalesCode() / mCscCountry() / mCscCountryISO()
+12-15 02:27:39.894 E/RILD    ( 3504): SetCSCode: entered
+12-15 02:27:39.894 E/RILD    ( 3504): SetCSCode: cannot open customer xml file
+12-15 02:27:39.894 E/RILD    ( 3504): SecRil(): ModelType: 2
+12-15 02:27:39.894 E/RILD    ( 3504): LoadModemConfiguration(): NumModem(1).
+12-15 02:27:39.894 E/RILD    ( 3504): Modem config #0: index[0], iftype[3], ifname[/dev/umts_ipc0], mtype[4], proto[1], protover[2], dbg-ifname[IPCDEBUG_UNIX_SOCKET]
+12-15 02:27:39.894 E/RILD    ( 3504): Modem config #0: rfsIfName[/dev/umts_rfs0], nvHeader[nv], modemDev[/dev/mbin0], nvSize[1048576], nvDir[/efs] nvOffSet[10485760]
+12-15 02:27:39.894 E/RILD    ( 3504): Debug channel is not opened for ship build.
+12-15 02:27:39.894 E/RILD    ( 3504): Nv::CheckEfsMountMode: found_rw_fs is 2
+12-15 02:27:39.894 E/RILD    ( 3504): Nv::isSecureEfsMounted: secure EFS is not mounted
+12-15 02:27:39.894 E/RILD    ( 3504): Nv::InitNvOffset: index(0) : TOC 	 0x0 	 0x200
+12-15 02:27:39.894 E/RILD    ( 3504): Nv::InitNvOffset: index(1) : BOOT 	 0x200 	 0x2564
+12-15 02:27:39.894 E/RILD    ( 3504): Nv::InitNvOffset: index(2) : MAIN 	 0x2780 	 0x24F1210
+12-15 02:27:39.894 E/RILD    ( 3504): Nv::InitNvOffset: index(3) : NV 	 0x0 	 0x100000
+12-15 02:27:39.894 E/RILD    ( 3504): Nv::InitNvOffset: NV
+12-15 02:27:39.894 E/RILD    ( 3504): Nv::InitNvOffset: index(4) : OFFSET 	 0x7AA00 	 0x85600
+12-15 02:27:39.894 E/RILD    ( 3504): Nv::InitNvOffset: OFFSET
+12-15 02:27:39.894 E/RILD    ( 3504): Nv::InitNvOffset: index(5) :  	 0x0 	 0x0
+12-15 02:27:39.894 E/RILD    ( 3504): Nv::InitNvOffset: index(6) :  	 0x0 	 0x0
+12-15 02:27:39.894 E/RILD    ( 3504): Nv::InitNvOffset: index(7) :  	 0x0 	 0x0
+12-15 02:27:39.894 E/RILD    ( 3504): Nv::InitNvOffset: index(8) :  	 0x0 	 0x0
+12-15 02:27:39.894 E/RILD    ( 3504): Nv::InitNvOffset: index(9) :  	 0x0 	 0x0
+12-15 02:27:39.894 E/RILD    ( 3504): Nv::InitNvOffset: index(10) :  	 0x0 	 0x0
+12-15 02:27:39.894 E/RILD    ( 3504): Nv::InitNvOffset: index(11) :  	 0x0 	 0x0
+12-15 02:27:39.894 E/RILD    ( 3504): Nv::InitNvOffset: index(12) :  	 0x0 	 0x0
+12-15 02:27:39.894 E/RILD    ( 3504): Nv::InitNvOffset: index(13) :  	 0x0 	 0x0
+12-15 02:27:39.894 E/RILD    ( 3504): Nv::InitNvOffset: index(14) :  	 0x0 	 0x0
+12-15 02:27:39.894 E/RILD    ( 3504): End Of TOC(15)
+12-15 02:27:39.894 E/RILD    ( 3504): Nv::LoadNvChecksumState: checksum state 1
+12-15 02:27:39.894 E/RILD    ( 3504): Nv::SetChecksumState: on 1
+12-15 02:27:39.894 E/RILD    ( 3504): Nv::CopyLogElfs() mNvDefaultDevice - /dev/mbin0
+12-15 02:27:39.894 E/RILD    ( 3504): Nv::CopyLogElfs() mLogElfsOffset - 0, mLogElfsSize - 0
+12-15 02:27:39.894 E/RILD    ( 3504): Nv::CheckNvDataChecksum: 
+12-15 02:27:39.894 E/RILD    ( 3504): Nv::ReadHeader: Writting Count : 0x2DF00007(770703367)
+12-15 02:27:39.894 E/RILD    ( 3504): Nv::ReadHeader: Item Count : 0x847886(8681606))
+12-15 02:27:39.894 E/RILD    ( 3504): Nv::ReadHeader: Data Size : 0x14724(83748) Byte
+12-15 02:27:39.904 E/RILD    ( 3504): Nv::CompareCheckSum: Checksum Offset : 0x94734
+12-15 02:27:39.904 E/RILD    ( 3504): Nv::CompareCheckSum: Checksum is OK : 0x16F7
+12-15 02:27:39.904 E/RILD    ( 3504): Nv::CheckNvDataChecksum: check sum NvDataPath valid
+12-15 02:27:39.904 E/RILD    ( 3504): Nv::CheckNvDataValidity: 
+12-15 02:27:39.904 E/RILD    ( 3504): Nv::IsNvDataSizeValid
+12-15 02:27:39.904 E/RILD    ( 3504): Nv::GetChecksumValidityWith: nvdata
+12-15 02:27:39.908 E/RILD    ( 3504): Nv::ComputeChecksum: ComputeChecksum Ok
+12-15 02:27:39.908 E/RILD    ( 3504): Nv::GetChecksumValidityWith: checksum OK
+12-15 02:27:39.955 E/RILD    ( 3504): Force-exit is required for this thread
+12-15 02:27:39.955 E/RILD    ( 3504): Rild Restarted
+12-15 02:27:39.955 E/RILD    ( 3504): Rild Restarted so not delete EncryptFiles
+12-15 02:27:39.955 E/RILD    ( 3504): Rild Restarted
+12-15 02:27:39.955 E/RILD    ( 3504): Rild Restarted so not generate key
+12-15 02:27:39.955 E/RILD    ( 3504): Force-exit is required for this thread
+12-15 02:27:39.955 E/RILD    ( 3504): LoadSimOperator(): read gsm.sim.operator.numeric
+12-15 02:27:39.955 E/RILD    ( 3504): SetSimOperator: invalid operator
+12-15 02:27:39.955 E/RILD    ( 3504): Failed to set IMSI from [gsm.sim.operator.numeric] RilIndex=0
+12-15 02:27:39.955 E/RILD    ( 3504): [NIF] Clearing IPv4 address.
+12-15 02:27:39.955 E/RILD    ( 3504): [NIF] Address is set for rmnet0
+12-15 02:27:39.955 E/RILD    ( 3504): [NIF] Clearing all the IPv6 global addresses.
+12-15 02:27:39.955 E/RILD    ( 3504): [NIF] Deleting IPv6 default routes.
+12-15 02:27:39.956 E/RILD    ( 3504): [NIF] Deleting IPv6 host routes.
+12-15 02:27:39.956 E/RILD    ( 3504): [NIF] Interface(rmnet0) is down.
+12-15 02:27:39.956 E/RILD    ( 3504): [NIF] Clearing IPv4 address.
+12-15 02:27:39.956 E/RILD    ( 3504): [NIF] Address is set for rmnet1
+12-15 02:27:39.956 E/RILD    ( 3504): [NIF] Clearing all the IPv6 global addresses.
+12-15 02:27:39.956 E/RILD    ( 3504): [NIF] Deleting IPv6 default routes.
+12-15 02:27:39.956 E/RILD    ( 3504): [NIF] Deleting IPv6 host routes.
+12-15 02:27:39.956 E/RILD    ( 3504): [NIF] Interface(rmnet1) is down.
+12-15 02:27:39.956 E/RILD    ( 3504): [NIF] Clearing IPv4 address.
+12-15 02:27:39.956 E/RILD    ( 3504): [NIF] Address is set for rmnet2
+12-15 02:27:39.956 E/RILD    ( 3504): [NIF] Clearing all the IPv6 global addresses.
+12-15 02:27:39.956 E/RILD    ( 3504): [NIF] Deleting IPv6 default routes.
+12-15 02:27:39.956 E/RILD    ( 3504): [NIF] Deleting IPv6 host routes.
+12-15 02:27:39.956 E/RILD    ( 3504): [NIF] Interface(rmnet2) is down.
+12-15 02:27:39.956 E/RILD    ( 3504): [NIF] Clearing IPv4 address.
+12-15 02:27:39.956 E/RILD    ( 3504): [NIF] Address is set for rmnet3
+12-15 02:27:39.956 E/RILD    ( 3504): [NIF] Clearing all the IPv6 global addresses.
+12-15 02:27:39.956 E/RILD    ( 3504): [NIF] Deleting IPv6 default routes.
+12-15 02:27:39.956 E/RILD    ( 3504): [NIF] Deleting IPv6 host routes.
+12-15 02:27:39.956 E/RILD    ( 3504): [NIF] Interface(rmnet3) is down.
+12-15 02:27:39.956 E/RILD    ( 3504): [NIF] Clearing IPv4 address.
+12-15 02:27:39.956 E/RILD    ( 3504): [NIF] Address is set for rmnet4
+12-15 02:27:39.956 E/RILD    ( 3504): [NIF] Clearing all the IPv6 global addresses.
+12-15 02:27:39.957 E/RILD    ( 3504): [NIF] Deleting IPv6 default routes.
+12-15 02:27:39.957 E/RILD    ( 3504): [NIF] Deleting IPv6 host routes.
+12-15 02:27:39.957 E/RILD    ( 3504): [NIF] Interface(rmnet4) is down.
+12-15 02:27:39.957 E/RILD    ( 3504): [FD] wakelocktime : 0
+12-15 02:27:39.957 E/RILD    ( 3504): [NIF] Clearing IPv4 address.
+12-15 02:27:39.957 E/RILD    ( 3504): [NIF] Address is set for rmnet0
+12-15 02:27:39.957 E/RILD    ( 3504): [NIF] Clearing all the IPv6 global addresses.
+12-15 02:27:39.957 E/RILD    ( 3504): [NIF] Deleting IPv6 default routes.
+12-15 02:27:39.957 E/RILD    ( 3504): [NIF] Deleting IPv6 host routes.
+12-15 02:27:39.957 E/RILD    ( 3504): [NIF] Interface(rmnet0) is down.
+12-15 02:27:39.957 E/RILD    ( 3504): [NIF] Clearing IPv4 address.
+12-15 02:27:39.957 E/RILD    ( 3504): [NIF] Address is set for rmnet1
+12-15 02:27:39.957 E/RILD    ( 3504): [NIF] Clearing all the IPv6 global addresses.
+12-15 02:27:39.957 E/RILD    ( 3504): [NIF] Deleting IPv6 default routes.
+12-15 02:27:39.957 E/RILD    ( 3504): [NIF] Deleting IPv6 host routes.
+12-15 02:27:39.957 E/RILD    ( 3504): [NIF] Interface(rmnet1) is down.
+12-15 02:27:39.957 E/RILD    ( 3504): [NIF] Clearing IPv4 address.
+12-15 02:27:39.957 E/RILD    ( 3504): [NIF] Address is set for rmnet2
+12-15 02:27:39.957 E/RILD    ( 3504): [NIF] Clearing all the IPv6 global addresses.
+12-15 02:27:39.957 E/RILD    ( 3504): [NIF] Deleting IPv6 default routes.
+12-15 02:27:39.957 E/RILD    ( 3504): [NIF] Deleting IPv6 host routes.
+12-15 02:27:39.958 E/RILD    ( 3504): [NIF] Interface(rmnet2) is down.
+12-15 02:27:39.958 E/RILD    ( 3504): [NIF] Clearing IPv4 address.
+12-15 02:27:39.958 E/RILD    ( 3504): [NIF] Address is set for rmnet3
+12-15 02:27:39.958 E/RILD    ( 3504): [NIF] Clearing all the IPv6 global addresses.
+12-15 02:27:39.958 E/RILD    ( 3504): [NIF] Deleting IPv6 default routes.
+12-15 02:27:39.958 E/RILD    ( 3504): [NIF] Deleting IPv6 host routes.
+12-15 02:27:39.958 E/RILD    ( 3504): [NIF] Interface(rmnet3) is down.
+12-15 02:27:39.958 E/RILD    ( 3504): [NIF] Clearing IPv4 address.
+12-15 02:27:39.958 E/RILD    ( 3504): [NIF] Address is set for rmnet4
+12-15 02:27:39.958 E/RILD    ( 3504): [NIF] Clearing all the IPv6 global addresses.
+12-15 02:27:39.958 E/RILD    ( 3504): [NIF] Deleting IPv6 default routes.
+12-15 02:27:39.958 E/RILD    ( 3504): [NIF] Deleting IPv6 host routes.
+12-15 02:27:39.958 E/RILD    ( 3504): [NIF] Interface(rmnet4) is down.
+12-15 02:27:39.958 E/RILD    ( 3504): Handlers registered
+12-15 02:27:39.958 E/RILD    ( 3504): manager objects are created.
+12-15 02:27:39.959 E/RILD    ( 3504): Initialize(): read gsm.sim.operator.numeric
+12-15 02:27:39.960 E/RILD    ( 3504): SetSimOperator: invalid operator
+12-15 02:27:39.960 E/RILD    ( 3504): Failed to get IMSI value.
+12-15 02:27:39.960 E/RILD    ( 3504): Start, NetlinkUtils thread Started
+12-15 02:27:39.960 E/RILD    ( 3504): Force-exit is required for this thread
+12-15 02:27:39.960 E/RILD    ( 3504): DefRoute for rmnet0 is disabled
+12-15 02:27:39.960 E/RILD    ( 3504): DefRoute for rmnet1 is disabled
+12-15 02:27:39.960 E/RILD    ( 3504): DefRoute for rmnet2 is disabled
+12-15 02:27:39.960 E/RILD    ( 3504): DefRoute for rmnet3 is disabled
+12-15 02:27:39.960 E/RILD    ( 3504): DefRoute for rmnet4 is disabled
+12-15 02:27:39.960 E/RILD    ( 3504): autoconf for rmnet0 is disabled.
+12-15 02:27:39.960 E/RILD    ( 3504): autoconf for rmnet1 is disabled.
+12-15 02:27:39.960 E/RILD    ( 3504): autoconf for rmnet2 is disabled.
+12-15 02:27:39.960 E/RILD    ( 3504): autoconf for rmnet3 is disabled.
+12-15 02:27:39.960 E/RILD    ( 3504): autoconf for rmnet4 is disabled.
+12-15 02:27:39.960 E/RILD    ( 3504): AcceptRa is set to 2 for rmnet0.
+12-15 02:27:39.960 E/RILD    ( 3504): AcceptRa is set to 2 for rmnet1.
+12-15 02:27:39.960 E/RILD    ( 3504): AcceptRa is set to 2 for rmnet2.
+12-15 02:27:39.960 E/RILD    ( 3504): AcceptRa is set to 2 for rmnet3.
+12-15 02:27:39.960 E/RILD    ( 3504): AcceptRa is set to 2 for rmnet4.
+12-15 02:27:39.960 E/RILD    ( 3504): AddHandler: Handler CA-DCA already exit.
+12-15 02:27:39.960 E/RILD    ( 3504): Force-exit is required for this thread
+12-15 02:27:39.960 E/RILD    ( 3504): Wait boot ready
+12-15 02:27:39.960 E/RILD    ( 3504): LDC-MGR(9): evt(10001)
+12-15 02:27:39.960 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:39.961 E/RILD    ( 3504): Force-exit is required for this thread
+12-15 02:27:40.160 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:40.360 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:40.561 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:40.761 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:40.961 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:41.161 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:41.361 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:41.561 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:41.761 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:41.961 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:42.162 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:42.362 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:42.562 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:42.762 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:42.962 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:43.162 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:43.362 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:43.562 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:43.762 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:43.963 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:44.092 W/SmsApplication( 3414): com.android.phone does not have OP_WRITE_SMS:  (fixing)
+12-15 02:27:44.092 W/SmsApplication( 3414): com.android.bluetooth does not have OP_WRITE_SMS:  (fixing)
+12-15 02:27:44.093 W/SmsApplication( 3414): com.android.mms.service does not have OP_WRITE_SMS:  (fixing)
+12-15 02:27:44.093 W/SmsApplication( 3414): com.android.providers.telephony does not have OP_WRITE_SMS:  (fixing)
+12-15 02:27:44.096 W/CarrierConfigManager( 3414): Error getting config for subId -1 ICarrierConfigLoader is null
+12-15 02:27:44.163 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:44.216 D/TelephonyRegistry( 3414): listen oscl: hasNotifySubscriptionInfoChangedOccurred==false no callback
+12-15 02:27:44.363 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:44.563 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:44.613 D/TelephonyRegistry( 3414): systemRunning register for intents
+12-15 02:27:44.757 D/TelephonyRegistry( 3414): notifyCellLocationForSubscriber: subId=0 cellLocation=Bundle[{}]
+12-15 02:27:44.763 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:44.836 D/TelephonyRegistry( 3414): listen oscl: hasNotifySubscriptionInfoChangedOccurred==false no callback
+12-15 02:27:44.906 D/SubscriptionManager( 3710): getSimStateForSubscriber: simState=0 slotIdx=0
+12-15 02:27:44.906 D/TelephonyManager( 3710): getSimState: default sim:-1, sim state for slotIdx=0 is 0, return state as unknown
+12-15 02:27:44.907 D/SubscriptionManager( 3710): getSimStateForSubscriber: simState=0 slotIdx=0
+12-15 02:27:44.907 D/TelephonyManager( 3710): getSimState: default sim:-1, sim state for slotIdx=0 is 0, return state as unknown
+12-15 02:27:44.930 D/SubscriptionManager( 3710): getSimStateForSubscriber: simState=0 slotIdx=0
+12-15 02:27:44.930 D/TelephonyManager( 3710): getSimState: default sim:-1, sim state for slotIdx=0 is 0, return state as unknown
+12-15 02:27:44.963 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:44.969 D/SubscriptionManager( 4106): getSimStateForSubscriber: simState=0 slotIdx=0
+12-15 02:27:44.969 D/SubscriptionManager( 4106): getSimStateForSubscriber: simState=0 slotIdx=0
+12-15 02:27:45.163 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:45.364 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:45.564 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:45.655 D/SubscriptionManager( 3710): getSimStateForSubscriber: simState=0 slotIdx=0
+12-15 02:27:45.655 D/TelephonyManager( 3710): getSimState: default sim:-1, sim state for slotIdx=0 is 0, return state as unknown
+12-15 02:27:45.658 D/SubscriptionManager( 3710): getSimStateForSubscriber: simState=0 slotIdx=0
+12-15 02:27:45.658 D/TelephonyManager( 3710): getSimState: default sim:-1, sim state for slotIdx=0 is 0, return state as unknown
+12-15 02:27:45.764 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:45.964 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:45.985 D/SubscriptionManager( 3710): getSimStateForSubscriber: simState=0 slotIdx=0
+12-15 02:27:45.985 D/TelephonyManager( 3710): getSimState: default sim:-1, sim state for slotIdx=0 is 0, return state as unknown
+12-15 02:27:46.164 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:46.364 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:46.564 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:46.764 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:46.965 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:47.064 D/SubscriptionManager( 4106): getSimStateForSubscriber: simState=0 slotIdx=0
+12-15 02:27:47.064 D/TelephonyManager( 4106): getSimState: default sim:-1, sim state for slotIdx=0 is 0, return state as unknown
+12-15 02:27:47.165 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:47.365 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:47.565 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:47.765 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:47.965 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:48.165 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:48.172 D/TelephonyPluginDelegate( 3994): Extension = @/system/framework/
+12-15 02:27:48.172 D/TelephonyPluginDelegate( 3994): classLoader = dalvik.system.PathClassLoader[DexPathList[[directory "/system/framework"],nativeLibraryDirectories=[/vendor/lib64, /system/lib64]]]
+12-15 02:27:48.172 D/TelephonyPluginDelegate( 3994): No customized TelephonyPlugin available, fallback to default
+12-15 02:27:48.172 D/TelephonyPluginDelegate( 3994): cls = class com.android.internal.telephony.DefaultTelephonyPlugin
+12-15 02:27:48.172 D/TelephonyPluginDelegate( 3994): constructor method = public com.android.internal.telephony.DefaultTelephonyPlugin()
+12-15 02:27:48.173 D/TDC     ( 3994): updateOrInsert: inserting: Modem { uuid=modem, state=0, rilModel=0, rat={}, maxActiveVoiceCall=1, maxActiveDataCall=1, maxStandby=1 }
+12-15 02:27:48.173 D/TDC     ( 3994): updateOrInsert: inserting: Sim { uuid=sim, modemUuid=modem, state=0 }
+12-15 02:27:48.173 D/TelephonyManager( 3994): getLteOnCdmaMode=0 curVal=-1 product_type='' lteOnCdmaProductType=''
+12-15 02:27:48.174 D/CdmaSSM ( 3994): subscriptionSource from settings: 0
+12-15 02:27:48.174 I/PhoneFactory( 3994): Cdma Subscription set to 0
+12-15 02:27:48.176 I/PhoneFactory( 3994): RILClassname is hero2ltexxRIL
+12-15 02:27:48.176 I/PhoneFactory( 3994): Network Mode set to 0
+12-15 02:27:48.177 D/RILJ    ( 3994): RIL(context, preferredNetworkType=0 cdmaSubscription=0)
+12-15 02:27:48.178 D/RILJ    ( 3994): Starting RILReceiver0 [SUB0]
+12-15 02:27:48.179 I/RILJ    ( 3994): (0) Connected to 'rild' socket
+12-15 02:27:48.180 D/RILJ    ( 3994): Ignoring call to 'getHardwareConfig' [SUB0]
+12-15 02:27:48.180 I/PhoneFactory( 3994): Creating SubscriptionController
+12-15 02:27:48.181 D/SubscriptionController( 3994): [SubscriptionController] init by Context
+12-15 02:27:48.181 D/UiccController( 3994): Creating UiccController
+12-15 02:27:48.183 D/TelephonyTester( 3994): register for intent action=com.android.internal.telephony.gsm.action_detached
+12-15 02:27:48.183 D/TelephonyTester( 3994): register for intent action=com.android.internal.telephony.gsm.action_attached
+12-15 02:27:48.184 D/PhoneBase( 3994): mDoesRilSendMultipleCallRing=true
+12-15 02:27:48.184 D/PhoneBase( 3994): mCallRingDelay=3000
+12-15 02:27:48.187 D/RILJ    ( 3994): [3648]> RIL_REQUEST_START_LCE [SUB0]
+12-15 02:27:48.187 D/PhoneBase( 3994): mOosIsDisconnect=true
+12-15 02:27:48.187 D/RILJ    ( 3994): setPhoneType=1 old value=0 [SUB0]
+12-15 02:27:48.190 D/TelephonyRegistry( 3414): listen oscl: hasNotifySubscriptionInfoChangedOccurred==false no callback
+12-15 02:27:48.190 D/TelephonyManager( 3994): setTelephonyProperty: success phoneId=0 property=gsm.network.type value: Unknown propVal=Unknown
+12-15 02:27:48.191 D/RILJ    ( 3994): [3649]> SIGNAL_STRENGTH [SUB0]
+12-15 02:27:48.193 D/        ( 3994): [0]DCT.constructor
+12-15 02:27:48.193 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.193 D/        ( 3994): [0]getDataEnabled: getIntWithSubId retVal=true
+12-15 02:27:48.194 D/TelephonyRegistry( 3414): listen oscl: hasNotifySubscriptionInfoChangedOccurred==false no callback
+12-15 02:27:48.196 D/Dcc     ( 3994): E ctor
+12-15 02:27:48.196 D/Dcc     ( 3994): X ctor
+12-15 02:27:48.197 D/SubscriptionController( 3994): [getPhoneId] asked for default subId=-1
+12-15 02:27:48.197 D/SubscriptionController( 3994): [getPhoneId]- invalid subId return=-1
+12-15 02:27:48.197 D/DcTesterDeacativeAll( 3994): register for intent action=com.android.internal.telephony.dataconnection.action_deactivate_all
+12-15 02:27:48.197 D/DcTesterDeacativeAll( 3994): register for intent action=com.android.internal.telephony.gsm.action_detached
+12-15 02:27:48.198 D/DcTesterFailBrinupAll( 3994): register for intent action=com.android.internal.telephony.dataconnection.action_fail_bringup
+12-15 02:27:48.198 D/DcTesterFailBrinupAll( 3994): register for intent action=com.android.internal.telephony.gsm.action_detached
+12-15 02:27:48.198 D/DcTesterFailBrinupAll( 3994): register for intent action=com.android.internal.telephony.gsm.action_attached
+12-15 02:27:48.198 D/DCT     ( 3994): [0]GsmDCT.constructor
+12-15 02:27:48.198 D/GsmSST  ( 3994): [GsmSST] notifyDataRegStateRilRadioTechnologyChanged: drs=1 rat=0
+12-15 02:27:48.198 D/TelephonyManager( 3994): setTelephonyProperty: success phoneId=0 property=gsm.network.type value: Unknown propVal=Unknown
+12-15 02:27:48.199 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.199 D/DCT     ( 3994): [0]update sub = -2
+12-15 02:27:48.199 D/DCT     ( 3994): [0]update(): Active DDS, register for all events now!
+12-15 02:27:48.199 D/DCT     ( 3994): [0]onUpdateIcc: newIccRecords null
+12-15 02:27:48.199 D/DCT     ( 3994): [0]getDataEnabled: getIntWithSubId retVal=true
+12-15 02:27:48.200 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.200 D/GSMPhone( 3994): [GSMPhone] updateCurrentCarrierInProvider: mSubId = -2 currentDds = -1 operatorNumeric = null
+12-15 02:27:48.200 D/DCT     ( 3994): [0]initApnContexts: E
+12-15 02:27:48.200 D/DCT     ( 3994): [0]initApnContexts: skipping unknown type=1
+12-15 02:27:48.200 D/DCT     ( 3994): [0]initApnContexts: apnContext={mApnType=default mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}
+12-15 02:27:48.200 D/DCT     ( 3994): [0]initApnContexts: apnContext={mApnType=mms mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}
+12-15 02:27:48.200 D/DCT     ( 3994): [0]initApnContexts: apnContext={mApnType=supl mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}
+12-15 02:27:48.200 D/DCT     ( 3994): [0]initApnContexts: apnContext={mApnType=dun mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}
+12-15 02:27:48.201 D/DCT     ( 3994): [0]initApnContexts: apnContext={mApnType=hipri mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}
+12-15 02:27:48.201 D/DCT     ( 3994): [0]initApnContexts: apnContext={mApnType=fota mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}
+12-15 02:27:48.201 D/DCT     ( 3994): [0]initApnContexts: apnContext={mApnType=ims mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}
+12-15 02:27:48.201 D/DCT     ( 3994): [0]initApnContexts: apnContext={mApnType=cbs mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}
+12-15 02:27:48.201 D/DCT     ( 3994): [0]initApnContexts: apnContext={mApnType=ia mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}
+12-15 02:27:48.201 D/DCT     ( 3994): [0]initApnContexts: skipping unknown type=7
+12-15 02:27:48.201 D/DCT     ( 3994): [0]initApnContexts: skipping unknown type=9
+12-15 02:27:48.201 D/DCT     ( 3994): [0]initApnContexts: apnContext={mApnType=emergency mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}
+12-15 02:27:48.201 D/DCT     ( 3994): [0]initApnContexts: X mApnContexts={default={mApnType=default mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}, mms={mApnType=mms mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}, cbs={mApnType=cbs mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}, fota={mApnType=fota mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}, supl={mApnType=supl mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}, ia={mApnType=ia mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}, emergency={mApnType=emergency mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}, dun={mApnType=dun mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}, hipri={mApnType=hipri mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}, ims={mApnType=ims mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=dataEnabled mDataEnabled=false mDependencyMet=true}}
+12-15 02:27:48.207 D/TelephonyManager( 3994): setTelephonyProperty: success phoneId=0 property=gsm.current.phone-type value: 1 propVal=1
+12-15 02:27:48.207 D/GSMPhone( 3994): [GSMPhone] GSMPhone: constructor: sub = 0
+12-15 02:27:48.207 D/TelephonyManager( 3994): setTelephonyProperty: success phoneId=0 property=gsm.current.phone-type value: 1 propVal=1
+12-15 02:27:48.207 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.208 I/PhoneFactory( 3994): Creating Phone with type = 1 sub = 0
+12-15 02:27:48.210 E/RIL_ImsSms( 3994): getFormat should never be called from here!
+12-15 02:27:48.210 D/SMSDispatcher( 3994): SMSDispatcher: ctor mSmsCapable=true format=unknown mSmsSendDisabled=false
+12-15 02:27:48.210 D/RIL_ImsSms( 3994): ImsSMSDispatcher created
+12-15 02:27:48.210 D/SMSDispatcher( 3994): SMSDispatcher: ctor mSmsCapable=true format=3gpp2 mSmsSendDisabled=false
+12-15 02:27:48.210 D/CdmaSMSDispatcher( 3994): CdmaSMSDispatcher created
+12-15 02:27:48.339 D/GsmInboundSmsHandler( 3994): created InboundSmsHandler
+12-15 02:27:48.343 D/CdmaInboundSmsHandler( 3994): created InboundSmsHandler
+12-15 02:27:48.345 D/SMSDispatcher( 3994): SMSDispatcher: ctor mSmsCapable=true format=3gpp mSmsSendDisabled=false
+12-15 02:27:48.345 D/GsmSMSDispatcher( 3994): GsmSMSDispatcher created
+12-15 02:27:48.345 D/SmsBroadcastUndelivered( 3994): scanning raw table for undelivered messages
+12-15 02:27:48.345 D/IccCardProxy( 3994): ctor: ci=com.android.internal.telephony.hero2ltexxRIL@6157ac5 phoneId=0
+12-15 02:27:48.345 D/CdmaSSM ( 3994): subscriptionSource from settings: 0
+12-15 02:27:48.345 D/CdmaSSM ( 3994): cdmaSSM constructor: 0
+12-15 02:27:48.346 D/IccCardProxy( 3994): update icc_operator_numeric=
+12-15 02:27:48.346 D/TelephonyManager( 3994): setTelephonyProperty: success phoneId=0 property=gsm.sim.operator.numeric value:  propVal=
+12-15 02:27:48.346 D/TelephonyManager( 3994): setTelephonyProperty: success phoneId=0 property=gsm.sim.operator.iso-country value:  propVal=
+12-15 02:27:48.346 D/TelephonyManager( 3994): setTelephonyProperty: success phoneId=0 property=gsm.sim.operator.alpha value:  propVal=
+12-15 02:27:48.346 E/IccCardProxy( 3994): setExternalState: set mPhoneId=0 mExternalState=NOT_READY
+12-15 02:27:48.347 D/TelephonyManager( 3994): setTelephonyProperty: success phoneId=0 property=gsm.sim.state value: NOT_READY propVal=NOT_READY
+12-15 02:27:48.347 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.347 D/IccCardProxy( 3994): broadcastIccStateChangedIntent intent ACTION_SIM_STATE_CHANGED value=NOT_READY reason=null for mPhoneId=0
+12-15 02:27:48.348 D/SubscriptionController( 3994): [getActiveSubInfoList]+
+12-15 02:27:48.349 D/IccCardProxy( 3994): Setting radio tech UMTS
+12-15 02:27:48.349 D/IccCardProxy( 3994): updateQuietMode: 3GPP subscription -> newQuietMode=false
+12-15 02:27:48.349 D/IccCardProxy( 3994): updateQuietMode: no changes don't setExternalState
+12-15 02:27:48.349 D/IccCardProxy( 3994): updateQuietMode: QuietMode is false (app_type=1 cdmaSource=-1)
+12-15 02:27:48.349 D/SubscriptionController( 3994): [getActiveSubInfoList] Sub Controller not ready
+12-15 02:27:48.349 D/ProxyController( 3994): Constructor - Enter
+12-15 02:27:48.350 D/DctController( 3994): makeDctController: new DctController phones.length=1
+12-15 02:27:48.350 D/DctController( 3994): DctController(): phones.length=1
+12-15 02:27:48.351 D/DcSwitchSM( 3994): [DcSwitchStateMachine-0] DcSwitchState constructor E
+12-15 02:27:48.351 D/DcSwitchSM( 3994): [DcSwitchStateMachine-0] DcSwitchState constructor X
+12-15 02:27:48.351 D/DcSwitchSM( 3994): [DcSwitchStateMachine-0] IdleState: enter
+12-15 02:27:48.352 D/DctController( 3994): DctController(phones): Connect success: 0
+12-15 02:27:48.352 D/DctController( 3994): updatePhoneBaseForIndex for phone index=0
+12-15 02:27:48.352 D/DctController( 3994): unregister TelephonyNetworkFactory for phone index=0
+12-15 02:27:48.353 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.353 D/DctController( 3994): [TNF -2]NetworkCapabilities: [ Transports: CELLULAR Capabilities: MMS&SUPL&DUN&FOTA&IMS&CBS&IA&RCS&XCAP&EIMS&INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN]
+12-15 02:27:48.358 D/TelephonyRegistry( 3414): listen oscl: hasNotifySubscriptionInfoChangedOccurred==false no callback
+12-15 02:27:48.358 D/DctController( 3994): makeDctController: X sDctController=Handler (com.android.internal.telephony.dataconnection.DctController) {80d3479}
+12-15 02:27:48.360 D/ProxyController( 3994): clearTransaction
+12-15 02:27:48.360 D/ProxyController( 3994): clearTransaction: phoneId=0 status=IDLE
+12-15 02:27:48.360 D/ProxyController( 3994): Constructor - Exit
+12-15 02:27:48.365 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:48.370 I/PhoneFactory( 3994): defaultSmsApplication: com.android.messaging
+12-15 02:27:48.371 I/PhoneFactory( 3994): Creating SubInfoRecordUpdater 
+12-15 02:27:48.371 D/SubscriptionInfoUpdater( 3994): Constructor invoked
+12-15 02:27:48.374 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.374 D/SubscriptionController( 3994): [getActiveSubInfoList]+
+12-15 02:27:48.374 D/SubscriptionController( 3994): selection:sim_id>=0 null
+12-15 02:27:48.376 D/SubscriptionController( 3994): [getActiveSubInfoList]- no info return
+12-15 02:27:48.376 D/SubscriptionController( 3994): [getActiveSubInfoForSubscriber]- subId=-2 subList=null subInfo=null
+12-15 02:27:48.376 E/SubscriptionController( 3994): getUserNwMode: invalid subId = -2
+12-15 02:27:48.377 D/SubscriptionController( 3994): getSimStateForSlotIdx:  simState=NOT_READY ordinal=6
+12-15 02:27:48.377 D/SubscriptionManager( 4106): getSimStateForSubscriber: simState=6 slotIdx=0
+12-15 02:27:48.377 D/SubscriptionController( 3994): getSimStateForSlotIdx:  simState=NOT_READY ordinal=6
+12-15 02:27:48.377 D/SubscriptionManager( 4106): getSimStateForSubscriber: simState=6 slotIdx=0
+12-15 02:27:48.377 D/CallManager( 3994): registerPhone(GSM Handler (com.android.internal.telephony.PhoneProxy) {6c8453b})
+12-15 02:27:48.378 D/RILJ    ( 3994): [3650]> SET_SUPP_SVC_NOTIFICATION [SUB0]
+12-15 02:27:48.379 D/SubscriptionController( 3994): [getSlotId]- subId invalid
+12-15 02:27:48.379 D/SubscriptionController( 3994): getSimStateForSlotIdx:  simState=NOT_READY ordinal=6
+12-15 02:27:48.379 D/SubscriptionManager( 4106): getSimStateForSubscriber: simState=6 slotIdx=0
+12-15 02:27:48.379 D/TelephonyManager( 4106): getSimState: default sim:-1, sim state for slotIdx=0 is 6, return state as unknown
+12-15 02:27:48.379 D/SubscriptionController( 3994): [getActiveSubInfoList]+
+12-15 02:27:48.380 D/SubscriptionController( 3994): selection:sim_id>=0 null
+12-15 02:27:48.381 D/SubscriptionController( 3994): [getActiveSubInfoList]- no info return
+12-15 02:27:48.386 D/TelephonyRegistry( 3414): listen oscl: hasNotifySubscriptionInfoChangedOccurred==false no callback
+12-15 02:27:48.422 D/RILJ    ( 3994): [3651]> RIL_REQUEST_SET_TTY_MODE : 0 [SUB0]
+12-15 02:27:48.424 D/TelephonyRegistry( 3414): listen oscl: hasNotifySubscriptionInfoChangedOccurred==false no callback
+12-15 02:27:48.424 D/SubscriptionController( 3994): [getPhoneId] asked for default subId=-1
+12-15 02:27:48.424 D/SubscriptionController( 3994): [getPhoneId]- invalid subId return=-1
+12-15 02:27:48.424 D/UiccController( 3994): EVENT_RADIO_UNAVAILABLE, dispose card
+12-15 02:27:48.424 D/RILJ    ( 3994): [3652]> GET_CURRENT_CALLS [SUB0]
+12-15 02:27:48.425 D/GsmSST  ( 3994): [GsmSST] mDeviceShuttingDown = false
+12-15 02:27:48.425 D/GsmSST  ( 3994): [GsmSST] mDesiredPowerState = true
+12-15 02:27:48.425 D/GsmSST  ( 3994): [GsmSST] getRadioState = RADIO_UNAVAILABLE
+12-15 02:27:48.425 D/GsmSST  ( 3994): [GsmSST] mPowerOffDelayNeed = true
+12-15 02:27:48.425 D/GsmSST  ( 3994): [GsmSST] mAlarmSwitch = false
+12-15 02:27:48.425 D/PHONE   ( 3994): [ServiceState] setNullState=1
+12-15 02:27:48.425 D/GsmSST  ( 3994): [GsmSST] Poll ServiceState done:  oldSS=[1 1 voice home data home null null null null null null  Unknown Unknown CSS not supported 0 0 RoamInd=0 DefRoamInd=0 EmergOnly=false IsDataRoamingFromRegistration=false] newSS=[1 1 voice home data home null null null null null null  Unknown Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false IsDataRoamingFromRegistration=false] oldMaxDataCalls=1 mNewMaxDataCalls=1 oldReasonDataDenied=-1 mNewReasonDataDenied=-1
+12-15 02:27:48.425 D/PHONE   ( 3994): [ServiceState] setNullState=1
+12-15 02:27:48.425 D/GsmSST  ( 3994): [GsmSST] updateSpnDisplay: radio is on but out of service, set plmn='No service.'
+12-15 02:27:48.425 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.427 D/GsmSST  ( 3994): [GsmSST] updateSpnDisplay: changed sending intent rule=0 showPlmn='true' plmn='No service.' showSpn='false' spn='' dataSpn='' subId='-2'
+12-15 02:27:48.427 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.428 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.428 D/SubscriptionController( 3994): [setPlmnSpn] No valid subscription to store info
+12-15 02:27:48.428 D/SubscriptionController( 3994): notifySubscriptionInfoChanged:
+12-15 02:27:48.428 D/TelephonyRegistry( 3414): notifySubscriptionInfoChanged: first invocation mRecords.size=13
+12-15 02:27:48.429 D/SubscriptionController( 3994): [getActiveSubInfoList]+
+12-15 02:27:48.429 D/SubscriptionController( 3994): selection:sim_id>=0 null
+12-15 02:27:48.430 D/SubscriptionController( 3994): [getActiveSubInfoList]+
+12-15 02:27:48.430 D/TelephonyManager( 3994): setTelephonyProperty: success phoneId=0 property=gsm.operator.alpha value:  propVal=
+12-15 02:27:48.430 D/SubscriptionController( 3994): selection:sim_id>=0 null
+12-15 02:27:48.431 D/TelephonyManager( 3994): setTelephonyProperty: success phoneId=0 property=gsm.operator.numeric value:  propVal=
+12-15 02:27:48.431 D/GsmSST  ( 3994): [GsmSST] operatorNumeric is null
+12-15 02:27:48.431 D/TelephonyManager( 3994): setTelephonyProperty: success phoneId=0 property=gsm.operator.iso-country value:  propVal=
+12-15 02:27:48.431 D/SubscriptionController( 3994): [getActiveSubInfoList]- no info return
+12-15 02:27:48.431 D/TelephonyManager( 3994): setTelephonyProperty: success phoneId=0 property=gsm.operator.isroaming value: false propVal=false
+12-15 02:27:48.432 D/GsmSST  ( 3994): [GsmSST] Broadcasting ServiceState : 1 1 voice home data home null null null null null null  Unknown Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false IsDataRoamingFromRegistration=false
+12-15 02:27:48.432 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.432 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.432 D/DefaultPhoneNotifier( 3994): nofityServiceState: mRegistry=com.android.internal.telephony.ITelephonyRegistry$Stub$Proxy@2e72de9 ss=1 1 voice home data home null null null null null null  Unknown Unknown CSS not supported -1 -1 RoamInd=-1 DefRoamInd=-1 EmergOnly=false IsDataRoamingFromRegistration=false sender=Handler (com.android.internal.telephony.gsm.GSMPhone) {effa458} phondId=0 subId=-2
+12-15 02:27:48.433 D/SubscriptionController( 3994): [getSlotId]- subId invalid
+12-15 02:27:48.433 D/SubscriptionController( 3994): [getActiveSubInfoList]- no info return
+12-15 02:27:48.433 D/SubscriptionController( 3994): getSimStateForSlotIdx:  simState=NOT_READY ordinal=6
+12-15 02:27:48.434 D/SubscriptionManager( 3414): getSimStateForSubscriber: simState=6 slotIdx=0
+12-15 02:27:48.434 D/TelephonyManager( 3414): getSimState: default sim:-1, sim state for slotIdx=0 is 6, return state as unknown
+12-15 02:27:48.434 D/DCT     ( 3994): [0]handleMessage msg={ when=-241ms what=270369 obj=android.os.AsyncResult@7a1ba6e target=com.android.internal.telephony.dataconnection.DcTracker }
+12-15 02:27:48.434 D/DCT     ( 3994): [0]onUpdateIcc: newIccRecords null
+12-15 02:27:48.434 D/DCT     ( 3994): [0]handleMessage msg={ when=-237ms what=270342 obj=android.os.AsyncResult@5be150f target=com.android.internal.telephony.dataconnection.DcTracker }
+12-15 02:27:48.434 D/DCT     ( 3994): [0]onRadioOffOrNotAvailable: is off and clean up all connections
+12-15 02:27:48.434 D/DCT     ( 3994): [0]cleanUpAllConnections: tearDown=false reason=radioTurnedOff
+12-15 02:27:48.434 D/DCT     ( 3994): [0]cleanUpConnection: tearDown=false reason=radioTurnedOff apnContext={mApnType=default mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+12-15 02:27:48.435 D/GSMPhone( 3994): getDataConnectionState: Data is Out of Service. ret = DISCONNECTED
+12-15 02:27:48.435 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.435 D/DCT     ( 3994): [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - SIM not loaded and not NV subscription - defaultDataSelected= false
+12-15 02:27:48.435 D/SubscriptionController( 3994): [getPhoneId]- invalid subId return=-1
+12-15 02:27:48.436 D/DCT     ( 3994): [0]setupDataForSinglePdn: reason = radioTurnedOff isDisconnected = true
+12-15 02:27:48.436 D/SubscriptionController( 3994): getSimStateForSlotIdx:  simState=NOT_READY ordinal=6
+12-15 02:27:48.436 D/DCT     ( 3994): [0]isOnlySingleDcAllowed(0): false
+12-15 02:27:48.436 D/DCT     ( 3994): [0]cleanUpConnection: X tearDown=false reason=radioTurnedOff apnContext={mApnType=default mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true} dcac=null
+12-15 02:27:48.436 D/SubscriptionManager( 4106): getSimStateForSubscriber: simState=6 slotIdx=0
+12-15 02:27:48.436 D/DCT     ( 3994): [0]cleanUpConnection: tearDown=false reason=radioTurnedOff apnContext={mApnType=mms mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+12-15 02:27:48.436 D/GSMPhone( 3994): getDataConnectionState: Data is Out of Service. ret = DISCONNECTED
+12-15 02:27:48.436 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.436 D/DCT     ( 3994): [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - SIM not loaded and not NV subscription - defaultDataSelected= false
+12-15 02:27:48.437 D/SubscriptionController( 3994): [getPhoneId]- invalid subId return=-1
+12-15 02:27:48.437 D/DCT     ( 3994): [0]setupDataForSinglePdn: reason = radioTurnedOff isDisconnected = true
+12-15 02:27:48.437 D/DCT     ( 3994): [0]isOnlySingleDcAllowed(0): false
+12-15 02:27:48.437 D/DCT     ( 3994): [0]cleanUpConnection: X tearDown=false reason=radioTurnedOff apnContext={mApnType=mms mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true} dcac=null
+12-15 02:27:48.437 D/DCT     ( 3994): [0]cleanUpConnection: tearDown=false reason=radioTurnedOff apnContext={mApnType=cbs mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+12-15 02:27:48.437 D/GSMPhone( 3994): getDataConnectionState: Data is Out of Service. ret = DISCONNECTED
+12-15 02:27:48.437 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.437 D/DCT     ( 3994): [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - SIM not loaded and not NV subscription - defaultDataSelected= false
+12-15 02:27:48.437 D/SubscriptionController( 3994): getSimStateForSlotIdx:  simState=NOT_READY ordinal=6
+12-15 02:27:48.437 D/SubscriptionManager( 4106): getSimStateForSubscriber: simState=6 slotIdx=0
+12-15 02:27:48.437 D/SubscriptionController( 3994): [getPhoneId]- invalid subId return=-1
+12-15 02:27:48.438 D/DCT     ( 3994): [0]setupDataForSinglePdn: reason = radioTurnedOff isDisconnected = true
+12-15 02:27:48.438 D/DCT     ( 3994): [0]isOnlySingleDcAllowed(0): false
+12-15 02:27:48.438 D/DCT     ( 3994): [0]cleanUpConnection: X tearDown=false reason=radioTurnedOff apnContext={mApnType=cbs mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true} dcac=null
+12-15 02:27:48.438 D/DCT     ( 3994): [0]cleanUpConnection: tearDown=false reason=radioTurnedOff apnContext={mApnType=fota mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+12-15 02:27:48.438 D/GSMPhone( 3994): getDataConnectionState: Data is Out of Service. ret = DISCONNECTED
+12-15 02:27:48.438 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.438 D/SubscriptionController( 3994): getSimStateForSlotIdx:  simState=NOT_READY ordinal=6
+12-15 02:27:48.438 D/SubscriptionManager( 4106): getSimStateForSubscriber: simState=6 slotIdx=0
+12-15 02:27:48.438 D/DCT     ( 3994): [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - SIM not loaded and not NV subscription - defaultDataSelected= false
+12-15 02:27:48.439 D/SubscriptionController( 3994): [getPhoneId]- invalid subId return=-1
+12-15 02:27:48.439 D/DCT     ( 3994): [0]setupDataForSinglePdn: reason = radioTurnedOff isDisconnected = true
+12-15 02:27:48.439 D/DCT     ( 3994): [0]isOnlySingleDcAllowed(0): false
+12-15 02:27:48.439 D/DCT     ( 3994): [0]cleanUpConnection: X tearDown=false reason=radioTurnedOff apnContext={mApnType=fota mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true} dcac=null
+12-15 02:27:48.439 D/DCT     ( 3994): [0]cleanUpConnection: tearDown=false reason=radioTurnedOff apnContext={mApnType=supl mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+12-15 02:27:48.439 D/GSMPhone( 3994): getDataConnectionState: Data is Out of Service. ret = DISCONNECTED
+12-15 02:27:48.439 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.439 D/DCT     ( 3994): [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - SIM not loaded and not NV subscription - defaultDataSelected= false
+12-15 02:27:48.439 D/SubscriptionController( 3994): getSimStateForSlotIdx:  simState=NOT_READY ordinal=6
+12-15 02:27:48.440 D/SubscriptionController( 3994): [getPhoneId]- invalid subId return=-1
+12-15 02:27:48.440 D/SubscriptionManager( 4106): getSimStateForSubscriber: simState=6 slotIdx=0
+12-15 02:27:48.440 D/DCT     ( 3994): [0]setupDataForSinglePdn: reason = radioTurnedOff isDisconnected = true
+12-15 02:27:48.440 D/DCT     ( 3994): [0]isOnlySingleDcAllowed(0): false
+12-15 02:27:48.440 D/DCT     ( 3994): [0]cleanUpConnection: X tearDown=false reason=radioTurnedOff apnContext={mApnType=supl mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true} dcac=null
+12-15 02:27:48.440 D/DCT     ( 3994): [0]cleanUpConnection: tearDown=false reason=radioTurnedOff apnContext={mApnType=ia mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+12-15 02:27:48.440 D/GSMPhone( 3994): getDataConnectionState: Data is Out of Service. ret = DISCONNECTED
+12-15 02:27:48.440 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.441 D/SubscriptionController( 3994): getSimStateForSlotIdx:  simState=NOT_READY ordinal=6
+12-15 02:27:48.441 D/DCT     ( 3994): [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - SIM not loaded and not NV subscription - defaultDataSelected= false
+12-15 02:27:48.441 D/SubscriptionManager( 4106): getSimStateForSubscriber: simState=6 slotIdx=0
+12-15 02:27:48.442 D/SubscriptionController( 3994): [getPhoneId]- invalid subId return=-1
+12-15 02:27:48.442 D/DCT     ( 3994): [0]setupDataForSinglePdn: reason = radioTurnedOff isDisconnected = true
+12-15 02:27:48.442 D/DCT     ( 3994): [0]isOnlySingleDcAllowed(0): false
+12-15 02:27:48.442 D/DCT     ( 3994): [0]cleanUpConnection: X tearDown=false reason=radioTurnedOff apnContext={mApnType=ia mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true} dcac=null
+12-15 02:27:48.442 D/DCT     ( 3994): [0]cleanUpConnection: tearDown=false reason=radioTurnedOff apnContext={mApnType=emergency mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+12-15 02:27:48.443 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.443 D/SubscriptionController( 3994): [getPhoneId]- invalid subId return=-1
+12-15 02:27:48.443 D/SubscriptionController( 3994): getSimStateForSlotIdx:  simState=NOT_READY ordinal=6
+12-15 02:27:48.443 D/SubscriptionManager( 4106): getSimStateForSubscriber: simState=6 slotIdx=0
+12-15 02:27:48.443 D/DCT     ( 3994): [0]setupDataForSinglePdn: reason = radioTurnedOff isDisconnected = true
+12-15 02:27:48.443 D/DCT     ( 3994): [0]isOnlySingleDcAllowed(0): false
+12-15 02:27:48.443 D/DCT     ( 3994): [0]cleanUpConnection: X tearDown=false reason=radioTurnedOff apnContext={mApnType=emergency mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true} dcac=null
+12-15 02:27:48.443 D/DCT     ( 3994): [0]cleanUpConnection: tearDown=false reason=radioTurnedOff apnContext={mApnType=dun mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+12-15 02:27:48.443 D/GSMPhone( 3994): getDataConnectionState: Data is Out of Service. ret = DISCONNECTED
+12-15 02:27:48.443 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.444 D/SubscriptionController( 3994): getSimStateForSlotIdx:  simState=NOT_READY ordinal=6
+12-15 02:27:48.444 D/SubscriptionManager( 4106): getSimStateForSubscriber: simState=6 slotIdx=0
+12-15 02:27:48.444 D/DCT     ( 3994): [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - SIM not loaded and not NV subscription - defaultDataSelected= false
+12-15 02:27:48.444 D/SubscriptionController( 3994): [getPhoneId]- invalid subId return=-1
+12-15 02:27:48.444 D/DCT     ( 3994): [0]setupDataForSinglePdn: reason = radioTurnedOff isDisconnected = true
+12-15 02:27:48.444 D/DCT     ( 3994): [0]isOnlySingleDcAllowed(0): false
+12-15 02:27:48.444 D/DCT     ( 3994): [0]cleanUpConnection: X tearDown=false reason=radioTurnedOff apnContext={mApnType=dun mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true} dcac=null
+12-15 02:27:48.444 D/DCT     ( 3994): [0]cleanUpConnection: tearDown=false reason=radioTurnedOff apnContext={mApnType=hipri mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+12-15 02:27:48.444 D/GSMPhone( 3994): getDataConnectionState: Data is Out of Service. ret = DISCONNECTED
+12-15 02:27:48.444 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.445 D/SubscriptionController( 3994): getSimStateForSlotIdx:  simState=NOT_READY ordinal=6
+12-15 02:27:48.445 D/SubscriptionManager( 4106): getSimStateForSubscriber: simState=6 slotIdx=0
+12-15 02:27:48.445 D/DCT     ( 3994): [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - SIM not loaded and not NV subscription - defaultDataSelected= false
+12-15 02:27:48.445 D/SubscriptionController( 3994): [getPhoneId]- invalid subId return=-1
+12-15 02:27:48.446 D/DCT     ( 3994): [0]setupDataForSinglePdn: reason = radioTurnedOff isDisconnected = true
+12-15 02:27:48.446 D/DCT     ( 3994): [0]isOnlySingleDcAllowed(0): false
+12-15 02:27:48.446 D/DCT     ( 3994): [0]cleanUpConnection: X tearDown=false reason=radioTurnedOff apnContext={mApnType=hipri mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true} dcac=null
+12-15 02:27:48.446 D/DCT     ( 3994): [0]cleanUpConnection: tearDown=false reason=radioTurnedOff apnContext={mApnType=ims mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+12-15 02:27:48.446 D/GSMPhone( 3994): getDataConnectionState: Data is Out of Service. ret = DISCONNECTED
+12-15 02:27:48.446 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.446 D/DCT     ( 3994): [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - SIM not loaded and not NV subscription - defaultDataSelected= false
+12-15 02:27:48.446 D/SubscriptionController( 3994): getSimStateForSlotIdx:  simState=NOT_READY ordinal=6
+12-15 02:27:48.446 D/SubscriptionManager( 4106): getSimStateForSubscriber: simState=6 slotIdx=0
+12-15 02:27:48.446 D/SubscriptionController( 3994): [getPhoneId]- invalid subId return=-1
+12-15 02:27:48.446 D/DCT     ( 3994): [0]setupDataForSinglePdn: reason = radioTurnedOff isDisconnected = true
+12-15 02:27:48.447 D/DCT     ( 3994): [0]isOnlySingleDcAllowed(0): false
+12-15 02:27:48.447 D/DCT     ( 3994): [0]cleanUpConnection: X tearDown=false reason=radioTurnedOff apnContext={mApnType=ims mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true} dcac=null
+12-15 02:27:48.447 D/DCT     ( 3994): [0]stopNetStatPoll
+12-15 02:27:48.447 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.447 D/SubscriptionController( 3994): getSimStateForSlotIdx:  simState=NOT_READY ordinal=6
+12-15 02:27:48.447 D/DCT     ( 3994): [0]cleanUpConnection: mDisconnectPendingCount = 0
+12-15 02:27:48.447 D/SubscriptionManager( 4106): getSimStateForSubscriber: simState=6 slotIdx=0
+12-15 02:27:48.447 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.447 D/DCT     ( 3994): [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - SIM not loaded and not NV subscription - defaultDataSelected= false
+12-15 02:27:48.447 D/SubscriptionController( 3994): [getPhoneId]- invalid subId return=-1
+12-15 02:27:48.448 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.448 D/DCT     ( 3994): [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - SIM not loaded and not NV subscription - defaultDataSelected= false
+12-15 02:27:48.448 D/SubscriptionController( 3994): getSimStateForSlotIdx:  simState=NOT_READY ordinal=6
+12-15 02:27:48.448 D/SubscriptionManager( 4106): getSimStateForSubscriber: simState=6 slotIdx=0
+12-15 02:27:48.448 D/SubscriptionController( 3994): [getPhoneId]- invalid subId return=-1
+12-15 02:27:48.449 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.449 D/DCT     ( 3994): [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - SIM not loaded and not NV subscription - defaultDataSelected= false
+12-15 02:27:48.449 D/SubscriptionController( 3994): getSimStateForSlotIdx:  simState=NOT_READY ordinal=6
+12-15 02:27:48.449 D/SubscriptionManager( 4106): getSimStateForSubscriber: simState=6 slotIdx=0
+12-15 02:27:48.449 D/SubscriptionController( 3994): [getPhoneId]- invalid subId return=-1
+12-15 02:27:48.450 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.450 D/DCT     ( 3994): [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - SIM not loaded and not NV subscription - defaultDataSelected= false
+12-15 02:27:48.450 D/SubscriptionController( 3994): getSimStateForSlotIdx:  simState=NOT_READY ordinal=6
+12-15 02:27:48.450 D/SubscriptionManager( 4106): getSimStateForSubscriber: simState=6 slotIdx=0
+12-15 02:27:48.450 D/SubscriptionController( 3994): [getPhoneId]- invalid subId return=-1
+12-15 02:27:48.451 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.451 D/DCT     ( 3994): [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - SIM not loaded and not NV subscription - defaultDataSelected= false
+12-15 02:27:48.451 D/SubscriptionController( 3994): getSimStateForSlotIdx:  simState=NOT_READY ordinal=6
+12-15 02:27:48.451 D/SubscriptionManager( 4106): getSimStateForSubscriber: simState=6 slotIdx=0
+12-15 02:27:48.451 D/SubscriptionController( 3994): [getPhoneId]- invalid subId return=-1
+12-15 02:27:48.452 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.452 D/DCT     ( 3994): [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - SIM not loaded and not NV subscription - defaultDataSelected= false
+12-15 02:27:48.452 D/SubscriptionController( 3994): getSimStateForSlotIdx:  simState=NOT_READY ordinal=6
+12-15 02:27:48.452 D/SubscriptionManager( 4106): getSimStateForSubscriber: simState=6 slotIdx=0
+12-15 02:27:48.452 D/SubscriptionController( 3994): [getPhoneId]- invalid subId return=-1
+12-15 02:27:48.453 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.453 D/SubscriptionController( 3994): getSimStateForSlotIdx:  simState=NOT_READY ordinal=6
+12-15 02:27:48.453 D/SubscriptionManager( 4106): getSimStateForSubscriber: simState=6 slotIdx=0
+12-15 02:27:48.453 D/SubscriptionController( 3994): [getPhoneId]- invalid subId return=-1
+12-15 02:27:48.454 D/SubscriptionController( 3994): getSimStateForSlotIdx:  simState=NOT_READY ordinal=6
+12-15 02:27:48.454 D/SubscriptionManager( 4106): getSimStateForSubscriber: simState=6 slotIdx=0
+12-15 02:27:48.454 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.454 D/DCT     ( 3994): [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - SIM not loaded and not NV subscription - defaultDataSelected= false
+12-15 02:27:48.454 D/SubscriptionController( 3994): [getPhoneId]- invalid subId return=-1
+12-15 02:27:48.454 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.455 D/SubscriptionController( 3994): getSimStateForSlotIdx:  simState=NOT_READY ordinal=6
+12-15 02:27:48.455 D/DCT     ( 3994): [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - SIM not loaded and not NV subscription - defaultDataSelected= false
+12-15 02:27:48.455 D/SubscriptionManager( 4106): getSimStateForSubscriber: simState=6 slotIdx=0
+12-15 02:27:48.455 D/SubscriptionController( 3994): [getPhoneId]- invalid subId return=-1
+12-15 02:27:48.455 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.455 D/SubscriptionController( 3994): getSimStateForSlotIdx:  simState=NOT_READY ordinal=6
+12-15 02:27:48.456 D/DCT     ( 3994): [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - SIM not loaded and not NV subscription - defaultDataSelected= false
+12-15 02:27:48.456 D/SubscriptionManager( 4106): getSimStateForSubscriber: simState=6 slotIdx=0
+12-15 02:27:48.456 D/SubscriptionController( 3994): [getPhoneId]- invalid subId return=-1
+12-15 02:27:48.456 D/DCT     ( 3994): [0]handleMessage msg={ when=-258ms what=270345 obj=android.os.AsyncResult@4f3b99c target=com.android.internal.telephony.dataconnection.DcTracker }
+12-15 02:27:48.456 D/DCT     ( 3994): [0]onDataConnectionDetached: stop polling and notify detached
+12-15 02:27:48.456 D/DCT     ( 3994): [0]stopNetStatPoll
+12-15 02:27:48.456 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.456 D/DCT     ( 3994): [0]notifyDataConnection: reason=dataDetached
+12-15 02:27:48.456 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.457 D/DCT     ( 3994): [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - SIM not loaded and not NV subscription - defaultDataSelected= false
+12-15 02:27:48.457 D/SubscriptionController( 3994): getSimStateForSlotIdx:  simState=NOT_READY ordinal=6
+12-15 02:27:48.457 D/SubscriptionManager( 4106): getSimStateForSubscriber: simState=6 slotIdx=0
+12-15 02:27:48.457 D/SubscriptionController( 3994): [getPhoneId]- invalid subId return=-1
+12-15 02:27:48.457 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.457 D/DCT     ( 3994): [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - SIM not loaded and not NV subscription - defaultDataSelected= false
+12-15 02:27:48.458 D/SubscriptionController( 3994): getSimStateForSlotIdx:  simState=NOT_READY ordinal=6
+12-15 02:27:48.458 D/SubscriptionManager( 4106): getSimStateForSubscriber: simState=6 slotIdx=0
+12-15 02:27:48.458 D/SubscriptionController( 3994): [getPhoneId]- invalid subId return=-1
+12-15 02:27:48.458 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.458 D/DCT     ( 3994): [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - SIM not loaded and not NV subscription - defaultDataSelected= false
+12-15 02:27:48.459 D/SubscriptionController( 3994): getSimStateForSlotIdx:  simState=NOT_READY ordinal=6
+12-15 02:27:48.459 D/SubscriptionManager( 4106): getSimStateForSubscriber: simState=6 slotIdx=0
+12-15 02:27:48.459 D/SubscriptionController( 3994): [getPhoneId]- invalid subId return=-1
+12-15 02:27:48.459 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.459 D/DCT     ( 3994): [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - SIM not loaded and not NV subscription - defaultDataSelected= false
+12-15 02:27:48.459 D/SubscriptionController( 3994): getSimStateForSlotIdx:  simState=NOT_READY ordinal=6
+12-15 02:27:48.460 D/SubscriptionManager( 4106): getSimStateForSubscriber: simState=6 slotIdx=0
+12-15 02:27:48.460 D/SubscriptionController( 3994): [getPhoneId]- invalid subId return=-1
+12-15 02:27:48.461 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.461 D/DCT     ( 3994): [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - SIM not loaded and not NV subscription - defaultDataSelected= false
+12-15 02:27:48.461 D/SubscriptionController( 3994): getSimStateForSlotIdx:  simState=NOT_READY ordinal=6
+12-15 02:27:48.461 D/SubscriptionManager( 4106): getSimStateForSubscriber: simState=6 slotIdx=0
+12-15 02:27:48.462 D/SubscriptionController( 3994): [getPhoneId]- invalid subId return=-1
+12-15 02:27:48.462 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.462 D/DCT     ( 3994): [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - SIM not loaded and not NV subscription - defaultDataSelected= false
+12-15 02:27:48.462 D/SubscriptionController( 3994): getSimStateForSlotIdx:  simState=NOT_READY ordinal=6
+12-15 02:27:48.463 D/SubscriptionManager( 4106): getSimStateForSubscriber: simState=6 slotIdx=0
+12-15 02:27:48.463 D/SubscriptionController( 3994): [getPhoneId]- invalid subId return=-1
+12-15 02:27:48.463 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.463 D/SubscriptionController( 3994): [getPhoneId]- invalid subId return=-1
+12-15 02:27:48.464 D/SubscriptionController( 3994): getSimStateForSlotIdx:  simState=NOT_READY ordinal=6
+12-15 02:27:48.464 D/SubscriptionManager( 4106): getSimStateForSubscriber: simState=6 slotIdx=0
+12-15 02:27:48.464 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.464 D/SubscriptionController( 3994): getSimStateForSlotIdx:  simState=NOT_READY ordinal=6
+12-15 02:27:48.464 D/DCT     ( 3994): [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - SIM not loaded and not NV subscription - defaultDataSelected= false
+12-15 02:27:48.464 D/SubscriptionManager( 4106): getSimStateForSubscriber: simState=6 slotIdx=0
+12-15 02:27:48.465 D/SubscriptionController( 3994): [getPhoneId]- invalid subId return=-1
+12-15 02:27:48.465 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.465 D/SubscriptionController( 3994): getSimStateForSlotIdx:  simState=NOT_READY ordinal=6
+12-15 02:27:48.465 D/DCT     ( 3994): [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - SIM not loaded and not NV subscription - defaultDataSelected= false
+12-15 02:27:48.465 D/SubscriptionManager( 4106): getSimStateForSubscriber: simState=6 slotIdx=0
+12-15 02:27:48.465 D/SubscriptionController( 3994): [getPhoneId]- invalid subId return=-1
+12-15 02:27:48.466 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.466 D/DCT     ( 3994): [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - SIM not loaded and not NV subscription - defaultDataSelected= false
+12-15 02:27:48.466 D/SubscriptionController( 3994): getSimStateForSlotIdx:  simState=NOT_READY ordinal=6
+12-15 02:27:48.466 D/SubscriptionManager( 4106): getSimStateForSubscriber: simState=6 slotIdx=0
+12-15 02:27:48.466 D/SubscriptionController( 3994): [getPhoneId]- invalid subId return=-1
+12-15 02:27:48.467 D/DCT     ( 3994): [0]handleMessage msg={ when=-269ms what=270348 obj=android.os.AsyncResult@8fbbfa5 target=com.android.internal.telephony.dataconnection.DcTracker }
+12-15 02:27:48.467 D/DCT     ( 3994): [0]onRoamingOff
+12-15 02:27:48.467 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.467 D/DCT     ( 3994): [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=false
+12-15 02:27:48.467 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.467 D/SubscriptionController( 3994): getSimStateForSlotIdx:  simState=NOT_READY ordinal=6
+12-15 02:27:48.467 D/SubscriptionManager( 4106): getSimStateForSubscriber: simState=6 slotIdx=0
+12-15 02:27:48.467 D/DCT     ( 3994): [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - SIM not loaded and not NV subscription - defaultDataSelected= false
+12-15 02:27:48.467 D/SubscriptionController( 3994): [getPhoneId]- invalid subId return=-1
+12-15 02:27:48.468 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.468 D/DCT     ( 3994): [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - SIM not loaded and not NV subscription - defaultDataSelected= false
+12-15 02:27:48.468 D/SubscriptionController( 3994): getSimStateForSlotIdx:  simState=NOT_READY ordinal=6
+12-15 02:27:48.468 D/SubscriptionManager( 4106): getSimStateForSubscriber: simState=6 slotIdx=0
+12-15 02:27:48.468 D/SubscriptionController( 3994): [getPhoneId]- invalid subId return=-1
+12-15 02:27:48.469 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.469 D/DCT     ( 3994): [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - SIM not loaded and not NV subscription - defaultDataSelected= false
+12-15 02:27:48.469 D/SubscriptionController( 3994): getSimStateForSlotIdx:  simState=NOT_READY ordinal=6
+12-15 02:27:48.469 D/SubscriptionController( 3994): [getPhoneId]- invalid subId return=-1
+12-15 02:27:48.469 D/SubscriptionManager( 4106): getSimStateForSubscriber: simState=6 slotIdx=0
+12-15 02:27:48.470 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.470 D/SubscriptionController( 3994): getSimStateForSlotIdx:  simState=NOT_READY ordinal=6
+12-15 02:27:48.470 D/DCT     ( 3994): [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - SIM not loaded and not NV subscription - defaultDataSelected= false
+12-15 02:27:48.470 D/SubscriptionManager( 4106): getSimStateForSubscriber: simState=6 slotIdx=0
+12-15 02:27:48.470 D/SubscriptionController( 3994): [getPhoneId]- invalid subId return=-1
+12-15 02:27:48.471 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.471 D/SubscriptionController( 3994): getSimStateForSlotIdx:  simState=NOT_READY ordinal=6
+12-15 02:27:48.471 D/DCT     ( 3994): [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - SIM not loaded and not NV subscription - defaultDataSelected= false
+12-15 02:27:48.471 D/SubscriptionManager( 4106): getSimStateForSubscriber: simState=6 slotIdx=0
+12-15 02:27:48.471 D/SubscriptionController( 3994): [getPhoneId]- invalid subId return=-1
+12-15 02:27:48.472 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.472 D/DCT     ( 3994): [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - SIM not loaded and not NV subscription - defaultDataSelected= false
+12-15 02:27:48.472 D/SubscriptionController( 3994): getSimStateForSlotIdx:  simState=NOT_READY ordinal=6
+12-15 02:27:48.472 D/SubscriptionManager( 4106): getSimStateForSubscriber: simState=6 slotIdx=0
+12-15 02:27:48.472 D/SubscriptionController( 3994): [getPhoneId]- invalid subId return=-1
+12-15 02:27:48.472 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.473 D/SubscriptionController( 3994): getSimStateForSlotIdx:  simState=NOT_READY ordinal=6
+12-15 02:27:48.473 D/SubscriptionManager( 4106): getSimStateForSubscriber: simState=6 slotIdx=0
+12-15 02:27:48.473 D/SubscriptionController( 3994): [getPhoneId]- invalid subId return=-1
+12-15 02:27:48.474 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.474 D/DCT     ( 3994): [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - SIM not loaded and not NV subscription - defaultDataSelected= false
+12-15 02:27:48.474 D/SubscriptionController( 3994): getSimStateForSlotIdx:  simState=NOT_READY ordinal=6
+12-15 02:27:48.474 D/SubscriptionController( 3994): [getPhoneId]- invalid subId return=-1
+12-15 02:27:48.474 D/SubscriptionManager( 4106): getSimStateForSubscriber: simState=6 slotIdx=0
+12-15 02:27:48.475 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.475 D/DCT     ( 3994): [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - SIM not loaded and not NV subscription - defaultDataSelected= false
+12-15 02:27:48.475 D/SubscriptionController( 3994): getSimStateForSlotIdx:  simState=NOT_READY ordinal=6
+12-15 02:27:48.475 D/SubscriptionManager( 4106): getSimStateForSubscriber: simState=6 slotIdx=0
+12-15 02:27:48.475 D/SubscriptionController( 3994): [getPhoneId]- invalid subId return=-1
+12-15 02:27:48.476 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.476 D/DCT     ( 3994): [0]isDataAllowed: not allowed due to - Attached= false - SIM not loaded - SIM not loaded and not NV subscription - defaultDataSelected= false
+12-15 02:27:48.476 D/SubscriptionController( 3994): [getPhoneId]- invalid subId return=-1
+12-15 02:27:48.476 D/SubscriptionController( 3994): getSimStateForSlotIdx:  simState=NOT_READY ordinal=6
+12-15 02:27:48.476 D/SubscriptionManager( 4106): getSimStateForSubscriber: simState=6 slotIdx=0
+12-15 02:27:48.477 D/DCT     ( 3994): [0]setupDataOnConnectableApns: roamingOff
+12-15 02:27:48.477 D/DCT     ( 3994): [0]setupDataOnConnectableApns: apnContext {mApnType=hipri mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+12-15 02:27:48.477 D/DCT     ( 3994): [0]setupDataOnConnectableApns: apnContext {mApnType=mms mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+12-15 02:27:48.477 D/DCT     ( 3994): [0]setupDataOnConnectableApns: apnContext {mApnType=supl mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+12-15 02:27:48.477 D/DCT     ( 3994): [0]setupDataOnConnectableApns: apnContext {mApnType=cbs mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+12-15 02:27:48.477 D/DCT     ( 3994): [0]setupDataOnConnectableApns: apnContext {mApnType=dun mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+12-15 02:27:48.477 D/DCT     ( 3994): [0]setupDataOnConnectableApns: apnContext {mApnType=fota mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+12-15 02:27:48.477 D/DCT     ( 3994): [0]setupDataOnConnectableApns: apnContext {mApnType=ims mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+12-15 02:27:48.477 D/DCT     ( 3994): [0]setupDataOnConnectableApns: apnContext {mApnType=default mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+12-15 02:27:48.477 D/DCT     ( 3994): [0]setupDataOnConnectableApns: apnContext {mApnType=ia mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+12-15 02:27:48.477 D/DCT     ( 3994): [0]setupDataOnConnectableApns: apnContext {mApnType=emergency mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+12-15 02:27:48.477 D/DCT     ( 3994): [0]handleMessage msg={ when=-278ms what=270377 obj=android.os.AsyncResult@6330f7a target=com.android.internal.telephony.dataconnection.DcTracker }
+12-15 02:27:48.477 D/SubscriptionController( 3994): getSimStateForSlotIdx:  simState=NOT_READY ordinal=6
+12-15 02:27:48.477 D/DCT     ( 3994): [0]onUpdateIcc: newIccRecords null
+12-15 02:27:48.477 D/DCT     ( 3994): [0]setupDataOnConnectableApns: nwTypeChanged
+12-15 02:27:48.477 D/DCT     ( 3994): [0]setupDataOnConnectableApns: apnContext {mApnType=hipri mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+12-15 02:27:48.477 D/DCT     ( 3994): [0]setupDataOnConnectableApns: apnContext {mApnType=mms mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+12-15 02:27:48.477 D/SubscriptionManager( 4106): getSimStateForSubscriber: simState=6 slotIdx=0
+12-15 02:27:48.477 D/DCT     ( 3994): [0]setupDataOnConnectableApns: apnContext {mApnType=supl mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+12-15 02:27:48.477 D/DCT     ( 3994): [0]setupDataOnConnectableApns: apnContext {mApnType=cbs mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+12-15 02:27:48.477 D/DCT     ( 3994): [0]setupDataOnConnectableApns: apnContext {mApnType=dun mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+12-15 02:27:48.477 D/DCT     ( 3994): [0]setupDataOnConnectableApns: apnContext {mApnType=fota mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+12-15 02:27:48.477 D/DCT     ( 3994): [0]setupDataOnConnectableApns: apnContext {mApnType=ims mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+12-15 02:27:48.477 D/DCT     ( 3994): [0]setupDataOnConnectableApns: apnContext {mApnType=default mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+12-15 02:27:48.477 D/DCT     ( 3994): [0]setupDataOnConnectableApns: apnContext {mApnType=ia mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+12-15 02:27:48.477 D/DCT     ( 3994): [0]setupDataOnConnectableApns: apnContext {mApnType=emergency mState=IDLE mWaitingApns={null} mWaitingApnsPermanentFailureCountDown=0 mApnSetting={null} mReason=radioTurnedOff mDataEnabled=false mDependencyMet=true}
+12-15 02:27:48.477 E/PhoneProxy( 3994): [PhoneProxy] Error! This handler was not registered for this message type. Message: 9
+12-15 02:27:48.477 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.477 D/GsmSMSDispatcher( 3994): GsmSMSDispatcher: subId = -2 slotId = 0
+12-15 02:27:48.477 E/IccCardProxy( 3994): setExternalState: !override and newstate unchanged from NOT_READY
+12-15 02:27:48.477 E/IccCardProxy( 3994): setExternalState: !override and newstate unchanged from NOT_READY
+12-15 02:27:48.478 D/SubscriptionController( 3994): [getPhoneId]- invalid subId return=-1
+12-15 02:27:48.478 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.478 E/IccCardProxy( 3994): setExternalState: !override and newstate unchanged from NOT_READY
+12-15 02:27:48.478 D/DctController( 3994): EVENT_PHONE1_DATA_DETACH.
+12-15 02:27:48.478 D/DcSwitchSM( 3994): [DcSwitchStateMachine-0] DefaultState: shouldn't happen but ignore msg.what=0x44008
+12-15 02:27:48.479 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.479 D/DctController( 3994): [TNF -2]got request NetworkRequest [ id=1, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ] with score 0
+12-15 02:27:48.479 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.479 D/DctController( 3994): [TNF -2]Cellular needs Network for NetworkRequest [ id=1, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+12-15 02:27:48.479 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.479 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.479 D/DctController( 3994): [TNF -2]Request not useable, pending request.
+12-15 02:27:48.479 D/SubscriptionInfoUpdater( 3994): [Receiver]+
+12-15 02:27:48.479 D/SubscriptionInfoUpdater( 3994): Action: android.intent.action.SIM_STATE_CHANGED
+12-15 02:27:48.479 D/SubscriptionInfoUpdater( 3994): slotId: 0
+12-15 02:27:48.479 D/SubscriptionInfoUpdater( 3994): simStatus: NOT_READY
+12-15 02:27:48.479 D/SubscriptionInfoUpdater( 3994): Ignoring simStatus: NOT_READY
+12-15 02:27:48.479 D/SubscriptionInfoUpdater( 3994): Wait for SIM1 IccId
+12-15 02:27:48.479 D/SubscriptionInfoUpdater( 3994): [Receiver]-
+12-15 02:27:48.479 D/DebugService( 3994): DebugService DebugService:
+12-15 02:27:48.480 D/SipService( 3994): SipService: started!
+12-15 02:27:48.482 D/SipService( 3994): start:
+12-15 02:27:48.485 D/DCT     ( 3994): [0]handleMessage msg={ when=-62ms what=270369 obj=android.os.AsyncResult@70db121 target=com.android.internal.telephony.dataconnection.DcTracker }
+12-15 02:27:48.485 D/DCT     ( 3994): [0]onUpdateIcc: newIccRecords null
+12-15 02:27:48.485 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.486 D/GsmSMSDispatcher( 3994): GsmSMSDispatcher: subId = -2 slotId = 0
+12-15 02:27:48.486 E/IccCardProxy( 3994): setExternalState: !override and newstate unchanged from NOT_READY
+12-15 02:27:48.486 D/GsmSST  ( 3994): [GsmSST] SubscriptionListener.onSubscriptionInfoChanged
+12-15 02:27:48.486 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.486 D/DCT     ( 3994): [0]SubscriptionListener.onSubscriptionInfoChanged
+12-15 02:27:48.486 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.486 D/SubscriptionController( 3994): [getActiveSubInfoList]+
+12-15 02:27:48.486 D/SubscriptionController( 3994): selection:sim_id>=0 null
+12-15 02:27:48.487 D/SubscriptionController( 3994): [getActiveSubInfoList]- no info return
+12-15 02:27:48.488 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.489 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.489 D/SubscriptionController( 3994): [getPhoneId]- invalid subId return=-1
+12-15 02:27:48.490 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.490 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.490 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.535 E/PhoneBase( 3994): Error! registerForCallWaiting() in PhoneBase should not be called, CDMAPhone inactive.
+12-15 02:27:48.541 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.541 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.541 D/DCT     ( 3994): [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=false
+12-15 02:27:48.541 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.541 D/DCT     ( 3994): [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=false
+12-15 02:27:48.541 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.541 D/DCT     ( 3994): [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=false
+12-15 02:27:48.541 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.541 D/DCT     ( 3994): [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=false
+12-15 02:27:48.541 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.541 D/DCT     ( 3994): [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=false
+12-15 02:27:48.541 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.541 D/DCT     ( 3994): [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=false
+12-15 02:27:48.541 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.541 D/DCT     ( 3994): [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=false
+12-15 02:27:48.541 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.541 D/DCT     ( 3994): [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=false
+12-15 02:27:48.541 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.541 D/DCT     ( 3994): [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=false
+12-15 02:27:48.541 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.541 D/DCT     ( 3994): [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=false
+12-15 02:27:48.541 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.541 D/DCT     ( 3994): [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=false
+12-15 02:27:48.542 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.542 D/DCT     ( 3994): [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=false
+12-15 02:27:48.542 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.542 D/DCT     ( 3994): [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=false
+12-15 02:27:48.542 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.542 D/DCT     ( 3994): [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=false
+12-15 02:27:48.542 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.542 D/DCT     ( 3994): [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=false
+12-15 02:27:48.542 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.542 D/DCT     ( 3994): [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=false
+12-15 02:27:48.542 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.542 D/DCT     ( 3994): [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=false
+12-15 02:27:48.542 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.542 D/DCT     ( 3994): [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=false
+12-15 02:27:48.542 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.542 D/DCT     ( 3994): [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=false
+12-15 02:27:48.542 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.542 D/DCT     ( 3994): [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=false
+12-15 02:27:48.542 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.542 D/DCT     ( 3994): [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=false
+12-15 02:27:48.542 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.542 D/DCT     ( 3994): [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=false
+12-15 02:27:48.542 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.542 D/DCT     ( 3994): [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=false
+12-15 02:27:48.542 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.542 D/DCT     ( 3994): [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=false
+12-15 02:27:48.542 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.542 D/DCT     ( 3994): [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=false
+12-15 02:27:48.542 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.542 D/DCT     ( 3994): [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=false
+12-15 02:27:48.542 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.542 D/DCT     ( 3994): [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=false
+12-15 02:27:48.542 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.542 D/DCT     ( 3994): [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=false
+12-15 02:27:48.542 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.542 D/DCT     ( 3994): [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=false
+12-15 02:27:48.542 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.542 D/DCT     ( 3994): [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=false
+12-15 02:27:48.543 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.543 D/DCT     ( 3994): [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=false
+12-15 02:27:48.543 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.543 D/DCT     ( 3994): [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=false
+12-15 02:27:48.543 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.543 D/DCT     ( 3994): [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=false
+12-15 02:27:48.543 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.543 D/DCT     ( 3994): [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=false
+12-15 02:27:48.543 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.543 D/DCT     ( 3994): [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=false
+12-15 02:27:48.543 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.543 D/DCT     ( 3994): [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=false
+12-15 02:27:48.543 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.543 D/DCT     ( 3994): [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=false
+12-15 02:27:48.543 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.543 D/DCT     ( 3994): [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=false
+12-15 02:27:48.543 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.543 D/DCT     ( 3994): [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=false
+12-15 02:27:48.543 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.543 D/DCT     ( 3994): [0]getDataOnRoamingEnabled: phoneSubId=-2 isDataRoamingEnabled=false
+12-15 02:27:48.548 D/DctController( 3994): handleMessage msg={ when=-62ms what=107 target=com.android.internal.telephony.dataconnection.DctController }
+12-15 02:27:48.548 D/DctController( 3994): onSubInfoReady mPhoneNum=1
+12-15 02:27:48.548 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.548 D/DctController( 3994): onSubInfoReady handle pending requests subId=-2
+12-15 02:27:48.548 D/DctController( 3994): onSubInfoReady: SIM card absent on phoneId = 0
+12-15 02:27:48.548 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.548 D/DctController( 3994): [TNF -2]evalPendingRequest, pending request size is 1
+12-15 02:27:48.548 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.548 D/DctController( 3994): [TNF -2]evalPendingRequest: request = NetworkRequest [ id=1, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+12-15 02:27:48.548 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.548 D/DctController( 3994): [TNF -2]Cellular needs Network for NetworkRequest [ id=1, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+12-15 02:27:48.548 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.548 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.548 D/DctController( 3994): [TNF -2]Request not useable, pending request.
+12-15 02:27:48.548 D/DctController( 3994): processRequests
+12-15 02:27:48.548 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:27:48.549 D/DctController( 3994): handleMessage msg={ when=-1ms what=100 target=com.android.internal.telephony.dataconnection.DctController }
+12-15 02:27:48.549 D/DcSwitchAsyncChannel( 3994): [DcSwitchAsyncChannel-0]: rspIsIdle=true
+12-15 02:27:48.549 D/SubscriptionController( 3994): [getPhoneId]- invalid subId return=-1
+12-15 02:27:48.549 D/DcSwitchAsyncChannel( 3994): [DcSwitchAsyncChannel-0]: rspIsIdle=true
+12-15 02:27:48.549 D/DctController( 3994): onProcessRequest requestedPhoneId=-1, activePhoneId=-1
+12-15 02:27:48.566 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:48.622 D/SmsBroadcastUndelivered( 3994): finished scanning raw table in 276 ms
+12-15 02:27:48.622 D/GsmInboundSmsHandler( 3994): StartupState.processMessage:6
+12-15 02:27:48.622 D/CdmaInboundSmsHandler( 3994): StartupState.processMessage:6
+12-15 02:27:48.622 D/CdmaInboundSmsHandler( 3994): entering Idle state
+12-15 02:27:48.622 D/GsmInboundSmsHandler( 3994): entering Idle state
+12-15 02:27:48.622 D/CdmaInboundSmsHandler( 3994): IdleState.processMessage:5
+12-15 02:27:48.622 D/GsmInboundSmsHandler( 3994): IdleState.processMessage:5
+12-15 02:27:48.622 D/CdmaInboundSmsHandler( 3994): Idle state processing message type 5
+12-15 02:27:48.622 D/GsmInboundSmsHandler( 3994): Idle state processing message type 5
+12-15 02:27:48.622 D/CdmaInboundSmsHandler( 3994): mWakeLock released wakelockcount = 0
+12-15 02:27:48.622 D/GsmInboundSmsHandler( 3994): mWakeLock released wakelockcount = 0
+12-15 02:27:48.766 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:48.966 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:49.166 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:49.227 D/SubscriptionController( 3994): [getSlotId]- subId invalid
+12-15 02:27:49.229 D/SubscriptionController( 3994): getSimStateForSlotIdx:  simState=NOT_READY ordinal=6
+12-15 02:27:49.229 D/SubscriptionManager( 3710): getSimStateForSubscriber: simState=6 slotIdx=0
+12-15 02:27:49.229 D/TelephonyManager( 3710): getSimState: default sim:-1, sim state for slotIdx=0 is 6, return state as unknown
+12-15 02:27:49.235 D/DCT     ( 3994): [0]hasMatchedTetherApnSetting: APN=null
+12-15 02:27:49.366 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:49.470 D/SubscriptionController( 3994): [getPhoneId] asked for default subId=-1
+12-15 02:27:49.470 D/SubscriptionController( 3994): [getPhoneId]- invalid subId return=-1
+12-15 02:27:49.566 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:49.741 D/SubscriptionController( 3994): [getPhoneId] asked for default subId=-1
+12-15 02:27:49.741 D/SubscriptionController( 3994): [getPhoneId]- invalid subId return=-1
+12-15 02:27:49.766 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:49.967 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:50.167 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:50.367 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:50.567 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:50.767 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:50.967 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:51.167 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:51.216 D/GsmCellBroadcastHandler( 3994): mWakeLock released
+12-15 02:27:51.344 D/CellBroadcastHandler( 3994): mWakeLock released
+12-15 02:27:51.347 D/CdmaServiceCategoryProgramHandler( 3994): mWakeLock released
+12-15 02:27:51.367 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:51.568 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:51.719 D/CAT     ( 3994): com.android.stk.BootCompletedReceiver: [ACTION_BOOT_COMPLETED]
+12-15 02:27:51.719 D/CAT     ( 3994): com.android.stk.StkAppService: onCreate()+
+12-15 02:27:51.719 D/CAT     ( 3994): com.android.stk.StkAppService: simCount: 1
+12-15 02:27:51.720 D/CAT     ( 3994): com.android.stk.StkAppService: slotId: 0
+12-15 02:27:51.720 D/CAT     ( 3994): com.android.stk.StkAppService: onStart sim id: 0, op: 5, *****
+12-15 02:27:51.720 D/CAT     ( 3994): com.android.stk.StkAppService: mStkService is: -1
+12-15 02:27:51.721 D/CAT     ( 3994): StkAppInstaller: [setAppState]+
+12-15 02:27:51.721 D/CAT     ( 3994): StkAppInstaller: Change app state[false]
+12-15 02:27:51.721 D/CAT     ( 3994): StkAppInstaller: [setAppState]-
+12-15 02:27:51.721 D/CAT     ( 3994): com.android.stk.StkAppService: onDestroy()
+12-15 02:27:51.768 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:51.968 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:52.024 D/SubscriptionController( 3994): [getActiveSubInfoList]+
+12-15 02:27:52.025 D/SubscriptionController( 3994): selection:sim_id>=0 null
+12-15 02:27:52.026 D/SubscriptionController( 3994): [getActiveSubInfoList]- no info return
+12-15 02:27:52.062 D/SubscriptionController( 3994): [getPhoneId] asked for default subId=-1
+12-15 02:27:52.062 D/SubscriptionController( 3994): [getPhoneId]- invalid subId return=-1
+12-15 02:27:52.091 D/SubscriptionController( 3994): [getActiveSubInfoList]+
+12-15 02:27:52.091 D/SubscriptionController( 3994): selection:sim_id>=0 null
+12-15 02:27:52.093 D/SubscriptionController( 3994): [getActiveSubInfoList]- no info return
+12-15 02:27:52.108 D/SubscriptionController( 3994): [getActiveSubInfoList]+
+12-15 02:27:52.109 D/SubscriptionController( 3994): selection:sim_id>=0 null
+12-15 02:27:52.111 D/SubscriptionController( 3994): [getActiveSubInfoList]- no info return
+12-15 02:27:52.168 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:52.321 D/SubscriptionController( 3994): [getActiveSubInfoList]+
+12-15 02:27:52.322 D/SubscriptionController( 3994): selection:sim_id>=0 null
+12-15 02:27:52.324 D/SubscriptionController( 3994): [getActiveSubInfoList]+
+12-15 02:27:52.324 D/SubscriptionController( 3994): [getActiveSubInfoList]- no info return
+12-15 02:27:52.325 D/SubscriptionController( 3994): selection:sim_id>=0 null
+12-15 02:27:52.326 D/SubscriptionController( 3994): [getActiveSubInfoList]- no info return
+12-15 02:27:52.368 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:52.447 D/SubscriptionController( 3994): [getPhoneId] asked for default subId=-1
+12-15 02:27:52.447 D/SubscriptionController( 3994): [getPhoneId]- invalid subId return=-1
+12-15 02:27:52.568 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:52.769 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:52.969 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:53.169 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:53.369 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:53.569 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:53.769 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:53.969 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:54.169 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:54.369 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:54.570 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:54.770 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:54.970 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:55.170 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:55.370 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:55.570 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:55.770 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:55.970 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:56.171 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:56.371 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:56.571 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:56.771 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:56.971 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:57.171 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:57.371 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:57.571 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:57.772 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:57.972 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:58.172 E/RILD    ( 3504): Modem boot timeout
+12-15 02:27:58.172 E/RILD    ( 3504): Wait boot ready
+12-15 02:27:58.172 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:58.372 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:58.572 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:58.772 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:58.972 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:59.173 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:59.373 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:59.573 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:59.773 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:27:59.973 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:00.173 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:00.373 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:00.574 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:00.774 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:00.974 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:01.174 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:01.374 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:01.574 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:01.774 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:01.974 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:02.175 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:02.375 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:02.575 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:02.775 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:02.975 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:03.176 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:03.376 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:03.576 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:03.776 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:03.976 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:04.176 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:04.376 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:04.577 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:04.777 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:04.977 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:05.177 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:05.377 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:05.577 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:05.777 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:05.977 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:06.178 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:06.378 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:06.578 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:06.778 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:06.978 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:07.178 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:07.379 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:07.579 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:07.779 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:07.979 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:08.179 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:08.379 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:08.580 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:08.780 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:08.980 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:09.180 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:09.380 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:09.580 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:09.780 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:09.980 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:10.181 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:10.381 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:10.581 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:10.781 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:10.981 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:11.181 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:11.381 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:11.582 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:11.782 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:11.982 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:12.182 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:12.383 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:12.583 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:12.783 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:12.983 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:13.183 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:13.384 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:13.584 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:13.785 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:13.985 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:14.186 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:14.386 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:14.587 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:14.787 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:14.988 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:15.188 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:15.389 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:15.589 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:15.789 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:15.990 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:16.190 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:16.391 E/RILD    ( 3504): Modem boot timeout
+12-15 02:28:16.391 E/RILD    ( 3504): Wait boot ready
+12-15 02:28:16.391 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:16.592 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:16.792 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:16.993 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:17.193 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:17.394 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:17.594 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:17.795 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:17.995 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:18.196 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:18.396 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:18.596 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:18.797 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:18.862 E/use-Rlog/RLOG-RILClient( 3019): Connect_RILD: Connecting failed. Connection refused(111)
+12-15 02:28:18.997 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:19.202 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:19.402 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:19.425 D/DCT     ( 3994): [0]onReceive: action=android.net.wifi.WIFI_STATE_CHANGED
+12-15 02:28:19.425 D/DCT     ( 3994): [0]WIFI_STATE_CHANGED_ACTION: enabled=false mIsWifiConnected=false
+12-15 02:28:19.441 D/DCT     ( 3994): [0]onReceive: action=android.net.wifi.WIFI_STATE_CHANGED
+12-15 02:28:19.441 D/DCT     ( 3994): [0]WIFI_STATE_CHANGED_ACTION: enabled=true mIsWifiConnected=false
+12-15 02:28:19.448 D/DCT     ( 3994): [0]hasMatchedTetherApnSetting: APN=null
+12-15 02:28:19.468 D/DCT     ( 3994): [0]onReceive: action=android.net.wifi.STATE_CHANGE
+12-15 02:28:19.468 D/DCT     ( 3994): [0]NETWORK_STATE_CHANGED_ACTION: mIsWifiConnected=false
+12-15 02:28:19.566 D/DCT     ( 3994): [0]onReceive: action=android.net.wifi.STATE_CHANGE
+12-15 02:28:19.567 D/DCT     ( 3994): [0]NETWORK_STATE_CHANGED_ACTION: mIsWifiConnected=false
+12-15 02:28:19.567 D/DCT     ( 3994): [0]onReceive: action=android.net.wifi.STATE_CHANGE
+12-15 02:28:19.568 D/DCT     ( 3994): [0]NETWORK_STATE_CHANGED_ACTION: mIsWifiConnected=false
+12-15 02:28:19.602 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:19.802 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:20.002 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:20.203 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:20.403 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:20.603 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:20.803 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:21.004 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:21.204 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:21.404 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:21.605 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:21.805 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:22.006 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:22.206 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:22.406 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:22.607 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:22.808 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:23.008 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:23.209 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:23.409 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:23.609 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:23.810 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:24.010 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:24.211 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:24.411 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:24.611 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:24.812 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:25.012 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:25.212 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:25.412 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:25.613 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:25.813 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:26.013 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:26.214 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:26.414 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:26.614 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:26.815 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:27.015 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:27.216 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:27.416 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:27.616 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:27.817 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:28.017 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:28.218 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:28.418 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:28.619 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:28.819 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:29.019 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:29.220 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:29.420 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:29.621 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:29.821 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:30.021 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:30.221 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:30.421 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:30.622 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:30.822 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:31.022 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:31.222 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:31.423 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:31.623 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:31.823 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:32.023 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:32.224 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:32.424 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:32.624 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:32.825 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:33.025 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:33.225 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:33.426 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:33.626 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:33.828 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:34.028 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:34.228 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:34.429 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:34.629 E/RILD    ( 3504): Modem boot timeout
+12-15 02:28:34.629 E/RILD    ( 3504): Wait boot ready
+12-15 02:28:34.629 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:34.829 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:35.029 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:35.229 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:35.430 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:35.631 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:35.824 D/DCT     ( 3994): [0]onReceive: action=android.net.wifi.STATE_CHANGE
+12-15 02:28:35.825 D/DCT     ( 3994): [0]NETWORK_STATE_CHANGED_ACTION: mIsWifiConnected=false
+12-15 02:28:35.831 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:35.897 D/DCT     ( 3994): [0]onReceive: action=android.net.wifi.STATE_CHANGE
+12-15 02:28:35.898 D/DCT     ( 3994): [0]NETWORK_STATE_CHANGED_ACTION: mIsWifiConnected=false
+12-15 02:28:35.899 D/DCT     ( 3994): [0]onReceive: action=android.net.wifi.STATE_CHANGE
+12-15 02:28:35.900 D/DCT     ( 3994): [0]NETWORK_STATE_CHANGED_ACTION: mIsWifiConnected=false
+12-15 02:28:35.929 D/DCT     ( 3994): [0]onReceive: action=android.net.wifi.STATE_CHANGE
+12-15 02:28:35.930 D/DCT     ( 3994): [0]NETWORK_STATE_CHANGED_ACTION: mIsWifiConnected=false
+12-15 02:28:35.932 D/DCT     ( 3994): [0]onReceive: action=android.net.wifi.STATE_CHANGE
+12-15 02:28:35.932 D/DCT     ( 3994): [0]NETWORK_STATE_CHANGED_ACTION: mIsWifiConnected=false
+12-15 02:28:35.961 D/DCT     ( 3994): [0]onReceive: action=android.net.wifi.STATE_CHANGE
+12-15 02:28:35.961 D/DCT     ( 3994): [0]NETWORK_STATE_CHANGED_ACTION: mIsWifiConnected=false
+12-15 02:28:36.031 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:36.231 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:36.432 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:36.632 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:36.762 D/DCT     ( 3994): [0]onReceive: action=android.net.wifi.STATE_CHANGE
+12-15 02:28:36.764 D/DCT     ( 3994): [0]NETWORK_STATE_CHANGED_ACTION: mIsWifiConnected=true
+12-15 02:28:36.775 D/DCT     ( 3994): [0]onReceive: action=android.net.wifi.STATE_CHANGE
+12-15 02:28:36.776 D/DCT     ( 3994): [0]NETWORK_STATE_CHANGED_ACTION: mIsWifiConnected=true
+12-15 02:28:36.832 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:36.919 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:28:36.919 D/DctController( 3994): [TNF -2]Cellular releasing Network for NetworkRequest [ id=1, legacyType=-1, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VPN] ]
+12-15 02:28:36.919 D/SubscriptionController( 3994): [getSubId]- sSlotIdxToSubId.size == 0, return DummySubIds slotIdx=0
+12-15 02:28:36.919 D/DctController( 3994): [TNF -2]Sub Info has not been ready, remove request.
+12-15 02:28:36.927 D/SubscriptionController( 3994): getSimStateForSlotIdx:  simState=NOT_READY ordinal=6
+12-15 02:28:36.930 D/SubscriptionManager( 4106): getSimStateForSubscriber: simState=6 slotIdx=0
+12-15 02:28:37.033 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:37.137 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:37.337 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:37.538 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:37.738 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:37.938 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:38.139 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:38.339 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:38.540 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:38.740 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:38.941 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:39.141 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:39.341 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:39.542 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:39.742 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:39.943 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:40.143 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:40.343 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:40.543 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:40.744 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:40.944 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:41.144 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:41.344 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:41.545 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:41.745 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:41.946 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:42.146 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:42.346 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:42.547 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:42.747 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:42.948 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:43.149 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:43.349 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:43.549 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:43.750 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:43.950 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:44.150 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:44.351 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:44.551 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:44.753 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:44.953 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:45.153 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:45.353 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:45.554 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:45.754 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:45.954 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:46.155 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:46.355 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:46.555 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:46.755 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:46.956 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:47.156 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:47.356 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:47.557 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:47.757 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:47.957 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:48.157 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:48.172 D/SubscriptionController( 3994): [getPhoneId]- invalid subId return=-1
+12-15 02:28:48.191 D/SubscriptionController( 3994): [getPhoneId]- invalid subId return=-1
+12-15 02:28:48.358 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:48.383 D/RILJ    ( 3994): NOTE: mWakeLockCount is 5at time of clearing
+12-15 02:28:48.383 D/RILJ    ( 3994): WAKE_LOCK_TIMEOUT  mRequestList=5
+12-15 02:28:48.383 D/RILJ    ( 3994): 0: [0] RIL_REQUEST_START_LCE
+12-15 02:28:48.383 D/RILJ    ( 3994): 1: [1] SIGNAL_STRENGTH
+12-15 02:28:48.383 D/RILJ    ( 3994): 2: [2] SET_SUPP_SVC_NOTIFICATION
+12-15 02:28:48.383 D/RILJ    ( 3994): 3: [3] RIL_REQUEST_SET_TTY_MODE
+12-15 02:28:48.383 D/RILJ    ( 3994): 4: [4] GET_CURRENT_CALLS
+12-15 02:28:48.558 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:48.758 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:48.958 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:49.159 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:49.359 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:49.559 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:49.759 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:49.959 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:50.160 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:50.360 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:50.560 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:50.760 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:50.960 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:51.161 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:51.361 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:51.561 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:51.761 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:51.962 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:52.162 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:52.363 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:52.563 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:52.763 E/RILD    ( 3504): Modem boot timeout
+12-15 02:28:52.764 E/RILD    ( 3504): Wait boot ready
+12-15 02:28:52.764 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:52.964 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:53.164 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:53.364 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:53.565 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:53.765 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:53.966 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:54.166 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:54.367 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:54.567 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:54.767 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:54.968 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:55.168 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:55.369 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:55.569 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:55.770 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:55.970 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:56.171 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:56.371 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:56.571 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:56.772 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:56.947 D/SubscriptionController( 3994): [getActiveSubIdList] simInfoSet=[]
+12-15 02:28:56.947 D/SubscriptionController( 3994): [getActiveSubIdList] X subIdArr.length=0
+12-15 02:28:56.953 D/SubscriptionController( 3994): [getActiveSubIdList] simInfoSet=[]
+12-15 02:28:56.953 D/SubscriptionController( 3994): [getActiveSubIdList] X subIdArr.length=0
+12-15 02:28:56.972 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:57.173 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:57.373 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:57.574 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:57.774 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:57.975 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:58.175 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:58.376 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:58.576 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:58.777 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:58.977 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:59.178 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:59.378 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:59.579 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:59.779 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:28:59.979 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:29:00.180 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:29:00.380 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:29:00.581 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:29:00.781 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:29:00.982 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:29:01.182 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:29:01.383 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:29:01.583 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:29:01.783 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:29:01.984 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:29:02.184 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:29:02.385 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:29:02.585 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:29:02.786 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:29:02.986 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:29:03.187 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:29:03.387 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:29:03.588 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:29:03.788 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:29:03.989 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:29:04.189 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:29:04.389 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:29:04.590 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:29:04.790 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:29:04.991 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:29:05.191 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:29:05.391 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:29:05.591 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:29:05.792 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:29:05.992 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:29:06.193 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:29:06.393 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:29:06.593 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:29:06.794 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:29:06.994 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:29:07.195 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:29:07.396 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:29:07.596 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:29:07.797 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:29:07.997 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:29:08.198 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:29:08.398 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:29:08.598 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:29:08.799 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:29:08.999 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:29:09.200 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
+12-15 02:29:09.400 E/RILD    ( 3504): Modem status[waiting: 0x3, current: 0x4]
