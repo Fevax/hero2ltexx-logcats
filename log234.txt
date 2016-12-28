@@ -1,0 +1,120 @@
+--------- beginning of main
+12-27 20:26:36.230  2921  2921 W auditd  : type=1325 audit(0.0:2): table=filter family=2 entries=0
+12-27 20:26:36.230  2921  2921 W auditd  : type=1325 audit(0.0:3): table=mangle family=2 entries=0
+12-27 20:26:36.230  2921  2921 W auditd  : type=1325 audit(0.0:4): table=nat family=2 entries=0
+12-27 20:26:36.230  2921  2921 W auditd  : type=1325 audit(0.0:5): table=raw family=2 entries=0
+12-27 20:26:36.230  2921  2921 W auditd  : type=1325 audit(0.0:6): table=security family=2 entries=0
+12-27 20:26:36.230  2921  2921 W auditd  : type=1325 audit(0.0:7): table=filter family=3 entries=0
+12-27 20:26:36.230  2921  2921 W auditd  : type=1325 audit(0.0:8): table=filter family=10 entries=0
+12-27 20:26:36.230  2921  2921 W auditd  : type=1325 audit(0.0:9): table=mangle family=10 entries=0
+12-27 20:26:36.230  2921  2921 W auditd  : type=1325 audit(0.0:10): table=raw family=10 entries=0
+12-27 20:26:36.230  2921  2921 W auditd  : type=1325 audit(0.0:11): table=nat family=10 entries=0
+12-27 20:26:36.709  2921  2921 I auditd  : type=1403 audit(0.0:12): policy loaded auid=4294967295 ses=4294967295
+12-27 20:26:37.039  2893  2893 I e2fsck  : type=1400 audit(0.0:13): avc: denied { read } for name="sda15" dev="tmpfs" ino=1579 scontext=u:r:fsck:s0 tcontext=u:object_r:block_device:s0 tclass=blk_file permissive=1
+12-27 20:26:37.039  2893  2893 I e2fsck  : type=1400 audit(0.0:13): avc: denied { open } for path="/dev/block/sda15" dev="tmpfs" ino=1579 scontext=u:r:fsck:s0 tcontext=u:object_r:block_device:s0 tclass=blk_file permissive=1
+12-27 20:26:37.039  2893  2893 W e2fsck  : type=1300 audit(0.0:13): arch=c00000b7 syscall=56 success=yes exit=4 a0=ffffff9c a1=7f9f8277b0 a2=80 a3=0 items=0 ppid=2888 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 exe="/system/bin/e2fsck" subj=u:r:fsck:s0 key=(null)
+12-27 20:26:37.039  2921  2921 W auditd  : type=1327 audit(0.0:13): proctitle=2F73797374656D2F62696E2F65326673636B002D66002D79002F6465762F626C6F636B2F706C6174666F726D2F31353561303030302E7566732F62792D6E616D652F4341434845
+12-27 20:26:37.039  2921  2921 W auditd  : type=1320 audit(0.0:13): 
+12-27 20:26:37.039  2893  2893 I e2fsck  : type=1400 audit(0.0:14): avc: denied { write } for name="sda15" dev="tmpfs" ino=1579 scontext=u:r:fsck:s0 tcontext=u:object_r:block_device:s0 tclass=blk_file permissive=1
+12-27 20:26:37.039  2893  2893 W e2fsck  : type=1300 audit(0.0:14): arch=c00000b7 syscall=56 success=yes exit=4 a0=ffffff9c a1=7f9f827810 a2=82 a3=0 items=0 ppid=2888 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 exe="/system/bin/e2fsck" subj=u:r:fsck:s0 key=(null)
+12-27 20:26:37.039  2921  2921 W auditd  : type=1327 audit(0.0:14): proctitle=2F73797374656D2F62696E2F65326673636B002D66002D79002F6465762F626C6F636B2F706C6174666F726D2F31353561303030302E7566732F62792D6E616D652F4341434845
+12-27 20:26:37.039  2921  2921 W auditd  : type=1320 audit(0.0:14): 
+12-27 20:26:37.039  2893  2893 I e2fsck  : type=1400 audit(0.0:15): avc: denied { ioctl } for path="/dev/block/sda15" dev="tmpfs" ino=1579 ioctlcmd=127c scontext=u:r:fsck:s0 tcontext=u:object_r:block_device:s0 tclass=blk_file permissive=1
+12-27 20:26:37.039  2893  2893 W e2fsck  : type=1300 audit(0.0:15): arch=c00000b7 syscall=29 success=yes exit=0 a0=4 a1=127c a2=7fd80792a0 a3=0 items=0 ppid=2888 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 exe="/system/bin/e2fsck" subj=u:r:fsck:s0 key=(null)
+12-27 20:26:37.039  2921  2921 W auditd  : type=1327 audit(0.0:15): proctitle=2F73797374656D2F62696E2F65326673636B002D66002D79002F6465762F626C6F636B2F706C6174666F726D2F31353561303030302E7566732F62792D6E616D652F4341434845
+12-27 20:26:37.039  2921  2921 W auditd  : type=1320 audit(0.0:15): 
+12-27 20:26:37.259  2888  2888 I init    : type=1400 audit(0.0:16): avc: denied { mounton } for path="/efs" dev="rootfs" ino=3020 scontext=u:r:init:s0 tcontext=u:object_r:efs_file:s0 tclass=dir permissive=1
+12-27 20:26:37.259  2888  2888 W init    : type=1300 audit(0.0:16): arch=c00000b7 syscall=40 success=yes exit=0 a0=7fa22a68c0 a1=7fa222a210 a2=7fa222a218 a3=40a items=0 ppid=1 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 exe="/init" subj=u:r:init:s0 key=(null)
+12-27 20:26:37.259  2921  2921 W auditd  : type=1327 audit(0.0:16): proctitle=2F696E6974002D2D7365636F6E642D7374616765
+12-27 20:26:37.259  2921  2921 W auditd  : type=1320 audit(0.0:16): 
+12-27 20:26:37.329     1     1 I init    : type=1400 audit(0.0:17): avc: denied { write } for name="tracing_on" dev="debugfs" ino=3107 scontext=u:r:init:s0 tcontext=u:object_r:debugfs:s0 tclass=file permissive=1
+12-27 20:26:37.349  2921  2921 W auditd  : type=1305 audit(0.0:18): audit_pid=2915 old=0 auid=4294967295 ses=4294967295 subj=u:r:logd:s0 res=1
+12-27 20:26:37.349  2921  2921 W auditd  : type=1305 audit(0.0:19): audit_rate_limit=20 old=0 auid=4294967295 ses=4294967295 subj=u:r:logd:s0 res=1
+--------- beginning of system
+12-27 20:26:37.538  2926  2926 I vold    : Vold 3.0 (the awakening) firing up
+12-27 20:26:37.538  2926  2926 V vold    : Detected support for: exfat ext4 ntfs vfat
+12-27 20:26:37.541  2926  2926 W Vold    : Tearing down stale mount /mnt/runtime/default
+12-27 20:26:37.543  2925  2925 I         : debuggerd: starting
+12-27 20:26:37.552  2924  2924 I         : debuggerd: starting
+12-27 20:26:37.853  2926  2956 D vold    : e4crypt_init_user0
+12-27 20:26:37.853  2926  2956 D vold    : e4crypt_prepare_user_storage for volume null, user 0, serial 0, flags 1
+12-27 20:26:37.853  2926  2956 D vold    : Preparing: /data/system/users/0
+12-27 20:26:37.853  2926  2956 E cutils  : Failed to mkdir(/data/system/users/0): No such file or directory
+12-27 20:26:37.853  2926  2956 E vold    : Failed to prepare /data/system/users/0: No such file or directory
+12-27 20:26:37.853  2926  2956 E vold    : Failed to prepare user 0 storage
+12-27 20:26:37.853     1     1 I vdc     : 400 2927 Command failed
+12-27 20:26:37.853     1     1 I vdc     : vdc terminated by exit(144)
+12-27 20:26:37.859  2983  2983 I macloader: type=1400 audit(0.0:20): avc: denied { getattr } for path="/vendor" dev="rootfs" ino=2118 scontext=u:r:macloader:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file permissive=1
+12-27 20:26:37.859  2983  2983 W macloader: type=1300 audit(0.0:20): arch=c00000b7 syscall=79 success=yes exit=0 a0=ffffff9c a1=7fc6958ca0 a2=7fc6955ae8 a3=100 items=0 ppid=1 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 exe="/system/bin/macloader" subj=u:r:macloader:s0 key=(null)
+12-27 20:26:37.859  2921  2921 W auditd  : type=1327 audit(0.0:20): proctitle="/system/bin/macloader"
+12-27 20:26:37.859  2921  2921 W auditd  : type=1320 audit(0.0:20): 
+12-27 20:26:37.865  2982  2982 I /system/bin/tzdatacheck: tzdata file /data/misc/zoneinfo/current/tzdata does not exist. No action required.
+12-27 20:26:37.869  2984  2984 I sysinit : type=1400 audit(0.0:21): avc: denied { getattr } for path="/vendor" dev="rootfs" ino=2118 scontext=u:r:sysinit:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file permissive=1
+12-27 20:26:37.869  2984  2984 W sysinit : type=1300 audit(0.0:21): arch=c00000b7 syscall=79 success=yes exit=0 a0=ffffff9c a1=7fca7f7b50 a2=7fca7f4998 a3=100 items=0 ppid=1 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 exe="/system/bin/sh" subj=u:r:sysinit:s0 key=(null)
+12-27 20:26:37.869  2921  2921 W auditd  : type=1327 audit(0.0:21): proctitle=2F73797374656D2F62696E2F7368002F73797374656D2F62696E2F737973696E6974
+12-27 20:26:37.869  2921  2921 W auditd  : type=1320 audit(0.0:21): 
+12-27 20:26:37.875  2983  2983 D macloader: Deleting file /data/.cid.info
+12-27 20:26:37.889  2991  2991 I sysinit : Running /system/etc/init.d/00banner
+12-27 20:26:37.906  2998  2998 I cm      : ____ _   _ ____ _  _ ____ ____ ____ _  _ _  _ ____ ___
+12-27 20:26:37.912  2990  2990 I SurfaceFlinger: SurfaceFlinger is starting
+12-27 20:26:37.914  3003  3003 I cm      : |     \_/  |__| |\ | |  | | __ |___ |\ | |\/| |  | |  \
+12-27 20:26:37.914  2990  2990 I SurfaceFlinger: SurfaceFlinger's main thread ready to run. Initializing graphics H/W...
+12-27 20:26:37.920  3007  3007 I cm      : |___   |   |  | | \| |__| |__] |___ | \| |  | |__| |__/
+12-27 20:26:37.934  2988  2988 I lowmemorykiller: Using in-kernel low memory killer interface
+12-27 20:26:37.939  3010  3010 I cm      : Welcome to Android 7.1.1 / CyanogenMod-14.1-20161227-UNOFFICIAL-hero2lte
+12-27 20:26:37.946  3011  3011 I sysinit : Running /system/etc/init.d/90userinit
+12-27 20:26:37.963  2990  2990 D libEGL  : loaded /vendor/lib64/egl/libGLES_mali.so
+12-27 20:26:37.989  1118  1118 I kworker/0:1: type=1400 audit(0.0:22): avc: denied { read } for name="battery_data.dat" dev="sda3" ino=34 scontext=u:r:kernel:s0 tcontext=u:object_r:efs_file:s0 tclass=file permissive=1
+12-27 20:26:37.989  1118  1118 I kworker/0:1: type=1400 audit(0.0:23): avc: denied { open } for path="/efs/Battery/battery_data.dat" dev="sda3" ino=34 scontext=u:r:kernel:s0 tcontext=u:object_r:efs_file:s0 tclass=file permissive=1
+12-27 20:26:37.994  2990  2990 I gralloc : using (id=)
+12-27 20:26:37.994  2990  2990 I gralloc : xres         = 1440 px
+12-27 20:26:37.994  2990  2990 I gralloc : yres         = 2560 px
+12-27 20:26:37.994  2990  2990 I gralloc : width        = 68 mm (537.882324 dpi)
+12-27 20:26:37.994  2990  2990 I gralloc : height       = 122 mm (532.983582 dpi)
+12-27 20:26:37.994  2990  2990 I gralloc : refresh rate = 59.31 Hz
+12-27 20:26:38.010  2990  2990 D hwcomposer: using
+12-27 20:26:38.010  2990  2990 D hwcomposer: xres         = 1440 px
+12-27 20:26:38.010  2990  2990 D hwcomposer: yres         = 2560 px
+12-27 20:26:38.010  2990  2990 D hwcomposer: width        = 68 mm (537.882000 dpi)
+12-27 20:26:38.010  2990  2990 D hwcomposer: height       = 122 mm (532.983000 dpi)
+12-27 20:26:38.010  2990  2990 D hwcomposer: refresh rate = 59 Hz
+12-27 20:26:38.010  2990  2990 I hwcomposer: PSR info devname = /sys/devices/13960000.decon_f/psr_info
+12-27 20:26:38.010  2990  2990 I hwcomposer: PSR mode is 6(0: video mode, 1: DP PSR mode, 2: MIPI-DSI command mode)
+12-27 20:26:38.010  2990  2990 I SurfaceFlinger: Using composer version 1.3
+12-27 20:26:38.010  2990  2990 E display : unknown display attribute 6
+12-27 20:26:38.010  2990  2990 I SurfaceFlinger: EGL information:
+12-27 20:26:38.010  2990  2990 I SurfaceFlinger: vendor    : Android
+12-27 20:26:38.010  2990  2990 I SurfaceFlinger: version   : 1.4 Android META-EGL
+12-27 20:26:38.010  2990  2990 I SurfaceFlinger: extensions: EGL_KHR_get_all_proc_addresses EGL_ANDROID_presentation_time EGL_KHR_swap_buffers_with_damage EGL_ANDROID_create_native_client_buffer EGL_ANDROID_front_buffer_auto_refresh EGL_KHR_image EGL_KHR_image_base EGL_KHR_gl_texture_2D_image EGL_KHR_gl_texture_cubemap_image EGL_KHR_gl_renderbuffer_image EGL_KHR_fence_sync EGL_KHR_create_context EGL_KHR_config_attribs EGL_KHR_surfaceless_context EGL_EXT_create_context_robustness EGL_ANDROID_image_native_buffer EGL_KHR_wait_sync EGL_ANDROID_recordable EGL_KHR_partial_update 
+12-27 20:26:38.010  2990  2990 I SurfaceFlinger: Client API: OpenGL_ES
+12-27 20:26:38.010  2990  2990 I SurfaceFlinger: EGLSurface: 8-8-8-8, config=0x7fb2a67138
+12-27 20:26:38.019  2990  2990 I SurfaceFlinger: OpenGL ES informations:
+12-27 20:26:38.019  2990  2990 I SurfaceFlinger: vendor    : ARM
+12-27 20:26:38.019  2990  2990 I SurfaceFlinger: renderer  : Mali-T880
+12-27 20:26:38.019  2990  2990 I SurfaceFlinger: version   : OpenGL ES 3.2 v1.r12p1-00dev0.60546d7cd0bfd82d0ba92ca3bb825c75
+12-27 20:26:38.019  2990  2990 I SurfaceFlinger: extensions: GL_EXT_debug_marker GL_ARM_rgba8 GL_ARM_mali_shader_binary GL_OES_depth24 GL_OES_depth_texture GL_OES_depth_texture_cube_map GL_OES_packed_depth_stencil GL_OES_rgb8_rgba8 GL_EXT_read_format_bgra GL_OES_compressed_paletted_texture GL_OES_compressed_ETC1_RGB8_texture GL_OES_standard_derivatives GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_EGL_image_external_essl3 GL_OES_EGL_sync GL_OES_texture_npot GL_OES_vertex_half_float GL_OES_required_internalformat GL_OES_vertex_array_object GL_OES_mapbuffer GL_EXT_texture_format_BGRA8888 GL_EXT_texture_rg GL_EXT_texture_type_2_10_10_10_REV GL_OES_fbo_render_mipmap GL_OES_element_index_uint GL_EXT_shadow_samplers GL_OES_texture_compression_astc GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_hdr GL_KHR_texture_compression_astc_sliced_3d GL_KHR_debug GL_EXT_occlusion_query_boolean GL_EXT_disjoint_timer_query GL_EXT_blend_minmax GL_EXT_discard_framebuffer GL_OES_get_program_binary GL_OES_texture_3D GL_EXT_texture_storage GL_EXT_multisamp
+12-27 20:26:38.019  2990  2990 I SurfaceFlinger: GL_MAX_TEXTURE_SIZE = 16384
+12-27 20:26:38.019  2990  2990 I SurfaceFlinger: GL_MAX_VIEWPORT_DIMS = 16384
+12-27 20:26:38.020  2990  2990 D mali_winsys: EGLint new_window_surface(egl_winsys_display*, void*, EGLSurface, EGLConfig, egl_winsys_surface**, egl_color_buffer_format*, EGLBoolean) returns 0x3000,  [1440x2560]-format:1
+12-27 20:26:38.024  2987  2987 W McDaemon: mcRegistry read So.Soc failed: 16 [hardware/samsung_slsi/exynos8890/mobicore/Daemon/src/PrivateRegistry.cpp:320]
+12-27 20:26:38.024  2987  2987 W McDaemon: mcRegistry read So.Soc failed: 16 [hardware/samsung_slsi/exynos8890/mobicore/Daemon/src/PrivateRegistry.cpp:375]
+12-27 20:26:38.024  2987  2987 W McDaemon: mcRegistry read So.Root failed: 16 [hardware/samsung_slsi/exynos8890/mobicore/Daemon/src/PrivateRegistry.cpp:479]
+12-27 20:26:38.024  2987  2987 W McDaemon: Device endorsements not supported! [hardware/samsung_slsi/exynos8890/mobicore/Daemon/src/MobiCoreDriverDaemon.cpp:603]
+12-27 20:26:38.024  2987  2987 I McDaemon: Daemon starting up... [hardware/samsung_slsi/exynos8890/mobicore/Daemon/src/MobiCoreDriverDaemon.cpp:564]
+12-27 20:26:38.024  2987  2987 I McDaemon: Interface version is 0.4 [hardware/samsung_slsi/exynos8890/mobicore/Daemon/src/MobiCoreDriverDaemon.cpp:566]
+12-27 20:26:38.024  2987  2987 I McDaemon: t-base-EXYNOS64-Android-310B-V007-20160505_211700_344 [hardware/samsung_slsi/exynos8890/mobicore/Daemon/src/MobiCoreDriverDaemon.cpp:568]
+12-27 20:26:38.369  3036  3036 I bootanimation: type=1400 audit(0.0:24): avc: denied { getattr } for path="/vendor" dev="rootfs" ino=2118 scontext=u:r:bootanim:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file permissive=1
+12-27 20:26:38.369  3036  3036 W bootanimation: type=1300 audit(0.0:24): arch=c00000b7 syscall=79 success=yes exit=0 a0=ffffff9c a1=7fc7a06770 a2=7fc7a035b8 a3=100 items=0 ppid=1 auid=4294967295 uid=1003 gid=1003 euid=1003 suid=1003 fsuid=1003 egid=1003 sgid=1003 fsgid=1003 tty=(none) ses=4294967295 exe="/system/bin/bootanimation" subj=u:r:bootanim:s0 key=(null)
+12-27 20:26:38.369  2921  2921 W auditd  : type=1327 audit(0.0:24): proctitle="/system/bin/bootanimation"
+12-27 20:26:38.369  2921  2921 W auditd  : type=1320 audit(0.0:24): 
+12-27 20:26:38.370  2990  2990 D SurfaceFlinger: SF. shader cache generated - 26 shaders in 322.891418 ms
+12-27 20:26:38.372  2990  2990 D SurfaceFlinger: Set power mode=2, type=0 flinger=0x7fb2a47000
+12-27 20:26:38.717  3036  3039 D libEGL  : loaded /vendor/lib64/egl/libGLES_mali.so
+12-27 20:26:38.728  3036  3039 D mali_winsys: EGLint new_window_surface(egl_winsys_display*, void*, EGLSurface, EGLConfig, egl_winsys_surface**, egl_color_buffer_format*, EGLBoolean) returns 0x3000,  [1440x2560]-format:2
+12-27 20:26:38.730  3036  3039 E BootAnimation: Get Carrier Animation file,since it's not support carrier
+12-27 20:26:38.730  3036  3039 E BootAnimation: Get Carrier Animation file,since it's not support carrier
+12-27 20:26:38.733  3036  3039 E BootAnimation: Get Carrier Animation file,since it's not support carrier
+12-27 20:26:38.760  3036  3039 D BootAnimation: Free memory: 3364524, max texture size: 16384
+12-27 20:26:38.760  3036  3039 D BootAnimation: Disabled bootanimation texture cache, FPS drops might occur.
+12-27 20:26:40.850  3036  3039 D BootAnimation: Free memory: 3273244, max texture size: 16384
+12-27 20:26:40.850  3036  3039 D BootAnimation: Disabled bootanimation texture cache, FPS drops might occur.

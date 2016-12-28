@@ -1,0 +1,251 @@
+[    0.508680]  [7:      swapper/0:    1] exynos_get_idle_ip_index: Fail to find 14390000.spi in idle-ip list with err -61
+[    0.509790]  [5:      swapper/0:    1] exynos_get_idle_ip_index: Fail to find 143a0000.spi in idle-ip list with err -61
+[    1.558571]  [6:      swapper/0:    1] fts_touch: probe of 4-0049 failed with error -22
+[    1.689105]  [7:      swapper/0:    1] vdd_dispcam: Failed to create debugfs directory
+[    1.689127]  [7:      swapper/0:    1] vdd_dispcam: Failed to create debugfs directory
+[    1.690334]  [7:      swapper/0:    1] max77854_fuelgauge_parse_dt error reading capacity_max_hv -22
+[    1.693334]  [4:      swapper/0:    1] power_supply max77854-fuelgauge: driver failed to report `status' property: -22
+[    1.701552]  [5:      swapper/0:    1] max77854_get_charging_health: Fail to get psy (battery)
+[    1.712598] I[0:      swapper/0:    0] exynos5-hsi2c 14e30000.hsi2c: HSI2C Error Interrupt occurred(IS:0x00000400, TR:0x00020005)
+[    1.712649]  [7:      swapper/0:    1] exynos5-hsi2c 14e30000.hsi2c: ack was not received at write
+[    1.712702]  [7:      swapper/0:    1] p9220-charger 8-0061: p9220_reg_read: i2c read error, reg: 0x3e, ret: -6
+[    1.712717]  [7:      swapper/0:    1] p9220_get_vout: fail to read vout. (-1)
+[    1.819214]  [0:irq/602-wpc-irq: 1509] p9220_wpc_irq_thread: Failed to read interrupt source: -1
+[    1.819942]  [6:      swapper/0:    1] 13620000.adc supply vdd not found, using dummy regulator
+[    2.090673]  [7:      swapper/0:    1] failed to get decon_te_on pin state
+[    2.090680]  [7:      swapper/0:    1] failed to get decon_te_off pin state
+[    2.511575]  [6:           init:    1] init: init first stage started!
+[    2.513171]  [6:           init:    1] SELinux: 2048 avtab hash slots, 7391 rules.
+[    2.514600]  [6:           init:    1] SELinux: 2048 avtab hash slots, 7391 rules.
+[    2.514612]  [6:           init:    1] SELinux:  1 users, 2 roles, 728 types, 0 bools, 1 sens, 1024 cats
+[    2.514619]  [6:           init:    1] SELinux:  63 classes, 7391 rules
+[    2.515147]  [6:           init:    1] SELinux:  Completing initialization.
+[    2.515153]  [6:           init:    1] SELinux:  Setting up existing superblocks.
+[    2.515164]  [6:           init:    1] SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+[    2.515177]  [6:           init:    1] SELinux: initialized (dev rootfs, type rootfs), uses genfs_contexts
+[    2.515228]  [6:           init:    1] SELinux: initialized (dev bdev, type bdev), not configured for labeling
+[    2.515238]  [6:           init:    1] SELinux: initialized (dev proc, type proc), uses genfs_contexts
+[    2.515255]  [6:           init:    1] SELinux: initialized (dev devtmpfs, type devtmpfs), uses transition SIDs
+[    2.515585]  [6:           init:    1] SELinux: initialized (dev debugfs, type debugfs), uses genfs_contexts
+[    2.531567]  [6:           init:    1] SELinux: initialized (dev sockfs, type sockfs), uses task SIDs
+[    2.531580]  [6:           init:    1] SELinux: initialized (dev pipefs, type pipefs), uses task SIDs
+[    2.531589]  [6:           init:    1] SELinux: initialized (dev anon_inodefs, type anon_inodefs), not configured for labeling
+[    2.531596]  [6:           init:    1] SELinux: initialized (dev aio, type aio), not configured for labeling
+[    2.531604]  [6:           init:    1] SELinux: initialized (dev devpts, type devpts), uses transition SIDs
+[    2.531617]  [6:           init:    1] SELinux: initialized (dev selinuxfs, type selinuxfs), uses genfs_contexts
+[    2.531671]  [6:           init:    1] SELinux: initialized (dev configfs, type configfs), uses genfs_contexts
+[    2.531680]  [6:           init:    1] SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+[    2.531696]  [6:           init:    1] SELinux: initialized (dev sysfs, type sysfs), uses genfs_contexts
+[    2.572161]  [6:           init:    1] init: (Initializing SELinux non-enforcing took 0.06s.)
+[    2.611862]  [7:           init:    1] init: waitpid failed: No child processes
+[    2.611921]  [7:           init:    1] init: property_set("ro.hardware", "universal8890") failed
+[    2.612045]  [7:           init:    1] init: (Loading properties from /default.prop took 0.00s.)
+[    2.613008]  [7:           init:    1] init: (Parsing /init.environ.rc took 0.00s.)
+[    2.613221]  [7:           init:    1] init: (Parsing /init.usb.rc took 0.00s.)
+[    2.613945]  [7:           init:    1] init: /init.samsungexynos8890.rc: 337: invalid keyword 'check_fs'
+[    2.614194]  [7:           init:    1] init: /init.samsungexynos8890.rc: 640: invalid keyword 'copy'
+[    2.614205]  [7:           init:    1] init: /init.samsungexynos8890.rc: 643: invalid keyword 'chmod'
+[    2.614249]  [7:           init:    1] init: /init.samsungexynos8890.rc: 686: invalid keyword 'check_fs'
+[    2.614271]  [7:           init:    1] init: /init.samsungexynos8890.rc: 697: invalid keyword 'chown'
+[    2.614281]  [7:           init:    1] init: /init.samsungexynos8890.rc: 698: invalid keyword 'chmod'
+[    2.614747]  [7:           init:    1] init: (Parsing init.samsungexynos8890.usb.rc took 0.00s.)
+[    2.614818]  [7:           init:    1] init: init.baseband.rc: 24: invalid keyword 'check_fs'
+[    2.614912]  [7:           init:    1] init: (Parsing init.baseband.rc took 0.00s.)
+[    2.614968]  [7:           init:    1] init: ignored duplicate definition of service 'ipsec-daemon'init: (Parsing init.carrier.rc took 0.00s.)
+[    2.615135]  [7:           init:    1] init: (Parsing init.wifi.rc took 0.00s.)
+[    2.615229]  [7:           init:    1] init: (Parsing init.gps.rc took 0.00s.)
+[    2.615394]  [7:           init:    1] init: init.samsung.rc: 87: invalid keyword 'check_icd'
+[    2.615568]  [7:           init:    1] init: init.samsung.rc: 245: invalid keyword 'chgrp'
+[    2.616062]  [7:           init:    1] init: (Parsing init.samsung.rc took 0.00s.)
+[    2.616073]  [7:           init:    1] init: (Parsing /init.samsungexynos8890.rc took 0.00s.)
+[    2.616413]  [7:           init:    1] init: (Parsing /init.usb.configfs.rc took 0.00s.)
+[    2.616465]  [7:           init:    1] init: (Parsing /init.zygote64_32.rc took 0.00s.)
+[    2.616828]  [7:           init:    1] init: (Parsing /init.cm.rc took 0.00s.)
+[    2.616837]  [7:           init:    1] init: (Parsing /init.rc took 0.00s.)
+[    2.617120]  [7:           init:    1] init: Starting service 'ueventd'...
+[    2.617520]  [7:           init:    1] init: Waiting for /dev/.coldboot_done...
+[    2.618564]  [5:        ueventd: 1900] ueventd: ueventd started!
+[    2.836938]  [6:           init:    1] init: console init failed. Open on Console device  failed(No such device)
+[    2.837285]  [6:           init:    1] SELinux: initialized (dev cgroup, type cgroup), uses genfs_contexts
+[    2.837819]  [6:           init:    1] SELinux: initialized (dev tmpfs, type tmpfs), uses transition SIDs
+[    2.839168]  [6:           init:    1] init: write_file: Unable to open '/proc/cpu/alignment': No such file or directory
+[    2.839725]  [6:           init:    1] SELinux: initialized (dev cgroup, type cgroup), uses genfs_contexts
+[    2.840190]  [6:           init:    1] SELinux: initialized (dev cgroup, type cgroup), uses genfs_contexts
+[    2.841880]  [6:           init:    1] Registered swp emulation handler
+[    2.841979]  [6:           init:    1] init: Starting service 'watchdogd'...
+[    2.842595]  [6:           init:    1] init: using deprecated syntax for specifying property 'ro.serialno', use ${name} instead
+[    2.843341]  [4:      watchdogd: 2895] watchdogd: started (interval 10, margin 20)!
+[    2.843779]  [6:           init:    1] init: write_file: Unable to write to '/dev/cpuctl/apps/cpu.rt_runtime_us': Invalid argument
+[    2.844038]  [6:           init:    1] init: write_file: Unable to write to '/dev/cpuctl/apps/bg_non_interactive/cpu.rt_runtime_us': Invalid argument
+[    3.617289]  [7:           init:    1] EXT4-fs (sda13): mounted filesystem with ordered data mode. Opts: barrier=1
+[    3.617303]  [7:           init:    1] SELinux: initialized (dev sda13, type ext4), uses xattr
+[    3.617317]  [7:           init:    1] SELinux:  Context u:object_r:persdata_data_file:s0 is not valid (left unmapped).
+[    3.618655]  [7:           init:    1] SELinux:  Context u:object_r:sec_efs_file:s0 is not valid (left unmapped)
+[    3.769421]  [7:           init:    1] init: SELinux: Could not set context for /cache:  Read-only file system
+[    3.770895]  [7:           init:    1] init: property_set("ro.product.brand", "samsung") failed
+[    3.770911]  [7:           init:    1] init: property_set("ro.product.board", "universal8890") failed
+[    3.770921]  [7:           init:    1] init: property_set("ro.hardware", "universal8890") failed
+[    3.770991]  [7:           init:    1] init: property_set("ro.securestorage.support", "false") failed
+[    3.771023]  [7:           init:    1] init: property_set("ro.sf.lcd_density", "560") failed
+[    3.771170]  [7:           init:    1] init: property_set("ro.telephony.ril_class", "heroRIL") failed
+[    3.771194]  [7:           init:    1] init: property_set("ro.telephony.default_network", "9") failed
+[    3.771219]  [7:           init:    1] init: property_set("ro.use_data_netmgrd", "false") failed
+[    3.771246]  [7:           init:    1] init: property_set("ro.ril.hsxpa", "1") failed
+[    3.771271]  [7:           init:    1] init: property_set("ro.ril.gprsclass", "10") failed
+[    3.771421]  [7:           init:    1] init: (Loading properties from /system/build.prop took 0.00s.)
+[    3.771450]  [7:           init:    1] init: (Loading properties from /vendor/build.prop took 0.00s.)
+[    3.771939]  [7:           init:    1] init: (Loading properties from /factory/factory.prop took 0.00s.)
+[    3.771967]  [7:           init:    1] init: property_set("ro.product.device", "hero2ltexx") failed
+[    3.772729]  [7:           init:    1] init: Starting service 'debuggerd'...
+[    3.773131]  [7:           init:    1] init: Starting service 'debuggerd64'...
+[    3.773753]  [7:           init:    1] init: Starting service 'vold'...
+[    3.774707]  [7:           init:    1] init: Not bootcharting.
+[    4.085512]  [7:           init:    1] init: Starting service 'exec 1 (/system/bin/tzdatacheck)'...
+[    4.087313]  [0:    logd.auditd: 2930] type=1400 audit(1482800943.239:20): avc: denied { relabelfrom } for pid=1900 comm="ueventd" name="mmcblk0p1" dev="tmpfs" ino=1478 scontext=u:r:ueventd:s0 tcontext=u:object_r:emmcblk_device:s0 tclass=blk_file permissive=1
+[    4.087708]  [0:    logd.auditd: 2930] type=1400 audit(1482800943.239:20): avc: denied { relabelto } for pid=1900 comm="ueventd" name="mmcblk0p1" dev="tmpfs" ino=1478 scontext=u:r:ueventd:s0 tcontext=u:object_r:emmcblk_device:s0 tclass=blk_file permissive=1
+[    4.087793]  [0:    logd.auditd: 2930] type=1300 audit(1482800943.239:20): arch=c00000b7 syscall=6 success=yes exit=0 a0=7fc940fb48 a1=509a0a a2=7f9b416020 a3=1d items=0 ppid=1 pid=1900 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="ueventd" exe="/init" subj=u:r:ueventd:s0 key=(null)
+[    4.087859]  [0:    logd.auditd: 2930] type=1327 audit(1482800943.239:20): proctitle="/sbin/ueventd"
+[    4.088034]  [0:    logd.auditd: 2930] type=1320 audit(1482800943.239:20): 
+[    4.092105]  [7:           init:    1] init: Service 'exec 1 (/system/bin/tzdatacheck)' (pid 2996) exited with status 0
+[    4.096338]  [7:           init:    1] init: decode_uid: Unable to find UID for 'skt'. Returning UINT_MAX
+[    4.096363]  [7:           init:    1] init: decode_uid: Unable to find UID for 'skt'. Returning UINT_MAX
+[    4.099218]  [7:           init:    1] SELinux:  Context u:object_r:pfw_efs_file:s0 is not valid (left unmapped).
+[    4.099272]  [7:           init:    1] init: decode_uid: Unable to find UID for 'spay'. Returning UINT_MAX
+[    4.099282]  [7:           init:    1] init: decode_uid: Unable to find UID for 'spay'. Returning UINT_MAX
+[    4.104801]  [7:           init:    1] init: Starting service 'sysinit'...
+[    4.105372]  [7:           init:    1] init: (Loading properties from /data/local.prop took 0.00s.)
+[    4.106507]  [0:    logd.auditd: 2930] type=1400 audit(1482800943.259:21): avc: denied { getattr } for pid=2997 comm="sysinit" path="/vendor" dev="rootfs" ino=7838 scontext=u:r:sysinit:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file permissive=1
+[    4.106992]  [0:    logd.auditd: 2930] type=1300 audit(1482800943.259:21): arch=c00000b7 syscall=79 success=yes exit=0 a0=ffffff9c a1=7fe0738c40 a2=7fe0735a88 a3=100 items=0 ppid=1 pid=2997 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="sysinit" exe="/system/bin/sh" subj=u:r:sysinit:s0 key=(null)
+[    4.107094]  [0:    logd.auditd: 2930] type=1327 audit(1482800943.259:21): proctitle=2F73797374656D2F62696E2F7368002F73797374656D2F62696E2F737973696E6974
+[    4.107259]  [0:    logd.auditd: 2930] type=1320 audit(1482800943.259:21): 
+[    4.125653]  [7:           init:    1] init: Starting service 'logd-reinit'...
+[    4.126089]  [7:           init:    1] CFG80211-INFO2) wl_cfg80211_netdev_notifier_call : Enter 
+[    4.126240]  [7:           init:    1] CFG80211-INFO2) wl_cfg80211_netdev_notifier_call : Enter 
+[    4.127231]  [7:           init:    1] init: Starting service 'healthd'...
+[    4.127589]  [7:           init:    1] init: cannot find '/system/bin/prepare_param.sh' (No such file or directory), disabling 'prepare_param'
+[    4.127613]  [7:           init:    1] init: cannot find '/sbin/sswap' (No such file or directory), disabling 'swapon'
+[    4.127631]  [7:           init:    1] init: cannot find '/system/bin/modemloader' (No such file or directory), disabling 'modemloader'
+[    4.127802]  [7:           init:    1] init: Starting service 'mobicore'...
+[    4.128741]  [7:           init:    1] init: Starting service 'lmkd'...
+[    4.129194]  [7:           init:    1] init: Starting service 'servicemanager'...
+[    4.129595]  [7:           init:    1] init: Starting service 'surfaceflinger'...
+[    4.129904]  [7:           init:    1] init: write_file: Unable to write to '/proc/sys/vm/swappiness': Invalid argument
+[    4.134472]  [5:           init:    1] init: property_set("ro.bt.bdaddr_path", "/efs/bluetooth/bt_addr") failed
+[    4.188424]  [4:           init:    1] init: Service 'logd-reinit' (pid 2999) exited with status 0
+[    4.205228]  [5:    kworker/5:1:  619] Trustonic TEE: 601|SCRYPTO DRV [INFO]: FIPS RSA selftest passed.
+[    4.228540]  [2:    logd.auditd: 2930] type=1400 audit(1482800943.389:22): avc: denied { read } for pid=1121 comm="kworker/0:1" name="battery_data.dat" dev="sda3" ino=34 scontext=u:r:kernel:s0 tcontext=u:object_r:efs_file:s0 tclass=file permissive=1
+[    4.228558]  [5:           init:    1] init: Service 'sysinit' (pid 2997) exited with status 0
+[    4.229023]  [2:    logd.auditd: 2930] type=1400 audit(1482800943.389:23): avc: denied { open } for pid=1121 comm="kworker/0:1" path="/efs/Battery/battery_data.dat" dev="sda3" ino=34 scontext=u:r:kernel:s0 tcontext=u:object_r:efs_file:s0 tclass=file permissive=1
+[    4.229647]  [5:           init:    1] init: SELinux: Could not get canonical path for /sys/block/sde/queue/scheduler restorecon: No such file or directory.
+[    4.229685]  [5:           init:    1] init: SELinux: Could not get canonical path for /sys/block/dm-0/queue/scheduler restorecon: No such file or directory.
+[    4.230244]  [5:           init:    1] init: service 'console' requires console
+[    4.230269]  [5:           init:    1] init: write_file: Unable to open '/sys/module/kgdboc/parameters/kgdboc': No such file or directory
+[    4.230287]  [5:           init:    1] init: write_file: Unable to open '/sys/module/fiq_debugger/parameters/kgdb_enable': No such file or directory
+[  
+[    4.231212]  [5:           init:    1] init: cannot find '/system/bin/update_verifier' (No such file or directory), disabling 'exec 2 (/system/bin/update_verifier)'
+[    4.231235]  [5:           init:    1] init: cannot find '/system/bin/IPSecService' (No such file or directory), disabling 'ipsec-daemon'
+[    4.231252]  [5:           init:    1] init: cannot find '/system/bin/argosd' (No such file or directory), disabling 'argos-daemon'
+[    4.231269]  [5:           init:    1] init: cannot find '/system/bin/rpmbd' (No such file or directory), disabling 'rpmbd'
+[    4.231300]  [5:           init:    1] init: cannot find '/system/bin/cellgeofenced' (No such file or directory), disabling 'cellgeofenced'
+[    4.231336]  [5:           init:    1] init: cannot find '/system/bin/bintvoutservice' (No such file or directory), disabling 'TvoutService_C'
+[    4.231389]  [5:           init:    1] init: Starting service 'cpboot-daemon'...
+[    4.231706]  [5:           init:    1] init: Starting service 'wifiloader'...
+[    4.231763]  [7:           init: 3021] init: cannot setexeccon('u:r:cbd:s0'): Invalid argument
+[    4.232087]  [5:           init:    1] init: Starting service 'lhd'...
+[    4.232508]  [5:           init:    1] init: Starting service 'gpsd'...
+[    4.232762]  [2:    logd.auditd: 2930] type=1400 audit(1482800943.389:24): avc: denied { execute_no_trans } for pid=3024 comm="init" path="/system/bin/lhd" dev="sda14" ino=438 scontext=u:r:init:s0 tcontext=u:object_r:lhd_exec:s0 tclass=file permissive=1
+[    4.232865]  [5:           init:    1] init: Service sec-sh does not have a SELinux domain defined.
+[    4.232891]  [5:           init:    1] init: cannot find '/system/bin/sensorhubservice' (No such file or directory), disabling 'sensorhubservice'
+[    4.233025]  [5:           init:    1] init: Starting service 'zygote'...
+[    4.233432]  [5:           init:    1] init: Starting service 'zygote_secondary'...
+[    4.233825]  [5:           init:    1] init: Starting service 'audioserver'...
+[    4.234037]  [2:    logd.auditd: 2930] type=1400 audit(1482800943.389:25): avc: denied { getattr } for pid=3023 comm="wifiloader" path="/vendor" dev="rootfs" ino=7838 scontext=u:r:wifiloader:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file permissive=1
+[    4.234230]  [5:           init:    1] init: Starting service 'cameraserver'...
+[    4.234603]  [2:    logd.auditd: 2930] type=1300 audit(1482800943.389:25): arch=c00000b7 syscall=79 success=yes exit=0 a0=ffffff9c a1=7fe029b6b0 a2=7fe02984f8 a3=100 items=0 ppid=1 pid=3023 auid=4294967295 uid=0 gid=0 euid=0 suid=0 fsuid=0 egid=0 sgid=0 fsgid=0 tty=(none) ses=4294967295 comm="wifiloader" exe="/system/bin/wifiloader" subj=u:r:wifiloader:s0 key=(null)
+[    4.234614]  [5:           init:    1] init: Starting service 'drm'...
+[    4.234697]  [3:           init: 3041] init: couldn't write 3041 to /dev/cpuset/camera-daemon/tasks: No such file or directory
+[    4.234740]  [2:    logd.auditd: 2930] type=1327 audit(1482800943.389:25): proctitle="/system/bin/wifiloader"
+[    4.234944]  [2:    logd.auditd: 2930] type=1320 audit(1482800943.389:25): 
+[    4.235001]  [5:           init:    1] init: Starting service 'installd'...
+[    4.235445]  [5:           init:    1] init: Starting service 'keystore'...
+[    4.236005]  [5:           init:    1] init: Starting service 'mediacodec'...
+[    4.236525]  [5:           init:    1] init: Starting service 'mediadrm'...
+[    4.236987]  [5:           init:    1] init: Starting service 'mediaextractor'...
+[    4.237301]  [0:    logd.auditd: 2930] type=1400 audit(1482800943.389:26): avc: denied { getattr } for pid=3025 comm="gpsd" path="/vendor" dev="rootfs" ino=7838 scontext=u:r:gpsd:s0 tcontext=u:object_r:rootfs:s0 tclass=lnk_file permissive=1
+[    4.237427]  [5:           init:    1] init: Starting service 'media'...
+[    4.237864]  [5:           init:    1] init: Starting service 'netd'...
+
+[    4.238880]  [5:           init:    1] init: Starting service 'ril-daemon'...
+[    4.239308]  [5:           init:    1] init: Service 'cpboot-daemon' (pid 3021) exited with status 127
+[    4.239321]  [5:           init:    1] init: Service 'cpboot-daemon' (pid 3021) killing any children in process group
+[    4.239416]  [5:           init:    1] init: cannot find '/system/bin/vcsFPService' (No such file or directory), disabling 'vcsFPService'
+[    4.239435]  [5:           init:    1] init: cannot find '/system/bin/fingerprintd' (No such file or directory), disabling 'fingerprintd'
+
+[    4.277800]  [5:           init:    1] init: avc:  denied  { set } for property=sys.mobicoredaemon.enable pid=3002 uid=1000 gid=1000 scontext=u:r:tee:s0 tcontext=u:object_r:system_prop:s0 tclass=property_service permissive=1
+[    4.278166]  [5:           init:    1] init: Service cs_service does not have a SELinux domain defined.
+[    4.278212]  [5:           init:    1] init: write_file: Unable to open '/proc/iccc_ready': No such file or directory
+[    4.278250]  [5:           init:    1] init: cannot find '/system/bin/tsdaemon' (No such file or directory), disabling 'tsdaemon'
+[    4.304013]  [6:        healthd: 3001] healthd: BatteryFullChargePath not found
+[    4.304027]  [6:        healthd: 3001] healthd: BatteryCycleCountPath not found
+[    4.304921]  [6:        healthd: 3001] healthd: max77854-charger: Unknown power supply type
+[    6.948627]  [3:           init:    1] init: Service 'installd' (pid 3043) killed by signal 6
+[    6.948655]  [3:           init:    1] init: Service 'installd' (pid 3043) killing any children in process group
+[    7.533184]  [5:  system_server: 3330] [SSP]: proximity_open_calibration - Can't read the cancel data
+[    9.028060]  [4:           init:    1] init: Starting service 'cpboot-daemon'...
+[    9.028640]  [4:           init:    1] init: Starting service 'installd'...
+[    9.028646]  [6:           init: 3444] init: cannot setexeccon('u:r:cbd:s0'): Invalid argument
+[    9.029034]  [4:           init:    1] init: Service 'cpboot-daemon' (pid 3444) exited with status 127
+[    9.029048]  [4:           init:    1] init: Service 'cpboot-daemon' (pid 3444) killing any children in process group
+[    9.440335]  [2:           vold: 2951] SELinux: initialized (dev mmcblk0p1, type vfat), uses genfs_contexts
+[    9.465480]  [0:         sdcard: 3575] SELinux: initialized (dev fuse, type fuse), uses genfs_contexts
+[    9.466057]  [0:         sdcard: 3575] SELinux: initialized (dev fuse, type fuse), uses genfs_contexts
+[    9.466642]  [0:         sdcard: 3575] SELinux: initialized (dev fuse, type fuse), uses genfs_contexts
+[   10.177162]  [6:WifiStateMachin: 3410] dhd_get_memdump_info: MEMDUMP ENABLED = 0
+[   10.177191]  [6:WifiStateMachin: 3410] dhd_get_assert_info: File [/data/.assert.info] doesn't exist
+[   10.177640]  [4:WifiStateMachin: 3410] dhd_sync_with_dongle: GET_REVINFO device 0x4415, vendor 0x14e4, chipnum 0xaa4c
+[   10.178033]  [7:WifiStateMachin: 3410] dhd_wl_ioctl: WLC_GET_VAR: cisdump, UNSUPPORTED
+[   10.178046]  [7:WifiStateMachin: 3410] Disable tdls_auto_op failed. -1
+[   10.182108]  [6:WifiStateMachin: 3410] [WIFI_SEC] dhd_rsdb_mode_from_file: File [/data/.rsdb.info] doesn't exist
+[   10.183488]  [6:WifiStateMachin: 3410] Firmware up: op_mode=0x0405, MAC=60:1f:e7
+[   10.183884]  [6:WifiStateMachin: 3410] [WIFI_SEC] sec_get_param_wfa_cert: File [/data/.roamoff.info] doesn't exist 
+[   10.192732]  [7:WifiStateMachin: 3410] dhd_prot_ioctl: SET PM to 2
+[   10.193359]  [7:WifiStateMachin: 3410] [WIFI_SEC] sec_control_pm: /data/.psm.info doesn't exist so set PM to 2
+[   10.194644]  [6:WifiStateMachin: 3410] [WIFI_SEC] dhd_sel_ant_from_file: File [/data/.ant.info] doesn't exist
+[   10.196008]  [6:WifiStateMachin: 3410] dhd_wl_ioctl: WLC_SET_VAR: txbf, UNSUPPORTED
+[   10.196017]  [6:WifiStateMachin: 3410] dhd_preinit_ioctls Set txbf returned (-23)
+[   10.196054]  [6:WifiStateMachin: 3410] [WIFI_SEC] sec_get_param_wfa_cert: File [/data/.frameburst.info] doesn't exist 
+[   10.197940]  [6:WifiStateMachin: 3410] dhd_wl_ioctl: WLC_SET_VAR: aibss_bcn_force_config, UNSUPPORTED
+[   10.197953]  [6:WifiStateMachin: 3410] dhd_preinit_ioctls Set aibss_bcn_force_config to 500, 5000, 5000 returned (-23)
+[   10.199092]  [6:WifiStateMachin: 3410] dhd_wl_ioctl: WLC_SET_VAR: temp_throttle_control, UNSUPPORTED
+[   10.199104]  [6:WifiStateMachin: 3410] dhd_preinit_ioctls Set temp_throttle_control to -23 failed 
+[   10.204683]  [4:WifiStateMachin: 3410] [WIFI_SEC] dhd_logtrace_from_file: LOGTRACE On/Off from file = 1
+[   10.212446]  [5:WifiStateMachin: 3410] Firmware version = wl0: Dec 13 2016 21:44:49 version 9.75.155.44 (C0 Network/rsdb) FWID 01-f28c1ec9
+[   10.212513]  [5:WifiStateMachin: 3410] [WIFI_SEC] save .wifiver.info file.
+[   10.213736]  [4:WifiStateMachin: 3410] dhd_wl_ioctl: WLC_GET_VAR: pfnlbest, ret = -14
+[   10.213748]  [4:WifiStateMachin: 3410] dhd_pno_init: Support Android Location Service
+[   10.216040]  [7:WifiStateMachin: 3410] dhd_preinit_ioctls: checking sensorhub enable 0
+[   10.216512]  [4:WifiStateMachin: 3410] dhd_wl_ioctl: WLC_GET_VAR: cisdump, UNSUPPORTED
+[   10.216566]  [4:WifiStateMachin: 3410] [WIFI_SEC] Get Mac address in .mac.info 
+[   10.220802]  [5:WifiStateMachin: 3410] [WIFI_SEC] dhd_check_module_mac: Check module mac by legacy FW : 60:1f:e7
+[   10.220824]  [5:WifiStateMachin: 3410] [WIFI_SEC] Check Mac address in .mac.info 
+[   10.220836]  [5:WifiStateMachin: 3410] dhd_bus_devreset: WLAN Power On Done
+[   10.247917] I[0:      swapper/0:    0] MACEVENT: WLC_E_IF 54, MAC 60:f1:89:8a:1f:e7, status 0, reason 0, auth 0
+[   10.247939] I[0:      swapper/0:    0] CFG80211-INFO2) wl_cfg80211_event : Event handler is not created
+[   10.281328]  [4:WifiStateMachin: 3410] wl_create_event_handler(): thread:wl_event_handler:f29 started
+[   10.281348]  [0:wl_event_handle: 3881] CFG80211-INFO2) wl_event_handler : tsk Enter, tsk = 0xffffffc8742cccb0
+[   10.282271]  [4:WifiStateMachin: 3410] CFG80211-INFO2) wl_cfg80211_up : Roam channel cache enabled
+[   10.282748]  [7:WifiStateMachin: 3410] sec_argos_register_notifier: argos_status_notifier_wifi_cb(dev_num:3)
+[   10.282760]  [7:WifiStateMachin: 3410] sec_argos_register_notifier: argos_status_notifier_p2p_cb(dev_num:2)
+[   10.282767]  [7:WifiStateMachin: 3410] dhd_tcpack_suppress_set 347: already set to 0
+[   10.283510]  [4:WifiStateMachin: 3410] CFG80211-INFO2) wl_cfg80211_netdev_notifier_call : Enter 
+[   10.286623]  [3:           init:    1] init: Starting service 'p2p_supplicant'...
+[   10.322838]  [6: wpa_supplicant: 3883] CFG80211-INFO2) wl_cfg80211_netdev_notifier_call : Enter 
+[   10.322994]  [6: wpa_supplicant: 3883] CFG80211-INFO2) wl_cfg80211_netdev_notifier_call : Enter 
+[   12.871024]  [0:           init:    1] init: cannot find '/system/bin/sem_daemon' (No such file or directory), disabling 'sem_daemon'
+[   13.008426]  [4:           init:    1] init: Service 'installd' (pid 3445) killed by signal 6
+[   13.008441]  [4:           init:    1] init: Service 'installd' (pid 3445) killing any children in process group
+[   14.009909]  [5:           init:    1] init: Starting service 'cpboot-daemon'...
+[   14.010413]  [7:           init: 4236] init: cannot setexeccon('u:r:cbd:s0'): Invalid argument
+[   14.010516]  [5:           init:    1] init: Starting service 'installd'...
+[   14.011178]  [5:           init:    1] init: Service 'cpboot-daemon' (pid 4236) exited with status 127
+[   14.011192]  [5:           init:    1] init: Service 'cpboot-daemon' (pid 4236) killing any children in process group
